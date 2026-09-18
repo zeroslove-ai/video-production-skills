@@ -24,10 +24,10 @@ from typing import Any
 
 DEFAULT_API = "http://127.0.0.1:8188"
 DEFAULT_COMFY_OUTPUT = Path(r"C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI\output")
-SOFT_RAM_BYTES = 52 * 1024**3
-HARD_RAM_BYTES = 56 * 1024**3
-SOFT_VRAM_MIB = 15565  # 15.2 GiB expressed as MiB
-HARD_VRAM_MIB = 15975  # 15.6 GiB expressed as MiB
+RAM_AVAILABLE_SOFT_BYTES = 8 * 1024**3
+RAM_AVAILABLE_HARD_BYTES = 5 * 1024**3
+RAM_HARD_CONSECUTIVE_SAMPLES = 3
+VRAM_WARNING_MIB = 15872  # 15.5 GiB expressed as MiB; warning only
 
 
 class MEMORYSTATUSEX(ctypes.Structure):
@@ -44,12 +44,46 @@ class MEMORYSTATUSEX(ctypes.Structure):
     ]
 
 
-def memory_status() -> tuple[int, int]:
+def memory_status() -> dict[str, int]:
     status = MEMORYSTATUSEX()
     status.dwLength = ctypes.sizeof(MEMORYSTATUSEX)
     if not ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(status)):
-        return 0, 0
-    return status.ullTotalPhys - status.ullAvailPhys, status.ullTotalPhys
+        return {
+            "total_bytes": 0,
+            "available_bytes": 0,
+            "used_bytes": 0,
+            "memory_load_pct": 0,
+            "pagefile_total_bytes": 0,
+            "pagefile_available_bytes": 0,
+        }
+    return {
+        "total_bytes": status.ullTotalPhys,
+        "available_bytes": status.ullAvailPhys,
+        "used_bytes": status.ullTotalPhys - status.ullAvailPhys,
+        "memory_load_pct": status.dwMemoryLoad,
+        "pagefile_total_bytes": status.ullTotalPageFile,
+        "pagefile_available_bytes": status.ullAvailPageFile,
+    }
+
+
+def process_rss_bytes(pid: int | None) -> int:
+    if not pid:
+        return 0
+    command = (
+        "$p=Get-Process -Id {0} -ErrorAction SilentlyContinue; "
+        "if($p){{[int64]$p.WorkingSet64}} else {{0}}"
+    ).format(pid)
+    try:
+        result = subprocess.run(
+            ["powershell", "-NoProfile", "-Command", command],
+            check=True,
+            capture_output=True,
+            text=True,
+            creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
+        )
+        return int(result.stdout.strip() or "0")
+    except (OSError, ValueError, subprocess.CalledProcessError):
+        return 0
 
 
 def nvidia_memory() -> tuple[int, int]:
@@ -136,6 +170,7 @@ def patch_workflow(
     length: int | None,
     steps: int | None,
     audio_off: bool,
+    output_format: str | None,
 ) -> dict[str, Any]:
     patched = json.loads(json.dumps(workflow))
     prefix = f"video-production-skills/local-gen-r0/{run_id}/result"
@@ -171,6 +206,8 @@ def patch_workflow(
         raise ValueError("No supported video output node found")
     for node in output_nodes:
         node["inputs"]["filename_prefix"] = prefix
+        if output_format and node.get("class_type") == "VHS_VideoCombine":
+            node["inputs"]["format"] = output_format
         if audio_off and node.get("class_type") == "VHS_VideoCombine":
             node["inputs"].pop("audio", None)
     return patched
@@ -191,8 +228,10 @@ def main() -> int:
     parser.add_argument("--length", type=int)
     parser.add_argument("--steps", type=int)
     parser.add_argument("--audio-off", action="store_true")
+    parser.add_argument("--output-format")
     parser.add_argument("--api", default=DEFAULT_API)
     parser.add_argument("--comfy-output", type=Path, default=DEFAULT_COMFY_OUTPUT)
+    parser.add_argument("--comfy-pid", type=int)
     parser.add_argument("--timeout-sec", type=int, default=600)
     args = parser.parse_args()
 
@@ -212,18 +251,24 @@ def main() -> int:
         "workflow_source": str(Path(args.workflow).resolve()),
         "watchdog": {
             "timeout_sec": args.timeout_sec,
-            "soft_ram_bytes": SOFT_RAM_BYTES,
-            "hard_ram_bytes": HARD_RAM_BYTES,
-            "soft_vram_mib": SOFT_VRAM_MIB,
-            "hard_vram_mib": HARD_VRAM_MIB,
+            "ram_guard": "available_physical_memory",
+            "ram_available_soft_bytes": RAM_AVAILABLE_SOFT_BYTES,
+            "ram_available_hard_bytes": RAM_AVAILABLE_HARD_BYTES,
+            "ram_hard_consecutive_samples": RAM_HARD_CONSECUTIVE_SAMPLES,
+            "vram_warning_mib": VRAM_WARNING_MIB,
+            "vram_external_hard_stop": False,
         },
         "peak_vram_mib": 0,
         "peak_ram_bytes": 0,
+        "lowest_available_ram_bytes": None,
+        "peak_comfyui_rss_bytes": 0,
         "output_path": None,
         "sha256": None,
+        "output_format": args.output_format,
     }
     soft_ram_logged = False
     soft_vram_logged = False
+    ram_hard_samples = 0
 
     def log(message: str) -> None:
         with log_path.open("a", encoding="utf-8") as handle:
@@ -243,6 +288,7 @@ def main() -> int:
             args.length,
             args.steps,
             args.audio_off,
+            args.output_format,
         )
         (run_dir / "request.json").write_text(
             json.dumps(
@@ -255,6 +301,7 @@ def main() -> int:
                     "length": args.length,
                     "steps": args.steps,
                     "audio_off": args.audio_off,
+                    "output_format": args.output_format,
                     "created_at": iso_now(),
                 },
                 indent=2,
@@ -288,7 +335,12 @@ def main() -> int:
 
     telemetry_file = telemetry_path.open("w", newline="", encoding="utf-8")
     telemetry = csv.writer(telemetry_file)
-    telemetry.writerow(["timestamp", "elapsed_sec", "vram_used_mib", "vram_total_mib", "ram_used_bytes", "ram_total_bytes", "queue_running", "queue_pending"])
+    telemetry.writerow([
+        "timestamp", "elapsed_sec", "vram_used_mib", "vram_total_mib",
+        "ram_used_bytes", "ram_available_bytes", "ram_total_bytes",
+        "memory_load_pct", "pagefile_available_bytes", "pagefile_total_bytes",
+        "comfyui_rss_bytes", "ram_hard_samples", "queue_running", "queue_pending",
+    ])
     telemetry_file.flush()
     prompt_id = None
     failure_reason = None
@@ -305,35 +357,47 @@ def main() -> int:
         while True:
             elapsed = time.monotonic() - started
             vram_used, vram_total = nvidia_memory()
-            ram_used, ram_total = memory_status()
+            ram = memory_status()
+            ram_used = ram["used_bytes"]
+            ram_available = ram["available_bytes"]
+            ram_total = ram["total_bytes"]
+            rss = process_rss_bytes(args.comfy_pid)
             metrics["peak_vram_mib"] = max(metrics["peak_vram_mib"], vram_used)
             metrics["peak_ram_bytes"] = max(metrics["peak_ram_bytes"], ram_used)
+            metrics["lowest_available_ram_bytes"] = (
+                ram_available if metrics["lowest_available_ram_bytes"] is None
+                else min(metrics["lowest_available_ram_bytes"], ram_available)
+            )
+            metrics["peak_comfyui_rss_bytes"] = max(metrics["peak_comfyui_rss_bytes"], rss)
             try:
                 queue = http_json(args.api, "GET", "/queue", timeout=5)
                 running_count = len(queue.get("queue_running", []))
                 pending_count = len(queue.get("queue_pending", []))
             except Exception:
                 running_count = pending_count = -1
-            telemetry.writerow([iso_now(), round(elapsed, 3), vram_used, vram_total, ram_used, ram_total, running_count, pending_count])
+            if ram_available < RAM_AVAILABLE_HARD_BYTES:
+                ram_hard_samples += 1
+            else:
+                ram_hard_samples = 0
+            telemetry.writerow([
+                iso_now(), round(elapsed, 3), vram_used, vram_total,
+                ram_used, ram_available, ram_total, ram["memory_load_pct"],
+                ram["pagefile_available_bytes"], ram["pagefile_total_bytes"],
+                rss, ram_hard_samples, running_count, pending_count,
+            ])
             telemetry_file.flush()
-            if vram_used >= SOFT_VRAM_MIB and not soft_vram_logged:
-                log(f"WATCHDOG WARNING: VRAM soft limit exceeded: {vram_used} MiB")
+            if vram_used >= VRAM_WARNING_MIB and not soft_vram_logged:
+                log(f"WATCHDOG WARNING: VRAM telemetry threshold reached: {vram_used} MiB; no external stop")
                 soft_vram_logged = True
-            if ram_used >= SOFT_RAM_BYTES and not soft_ram_logged:
-                log(f"WATCHDOG WARNING: RAM soft limit exceeded: {ram_used} bytes")
+            if ram_available < RAM_AVAILABLE_SOFT_BYTES and not soft_ram_logged:
+                log(f"WATCHDOG WARNING: available RAM below soft limit: {ram_available} bytes")
                 soft_ram_logged = True
-            if vram_used >= HARD_VRAM_MIB:
-                failure_reason = "OOM_VRAM"
-                error_text = f"hard VRAM limit exceeded: {vram_used} MiB"
-                log(f"WATCHDOG HARD STOP: {error_text}")
-                try:
-                    http_json(args.api, "POST", "/interrupt", {}, timeout=10)
-                except Exception as interrupt_exc:
-                    log(f"interrupt request failed: {interrupt_exc}")
-                break
-            if ram_used >= HARD_RAM_BYTES:
-                failure_reason = "OOM_RAM"
-                error_text = f"hard RAM limit exceeded: {ram_used} bytes"
+            if ram_hard_samples >= RAM_HARD_CONSECUTIVE_SAMPLES:
+                failure_reason = "WATCHDOG_LIMIT_HIT"
+                error_text = (
+                    f"available RAM below hard limit for {RAM_HARD_CONSECUTIVE_SAMPLES} consecutive samples: "
+                    f"{ram_available} bytes"
+                )
                 log(f"WATCHDOG HARD STOP: {error_text}")
                 try:
                     http_json(args.api, "POST", "/interrupt", {}, timeout=10)
@@ -389,6 +453,9 @@ def main() -> int:
         metrics["status"] = "FAIL"
         metrics["failure_reason"] = failure_reason
         metrics["error"] = error_text
+        metrics["root_cause_classification"] = (
+            "WATCHDOG_LIMIT_HIT" if failure_reason == "WATCHDOG_LIMIT_HIT" else "NOT_CONFIRMED"
+        )
         log(f"result FAIL reason={failure_reason}")
     elif metrics.get("output_path"):
         metrics["status"] = "PASS"

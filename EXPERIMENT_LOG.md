@@ -51,3 +51,20 @@
 - Skill/MCP change proposed: none until the exact smoke replay passes in a fresh memory state
 - Best prompt(s): none evaluated because Gate B failed
 - Next narrow recommendation: restart/settle the existing ComfyUI workstation state, rerun this exact smoke payload under the same watchdog, and only then resume the draft batch
+
+## 2026-09-18 — Local H3 recovery R1 and child-safe draft batch
+- Task: Recover the existing ComfyUI/H3 installation with a memory-safe watchdog, replay the known smoke, and run the eight-prompt child-safe draft batch sequentially.
+- Repo / source revision: `zeroslove-ai/video-production-skills`, `research/local-video-gen-r0`
+- Environment: Windows 10 Pro; embedded Python `3.12.10`; PyTorch `2.10.0+cu130`; RTX 4080 SUPER 16 GiB; driver `595.97`; ComfyUI `0.34.6`
+- ComfyUI startup: existing installation only, `--windows-standalone-build --fast-disk --preview-method none`; no upgrades or model changes.
+- Workflow used: copied `workflows/local_gen/h3_draft_base.json`, MiniMax H3 I2V; smoke `608x352`, `22` frames, seed `20260908`; draft `864x480`, `124` frames, 4 steps, audio off.
+- Draft batch settings: prompts P01–P08, fixed seeds `101, 202, 303, 404, 505, 606, 707, 808`, strict one-job-at-a-time execution, CPU H.264 output after the installed NVENC API mismatch was observed.
+- Safety thresholds: available-RAM soft warning `<8 GiB`; hard stop `<5 GiB` for 3 consecutive one-second samples; VRAM `>=15,872 MiB` warning only; timeout `600 s`.
+- Result: PARTIAL — smoke PASS, real draft P01 PASS, full batch `8/8` technical PASS; visual target is not met because the reused source image is a flat cartoon reference, so outputs are stable cartoon motion rather than photorealistic live-action clips.
+- Performance: smoke `14.11 s`, peak VRAM `15,560 MiB`; draft batch `58.691–65.750 s` per run, peak VRAM `14,563–15,286 MiB`, lowest available RAM `27.12–30.69 GiB`, peak ComfyUI RSS up to `16.54 GiB`.
+- Evidence: `evidence/local-gen-r0/recovery-r1-20260918.md`, `evidence/local-gen-r0/draft-batch-summary.md`, `evidence/local-gen-r0/draft-batch-summary.json`, and per-run telemetry/metrics under the existing ComfyUI output root.
+- Failure modes / friction: old used-RAM watchdog produced a false-positive stop; NVENC encode failed because driver API `13.0` was below required `13.1`; both were handled with narrow changes only. No CUDA OOM, RAM hard-stop, timeout, or queue concurrency occurred in the recovery batch.
+- Manual intervention required: restart of the existing ComfyUI process only; no unrelated process termination.
+- Reusable learning: available physical RAM is the correct primary host guard; the H3 workflow's `LoadImage(example.png)` source dominates prompt style, so prompt-only changes cannot turn that cartoon reference into live action.
+- Best prompt(s): P04 and P06 produced the most useful stage-light/background variation; P01 had the clearest simple full-body composition. This is a visual observation, not a photorealism pass.
+- Next narrow recommendation: keep the validated runner and replace only the I2V `LoadImage` source with a child-safe realistic reference image, then rerun P04 at seed `404` before any wider batch.
