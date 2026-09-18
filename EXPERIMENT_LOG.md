@@ -68,3 +68,15 @@
 - Reusable learning: available physical RAM is the correct primary host guard; the H3 workflow's `LoadImage(example.png)` source dominates prompt style, so prompt-only changes cannot turn that cartoon reference into live action.
 - Best prompt(s): P04 and P06 produced the most useful stage-light/background variation; P01 had the clearest simple full-body composition. This is a visual observation, not a photorealism pass.
 - Next narrow recommendation: keep the validated runner and replace only the I2V `LoadImage` source with a child-safe realistic reference image, then rerun P04 at seed `404` before any wider batch.
+
+## 2026-09-18 — R3 photoreal T2V gate
+- Task: Execute the R3 corrective action as one pure H3 T2V clip with the official 4-step Turbo LoRA; no batch.
+- Authority: pulled branch to `3cbac8b7e2e3d2c8d33fc6dc9f65ef322ed3a46d`; read `R3_CODEX_PHOTOREAL_T2V_BRIEF.md`, `workflows/local_gen/h3_t2v_photoreal_4step.json`, and the latest Issue #2 corrective comment.
+- Graph: no `LoadImage`, no `first_frame`, no `last_frame`; official FL2VA INT8 base, Qwen text encoder, official Comfy-Org 4-step Turbo LoRA strength `1.0`, simple scheduler, 4 steps, `res_multistep`, `864x480`, `124` frames, audio disconnected.
+- LoRA inventory: initially absent; downloaded only the official Comfy-Org file, size `1,956,192,992` bytes, SHA-256 `c396a9a06f58399e9df9754b18299818d84a2ddd371724ba48fe4a41221437dc`.
+- Result: PARTIAL — exactly one clip technically completed and passed the photoreal style gate, but the requested single girl became three similar performers, so overall visual acceptance is not clean. No second render or batch was attempted.
+- Performance: wall `47.711 s`; peak VRAM `15,130 MiB`; minimum available RAM `26.911 GiB`; peak used RAM `34.645 GiB`; peak ComfyUI RSS `16.982 GiB`.
+- Evidence: `evidence/local-gen-r0/r3-t2v-photoreal-gate-20260918.md`; per-run `metrics.json`, `request.json`, `workflow.json`, `telemetry.csv`, `run.log`, MP4, and extracted frames under the ComfyUI output root.
+- Failure mode / friction: T2V is now genuinely photorealistic, but subject identity/count is unstable and produces three performers. This is a visual quality failure, not a memory or encode failure.
+- Reusable learning: the official 4-step Turbo LoRA plus pure T2V removes the prior cartoon conditioning problem; remaining narrow issue is subject duplication in the H3 T2V result.
+- Next narrow recommendation: diagnose the three-performer artifact in the R3 prompt/graph conditioning before any second render; keep batch execution disabled.
