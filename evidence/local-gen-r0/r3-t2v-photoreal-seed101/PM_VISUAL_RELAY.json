@@ -1,0 +1,19 @@
+{
+  "run_id": "r3-t2v-photoreal-seed101-20260918",
+  "source_commit": "fcc9a45a9240e9641af547a6f7fdf7768f9e7efb",
+  "source_mp4_sha256": "75d1896ad731eadeae6a0109dbee568c22e96ae310e19c603522f8b56aae4378",
+  "relay_image": "PM_CONTACT_SHEET.jpg",
+  "relay_base64": "PM_CONTACT_SHEET.jpg.b64",
+  "relay_sha256": "650cc74062cd668ba8228b931eec6a9363bcff90b0e75061cd394d3eab4c64a3",
+  "source_frames": [
+    0,
+    61,
+    123
+  ],
+  "source_timestamps_sec": [
+    0.0,
+    2.541667,
+    5.125
+  ],
+  "new_render_performed": false
+}

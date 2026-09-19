@@ -1,0 +1,38 @@
+name: PM Visual Relay
+
+on:
+  push:
+    branches:
+      - research/local-video-gen-r0
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package-visual-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout exact commit
+        uses: actions/checkout@v4
+
+      - name: Validate PM visual evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          ROOT="evidence/local-gen-r0/r3-t2v-photoreal-seed101"
+          test -f "$ROOT/PM_CONTACT_SHEET.jpg"
+          test -f "$ROOT/PM_VISUAL_RELAY.json"
+          sha256sum "$ROOT/PM_CONTACT_SHEET.jpg"
+
+      - name: Upload PM visual relay artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pm-visual-relay-${{ github.sha }}
+          path: |
+            evidence/local-gen-r0/r3-t2v-photoreal-seed101/PM_CONTACT_SHEET.jpg
+            evidence/local-gen-r0/r3-t2v-photoreal-seed101/PM_VISUAL_RELAY.json
+            evidence/local-gen-r0/r3-t2v-photoreal-seed101/PM_CONTACT_SHEET.sha256.txt
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
