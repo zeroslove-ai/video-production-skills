@@ -1,0 +1,7 @@
+usage: run_h3_batch.py [-h] --workflow WORKFLOW --run-id RUN_ID
+                       [--prompt PROMPT] [--seed SEED] [--width WIDTH]
+                       [--height HEIGHT] [--length LENGTH] [--steps STEPS]
+                       [--audio-off] [--output-format OUTPUT_FORMAT]
+                       [--api API] [--comfy-output COMFY_OUTPUT]
+                       [--comfy-pid COMFY_PID] [--timeout-sec TIMEOUT_SEC]
+run_h3_batch.py: error: unrecognized arguments: realistic live-action video of a talented six-year-old girl dancing confidently in a clean dance practice studio with mirrors and wooden floor. She wears a cute child dance practice outfit, a colorful T-shirt, shorts layered over leggings, and comfortable sneakers. She performs a sharp but age-appropriate idol-style choreography with rhythmic steps, coordinated hand gestures, a quick turn, light bouncing footwork, and expressive smiling face. The room is well lit with bright studio lighting, the camera shows a full-body view with slight cinematic movement, and the motion feels lively, polished, and believable. Public-safe, child-safe, healthy and playful energy.

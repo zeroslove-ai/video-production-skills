@@ -1,0 +1,101 @@
+[START] Security scan
+[DONE] Security scan
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2026-09-18 19:09:05.158
+** Platform: Windows
+** Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+** Python executable: C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\python_embeded\python.exe
+** ComfyUI Path: C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI
+** ComfyUI Base Folder Path: C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI
+** User directory: C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI\user
+** ComfyUI-Manager config path: C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI\user\__manager\config.ini
+** Log path: C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI\user\comfyui.log
+[34m[ComfyUI-Easy-Use] server: [0mv1.3.7 [92mLoaded[0m
+[34m[ComfyUI-Easy-Use] web root: [0mC:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Easy-Use\web_version/v2 [92mLoaded[0m
+[38;2;246;103;68m””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””[0m
+  [1;37mPixaroma[0m v1.4.61  |  [38;2;246;103;68m66 nodes[0m Loaded
+  [0;37mComfyUI Tutorials: https://www.youtube.com/@pixaroma[0m
+  [0;37mThis is a notice, not an error. All [38;2;246;103;68mPixaroma[0;37m nodes work in both Classic and Nodes 2.0 mode.[0m
+  [0;37mIf something looks off right after switching the Node UI mode, hard-refresh the page (Ctrl+Shift+R).[0m
+[38;2;246;103;68m””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””[0m
+[34m[ComfyUI-RMBG][0m v[93m3.0.0[0m | [93m43 nodes[0m [92mLoaded[0m
+DWPose: Onnxruntime with acceleration providers detected
+FETCH ComfyRegistry Data: 5/188
+LOADED 6 FONTS
+
+
+–ˆ–ˆ–ˆ•—   –ˆ–ˆ–ˆ•— –ˆ–ˆ–ˆ–ˆ–ˆ•—  –ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—–ˆ–ˆ•—  –ˆ–ˆ•—–ˆ–ˆ•—–ˆ–ˆ–ˆ•—   –ˆ–ˆ•—–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—               
+–ˆ–ˆ–ˆ–ˆ•— –ˆ–ˆ–ˆ–ˆ•‘–ˆ–ˆ•”••–ˆ–ˆ•—–ˆ–ˆ•”•••••–ˆ–ˆ•‘  –ˆ–ˆ•‘–ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ•—  –ˆ–ˆ•‘–ˆ–ˆ•”•••••               
+–ˆ–ˆ•”–ˆ–ˆ–ˆ–ˆ•”–ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•‘–ˆ–ˆ•‘     –ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•‘–ˆ–ˆ•‘–ˆ–ˆ•”–ˆ–ˆ•— –ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ–ˆ•—                 
+–ˆ–ˆ•‘•š–ˆ–ˆ•”•–ˆ–ˆ•‘–ˆ–ˆ•”••–ˆ–ˆ•‘–ˆ–ˆ•‘     –ˆ–ˆ•”••–ˆ–ˆ•‘–ˆ–ˆ•‘–ˆ–ˆ•‘•š–ˆ–ˆ•—–ˆ–ˆ•‘–ˆ–ˆ•”•••                 
+–ˆ–ˆ•‘ •š•• –ˆ–ˆ•‘–ˆ–ˆ•‘  –ˆ–ˆ•‘•š–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—–ˆ–ˆ•‘  –ˆ–ˆ•‘–ˆ–ˆ•‘–ˆ–ˆ•‘ •š–ˆ–ˆ–ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—               
+•š••     •š•••š••  •š•• •š•••••••š••  •š•••š•••š••  •š•••••š•••••••               
+                                                                       
+–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•— –ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—–ˆ–ˆ•—     –ˆ–ˆ•—   –ˆ–ˆ•—–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—–ˆ–ˆ•— –ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•— –ˆ–ˆ–ˆ•—   –ˆ–ˆ•—–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—
+–ˆ–ˆ•”••–ˆ–ˆ•—–ˆ–ˆ•”•••••–ˆ–ˆ•‘     –ˆ–ˆ•‘   –ˆ–ˆ•‘–ˆ–ˆ•”•••••–ˆ–ˆ•‘–ˆ–ˆ•”•••–ˆ–ˆ•—–ˆ–ˆ–ˆ–ˆ•—  –ˆ–ˆ•‘–ˆ–ˆ•”•••••
+–ˆ–ˆ•‘  –ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ–ˆ•—  –ˆ–ˆ•‘     –ˆ–ˆ•‘   –ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—–ˆ–ˆ•‘–ˆ–ˆ•‘   –ˆ–ˆ•‘–ˆ–ˆ•”–ˆ–ˆ•— –ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—
+–ˆ–ˆ•‘  –ˆ–ˆ•‘–ˆ–ˆ•”•••  –ˆ–ˆ•‘     –ˆ–ˆ•‘   –ˆ–ˆ•‘•š••••–ˆ–ˆ•‘–ˆ–ˆ•‘–ˆ–ˆ•‘   –ˆ–ˆ•‘–ˆ–ˆ•‘•š–ˆ–ˆ•—–ˆ–ˆ•‘•š••••–ˆ–ˆ•‘
+–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•”•–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•—•š–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•”•–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•‘–ˆ–ˆ•‘•š–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•”•–ˆ–ˆ•‘ •š–ˆ–ˆ–ˆ–ˆ•‘–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ–ˆ•‘
+•š•••••• •š••••••••š••••••• •š•••••• •š••••••••š•• •š•••••• •š••  •š•••••š•••••••
+                                                                       
+
+
+
+[32mInitializing ControlAltAI Nodes[0m
+
+[92m[rgthree-comfy] Loaded 48 exciting nodes. Ÿ[0m
+
+[33m[rgthree-comfy] ComfyUI's new Node 2.0 rendering may be incompatible with some rgthree-comfy nodes and features, breaking some rendering as well as losing the ability to access a node's properties (a vital part of many nodes). It also appears to run MUCH more slowly spiking CPU usage and causing jankiness and unresponsiveness, especially with large workflows. Personally I am not planning to use the new Nodes 2.0 and, unfortunately, am not able to invest the time to investigate and overhaul rgthree-comfy where needed. If you have issues when Nodes 2.0 is enabled, I'd urge you to switch it off as well and join me in hoping ComfyUI is not planning to deprecate the existing, stable canvas rendering all together.
+[0m
+[34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not set in `C:\Users\JAEWAN\Downloads\ComfyUI-Easy-Install\ComfyUI-Easy-Install\ComfyUI\custom_nodes\was-ns\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+[34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+
+	[3m[93m"Success is not about being better than someone else. It's about being better than you used to be."[0m[3m - Unknown[0m
+
+FETCH ComfyRegistry Data: 10/188
+FETCH ComfyRegistry Data: 15/188
+FETCH ComfyRegistry Data: 20/188
+FETCH ComfyRegistry Data: 25/188
+FETCH ComfyRegistry Data: 30/188
+FETCH ComfyRegistry Data: 35/188
+FETCH ComfyRegistry Data: 40/188
+FETCH ComfyRegistry Data: 45/188
+FETCH ComfyRegistry Data: 50/188
+FETCH ComfyRegistry Data: 55/188
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for pix_fmt has been set to yuv420p
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for bitrate has been set to 10
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for megabit has been set to True
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for save_metadata has been set to True
+FETCH ComfyRegistry Data: 60/188
+FETCH ComfyRegistry Data: 65/188
+FETCH ComfyRegistry Data: 70/188
+FETCH ComfyRegistry Data: 75/188
+FETCH ComfyRegistry Data: 80/188
+FETCH ComfyRegistry Data: 85/188
+FETCH ComfyRegistry Data: 90/188
+FETCH ComfyRegistry Data: 95/188
+FETCH ComfyRegistry Data: 100/188
+FETCH ComfyRegistry Data: 105/188
+FETCH ComfyRegistry Data: 110/188
+FETCH ComfyRegistry Data: 115/188
+FETCH ComfyRegistry Data: 120/188
+FETCH ComfyRegistry Data: 125/188
+FETCH ComfyRegistry Data: 130/188
+FETCH ComfyRegistry Data: 135/188
+FETCH ComfyRegistry Data: 140/188
+FETCH ComfyRegistry Data: 145/188
+FETCH ComfyRegistry Data: 150/188
+FETCH ComfyRegistry Data: 155/188
+FETCH ComfyRegistry Data: 160/188
+FETCH ComfyRegistry Data: 165/188
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for pix_fmt has been set to yuv420p
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for crf has been set to 19
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for save_metadata has been set to True
+[VideoHelperSuite] - [0;33mWARNING[0m - Missing input for trim_to_audio has been set to False
+FETCH ComfyRegistry Data: 170/188
+FETCH ComfyRegistry Data: 175/188
+FETCH ComfyRegistry Data: 180/188
+FETCH ComfyRegistry Data: 185/188
+FETCH ComfyRegistry Data [DONE]
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json [DONE]
