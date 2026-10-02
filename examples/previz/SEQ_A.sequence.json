@@ -1,10 +1,10 @@
 {
-  "schema_version": "1.0.0",
-  "sequence_id": "CS01",
+  "schema_version": "1.1.0",
+  "sequence_id": "SEQ_A",
   "revision": "R1",
   "production_mode": "CHARACTER_SHORT",
   "status": "design_fixture",
-  "logline": "창가에서 돌아보고 인사한 뒤 감정을 유지한다.",
+  "logline": "Yuri가 침대에서 휴대폰 메시지를 확인하고 작게 웃은 뒤 관객과 eye contact한다.",
   "fps": {
     "numerator": 24,
     "denominator": 1
@@ -27,12 +27,13 @@
       "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
       "intake_status": "placeholder",
       "units": "meters",
-      "root_motion_policy": "locked"
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE"
     },
     {
-      "asset_id": "CLIP_A_GREETING",
+      "asset_id": "BODY_A_PHONE",
       "kind": "animation_clip",
-      "uri": "inputs/CLIP_A_GREETING.blend",
+      "uri": "inputs/BODY_A_PHONE.blend",
       "revision": "PLACEHOLDER_R1",
       "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
       "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
@@ -50,56 +51,107 @@
       }
     },
     {
-      "asset_id": "SET_WINDOW",
+      "asset_id": "SET_ROOM_BED",
       "kind": "set",
-      "uri": "inputs/SET_WINDOW.blend",
+      "uri": "inputs/SET_ROOM_BED.blend",
       "revision": "PLACEHOLDER_R1",
       "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
       "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
       "intake_status": "placeholder",
       "units": "meters",
       "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "PROP_PHONE",
+      "kind": "prop",
+      "uri": "inputs/PROP_PHONE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "FACE_A_PHONE",
+      "kind": "facial_expression_clip",
+      "uri": "inputs/FACE_A_PHONE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 288
+      }
     }
   ],
   "reference_packs": [
     {
-      "pack_id": "REF_CS01_R1",
+      "pack_id": "REF_SEQ_A_R1",
       "revision": "PLACEHOLDER_R1",
       "panel_ids": [
-        "CS01_CAMERA",
-        "CS01_LOOK"
+        "SEQ_A_CAMERA",
+        "SEQ_A_LOOK"
       ]
     }
   ],
   "shots": [
     {
-      "shot_id": "CS01_SH010",
-      "manifest_uri": "CS01_SH010.shot.json",
+      "shot_id": "SEQ_A_SH010",
+      "manifest_uri": "SEQ_A_SH010.shot.json",
       "revision": "R1",
       "timeline_start": 0,
       "source_range": {
         "start": 1,
-        "duration": 96
+        "duration": 48
       }
     },
     {
-      "shot_id": "CS01_SH020",
-      "manifest_uri": "CS01_SH020.shot.json",
+      "shot_id": "SEQ_A_SH020",
+      "manifest_uri": "SEQ_A_SH020.shot.json",
+      "revision": "R1",
+      "timeline_start": 48,
+      "source_range": {
+        "start": 49,
+        "duration": 48
+      }
+    },
+    {
+      "shot_id": "SEQ_A_SH030",
+      "manifest_uri": "SEQ_A_SH030.shot.json",
       "revision": "R1",
       "timeline_start": 96,
       "source_range": {
         "start": 97,
-        "duration": 96
+        "duration": 72
       }
     },
     {
-      "shot_id": "CS01_SH030",
-      "manifest_uri": "CS01_SH030.shot.json",
+      "shot_id": "SEQ_A_SH040",
+      "manifest_uri": "SEQ_A_SH040.shot.json",
       "revision": "R1",
-      "timeline_start": 192,
+      "timeline_start": 168,
       "source_range": {
-        "start": 193,
-        "duration": 96
+        "start": 169,
+        "duration": 72
+      }
+    },
+    {
+      "shot_id": "SEQ_A_SH050",
+      "manifest_uri": "SEQ_A_SH050.shot.json",
+      "revision": "R1",
+      "timeline_start": 240,
+      "source_range": {
+        "start": 241,
+        "duration": 48
       }
     }
   ],
@@ -109,7 +161,7 @@
     "picture_track": "V1",
     "transition_policy": "cuts_only",
     "unsupported_policy": "report_or_bake",
-    "otio_target_uri": "editorial/CS01.otio"
+    "otio_target_uri": "editorial/SEQ_A.otio"
   },
   "handoff": {
     "coordinate_system": "Blender_Z_up_camera_minus_Z_forward_plus_Y_up",
@@ -121,5 +173,6 @@
     "status": "draft",
     "reviewer": "PM_AND_ART_REVIEW_PENDING",
     "decision": "Design fixture; assets and look not approved."
-  }
+  },
+  "duration_target_frames": 288
 }

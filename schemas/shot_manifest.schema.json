@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "properties": {
     "schema_version": {
-      "const": "1.0.0"
+      "const": "1.1.0"
     },
     "shot_id": {
       "type": "string",
@@ -144,7 +144,8 @@
               "animation_clip",
               "set",
               "prop",
-              "audio"
+              "audio",
+              "facial_expression_clip"
             ]
           },
           "uri": {
@@ -322,6 +323,10 @@
               "locked",
               "authored"
             ]
+          },
+          "facial_clip_asset_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
           }
         },
         "required": [
@@ -340,7 +345,7 @@
       "properties": {
         "preset_id": {
           "type": "string",
-          "pattern": "^[A-Z][A-Z0-9_]*$"
+          "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
         },
         "preset_revision": {
           "type": "string",
@@ -444,7 +449,7 @@
       "properties": {
         "preset_id": {
           "type": "string",
-          "pattern": "^[A-Z][A-Z0-9_]*$"
+          "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
         },
         "preset_revision": {
           "type": "string",
@@ -605,7 +610,13 @@
               "pose",
               "first_frame",
               "last_frame",
-              "camera_metadata"
+              "camera_metadata",
+              "previz",
+              "preview",
+              "normal",
+              "edge",
+              "silhouette",
+              "shot_manifest"
             ]
           },
           "uniqueItems": true,
@@ -696,6 +707,625 @@
     },
     "extensions": {
       "type": "object"
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framing",
+        "subject_position",
+        "headroom_fraction",
+        "eyeline",
+        "depth_structure"
+      ],
+      "properties": {
+        "framing": {
+          "type": "string",
+          "enum": [
+            "EWS",
+            "WS",
+            "MS",
+            "MCU",
+            "CU",
+            "ECU",
+            "INSERT"
+          ]
+        },
+        "subject_position": {
+          "type": "string"
+        },
+        "headroom_fraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "eyeline": {
+          "type": "string"
+        },
+        "depth_structure": {
+          "type": "string"
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "beauty": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "clay": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "depth": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "mask": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "pose": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "first_frame": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "last_frame": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "camera_metadata": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "previz": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "preview": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "normal": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "edge": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "silhouette": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "shot_manifest": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        }
+      }
     }
   },
   "required": [
@@ -720,6 +1350,7 @@
     "continuity",
     "board",
     "export_contract",
-    "art_review"
+    "art_review",
+    "composition"
   ]
 }

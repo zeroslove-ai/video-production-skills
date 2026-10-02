@@ -7,7 +7,7 @@
   "additionalProperties": false,
   "properties": {
     "schema_version": {
-      "const": "1.0.0"
+      "const": "1.1.0"
     },
     "sequence_id": {
       "type": "string",
@@ -107,7 +107,8 @@
               "animation_clip",
               "set",
               "prop",
-              "audio"
+              "audio",
+              "facial_expression_clip"
             ]
           },
           "uri": {
@@ -371,11 +372,19 @@
               ]
             },
             "minItems": 1
+          },
+          "role": {
+            "enum": [
+              "dialogue",
+              "ambience",
+              "music"
+            ]
           }
         },
         "required": [
           "track_id",
-          "clips"
+          "clips",
+          "role"
         ]
       },
       "minItems": 0
@@ -483,6 +492,45 @@
     },
     "extensions": {
       "type": "object"
+    },
+    "duration_target_frames": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "subtitle_cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cue_id",
+          "timeline_start",
+          "duration",
+          "text",
+          "language"
+        ],
+        "properties": {
+          "cue_id": {
+            "type": "string"
+          },
+          "timeline_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "duration": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "language": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
     }
   },
   "required": [

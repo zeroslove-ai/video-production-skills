@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "status": "design_only",
+  "modes": [
+    {
+      "mode_id": "CHARACTER_SHORT",
+      "duration_seconds_range": [
+        5,
+        30
+      ],
+      "recommended_coverage": [
+        "Establish",
+        "Medium",
+        "Character Action",
+        "Close-up",
+        "Reaction",
+        "Eye contact",
+        "End pose"
+      ],
+      "camera_rules": [
+        "portrait_eye_height",
+        "slow_motivated_motion",
+        "hand_safe_medium"
+      ],
+      "editing_rules": [
+        "information_then_reaction",
+        "expression_settle_hold"
+      ],
+      "lighting_approach": [
+        "soft_beauty_key",
+        "window_morning",
+        "cozy_room"
+      ],
+      "reference_categories": [
+        "cute",
+        "romantic",
+        "comfortable",
+        "centered",
+        "thirds"
+      ]
+    },
+    {
+      "mode_id": "WEB_DRAMA",
+      "duration_seconds_range": [
+        30,
+        300
+      ],
+      "recommended_coverage": [
+        "Establishing",
+        "Master",
+        "Two Shot",
+        "A Medium",
+        "B Medium",
+        "OTS A",
+        "OTS B",
+        "A CU",
+        "B CU",
+        "Reaction",
+        "Insert",
+        "Ending"
+      ],
+      "camera_rules": [
+        "same_axis_half_space",
+        "matched_eyelines",
+        "locked_dialogue"
+      ],
+      "editing_rules": [
+        "semantic_turn",
+        "reaction_cut",
+        "J_cut",
+        "L_cut",
+        "matching_action"
+      ],
+      "lighting_approach": [
+        "cozy_room",
+        "warm_window_evening",
+        "melancholy_side_light"
+      ],
+      "reference_categories": [
+        "dialogue",
+        "romantic",
+        "melancholy",
+        "foreground_occlusion"
+      ]
+    },
+    {
+      "mode_id": "GAME_CUTSCENE",
+      "duration_seconds_range": [
+        15,
+        120
+      ],
+      "recommended_coverage": [
+        "Environment Reveal",
+        "Character Entrance",
+        "Hero Medium",
+        "Dialogue",
+        "Reaction",
+        "Action Beat",
+        "Hero CU",
+        "Gameplay Transition"
+      ],
+      "camera_rules": [
+        "destination_geography",
+        "authored_root_motion_once",
+        "explicit_return_anchor"
+      ],
+      "editing_rules": [
+        "action_event",
+        "hero_hold",
+        "matched_gameplay_handback"
+      ],
+      "lighting_approach": [
+        "hero_rim",
+        "dramatic_backlight",
+        "sunset_rim"
+      ],
+      "reference_categories": [
+        "hero",
+        "action",
+        "silhouette",
+        "environment",
+        "tracking"
+      ]
+    }
+  ]
+}

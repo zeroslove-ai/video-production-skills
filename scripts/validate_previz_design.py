@@ -55,7 +55,7 @@ def validate_sequence(seq, shots, cameras, lights, production=False):
         require(shot["source_range"] == entry["source_range"], f"{sid}: source selection mismatch")
         camera = cameras[shot["camera"]["preset_id"]]
         light = lights[shot["lighting"]["preset_id"]]
-        require(shot["camera"]["preset_revision"] == "1.0.0" and shot["lighting"]["preset_revision"] == "1.0.0", f"{sid}: preset revision")
+        require(shot["camera"]["preset_revision"] == camera["revision"] and shot["lighting"]["preset_revision"] == light["revision"], f"{sid}: preset revision")
         require(seq["production_mode"] in camera["allowed_modes"] and seq["production_mode"] in light["allowed_modes"], f"{sid}: preset mode")
         local_assets = unique_map(shot["assets"], "asset_id")
         for aid, asset in local_assets.items():
@@ -69,6 +69,7 @@ def validate_sequence(seq, shots, cameras, lights, production=False):
             require(animation["entity_id"] in placements, f"{sid}: clip entity missing")
             entity_asset = local_assets[placements[animation["entity_id"]]["asset_id"]]
             require(entity_asset["kind"] == "character", f"{sid}: clip entity is not character")
+            require(entity_asset.get("binding_id") == animation["binding_id"], f"{sid}: character binding mismatch")
             clip = local_assets[animation["clip_asset_id"]]
             require(clip["kind"] == "animation_clip", f"{sid}: invalid clip kind")
             require(clip["fps"] == seq["fps"], f"{sid}: retime needs explicit future contract")
@@ -80,6 +81,11 @@ def validate_sequence(seq, shots, cameras, lights, production=False):
             with_handles = {"start": selected["start"] - shot["handles"]["in"],
                             "duration": selected["duration"] + shot["handles"]["in"] + shot["handles"]["out"]}
             require(within(with_handles, available), f"{sid}: clip/handles outside availability")
+            if "facial_clip_asset_id" in animation:
+                face = local_assets[animation["facial_clip_asset_id"]]
+                require(face["kind"] == "facial_expression_clip", f"{sid}: invalid facial input")
+                require(face["binding_id"] == animation["binding_id"] and face["fps"] == seq["fps"], f"{sid}: incompatible facial binding/rate")
+                require(within(with_handles, face["available_range"]), f"{sid}: facial clip/handles outside availability")
         require(all(shot["source_range"]["start"] <= frame < end(shot["source_range"]) for frame in shot["board"]["panel_source_frames"]), f"{sid}: panel out of range")
         require(shot["export_contract"]["depth_near_m"] < shot["export_contract"]["depth_far_m"], f"{sid}: depth bounds reversed")
         require(shot["export_contract"]["view_transform"] == light["color"]["view_transform"], f"{sid}: look mismatch")
@@ -94,6 +100,8 @@ def validate_sequence(seq, shots, cameras, lights, production=False):
         require(start == cursor, f"{seq['sequence_id']}: overlap or undeclared gap at {cursor}")
         cursor = finish
     require(cursor == seq["duration_frames"], "Sequence duration mismatch")
+    if "duration_target_frames" in seq:
+        require(cursor == seq["duration_target_frames"], "Design duration target mismatch")
     unique_map(seq["audio_tracks"], "track_id")
     clip_ids = []
     for track in seq["audio_tracks"]:
@@ -109,6 +117,8 @@ def validate_sequence(seq, shots, cameras, lights, production=False):
     require(len(set(clip_ids)) == len(clip_ids), "Duplicate audio clip ID")
     for event in seq["handoff"]["event_markers"]:
         require(event["timeline_frame"] < cursor, "Event outside timeline")
+    for cue in seq.get("subtitle_cues", []):
+        require(cue["timeline_start"] + cue["duration"] <= cursor, "Subtitle outside timeline")
     if production:
         require(seq["status"] == "locked" and seq["art_review"]["status"] == "approved", "Sequence not approved/locked")
         require(all(a["intake_status"] == "verified" and a["sha256"] != "0" * 64 for a in assets.values()), "Placeholder assets")
@@ -125,6 +135,18 @@ def main():
         Draft202012Validator.check_schema(schema)
     cameras = unique_map(read(ROOT / "presets/camera_presets.json")["presets"], "preset_id")
     lights = unique_map(read(ROOT / "presets/lighting_presets.json")["presets"], "preset_id")
+    modes = unique_map(read(ROOT / "presets/production_modes.json")["modes"], "mode_id")
+    require(set(modes) == {"CHARACTER_SHORT", "WEB_DRAMA", "GAME_CUTSCENE"}, "Production modes incomplete")
+    for camera in cameras.values():
+        for key in ("shot_size", "lens_mm", "camera_height", "camera_pitch", "camera_yaw", "subject_position", "headroom", "DOF", "movement", "movement_speed", "intended_emotion", "recommended_lighting"):
+            require(key in camera, f"{camera['preset_id']}: missing camera metadata {key}")
+        require(camera["recommended_lighting"] in lights, "Unknown recommended lighting")
+        require(camera["allowed_lens_mm_range"][0] <= camera["lens_mm"] <= camera["allowed_lens_mm_range"][1], "Lens outside allowed range")
+        require(camera["movement"] == camera["motion"]["type"], "Motion representations differ")
+        require(camera["movement_speed"]["translation_m_per_sec"] <= camera["motion"]["translation_speed_m_per_sec_max"], "Motion speed exceeds limit")
+    for lighting in lights.values():
+        for key in ("key", "fill", "rim", "background_light", "environment", "eye_catchlight", "face_readability", "skin_toon_readability", "hair_rim", "background_separation"):
+            require(key in lighting, f"{lighting['preset_id']}: missing look component {key}")
     templates = unique_map(read(ROOT / "presets/shot_templates.json")["templates"], "template_id")
     for template in templates.values():
         require(template["camera_preset_id"] in cameras and template["lighting_preset_id"] in lights, "Unknown template preset")
@@ -133,6 +155,7 @@ def main():
     sequence_count = 0
     for path in sorted((ROOT / "examples/previz").glob("*.sequence.json")):
         seq = read(path)
+        require(seq["production_mode"] in modes, "Unknown mode")
         schema_check(seq, seq_schema, path.name)
         shots = {}
         for entry in seq["shots"]:

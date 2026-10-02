@@ -1,470 +1,730 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "proposed_not_render_validated",
   "templates": [
     {
-      "template_id": "CHARACTER_ESTABLISH",
+      "template_id": "SEQ_A_ORDINARY_ROOM_PHONE",
       "production_mode": "CHARACTER_SHORT",
-      "camera_preset_id": "MS50_LOCKED",
-      "lighting_preset_id": "SOFT_DAY",
-      "purpose": "introduce identity and gesture",
+      "camera_preset_id": "room_candid_35",
+      "lighting_preset_id": "window_morning",
+      "purpose": "ordinary_room_phone",
       "duration_frames_range": [
         48,
-        144
+        48
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "CHARACTER_EMOTION",
+      "template_id": "SEQ_A_MESSAGE_DISCOVERY",
       "production_mode": "CHARACTER_SHORT",
-      "camera_preset_id": "MCU65_PUSH",
-      "lighting_preset_id": "SOFT_DAY",
-      "purpose": "focus on emotional turn",
-      "duration_frames_range": [
-        48,
-        144
-      ],
-      "fps": {
-        "numerator": 24,
-        "denominator": 1
-      },
-      "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
-        "approved_reference_pack"
-      ],
-      "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
-        "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
-      ]
-    },
-    {
-      "template_id": "CHARACTER_HOLD",
-      "production_mode": "CHARACTER_SHORT",
-      "camera_preset_id": "CU85_LOCKED",
-      "lighting_preset_id": "SOFT_DAY",
-      "purpose": "hold readable reaction",
-      "duration_frames_range": [
-        48,
-        144
-      ],
-      "fps": {
-        "numerator": 24,
-        "denominator": 1
-      },
-      "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
-        "approved_reference_pack"
-      ],
-      "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
-        "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
-      ]
-    },
-    {
-      "template_id": "DRAMA_MASTER",
-      "production_mode": "WEB_DRAMA",
-      "camera_preset_id": "WS35_LOCKED",
-      "lighting_preset_id": "WARM_CONFESSION",
-      "purpose": "relationship geography",
-      "duration_frames_range": [
-        48,
-        144
-      ],
-      "fps": {
-        "numerator": 24,
-        "denominator": 1
-      },
-      "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
-        "approved_reference_pack"
-      ],
-      "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
-        "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
-      ]
-    },
-    {
-      "template_id": "DRAMA_OTS",
-      "production_mode": "WEB_DRAMA",
-      "camera_preset_id": "OTS65_LOCKED",
-      "lighting_preset_id": "WARM_CONFESSION",
-      "purpose": "speaker coverage",
-      "duration_frames_range": [
-        48,
-        144
-      ],
-      "fps": {
-        "numerator": 24,
-        "denominator": 1
-      },
-      "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
-        "approved_reference_pack"
-      ],
-      "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
-        "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
-      ]
-    },
-    {
-      "template_id": "DRAMA_REACTION",
-      "production_mode": "WEB_DRAMA",
-      "camera_preset_id": "MCU65_LOCKED",
-      "lighting_preset_id": "WARM_CONFESSION",
-      "purpose": "listener subtext",
-      "duration_frames_range": [
-        48,
-        144
-      ],
-      "fps": {
-        "numerator": 24,
-        "denominator": 1
-      },
-      "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
-        "approved_reference_pack"
-      ],
-      "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
-        "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
-      ]
-    },
-    {
-      "template_id": "DRAMA_INSERT",
-      "production_mode": "WEB_DRAMA",
       "camera_preset_id": "INSERT85_LOCKED",
-      "lighting_preset_id": "WARM_CONFESSION",
-      "purpose": "prop state transition",
+      "lighting_preset_id": "window_morning",
+      "purpose": "message_discovery",
       "duration_frames_range": [
         48,
-        144
+        48
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "DRAMA_CLOSE",
+      "template_id": "SEQ_A_SOFT_SMILE_REACTION",
+      "production_mode": "CHARACTER_SHORT",
+      "camera_preset_id": "cute_closeup_soft",
+      "lighting_preset_id": "window_morning",
+      "purpose": "soft_smile_reaction",
+      "duration_frames_range": [
+        72,
+        72
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_A_LOOK_TO_CAMERA",
+      "production_mode": "CHARACTER_SHORT",
+      "camera_preset_id": "romantic_push_in",
+      "lighting_preset_id": "window_morning",
+      "purpose": "look_to_camera",
+      "duration_frames_range": [
+        72,
+        72
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_A_EYE_CONTACT_END",
+      "production_mode": "CHARACTER_SHORT",
+      "camera_preset_id": "ending_hold",
+      "lighting_preset_id": "window_morning",
+      "purpose": "eye_contact_end",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_B_ESTABLISH",
       "production_mode": "WEB_DRAMA",
-      "camera_preset_id": "CU85_LOCKED",
-      "lighting_preset_id": "WARM_CONFESSION",
-      "purpose": "decision",
+      "camera_preset_id": "environment_establishing",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "establish",
       "duration_frames_range": [
         48,
-        144
+        48
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "DRAMA_RESOLVE",
+      "template_id": "SEQ_B_MASTER",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "dialogue_master",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "master",
+      "duration_frames_range": [
+        72,
+        72
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_B_TWO_SHOT",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "dialogue_master",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "two_shot",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_B_A_MEDIUM",
       "production_mode": "WEB_DRAMA",
       "camera_preset_id": "MS50_LOCKED",
-      "lighting_preset_id": "WARM_CONFESSION",
-      "purpose": "relationship resolution",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "a_medium",
       "duration_frames_range": [
-        48,
-        144
+        72,
+        72
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "GAME_GEOGRAPHY",
-      "production_mode": "GAME_CUTSCENE",
-      "camera_preset_id": "EWS24_LOCKED",
-      "lighting_preset_id": "HERO_RIM",
-      "purpose": "destination geography",
+      "template_id": "SEQ_B_B_MEDIUM",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "MS50_LOCKED",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "b_medium",
       "duration_frames_range": [
-        48,
-        144
+        72,
+        72
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "GAME_APPROACH",
-      "production_mode": "GAME_CUTSCENE",
-      "camera_preset_id": "WS35_TRACK",
-      "lighting_preset_id": "HERO_RIM",
-      "purpose": "track supplied walk",
+      "template_id": "SEQ_B_OTS_A",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "dialogue_ots_right",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "ots_a",
       "duration_frames_range": [
-        48,
-        144
+        72,
+        72
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "GAME_REVEAL",
-      "production_mode": "GAME_CUTSCENE",
-      "camera_preset_id": "MS50_ORBIT",
-      "lighting_preset_id": "HERO_RIM",
-      "purpose": "environment reveal",
+      "template_id": "SEQ_B_OTS_B",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "dialogue_ots_left",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "ots_b",
       "duration_frames_range": [
-        48,
-        144
+        72,
+        72
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "GAME_INSERT",
-      "production_mode": "GAME_CUTSCENE",
+      "template_id": "SEQ_B_A_CLOSEUP",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "reaction_closeup",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "a_closeup",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_B_B_CLOSEUP",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "reaction_closeup",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "b_closeup",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_B_LISTENER_REACTION",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "reaction_medium",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "listener_reaction",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_B_NOTE_INSERT",
+      "production_mode": "WEB_DRAMA",
       "camera_preset_id": "INSERT85_LOCKED",
-      "lighting_preset_id": "HERO_RIM",
-      "purpose": "environment cue",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "note_insert",
       "duration_frames_range": [
         48,
-        144
+        48
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "GAME_REACTION",
+      "template_id": "SEQ_B_ENDING_TWO_SHOT",
+      "production_mode": "WEB_DRAMA",
+      "camera_preset_id": "dialogue_master",
+      "lighting_preset_id": "warm_window_evening",
+      "purpose": "ending_two_shot",
+      "duration_frames_range": [
+        72,
+        72
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_C_ENVIRONMENT_REVEAL",
       "production_mode": "GAME_CUTSCENE",
-      "camera_preset_id": "CU85_LOCKED",
-      "lighting_preset_id": "HERO_RIM",
+      "camera_preset_id": "environment_establishing",
+      "lighting_preset_id": "hero_rim",
+      "purpose": "environment_reveal",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_C_ENTRANCE",
+      "production_mode": "GAME_CUTSCENE",
+      "camera_preset_id": "character_entrance",
+      "lighting_preset_id": "hero_rim",
+      "purpose": "entrance",
+      "duration_frames_range": [
+        60,
+        60
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_C_HERO_MEDIUM",
+      "production_mode": "GAME_CUTSCENE",
+      "camera_preset_id": "hero_medium",
+      "lighting_preset_id": "hero_rim",
+      "purpose": "hero_medium",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_C_DIALOGUE_WARNING",
+      "production_mode": "GAME_CUTSCENE",
+      "camera_preset_id": "dialogue_ots_right",
+      "lighting_preset_id": "hero_rim",
+      "purpose": "dialogue_warning",
+      "duration_frames_range": [
+        48,
+        48
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_C_REACTION",
+      "production_mode": "GAME_CUTSCENE",
+      "camera_preset_id": "reaction_medium",
+      "lighting_preset_id": "hero_rim",
       "purpose": "reaction",
       "duration_frames_range": [
         48,
-        144
+        48
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
-      ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
       ]
     },
     {
-      "template_id": "GAME_RETURN",
+      "template_id": "SEQ_C_ACTION_BEAT",
       "production_mode": "GAME_CUTSCENE",
-      "camera_preset_id": "WS35_LOCKED",
-      "lighting_preset_id": "HERO_RIM",
-      "purpose": "gameplay return",
+      "camera_preset_id": "action_tracking",
+      "lighting_preset_id": "hero_rim",
+      "purpose": "action_beat",
       "duration_frames_range": [
-        48,
-        144
+        72,
+        72
       ],
       "fps": {
         "numerator": 24,
         "denominator": 1
       },
       "required_inputs": [
-        "approved_character_asset",
-        "compatible_finished_clip",
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
         "approved_reference_pack"
       ],
       "gate_rules": [
-        "schema_and_semantics",
-        "structured_state",
-        "representative_frames",
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
         "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_C_HERO_CLOSEUP",
+      "production_mode": "GAME_CUTSCENE",
+      "camera_preset_id": "hero_closeup",
+      "lighting_preset_id": "hero_rim",
+      "purpose": "hero_closeup",
+      "duration_frames_range": [
+        48,
+        48
       ],
-      "forbidden_substitutions": [
-        "new_character_identity",
-        "generated_body_or_face_animation",
-        "paid_video_api"
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
+      ]
+    },
+    {
+      "template_id": "SEQ_C_GAMEPLAY_TRANSITION",
+      "production_mode": "GAME_CUTSCENE",
+      "camera_preset_id": "WS35_LOCKED",
+      "lighting_preset_id": "hero_rim",
+      "purpose": "gameplay_transition",
+      "duration_frames_range": [
+        60,
+        60
+      ],
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "required_inputs": [
+        "finished_character_asset",
+        "compatible_body_clip",
+        "compatible_facial_clip",
+        "approved_reference_pack"
+      ],
+      "gate_rules": [
+        "framing",
+        "eyeline",
+        "independent_eye_light",
+        "independent_face_readability",
+        "cut_timing",
+        "art_review"
       ]
     }
   ]

@@ -1,11 +1,16 @@
 # R1 design fixtures
 
-`CS01` CHARACTER_SHORT = 3 shots / 288 frames / 12s.
-`WD01` WEB_DRAMA = 6 shots / 720 frames / 30s, two planned audio cues.
-`GC01` GAME_CUTSCENE = 6 shots / 576 frames / 24s, last-frame return marker.
+`SEQ_A` CUTE_ROOM / CHARACTER_SHORT = 5 shots / 288 frames / 12s.
+`SEQ_B` DIALOGUE / WEB_DRAMA = 12 shots / 720 frames / 30s, planned J/L-cut audio cues.
+`SEQ_C` GAME_REVEAL / GAME_CUTSCENE = 8 shots / 432 frames / 18s, last-frame return marker.
 
 All use 24/1 fps, 1280×720, square pixels, source start 1 and edit origin 0.
-All ranges are start+duration with an exclusive end. Clip samples continue across cuts; handles are zero.
+All ranges are start+duration with an exclusive end. Compatible body/facial clip samples continue
+across cuts; handles are zero. Schema version 1.1.0 includes explicit composition, optional facial
+input, planned output references, audio roles and subtitle cues. Camera/lighting presets are 1.1.0.
+
+Output MP4 paths are planned review/control derivatives. Raw depth EXR/pose JSON and metadata
+remain authoritative per the export contract. No files at these output/asset URIs exist in this design.
 
 These are design fixtures, not produced media. Zero SHA256 values, PLACEHOLDER revisions,
 pending landmarks/anchors/joint maps and draft reviews deliberately prevent production acceptance.

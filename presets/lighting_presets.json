@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "status": "proposed_not_render_validated",
   "presets": [
     {
@@ -56,7 +56,51 @@
         "hair_rim_clipping",
         "iris_hue",
         "approved_palette"
-      ]
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
     },
     {
       "preset_id": "WARM_CONFESSION",
@@ -112,7 +156,51 @@
         "hair_rim_clipping",
         "iris_hue",
         "approved_palette"
-      ]
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
     },
     {
       "preset_id": "COOL_TENSION",
@@ -168,7 +256,51 @@
         "hair_rim_clipping",
         "iris_hue",
         "approved_palette"
-      ]
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
     },
     {
       "preset_id": "HERO_RIM",
@@ -224,7 +356,51 @@
         "hair_rim_clipping",
         "iris_hue",
         "approved_palette"
-      ]
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
     },
     {
       "preset_id": "NIGHT_NEON",
@@ -280,7 +456,1051 @@
         "hair_rim_clipping",
         "iris_hue",
         "approved_palette"
-      ]
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "soft_beauty_key",
+      "mood": "soft_beauty_key",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 20,
+        "elevation_deg": 25,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.55
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.2
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#F1DFC9",
+        "#A6B6C8"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "window_morning",
+      "mood": "window_morning",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 35,
+        "elevation_deg": 30,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.5
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.25
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#F0DDC1",
+        "#A9BED7"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "warm_window_evening",
+      "mood": "warm_window_evening",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 40,
+        "elevation_deg": 20,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.35
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.3
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#D9A267",
+        "#81758D"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "cozy_room",
+      "mood": "cozy_room",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 25,
+        "elevation_deg": 20,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.45
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.15
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#D6B493",
+        "#8B7F92"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "sunset_rim",
+      "mood": "sunset_rim",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 30,
+        "elevation_deg": 15,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.3
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.7
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#ECC491",
+        "#7B8EAF"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "night_blue",
+      "mood": "night_blue",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 35,
+        "elevation_deg": 25,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.3
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.35
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#A9B9D0",
+        "#354A70"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "neon_city",
+      "mood": "neon_city",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 30,
+        "elevation_deg": 25,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.25
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.5
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#9365BF",
+        "#63B8CF"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "dramatic_backlight",
+      "mood": "dramatic_backlight",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 45,
+        "elevation_deg": 25,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.2
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.8
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#B9BBC2",
+        "#48556E"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "hero_rim",
+      "mood": "hero_rim",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 30,
+        "elevation_deg": 30,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.3
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.7
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#718AB0",
+        "#EBC78D"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
+    },
+    {
+      "preset_id": "melancholy_side_light",
+      "mood": "melancholy_side_light",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 60,
+        "elevation_deg": 20,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.25
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.25
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#9CA6B1",
+        "#59677C"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ],
+      "revision": "1.1.0",
+      "background_light": {
+        "energy_relative": 0.2,
+        "purpose": "motivated_background_value_separation"
+      },
+      "environment": {
+        "energy_relative": 0.15,
+        "calibration": "set-dependent; do not erase face contrast"
+      },
+      "eye_catchlight": {
+        "policy": "preserve_asset",
+        "qa_independent": true,
+        "live_light_requires_capability": true
+      },
+      "face_readability": {
+        "qa_independent": true,
+        "regions": [
+          "eyes",
+          "brows",
+          "nose",
+          "mouth"
+        ],
+        "approval": "compare approved atlas"
+      },
+      "skin_toon_readability": {
+        "rules": [
+          "preserve_toon_bands",
+          "preserve_skin_hue",
+          "no_shader_rebuild"
+        ]
+      },
+      "hair_rim": {
+        "rules": [
+          "no_clipped_halo",
+          "preserve_silhouette"
+        ]
+      },
+      "background_separation": {
+        "rules": [
+          "value_or_hue_contrast",
+          "quiet_behind_eyes",
+          "depth_layers"
+        ]
+      }
     }
   ]
 }
