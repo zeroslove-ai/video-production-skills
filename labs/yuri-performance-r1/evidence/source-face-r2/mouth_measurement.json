@@ -1,0 +1,39 @@
+{
+  "camera": "Fixed orthographic mouth detail, 640x480; no image rescale",
+  "method": "largest 4-connected luminance<70 component in ROI x200..439/y150..329",
+  "scope": "Auxiliary silhouette evidence; lighting-dependent, not a phoneme classifier",
+  "cases": [
+    {
+      "case": "neutral",
+      "dark_component_pixels": 0,
+      "width_height_ratio": null
+    },
+    {
+      "case": "A_calibrated",
+      "dark_component_pixels": 1639,
+      "bbox": [
+        242,
+        242,
+        395,
+        261
+      ],
+      "width_px": 154,
+      "height_px": 20,
+      "width_height_ratio": 7.7
+    },
+    {
+      "case": "O_calibrated",
+      "dark_component_pixels": 1274,
+      "bbox": [
+        258,
+        241,
+        380,
+        261
+      ],
+      "width_px": 123,
+      "height_px": 21,
+      "width_height_ratio": 5.857142857142857
+    }
+  ],
+  "visual_verdict": "A/O semantic distinction insufficient at face framing; both horizontally open in detail. Actual-face gate remains FAIL_A_O_READABILITY."
+}

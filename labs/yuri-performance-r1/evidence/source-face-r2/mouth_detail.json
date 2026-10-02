@@ -1,0 +1,723 @@
+{
+  "source": "C:\\Users\\JAEWAN\\Downloads\\Character_Master_R2_20261002.blend",
+  "source_sha256": "5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e",
+  "provenance": "Existing user-supplied asset from this session; private research reference only; no redistribution license asserted",
+  "research_copy": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\R2_SOURCE_CALIBRATION_COPY.blend",
+  "source_actions_preserved_count": 66,
+  "body_bones": 57,
+  "original_data_edits": "NONE: no mesh/skin/rest bone/key geometry/driver edits; disposable render settings and current channel values only",
+  "render_engine": "CYCLES_CPU_4_THREADS",
+  "elapsed_seconds": 68.99555230000988,
+  "cases": [
+    {
+      "case": "neutral",
+      "native_shape_values": {},
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\neutral\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\neutral\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\neutral\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "A_calibrated",
+      "native_shape_values": {
+        "JawOpen": 0.7,
+        "MouthWide": 1.0
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0038296786477807,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\A_calibrated\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\A_calibrated\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\A_calibrated\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "O_calibrated",
+      "native_shape_values": {
+        "JawOpen": 0.7,
+        "LipPucker": 1.0
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.003797343492802456,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\O_calibrated\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\O_calibrated\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\source-face-r2\\mouth-detail\\O_calibrated\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    }
+  ],
+  "driver_mute_state": [
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_Face_SmileCheek.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_Face_SmileCheek.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_Face_JawCheek\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperLidUntangle.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperLidUntangle.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperMedialUntangle.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperMedialUntangle.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"JawOpen\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Smile.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Smile.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowRaise.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowRaise.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowKnit.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowKnit.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CheekLift.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CheekLift.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"LipPucker\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"MouthWide\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.025",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.024",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.023",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.022",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.021",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.020",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.019",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.018",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.017",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.016",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    }
+  ],
+  "A_O": "Approximate semantic jaw/wide/pucker recipes. Native dedicated A/O viseme keys absent; phonetic acceptance NOT established.",
+  "actual_face_gate": "PENDING_RENDER_REVIEW; no elaborate target acting authored yet",
+  "actual_yuri_approved_performances": 0,
+  "missing_external_images": []
+}

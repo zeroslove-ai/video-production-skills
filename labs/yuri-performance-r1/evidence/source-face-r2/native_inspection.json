@@ -1,0 +1,328 @@
+{
+  "source_sha256": "5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e",
+  "key_deltas": {
+    "JawOpen": {
+      "max_delta_m": 0.005454694798425515,
+      "weighted_centroid": [
+        0.0019833839032799006,
+        -0.07135438919067383,
+        0.8473984599113464
+      ],
+      "moved_vertices_1um": 3161,
+      "slider_min": 0.0,
+      "slider_max": 1.0
+    },
+    "MouthWide": {
+      "max_delta_m": 0.0007210931840522656,
+      "weighted_centroid": [
+        0.0019273797515779734,
+        -0.07787986844778061,
+        0.8504322171211243
+      ],
+      "moved_vertices_1um": 1711,
+      "slider_min": 0.0,
+      "slider_max": 1.0
+    },
+    "LipPucker": {
+      "max_delta_m": 0.001799772906640462,
+      "weighted_centroid": [
+        0.0019324719905853271,
+        -0.0786140039563179,
+        0.8505779504776001
+      ],
+      "moved_vertices_1um": 1755,
+      "slider_min": 0.0,
+      "slider_max": 1.0
+    },
+    "Smile.L": {
+      "max_delta_m": 0.0023864773734482885,
+      "weighted_centroid": [
+        0.010706610046327114,
+        -0.07649308443069458,
+        0.8504523634910583
+      ],
+      "moved_vertices_1um": 923,
+      "slider_min": 0.0,
+      "slider_max": 1.0
+    },
+    "Smile.R": {
+      "max_delta_m": 0.0023792973575397476,
+      "weighted_centroid": [
+        -0.0067963735200464725,
+        -0.07648959755897522,
+        0.8505007028579712
+      ],
+      "moved_vertices_1um": 925,
+      "slider_min": 0.0,
+      "slider_max": 1.0
+    },
+    "BrowRaise.L": {
+      "max_delta_m": 0.0025999180930726886,
+      "weighted_centroid": [
+        0.02253909595310688,
+        -0.07909981906414032,
+        0.8990663886070251
+      ],
+      "moved_vertices_1um": 362,
+      "slider_min": 0.0,
+      "slider_max": 1.0
+    },
+    "CheekLift.L": {
+      "max_delta_m": 0.001299461878453951,
+      "weighted_centroid": [
+        0.023439699783921242,
+        -0.07285331934690475,
+        0.8613649010658264
+      ],
+      "moved_vertices_1um": 189,
+      "slider_min": 0.0,
+      "slider_max": 1.0
+    }
+  },
+  "gaze_properties": {
+    "Face_GazeYaw": "0.0",
+    "Face_GazePitch": "0.0"
+  },
+  "geometry_nodes": [
+    {
+      "modifier": "Face true gaze before head deformation",
+      "tree": "Face_TrueGaze_Character_Body_Head",
+      "nodes": [
+        {
+          "name": "Group Input",
+          "type": "NodeGroupInput",
+          "operation": null,
+          "inputs": {}
+        },
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput",
+          "operation": null,
+          "inputs": {}
+        },
+        {
+          "name": "Position",
+          "type": "GeometryNodeInputPosition",
+          "operation": null,
+          "inputs": {}
+        },
+        {
+          "name": "Vector Rotate",
+          "type": "ShaderNodeVectorRotate",
+          "operation": null,
+          "inputs": {
+            "Vector": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Center": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Axis": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Angle": "0.0",
+            "Rotation": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+          }
+        },
+        {
+          "name": "Set Position",
+          "type": "GeometryNodeSetPosition",
+          "operation": null,
+          "inputs": {
+            "Selection": "True",
+            "Position": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Offset": "<Vector (0.0000, 0.0000, 0.0000)>"
+          }
+        },
+        {
+          "name": "Named Attribute",
+          "type": "GeometryNodeInputNamedAttribute",
+          "operation": null,
+          "inputs": {
+            "Name": "FaceIris.L"
+          }
+        },
+        {
+          "name": "Position.001",
+          "type": "GeometryNodeInputPosition",
+          "operation": null,
+          "inputs": {}
+        },
+        {
+          "name": "Vector Rotate.001",
+          "type": "ShaderNodeVectorRotate",
+          "operation": null,
+          "inputs": {
+            "Vector": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Center": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Axis": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Angle": "0.0",
+            "Rotation": "<Euler (x=0.0000, y=0.0000, z=0.0000), order='XYZ'>"
+          }
+        },
+        {
+          "name": "Set Position.001",
+          "type": "GeometryNodeSetPosition",
+          "operation": null,
+          "inputs": {
+            "Selection": "True",
+            "Position": "<bpy_float[3], NodeSocketVector.default_value>",
+            "Offset": "<Vector (0.0000, 0.0000, 0.0000)>"
+          }
+        },
+        {
+          "name": "Named Attribute.001",
+          "type": "GeometryNodeInputNamedAttribute",
+          "operation": null,
+          "inputs": {
+            "Name": "FaceIris.R"
+          }
+        },
+        {
+          "name": "Native smooth gaze clearance",
+          "type": "NodeFrame",
+          "operation": null,
+          "inputs": {}
+        },
+        {
+          "name": "Value",
+          "type": "ShaderNodeValue",
+          "operation": null,
+          "inputs": {}
+        },
+        {
+          "name": "Value.001",
+          "type": "ShaderNodeValue",
+          "operation": null,
+          "inputs": {}
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "operation": "MULTIPLY",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.001",
+          "type": "ShaderNodeMath",
+          "operation": "MAXIMUM",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.002",
+          "type": "ShaderNodeMath",
+          "operation": "MULTIPLY",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.003",
+          "type": "ShaderNodeMath",
+          "operation": "ADD",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.004",
+          "type": "ShaderNodeMath",
+          "operation": "SQRT",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.005",
+          "type": "ShaderNodeMath",
+          "operation": "SUBTRACT",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.006",
+          "type": "ShaderNodeMath",
+          "operation": "MAXIMUM",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.007",
+          "type": "ShaderNodeMath",
+          "operation": "MULTIPLY",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.008",
+          "type": "ShaderNodeMath",
+          "operation": "MULTIPLY",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.009",
+          "type": "ShaderNodeMath",
+          "operation": "ADD",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.010",
+          "type": "ShaderNodeMath",
+          "operation": "SQRT",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.011",
+          "type": "ShaderNodeMath",
+          "operation": "SUBTRACT",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.012",
+          "type": "ShaderNodeMath",
+          "operation": "MAXIMUM",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.013",
+          "type": "ShaderNodeMath",
+          "operation": "MULTIPLY",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Math.014",
+          "type": "ShaderNodeMath",
+          "operation": "ADD",
+          "inputs": {
+            "Value": "0.5"
+          }
+        },
+        {
+          "name": "Combine XYZ",
+          "type": "ShaderNodeCombineXYZ",
+          "operation": null,
+          "inputs": {
+            "X": "0.0",
+            "Y": "0.0",
+            "Z": "0.0"
+          }
+        }
+      ]
+    }
+  ],
+  "missing_external_images": [],
+  "source_unchanged": true
+}

@@ -1,0 +1,293 @@
+{
+  "contacts": [
+    {
+      "clip": "greeting_wave",
+      "camera": "full_body",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave__full_body_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\full_body\\0001.png",
+          "sha256": "306bf83236b4446948761a318335ece6a50a1185cf7cb7d4bdb19c210df251e2"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\full_body\\0025.png",
+          "sha256": "0f16fe96fe078329def1eb7753bd4a8205bf4757e802b83c8ea8a5f1652184b8"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\full_body\\0049.png",
+          "sha256": "8ffe285512aeb314b59885e7ea9c4a94bde8266e5727048d4b17620784931582"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\full_body\\0073.png",
+          "sha256": "554097a36a7beb5a3a5b175df3f7f6cd9409e1f8581cf28f135cf13b91cba1c9"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\full_body\\0097.png",
+          "sha256": "daaa5b3d5014bc99aa5fc0df1429d6323e2c6d29589c4c3729b8ecff9e123aab"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\full_body\\0121.png",
+          "sha256": "8fb4c42e77e37da87af81b05eb256fbb6dfe150e47431b306a3fd6ab02dfe817"
+        }
+      ]
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "waist_threequarter",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave__waist_threequarter_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\waist_threequarter\\0001.png",
+          "sha256": "335fa2f226302062c2c54008772dc7b84d8350af0ba481b5f2a743e7b0511c01"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\waist_threequarter\\0025.png",
+          "sha256": "9735a8bb02266562b997ffe23e3fc807a849e44591e1abc71b966961e3cfea53"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\waist_threequarter\\0049.png",
+          "sha256": "f141122613d1aef64b32883914de80ad5ae0019c21db5cb4ca36736ff5490301"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\waist_threequarter\\0073.png",
+          "sha256": "b6e0db10a4d4e45fe072fbe453d8d0fa3df68db7efa160d2ae50dc0be3162182"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\waist_threequarter\\0097.png",
+          "sha256": "998944cebacb291d0e6a809fab7a35f8d8ee22ad37ba9ce51b36c385fabdcf3a"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\waist_threequarter\\0121.png",
+          "sha256": "c2d548bd468890bd0aea4c2811130e0a022934a4b42b79e719447caa666af689"
+        }
+      ]
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave__hand_face_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\hand_face\\0001.png",
+          "sha256": "cf14f4659de779e6f10f78d2b09a5ca91e275352bcef6f6ccaab66b49ae6a976"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\hand_face\\0025.png",
+          "sha256": "4cbc6c0cf62b654ed7ba9614c1641b904aa0ed5de96389a335e4dc19bf265f6b"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\hand_face\\0049.png",
+          "sha256": "5651ad78a511f35364e411e1a71ef433212aa65052846643a8426eb49d3af535"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\hand_face\\0073.png",
+          "sha256": "2082277ed03acc7f67a4d25f7308c4407555b3dc3be42256ff59edb73ea42cb9"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\hand_face\\0097.png",
+          "sha256": "9b0a14532b36130eae544c95a7ae60a6dda5a0c2e64b22052fd8447bc2e1c9aa"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\greeting_wave\\hand_face\\0121.png",
+          "sha256": "cdb08975b0aa570817e46a17e7cb86b8e18b6321f24e191d39aa5106ef3568f9"
+        }
+      ]
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "full_body",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway__full_body_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\full_body\\0001.png",
+          "sha256": "13d913445ddb4edad18edd5b84ee77d86f85281c2ddecc298fe28ad0482c3710"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\full_body\\0025.png",
+          "sha256": "4201bac502e2b7d8689ede7bb4b12934b4b1cd82c64c186260e50457816cb279"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\full_body\\0049.png",
+          "sha256": "07b4204186158d07074f9d2866a5a65f44e35734c19715ab08c9413c77786370"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\full_body\\0073.png",
+          "sha256": "d7d0d6c4d65ebb2924adf0b228ff23c56ee43f47257998fd1b7be53bbf261dea"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\full_body\\0097.png",
+          "sha256": "5875dfdd2ee2f4f53bd33ddc43b3f8ef621b033563c314ba0432822b602ab0a7"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\full_body\\0121.png",
+          "sha256": "93ad9029977129f657a6f39779c8c7ae1bcd8d1f6fd1b4547b652e9b2ccacbff"
+        }
+      ]
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "waist_threequarter",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway__waist_threequarter_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\waist_threequarter\\0001.png",
+          "sha256": "787a43027cf16f2756aebbc4d8f41925edd84094137c6d4fceae5fb5d5bd8911"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\waist_threequarter\\0025.png",
+          "sha256": "89ac4167ec1c244d8e8a89679833d8c5aa93f05e2884e8d074bc96895f3aec8c"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\waist_threequarter\\0049.png",
+          "sha256": "d74b2035aef7e42031106102a6e4276835dd071dac645620dda9900411d6bcc5"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\waist_threequarter\\0073.png",
+          "sha256": "183b93cac703c42573ebe49a640e6ee3afd7918b69278ea6ce2e47d6e59f2852"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\waist_threequarter\\0097.png",
+          "sha256": "b869f693ba108faeba769434f23b50811f229d70b004c6843be76d7145be9848"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\waist_threequarter\\0121.png",
+          "sha256": "0cb4e404ce8ff362df948b759348d98a93845838a9e935c8879ef4d72a52cda9"
+        }
+      ]
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "hand_face",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway__hand_face_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\hand_face\\0001.png",
+          "sha256": "9b16cb5922049b8ecebfa5c96538d581bdb0f1a0f1f80df51d2cf97fda55b579"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\hand_face\\0025.png",
+          "sha256": "0b54fa2cbeb782e1be44e66e385a3a8fccc04f130e6aadda39e6812381573ed6"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\hand_face\\0049.png",
+          "sha256": "9e9084ecf42d60facea45178453c6bc0bb72b9711ea24e472c0a88c177bdfc68"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\hand_face\\0073.png",
+          "sha256": "c2d2de8c47de0d1bf0598fe6d7f262c9dca440b94026967cde4164b768624da0"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\hand_face\\0097.png",
+          "sha256": "53d1d439ed2b7243cba7e66d6e289bbaabef80a78f6c178f86fde521978a4283"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\shy_lookaway\\hand_face\\0121.png",
+          "sha256": "5baf108f8e8695731f89db4f905e5f85796c957786a8e2ca959816fe4295abe1"
+        }
+      ]
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "full_body",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt__full_body_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\full_body\\0001.png",
+          "sha256": "6dd45b14c64af98cfd7b23a8c8fc4460fb0ec76bdbc3586a646ac9b6f9271d07"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\full_body\\0025.png",
+          "sha256": "13047553665beae27f0118586bd0bb5d53a32521363f2d32566224f78c0160f4"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\full_body\\0049.png",
+          "sha256": "46233dbb3111225d53fe59a233c2cce084a6b9feee8f729c46b5faee51372810"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\full_body\\0073.png",
+          "sha256": "2d05e32254b1a785c571e8a54be14457e4665f021961f41a3fec240c637868d3"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\full_body\\0097.png",
+          "sha256": "f83a28ee3cbf1565794a9b847ef3b279455e29b1a0fc454851f2a7091139053c"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\full_body\\0121.png",
+          "sha256": "a2ac7cb6be28da7350a1041fed70cf0cdc94e300b2bb9a9bf5efe8c404dc6bb8"
+        }
+      ]
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "waist_threequarter",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt__waist_threequarter_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\waist_threequarter\\0001.png",
+          "sha256": "60b3c2ce56027db341e3daca21808a4c0a0f47d52e61e4fc102546d598c8fc00"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\waist_threequarter\\0025.png",
+          "sha256": "97e72e8d43ca31f0b3670f6da9450ea8826ee0987579110773e63403c4f1f431"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\waist_threequarter\\0049.png",
+          "sha256": "e9c00135755001aac25f2757d28920a4e1b0b728035278793cda4fa04f0e913e"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\waist_threequarter\\0073.png",
+          "sha256": "47aadea891b2f761f931849956c5c87bfd2e648c7360b18abfb74732743f6782"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\waist_threequarter\\0097.png",
+          "sha256": "40bac8b56964f4f129a1ee1bb3de2a780ffd9ddee82c624d20837b2e6a73c953"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\waist_threequarter\\0121.png",
+          "sha256": "a5570ec086dd1219b36a05c77ea3440bf8570ed0124f09a806e52a06cbfbf5eb"
+        }
+      ]
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "hand_face",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt__hand_face_contact.jpg",
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\hand_face\\0001.png",
+          "sha256": "f4939e2c204cc9bb72802b5314f501b30387922436a5a1b305c017d7b24f5068"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\hand_face\\0025.png",
+          "sha256": "9df1e9730ffabf329b6b5ec7efd8c783e2cce89471015774c5354cb9e01b6851"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\hand_face\\0049.png",
+          "sha256": "755fab91829639bda75ab6771febb23f468649e6416489930f65871bbcb39ad2"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\hand_face\\0073.png",
+          "sha256": "dcfb3052737ec295dd573ce9d4840cd9728a6ce8494a1e7b0200d03fba140370"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\hand_face\\0097.png",
+          "sha256": "564118aa46dbb9c78ff92e9d190437b6b4f95df70106785d8f7c349acdbf5f42"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\please_tilt\\hand_face\\0121.png",
+          "sha256": "4bee64aee37c47c079f524ce8969306c6f671b3557ab49051abff135d040a05c"
+        }
+      ]
+    }
+  ],
+  "classification": "PRIVATE_NATIVE_BODY_REFERENCE_FACE_NEUTRAL_NO_PRODUCT_APPROVAL"
+}

@@ -57,4 +57,10 @@ Higgsfield Cinema Studio 3.0 live schema와 5초 720p 비용만 조회: 25credit
 
 Native candidate: `C:/Users/JAEWAN/projects/yuri-motion-previs-lab-r1/labs/yuri-performance-r1/local/acting-r2/YURI_PERFORMANCE_ACTING_R2.blend`. 각 영상과 REVIEW_ACTING_R2.html도 같은 local/acting-r2 아래. 원본 바이너리/렌더는 local ignored이며 의미 레시피/스크립트/구조 evidence/소량의 original failure PNG만 Git에 기록한다.
 
-다음 bounded task: first/middle/last와 1x 영상에서 세 연기의 여섯 beat와 얼굴/손 framing을 평가한 후, 가장 약한 shy return 또는 please hold 하나만 수정한다. 첫 세 연기가 reference로 쓸 만해졌다는 증거 전에는 signature candidate를 확장하지 않는다.
+추가 checkpoint: natural 세 연기 × 다섯 camera = 15개 CPU videos를 생성했다. Head amplitude / lead A/B 네 샷은 별도로 렌더 중이다. 이 19개는 파생 reference shots이며 19개 완성 모션이 아니다. 세 연기의 여섯 beat와 first/middle/last 및 1x 품질은 별도 평가한다. Please hand acting이 약하게 읽히므로 signature를 아직 확장하지 않는다.
+
+실제 source의 neutral/blink/gaze/A/O calibration은 `SOURCE_FACE_R2_CALIBRATION_KO.md`를 따른다. A/O readability FAIL로 실제 얼굴의 고급 레시피 승격을 보류한다. Face-neutral native body timing 후보는 `NATIVE_BODY_R3_CHECKPOINT_KO.md`에 구조 검사/실패/수정/시각 PENDING을 분리했다.
+
+Wan 5B의 설치된 official template와 cached core schema를 사용해 first-frame 유무 A/B graph를 `workflows/acting-r2/`에 준비했다. Graph 준비는 model inference 성공이 아니다. Required weights 존재 확인, 제출=0. Owner GPU lease 해제 전 model `/prompt`는 호출하지 않는다.
+
+다음 bounded task: native body contact의 팔/손 실루엣과 pose continuity를 보고 가장 약한 please hand 또는 greeting raise 하나만 수정한다. 첫 세 연기가 reference로 쓸 만해졌다는 증거 전에는 signature candidate를 확장하지 않는다.

@@ -1,0 +1,65 @@
+{
+  "id": "wave_AB_first_frame",
+  "classification": "ORIGINAL_PROXY_VIDEO_CONDITIONING_RESEARCH_NOT_YURI_IDENTITY",
+  "duration_seconds": 5,
+  "acting_brief": "One original lavender-suit stylized proxy figure alone on a neutral studio floor. Notice a friend beside the lens, small anticipation, raise one open hand beside the face, two soft wrist waves, warm asymmetric smile, hold, settle the wrist, lower the hand and recover. One continuous fixed hand-and-face framing. No new subject or cut.",
+  "prompt": "Exactly one stylized lavender-suit friendly humanoid proxy, alone on a plain gray studio background. A small preparatory motion, then raises the right hand beside the face, a gentle open-palm greeting wave with warm smile, holds a short pause, softly lowers the hand and returns to rest. One continuous fixed close-medium three-quarter shot, stable face and fingers, the whole head and waving hand visible, no camera movement.",
+  "negative": "multiple people, duplicate subject, crowd, mirror person, extra limbs, fused fingers, changing face, abrupt pose reset, camera cut, zoom, text, subtitles",
+  "source_camera": "hand_face",
+  "single_variable": "presence of identical Blender first frame at Wan22ImageToVideoLatent.start_image",
+  "fixed": [
+    "seed 2026100201",
+    "same positive/negative prompt",
+    "same installed weights",
+    "512x288",
+    "121 frames",
+    "24fps",
+    "20 steps",
+    "cfg5",
+    "uni_pc/simple",
+    "model shift8"
+  ],
+  "gates": [
+    "GPU lease explicitly released by owner",
+    "no other queued model jobs",
+    "same installed model files present",
+    "RAM/VRAM watchdog",
+    "one job at a time",
+    "first/middle/last and full playback QA"
+  ],
+  "six_rubrics": [
+    "identity/subject count",
+    "face stability",
+    "hand stability",
+    "motion continuity",
+    "acting readability",
+    "camera adherence"
+  ],
+  "first_frame_reference": "local/acting-r2/greeting_wave/natural/hand_face/0001.png",
+  "driving_video": "not accepted by Wan TI2V5B core graph; previz is an acting reference only",
+  "result": "PREPARED_NOT_SUBMITTED; video quality effect cannot be measured without inference",
+  "installed_template": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\python_embeded\\Lib\\site-packages\\comfyui_workflow_templates_json\\templates\\video_wan2_2_5B_ti2v.json",
+  "installed_template_sha256": "50390798a133757075d750ab78b26274e3bf3e4a09f46aaa2f08d9559e62750b",
+  "installed_weights": [
+    {
+      "file": "wan2.2_ti2v_5B_fp16.safetensors",
+      "path": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\ComfyUI\\models\\diffusion_models\\wan2.2_ti2v_5B_fp16.safetensors",
+      "present": true,
+      "bytes": 9999658848
+    },
+    {
+      "file": "umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "path": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\ComfyUI\\models\\text_encoders\\umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "present": true,
+      "bytes": 6735906897
+    },
+    {
+      "file": "wan2.2_vae.safetensors",
+      "path": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\ComfyUI\\models\\vae\\wan2.2_vae.safetensors",
+      "present": true,
+      "bytes": 1409400960
+    }
+  ],
+  "schema_validation": "Offline required fields/enum/reference checks against sampled CPU schema; two node classes grounded in installed official template. NOT backend prompt acceptance or inference success.",
+  "higgsfield_same_brief": "CinemaStudio3.0 first image only, 5s 720p quote25 credits, no driving video role. Requires concrete reference review and explicit spend approval."
+}

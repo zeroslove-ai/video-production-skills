@@ -17,6 +17,12 @@ receipt={'run_id':'yuri-performance-r1-acting-r2-20261002','time_utc':time.strft
  'product_repos_changed':False,'main_merged':False,'laptop_work_changed':False,
  'next_bounded_task':'Review same acting scores in five cameras and head-follow/head-amplitude AB at 1x, improve weakest beat only.',
  'research_horizon':'User requested approximately 4–8 hours; active goal, not declared complete at this checkpoint.'}
+native=ROOT/'evidence/native-body-r3/build_receipt.json'
+if native.exists():
+    n=json.loads(native.read_text());q=json.loads((native.parent/'structural_qa.json').read_text())
+    receipt['native_body_reference']={'candidate':n['candidate'],'sha256':n['candidate_sha256'],'source_actions_preserved':66,'recipes':3,'face':'NEUTRAL ONLY','structural_gate':[{'clip':c['clip'],'technical':c['technical']} for c in q['clips']],'visual_gate':'CONTACT_REVIEW_IN_PROGRESS; please hand readability weak','actual_yuri_approved_performances':0}
+if (ROOT/'evidence/source-face-r2/mouth_measurement.json').exists():receipt['source_face_gate']='PARTIAL: neutral/blink/gaze response confirmed; FAIL_A_O_READABILITY; elaborate target facial recipes withheld'
+receipt['offline_video_AB_plan']=str(E/'video_AB_plan.json') if (E/'video_AB_plan.json').exists() else None
 encoded=json.dumps(receipt,indent=2,ensure_ascii=False)+'\n'
 temporary=ROOT/'LATEST_RUN.json.tmp';temporary.write_text(encoded,encoding='utf-8')
 json.loads(temporary.read_text(encoding='utf-8'));temporary.replace(ROOT/'LATEST_RUN.json')

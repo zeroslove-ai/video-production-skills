@@ -1,6 +1,6 @@
 {
   "run_id": "yuri-performance-r1-acting-r2-20261002",
-  "time_utc": "2026-10-02T09:50:43Z",
+  "time_utc": "2026-10-02T10:34:27Z",
   "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1",
   "branch": "research/yuri-performance-previs-r1-20261002",
   "source_revision": "f5752b7",
@@ -13,9 +13,9 @@
   "semantic_base_recipes": 3,
   "approved_actual_yuri_performances": 0,
   "planned_catalog_count": 48,
-  "derived_render_jobs_done": 3,
+  "derived_render_jobs_done": 18,
   "derived_render_jobs_planned": 19,
-  "encoded_derived_reference_videos": 3,
+  "encoded_derived_reference_videos": 15,
   "these_are_not_completed_yuri_motion_count": true,
   "gpu_lease": "PRODUCT_EXCLUSIVE_UNCHANGED",
   "model_video_inference_jobs": 0,
@@ -24,5 +24,30 @@
   "main_merged": false,
   "laptop_work_changed": false,
   "next_bounded_task": "Review same acting scores in five cameras and head-follow/head-amplitude AB at 1x, improve weakest beat only.",
-  "research_horizon": "User requested approximately 4–8 hours; active goal, not declared complete at this checkpoint."
+  "research_horizon": "User requested approximately 4–8 hours; active goal, not declared complete at this checkpoint.",
+  "native_body_reference": {
+    "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\R2_NATIVE_BODY_TIMING_R3.blend",
+    "sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+    "source_actions_preserved": 66,
+    "recipes": 3,
+    "face": "NEUTRAL ONLY",
+    "structural_gate": [
+      {
+        "clip": "greeting_wave",
+        "technical": "PASS"
+      },
+      {
+        "clip": "shy_lookaway",
+        "technical": "PASS"
+      },
+      {
+        "clip": "please_tilt",
+        "technical": "PASS"
+      }
+    ],
+    "visual_gate": "CONTACT_REVIEW_IN_PROGRESS; please hand readability weak",
+    "actual_yuri_approved_performances": 0
+  },
+  "source_face_gate": "PARTIAL: neutral/blink/gaze response confirmed; FAIL_A_O_READABILITY; elaborate target facial recipes withheld",
+  "offline_video_AB_plan": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\acting-r2\\video_AB_plan.json"
 }
