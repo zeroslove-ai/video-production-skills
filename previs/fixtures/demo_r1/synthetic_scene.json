@@ -1,0 +1,29 @@
+{
+  "shot_id": "demo_r1_12s",
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 288,
+  "width": 1280,
+  "height": 720,
+  "aspect_ratio": "16:9",
+  "prompt": "Cinematic previs handoff test: simple studio product turntable, soft key light, 12 second loop.",
+  "negative_prompt": "text watermark, logo, low quality",
+  "characters": [
+    {
+      "character_id": "hero_prop",
+      "action_refs": ["actions/turntable_loop.json"],
+      "keyframes": [
+        {
+          "frame": 1,
+          "location": [0.0, 0.0, 0.0],
+          "rotation_euler_xyz_rad": [0.0, 0.0, 0.0]
+        },
+        {
+          "frame": 288,
+          "location": [0.0, 0.0, 0.0],
+          "rotation_euler_xyz_rad": [0.0, 0.0, 6.283185307179586]
+        }
+      ]
+    }
+  ]
+}

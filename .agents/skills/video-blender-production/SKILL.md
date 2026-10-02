@@ -22,3 +22,5 @@ For each meaningful stage:
 Do not judge transforms, animation continuity, scale, ground contact, or object state from screenshots alone. Query state/sample frames, then use images as confirmation.
 
 Keep one writer for a live Blender scene. Recover from checkpoints rather than rebuilding from memory. Validate cheap representative renders before expensive full renders.
+
+For AI video handoff, export a shot package with `previs/blender/export_previs_package.py` (or the R1 synthetic fixture when Blender is unavailable), validate against `previs/schema/shot-manifest.schema.json`, and attach provenance hashes before leaving the Blender stage.

@@ -14,7 +14,8 @@ Gate order:
 4. visual frames/contact sheet at intended aspect ratio;
 5. audio presence/sync/levels when applicable;
 6. delivery metadata and play-through;
-7. reproducibility source/scripts and known limitations.
+7. reproducibility source/scripts and known limitations;
+8. for previs handoff, shot manifest schema validation, pass asset hashes, and provider adapter dry-run artifacts (`docs/PREVIS_VIDEO_PIPELINE_R1.md`).
 
 For Blender, do not pass solely from a screenshot. Inspect object/scene/animation/render state and sample the frames that matter.
 

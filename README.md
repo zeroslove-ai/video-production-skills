@@ -19,6 +19,9 @@ Canonical repository: `zeroslove-ai/video-production-skills`
 - `skills/video-production-director/` — 전체 영상 제작 라우팅 및 gate 관리
 - `skills/video-blender-production/` — Blender 제작 workflow
 - `skills/video-production-qa/` — 구조 상태 + visual evidence 기반 QA
+- `previs/` — Shot manifest schema, Blender export script, provider adapters (ComfyUI / external)
+- `previs_pipeline/` — Python packaging, validation, synthetic R1 demo CLI
+- `docs/PREVIS_VIDEO_PIPELINE_R1.md` — R1 previs → AI video handoff architecture and commands
 - `mcp/blender/SETUP.md` — Blender 5.1+ 공식 Lab MCP를 Codex에 연결하는 기준
 - `INSTALL.md` — Codex skill 설치/활성화 절차
 - `UPSTREAM.md` — 채택/검토할 외부 skill 및 MCP 출처
@@ -39,6 +42,14 @@ Canonical repository: `zeroslove-ai/video-production-skills`
 
 R0 source extracted from the Project OS incubator on 2026-09-16.
 
-Next gate: real Codex skill discovery + official Blender Lab MCP smoke test + first reproducible 10–15s demo.
+**R1 (previs handoff):** Shot manifest schema, synthetic ~12s demo package, ComfyUI/external dry-run adapters, and pytest validation are in-tree. See `docs/PREVIS_VIDEO_PIPELINE_R1.md`.
 
-Only after that gate passes should this stack be considered production-ready.
+| Gate | Status |
+|------|--------|
+| Codex skill discovery | NOT YET SMOKE-TESTED |
+| Blender Lab MCP E2E | NOT YET SMOKE-TESTED |
+| Live Blender `export_previs_package.py` | NOT_TESTED (script present) |
+| Live ComfyUI / paid provider generation | NOT_TESTED (dry-run only) |
+| Synthetic 10–15s handoff demo (CLI) | Available via `python -m previs_pipeline.cli demo` |
+
+Next gate: workstation Blender export PASS + ComfyUI one-shot smoke on staged package, then record in `EXPERIMENT_LOG.md`.
