@@ -1,5 +1,9 @@
 # Yuri Performance / Previs Lab R1
 
+## Desktop R&D continuation — Acting R2 (진행 중)
+
+`ACTING_R2_CHECKPOINT_KO.md`에서 이어지는 연구의 실제 제작·실패·gate를 확인한다. 기존 R1 proxy .blend를 연장해 세 연기의 독립 timing score, gaze/eyelid/brow/smile/jaw, proxy open-palm silhouette와 다섯 카메라를 작성했다. 첫 실패 프레임도 보존했다. `scripts/run_acting_r2.py`가 candidate hash를 고정하고 CPU 렌더를 순차 재개한다. 이것은 실제 Yuri face/hand acceptance나 제품 승격이 아니다. approved actual-Yuri count=0을 유지한다. GPU lease PRODUCT_EXCLUSIVE, 유료 생성 0, model video inference 0.
+
 2026-10-02. 유리룸용 연기 자산과 영상 제작을 병행 준비하는 격리 연구 작업공간.
 정본 저장소: zeroslove-ai/video-production-skills
 브랜치: research/yuri-performance-previs-r1-20261002

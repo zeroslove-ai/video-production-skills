@@ -1,0 +1,31 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "acting_first.png"
+    }
+  },
+  "2": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "upscale_method": "nearest-exact",
+      "width": 512,
+      "height": 288,
+      "crop": "disabled"
+    }
+  },
+  "3": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "2",
+        0
+      ],
+      "filename_prefix": "conditioning_nearest-exact"
+    }
+  }
+}

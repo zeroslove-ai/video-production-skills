@@ -1,0 +1,47 @@
+{
+  "videos": [
+    {
+      "clip": "greeting_wave",
+      "variant": "natural",
+      "camera": "full_body",
+      "file": "greeting_wave__natural__full_body.mp4",
+      "sha256": "675e3325c2dde9bda0e035baf6868eed92dc2989188d8e68c0dbd930372d73fe",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
+      "clip": "greeting_wave",
+      "variant": "natural",
+      "camera": "waist_threequarter",
+      "file": "greeting_wave__natural__waist_threequarter.mp4",
+      "sha256": "d333ac152fc64a0d85bd79841a885dcce93f9532b3c741dcad3d1778c5bc752f",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
+      "clip": "greeting_wave",
+      "variant": "natural",
+      "camera": "face_close",
+      "file": "greeting_wave__natural__face_close.mp4",
+      "sha256": "c03c25f952aae551443924a9fb7e9380d2c6f34dbf3c8625003f1f166167ea4d",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    }
+  ],
+  "count_is_derived_previs_not_completed_performances": true
+}

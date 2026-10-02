@@ -1,0 +1,53 @@
+{
+  "run_id": "yuri-performance-r1-20261002",
+  "time_utc": "2026-10-02T08:53:23Z",
+  "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1",
+  "latest_run_directory": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output",
+  "blender_file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\YURI_PERFORMANCE_PROXY_R1.blend",
+  "preview_video": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\greeting_wave__proxy_previs.mp4",
+  "files": [
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\greeting_wave__proxy.glb",
+      "bytes": 242728,
+      "sha256": "da882ad90c0801dc3ff38c873477d504cb963873a03813bca42ec9309bf9a335"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\greeting_wave__proxy_preview.png",
+      "bytes": 180298,
+      "sha256": "1f811df768836fd52d62251f75051cbfe83cd0f8ca3207e018b4223732674848"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\greeting_wave__proxy_previs.mp4",
+      "bytes": 55938,
+      "sha256": "af15098a570f99dcf2d9bff8bb505c442e90f874fe71e8af4849babd4633abca"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\please_tilt__proxy.glb",
+      "bytes": 243372,
+      "sha256": "17d877a79066d13793c7207372b4b2b58906a9dabdc04f99cb26e08d8ce72187"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\please_tilt__proxy_preview.png",
+      "bytes": 181081,
+      "sha256": "c8017225bb3242b897c6455aeab692dce661185b57d7e47750af2ba04c03c183"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\shy_lookaway__proxy.glb",
+      "bytes": 242008,
+      "sha256": "4812bcbb005e243fc956695a5bd99e99882b19840fee1334697bd0444194343a"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\shy_lookaway__proxy_preview.png",
+      "bytes": 180776,
+      "sha256": "1af99b4d725395e9592dbeca9726c10cc17172763b647deb4740a47bb7323471"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\YURI_PERFORMANCE_PROXY_R1.blend",
+      "bytes": 153102,
+      "sha256": "271b0fdd060810ae133e5604869976382a2df9ca0af0c863854daffd0ff75c32"
+    }
+  ],
+  "result": "LAB_PREPARATION_AND_PROXY_PIPELINE_VERIFIED",
+  "approved_actual_yuri_performances": 0,
+  "long_running_codex_worker_started": false
+}

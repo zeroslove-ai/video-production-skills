@@ -1,0 +1,24 @@
+[
+  {
+    "clip": "greeting_wave",
+    "head_exaggeration_AB": "Only one head angle amplitude changes; all face/gaze/other bones/timing identical",
+    "neutral_return": true,
+    "semantic_gaze_head_lead_frames": null,
+    "actual_target_calibration": false
+  },
+  {
+    "clip": "shy_lookaway",
+    "head_exaggeration_AB": "Only one head angle amplitude changes; all face/gaze/other bones/timing identical",
+    "neutral_return": true,
+    "semantic_gaze_head_lead_frames": 4,
+    "actual_target_calibration": false,
+    "lead_AB_caveat": "Lead modifies head, dependent neck/chest and head-follow brows; smile/gaze/blink fixed. It is a head-follow timing intervention, not eyes-only change."
+  },
+  {
+    "clip": "please_tilt",
+    "head_exaggeration_AB": "Only one head angle amplitude changes; all face/gaze/other bones/timing identical",
+    "neutral_return": true,
+    "semantic_gaze_head_lead_frames": null,
+    "actual_target_calibration": false
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "before_location": [
+    0.10000000149011612,
+    -1.649999976158142,
+    1.6699999570846558
+  ],
+  "after_location": [
+    0.10000000149011612,
+    -2.25,
+    1.6699999570846558
+  ],
+  "reason": "rendered head silhouette clipped despite bone anchors in frame",
+  "backport": "build_acting_r2.py camera_specs face_close",
+  "saved_scene": false
+}

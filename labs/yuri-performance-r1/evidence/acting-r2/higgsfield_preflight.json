@@ -1,0 +1,119 @@
+{
+  "model": {
+    "id": "cinematic_studio_3_0",
+    "name": "Cinema Studio Video 3.0",
+    "provider_name": "Higgsfield",
+    "description": "Most advanced cinema-grade model",
+    "output_type": "video",
+    "parameters": [
+      {
+        "name": "resolution",
+        "required": "optional",
+        "type": "string",
+        "description": "Output resolution (higher = more credits)",
+        "default": "720p",
+        "options": [
+          "480p",
+          "720p",
+          "1080p",
+          "4k"
+        ]
+      },
+      {
+        "name": "genre",
+        "required": "optional",
+        "type": "string",
+        "description": "Cinematic genre hint",
+        "default": "auto",
+        "options": [
+          "auto",
+          "action",
+          "horror",
+          "comedy",
+          "noir",
+          "drama",
+          "epic"
+        ]
+      },
+      {
+        "name": "generate_audio",
+        "required": "optional",
+        "type": "bool",
+        "description": "Generate audio for the video.",
+        "default": false
+      }
+    ],
+    "medias": [
+      {
+        "name": "medias",
+        "type": "image",
+        "roles": [
+          "image",
+          "start_image",
+          "end_image"
+        ]
+      }
+    ],
+    "aspect_ratios": [
+      "auto",
+      "21:9",
+      "16:9",
+      "4:3",
+      "1:1",
+      "3:4",
+      "9:16"
+    ],
+    "tags": [
+      "cinematic",
+      "premium",
+      "advanced",
+      "sota",
+      "film",
+      "best-quality"
+    ],
+    "duration_range": {
+      "min": 4,
+      "max": 15
+    },
+    "free_gens": [
+      {
+        "job_set_types": [
+          "hf_mult_motion_control",
+          "hf_mult_replace_object"
+        ],
+        "remaining": 1,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": 30
+      },
+      {
+        "job_set_types": [
+          "viral_hub_video"
+        ],
+        "remaining": 0,
+        "parameters": {
+          "resolution": [
+            "480p",
+            "720p"
+          ]
+        },
+        "max_duration": null
+      }
+    ]
+  },
+  "quote": {
+    "model": "cinematic_studio_3_0",
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "credits": 25
+  },
+  "submitted_jobs": 0,
+  "credit_or_free_quota_spent": 0,
+  "status": "READ_ONLY_SCHEMA_AND_COST; WAIT_FOR_REVIEWABLE_SHOT_AND_EXPLICIT_SPEND_APPROVAL",
+  "comparison_constraint": "Cinema Studio schema has image/start_image/end_image, no video role; do not send previz MP4 as an unsupported driving video."
+}

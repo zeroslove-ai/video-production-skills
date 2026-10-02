@@ -1,0 +1,87 @@
+{
+  "jobs": {
+    "greeting_wave__natural__full_body": {
+      "clip": "greeting_wave",
+      "camera": "full_body",
+      "variant": "natural",
+      "candidate_sha256": "0dd6ecc1335691f05c35a88439c04fcb1ed18dde1d972eedd6ec5fbe494ccc88",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_acting_r2.py",
+        "--",
+        "video",
+        "greeting_wave",
+        "full_body",
+        "natural"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 125.80327099998249,
+      "frames": 121,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\greeting_wave__natural__full_body.log"
+    },
+    "greeting_wave__natural__waist_threequarter": {
+      "clip": "greeting_wave",
+      "camera": "waist_threequarter",
+      "variant": "natural",
+      "candidate_sha256": "0dd6ecc1335691f05c35a88439c04fcb1ed18dde1d972eedd6ec5fbe494ccc88",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_acting_r2.py",
+        "--",
+        "video",
+        "greeting_wave",
+        "waist_threequarter",
+        "natural"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 146.071076799999,
+      "frames": 121,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\greeting_wave__natural__waist_threequarter.log"
+    },
+    "greeting_wave__natural__face_close": {
+      "clip": "greeting_wave",
+      "camera": "face_close",
+      "variant": "natural",
+      "candidate_sha256": "0dd6ecc1335691f05c35a88439c04fcb1ed18dde1d972eedd6ec5fbe494ccc88",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_acting_r2.py",
+        "--",
+        "video",
+        "greeting_wave",
+        "face_close",
+        "natural"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 171.18788929999573,
+      "frames": 121,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\greeting_wave__natural__face_close.log"
+    }
+  },
+  "candidate_sha256": "0dd6ecc1335691f05c35a88439c04fcb1ed18dde1d972eedd6ec5fbe494ccc88",
+  "classification": "DERIVED_PROXY_SHOTS_NOT_COMPLETED_YURI_PERFORMANCES"
+}

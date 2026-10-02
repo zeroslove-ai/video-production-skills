@@ -26,13 +26,13 @@
     "--temp-directory",
     "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\temp"
   ],
-  "time_utc": "2026-10-02T08:42:55Z",
-  "owned_pid": 84456,
+  "time_utc": "2026-10-02T09:25:09Z",
+  "owned_pid": 114680,
   "stats": {
     "system": {
       "os": "win32",
       "ram_total": 66095271936,
-      "ram_free": 35262287872,
+      "ram_free": 32428806144,
       "comfyui_version": "0.34.6",
       "required_frontend_version": "1.49.6",
       "installed_templates_version": "0.11.55",
@@ -96,9 +96,9 @@
         "type": "cpu",
         "index": null,
         "vram_total": 66095271936,
-        "vram_free": 35260014592,
+        "vram_free": 32430559232,
         "torch_vram_total": 66095271936,
-        "torch_vram_free": 35260014592
+        "torch_vram_free": 32430559232
       }
     ]
   },

@@ -1,0 +1,15 @@
+00:01.312  blend            | Read blend: "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\local\acting-r2\YURI_PERFORMANCE_ACTING_R2.blend"
+QA_METRICS greeting_wave 0.0 0.0 0.0 16.392799159954773
+Traceback (most recent call last):
+  File "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\scripts\render_acting_r2.py", line 53, in <module>
+    if mode=='qa':qa()
+                  ~~^^
+  File "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\scripts\render_acting_r2.py", line 38, in qa
+    assert root<1e-7 and feet<1e-7 and neutral<1e-6 and max_step<15, (clip,root,feet,neutral,max_step)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('greeting_wave', 0.0, 0.0, 0.0, 16.392799159954773)
+
+Error: script failed, file: 'labs/yuri-performance-r1/scripts/render_acting_r2.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

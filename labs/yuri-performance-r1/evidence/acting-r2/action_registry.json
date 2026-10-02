@@ -1,0 +1,414 @@
+{
+  "greeting_wave": {
+    "natural": [
+      [
+        "ProxyHumanoid",
+        "R2_greeting_wave_natural_BODY"
+      ],
+      [
+        "Key.001",
+        "R2_greeting_wave_natural_FACE_Key.001"
+      ],
+      [
+        "Key.003",
+        "R2_greeting_wave_natural_FACE_Key.003"
+      ],
+      [
+        "Key.004",
+        "R2_greeting_wave_natural_FACE_Key.004"
+      ],
+      [
+        "Key.007",
+        "R2_greeting_wave_natural_FACE_Key.007"
+      ],
+      [
+        "Key.010",
+        "R2_greeting_wave_natural_FACE_Key.010"
+      ],
+      [
+        "Key.006",
+        "R2_greeting_wave_natural_FACE_Key.006"
+      ],
+      [
+        "Key.009",
+        "R2_greeting_wave_natural_FACE_Key.009"
+      ],
+      [
+        "Key.005",
+        "R2_greeting_wave_natural_FACE_Key.005"
+      ],
+      [
+        "Key.008",
+        "R2_greeting_wave_natural_FACE_Key.008"
+      ],
+      [
+        "R2 pupil.L",
+        "R2_greeting_wave_natural_GAZE_R2 pupil.L"
+      ],
+      [
+        "R2 pupil.R",
+        "R2_greeting_wave_natural_GAZE_R2 pupil.R"
+      ],
+      [
+        "R2 catchlight.L",
+        "R2_greeting_wave_natural_GAZE_R2 catchlight.L"
+      ],
+      [
+        "R2 catchlight.R",
+        "R2_greeting_wave_natural_GAZE_R2 catchlight.R"
+      ]
+    ],
+    "exaggerated_head": [
+      [
+        "ProxyHumanoid",
+        "R2_greeting_wave_exaggerated_head_BODY"
+      ],
+      [
+        "Key.001",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.001"
+      ],
+      [
+        "Key.003",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.003"
+      ],
+      [
+        "Key.004",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.004"
+      ],
+      [
+        "Key.007",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.007"
+      ],
+      [
+        "Key.010",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.010"
+      ],
+      [
+        "Key.006",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.006"
+      ],
+      [
+        "Key.009",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.009"
+      ],
+      [
+        "Key.005",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.005"
+      ],
+      [
+        "Key.008",
+        "R2_greeting_wave_exaggerated_head_FACE_Key.008"
+      ],
+      [
+        "R2 pupil.L",
+        "R2_greeting_wave_exaggerated_head_GAZE_R2 pupil.L"
+      ],
+      [
+        "R2 pupil.R",
+        "R2_greeting_wave_exaggerated_head_GAZE_R2 pupil.R"
+      ],
+      [
+        "R2 catchlight.L",
+        "R2_greeting_wave_exaggerated_head_GAZE_R2 catchlight.L"
+      ],
+      [
+        "R2 catchlight.R",
+        "R2_greeting_wave_exaggerated_head_GAZE_R2 catchlight.R"
+      ]
+    ]
+  },
+  "shy_lookaway": {
+    "natural": [
+      [
+        "ProxyHumanoid",
+        "R2_shy_lookaway_natural_BODY"
+      ],
+      [
+        "Key.001",
+        "R2_shy_lookaway_natural_FACE_Key.001"
+      ],
+      [
+        "Key.003",
+        "R2_shy_lookaway_natural_FACE_Key.003"
+      ],
+      [
+        "Key.004",
+        "R2_shy_lookaway_natural_FACE_Key.004"
+      ],
+      [
+        "Key.007",
+        "R2_shy_lookaway_natural_FACE_Key.007"
+      ],
+      [
+        "Key.010",
+        "R2_shy_lookaway_natural_FACE_Key.010"
+      ],
+      [
+        "Key.006",
+        "R2_shy_lookaway_natural_FACE_Key.006"
+      ],
+      [
+        "Key.009",
+        "R2_shy_lookaway_natural_FACE_Key.009"
+      ],
+      [
+        "Key.005",
+        "R2_shy_lookaway_natural_FACE_Key.005"
+      ],
+      [
+        "Key.008",
+        "R2_shy_lookaway_natural_FACE_Key.008"
+      ],
+      [
+        "R2 pupil.L",
+        "R2_shy_lookaway_natural_GAZE_R2 pupil.L"
+      ],
+      [
+        "R2 pupil.R",
+        "R2_shy_lookaway_natural_GAZE_R2 pupil.R"
+      ],
+      [
+        "R2 catchlight.L",
+        "R2_shy_lookaway_natural_GAZE_R2 catchlight.L"
+      ],
+      [
+        "R2 catchlight.R",
+        "R2_shy_lookaway_natural_GAZE_R2 catchlight.R"
+      ]
+    ],
+    "exaggerated_head": [
+      [
+        "ProxyHumanoid",
+        "R2_shy_lookaway_exaggerated_head_BODY"
+      ],
+      [
+        "Key.001",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.001"
+      ],
+      [
+        "Key.003",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.003"
+      ],
+      [
+        "Key.004",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.004"
+      ],
+      [
+        "Key.007",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.007"
+      ],
+      [
+        "Key.010",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.010"
+      ],
+      [
+        "Key.006",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.006"
+      ],
+      [
+        "Key.009",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.009"
+      ],
+      [
+        "Key.005",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.005"
+      ],
+      [
+        "Key.008",
+        "R2_shy_lookaway_exaggerated_head_FACE_Key.008"
+      ],
+      [
+        "R2 pupil.L",
+        "R2_shy_lookaway_exaggerated_head_GAZE_R2 pupil.L"
+      ],
+      [
+        "R2 pupil.R",
+        "R2_shy_lookaway_exaggerated_head_GAZE_R2 pupil.R"
+      ],
+      [
+        "R2 catchlight.L",
+        "R2_shy_lookaway_exaggerated_head_GAZE_R2 catchlight.L"
+      ],
+      [
+        "R2 catchlight.R",
+        "R2_shy_lookaway_exaggerated_head_GAZE_R2 catchlight.R"
+      ]
+    ],
+    "simultaneous": [
+      [
+        "ProxyHumanoid",
+        "R2_shy_lookaway_simultaneous_BODY"
+      ],
+      [
+        "Key.001",
+        "R2_shy_lookaway_simultaneous_FACE_Key.001"
+      ],
+      [
+        "Key.003",
+        "R2_shy_lookaway_simultaneous_FACE_Key.003"
+      ],
+      [
+        "Key.004",
+        "R2_shy_lookaway_simultaneous_FACE_Key.004"
+      ],
+      [
+        "Key.007",
+        "R2_shy_lookaway_simultaneous_FACE_Key.007"
+      ],
+      [
+        "Key.010",
+        "R2_shy_lookaway_simultaneous_FACE_Key.010"
+      ],
+      [
+        "Key.006",
+        "R2_shy_lookaway_simultaneous_FACE_Key.006"
+      ],
+      [
+        "Key.009",
+        "R2_shy_lookaway_simultaneous_FACE_Key.009"
+      ],
+      [
+        "Key.005",
+        "R2_shy_lookaway_simultaneous_FACE_Key.005"
+      ],
+      [
+        "Key.008",
+        "R2_shy_lookaway_simultaneous_FACE_Key.008"
+      ],
+      [
+        "R2 pupil.L",
+        "R2_shy_lookaway_simultaneous_GAZE_R2 pupil.L"
+      ],
+      [
+        "R2 pupil.R",
+        "R2_shy_lookaway_simultaneous_GAZE_R2 pupil.R"
+      ],
+      [
+        "R2 catchlight.L",
+        "R2_shy_lookaway_simultaneous_GAZE_R2 catchlight.L"
+      ],
+      [
+        "R2 catchlight.R",
+        "R2_shy_lookaway_simultaneous_GAZE_R2 catchlight.R"
+      ]
+    ]
+  },
+  "please_tilt": {
+    "natural": [
+      [
+        "ProxyHumanoid",
+        "R2_please_tilt_natural_BODY"
+      ],
+      [
+        "Key.001",
+        "R2_please_tilt_natural_FACE_Key.001"
+      ],
+      [
+        "Key.003",
+        "R2_please_tilt_natural_FACE_Key.003"
+      ],
+      [
+        "Key.004",
+        "R2_please_tilt_natural_FACE_Key.004"
+      ],
+      [
+        "Key.007",
+        "R2_please_tilt_natural_FACE_Key.007"
+      ],
+      [
+        "Key.010",
+        "R2_please_tilt_natural_FACE_Key.010"
+      ],
+      [
+        "Key.006",
+        "R2_please_tilt_natural_FACE_Key.006"
+      ],
+      [
+        "Key.009",
+        "R2_please_tilt_natural_FACE_Key.009"
+      ],
+      [
+        "Key.005",
+        "R2_please_tilt_natural_FACE_Key.005"
+      ],
+      [
+        "Key.008",
+        "R2_please_tilt_natural_FACE_Key.008"
+      ],
+      [
+        "R2 pupil.L",
+        "R2_please_tilt_natural_GAZE_R2 pupil.L"
+      ],
+      [
+        "R2 pupil.R",
+        "R2_please_tilt_natural_GAZE_R2 pupil.R"
+      ],
+      [
+        "R2 catchlight.L",
+        "R2_please_tilt_natural_GAZE_R2 catchlight.L"
+      ],
+      [
+        "R2 catchlight.R",
+        "R2_please_tilt_natural_GAZE_R2 catchlight.R"
+      ]
+    ],
+    "exaggerated_head": [
+      [
+        "ProxyHumanoid",
+        "R2_please_tilt_exaggerated_head_BODY"
+      ],
+      [
+        "Key.001",
+        "R2_please_tilt_exaggerated_head_FACE_Key.001"
+      ],
+      [
+        "Key.003",
+        "R2_please_tilt_exaggerated_head_FACE_Key.003"
+      ],
+      [
+        "Key.004",
+        "R2_please_tilt_exaggerated_head_FACE_Key.004"
+      ],
+      [
+        "Key.007",
+        "R2_please_tilt_exaggerated_head_FACE_Key.007"
+      ],
+      [
+        "Key.010",
+        "R2_please_tilt_exaggerated_head_FACE_Key.010"
+      ],
+      [
+        "Key.006",
+        "R2_please_tilt_exaggerated_head_FACE_Key.006"
+      ],
+      [
+        "Key.009",
+        "R2_please_tilt_exaggerated_head_FACE_Key.009"
+      ],
+      [
+        "Key.005",
+        "R2_please_tilt_exaggerated_head_FACE_Key.005"
+      ],
+      [
+        "Key.008",
+        "R2_please_tilt_exaggerated_head_FACE_Key.008"
+      ],
+      [
+        "R2 pupil.L",
+        "R2_please_tilt_exaggerated_head_GAZE_R2 pupil.L"
+      ],
+      [
+        "R2 pupil.R",
+        "R2_please_tilt_exaggerated_head_GAZE_R2 pupil.R"
+      ],
+      [
+        "R2 catchlight.L",
+        "R2_please_tilt_exaggerated_head_GAZE_R2 catchlight.L"
+      ],
+      [
+        "R2 catchlight.R",
+        "R2_please_tilt_exaggerated_head_GAZE_R2 catchlight.R"
+      ]
+    ]
+  }
+}
