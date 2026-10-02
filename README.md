@@ -37,6 +37,12 @@ Canonical repository: `zeroslove-ai/video-production-skills`
 
 ## Status
 
+Blender 프리비즈와 ComfyUI/외부 영상 provider 연동 연구:
+[연구 보고서](research/blender-previz/REPORT.md),
+[실행 절차](research/blender-previz/RUNBOOK.md),
+[실행 증거와 한계](evidence/previz/VALIDATION.md).
+이 PoC의 로컬 렌더 검증은 기존 skillstack의 production readiness gate와 별개다.
+
 R0 source extracted from the Project OS incubator on 2026-09-16.
 
 Next gate: real Codex skill discovery + official Blender Lab MCP smoke test + first reproducible 10–15s demo.

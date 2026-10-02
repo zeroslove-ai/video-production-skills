@@ -1,0 +1,52 @@
+[
+  {
+    "model": "fal-ai/bytedance/seedance/v1.5/pro/image-to-video",
+    "fields": [
+      "aspect_ratio",
+      "duration",
+      "end_image_url",
+      "generate_audio",
+      "image_url",
+      "prompt",
+      "resolution",
+      "seed"
+    ],
+    "duration": "5",
+    "generate_audio": false,
+    "submitted": false,
+    "fixture_urls_only": false
+  },
+  {
+    "model": "bytedance/seedance-2.0/reference-to-video",
+    "fields": [
+      "aspect_ratio",
+      "duration",
+      "generate_audio",
+      "image_urls",
+      "prompt",
+      "resolution",
+      "video_urls"
+    ],
+    "duration": "5",
+    "generate_audio": false,
+    "submitted": false,
+    "fixture_urls_only": true
+  },
+  {
+    "model": "bytedance/seedance-2.5/reference-to-video",
+    "fields": [
+      "aspect_ratio",
+      "duration",
+      "generate_audio",
+      "image_urls",
+      "prompt",
+      "resolution",
+      "task",
+      "video_urls"
+    ],
+    "duration": "5",
+    "generate_audio": false,
+    "submitted": false,
+    "fixture_urls_only": true
+  }
+]
