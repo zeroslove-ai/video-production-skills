@@ -1,0 +1,42 @@
+{
+  "version": "previs_handoff_v1",
+  "description": "Minimal ComfyUI-style workflow template for manifest binding (R1 dry-run). Replace node class_types with your local graph.",
+  "meta": {
+    "template_id": "previs_handoff_v1",
+    "bound_shot": false
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "class_type": "LoadImage",
+      "title": "Beauty pass frame(s)",
+      "inputs": {
+        "image": "inputs/beauty/beauty_0001.png"
+      }
+    },
+    {
+      "id": "2",
+      "class_type": "CLIPTextEncode",
+      "title": "Prompt",
+      "inputs": {
+        "text": ""
+      }
+    },
+    {
+      "id": "3",
+      "class_type": "CLIPTextEncode",
+      "title": "Negative",
+      "inputs": {
+        "text": ""
+      }
+    },
+    {
+      "id": "4",
+      "class_type": "KSampler",
+      "title": "Seed",
+      "inputs": {
+        "seed": 0
+      }
+    }
+  ]
+}
