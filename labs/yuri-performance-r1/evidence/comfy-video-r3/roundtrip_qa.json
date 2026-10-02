@@ -1,0 +1,56 @@
+{
+  "method": "Same-time whole-clip FFmpeg SSIM plus decoded first/middle/last RGB PSNR",
+  "guard_scope": "Research re-encode fidelity only; not a video generation scoring standard",
+  "source_sha256": "3243b5dac52d0f456eae2c37610b6d122412a7b7ea5cf28512ba5dca8f773e3c",
+  "results": [
+    {
+      "argument_style": "legacy",
+      "whole_clip_ssim": 0.993819,
+      "first_middle_last": [
+        {
+          "decoded_frame": 0,
+          "rgb_mse": 4.379879951477051,
+          "psnr_db": 41.71618153817139
+        },
+        {
+          "decoded_frame": 60,
+          "rgb_mse": 4.906704425811768,
+          "psnr_db": 41.222904634953466
+        },
+        {
+          "decoded_frame": 119,
+          "rgb_mse": 4.760847568511963,
+          "psnr_db": 41.353960842902495
+        }
+      ],
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\qa_legacy.jpg",
+      "technical_order_fidelity": "PASS",
+      "visual_acceptance": "PENDING_CONTACT_REVIEW; this is re-encoding, not AI inference"
+    },
+    {
+      "argument_style": "dynamic",
+      "whole_clip_ssim": 0.993819,
+      "first_middle_last": [
+        {
+          "decoded_frame": 0,
+          "rgb_mse": 4.379879951477051,
+          "psnr_db": 41.71618153817139
+        },
+        {
+          "decoded_frame": 60,
+          "rgb_mse": 4.906704425811768,
+          "psnr_db": 41.222904634953466
+        },
+        {
+          "decoded_frame": 119,
+          "rgb_mse": 4.760847568511963,
+          "psnr_db": 41.353960842902495
+        }
+      ],
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\qa_dynamic.jpg",
+      "technical_order_fidelity": "PASS",
+      "visual_acceptance": "PENDING_CONTACT_REVIEW; this is re-encoding, not AI inference"
+    }
+  ],
+  "model_inference_jobs": 0
+}

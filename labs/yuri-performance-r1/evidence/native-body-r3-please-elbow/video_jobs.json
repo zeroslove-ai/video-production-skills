@@ -1,0 +1,57 @@
+{
+  "jobs": {
+    "please_tilt__hand_face": {
+      "clip": "please_tilt",
+      "camera": "hand_face",
+      "variant": "natural",
+      "candidate_sha256": "d5b6e2bb0f336481d495f209520abe9d118c5150a2cfa7e89aefc6ed6a94c129",
+      "returncode": 0,
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_native_body_r3.py",
+        "--",
+        "video",
+        "please_tilt",
+        "hand_face",
+        "please_elbow"
+      ],
+      "elapsed_seconds": 155.53483169997344,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt__hand_face.log"
+    },
+    "please_tilt__waist_threequarter": {
+      "clip": "please_tilt",
+      "camera": "waist_threequarter",
+      "variant": "natural",
+      "candidate_sha256": "d5b6e2bb0f336481d495f209520abe9d118c5150a2cfa7e89aefc6ed6a94c129",
+      "returncode": 0,
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_native_body_r3.py",
+        "--",
+        "video",
+        "please_tilt",
+        "waist_threequarter",
+        "please_elbow"
+      ],
+      "elapsed_seconds": 144.2347002000315,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt__waist_threequarter.log"
+    }
+  },
+  "candidate_sha256": "d5b6e2bb0f336481d495f209520abe9d118c5150a2cfa7e89aefc6ed6a94c129"
+}

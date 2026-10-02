@@ -6,8 +6,9 @@ import bpy,json,math,hashlib,sys
 from mathutils import Vector
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
 from acting_recipe import score,timing_sheet
-OUT=ROOT/'local/acting-r2';OUT.mkdir(parents=True,exist_ok=True)
-E=ROOT/'evidence/acting-r2';E.mkdir(parents=True,exist_ok=True)
+BLINK='blink_hold' in sys.argv;folder='acting-r3-blink' if BLINK else 'acting-r2'
+OUT=ROOT/('local/'+folder);OUT.mkdir(parents=True,exist_ok=True)
+E=ROOT/('evidence/'+folder);E.mkdir(parents=True,exist_ok=True)
 SOURCE=ROOT/'local/output/YURI_PERFORMANCE_PROXY_R1.blend'
 source_hash=hashlib.sha256(SOURCE.read_bytes()).hexdigest()
 bpy.ops.wm.open_mainfile(filepath=str(SOURCE));s=bpy.context.scene;r=bpy.data.objects['ProxyHumanoid']
@@ -79,7 +80,7 @@ def bake(clip,gain=1,lead=.18,suffix='natural'):
     for o in [*pupils.values(),*catchlights.values()]:action_for(o,f'R2_{clip}_{suffix}_GAZE_{o.name}')
     samples=[]
     for frame in range(1,122):
-        t=(frame-1)/24;v=score(clip,t,gain,lead)
+        t=(frame-1)/24;v=score(clip,t,gain,lead,blink_profile='r3_hold' if BLINK else 'r2_triangular')
         # Avoid action evaluation overwriting intended values while baking.
         for owner,a in bindings:owner.animation_data.action=None
         for b in r.pose.bones:
@@ -113,7 +114,7 @@ for clip in clips:
     registry[clip]={}
     for mode,gain in [('natural',1),('exaggerated_head',1.45)]:
         registry[clip][mode]=bake(clip,gain,suffix=mode)
-    (E/(clip+'_timing.json')).write_text(json.dumps(timing_sheet(clip),indent=2))
+    (E/(clip+'_timing.json')).write_text(json.dumps(timing_sheet(clip,blink_profile='r3_hold' if BLINK else 'r2_triangular'),indent=2))
 registry['shy_lookaway']['simultaneous']=bake('shy_lookaway',lead=0,suffix='simultaneous')
 
 def bind(clip,mode='natural'):
@@ -140,7 +141,7 @@ s.frame_start=1;s.frame_end=121;bind('greeting_wave');s.camera=bpy.data.objects[
 s['asset_status']='ORIGINAL_R1_PROXY_EXTENDED_FOR_SEMANTIC_TIMING; NOT_ACTUAL_YURI'
 s['research_gpu']='NO_GPU_RENDER_OR_INFERENCE'
 assert original_bones==[b.name for b in r.data.bones]
-path=OUT/'YURI_PERFORMANCE_ACTING_R2.blend';bpy.ops.wm.save_as_mainfile(filepath=str(path))
+path=OUT/('YURI_PERFORMANCE_ACTING_R3_BLINK.blend' if BLINK else 'YURI_PERFORMANCE_ACTING_R2.blend');bpy.ops.wm.save_as_mainfile(filepath=str(path))
 (E/'action_registry.json').write_text(json.dumps(registry,indent=2))
 (E/'camera_metadata.json').write_text(json.dumps(cameras,indent=2))
 (E/'build_receipt.json').write_text(json.dumps({'source':str(SOURCE),'source_sha256':source_hash,'candidate':str(path),'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'body_bones_preserved':len(original_bones),'physical_recipes':3,'derived_animation_variants_not_new_clips':4,'actual_yuri_approved':0,'face_gate':'PROXY_ONLY; ACTUAL_TARGET_PENDING','gpu_render_inference':0},indent=2))

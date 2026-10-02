@@ -1,0 +1,439 @@
+{
+  "videos": [
+    {
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comparison-r3\\greeting_wave__five_cameras.mp4",
+      "sha256": "563e4f1aabd058e0cafdfec8a11073324edf1846b70b0f45380b6762013ecd60",
+      "inputs": [
+        {
+          "clip": "greeting_wave",
+          "variant": "natural",
+          "camera": "full_body",
+          "file": "greeting_wave__natural__full_body.mp4",
+          "sha256": "675e3325c2dde9bda0e035baf6868eed92dc2989188d8e68c0dbd930372d73fe",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "greeting_wave",
+          "variant": "natural",
+          "camera": "waist_threequarter",
+          "file": "greeting_wave__natural__waist_threequarter.mp4",
+          "sha256": "d333ac152fc64a0d85bd79841a885dcce93f9532b3c741dcad3d1778c5bc752f",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "greeting_wave",
+          "variant": "natural",
+          "camera": "face_close",
+          "file": "greeting_wave__natural__face_close.mp4",
+          "sha256": "c03c25f952aae551443924a9fb7e9380d2c6f34dbf3c8625003f1f166167ea4d",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "greeting_wave",
+          "variant": "natural",
+          "camera": "hand_face",
+          "file": "greeting_wave__natural__hand_face.mp4",
+          "sha256": "3243b5dac52d0f456eae2c37610b6d122412a7b7ea5cf28512ba5dca8f773e3c",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "greeting_wave",
+          "variant": "natural",
+          "camera": "vertical",
+          "file": "greeting_wave__natural__vertical.mp4",
+          "sha256": "8a578bbd2208df030882d9fcebd53d4c84a03db140ab5d99316389750a26379e",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 360,
+          "height": 640,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        }
+      ],
+      "fps": 24,
+      "duration_seconds": 5,
+      "frame_count": 120,
+      "first_middle_last_frames": [
+        1,
+        61,
+        120
+      ],
+      "classification": "EDITED_EXISTING_BLENDER_PROXY_REFERENCE_NOT_AI_GENERATION",
+      "camera_variable": "same acting score; camera only"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comparison-r3\\shy_lookaway__five_cameras.mp4",
+      "sha256": "1d4eaf3b30623966dd4435aaa9f31483efd7c7ce4ee153c681ad76ea7a4bdef9",
+      "inputs": [
+        {
+          "clip": "shy_lookaway",
+          "variant": "natural",
+          "camera": "full_body",
+          "file": "shy_lookaway__natural__full_body.mp4",
+          "sha256": "3c48c3b54e8629e3d27f1f0127a5de7d6a2b1683df24c7eeefb4870f3480a784",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "shy_lookaway",
+          "variant": "natural",
+          "camera": "waist_threequarter",
+          "file": "shy_lookaway__natural__waist_threequarter.mp4",
+          "sha256": "cadc897d69aae5dd8953082e0c39ac7a6f17dcc8f7ca1b8f79f91ea5267363f9",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "shy_lookaway",
+          "variant": "natural",
+          "camera": "face_close",
+          "file": "shy_lookaway__natural__face_close.mp4",
+          "sha256": "4d01fe303cdac69dc6f79dbc2afd3ce661977b5955c6bff1b06fff7a481e8681",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "shy_lookaway",
+          "variant": "natural",
+          "camera": "hand_face",
+          "file": "shy_lookaway__natural__hand_face.mp4",
+          "sha256": "decbb65602b6830c461afa4cf8114ed81de117b3107ecbf4204d001fcfd9ab0a",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "shy_lookaway",
+          "variant": "natural",
+          "camera": "vertical",
+          "file": "shy_lookaway__natural__vertical.mp4",
+          "sha256": "c7d1d1f778fd7a47c264706900f9e3430881a8415ce2a8b27358a95240201def",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 360,
+          "height": 640,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        }
+      ],
+      "fps": 24,
+      "duration_seconds": 5,
+      "frame_count": 120,
+      "first_middle_last_frames": [
+        1,
+        61,
+        120
+      ],
+      "classification": "EDITED_EXISTING_BLENDER_PROXY_REFERENCE_NOT_AI_GENERATION",
+      "camera_variable": "same acting score; camera only"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comparison-r3\\please_tilt__five_cameras.mp4",
+      "sha256": "096e83da12ada7aa1423bcaf43678a8e7c431ea3f334c47ccee15a20e4c00fd3",
+      "inputs": [
+        {
+          "clip": "please_tilt",
+          "variant": "natural",
+          "camera": "full_body",
+          "file": "please_tilt__natural__full_body.mp4",
+          "sha256": "4b0155627eada166caeaa6d9d638fe606c9897e93ee83722216d71887b9fc80b",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "please_tilt",
+          "variant": "natural",
+          "camera": "waist_threequarter",
+          "file": "please_tilt__natural__waist_threequarter.mp4",
+          "sha256": "5057852b376fef86f35f3aaadf9dbabf7bc3156c7d9722cfb80f6cd7b7f29145",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "please_tilt",
+          "variant": "natural",
+          "camera": "face_close",
+          "file": "please_tilt__natural__face_close.mp4",
+          "sha256": "94e3b8354ff2a33adba1c68a19719a3dd3b943f7c08a9b847b8d87786edd7d87",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "please_tilt",
+          "variant": "natural",
+          "camera": "hand_face",
+          "file": "please_tilt__natural__hand_face.mp4",
+          "sha256": "a9d7ce6faf485939c477ec0735aa2130e9bf0870fa875fb2360dacef8c8532bc",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "please_tilt",
+          "variant": "natural",
+          "camera": "vertical",
+          "file": "please_tilt__natural__vertical.mp4",
+          "sha256": "0be2afaeae3a433f1549a37fe54760bca4e4f62e56bae1823b9047c93da8830a",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 360,
+          "height": 640,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        }
+      ],
+      "fps": 24,
+      "duration_seconds": 5,
+      "frame_count": 120,
+      "first_middle_last_frames": [
+        1,
+        61,
+        120
+      ],
+      "classification": "EDITED_EXISTING_BLENDER_PROXY_REFERENCE_NOT_AI_GENERATION",
+      "camera_variable": "same acting score; camera only"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comparison-r3\\greeting_wave__head_amplitude.mp4",
+      "sha256": "4ef1bfb0cf774f87015db84673d12ba9952d268a06985040e1308bd5aa50b190",
+      "inputs": [
+        {
+          "clip": "greeting_wave",
+          "variant": "natural",
+          "camera": "face_close",
+          "file": "greeting_wave__natural__face_close.mp4",
+          "sha256": "c03c25f952aae551443924a9fb7e9380d2c6f34dbf3c8625003f1f166167ea4d",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "greeting_wave",
+          "variant": "exaggerated_head",
+          "camera": "face_close",
+          "file": "greeting_wave__exaggerated_head__face_close.mp4",
+          "sha256": "e10e9a58f2fa18164e7eb1a7894582ba408e1446f534376e847aa14b2ed5840f",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        }
+      ],
+      "fps": 24,
+      "duration_seconds": 5,
+      "frame_count": 120,
+      "first_middle_last_frames": [
+        1,
+        61,
+        120
+      ],
+      "classification": "EDITED_EXISTING_BLENDER_PROXY_REFERENCE_NOT_AI_GENERATION",
+      "camera_variable": "see original AB invariants; eye-lead head-follow also drives neck/chest/brow"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comparison-r3\\shy_lookaway__head_amplitude.mp4",
+      "sha256": "5de4618691c3c8442589ad5bc2ff51dbdb329216c3c4e9867de3e93e218fcaec",
+      "inputs": [
+        {
+          "clip": "shy_lookaway",
+          "variant": "natural",
+          "camera": "face_close",
+          "file": "shy_lookaway__natural__face_close.mp4",
+          "sha256": "4d01fe303cdac69dc6f79dbc2afd3ce661977b5955c6bff1b06fff7a481e8681",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "shy_lookaway",
+          "variant": "exaggerated_head",
+          "camera": "face_close",
+          "file": "shy_lookaway__exaggerated_head__face_close.mp4",
+          "sha256": "1ca96371c4a74510b8a4ba720e07057638aca6dbac200303f0d100456f1f08fa",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        }
+      ],
+      "fps": 24,
+      "duration_seconds": 5,
+      "frame_count": 120,
+      "first_middle_last_frames": [
+        1,
+        61,
+        120
+      ],
+      "classification": "EDITED_EXISTING_BLENDER_PROXY_REFERENCE_NOT_AI_GENERATION",
+      "camera_variable": "see original AB invariants; eye-lead head-follow also drives neck/chest/brow"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comparison-r3\\please_tilt__head_amplitude.mp4",
+      "sha256": "7dd1653b2a641add0093942be2e454037a63b2d513d6192c443df7845d632255",
+      "inputs": [
+        {
+          "clip": "please_tilt",
+          "variant": "natural",
+          "camera": "face_close",
+          "file": "please_tilt__natural__face_close.mp4",
+          "sha256": "94e3b8354ff2a33adba1c68a19719a3dd3b943f7c08a9b847b8d87786edd7d87",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "please_tilt",
+          "variant": "exaggerated_head",
+          "camera": "face_close",
+          "file": "please_tilt__exaggerated_head__face_close.mp4",
+          "sha256": "71ed268a0857478e5f400e1c1974acf9c4012acc5e662d747d94166b9529ff69",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        }
+      ],
+      "fps": 24,
+      "duration_seconds": 5,
+      "frame_count": 120,
+      "first_middle_last_frames": [
+        1,
+        61,
+        120
+      ],
+      "classification": "EDITED_EXISTING_BLENDER_PROXY_REFERENCE_NOT_AI_GENERATION",
+      "camera_variable": "see original AB invariants; eye-lead head-follow also drives neck/chest/brow"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comparison-r3\\shy_lookaway__eye_lead.mp4",
+      "sha256": "77a38d02097aa220776a107268cf891a7fb0bb9c3d629bf1f40c4c84745a6b53",
+      "inputs": [
+        {
+          "clip": "shy_lookaway",
+          "variant": "natural",
+          "camera": "face_close",
+          "file": "shy_lookaway__natural__face_close.mp4",
+          "sha256": "4d01fe303cdac69dc6f79dbc2afd3ce661977b5955c6bff1b06fff7a481e8681",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        },
+        {
+          "clip": "shy_lookaway",
+          "variant": "simultaneous",
+          "camera": "face_close",
+          "file": "shy_lookaway__simultaneous__face_close.mp4",
+          "sha256": "07d520f0041d908fa798087e19e9959f0aa804838be5c9688153bfff8288d86a",
+          "duration_seconds": 5,
+          "fps": 24,
+          "width": 640,
+          "height": 360,
+          "codec": "h264",
+          "audio": "INTENTIONALLY_SILENT",
+          "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+        }
+      ],
+      "fps": 24,
+      "duration_seconds": 5,
+      "frame_count": 120,
+      "first_middle_last_frames": [
+        1,
+        61,
+        120
+      ],
+      "classification": "EDITED_EXISTING_BLENDER_PROXY_REFERENCE_NOT_AI_GENERATION",
+      "camera_variable": "see original AB invariants; eye-lead head-follow also drives neck/chest/brow"
+    }
+  ],
+  "new_physical_recipes": 0
+}

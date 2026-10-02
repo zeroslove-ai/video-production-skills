@@ -1,6 +1,6 @@
 {
   "run_id": "yuri-performance-r1-acting-r2-20261002",
-  "time_utc": "2026-10-02T10:34:27Z",
+  "time_utc": "2026-10-02T11:40:09Z",
   "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1",
   "branch": "research/yuri-performance-previs-r1-20261002",
   "source_revision": "f5752b7",
@@ -13,9 +13,9 @@
   "semantic_base_recipes": 3,
   "approved_actual_yuri_performances": 0,
   "planned_catalog_count": 48,
-  "derived_render_jobs_done": 18,
+  "derived_render_jobs_done": 19,
   "derived_render_jobs_planned": 19,
-  "encoded_derived_reference_videos": 15,
+  "encoded_derived_reference_videos": 19,
   "these_are_not_completed_yuri_motion_count": true,
   "gpu_lease": "PRODUCT_EXCLUSIVE_UNCHANGED",
   "model_video_inference_jobs": 0,
@@ -23,7 +23,7 @@
   "product_repos_changed": false,
   "main_merged": false,
   "laptop_work_changed": false,
-  "next_bounded_task": "Review same acting scores in five cameras and head-follow/head-amplitude AB at 1x, improve weakest beat only.",
+  "next_bounded_task": "Complete selected native five-camera CPU references and independent proxy face/gaze composition proof, then score normal-speed playback and package reproducible recipes.",
   "research_horizon": "User requested approximately 4–8 hours; active goal, not declared complete at this checkpoint.",
   "native_body_reference": {
     "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\R2_NATIVE_BODY_TIMING_R3.blend",
@@ -45,9 +45,49 @@
         "technical": "PASS"
       }
     ],
-    "visual_gate": "CONTACT_REVIEW_IN_PROGRESS; please hand readability weak",
+    "visual_gate": "RESEARCH_REFERENCE: greeting/shy playback; please hand strategy improved; wrist ingress/recovery defects remain; selected camera R4 underway",
     "actual_yuri_approved_performances": 0
   },
   "source_face_gate": "PARTIAL: neutral/blink/gaze response confirmed; FAIL_A_O_READABILITY; elaborate target facial recipes withheld",
-  "offline_video_AB_plan": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\acting-r2\\video_AB_plan.json"
+  "offline_video_AB_plan": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\acting-r2\\video_AB_plan.json",
+  "pipeline_checkpoint_document": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\R3_PIPELINE_CHECKPOINT_KO.md",
+  "completed_evidence_by_candidate": {
+    "acting-r3-blink": {
+      "candidate_sha256": "8dbe5f7b03327473e545ab8ab16eba23c7720dd3986fc88ae3c6c46ce9ebf25f",
+      "encoded_reference_videos": 3,
+      "actual_yuri_approved": 0
+    },
+    "native-body-r3": {
+      "candidate_sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
+      "encoded_reference_videos": 5,
+      "actual_yuri_approved": 0
+    },
+    "native-body-r3-please-hands": {
+      "candidate_sha256": "a9e5522a4e37093e247f92970406d22734fa4f739d7b419e1cf28b47c2ce9d89",
+      "encoded_reference_videos": 2,
+      "actual_yuri_approved": 0
+    },
+    "native-body-r3-please-elbow": {
+      "candidate_sha256": "d5b6e2bb0f336481d495f209520abe9d118c5150a2cfa7e89aefc6ed6a94c129",
+      "encoded_reference_videos": 2,
+      "actual_yuri_approved": 0
+    },
+    "native-camera-r4": {
+      "candidate_sha256": "7ca58c3c858dba8a2bc62a2977fcbdf3f60615a754549a4a701ecf4e7231e3c5",
+      "encoded_reference_videos": 0,
+      "actual_yuri_approved": 0
+    },
+    "face-mix-r4": {
+      "candidate_sha256": "bde081aab366cf3abf98976a2a5f127022da56d5ebde58f4b93774710d83058d",
+      "encoded_reference_videos": 0,
+      "actual_yuri_approved": 0
+    },
+    "comparison-r3": {
+      "candidate_sha256": null,
+      "encoded_reference_videos": 7,
+      "actual_yuri_approved": 0
+    }
+  },
+  "comfy_video_roundtrip": "CPU_CORE_PASS; 24fps/5s/120frames; SSIM .993819; no models loaded",
+  "wan_backend_graph_validation": "T2V_AND_FIRST_FRAME_PASS; execution/model benefit UNTESTED"
 }

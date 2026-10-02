@@ -1,0 +1,15 @@
+{
+  "videos": [
+    {
+      "clip": "greeting_wave",
+      "camera": "waist_threequarter",
+      "file": "greeting_wave__waist_threequarter.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "78b79adfd60365721d36e7ffac04d2d9d63c4426bec5559fdba94c7884cb28c0"
+    }
+  ],
+  "actual_yuri_approved_performances": 0
+}

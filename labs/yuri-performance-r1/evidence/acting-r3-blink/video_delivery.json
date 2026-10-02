@@ -1,0 +1,47 @@
+{
+  "videos": [
+    {
+      "clip": "greeting_wave",
+      "variant": "natural",
+      "camera": "face_close",
+      "file": "greeting_wave__natural__face_close.mp4",
+      "sha256": "9c322792322f25753d8d352514512d6e12d1b2feaaaa30e8438ff6f3ef620fd9",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
+      "clip": "shy_lookaway",
+      "variant": "natural",
+      "camera": "face_close",
+      "file": "shy_lookaway__natural__face_close.mp4",
+      "sha256": "3cf5f178979e376153b6cc2e17dfbe7108a5f56a16d9e0669bb7b4f1b123414b",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
+      "clip": "please_tilt",
+      "variant": "natural",
+      "camera": "face_close",
+      "file": "please_tilt__natural__face_close.mp4",
+      "sha256": "070b9435bc924451cc2fe5211247bdf5d38b14306c1053365c32c7c3e315d17c",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    }
+  ],
+  "count_is_derived_previs_not_completed_performances": true
+}

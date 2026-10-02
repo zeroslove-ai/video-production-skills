@@ -1,0 +1,35 @@
+{
+  "method": "Installed execution.validate_prompt() called directly; no HTTP /prompt, no PromptExecutor, no queue",
+  "cpu": true,
+  "custom_nodes": false,
+  "api_nodes": false,
+  "model_loader_calls": [],
+  "model_inference_jobs": 0,
+  "records": [
+    {
+      "graph": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\workflows\\acting-r2\\A_t2v.json",
+      "validation_tuple": [
+        true,
+        null,
+        [
+          "11"
+        ],
+        {}
+      ],
+      "result": "BACKEND_VALIDATION_PASS_NO_EXECUTION"
+    },
+    {
+      "graph": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\workflows\\acting-r2\\B_first_frame.json",
+      "validation_tuple": [
+        true,
+        null,
+        [
+          "11"
+        ],
+        {}
+      ],
+      "result": "BACKEND_VALIDATION_PASS_NO_EXECUTION"
+    }
+  ],
+  "video_quality": "UNTESTED; PRODUCT_EXCLUSIVE lease unchanged"
+}

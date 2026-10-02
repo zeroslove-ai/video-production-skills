@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\YURI_PERFORMANCE_PROXY_R1.blend",
+  "source_sha256": "271b0fdd060810ae133e5604869976382a2df9ca0af0c863854daffd0ff75c32",
+  "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r3-blink\\YURI_PERFORMANCE_ACTING_R3_BLINK.blend",
+  "sha256": "8dbe5f7b03327473e545ab8ab16eba23c7720dd3986fc88ae3c6c46ce9ebf25f",
+  "body_bones_preserved": 17,
+  "physical_recipes": 3,
+  "derived_animation_variants_not_new_clips": 4,
+  "actual_yuri_approved": 0,
+  "face_gate": "PROXY_ONLY; ACTUAL_TARGET_PENDING",
+  "gpu_render_inference": 0
+}

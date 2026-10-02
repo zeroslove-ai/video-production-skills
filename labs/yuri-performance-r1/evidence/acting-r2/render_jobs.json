@@ -485,6 +485,33 @@
       "frames": 121,
       "renderer": "CYCLES_CPU_4_THREADS",
       "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\please_tilt__exaggerated_head__face_close.log"
+    },
+    "shy_lookaway__simultaneous__face_close": {
+      "clip": "shy_lookaway",
+      "camera": "face_close",
+      "variant": "simultaneous",
+      "candidate_sha256": "0dd6ecc1335691f05c35a88439c04fcb1ed18dde1d972eedd6ec5fbe494ccc88",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_acting_r2.py",
+        "--",
+        "video",
+        "shy_lookaway",
+        "face_close",
+        "simultaneous"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 178.80128309997963,
+      "frames": 121,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\shy_lookaway__simultaneous__face_close.log"
     }
   },
   "candidate_sha256": "0dd6ecc1335691f05c35a88439c04fcb1ed18dde1d972eedd6ec5fbe494ccc88",

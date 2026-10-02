@@ -6,11 +6,14 @@ from pathlib import Path
 import bpy,math,json,hashlib,sys
 from mathutils import Vector,Quaternion,Matrix
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
+ELBOW='please_elbow' in sys.argv
+REVISION='please_hands' in sys.argv or ELBOW
 from acting_recipe import score,curve
 from native_preservation import signature
 SOURCE=Path(r'C:\Users\JAEWAN\Downloads\Character_Master_R2_20261002.blend')
-OUT=ROOT/'local/native-body-r3';OUT.mkdir(parents=True,exist_ok=True)
-E=ROOT/'evidence/native-body-r3';E.mkdir(parents=True,exist_ok=True)
+folder='native-body-r3-please-elbow' if ELBOW else 'native-body-r3-please-hands' if REVISION else 'native-body-r3'
+OUT=ROOT/('local/'+folder);OUT.mkdir(parents=True,exist_ok=True)
+E=ROOT/('evidence/'+folder);E.mkdir(parents=True,exist_ok=True)
 sha=hashlib.sha256(SOURCE.read_bytes()).hexdigest();assert sha=='5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e'
 bpy.ops.wm.open_mainfile(filepath=str(SOURCE));s=bpy.context.scene;r=bpy.data.objects['Armature'];r.hide_set(False)
 original=sorted(a.name for a in bpy.data.actions);preserved=signature(original)
@@ -38,12 +41,12 @@ arm_rolls={}
 def stable_frame(y,normal,roll):
     y=y.normalized();x=normal.normalized();z=x.cross(y).normalized();x=y.cross(z).normalized()
     return Matrix((x*math.cos(roll)+z*math.sin(roll),y,z*math.cos(roll)-x*math.sin(roll))).transposed()
-def arm_ik(side,goal,hand_rotation):
+def arm_ik(side,goal,hand_rotation,elbow_low=False):
     u=r.pose.bones[f'J_Bip_{side}_UpperArm'];l=r.pose.bones[f'J_Bip_{side}_LowerArm'];hand=r.pose.bones[f'J_Bip_{side}_Hand']
     hip=u.head.copy();d=goal-hip;length=min(d.length,u.bone.length+l.bone.length-1e-5);direction=d.normalized();goal=hip+direction*length
     a=u.bone.length;b=l.bone.length;along=(a*a-b*b+length*length)/(2*length);height=math.sqrt(max(0,a*a-along*along))
     # Outward pole avoids the wrist-path crossing the old diagonal pole direction.
-    pole=Vector((1 if side=='L' else -1,0,0));pole=(pole-direction*direction.dot(pole)).normalized();elbow=hip+direction*along+pole*height
+    pole=Vector((1 if side=='L' else -1,-.4 if elbow_low else 0,-1.6 if elbow_low else 0));pole=(pole-direction*direction.dot(pole)).normalized();elbow=hip+direction*along+pole*height
     normal=direction.cross(pole).normalized()
     for bone,target,position in ((u,elbow-hip,hip),(l,goal-elbow,elbow)):
         if bone.name not in arm_rolls:
@@ -57,6 +60,7 @@ def arm_ik(side,goal,hand_rotation):
 upright=Matrix(((1,0,0),(0,0,1),(0,-1,0))).transposed().to_quaternion()
 records=[];registry={};max_error=0
 for clip in ('greeting_wave','shy_lookaway','please_tilt'):
+    arm_rolls.clear()
     a=bpy.data.actions.new('RND_R3_'+clip+'_BODY_ONLY');a.use_fake_user=True;registry[clip]=a.name
     samples=[];previous_quaternions={}
     for f in range(1,122):
@@ -74,9 +78,16 @@ for clip in ('greeting_wave','shy_lookaway','please_tilt'):
         elif clip=='please_tilt':
             ask=curve(t,[(0,0),(.45,-.07),(1.4,1),(2.95,1),(3.35,1.045),(4.65,0),(5,0)])
             for side,sign in (('L',1),('R',-1)):
-                goal=wrists[side].translation.lerp(Vector((sign*.075,-.14,.635)),ask)
-                rotation=wrists[side].to_quaternion().slerp(upright,.75*max(0,min(1,ask)))
-                max_error=max(max_error,arm_ik(side,goal,rotation))
+                destination=Vector((sign*.075,-.14,.635));hand_target=upright
+                if REVISION:
+                    destination=Vector((sign*.045,-.19+sign*.005,.730+sign*.007))
+                    finger_direction=Vector((-sign*.30,0,.95)).normalized()
+                    palm=Vector((-sign*.95,0,-.30)).normalized()
+                    across=finger_direction.cross(palm).normalized()
+                    hand_target=Matrix((across,finger_direction,palm)).transposed().to_quaternion()
+                goal=wrists[side].translation.lerp(destination,ask)
+                rotation=wrists[side].to_quaternion().slerp(hand_target,(1. if REVISION else .75)*max(0,min(1,ask)))
+                max_error=max(max_error,arm_ik(side,goal,rotation,elbow_low=ELBOW))
         r.animation_data.action=a
         for b in r.pose.bones:
             b.rotation_mode='QUATERNION'
@@ -107,5 +118,5 @@ r.animation_data.action=bpy.data.actions[registry['greeting_wave']];s.frame_star
 s['research_status']='PRIVATE_BODY_TIMING_ADAPTER; FACE_NEUTRAL; NOT_YURI_PRODUCT_ANIMATION'
 p=OUT/'R2_NATIVE_BODY_TIMING_R3.blend';bpy.ops.wm.save_as_mainfile(filepath=str(p))
 (E/'preservation.json').write_text(json.dumps({'result':'PASS','original_actions':len(original),'digests':preserved,'source_sha256':sha,'source_unchanged':True},indent=2))
-(E/'build_receipt.json').write_text(json.dumps({'candidate':str(p),'candidate_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'action_registry':registry,'cameras':cameras,'max_ik_error_m':max_error,'face':'NEUTRAL ONLY; A/O readability gate failed; elaborate target face recipes withheld','actual_yuri_approved_performances':0,'classification':'NATIVE_BODY_RESEARCH_REFERENCE_NO_PRODUCT_INTEGRATION','clips':records},indent=2))
+(E/'build_receipt.json').write_text(json.dumps({'candidate':str(p),'candidate_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'revision':'please elbow pole downward; same wrist goals/palm orientation as hand revision' if ELBOW else 'please hand strategy (wrist destination + palm orientation) only' if REVISION else 'baseline','action_registry':registry,'cameras':cameras,'max_ik_error_m':max_error,'face':'NEUTRAL ONLY; A/O readability gate failed; elaborate target face recipes withheld','actual_yuri_approved_performances':0,'classification':'NATIVE_BODY_RESEARCH_REFERENCE_NO_PRODUCT_INTEGRATION','clips':records},indent=2))
 print('NATIVE_BODY_R3_BUILD_PASS',p,max_error)

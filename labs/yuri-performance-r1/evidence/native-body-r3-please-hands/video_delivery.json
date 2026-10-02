@@ -1,0 +1,25 @@
+{
+  "videos": [
+    {
+      "clip": "please_tilt",
+      "camera": "waist_threequarter",
+      "file": "please_tilt__waist_threequarter.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "feccdf6da837ce6e197e12fc3935c12128bacdf9430f2b04472d157a7dce5a89"
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "hand_face",
+      "file": "please_tilt__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "1fb283e8da96b71a3d835b360b4ae911202348fe4ab4391a1e8675b61bebfaf6"
+    }
+  ],
+  "actual_yuri_approved_performances": 0
+}

@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r3-blink\\YURI_PERFORMANCE_ACTING_R3_BLINK.blend",
+  "source_sha256": "8dbe5f7b03327473e545ab8ab16eba23c7720dd3986fc88ae3c6c46ce9ebf25f",
+  "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\face-mix-r4\\PROXY_FACE_MIX_R4.blend",
+  "sha256": "bde081aab366cf3abf98976a2a5f127022da56d5ebde58f4b93774710d83058d",
+  "body_bones_preserved": 17,
+  "physical_recipes": 3,
+  "derived_animation_variants_not_new_clips": 4,
+  "actual_yuri_approved": 0,
+  "face_gate": "PROXY_ONLY; ACTUAL_TARGET_PENDING",
+  "gpu_render_inference": 0,
+  "new_physical_recipes": 0,
+  "comparison": "same greeting body/head; existing smile vs shy vs pleading face/gaze bindings only",
+  "all_121_body_matrices_exactly_identical": true,
+  "limitations": "semantic proxy; transplanted timing is a composability proof, not authored emotional coherence or target facial acceptance"
+}

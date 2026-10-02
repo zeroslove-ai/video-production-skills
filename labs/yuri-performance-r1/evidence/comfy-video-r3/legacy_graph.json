@@ -1,0 +1,44 @@
+{
+  "1": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "blender_previs.mp4"
+    }
+  },
+  "2": {
+    "class_type": "GetVideoComponents",
+    "inputs": {
+      "video": [
+        "1",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CreateVideo",
+    "inputs": {
+      "images": [
+        "2",
+        0
+      ],
+      "fps": [
+        "2",
+        2
+      ],
+      "bit_depth": 8,
+      "color_space": "sRGB"
+    }
+  },
+  "4": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "video": [
+        "3",
+        0
+      ],
+      "filename_prefix": "roundtrip_legacy",
+      "format": "auto",
+      "codec": "auto"
+    }
+  }
+}

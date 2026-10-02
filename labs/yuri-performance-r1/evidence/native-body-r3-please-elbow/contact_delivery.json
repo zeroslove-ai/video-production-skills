@@ -1,0 +1,69 @@
+{
+  "contacts": [
+    {
+      "clip": "please_tilt",
+      "camera": "waist_threequarter",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt__waist_threequarter_contact.jpg",
+      "candidate_sha256": "d5b6e2bb0f336481d495f209520abe9d118c5150a2cfa7e89aefc6ed6a94c129",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\waist_threequarter\\0001.png",
+          "sha256": "e5b4351cf3db5f7a3cdff6416222c28f5439bf7945718bea8ae5385c92c08bc0"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\waist_threequarter\\0025.png",
+          "sha256": "d61694a722e1ea3d0f9b5454a748e41e79f240b32e4ed3d3a09cc9746412a228"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\waist_threequarter\\0049.png",
+          "sha256": "d089f25f192405f993534013a6f35e69e2fbcf0d34377ab357b489f88b45c91d"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\waist_threequarter\\0073.png",
+          "sha256": "b1bf9ceb0a23c95bfa8eb9058a5e86ea2031ca2867e58d7af9e032f6c1ffad80"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\waist_threequarter\\0097.png",
+          "sha256": "3818b6ac4cae6d11dc7ee8c3ec1a6f708769434c47b4a2ea68e8b77e828a97f4"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\waist_threequarter\\0121.png",
+          "sha256": "041bff72dd64853474ac7e88acc4a2cc6bbc3a12ef73627e6b0ce05fc668cfaf"
+        }
+      ]
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "hand_face",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt__hand_face_contact.jpg",
+      "candidate_sha256": "d5b6e2bb0f336481d495f209520abe9d118c5150a2cfa7e89aefc6ed6a94c129",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\hand_face\\0001.png",
+          "sha256": "dfa3ff6818c2d6af458b92207820b00d53a1fc0a4579fb2347fb733156483e3f"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\hand_face\\0025.png",
+          "sha256": "dba5faa5b4c85a430393b0e75fe3861927fc551256b16b9ec016d5ff680a82f5"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\hand_face\\0049.png",
+          "sha256": "d465ce371e96dba519e9ceebf4964043cc3dc5db137980b4e9861ee5e6f97a02"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\hand_face\\0073.png",
+          "sha256": "ac6fa0f61a964856133d89fb776174f19e0a2cbdd7379fb2b1e0b9b1b137d366"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\hand_face\\0097.png",
+          "sha256": "8415d6335b89f46c89ccc5fa42450c5a7f361f7bca7c8eb561f54627577a9321"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-elbow\\please_tilt\\hand_face\\0121.png",
+          "sha256": "df0fa52d95dd7e6ddea02c2e8614f74d595adf066b84a5a12ef5dc089f196572"
+        }
+      ]
+    }
+  ],
+  "classification": "PRIVATE_NATIVE_BODY_REFERENCE_FACE_NEUTRAL_NO_PRODUCT_APPROVAL"
+}

@@ -1,11 +1,15 @@
 """Native body adapter all-frame gates, then CPU contact frames or a single movie shot."""
 from pathlib import Path
 import bpy,json,sys,math,hashlib
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'local/native-body-r3';E=ROOT/'evidence/native-body-r3'
+ROOT=Path(__file__).resolve().parents[1];folder='native-camera-r4' if 'camera_r4' in sys.argv else 'native-body-r3-please-elbow' if 'please_elbow' in sys.argv else 'native-body-r3-please-hands' if 'please_hands' in sys.argv else 'native-body-r3';OUT=ROOT/('local/'+folder);E=ROOT/('evidence/'+folder)
 meta=json.loads((E/'build_receipt.json').read_text());p=Path(meta['candidate']);assert hashlib.sha256(p.read_bytes()).hexdigest()==meta['candidate_sha256']
 bpy.ops.wm.open_mainfile(filepath=str(p));s=bpy.context.scene;r=bpy.data.objects['Armature']
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else ['qa']
-def bind(clip):r.animation_data.action=bpy.data.actions[meta['action_registry'][clip]];s.frame_set(1)
+args=[x for x in args if x not in ('please_hands','please_elbow','camera_r4')]
+def bind(clip):
+    r.animation_data.action=bpy.data.actions[meta['action_registry'][clip]]
+    if r.animation_data.action.slots:r.animation_data.action_slot=r.animation_data.action.slots[0]
+    s.frame_set(1)
 def camera(name):
     c=meta['cameras'][name];s.camera=bpy.data.objects[c['object']];s.render.resolution_x,s.render.resolution_y=c['resolution'];s.render.resolution_percentage=100
 def angular_distance(a,b):
@@ -37,6 +41,7 @@ if args[0]=='qa':
     (E/'structural_qa.json').write_text(json.dumps({'candidate_sha256':meta['candidate_sha256'],'clips':reports},indent=2));print(json.dumps(reports));assert all(x['technical']=='PASS' for x in reports)
 elif args[0]=='contacts':
     for clip in meta['action_registry']:
+        if len(args)>1 and clip!=args[1]:continue
         bind(clip)
         for view in ('full_body','waist_threequarter','hand_face'):
             camera(view)
@@ -46,6 +51,6 @@ elif args[0]=='video':
     clip,view=args[1:3];bind(clip);camera(view)
     for f in range(1,122):
         path=OUT/clip/view/f'{f:04d}.png';path.parent.mkdir(parents=True,exist_ok=True)
-        if path.exists():continue
+        if path.exists() and path.stat().st_mtime>=p.stat().st_mtime:continue
         s.frame_set(f);s.render.filepath=str(path);bpy.ops.render.render(write_still=True)
 else:raise ValueError(args)

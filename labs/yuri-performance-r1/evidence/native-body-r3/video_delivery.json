@@ -1,4 +1,55 @@
 {
-  "videos": [],
+  "videos": [
+    {
+      "clip": "greeting_wave",
+      "camera": "waist_threequarter",
+      "file": "greeting_wave__waist_threequarter.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "1a717ab2956b2e539430345394acb0b77f9caeaeacef31d621aff5231fa40299"
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "file": "greeting_wave__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "3421afb2b3a3f6410d1f44d07aa6bc215ba56e9158158e9bf88672d9908d8b7d"
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "waist_threequarter",
+      "file": "shy_lookaway__waist_threequarter.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "5e21d74be90dcf48b6d0fdb2f6f9e6a62aea34da65f67c484820894de9de1e64"
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "hand_face",
+      "file": "shy_lookaway__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "0d578a56aad613b54ac1eb917b70eb00277051895a630ed9fc9c849ea0eb3f32"
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "hand_face",
+      "file": "please_tilt__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "b5509475df0a4eb904add4ef0029191d4fcac2620a4237550d265d4970cf1047"
+    }
+  ],
   "actual_yuri_approved_performances": 0
 }

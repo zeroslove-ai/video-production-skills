@@ -1,0 +1,58 @@
+{
+  "jobs": {
+    "please_tilt__hand_face": {
+      "clip": "please_tilt",
+      "camera": "hand_face",
+      "revision": "please_hands",
+      "candidate_sha256": "a9e5522a4e37093e247f92970406d22734fa4f739d7b419e1cf28b47c2ce9d89",
+      "returncode": 0,
+      "elapsed_seconds": 191.41051040001912,
+      "frames": 121,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-hands\\please_tilt__hand_face.log",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_native_body_r3.py",
+        "--",
+        "video",
+        "please_tilt",
+        "hand_face",
+        "please_hands"
+      ]
+    },
+    "please_tilt__waist_threequarter": {
+      "clip": "please_tilt",
+      "camera": "waist_threequarter",
+      "revision": "please_hands",
+      "candidate_sha256": "a9e5522a4e37093e247f92970406d22734fa4f739d7b419e1cf28b47c2ce9d89",
+      "returncode": 0,
+      "elapsed_seconds": 169.47347550000995,
+      "frames": 121,
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3-please-hands\\please_tilt__waist_threequarter.log",
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_native_body_r3.py",
+        "--",
+        "video",
+        "please_tilt",
+        "waist_threequarter",
+        "please_hands"
+      ]
+    }
+  }
+}

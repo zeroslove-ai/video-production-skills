@@ -1,0 +1,683 @@
+{
+  "samples": [
+    {
+      "clip": "greeting_wave",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04564236104488373,
+      "depth_range_m": [
+        3.1766247749328613,
+        3.3381121158599854
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\full_body\\0001"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.16647569835186005,
+      "depth_range_m": [
+        1.7028743028640747,
+        1.9437694549560547
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\waist_threequarter\\0001"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1738888919353485,
+      "depth_range_m": [
+        1.1637681722640991,
+        1.331153154373169
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\hand_face\\0001"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.24187499284744263,
+      "depth_range_m": [
+        0.9551848769187927,
+        1.0794241428375244
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\face_close\\0001"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 1,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12539930641651154,
+      "depth_range_m": [
+        1.875788688659668,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\vertical\\0001"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04592013731598854,
+      "depth_range_m": [
+        3.1438560485839844,
+        3.3313724994659424
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\full_body\\0061"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1844097226858139,
+      "depth_range_m": [
+        1.702628493309021,
+        1.9038258790969849
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\waist_threequarter\\0061"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.2047569453716278,
+      "depth_range_m": [
+        1.0894438028335571,
+        1.3310695886611938
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\hand_face\\0061"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.34508681297302246,
+      "depth_range_m": [
+        0.8887091875076294,
+        1.080269455909729
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\face_close\\0061"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 61,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12644097208976746,
+      "depth_range_m": [
+        1.8426756858825684,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\vertical\\0061"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04564236104488373,
+      "depth_range_m": [
+        3.1766247749328613,
+        3.3381121158599854
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\full_body\\0121"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.16647569835186005,
+      "depth_range_m": [
+        1.7028743028640747,
+        1.9437694549560547
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\waist_threequarter\\0121"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1738888919353485,
+      "depth_range_m": [
+        1.1637681722640991,
+        1.331153154373169
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\hand_face\\0121"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.24187499284744263,
+      "depth_range_m": [
+        0.9551848769187927,
+        1.0794241428375244
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\face_close\\0121"
+    },
+    {
+      "clip": "greeting_wave",
+      "frame": 121,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12539930641651154,
+      "depth_range_m": [
+        1.875788688659668,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\greeting_wave\\vertical\\0121"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04555555433034897,
+      "depth_range_m": [
+        3.1766247749328613,
+        3.3381121158599854
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\full_body\\0001"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.16604167222976685,
+      "depth_range_m": [
+        1.7028743028640747,
+        1.9418193101882935
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\waist_threequarter\\0001"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1735069453716278,
+      "depth_range_m": [
+        1.1637681722640991,
+        1.331153154373169
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\hand_face\\0001"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.24171875417232513,
+      "depth_range_m": [
+        0.9551848769187927,
+        1.0794241428375244
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\face_close\\0001"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 1,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12524305284023285,
+      "depth_range_m": [
+        1.875788688659668,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\vertical\\0001"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04524305462837219,
+      "depth_range_m": [
+        3.174952745437622,
+        3.3310370445251465
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\full_body\\0061"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.16684028506278992,
+      "depth_range_m": [
+        1.7019059658050537,
+        1.9435627460479736
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\waist_threequarter\\0061"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.16907985508441925,
+      "depth_range_m": [
+        1.1588351726531982,
+        1.333255410194397
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\hand_face\\0061"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.22624999284744263,
+      "depth_range_m": [
+        0.9419848918914795,
+        1.0708119869232178
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\face_close\\0061"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 61,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12357638776302338,
+      "depth_range_m": [
+        1.876129388809204,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\vertical\\0061"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04555555433034897,
+      "depth_range_m": [
+        3.1766247749328613,
+        3.3381121158599854
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\full_body\\0121"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.16604167222976685,
+      "depth_range_m": [
+        1.7028743028640747,
+        1.9418193101882935
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\waist_threequarter\\0121"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1735069453716278,
+      "depth_range_m": [
+        1.1637681722640991,
+        1.331153154373169
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\hand_face\\0121"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.24171875417232513,
+      "depth_range_m": [
+        0.9551848769187927,
+        1.0794241428375244
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\face_close\\0121"
+    },
+    {
+      "clip": "shy_lookaway",
+      "frame": 121,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12524305284023285,
+      "depth_range_m": [
+        1.875788688659668,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\shy_lookaway\\vertical\\0121"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04567708447575569,
+      "depth_range_m": [
+        3.1766247749328613,
+        3.3381121158599854
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\full_body\\0001"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1663888841867447,
+      "depth_range_m": [
+        1.7028743028640747,
+        1.939948320388794
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\waist_threequarter\\0001"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1746354103088379,
+      "depth_range_m": [
+        1.1637681722640991,
+        1.3248624801635742
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\hand_face\\0001"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 1,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.24194444715976715,
+      "depth_range_m": [
+        0.9551848769187927,
+        1.0794241428375244
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\face_close\\0001"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 1,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12546874582767487,
+      "depth_range_m": [
+        1.875788688659668,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\vertical\\0001"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04192708432674408,
+      "depth_range_m": [
+        3.0793349742889404,
+        3.328686475753784
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\full_body\\0061"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1713888943195343,
+      "depth_range_m": [
+        1.6289360523223877,
+        1.8622833490371704
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\waist_threequarter\\0061"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.18534722924232483,
+      "depth_range_m": [
+        1.0572186708450317,
+        1.2973014116287231
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\hand_face\\0061"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 61,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.23814235627651215,
+      "depth_range_m": [
+        0.8282075524330139,
+        1.0673197507858276
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\face_close\\0061"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 61,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.11576388776302338,
+      "depth_range_m": [
+        1.774196743965149,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\vertical\\0061"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.04567708447575569,
+      "depth_range_m": [
+        3.1766247749328613,
+        3.3381121158599854
+      ],
+      "camera": "full_body",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\full_body\\0121"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1663888841867447,
+      "depth_range_m": [
+        1.7028743028640747,
+        1.939948320388794
+      ],
+      "camera": "waist_threequarter",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\waist_threequarter\\0121"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.1746354103088379,
+      "depth_range_m": [
+        1.1637681722640991,
+        1.3248624801635742
+      ],
+      "camera": "hand_face",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\hand_face\\0121"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 121,
+      "resolution": [
+        320,
+        180
+      ],
+      "foreground_fraction": 0.24194444715976715,
+      "depth_range_m": [
+        0.9551848769187927,
+        1.0794241428375244
+      ],
+      "camera": "face_close",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\face_close\\0121"
+    },
+    {
+      "clip": "please_tilt",
+      "frame": 121,
+      "resolution": [
+        180,
+        320
+      ],
+      "foreground_fraction": 0.12546874582767487,
+      "depth_range_m": [
+        1.875788688659668,
+        2.1020469665527344
+      ],
+      "camera": "vertical",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-conditioning-r4\\please_tilt\\vertical\\0121"
+    }
+  ],
+  "candidate_sha256": "7ca58c3c858dba8a2bc62a2977fcbdf3f60615a754549a4a701ecf4e7231e3c5",
+  "elapsed_seconds": 6.398008799995296,
+  "status": "CPU_GEOMETRY_REFERENCE_ONLY; VIDEO_MODEL_NOT_TESTED",
+  "gpu_model_jobs": 0
+}

@@ -1,0 +1,215 @@
+{
+  "result": "STRUCTURAL_PROXY_PASS",
+  "clips": [
+    {
+      "clip": "greeting_wave",
+      "max_bone_rotation_step_deg": 14.121761260925535,
+      "hips_excursion_m": 0.0,
+      "foot_anchor_drift_m": 0.0,
+      "neutral_matrix_error": 0.0,
+      "camera_anchors": {
+        "full_body": {
+          "bone_anchor_min_xy": [
+            0.4010432958602905,
+            0.13987399637699127
+          ],
+          "bone_anchor_max_xy": [
+            0.5957126617431641,
+            0.7132632732391357
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "waist_threequarter": {
+          "bone_anchor_min_xy": [
+            0.4994053244590759,
+            0.5743166208267212
+          ],
+          "bone_anchor_max_xy": [
+            0.5021476149559021,
+            0.5746443867683411
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "face_close": {
+          "bone_anchor_min_xy": [
+            0.4996471107006073,
+            0.1833350956439972
+          ],
+          "bone_anchor_max_xy": [
+            0.5041289925575256,
+            0.18441660702228546
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "hand_face": {
+          "bone_anchor_min_xy": [
+            0.5805807709693909,
+            0.5146276354789734
+          ],
+          "bone_anchor_max_xy": [
+            0.5836710929870605,
+            0.5150707364082336
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "vertical": {
+          "bone_anchor_min_xy": [
+            0.23724986612796783,
+            0.15009842813014984
+          ],
+          "bone_anchor_max_xy": [
+            0.7577759027481079,
+            0.6314994692802429
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        }
+      },
+      "actual_yuri_face_acceptance": false
+    },
+    {
+      "clip": "shy_lookaway",
+      "max_bone_rotation_step_deg": 2.1199737513824215,
+      "hips_excursion_m": 0.0,
+      "foot_anchor_drift_m": 0.0,
+      "neutral_matrix_error": 0.0,
+      "camera_anchors": {
+        "full_body": {
+          "bone_anchor_min_xy": [
+            0.4042873680591583,
+            0.13987399637699127
+          ],
+          "bone_anchor_max_xy": [
+            0.5957126617431641,
+            0.7133342027664185
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "waist_threequarter": {
+          "bone_anchor_min_xy": [
+            0.499972939491272,
+            0.5738818049430847
+          ],
+          "bone_anchor_max_xy": [
+            0.5005370378494263,
+            0.5746480822563171
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "face_close": {
+          "bone_anchor_min_xy": [
+            0.4996725618839264,
+            0.18197177350521088
+          ],
+          "bone_anchor_max_xy": [
+            0.505062997341156,
+            0.18414048850536346
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "hand_face": {
+          "bone_anchor_min_xy": [
+            0.5802327990531921,
+            0.5140364766120911
+          ],
+          "bone_anchor_max_xy": [
+            0.585796594619751,
+            0.5149024724960327
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "vertical": {
+          "bone_anchor_min_xy": [
+            0.243626207113266,
+            0.15009842813014984
+          ],
+          "bone_anchor_max_xy": [
+            0.7577759027481079,
+            0.6314997673034668
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        }
+      },
+      "actual_yuri_face_acceptance": false
+    },
+    {
+      "clip": "please_tilt",
+      "max_bone_rotation_step_deg": 2.530335785585019,
+      "hips_excursion_m": 0.0,
+      "foot_anchor_drift_m": 0.0,
+      "neutral_matrix_error": 0.0,
+      "camera_anchors": {
+        "full_body": {
+          "bone_anchor_min_xy": [
+            0.40400058031082153,
+            0.13987399637699127
+          ],
+          "bone_anchor_max_xy": [
+            0.5959948301315308,
+            0.7133710384368896
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "waist_threequarter": {
+          "bone_anchor_min_xy": [
+            0.4989204406738281,
+            0.5736814141273499
+          ],
+          "bone_anchor_max_xy": [
+            0.5001525282859802,
+            0.5746490359306335
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "face_close": {
+          "bone_anchor_min_xy": [
+            0.4999348223209381,
+            0.18120914697647095
+          ],
+          "bone_anchor_max_xy": [
+            0.5035070776939392,
+            0.18417096138000488
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "hand_face": {
+          "bone_anchor_min_xy": [
+            0.5804226398468018,
+            0.5136274099349976
+          ],
+          "bone_anchor_max_xy": [
+            0.5854303240776062,
+            0.5149231553077698
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        },
+        "vertical": {
+          "bone_anchor_min_xy": [
+            0.24317477643489838,
+            0.15009842813014984
+          ],
+          "bone_anchor_max_xy": [
+            0.7584888935089111,
+            0.6314998865127563
+          ],
+          "all_tested_anchors_in_frame": true,
+          "bounds_scope": "bone anchors only; rendered silhouette review required"
+        }
+      },
+      "actual_yuri_face_acceptance": false
+    }
+  ]
+}

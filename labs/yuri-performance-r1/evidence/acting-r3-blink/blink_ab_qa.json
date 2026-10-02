@@ -1,0 +1,68 @@
+{
+  "status": "SEMANTIC_SAMPLING_PASS_NOT_ACTUAL_RIG_FACE_PASS",
+  "clips": [
+    {
+      "clip": "greeting_wave",
+      "maximum_intent_at_24fps": {
+        "A": {
+          "l": 0.8730158730158701,
+          "r": 0.9365079365079351
+        },
+        "B": {
+          "l": 1.0,
+          "r": 1.0
+        }
+      },
+      "both_eyes_full_closure_frames": {
+        "A": [],
+        "B": [
+          13,
+          77
+        ]
+      },
+      "all_non_blink_channels_identical": true
+    },
+    {
+      "clip": "shy_lookaway",
+      "maximum_intent_at_24fps": {
+        "A": {
+          "l": 0.9206349206349209,
+          "r": 0.9841269841269858
+        },
+        "B": {
+          "l": 1.0,
+          "r": 1.0
+        }
+      },
+      "both_eyes_full_closure_frames": {
+        "A": [],
+        "B": [
+          22,
+          80
+        ]
+      },
+      "all_non_blink_channels_identical": true
+    },
+    {
+      "clip": "please_tilt",
+      "maximum_intent_at_24fps": {
+        "A": {
+          "l": 0.9682539682539675,
+          "r": 0.9682539682539675
+        },
+        "B": {
+          "l": 1.0,
+          "r": 1.0
+        }
+      },
+      "both_eyes_full_closure_frames": {
+        "A": [],
+        "B": [
+          16,
+          83
+        ]
+      },
+      "all_non_blink_channels_identical": true
+    }
+  ]
+}

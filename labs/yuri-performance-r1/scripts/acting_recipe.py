@@ -18,7 +18,7 @@ def curve(t,points):
 def pulse(t,centre,width=.10):
     return max(0,1-abs(t-centre)/width)
 
-def score(clip,t,head_gain=1.0,gaze_lead=.18):
+def score(clip,t,head_gain=1.0,gaze_lead=.18,blink_profile='r2_triangular'):
     r={}; f={}; gaze=[0.,0.]
     # Baselines return exactly; shoulder/chest breath is gated by the acting arc.
     arc=curve(t,[(0,0),(.5,1),(3.7,1),(5,0)])
@@ -63,13 +63,18 @@ def score(clip,t,head_gain=1.0,gaze_lead=.18):
         f['jaw_open']=curve(t,[(0,0),(1.32,0),(1.85,.11),(2.15,.02),(5,0)])
         centres=[.62,3.42]
     else:raise ValueError(clip)
-    for side,delay in [('l',0),('r',.035)]:
-        f['blink_'+side]=max(pulse(t,c+delay,.105) for c in centres)
+    for side,delay in [('l',0),('r',.020 if blink_profile=='r3_hold' else .035)]:
+        if blink_profile=='r3_hold':
+            # Aligned closure plateau survives 24fps sampling; slight opening asymmetry.
+            snapped=[round(c*FPS)/FPS+delay for c in centres]
+            f['blink_'+side]=max(curve(t,[(c-.070,0),(c-.020,1),(c+.026,1),(c+.120,0)]) for c in snapped)
+        else:f['blink_'+side]=max(pulse(t,c+delay,.105) for c in centres)
     return {'rotations_degrees':r,'face_intents':f,'gaze_xy':gaze}
 
-def timing_sheet(clip):
+def timing_sheet(clip,blink_profile='r2_triangular'):
     return {'id':clip,'fps':FPS,'duration_seconds':DURATION,'phases':PHASES,
             'gaze_lead_seconds':.18 if clip=='shy_lookaway' else None,
             'profile_experiment':{'A':'head_gain=1 natural amplitude','B':'head_gain=1.45 exaggerated head ONLY; body/face/hold unchanged'},
             'status':'SEMANTIC_TIMING_PROXY_NOT_ACTUAL_AVATAR_CALIBRATION',
-            'samples':[{'frame':f,'time':f/FPS,**score(clip,f/FPS)} for f in range(121)]}
+            'blink_profile':blink_profile,
+            'samples':[{'frame':f,'time':f/FPS,**score(clip,f/FPS,blink_profile=blink_profile)} for f in range(121)]}

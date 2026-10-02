@@ -1,0 +1,197 @@
+{
+  "question": "Can existing core VIDEO nodes preserve Blender clip duration/order on isolated CPU, and does legacy SaveVideo JSON still validate?",
+  "source": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\greeting_wave__natural__hand_face.mp4",
+  "source_sha256": "3243b5dac52d0f456eae2c37610b6d122412a7b7ea5cf28512ba5dca8f773e3c",
+  "fixed": "same video, frames, 24fps, SDR8, codec auto; SaveVideo argument paths only differ",
+  "model_inference_jobs": 0,
+  "gpu_inference": 0,
+  "jobs": [
+    {
+      "argument_style": "legacy",
+      "prompt_id": "fad73b68-769c-4418-8503-bbcbb9cc7c25",
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "fad73b68-769c-4418-8503-bbcbb9cc7c25",
+              "timestamp": 1790937998733
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [],
+              "prompt_id": "fad73b68-769c-4418-8503-bbcbb9cc7c25",
+              "timestamp": 1790937998735
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "fad73b68-769c-4418-8503-bbcbb9cc7c25",
+              "timestamp": 1790938001363
+            }
+          ]
+        ]
+      },
+      "outputs": {
+        "4": {
+          "images": [
+            {
+              "filename": "roundtrip_legacy_00001_.mp4",
+              "subfolder": "",
+              "type": "output"
+            }
+          ],
+          "animated": [
+            true
+          ]
+        }
+      },
+      "result": "CPU_VIDEO_ROUNDTRIP_TECHNICAL_PASS",
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\output\\roundtrip_legacy_00001_.mp4",
+      "sha256": "0633bbbaf2a0df3319074965c31bde510c562a268142c037d890d0c15e155101",
+      "duration": 5,
+      "fps": 24,
+      "frames": 120,
+      "elapsed_seconds": 2.8561352000106126
+    },
+    {
+      "argument_style": "dynamic",
+      "prompt_id": "fded7ced-6d49-4d3b-9a26-4292a295b7a3",
+      "status": {
+        "status_str": "success",
+        "completed": true,
+        "messages": [
+          [
+            "execution_start",
+            {
+              "prompt_id": "fded7ced-6d49-4d3b-9a26-4292a295b7a3",
+              "timestamp": 1790938001600
+            }
+          ],
+          [
+            "execution_cached",
+            {
+              "nodes": [
+                "1",
+                "2",
+                "3"
+              ],
+              "prompt_id": "fded7ced-6d49-4d3b-9a26-4292a295b7a3",
+              "timestamp": 1790938001601
+            }
+          ],
+          [
+            "execution_success",
+            {
+              "prompt_id": "fded7ced-6d49-4d3b-9a26-4292a295b7a3",
+              "timestamp": 1790938002804
+            }
+          ]
+        ]
+      },
+      "outputs": {
+        "4": {
+          "images": [
+            {
+              "filename": "roundtrip_dynamic_00001_.mp4",
+              "subfolder": "",
+              "type": "output"
+            }
+          ],
+          "animated": [
+            true
+          ]
+        }
+      },
+      "result": "CPU_VIDEO_ROUNDTRIP_TECHNICAL_PASS",
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\output\\roundtrip_dynamic_00001_.mp4",
+      "sha256": "2886436fc3cee8ff95e12b87bb4cc84ce681c630c8d7ad8ad3c0a0874e7c5b0a",
+      "duration": 5,
+      "fps": 24,
+      "frames": 120,
+      "elapsed_seconds": 1.3667065000045113
+    }
+  ],
+  "system_stats": {
+    "system": {
+      "os": "win32",
+      "ram_total": 66095271936,
+      "ram_free": 32119492608,
+      "comfyui_version": "0.34.6",
+      "required_frontend_version": "1.49.6",
+      "installed_templates_version": "0.11.55",
+      "required_templates_version": "0.11.55",
+      "comfy_package_versions": [
+        {
+          "name": "comfyui-frontend-package",
+          "installed": "1.49.6",
+          "required": "1.49.6"
+        },
+        {
+          "name": "comfyui-workflow-templates",
+          "installed": "0.11.55",
+          "required": "0.11.55"
+        },
+        {
+          "name": "comfyui-embedded-docs",
+          "installed": "0.5.10",
+          "required": "0.5.10"
+        },
+        {
+          "name": "comfy-kitchen",
+          "installed": "0.2.31",
+          "required": "0.2.31"
+        },
+        {
+          "name": "comfy-aimdo",
+          "installed": "0.4.15",
+          "required": "0.4.15"
+        }
+      ],
+      "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "pytorch_version": "2.10.0+cu130",
+      "embedded_python": true,
+      "deploy_environment": "local-git",
+      "argv": [
+        "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\ComfyUI\\main.py",
+        "--cpu",
+        "--listen",
+        "127.0.0.1",
+        "--port",
+        "8192",
+        "--disable-all-custom-nodes",
+        "--disable-api-nodes",
+        "--disable-auto-launch",
+        "--preview-method",
+        "none",
+        "--input-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\input",
+        "--output-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\output",
+        "--temp-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\temp",
+        "--user-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\comfy-video-r3\\user"
+      ]
+    },
+    "devices": [
+      {
+        "name": "cpu",
+        "type": "cpu",
+        "index": null,
+        "vram_total": 66095271936,
+        "vram_free": 32119390208,
+        "torch_vram_total": 66095271936,
+        "torch_vram_free": 32119390208
+      }
+    ]
+  },
+  "result": "CORE_VIDEO_CPU_PASS; MODEL_GENERATION_BENEFIT_UNTESTED",
+  "owned_pid": 113608,
+  "owned_server_stopped": true
+}

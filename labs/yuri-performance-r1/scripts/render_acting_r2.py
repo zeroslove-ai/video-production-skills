@@ -2,8 +2,8 @@
 from pathlib import Path
 import bpy,json,sys,math
 from bpy_extras.object_utils import world_to_camera_view
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'local/acting-r2';E=ROOT/'evidence/acting-r2'
-bpy.ops.wm.open_mainfile(filepath=str(OUT/'YURI_PERFORMANCE_ACTING_R2.blend'))
+ROOT=Path(__file__).resolve().parents[1];BLINK='blink_hold' in sys.argv;folder='face-mix-r4' if 'face_mix' in sys.argv else 'acting-r3-blink' if BLINK else 'acting-r2';OUT=ROOT/('local/'+folder);E=ROOT/('evidence/'+folder)
+bpy.ops.wm.open_mainfile(filepath=json.loads((E/'build_receipt.json').read_text())['candidate'])
 s=bpy.context.scene;r=bpy.data.objects['ProxyHumanoid']
 registry=json.loads((E/'action_registry.json').read_text());cameras=json.loads((E/'camera_metadata.json').read_text())
 s.render.engine='CYCLES';s.cycles.device='CPU';s.cycles.samples=12;s.cycles.use_denoising=True
@@ -49,6 +49,7 @@ def qa():
         (E/(clip+'_pose17.json')).write_text(json.dumps({'convention':'17 original proxy bone heads; NOT OpenPose compatible','space':'Blender Z-up meters','fps':24,'frames':points},indent=2))
     (E/'motion_qa.json').write_text(json.dumps({'result':'STRUCTURAL_PROXY_PASS','clips':results},indent=2))
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else ['contacts']
+args=[x for x in args if x not in ('blink_hold','face_mix')]
 mode=args[0]
 if mode=='qa':qa()
 elif mode=='contacts':

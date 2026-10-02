@@ -1,0 +1,32 @@
+{
+  "jobs": {
+    "greeting_wave__waist_threequarter": {
+      "clip": "greeting_wave",
+      "camera": "waist_threequarter",
+      "variant": "natural",
+      "candidate_sha256": "7ca58c3c858dba8a2bc62a2977fcbdf3f60615a754549a4a701ecf4e7231e3c5",
+      "returncode": 0,
+      "frames": 121,
+      "elapsed_seconds": 164.2688141000108,
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_native_body_r3.py",
+        "--",
+        "video",
+        "greeting_wave",
+        "waist_threequarter",
+        "camera_r4"
+      ],
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\greeting_wave__waist_threequarter.log"
+    }
+  },
+  "candidate_sha256": "7ca58c3c858dba8a2bc62a2977fcbdf3f60615a754549a4a701ecf4e7231e3c5"
+}

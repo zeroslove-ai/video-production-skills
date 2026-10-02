@@ -1,14 +1,14 @@
 """CPU H.264 encoding, camera contacts and review HTML; no model generation."""
 from pathlib import Path
-import subprocess,json,hashlib,shutil
+import subprocess,json,hashlib,shutil,sys
 from PIL import Image,ImageDraw
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'local/acting-r2';E=ROOT/'evidence/acting-r2'
+ROOT=Path(__file__).resolve().parents[1];folder='face-mix-r4' if 'face_mix' in sys.argv else 'acting-r3-blink' if 'blink_hold' in sys.argv else 'acting-r2';OUT=ROOT/('local/'+folder);E=ROOT/('evidence/'+folder)
 FFMPEG=shutil.which('ffmpeg');FFPROBE=shutil.which('ffprobe')
 if not FFMPEG or not FFPROBE:raise RuntimeError('Use the already installed FFmpeg runtime')
 records=[];contacts=[]
 completed=json.loads((E/'render_jobs.json').read_text()) if (E/'render_jobs.json').exists() else {'jobs':{}}
 for clip in ('greeting_wave','shy_lookaway','please_tilt'):
-    for variant in ('natural','exaggerated_head','simultaneous'):
+    for variant in ('natural','exaggerated_head','simultaneous','shy_face','please_face'):
         for camera in ('full_body','waist_threequarter','face_close','hand_face','vertical'):
             d=OUT/clip/variant/camera
             if not d.exists():continue

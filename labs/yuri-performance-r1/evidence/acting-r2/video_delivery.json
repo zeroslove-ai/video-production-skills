@@ -71,6 +71,20 @@
       "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
     },
     {
+      "clip": "greeting_wave",
+      "variant": "exaggerated_head",
+      "camera": "face_close",
+      "file": "greeting_wave__exaggerated_head__face_close.mp4",
+      "sha256": "e10e9a58f2fa18164e7eb1a7894582ba408e1446f534376e847aa14b2ed5840f",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
       "clip": "shy_lookaway",
       "variant": "natural",
       "camera": "full_body",
@@ -141,6 +155,34 @@
       "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
     },
     {
+      "clip": "shy_lookaway",
+      "variant": "exaggerated_head",
+      "camera": "face_close",
+      "file": "shy_lookaway__exaggerated_head__face_close.mp4",
+      "sha256": "1ca96371c4a74510b8a4ba720e07057638aca6dbac200303f0d100456f1f08fa",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
+      "clip": "shy_lookaway",
+      "variant": "simultaneous",
+      "camera": "face_close",
+      "file": "shy_lookaway__simultaneous__face_close.mp4",
+      "sha256": "07d520f0041d908fa798087e19e9959f0aa804838be5c9688153bfff8288d86a",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
       "clip": "please_tilt",
       "variant": "natural",
       "camera": "full_body",
@@ -206,6 +248,20 @@
       "fps": 24,
       "width": 360,
       "height": 640,
+      "codec": "h264",
+      "audio": "INTENTIONALLY_SILENT",
+      "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
+    },
+    {
+      "clip": "please_tilt",
+      "variant": "exaggerated_head",
+      "camera": "face_close",
+      "file": "please_tilt__exaggerated_head__face_close.mp4",
+      "sha256": "71ed268a0857478e5f400e1c1974acf9c4012acc5e662d747d94166b9529ff69",
+      "duration_seconds": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
       "codec": "h264",
       "audio": "INTENTIONALLY_SILENT",
       "classification": "BLENDER_PROXY_REFERENCE_NOT_AI_VIDEO_NOT_YURI_3D_ANIMATION"
