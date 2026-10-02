@@ -3,6 +3,8 @@
 상태: PM review용 설계. 기준일 2026-10-02. 실제 Blender 실행·렌더·모델 추론 검증은 수행하지 않았다.
 대상: `zeroslove-ai/video-production-skills`, branch `research/previz-cinematography-r1`.
 
+이번 보완은 **촬영/visual direction/reference/shot design 70%, Blender storyboard/previz/editorial architecture 20%, future backend handoff 10%**의 우선순위로 설계한다. 코드나 GPU 실행 비율이 아니다. [R2 backlog](R2_IMPLEMENTATION_BACKLOG.md)가 최신 구현 우선순위 정본이다. 최신 main을 fetch해 `29f943115c269d64d651bd641a4718b53236be00`을 확인한 뒤 지정 브랜치를 main에서 다시 구성했다. 기존 디자인 commit만 재적용했고 [Draft PR #4](https://github.com/zeroslove-ai/video-production-skills/pull/4)의 branch/code는 포함하지 않았다.
+
 ## 범위와 소유권
 
 이 저장소는 완성된 character asset과 body/facial animation clip을 입력받아 shot, layout, camera, lighting, board, editorial을 구성한다. 모델링·리깅·retargeting·표정 생성·lip sync를 구현하지 않는다. 캐릭터/clip 호환성이 부족하면 upstream 요청과 GP placeholder를 남기며 캐릭터를 임의 교체하지 않는다. 외부 유료 video API의 호출·결제·통합, 모델 다운로드, 장시간 렌더는 R1 범위 밖이다.
@@ -16,12 +18,14 @@
 | video-production-director | production mode 선택, approved reference pack/manifest 고정, preproduction gate 라우팅 | research → brief → fresh build, tool 선택, 최종 QA |
 | video-blender-production | manifest 실행 entry point, shot scene/VSE inspect, export contract 검사 | MCP live correction, durable bpy, checkpoint, single writer |
 | video-production-qa | manifest/asset hash, cut continuity, pass alignment, OTIO loss report, character fidelity 검사 | source→state→motion→image→audio→delivery gate |
-| 별도 video-preproduction (제안) | beat → shot 후보 → GP board → 3D layout → animatic → locked manifest | render engine 운영이나 character animation 제작 없음 |
-| 별도 video-visual-reference (제안) | reference provenance, approved pack, cinematography bible와 예외 기록 | generic image generation/provider 통합 없음 |
-| 별도 video-editorial-interchange (제안) | VSE snapshot ↔ manifest ↔ OTIO, conform/loss report | 최종 인코딩은 기존 FFmpeg/Remotion 경로 재사용 |
+| 별도 video-storyboard-previz (제안) | beat → shot 후보 → GP board → 3D layout → animatic → locked manifest | render engine 운영이나 character animation 제작 없음 |
+| 별도 video-cinematography (제안) | 감정별 촬영 recipe, reference provenance/approved pack, camera/look calibration과 예외 기록 | generic image generation/provider 통합 없음 |
+| 별도 video-editorial (제안) | VSE snapshot ↔ manifest ↔ OTIO, conform/loss report | 최종 인코딩은 기존 FFmpeg/Remotion 경로 재사용 |
 | optional adapter, 아직 skill 아님 | Comfy proof bundle 변환·기록 | production routing의 필수 의존성으로 두지 않음 |
 
-새 skill의 수를 최소화하려면 초기 R2에서 editorial을 video-preproduction의 reference 문서로 두고 실제 import/export 반복이 확인된 뒤 분리한다. 위 이름들은 제안이며 R1에는 runnable skill을 설치하지 않는다.
+새 skill의 수를 최소화하려면 초기 R2에서 editorial을 video-storyboard-previz의 reference 문서로 두고 실제 import/export 반복이 확인된 뒤 분리한다. 위 이름들은 제안이며 R1에는 runnable skill을 설치하지 않는다.
+
+판단 기준: storyboard-previz는 반복되는 독립 beat→board→animatic 단계이고 다른 캐릭터 프로젝트에도 재사용된다. cinematography는 독립적인 reference/shot/look 조정 요청에 재사용되며 director에 모든 recipe를 넣으면 비대해지므로 별도 skill 후보가 적절하다. video-editorial은 재사용성은 높지만 초기 작업량이 VSE assembly 수준이면 기존 preproduction reference로 충분하다. separate visual-reference skill은 당장은 늘리지 않고 cinematography의 module로 둔다.
 
 ## 공식 기능과 설계 판단
 
@@ -46,6 +50,8 @@ flowchart LR
   I --> J[QA comparison / take decision]
 ```
 
+장기 순서: Idea/Script → Story Beat → Visual Reference → Shot Design/Cinematography → Storyboard → Blender Previz → Animatic → Editorial Approval → Final Blender Production **또는** PR #4 style generative handoff → Final Edit. handoff는 승인된 shot/editorial 뒤에 위치한다. PR #4는 RGB/depth/first-last/manifest/FFmpeg backend evidence로 보존하며 새 adapter/provider 연구로 확장하지 않는다.
+
 Manifest가 shot 의도·ID·시간·asset revision의 정본이다. Blender는 실행 결과와 아티스트 수정의 작업 상태다. 수동 VSE edit은 자동으로 manifest를 덮어쓰지 않는다. `inspect → proposed editorial diff → approved new revision → rebuild`로 되돌린다. input manifest hash와 current VSE snapshot hash가 다르면 stale export를 중단한다. ID는 순서가 바뀌어도 고정하고 take/revision을 올린다.
 
 제안 project layout (R2 생성물): `projects/<sequence_id>/inputs/`, `manifests/`, `references/`, `source/build.py`, `blend/`, `exports/<shot_id>/<revision>/`, `editorial/`, `evidence/`. library/clip은 immutable URI + SHA256으로 식별한다. R1의 `examples/previz/`는 합성 placeholder 경로만 가진 설계 fixture이며 실제 asset 증거가 아니다.
@@ -63,6 +69,12 @@ Manifest가 shot 의도·ID·시간·asset revision의 정본이다. Blender는 
 9. state QA와 start/mid/end/cut-boundary evidence, 대사 timing 검토 후 locked manifest revision과 export index를 저장한다.
 
 R2 builder는 이름 대신 stable ID custom property로 소유 객체를 추적하고 같은 manifest 재실행 시 duplicate를 만들지 않는다. 입력 asset을 수정하지 않고 project-owned scene만 업데이트하며 이전 approved checkpoint를 보존한다. 실패 시 incomplete bundle을 final로 rename하지 않는다.
+
+Storyboard는 수작업 그림 없이도 가능하도록 finished clip sample+character/environment proxy+camera frame을 기본 board로 사용하고 GP는 자동 annotation이다. Stage A script는 narrative information과 emotional response beat로 분리; Stage B board는 camera 후보 panel; Stage C previz는 composition→blocking→position→motion→timing→eyeline→transition→rough light; Stage D animatic는 audio/reaction/cut rhythm을 평가한다.
+
+Blender를 virtual camera rehearsal tool로 사용한다. 동일 shot scene의 camera candidates는 marker binding으로 전환해 비교할 수 있지만 locked delivery는 shot manifest에 선택 camera ID를 고정한다. timeline camera markers는 native switching 기능이며 UI keybinding은 editor context에 따라 다르다. [Markers](https://docs.blender.org/manual/en/latest/animation/markers.html).
+
+Workbench/Eevee viewport preview는 cheap rehearsal에 적합하나 현재 active view를 렌더하므로 camera view/overlay state를 확인한다. headless execution은 UI viewport operator와 별도 경로로 Eevee/Workbench camera render를 사용한다. [Viewport render](https://docs.blender.org/manual/en/latest/editors/3dview/viewport_render.html) (열람 latest=5.2 LTS; installed patch로 재검증). question gate: composition 좋은가 / lens가 emotion에 맞는가 / acting readable인가 / cut timing과 sequence flow가 맞는가 / face/eye appeal이 유지되는가. final material quality는 이 단계 목표가 아니다.
 
 ## Manifest 시간 규약
 
@@ -107,16 +119,6 @@ Agent는 explicit approved reference와 exception policy 내에서 변형할 수
 
 ## Recommended R2 implementation backlog
 
-| 순서 | 구현 단위 / 의존성 | 완료 조건 |
-|---|---|---|
-| P0-1 | 기존 workstation A–F 증거 확인, exact Blender/MCP pin | discovery + read/write/read/visual smoke evidence; 설치 gate와 design gate 분리 |
-| P0-2 | asset intake + semantic manifest validator | 실제 finished asset/compatible clips 1세트, 잘못된 fps/hash/range/reference 거부 |
-| P0-3 | idempotent shot builder + GP panels + VSE, P0-2 | CHARACTER_SHORT 3 shots, 두 번 실행해 동일 owned object/strip 수, source 불변 |
-| P0-4 | pass exporter + index/checksum + camera/pose samples | 3 representative frames에서 resolution/frame/mask/depth projection alignment; incomplete export 거부 |
-| P1-1 | golden look atlas + framing evaluator | 인물 얼굴과 눈 3각도·3mood review; agent exception replay 가능 |
-| P1-2 | WEB_DRAMA coverage/continuity + dialogue | 6-shot axis/eyeline/prop check, J/L-cut audio 검증 |
-| P1-3 | OTIO bridge + loss report | straight cuts/gap/audio/24000/1001 왕복 및 editor 1개 relink 증거 |
-| P1-4 | GAME_CUTSCENE engine handoff sidecar | meter/axis/focal length/clip range 변환과 gameplay return frame 검증 |
-| P2 | optional Comfy proof, 위 계약 완료 이후 | 기존 local weights 있을 때만 bounded single-shot A/B; 실패해도 Blender delivery 가능 |
+최신 [R2 backlog](R2_IMPLEMENTATION_BACKLOG.md)를 따른다. 우선순위는 finished asset intake → approved visual atlas/reference calibration → framing 후보 평가 → runtime readiness → SEQ_A camera rehearsal/animatic → SEQ_B continuity/editorial → SEQ_C gameplay return이다. 기존 backend/export 재사용은 마지막 호환성 audit에 둔다. exporter/Comfy/API 구현을 이번 R1에서 늘리지 않는다.
 
 PM 검토 요청: skill 정본 정책 수용 여부, mode별 fixture의 스토리/길이, incoming asset owner와 format, golden reference reviewer, P0 순서 승인. R1은 source/docs/JSON 검증만 완료한 design checkpoint이며 새 제작을 시작하지 않는다.

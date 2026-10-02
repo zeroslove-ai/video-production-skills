@@ -2,6 +2,8 @@
 
 2026-10-02 · contract 설계와 공식 workflow 조사. 다운로드·Comfy 실행·GPU benchmark·video provider 호출 없음. Blender animatic를 기준 결과로 유지하며 Comfy proof는 camera/identity/continuity 보장 수단으로 취급하지 않는다.
 
+Scope correction: 이 문서는 이전 R1의 minimal 조사와 export 계약을 보존하는 **future handoff 문서**다. 이번 보완에서 Comfy 구현/provider 비교/API adapter를 추가하지 않는다. [Draft PR #4](https://github.com/zeroslove-ai/video-production-skills/pull/4)의 backend experiment를 read-only 참고했으며 복사·수정·merge하지 않았다. 최종 Blender production과 generative handoff는 editorial approval 후의 선택 경로다.
+
 ## Export bundle contract
 
 project relative `exports/<shot_id>/<revision>/`. `index.json`은 manifest SHA256, asset/clip SHA256, exact Blender build/engine, preset revision, OCIO config hash, fps rational, source range/handles, resolution/pixel aspect, coordinate system, 파일별 frame/channel/color/encoding/checksum, status를 가진다. shot JSON의 `export_contract`는 요청이며 outputs 생성 증거가 아니다. R2 index schema는 별도 구현한다.
@@ -26,6 +28,12 @@ Mask는 color-ID 이미지의 색상 유사도 threshold로 얻지 않는다. Cr
 Pose JSON: source frame, entity ID, joint_map_id, world meter xyz, normalized raster xy (x right/y down), visibility/occlusion, confidence/nullability, camera revision. body/hand/face joint가 없으면 missing joint 목록. synthetic anime rig와 OpenPose topology는 같지 않으므로 upstream map 없이는 automatic conversion 금지. JSON만 available이어도 OpenPose control PNG ready로 표시하지 않는다. projection/rasterizer adapter는 R2로 남긴다.
 
 Camera metadata는 target/preset만 저장하지 않고 evaluated per-frame matrix를 저장한다. 렌즈 애니메이션/shift, render resolution, pixel aspect, sensor fit과 camera object scale도 검사한다. engine target이 없으면 Blender-native conventions만 납품한다.
+
+Optional review derivatives: `previz.mp4`, `beauty.mp4`, `clay.mp4`, normalized `depth.mp4`, `normal.mp4`, `mask.mp4`, `pose.mp4`, `edge.mp4`, `silhouette.mp4`; endpoints PNG, `camera.json`, `shot_manifest.json`. normal은 non-color XYZ 의미/space와 display mapping을 명시하고 edge/silhouette는 pose/geometry source에서 파생한다. MP4는 review/model-specific 파생물이며 raw metric depth EXR/pose JSON/mask 원본을 대체하지 않는다. frame range/fps/resolution/camera movement/lens/sensor/focus distance/DOF(enabled,fstop,focus target)는 camera sidecar에 보존한다.
+
+## PR #4 compatibility audit boundary
+
+Read-only source head `7c3d13af850ec152579183ad6bbde39515ba0f64`, report `research/blender-previz/REPORT.md`. 그 보고서의 depth는 **camera-space Z shader + display-encoded grayscale PNG**이며 본 설계의 native surface-distance float EXR과 다르다. 단위/representation/polarity/gamma를 sidecar로 구분하고 같은 depth라고 바로 교환하지 않는다. 그 PoC는81 frames/16fps=5.0625s, 새 benchmarks는24fps; endpoint간 시간과 encoded duration도 구별한다. target backend graph의 `ref_image`는 first-frame anchor를 뜻하지 않으므로 first-frame 보장으로 승격하지 않는다. 이 세 mismatch를 R2 compatibility audit로 남기며 exporter/Comfy graph를 수정하지 않는다.
 
 ## Comfy workflow 비교 (local / optional)
 

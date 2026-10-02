@@ -1,63 +1,73 @@
-# Three production mode blueprints R1
+# Production modes and benchmark sequences R1
 
-모든 sequence는 설계 fixture. 24fps, 1280×720, 16:9, straight cuts. 아래 길이는 clip availability와 대사 녹음에 맞춰 R2에서 수정한다. assets/animation은 다른 프로젝트에서 납품받는다. 단순 proxy set/prop layout은 이 repo가 담당할 수 있다.
+2026-10-02 · 설계 fixture, 실제 제작 아님. 24fps, 1280×720, square pixels, shot source origin1/edit origin0. Frame 표는 **edit 반개구간**이다. lens는 sensor36mm/HORIZONTAL 기준 시작값이고 height/angle/movement는 camera preset에 기록한다. 이전 CS01/WD01/GC01 fixture를 이번 SEQ_A/B/C로 대체했다.
 
-## Mode별 운영 계약
+## Mode별 계약
 
-| Mode | 우선 목표 | 필수 입력 | edit / delivery |
+| Mode | 목표 / coverage | Camera / editorial / lighting / references |
+|---|---|---|
+| CHARACTER_SHORT | 5–30s, establish→medium→action→CU→reaction→eye-contact→end | eye-height portrait, slow motivated motion, smile settle hold; soft/window/cozy; cute/romantic/daily |
+| WEB_DRAMA | 30s–수분, establish/master/two-shot/A-B medium/OTS/CU/reaction/insert/ending | same-axis matched gaze, locked dialogue; semantic-turn/J/L-cut; warm/cozy; dialogue/relationship/negative-space |
+| GAME_CUTSCENE | geography→entrance→hero medium→dialogue/reaction→action→heroCU→gameplay | destination/axis/root policy, readable action, explicit return anchor; hero/rim; hero/action/silhouette |
+
+완성된 character/environment/prop 및 compatible body/facial clip을 입력받는다. body/facial clip의 reference/binding/range를 별도로 pin하며 retarget/viseme/rig/animation 생성은 하지 않는다. feet/hand contact와 mouth/voice mismatch는 upstream 입력 QA다. GP proxy frame은 blocked asset을 숨기는 final 결과가 아니다.
+
+## Stage A: script → beat → shooting intention
+
+“Yuri가 침대에서 휴대폰을 본다. 메시지를 확인하고 작게 웃는다. 카메라를 바라본다.”를 action 목록으로만 쪼개지 않는다. Beat01 평범한 일상(공간/phone relation), Beat02 메시지 발견(정보), Beat03 감정 변화(반응 onset), Beat04 미소(peak/settle), Beat05 관객과 eye contact(대상 전환/ending hold)로 기록한다. supplied clip에서 이 event frame을 고른 뒤 shot/cut 길이를 결정한다.
+
+## SEQ_A — CUTE_ROOM / 12s / 5 shots
+
+Required assets: adult Yuri `CHAR_A`, finished `BODY_A_PHONE`와 compatible `FACE_A_PHONE`, `SET_ROOM_BED`, `PROP_PHONE`와 approved message display, eye/hand/head anchors. 288-frame/24fps inputs, root locked. reference pack `REF_SEQ_A_R1`은 draft; [soft portrait card](../references/cinematography/cute/REF_PORTRAIT_SOFT_01.md)의 composition 원리와 owned Yuri atlas를 적용한다. phone readable text 권한/문구는 upstream 입력.
+
+| Shot / frames / seconds | Beat | Camera / lens / composition | Look / cut intent |
 |---|---|---|---|
-| CHARACTER_SHORT | 한 인물의 readable emotional turn | A finished asset + compatible gesture/face clip, simple set | 3 shots/12s, first/last/eye frames, captions optional |
-| WEB_DRAMA | dialogue와 관계/eyeline continuity | A/B finished assets + talk/listen clips + timed voice cues, prop states | 6 shots/30s, coverage map, isolated audio tracks, J/L-cut 후보 |
-| GAME_CUTSCENE | 공간 reveal와 gameplay로 돌아가는 위치 | finished clips/root-motion policy + environment anchors + return-state | 6 shots/24s, camera samples + spatial metadata; engine import는 R2 |
+| SH010 / [0,48) / 2s | ordinary room/phone | room_candid_35 / 35mm / left-third, hands/bed 포함 | window_morning; 정보의 원인 관계 |
+| SH020 / [48,96) / 2s | message discovery | INSERT85_LOCKED / 85mm / phone center | 동일 light; text readable hold |
+| SH030 / [96,168) / 3s | smile reaction | cute_closeup_soft / 75mm / near-center eyes | eye/face gates; smile onset→peak |
+| SH040 / [168,240) / 3s | emotion→lens gaze | romantic_push_in / 75mm / near-third→target | .03m/s push, fit 유지/settle |
+| SH050 / [240,288) / 2s | eye-contact end | ending_hold / 75mm / centered | direct-camera gaze, final48f hold |
 
-시작/end action pose는 supplied clips에서 선택한다. 다른 rig에 clip을 retarget하거나 body/facial performance를 생성하지 않는다. clip이 없으면 blocking GP placeholder와 upstream request를 기록하고 final proof 생성을 보류한다.
+GP/storyboard 수작업 그림은 필수 아님: 공급 clip sample과 proxy layout/camera frame을 자동 캡처하고 eye/hand/axis/beat annotation을 얹는다. R2 첫 prototype은 start/mid/end panels+small animatic만으로 appeal/eye light/pacing을 비교한다.
 
-## CS01 — 창가의 인사 / CHARACTER_SHORT
+## SEQ_B — DIALOGUE / 30s / 12 planned coverage shots
 
-필요 assets: `CHAR_A` adult anime female finished `.blend` library, `CLIP_A_GREETING` 288 frames/24fps compatible action (idle→turn→greeting→hold, face 포함), `SET_WINDOW` meter-scale small room/window plane, optional approved greeting audio. landmarks eye_center/head/hand와 root policy=locked. fixture audio는 없음, 자막도 선택.
+Required assets: `CHAR_A/CHAR_B`, `BODY_A_DIALOGUE/BODY_B_DIALOGUE`, `FACE_A_DIALOGUE/FACE_B_DIALOGUE` 각720f/24fps, `SET_CAFE`, `PROP_NOTE`, external `A_VOICE/B_VOICE` 48kHz wav+script/cue sheet. root locked. floorplan A=(-1,0,0), B=(1,0,0), axis worldX, camera side worldY<0; A screen-left/gaze-right, B screen-right/gaze-left. actor facing/eye targets는 upstream compatible clip와 anchor로 확인한다.
 
-| Shot | Edit frame / sec | Size / lens / motion | Purpose / asset slice | Gate |
-|---|---|---|---|---|
-| CS01_SH010 | 0–96 / 4s | MS 50 / LOCKED | window와 A, clip 1–96 | head/hand safe |
-| CS01_SH020 | 96–192 / 4s | MCU 65 / PUSH_IN | turn/greeting, clip 97–192 | iris/catchlight, camera dolly |
-| CS01_SH030 | 192–288 / 4s | CU 85 / LOCKED | emotional hold, clip 193–288 | 마지막 48 frames hold 의도 검토 |
+| Shot / edit frames / sec | Coverage / intent | Camera / lens / composition |
+|---|---|---|
+| SH010 / [0,48) / 2 | Establish | environment_establishing / 24 / geography |
+| SH020 / [48,120) / 3 | Master | dialogue_master / 35 / whole acting space |
+| SH030 / [120,168) / 2 | Two shot | dialogue_master / 35 / relationship spacing |
+| SH040 / [168,240) / 3 | A medium | MS50_LOCKED / 50 / A left-third/hand-safe |
+| SH050 / [240,312) / 3 | B medium | MS50_LOCKED / 50 / B right-third/listener |
+| SH060 / [312,384) / 3 | OTS A | dialogue_ots_right / 65 / A left, B foreground |
+| SH070 / [384,456) / 3 | OTS B | dialogue_ots_left / 65 / B right, A foreground |
+| SH080 / [456,504) / 2 | A close-up | reaction_closeup / 80 / A left/decision |
+| SH090 / [504,552) / 2 | B close-up | reaction_closeup / 80 / B right |
+| SH100 / [552,600) / 2 | Listener reaction | reaction_medium / 60 / response hold |
+| SH110 / [600,648) / 2 | Insert | INSERT85_LOCKED / 85 / note OPEN, hand clip required |
+| SH120 / [648,720) / 3 | Ending two-shot | dialogue_master / 35 / relationship resolved |
 
-SOFT_DAY 동일 motivation을 유지. R2 P0 첫 smoke는 이 sequence 3 shots의 start/mid/end 9 still과 low-res animatic로 한정한다.
+warm_window_evening look을 통일한다. Synthetic cues A=[156,336), B=[336,492): A voice가 SH040 picture보다12f 앞서 시작하고(J-cut) B voice가 SH070 picture보다48f 앞서 시작한다. A voice는 SH060의 시작을 넘어24f 계속되어 L-cut placement도 검토 가능. supplied face/voice의 실제 sync는 별도 R2 gate. 12 coverage cuts는 검증용 계획이며 좋은 연출이 항상 많은 컷을 뜻하지 않는다. reference는 approved axis/OTS floorplan, A/B portrait look key, reaction timing card가 필요하다.
 
-## WD01 — 카페의 약속 / WEB_DRAMA
+## SEQ_C — GAME_REVEAL / 18s / 8 shots
 
-필요 assets: `CHAR_A`, `CHAR_B` compatible finished libraries; `CLIP_A_DIALOGUE`, `CLIP_B_DIALOGUE` 각 720 frames/24fps (seated talk/listen/response, synced face 포함); `SET_CAFE` table/chairs/window; `PROP_NOTE` 닫힘/열림 상태; `A_VOICE`, `B_VOICE` cue sheet+48kHz wav (녹음은 외부 입력). prop 손동작은 supplied clip이 책임진다.
+Required assets: `CHAR_A`, finished `BODY_A_GAME` authored-root clip 및 `FACE_A_GAME` 432f/24fps, `SET_GATE`, `PROP_BEACON`, warning voice/event cue (optional upstream), cinematic-start/gameplay-return anchor, target engine camera samples/unit/axis/FOV convention. reference `REF_SEQ_C_R1` draft, [symmetry/depth](../references/composition/symmetry/REF_ROOM_DEPTH_01.md)를 geography 원리로만 사용한다.
 
-Floorplan: A=(-1,0,0), B=(1,0,0), action axis A→B world X. camera는 world Y<0 half-space에 유지. A는 screen-left, B는 screen-right; A gaze right/B gaze left. OTS occluder는 foreground shoulder로 한정하고 눈/입을 가리지 않는다.
+| Shot / frames / sec | Beat | Camera / lens / composition |
+|---|---|---|
+| SH010 / [0,48) / 2 | Environment reveal | environment_establishing / 24 / destination visible |
+| SH020 / [48,108) / 2.5 | Entrance | character_entrance / 40 / travel into right-third |
+| SH030 / [108,156) / 2 | Hero medium | hero_medium / 50 / centered silhouette |
+| SH040 / [156,204) / 2 | Dialogue warning | dialogue_ots_right / 65 / source-of-warning target |
+| SH050 / [204,252) / 2 | Reaction | reaction_medium / 60 / readable face+gesture |
+| SH060 / [252,324) / 3 | Action beat | action_tracking / 35 / lead room/action lane |
+| SH070 / [324,372) / 2 | Hero close-up | hero_closeup / 75 / short push→settle |
+| SH080 / [372,432) / 2.5 | Gameplay transition | WS35_LOCKED / 35 / matched return anchor |
 
-| Shot | Edit frame / sec | Camera preset | Beat / clip selection | Continuity |
-|---|---|---|---|---|
-| WD01_SH010 | 0–120 / 5s | WS35_LOCKED | two-shot 관계/장소, A/B 1–120 | table/note CLOSED |
-| WD01_SH020 | 120–264 / 6s | OTS65_LOCKED | A가 약속을 설명, A/B 121–264 | B foreground, A gaze right |
-| WD01_SH030 | 264–384 / 5s | MCU65_LOCKED | B silent reaction, A/B 265–384 | B gaze left, pause 확보 |
-| WD01_SH040 | 384–504 / 5s | INSERT85_LOCKED | note OPEN, A/B 385–504 | prop transition clip 필요 |
-| WD01_SH050 | 504–624 / 5s | CU85_LOCKED | A 결심, A/B 505–624 | eyes/face identity |
-| WD01_SH060 | 624–720 / 4s | MS50_LOCKED | two-shot resolution, A/B 625–720 | 시작 axis 재확인 |
+hero_rim look을 사용하며 beacon cue는 환경 이벤트다. clip root motion은 한 번만 평가해 이중 이동을 막는다. SH080은 linear benchmark timeline의 고정 camera placeholder이며 target camera blend는 R2 sidecar/rehearsal로 구현한다. frame431의 gameplay pose/orientation/camera/focus/exposure를 입력 조건으로 검증한다. skip 시 return-state는 engine 측 책임이다.
 
-WARM_CONFESSION look을 고정. synthetic cue 계획: A voice edit `[120,264)`, B voice `[384,480)`; 실제 녹음이 없으며 fixtures는 경로/placement만 표시한다. J/L-cut은 source audio trim과 placement를 분리해서 R2에서 조정한다. 말하는 인물보다 듣는 인물에 cut하는 판단은 자동 speaker detector가 대신하지 않는다. 대사의 semantic turn과 approved pause range를 rule로 제공한다.
+## Design vs runtime acceptance
 
-## GC01 — 관문 발견 / GAME_CUTSCENE
-
-필요 assets: `CHAR_A`; `CLIP_A_GATE` 576 frames/24fps walk→stop→look→hold→return-facing (finished body/face, authored root motion); `SET_GATE` meter-scale courtyard/gate; `PROP_BEACON` emissive marker; start/end gameplay anchor와 camera convention sidecar. 캐릭터 translation은 clip root motion 한 번만 적용하며 추가 이동은 금지. fixture는 world Z up, camera local -Z forward/+Y up, gameplay engine 미지정.
-
-| Shot | Edit frame / sec | Camera preset | Beat / clip selection | Gate |
-|---|---|---|---|---|
-| GC01_SH010 | 0–96 / 4s | EWS24_LOCKED | gate geography, clip 1–96 | A와 destination 동시 가독성 |
-| GC01_SH020 | 96–192 / 4s | WS35_TRACK | approach, clip 97–192 | feet/contact는 입력 clip 평가만 |
-| GC01_SH030 | 192–288 / 4s | MS50_ORBIT | stop/reveal, clip 193–288 | orbit 20° 한도, axis 유지 |
-| GC01_SH040 | 288–384 / 4s | INSERT85_LOCKED | beacon light cue, clip 289–384 | cue frame camera metadata |
-| GC01_SH050 | 384–480 / 4s | CU85_LOCKED | reaction, clip 385–480 | supplied expression |
-| GC01_SH060 | 480–576 / 4s | WS35_LOCKED | return orientation, clip 481–576 | anchor/last-frame handoff |
-
-HERO_RIM look, beacon cue는 환경 이벤트로만 애니메이트 가능. engine conversion은 engine 이름/축/단위/vertical-vs-horizontal FOV를 확인한 뒤 수행한다. Blender beauty export를 engine-ready camera/animation이라고 표현하지 않는다. skip/branch/interactive gameplay는 R1 linear sequence model 밖이며 stable sequence/event IDs로 R2 확장한다.
-
-## PM 검토 / R2 수락 기준
-
-fixtures: `examples/previz/{CS01,WD01,GC01}.sequence.json`와 15개 Shot JSON. 자산은 placeholder, frames는 반개구간 start+duration; 표의 end는 배타적 edit end, clip 범위 설명은 inclusive이다.
-
-PM은 shot purpose/duration/mode scope를 검토하고 asset owner는 clip range/compatibility/root policy를 확인한다. Art reviewer는 look/eye/angle/pace를 승인한다. 기술 gate는 15 shot preset/reference/asset ID와 time consistency를 검사한다. 실제 production gate는 state + rendered evidence + audio/engine 검증까지 별도로 필요하다.
+`examples/previz/SEQ_*.sequence.json`와25 Shot manifests는 위 range/preset/asset intake를 formalize한다. zero hash/placeholder revision/draft review는 의도된 값이며 실재 asset이나 승인을 뜻하지 않는다. schema1.1.0은 composition, optional facial input, planned outputs, audio role/subtitle cues를 기록한다. `.blend` 자동 생성과 완전한 benchmark 제작은 R2다. PM은 beat/coverage/length, art reviewer는 appeal/look/edit rhythm, asset owner는 compatible clip/event/voice/anchor를 승인한다.

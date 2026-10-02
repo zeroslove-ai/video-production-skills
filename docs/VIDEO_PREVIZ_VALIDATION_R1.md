@@ -1,48 +1,57 @@
 # R1 design validation record
 
-2026-10-02. Windows / Python 3.13.3 / jsonschema 4.26.0. 추가 dependency 설치 없음.
-base revision `29f9431`. 브랜치 `research/previz-cinematography-r1`.
+2026-10-02. Windows / Python 3.13.3 / jsonschema 4.26.0. No dependencies installed.
+Latest fetched main/base: `29f943115c269d64d651bd641a4718b53236be00`.
+The designated branch was recreated from main; only our earlier design commit was reapplied.
+PR #4 was inspected read-only, including its branch report, and preserved as OPEN/Draft.
 
-## 실제 수행
+## Performed design checks
 
 ```powershell
 python scripts/validate_previz_design.py
 git diff --check
 ```
 
-두 JSON Schema의 draft 2020-12 meta-schema 검사 통과. 로컬 fixture 결과:
+Draft 2020-12 meta-schema and local fixture validation:
 
 ```text
-PASS CS01: 3 shots, 288 frames
-PASS GC01: 6 shots, 576 frames
-PASS WD01: 6 shots, 720 frames
-DESIGN PASS: 3 sequences / 15 shots / 13 cameras / 5 looks / 15 templates
+PASS SEQ_A: 5 shots, 288 frames
+PASS SEQ_B: 12 shots, 720 frames
+PASS SEQ_C: 8 shots, 432 frames
+DESIGN PASS: 3 sequences / 25 shots / 36 cameras / 15 looks / 25 templates
 ```
 
-Schema/semantic checks: unique IDs, shot↔sequence source/rate/resolution/mode/reference 일치,
-asset revision와 preset ID/revision, placements/subjects, compatible clip binding/root policy,
-clip availability/handles, GP panel frame bounds, depth near<far, timeline coverage,
-audio ranges/track overlap, event bounds. 모든 fixture JSON은 UTF-8로 parse된다.
+Checks cover unique IDs; shot/sequence source, rate, resolution, mode and reference agreement;
+asset/preset revisions; required camera metadata, lens/motion/light recommendations; required
+lighting components; placements/subjects; character/body/facial binding, rate and availability;
+clip handles; panel/depth bounds; exact V1 coverage; audio source/track ranges; subtitle/event bounds.
+Planned outputs are design references and do not prove artifact generation.
 
-In-memory negative probes (fixture 파일은 수정하지 않음):
+In-memory negative probes reject undeclared gaps, body/facial range overruns, nonexistent subjects,
+stale assets, incompatible character bindings and unapproved production fixtures. Schema probes reject
+unknown fields and zero duration. Explicit gap plus 24000/1001 frame semantics pass. Final probes use
+copies of SEQ_A and do not modify fixture files. This is not an OTIO runtime round-trip test.
 
-- undeclared gap, source clip overrun, nonexistent camera subject, stale asset revision 거부.
-- unapproved design fixture에 production flag를 적용했을 때 거부.
-- schema의 unknown field와 duration 0 거부.
-- explicit 12-frame gap과 24000/1001 fps로 변형한 동일 sequence의 semantic 검사 통과.
+All JSON parses, local Markdown links resolve, and staged whitespace checks pass. Final comparisons
+check that main/experimental refs and original README/skills/MCP/workstation sources remain unchanged.
+Required documents, all 23 named camera recipes, all 10 named look recipes, and benchmark durations/
+coverage are checked separately. Full benchmark production remains out of scope.
 
-이 probe들은 현재 세 CS01 shot을 복사하여 해당 필드만 변형하고 validator를 호출한 one-off 검사다.
-OTIO runtime round-trip를 수행했다는 의미가 아니다. 반복 가능한 baseline validator는 repo에 포함한다.
+## Visual source inspection
 
-기존 `skills`와 `.agents/skills`의 세 SKILL.md 파일을 각각 비교했고 동일했다. 기존 tracked
-source를 변경하지 않는다. 새 문서의 repo-relative 링크와 JSON 참조도 최종 commit 전에 확인한다.
+Three small portrait/night/interior images linked from the official Nikon article were downloaded
+and directly inspected. Total temporary bytes: 509423. Source hashes are recorded in Reference Cards;
+research copies were deleted and are not committed. Usage permission is unverified, so they remain
+research-only and cannot automatically become conditioning inputs. Observations, parameter estimates
+and proposed Yuri adaptations are separate. No camera motion or duration was inferred as an observed
+fact from a still image.
 
-## 하지 않은 검증
+## Not performed
 
-Blender binary/API compatibility, actual asset URI/hash/binding, rendered panels/animatic,
-depth/mask/pose/camera pixel alignment, reference license/approval, audio sync, engine camera
-import, OTIO adapter/editor round-trip, Comfy graph/model runtime. R1은 runtime 준비를 인증하지 않는다.
+Blender runtime/API compatibility, real asset binding, rendered boards/animatic, eye/face calibration,
+depth/mask/pose alignment, audio sync, engine camera handback, OTIO/editor round-trip, Comfy model
+execution. PR #4's reported runtime evidence is not counted as execution on this branch.
 
-공식 자료의 조사 결과와 custom design을 문서에서 구분했다. 온라인 문서는 변할 수 있으므로
-R2 구현 시 exact build, workflow/node/model revision, OCIO와 asset hashes를 다시 pin해야 한다.
-스키마 `$id` URL은 안정적인 설계 식별자이며 해당 URL에 배포했다는 의미가 아니다.
+Schema `$id` URLs are design identifiers, not hosted deployments. R2 must pin exact installed builds,
+workflow/model versions, asset hashes and OCIO configuration. Missing runtime evidence is R2 work;
+it does not make this design checkpoint a production-readiness certification.

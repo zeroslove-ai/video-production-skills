@@ -1,47 +1,55 @@
 # VIDEO_PREVIZ_CINEMATOGRAPHY_R1 — PM review
 
-2026-10-02 · design checkpoint · base `29f9431` · branch `research/previz-cinematography-r1`.
+2026-10-02 · R1 design checkpoint · branch `research/previz-cinematography-r1`.
+Base: latest fetched main `29f943115c269d64d651bd641a4718b53236be00`.
+HEAD/별도 Draft PR URL은 Git/완료 보고에서 확인한다. PR #4와 혼합하거나 merge하지 않는다.
 
-## 전달 결과
+## Core architecture
 
-제안된 5개 문서, Shot/Sequence JSON Schema 2개, preset library 3개를 추가했다. 검토 가능한 3개 sequence/15개 shot fixture와 offline design validator도 추가했다. 기존 README, production skill, `.agents` snapshot, workstation/MCP 설정은 수정하지 않았다. video provider 실행/결제/통합, model 다운로드, Blender render, character modelling/rigging/body/facial animation 구현은 수행하지 않았다.
+Idea/Script → Story Beat → Visual Reference → Shot Design/Cinematography → Storyboard → Blender Previz → Animatic → Editorial Approval → Final Blender Production 또는 existing PR #4 style handoff → Final Edit.
 
-| 산출물 | 검토 내용 |
+이번 R1은70% visual direction/cinematography/reference,20% Blender/editorial architecture,10% future handoff를 우선한다. 완성된 adult female/Yuri 캐릭터와 compatible body/facial animation/environment/prop을 입력받아 촬영/컷/연결을 결정한다. rig/topology/skin weighting/ARKit/viseme/body-facial motion/retarget를 연구하거나 구현하지 않는다.
+
+## Deliverables and findings
+
+| 문서 / data | PM가 검토할 결과 |
 |---|---|
-| [Architecture](VIDEO_PREPRODUCTION_ARCHITECTURE_R1.md) | native Blender 조사, skill 소유권, storyboard 자동화, OTIO mapping, R2 backlog |
-| [Cinematography bible](CINEMATOGRAPHY_BIBLE_STYLIZED_FEMALE_R1.md) | shot-size/lens/composition/motion, look/eye/mood, 예외 정책 |
-| [Reference system](VISUAL_REFERENCE_SYSTEM_R1.md) | identity 권한·provenance·revision·approved panel 규칙 |
-| [Mode blueprints](WEB_DRAMA_CUTSCENE_BLUEPRINT_R1.md) | CHARACTER_SHORT / WEB_DRAMA / GAME_CUTSCENE의 asset와 shot list |
-| [Previz/Comfy handoff](COMFY_PREVIZ_HANDOFF_R1.md) | beauty/clay/depth/mask/pose/first/last/camera contract, local workflow 비교 |
-| [Fixtures](../examples/previz/README.md) | 3 sequences / 15 shots, upstream placeholder 입력 |
-| [Validation](VIDEO_PREVIZ_VALIDATION_R1.md) | 수행한 검사와 runtime 미검증 경계 |
+| [Architecture](VIDEO_PREPRODUCTION_ARCHITECTURE_R1.md) | native Blender virtual camera rehearsal, no mandatory hand drawing, state/ownership gates |
+| [Cinematography bible](CINEMATOGRAPHY_BIBLE_STYLIZED_FEMALE_R1.md) |16 감정별 촬영 지침,15 appeal recipes, lens-distance/perspective/depth/eyeline/cut reasoning |
+| [Reference system](VISUAL_REFERENCE_SYSTEM_R1.md) / [3 observed cards](../references/README.md) | observation과 estimate/proposed adaptation 분리, provenance/권한/approval와 taxonomy |
+| [Lighting bible](LIGHTING_BIBLE_STYLIZED_CHARACTER_R1.md) |10 named looks, eye catchlight와 face readability 독립 QA |
+| [Editorial language](EDITORIAL_LANGUAGE_R1.md) / [pipeline](EDITORIAL_PIPELINE_R1.md) | coverage/continuity/J-L-cut/pacing, VSE/OTIO loss contract |
+| [Mode blueprint](WEB_DRAMA_CUTSCENE_BLUEPRINT_R1.md) |3 mode, story beats/assets/shot list/framing/light/timing |
+| [Future handoff](COMFY_PREVIZ_HANDOFF_R1.md) | existing backend와 depth/time/ref-image semantic mismatch audit |
+| [R2 backlog](R2_IMPLEMENTATION_BACKLOG.md) | visual atlas/reference calibration 먼저, prototype 나중 |
+| [Fixtures](../examples/previz/README.md) / [validation](VIDEO_PREVIZ_VALIDATION_R1.md) |3 sequences/25 shot designs, schema1.1.0, validator evidence |
 
-## 기존 skill에 추가 / 별도 skill
+Camera data:36 presets=13 generic + 지정된23 emotion/coverage recipes. 각 recipe는 lens range, eye-relative height, pitch/yaw, subject/headroom/DOF, motion/speed, emotion, recommended light/duration을 기록한다. Lighting data:15 looks=5 generic+10 named recipes. Shot templates25, production modes3. 수치는 초기 design hypothesis이며 rendered artistic acceptance를 주장하지 않는다.
 
-director에는 mode 선택·reference/manifest freeze·preproduction gate를 추가한다. blender-production에는 manifest builder/export entry point와 read-back를 추가한다. QA에는 continuity·pass alignment·OTIO loss·character fidelity 검사를 추가한다. 공통 research/brief/checkpoint/single-writer/QA 흐름은 기존 내용을 재사용한다.
+## Skill architecture
 
-별도 `video-preproduction`, `video-visual-reference`를 제안한다. `video-editorial-interchange`는 초기에 preproduction reference module로 구현하고 반복 운영 필요가 확인되면 분리한다. Comfy는 optional adapter로 유지한다. INSTALL의 중앙 skill 정본 `zeroslove-ai/agent-skills` 정책을 먼저 따라 R2 변경 후 compatibility snapshots를 동기화한다.
+Existing director: mode/reference/manifest freeze와 preproduction gates. Existing Blender: durable manifest 실행 entry/scene-state/export audit. Existing QA: shot continuity, independent eye/face gates, pass alignment/OTIO loss/identity evidence.
 
-## 자동화와 art judgment
+별도 `video-storyboard-previz`와 `video-cinematography`를 제안한다. 둘 다 반복 가능한 독립 단계이며 다른 캐릭터 프로젝트로 재사용되고 기존 skill 비대화를 줄인다. `video-editorial`은 초기에는 previz reference module로 두고 실제 exchange 반복이 확인되면 분리한다. reference bible은 cinematography module로 묶어 추가 skill을 남발하지 않는다. INSTALL의 중앙 skill 정본을 따라 R2 변경 후 snapshots 동기화. 이번에는 기존 skills/README/MCP/workstation 설정을 수정하지 않았다.
 
-자동화 가능: schema/ID/range/asset intake, camera 후보와 framing fit, scene/GP/VSE 구성, representative panels, proxy/cache, pass export index, camera/pose projection, OTIO straight-cut bridge, QA evidence pack.
+## Automation vs artistic judgment
 
-Human artistic judgment 필요: emotional subtext, supplied performance 선택, 얼굴/눈에 맞는 각도, lighting/color key, cut rhythm, deliberate continuity break. 이를 agent에 전달하는 방법은 approved positive/negative panel, character angle/eye atlas, beat별 pause/hold range, measurable framing tolerance, 좁은 shot/frame 예외와 reviewer decision log다. 자동 미적 점수만으로 final 승인하지 않는다.
+자동화 후보: beat/shot/coverage 제안, camera/lens 후보, character fit/eye target/headroom/thirds/focus, camera blocking/collision sampling, light preset, automatic board/cheap previz, VSE assembly/contact sheet, schema/state/visual QA. body/facial action은 공급 clip selection/placement/timing이며 재제작이 아니다.
 
-## 세 기준 sequence
+사람 판단: subtext/appeal, clip performance, look key, silence/reaction timing, deliberate asymmetry/axis break. 대체 방식: approved positive/negative cards와 golden atlas, emotion별 scoring weights/rules/preset tolerance, visual candidate 비교, 좁은 exception/reviewer decision. 미적 점수 하나로 자동 final 승인하지 않는다.
 
-| ID / mode | 길이 / shot list | 필요한 입력 |
+## Benchmarks
+
+| Benchmark | Duration / coverage | Required upstream inputs |
 |---|---|---|
-| CS01 CHARACTER_SHORT | 12s / MS establish → MCU push → CU hold | A finished asset, 288-frame greeting/face clip, window set |
-| WD01 WEB_DRAMA | 30s / master → OTS A → B reaction → note insert → A CU → two-shot | A/B finished assets, 각 720-frame synced talk/listen clip, café, note states, A/B voice cues |
-| GC01 GAME_CUTSCENE | 24s / geography → tracking → orbit reveal → beacon insert → CU → gameplay return | A finished asset, 576-frame root-motion clip, gate/beacon, gameplay return anchor |
+| SEQ_A CUTE_ROOM |12s/5: phone context→message insert→smileCU→slow push→eye-contact hold | Yuri/body-phone/facial-phone, bed-room/phone/message, eye/hand anchors |
+| SEQ_B DIALOGUE |30s/12: establish/master/two-shot/A-B medium/OTS/CU/reaction/insert/ending | A/B assets+720f body/facial clips, café/note, script/48kHz voice/cues |
+| SEQ_C GAME_REVEAL |18s/8: environment→entrance→heroMS→dialogue→reaction→action→heroCU→gameplay | character+432f authored-root/facial clips, gate/beacon, destination/engine camera/return anchors |
 
-asset revision/hash/clip binding과 reference pack은 모두 placeholder. 실제 파일이 있는 것처럼 보고하지 않는다. shot별 frame/lens/preset/gate 목록은 blueprint와 fixture에 있다.
+## PR #4 relationship / evidence limits
 
-## 구현 우선순위 / PM 판단
+[PR #4](https://github.com/zeroslove-ai/video-production-skills/pull/4)는 OPEN/Draft, head `7c3d13af850ec152579183ad6bbde39515ba0f64`로 확인했다. Report/evidence를 read-only reference로 사용했다. Background render/RGB-depth/first-last/manifest/FFmpeg/hash/ffprobe는 backend 가능성을 보여주지만 이 branch에서 재실행한 증거가 아니다. 본 R1은 그 앞단의 촬영/edit 지식을 구조화한다. Depth의 camera-Z/display encoding,16fps/81f와 새24fps의 차이, ref_image가 first-frame 보장이 아닌 점을 R2 audit에 남긴다. PR #4의 code/state를 변경하지 않는다.
 
-1. P0: 기존 workstation gate 증거와 exact Blender/MCP pin → finished asset intake/semantic validation → CS01 idempotent builder/GP/VSE → cheap pass alignment proof.
-2. P1: approved look/eye atlas → WD01 dialogue/coverage → OTIO round-trip와 target editor relink → GC01 engine convention/return-state proof.
-3. P2: 이미 설치된 local weights가 있을 때만 optional single-shot Comfy A/B. 필수 경로에 추가하지 않는다.
+Blockers: R1 design의 blocking issue는 없다. Actual media/reference approval, installed runtime readiness, engine anchors는 R2 prerequisites다. Schema/semantic validation은 render/Comfy/OTIO 실행 검증을 뜻하지 않는다. 새API adapter/Comfy implementation/model download/GPU render/유료call은 수행하지 않는다.
 
-PM은 skill 정본 정책, mode별 스토리/길이, incoming asset 담당자, reference art reviewer, P0 우선순위를 검토한다. **이번 checkpoint는 설계 검증 완료이며 실제 제작 준비 완료 판정은 아니다.** R2 runtime evidence가 남아 있다.
+Next recommended action: PM이 beat/coverage/length와 P0 visual atlas 계획을 검토하고 asset owner/art reviewer를 지정한다. approved Yuri look/reference calibration 후 bounded SEQ_A prototype으로 진행한다. 이 PR은 Draft로 유지하며 main 반영은 별도 PM 승인 후 진행한다.
