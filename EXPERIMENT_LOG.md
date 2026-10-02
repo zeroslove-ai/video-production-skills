@@ -37,7 +37,7 @@
 
 ## 2026-10-02 — R1 previs handoff (synthetic pipeline)
 - Task: Provider-neutral shot manifest, synthetic 12s package, ComfyUI/external adapter dry-run (no paid generation).
-- Repo / source revision: `zeroslove-ai/video-production-skills` @ `81c7007` (branch `work/previs-video-pipeline-r1`)
+- Repo / source revision: `zeroslove-ai/video-production-skills` @ `230625f` (branch `work/previs-video-pipeline-r1`)
 - Codex surface/version: CURSOR-1 isolated worktree worker
 - Blender version: not invoked
 - MCP revision: not invoked
