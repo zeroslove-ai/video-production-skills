@@ -1,0 +1,13 @@
+{
+  "source_sha256": "d101fa1158abadd9da763b1ba3ff1a15d81ecae9c80e4e3fd1693d5d0f42639b",
+  "frames_scanned": 12457,
+  "native_fps": 60,
+  "analysis_resolution": [
+    480,
+    270
+  ],
+  "threshold": 0.2,
+  "cut_candidate_times_seconds": [],
+  "log_sha256": "c9a3942c17171f765950c43799e2db668f0e004088b3ebf4e3ec4d8c04d8f044",
+  "command": "ffmpeg -threads4 -i reference.mp4 -an -vf scale=480:270,select=gt(scene,0.20),showinfo -f null NUL"
+}

@@ -1,0 +1,21 @@
+{
+  "estimator": "rtmw3d",
+  "frames": 480,
+  "fps": 60,
+  "source_start_seconds": 20.0,
+  "source_end_exclusive_seconds": 28.0,
+  "roi_xyxy": [
+    1380,
+    100,
+    1840,
+    1020
+  ],
+  "dancer": "white layered dress, rightmost through selected interval; appearance track, no identity attribution",
+  "elapsed_seconds": 52.23399999999674,
+  "execution": "CPU_ONLY",
+  "mirror": "faithful to displayed mirrored choreography; no input horizontal flip; inferred model anatomical labels do not establish original performer anatomical sides",
+  "raw": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\rtmw3d_raw.npz",
+  "missing_frames": 0,
+  "units": "MediaPipe XYZ hip-relative metres; RTMW3D raw XY input pixels and Z relative metres, deliberately not treated as homogeneous world coordinates",
+  "status": "RAW_ESTIMATION_COMPLETE_NOT_BENCHMARK_PASS"
+}

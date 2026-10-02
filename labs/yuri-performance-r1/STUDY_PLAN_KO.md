@@ -1,3 +1,7 @@
+## Desktop checkpoint 2026-10-02: dance6sec
+
+실제 MediaPipe / RTMW3D / MediaPipe2D+MotionBERT를 CPU 비교했다. 3 Blender/GLB와 전체1x 비교 영상은 생성·재임포트 검증됐으나 정확도 gate는 FAIL이다. 상세/재현/실패/최신 후보는 [DANCE_BENCHMARK_R1_KO.md](DANCE_BENCHMARK_R1_KO.md)에 있다. Source/model/video는 Git 제외. native5camera15영상, same-body proxy face/gaze3영상도 완료했다. 실제 R2 A/O face acceptance는 FAIL을 유지한다. GPU PRODUCT_EXCLUSIVE, product/laptop/main은 보존한다.
+
 # 영상·연기 연구를 실제 자산으로 남기는 순서
 
 ## 1. 두 결과물을 분리한다

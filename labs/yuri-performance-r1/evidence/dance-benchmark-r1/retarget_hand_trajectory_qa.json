@@ -1,0 +1,77 @@
+[
+  {
+    "method": "mediapipe",
+    "frames": 360,
+    "projection": "one all-frame isotropic orthographic fit to shoulders/hips, no per-frame alignment",
+    "scope": "retarget wrist vs estimator2D observations; independent sparse manual audit is separate; unknown perspective and body proportions affect metric",
+    "scale_px_per_m": 381.96752549551576,
+    "translation_px": [
+      1580.9725255543826,
+      849.0604105887819
+    ],
+    "wrist_trajectories": [
+      {
+        "side": "L",
+        "mean_error_px": 45.17571289695924,
+        "p95_error_px": 68.45112294435332,
+        "maximum_error_px": 131.30878344021477
+      },
+      {
+        "side": "R",
+        "mean_error_px": 28.79320803938969,
+        "p95_error_px": 51.837150193767236,
+        "maximum_error_px": 200.54943609905968
+      }
+    ]
+  },
+  {
+    "method": "rtmw3d",
+    "frames": 360,
+    "projection": "one all-frame isotropic orthographic fit to shoulders/hips, no per-frame alignment",
+    "scope": "retarget wrist vs estimator2D observations; independent sparse manual audit is separate; unknown perspective and body proportions affect metric",
+    "scale_px_per_m": 394.76258013517923,
+    "translation_px": [
+      1583.8420494476397,
+      884.6653639702657
+    ],
+    "wrist_trajectories": [
+      {
+        "side": "L",
+        "mean_error_px": 31.824812116460933,
+        "p95_error_px": 78.55086108146669,
+        "maximum_error_px": 134.65529338352405
+      },
+      {
+        "side": "R",
+        "mean_error_px": 45.98559096413418,
+        "p95_error_px": 130.80374470805523,
+        "maximum_error_px": 224.9150557302932
+      }
+    ]
+  },
+  {
+    "method": "motionbert",
+    "frames": 360,
+    "projection": "one all-frame isotropic orthographic fit to shoulders/hips, no per-frame alignment",
+    "scope": "retarget wrist vs estimator2D observations; independent sparse manual audit is separate; unknown perspective and body proportions affect metric",
+    "scale_px_per_m": 384.48507818947286,
+    "translation_px": [
+      1582.733573090873,
+      851.4544257084408
+    ],
+    "wrist_trajectories": [
+      {
+        "side": "L",
+        "mean_error_px": 30.709899142159863,
+        "p95_error_px": 57.310768337360955,
+        "maximum_error_px": 101.52870648762969
+      },
+      {
+        "side": "R",
+        "mean_error_px": 64.12504884573536,
+        "p95_error_px": 167.14956262475272,
+        "maximum_error_px": 298.0671808953954
+      }
+    ]
+  }
+]

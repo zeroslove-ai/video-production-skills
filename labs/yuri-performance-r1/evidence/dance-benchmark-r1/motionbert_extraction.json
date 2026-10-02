@@ -1,0 +1,42 @@
+{
+  "estimator": "MediaPipe2D + MotionBERT-Lite temporal3D",
+  "source_code": "https://github.com/Walter0807/MotionBERT",
+  "checkpoint_url": "https://huggingface.co/walterzhu/MotionBERT/resolve/main/checkpoint/pose3d/FT_MB_lite_MB_ft_h36m_global_lite/best_epoch.bin",
+  "checkpoint_bytes": 64099897,
+  "checkpoint_sha256": "9811155371db4ca5d20f31a36a232d41012e12e1333882888a564d741861148f",
+  "source_files": [
+    {
+      "name": "lib/model/DSTformer.py",
+      "sha256": "0896b29872b10f55be8902ceceacb9febe7876fa2065d5f9dd670fbb902f2f47"
+    },
+    {
+      "name": "lib/model/drop.py",
+      "sha256": "44b1af7912ae46c62c5b74712dae31697afc697e788c8dd9c5050602a2397173"
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "045ee95b545fb51f5c6e28e1a50644fe618f6278f3c8720852c6fe96f53b472f"
+    },
+    {
+      "name": "configs/pose3d/MB_ft_h36m_global_lite.yaml",
+      "sha256": "672bb3ae05e89966acfbf395d601c7a22df0d2c038942d8ac0e585bce23dc8da"
+    }
+  ],
+  "code_license": "Apache2.0, retained in ignored source cache",
+  "torch_version": "2.10.0+cu130",
+  "device": "CPU_ONLY",
+  "cuda_initialized": false,
+  "inference_seconds": 1.0310000000172295,
+  "body_input": "same selected dancer, MediaPipe2D; syntheticH36Mhead-top fromnose/shoulders; no AlphaPose model downloaded",
+  "fps_input_to_lifter": 30,
+  "fps_output_interpolated": 60,
+  "source_interval": [
+    20,
+    26
+  ],
+  "flip_augmentation": true,
+  "root": "hip-relative, reconstructed with same explicitly assumed camera/scale; no world-root claim",
+  "foot_landmarks": "heel/toe offsets inherited fromMediaPipe; temporal body model does not observe toes",
+  "head_face": "2Droll inherited, no face expression mapping",
+  "status": "THIRD_ACTUAL_EXTRACTION_COMPLETE_NOT_ACCURACY_PASS"
+}

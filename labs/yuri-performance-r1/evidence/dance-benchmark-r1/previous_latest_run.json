@@ -1,15 +1,15 @@
 {
-  "run_id": "desktop-dance-benchmark-r1-20261002",
-  "time_utc": "2026-10-02T13:17:57.483872+00:00",
+  "run_id": "yuri-performance-r1-acting-r2-20261002",
+  "time_utc": "2026-10-02T11:40:09Z",
   "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1",
   "branch": "research/yuri-performance-previs-r1-20261002",
-  "source_revision": "108b915",
+  "source_revision": "f5752b7",
   "previous_run_receipt": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\acting-r2\\previous_latest_run_r1.json",
-  "latest_run_directory": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1",
-  "blender_file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\motionbert_DANCE_R1.blend",
-  "candidate_sha256": "a11935c63f52c3c1d62c7230da7836bb28b7f78cbc8f35caf0165cb77c4b636e",
-  "review_html": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\REVIEW_DANCE_R1.html",
-  "result": "DESKTOP_RESEARCH_CHECKPOINT_DANCE_ACCURACY_FAIL",
+  "latest_run_directory": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2",
+  "blender_file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\YURI_PERFORMANCE_ACTING_R2.blend",
+  "candidate_sha256": "0dd6ecc1335691f05c35a88439c04fcb1ed18dde1d972eedd6ec5fbe494ccc88",
+  "review_html": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\acting-r2\\REVIEW_ACTING_R2.html",
+  "result": "DESKTOP_RESEARCH_IN_PROGRESS",
   "semantic_base_recipes": 3,
   "approved_actual_yuri_performances": 0,
   "planned_catalog_count": 48,
@@ -23,8 +23,8 @@
   "product_repos_changed": false,
   "main_merged": false,
   "laptop_work_changed": false,
-  "next_bounded_task": "Same6sec perspective-aware reprojection optimization and independent contact/hand/beat audit; compare GVHMR world motion after owner resolves GPU lease and licensed SMPL setup. No chorus extension before PASS.",
-  "research_horizon": "Approximately4hour Desktop checkpoint; failed candidates and reusable workflows preserved, no accurate-dance completion claim.",
+  "next_bounded_task": "Complete selected native five-camera CPU references and independent proxy face/gaze composition proof, then score normal-speed playback and package reproducible recipes.",
+  "research_horizon": "User requested approximately 4\u20138 hours; active goal, not declared complete at this checkpoint.",
   "native_body_reference": {
     "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\R2_NATIVE_BODY_TIMING_R3.blend",
     "sha256": "6060807270a5ecaf4b860dcba6cbb579c55251f74a7e65a4be0fb26c2bc5f0a0",
@@ -89,17 +89,5 @@
     }
   },
   "comfy_video_roundtrip": "CPU_CORE_PASS; 24fps/5s/120frames; SSIM .993819; no models loaded",
-  "wan_backend_graph_validation": "T2V_AND_FIRST_FRAME_PASS; execution/model benefit UNTESTED",
-  "dance_actual_cpu_candidates": 3,
-  "dance_independent_2d_detectors": 2,
-  "dance_interval_seconds": [
-    20,
-    26
-  ],
-  "dance_accuracy_gate": "FAIL",
-  "dance_report": "DANCE_BENCHMARK_R1_KO.md",
-  "native_five_camera_cpu_videos": 15,
-  "proxy_same_body_face_gaze_videos": 3,
-  "pose_model_cpu_inference_candidates": 3,
-  "native_face_A_O": "FAIL: semantic proxy faces only"
+  "wan_backend_graph_validation": "T2V_AND_FIRST_FRAME_PASS; execution/model benefit UNTESTED"
 }

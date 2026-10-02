@@ -1,0 +1,616 @@
+{
+  "source_candidate_sha256": "7ca58c3c858dba8a2bc62a2977fcbdf3f60615a754549a4a701ecf4e7231e3c5",
+  "source_frame": 49,
+  "original_66_actions_skin_rest_rig_changes": 0,
+  "cases": [
+    {
+      "side": "R",
+      "case": "open",
+      "degrees_per_joint": 0,
+      "axis_local": {
+        "J_Bip_R_Index1": [
+          -0.21846416592597961,
+          -1.1920928955078125e-07,
+          0.9758449792861938
+        ],
+        "J_Bip_R_Index2": [
+          -0.5072576403617859,
+          1.4901161193847656e-08,
+          0.8617942929267883
+        ],
+        "J_Bip_R_Index3": [
+          -0.507256805896759,
+          -8.940696716308594e-08,
+          0.8617949485778809
+        ],
+        "J_Bip_R_Middle1": [
+          0.6479891538619995,
+          -1.4901161193847656e-08,
+          0.7616499662399292
+        ],
+        "J_Bip_R_Middle2": [
+          0.7646568417549133,
+          -1.4901161193847656e-07,
+          -0.6444377303123474
+        ],
+        "J_Bip_R_Middle3": [
+          0.764643669128418,
+          -1.341104507446289e-07,
+          -0.6444531083106995
+        ],
+        "J_Bip_R_Ring1": [
+          -0.9703081846237183,
+          1.4901161193847656e-08,
+          -0.24187152087688446
+        ],
+        "J_Bip_R_Ring2": [
+          -0.9696006774902344,
+          2.2351741790771484e-08,
+          -0.2446926236152649
+        ],
+        "J_Bip_R_Ring3": [
+          -0.969601035118103,
+          3.725290298461914e-09,
+          -0.24469146132469177
+        ],
+        "J_Bip_R_Little1": [
+          -0.9975001811981201,
+          1.4901161193847656e-08,
+          -0.07066361606121063
+        ],
+        "J_Bip_R_Little2": [
+          -0.9999773502349854,
+          5.587935447692871e-09,
+          0.006746375933289528
+        ],
+        "J_Bip_R_Little3": [
+          -0.9999772310256958,
+          7.450580596923828e-09,
+          0.006745699793100357
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": 0.0,
+        "Middle": 0.0,
+        "Ring": 0.0,
+        "Little": 0.0
+      },
+      "all_four_fingers_bend_toward_palm": null,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\R__open.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    },
+    {
+      "side": "R",
+      "case": "naive_x_15",
+      "degrees_per_joint": 15,
+      "axis_local": {
+        "J_Bip_R_Index1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Index2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Index3": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Middle1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Middle2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Middle3": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Ring1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Ring2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Ring3": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Little1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Little2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_R_Little3": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": -0.007343172426807529,
+        "Middle": 0.016072407433436197,
+        "Ring": -0.017684027561933657,
+        "Little": -0.014233134541520516
+      },
+      "all_four_fingers_bend_toward_palm": false,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\R__naive_x_15.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    },
+    {
+      "side": "R",
+      "case": "palm_plane_15",
+      "degrees_per_joint": 15,
+      "axis_local": {
+        "J_Bip_R_Index1": [
+          -0.21846416592597961,
+          -1.1920928955078125e-07,
+          0.9758449792861938
+        ],
+        "J_Bip_R_Index2": [
+          -0.5168432593345642,
+          -2.682209014892578e-07,
+          0.8560797572135925
+        ],
+        "J_Bip_R_Index3": [
+          -0.5168426036834717,
+          1.341104507446289e-07,
+          0.8560805320739746
+        ],
+        "J_Bip_R_Middle1": [
+          0.6479891538619995,
+          -1.4901161193847656e-08,
+          0.7616499662399292
+        ],
+        "J_Bip_R_Middle2": [
+          0.7563762068748474,
+          4.470348358154297e-08,
+          -0.6541370153427124
+        ],
+        "J_Bip_R_Middle3": [
+          0.7563653588294983,
+          5.960464477539063e-08,
+          -0.6541489958763123
+        ],
+        "J_Bip_R_Ring1": [
+          -0.9703081846237183,
+          1.4901161193847656e-08,
+          -0.24187152087688446
+        ],
+        "J_Bip_R_Ring2": [
+          -0.9707622528076172,
+          -5.587935447692871e-08,
+          -0.24004295468330383
+        ],
+        "J_Bip_R_Ring3": [
+          -0.970761775970459,
+          -2.9802322387695312e-08,
+          -0.2400449812412262
+        ],
+        "J_Bip_R_Little1": [
+          -0.9975001811981201,
+          1.4901161193847656e-08,
+          -0.07066361606121063
+        ],
+        "J_Bip_R_Little2": [
+          -0.9999996423721313,
+          2.2351741790771484e-08,
+          0.0005358308553695679
+        ],
+        "J_Bip_R_Little3": [
+          -0.9999999403953552,
+          0.0,
+          0.0005365908145904541
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": 0.01854598525638341,
+        "Middle": 0.022534817515391,
+        "Ring": 0.020211279435606636,
+        "Little": 0.016474537571013137
+      },
+      "all_four_fingers_bend_toward_palm": true,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\R__palm_plane_15.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    },
+    {
+      "side": "R",
+      "case": "palm_plane_25",
+      "degrees_per_joint": 25,
+      "axis_local": {
+        "J_Bip_R_Index1": [
+          -0.21846416592597961,
+          -1.1920928955078125e-07,
+          0.9758449792861938
+        ],
+        "J_Bip_R_Index2": [
+          -0.524135172367096,
+          1.1920928955078125e-07,
+          0.8516354560852051
+        ],
+        "J_Bip_R_Index3": [
+          -0.5241343975067139,
+          -5.960464477539063e-08,
+          0.8516354560852051
+        ],
+        "J_Bip_R_Middle1": [
+          0.6479891538619995,
+          -1.4901161193847656e-08,
+          0.7616499662399292
+        ],
+        "J_Bip_R_Middle2": [
+          0.7503591775894165,
+          2.9802322387695312e-08,
+          -0.6610304117202759
+        ],
+        "J_Bip_R_Middle3": [
+          0.7503513097763062,
+          0.0,
+          -0.6610393524169922
+        ],
+        "J_Bip_R_Ring1": [
+          -0.9703081846237183,
+          1.4901161193847656e-08,
+          -0.24187152087688446
+        ],
+        "J_Bip_R_Ring2": [
+          -0.9715489149093628,
+          0.0,
+          -0.23683926463127136
+        ],
+        "J_Bip_R_Ring3": [
+          -0.9715476632118225,
+          -7.450580596923828e-09,
+          -0.2368440479040146
+        ],
+        "J_Bip_R_Little1": [
+          -0.9975001811981201,
+          1.4901161193847656e-08,
+          -0.07066361606121063
+        ],
+        "J_Bip_R_Little2": [
+          -0.9999935626983643,
+          2.60770320892334e-08,
+          -0.003603588789701462
+        ],
+        "J_Bip_R_Little3": [
+          -0.9999933242797852,
+          1.6763806343078613e-08,
+          -0.0036016814410686493
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": 0.02685736127810802,
+        "Middle": 0.03369304554642085,
+        "Ring": 0.030849307938729323,
+        "Little": 0.025575824209789672
+      },
+      "all_four_fingers_bend_toward_palm": true,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\R__palm_plane_25.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    },
+    {
+      "side": "L",
+      "case": "open",
+      "degrees_per_joint": 0,
+      "axis_local": {
+        "J_Bip_L_Index1": [
+          0.9998423457145691,
+          -8.940696716308594e-08,
+          0.01776304841041565
+        ],
+        "J_Bip_L_Index2": [
+          0.9998207688331604,
+          -2.9802322387695312e-08,
+          0.018938720226287842
+        ],
+        "J_Bip_L_Index3": [
+          0.9998195171356201,
+          -2.9802322387695312e-08,
+          0.019001662731170654
+        ],
+        "J_Bip_L_Middle1": [
+          0.9999992251396179,
+          -1.1920928955078125e-07,
+          0.0011584460735321045
+        ],
+        "J_Bip_L_Middle2": [
+          0.9999997615814209,
+          -5.960464477539063e-08,
+          9.834766387939453e-05
+        ],
+        "J_Bip_L_Middle3": [
+          0.9999998807907104,
+          -1.1920928955078125e-07,
+          0.00010602176189422607
+        ],
+        "J_Bip_L_Ring1": [
+          0.9999147653579712,
+          1.1920928955078125e-07,
+          -0.013063475489616394
+        ],
+        "J_Bip_L_Ring2": [
+          0.9998699426651001,
+          2.9802322387695312e-08,
+          -0.016131654381752014
+        ],
+        "J_Bip_L_Ring3": [
+          0.9998700618743896,
+          2.9802322387695312e-08,
+          -0.01613171398639679
+        ],
+        "J_Bip_L_Little1": [
+          0.9999427199363708,
+          8.940696716308594e-08,
+          -0.010691314935684204
+        ],
+        "J_Bip_L_Little2": [
+          0.9997970461845398,
+          5.960464477539063e-08,
+          -0.020141705870628357
+        ],
+        "J_Bip_L_Little3": [
+          0.9997971653938293,
+          0.0,
+          -0.020141735672950745
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": 0.0,
+        "Middle": 0.0,
+        "Ring": 0.0,
+        "Little": 0.0
+      },
+      "all_four_fingers_bend_toward_palm": null,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\L__open.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    },
+    {
+      "side": "L",
+      "case": "naive_x_15",
+      "degrees_per_joint": 15,
+      "axis_local": {
+        "J_Bip_L_Index1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Index2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Index3": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Middle1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Middle2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Middle3": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Ring1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Ring2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Ring3": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Little1": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Little2": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "J_Bip_L_Little3": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": 0.01912920744598523,
+        "Middle": 0.022944156572918928,
+        "Ring": 0.019973476924747047,
+        "Little": 0.016321711520049575
+      },
+      "all_four_fingers_bend_toward_palm": true,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\L__naive_x_15.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    },
+    {
+      "side": "L",
+      "case": "palm_plane_15",
+      "degrees_per_joint": 15,
+      "axis_local": {
+        "J_Bip_L_Index1": [
+          0.9998423457145691,
+          -8.940696716308594e-08,
+          0.01776304841041565
+        ],
+        "J_Bip_L_Index2": [
+          0.9997228384017944,
+          -2.9802322387695312e-08,
+          0.023546621203422546
+        ],
+        "J_Bip_L_Index3": [
+          0.999721348285675,
+          8.940696716308594e-08,
+          0.023611366748809814
+        ],
+        "J_Bip_L_Middle1": [
+          0.9999992251396179,
+          -1.1920928955078125e-07,
+          0.0011584460735321045
+        ],
+        "J_Bip_L_Middle2": [
+          1.0,
+          -8.940696716308594e-08,
+          7.805228233337402e-05
+        ],
+        "J_Bip_L_Middle3": [
+          0.9999999403953552,
+          -8.940696716308594e-08,
+          8.574128150939941e-05
+        ],
+        "J_Bip_L_Ring1": [
+          0.9999147653579712,
+          1.1920928955078125e-07,
+          -0.013063475489616394
+        ],
+        "J_Bip_L_Ring2": [
+          0.9995772838592529,
+          8.940696716308594e-08,
+          -0.029075145721435547
+        ],
+        "J_Bip_L_Ring3": [
+          0.9995771646499634,
+          -2.9802322387695312e-08,
+          -0.02907586097717285
+        ],
+        "J_Bip_L_Little1": [
+          0.9999427199363708,
+          8.940696716308594e-08,
+          -0.010691314935684204
+        ],
+        "J_Bip_L_Little2": [
+          0.9997411370277405,
+          2.9802322387695312e-08,
+          -0.02275627851486206
+        ],
+        "J_Bip_L_Little3": [
+          0.9997411370277405,
+          5.960464477539063e-08,
+          -0.02275606244802475
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": 0.01913381246481549,
+        "Middle": 0.02294415208712053,
+        "Ring": 0.019979209255097885,
+        "Little": 0.01632427378740431
+      },
+      "all_four_fingers_bend_toward_palm": true,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\L__palm_plane_15.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    },
+    {
+      "side": "L",
+      "case": "palm_plane_25",
+      "degrees_per_joint": 25,
+      "axis_local": {
+        "J_Bip_L_Index1": [
+          0.9998423457145691,
+          -8.940696716308594e-08,
+          0.01776304841041565
+        ],
+        "J_Bip_L_Index2": [
+          0.9996336102485657,
+          0.0,
+          0.027072131633758545
+        ],
+        "J_Bip_L_Index3": [
+          0.9996315240859985,
+          -1.1920928955078125e-07,
+          0.027138762176036835
+        ],
+        "J_Bip_L_Middle1": [
+          0.9999992251396179,
+          -1.1920928955078125e-07,
+          0.0011584460735321045
+        ],
+        "J_Bip_L_Middle2": [
+          1.0,
+          -1.4901161193847656e-07,
+          6.268918514251709e-05
+        ],
+        "J_Bip_L_Middle3": [
+          1.0,
+          -8.940696716308594e-08,
+          7.040798664093018e-05
+        ],
+        "J_Bip_L_Ring1": [
+          0.9999147653579712,
+          1.1920928955078125e-07,
+          -0.013063475489616394
+        ],
+        "J_Bip_L_Ring2": [
+          0.9992468357086182,
+          -2.9802322387695312e-08,
+          -0.0388018935918808
+        ],
+        "J_Bip_L_Ring3": [
+          0.9992468357086182,
+          -8.940696716308594e-08,
+          -0.038803327828645706
+        ],
+        "J_Bip_L_Little1": [
+          0.9999427199363708,
+          8.940696716308594e-08,
+          -0.010691314935684204
+        ],
+        "J_Bip_L_Little2": [
+          0.9996948838233948,
+          0.0,
+          -0.02470088005065918
+        ],
+        "J_Bip_L_Little3": [
+          0.9996949434280396,
+          0.0,
+          -0.024700423702597618
+        ]
+      },
+      "fingertip_displacement_toward_palm_m": {
+        "Index": 0.02768697592546232,
+        "Middle": 0.03329089812575603,
+        "Ring": 0.029169573551371286,
+        "Little": 0.02406466765114601
+      },
+      "all_four_fingers_bend_toward_palm": true,
+      "image": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\finger-calibration-r4\\L__palm_plane_25.png",
+      "thumb": "unchanged; no opposition/contact gesture claim"
+    }
+  ],
+  "scope": "axis calibration reference only; no finger-heart/new signature completion"
+}

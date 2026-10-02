@@ -1,0 +1,1241 @@
+{
+  "method": "rtmw3d",
+  "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\rtmw3d_DANCE_R1.blend",
+  "candidate_sha256": "6280c414dc1d620b7f02b62286b0acb61bbab09028f18aea54c226630eaa88a8",
+  "source_proxy_sha256": "271b0fdd060810ae133e5604869976382a2df9ca0af0c863854daffd0ff75c32",
+  "rights": "existing original procedural laboratory proxy; source performer likeness not recreated",
+  "body_only": true,
+  "frames": 360,
+  "fps": 60,
+  "retarget": "joint-position normalization, individual upper/lower arm lengths, target shoulder/hip widths; positional arm reconstruction and contact-goal leg IK; parallel-transported twist, hemisphere-continuous baking",
+  "hip_height_normalization_scale": 0.9618269437559902,
+  "arm_length_ratios": {
+    "armL": 1.0838112443217691,
+    "armR": 1.062705527924209
+  },
+  "target_shoulder_width_m": 0.4,
+  "target_hip_width_m": 0.2,
+  "max_reach_clamp_m": 0.1018993374678786,
+  "max_bone_scale_error": 1.3113021850585938e-06,
+  "ambiguous_axial_roll_repairs": 3590,
+  "foot_depth_heading_constraint": "front-facing segment only; preserve lateral toe heading, constrain forward Y and floor slope; original depth unresolved",
+  "floor_constraints": "source foot targets already contact-corrected; IK reach clamp can invalidate contact; downstream QA required",
+  "status": "RECONSTRUCTION_CANDIDATE_NOT_ACCURACY_PASS",
+  "direction_outlier_repairs": [
+    {
+      "frame": 8,
+      "segment": "Rlower",
+      "raw_step_deg": 24.441469944864618
+    },
+    {
+      "frame": 9,
+      "segment": "Rlower",
+      "raw_step_deg": 21.79336120742107
+    },
+    {
+      "frame": 12,
+      "segment": "Rlower",
+      "raw_step_deg": 21.002614839283062
+    },
+    {
+      "frame": 13,
+      "segment": "Rlower",
+      "raw_step_deg": 23.42998040048826
+    },
+    {
+      "frame": 14,
+      "segment": "Rlower",
+      "raw_step_deg": 24.042621048281724
+    },
+    {
+      "frame": 15,
+      "segment": "Rlower",
+      "raw_step_deg": 20.624582651743072
+    },
+    {
+      "frame": 21,
+      "segment": "Rlower",
+      "raw_step_deg": 24.351531721421182
+    },
+    {
+      "frame": 22,
+      "segment": "Rlower",
+      "raw_step_deg": 27.836722830332107
+    },
+    {
+      "frame": 23,
+      "segment": "Rlower",
+      "raw_step_deg": 32.5827856430476
+    },
+    {
+      "frame": 24,
+      "segment": "Rlower",
+      "raw_step_deg": 36.709292241434994
+    },
+    {
+      "frame": 25,
+      "segment": "Rlower",
+      "raw_step_deg": 29.794774140834683
+    },
+    {
+      "frame": 27,
+      "segment": "Rlower",
+      "raw_step_deg": 30.24732198467222
+    },
+    {
+      "frame": 28,
+      "segment": "Rlower",
+      "raw_step_deg": 41.58546674274465
+    },
+    {
+      "frame": 29,
+      "segment": "Rlower",
+      "raw_step_deg": 34.45351640010615
+    },
+    {
+      "frame": 30,
+      "segment": "Rlower",
+      "raw_step_deg": 29.707006210000017
+    },
+    {
+      "frame": 31,
+      "segment": "Rlower",
+      "raw_step_deg": 23.637959660715147
+    },
+    {
+      "frame": 35,
+      "segment": "Rlower",
+      "raw_step_deg": 23.630548905465684
+    },
+    {
+      "frame": 36,
+      "segment": "Rlower",
+      "raw_step_deg": 23.932222993179515
+    },
+    {
+      "frame": 43,
+      "segment": "Rlower",
+      "raw_step_deg": 21.270129443410365
+    },
+    {
+      "frame": 44,
+      "segment": "Llower",
+      "raw_step_deg": 29.778309969840368
+    },
+    {
+      "frame": 44,
+      "segment": "Rlower",
+      "raw_step_deg": 33.036381920922736
+    },
+    {
+      "frame": 45,
+      "segment": "Llower",
+      "raw_step_deg": 31.56717407950714
+    },
+    {
+      "frame": 45,
+      "segment": "Rupper",
+      "raw_step_deg": 25.122253682460006
+    },
+    {
+      "frame": 45,
+      "segment": "Rlower",
+      "raw_step_deg": 42.76367778966643
+    },
+    {
+      "frame": 46,
+      "segment": "Llower",
+      "raw_step_deg": 32.40744444176962
+    },
+    {
+      "frame": 46,
+      "segment": "Rupper",
+      "raw_step_deg": 24.441594595816973
+    },
+    {
+      "frame": 46,
+      "segment": "Rlower",
+      "raw_step_deg": 41.09631591514501
+    },
+    {
+      "frame": 47,
+      "segment": "Llower",
+      "raw_step_deg": 40.68019347015116
+    },
+    {
+      "frame": 47,
+      "segment": "Rlower",
+      "raw_step_deg": 32.740235163794736
+    },
+    {
+      "frame": 48,
+      "segment": "Llower",
+      "raw_step_deg": 36.16317763615746
+    },
+    {
+      "frame": 48,
+      "segment": "Rlower",
+      "raw_step_deg": 20.92732566406201
+    },
+    {
+      "frame": 49,
+      "segment": "Llower",
+      "raw_step_deg": 126.44013406619588
+    },
+    {
+      "frame": 50,
+      "segment": "Llower",
+      "raw_step_deg": 90.64325606013163
+    },
+    {
+      "frame": 51,
+      "segment": "Llower",
+      "raw_step_deg": 82.88894912560532
+    },
+    {
+      "frame": 52,
+      "segment": "Llower",
+      "raw_step_deg": 41.4316884486764
+    },
+    {
+      "frame": 53,
+      "segment": "Llower",
+      "raw_step_deg": 30.490008851166525
+    },
+    {
+      "frame": 54,
+      "segment": "Llower",
+      "raw_step_deg": 29.518465668150988
+    },
+    {
+      "frame": 55,
+      "segment": "Llower",
+      "raw_step_deg": 80.13809726757185
+    },
+    {
+      "frame": 55,
+      "segment": "Rupper",
+      "raw_step_deg": 20.557298458229276
+    },
+    {
+      "frame": 55,
+      "segment": "Rlower",
+      "raw_step_deg": 22.22548166299839
+    },
+    {
+      "frame": 56,
+      "segment": "Llower",
+      "raw_step_deg": 64.09046535978935
+    },
+    {
+      "frame": 57,
+      "segment": "Llower",
+      "raw_step_deg": 97.07490369207413
+    },
+    {
+      "frame": 58,
+      "segment": "Llower",
+      "raw_step_deg": 96.85280643083283
+    },
+    {
+      "frame": 59,
+      "segment": "Rlower",
+      "raw_step_deg": 27.6818414607129
+    },
+    {
+      "frame": 60,
+      "segment": "Rlower",
+      "raw_step_deg": 46.90205525683131
+    },
+    {
+      "frame": 61,
+      "segment": "Llower",
+      "raw_step_deg": 116.7730804659317
+    },
+    {
+      "frame": 61,
+      "segment": "Rlower",
+      "raw_step_deg": 49.457280251751854
+    },
+    {
+      "frame": 62,
+      "segment": "Llower",
+      "raw_step_deg": 135.47408377191326
+    },
+    {
+      "frame": 62,
+      "segment": "Rlower",
+      "raw_step_deg": 28.262704653392877
+    },
+    {
+      "frame": 63,
+      "segment": "Llower",
+      "raw_step_deg": 114.73579896105697
+    },
+    {
+      "frame": 64,
+      "segment": "Llower",
+      "raw_step_deg": 92.21563390896026
+    },
+    {
+      "frame": 65,
+      "segment": "Llower",
+      "raw_step_deg": 76.81772374597521
+    },
+    {
+      "frame": 66,
+      "segment": "Llower",
+      "raw_step_deg": 70.96078189117593
+    },
+    {
+      "frame": 67,
+      "segment": "Llower",
+      "raw_step_deg": 63.75414684505792
+    },
+    {
+      "frame": 68,
+      "segment": "Llower",
+      "raw_step_deg": 51.285742383131776
+    },
+    {
+      "frame": 68,
+      "segment": "Rlower",
+      "raw_step_deg": 26.767883602589738
+    },
+    {
+      "frame": 69,
+      "segment": "Llower",
+      "raw_step_deg": 32.05122958598594
+    },
+    {
+      "frame": 69,
+      "segment": "Rlower",
+      "raw_step_deg": 100.79794418599971
+    },
+    {
+      "frame": 70,
+      "segment": "Llower",
+      "raw_step_deg": 21.372498611143225
+    },
+    {
+      "frame": 70,
+      "segment": "Rlower",
+      "raw_step_deg": 80.76418655784107
+    },
+    {
+      "frame": 71,
+      "segment": "Llower",
+      "raw_step_deg": 20.684126533379953
+    },
+    {
+      "frame": 71,
+      "segment": "Rlower",
+      "raw_step_deg": 53.09973475875503
+    },
+    {
+      "frame": 72,
+      "segment": "Rlower",
+      "raw_step_deg": 36.53421741753464
+    },
+    {
+      "frame": 76,
+      "segment": "Llower",
+      "raw_step_deg": 20.454563875375822
+    },
+    {
+      "frame": 84,
+      "segment": "Rlower",
+      "raw_step_deg": 35.885492880356004
+    },
+    {
+      "frame": 85,
+      "segment": "Rlower",
+      "raw_step_deg": 30.267614476696327
+    },
+    {
+      "frame": 88,
+      "segment": "Rlower",
+      "raw_step_deg": 20.751574651433828
+    },
+    {
+      "frame": 89,
+      "segment": "Llower",
+      "raw_step_deg": 22.596847585908446
+    },
+    {
+      "frame": 89,
+      "segment": "Rlower",
+      "raw_step_deg": 35.48093394562698
+    },
+    {
+      "frame": 90,
+      "segment": "Rlower",
+      "raw_step_deg": 29.0232223118117
+    },
+    {
+      "frame": 96,
+      "segment": "Llower",
+      "raw_step_deg": 22.27155470404471
+    },
+    {
+      "frame": 96,
+      "segment": "Rlower",
+      "raw_step_deg": 35.12448344831694
+    },
+    {
+      "frame": 97,
+      "segment": "Rupper",
+      "raw_step_deg": 21.085224269747073
+    },
+    {
+      "frame": 97,
+      "segment": "Rlower",
+      "raw_step_deg": 50.96362724677939
+    },
+    {
+      "frame": 98,
+      "segment": "Rupper",
+      "raw_step_deg": 28.759662387213837
+    },
+    {
+      "frame": 98,
+      "segment": "Rlower",
+      "raw_step_deg": 67.56393757163183
+    },
+    {
+      "frame": 99,
+      "segment": "Rlower",
+      "raw_step_deg": 69.66639957175597
+    },
+    {
+      "frame": 100,
+      "segment": "Rlower",
+      "raw_step_deg": 48.32599943461723
+    },
+    {
+      "frame": 101,
+      "segment": "Rlower",
+      "raw_step_deg": 24.584683643834154
+    },
+    {
+      "frame": 102,
+      "segment": "Llower",
+      "raw_step_deg": 117.2754955208995
+    },
+    {
+      "frame": 103,
+      "segment": "Llower",
+      "raw_step_deg": 90.72566229246783
+    },
+    {
+      "frame": 106,
+      "segment": "Rlower",
+      "raw_step_deg": 23.177164363454825
+    },
+    {
+      "frame": 107,
+      "segment": "Llower",
+      "raw_step_deg": 76.11995845055588
+    },
+    {
+      "frame": 107,
+      "segment": "Rlower",
+      "raw_step_deg": 114.1001542361389
+    },
+    {
+      "frame": 108,
+      "segment": "Llower",
+      "raw_step_deg": 63.97252165320157
+    },
+    {
+      "frame": 108,
+      "segment": "Rlower",
+      "raw_step_deg": 99.54537628467858
+    },
+    {
+      "frame": 109,
+      "segment": "Llower",
+      "raw_step_deg": 58.95208672643208
+    },
+    {
+      "frame": 110,
+      "segment": "Rlower",
+      "raw_step_deg": 128.42725466180605
+    },
+    {
+      "frame": 111,
+      "segment": "Llower",
+      "raw_step_deg": 126.62853800426151
+    },
+    {
+      "frame": 111,
+      "segment": "Rlower",
+      "raw_step_deg": 125.18850190079105
+    },
+    {
+      "frame": 112,
+      "segment": "Llower",
+      "raw_step_deg": 92.65817552566372
+    },
+    {
+      "frame": 112,
+      "segment": "Rlower",
+      "raw_step_deg": 118.093711202332
+    },
+    {
+      "frame": 113,
+      "segment": "Llower",
+      "raw_step_deg": 46.62107493475533
+    },
+    {
+      "frame": 113,
+      "segment": "Rlower",
+      "raw_step_deg": 120.08346825096177
+    },
+    {
+      "frame": 114,
+      "segment": "Rlower",
+      "raw_step_deg": 99.64554783904599
+    },
+    {
+      "frame": 115,
+      "segment": "Rlower",
+      "raw_step_deg": 61.32322104774785
+    },
+    {
+      "frame": 116,
+      "segment": "Rlower",
+      "raw_step_deg": 23.683708267775895
+    },
+    {
+      "frame": 119,
+      "segment": "Rlower",
+      "raw_step_deg": 21.35267910971914
+    },
+    {
+      "frame": 120,
+      "segment": "Rlower",
+      "raw_step_deg": 50.09214975019913
+    },
+    {
+      "frame": 121,
+      "segment": "Rlower",
+      "raw_step_deg": 58.0623657945787
+    },
+    {
+      "frame": 122,
+      "segment": "Rlower",
+      "raw_step_deg": 42.241977695577106
+    },
+    {
+      "frame": 123,
+      "segment": "Rlower",
+      "raw_step_deg": 38.14195857079102
+    },
+    {
+      "frame": 125,
+      "segment": "Rlower",
+      "raw_step_deg": 42.32086979558534
+    },
+    {
+      "frame": 126,
+      "segment": "Rlower",
+      "raw_step_deg": 67.61306029214255
+    },
+    {
+      "frame": 127,
+      "segment": "Rlower",
+      "raw_step_deg": 40.12609095863929
+    },
+    {
+      "frame": 128,
+      "segment": "Rlower",
+      "raw_step_deg": 25.369586785137216
+    },
+    {
+      "frame": 129,
+      "segment": "Rlower",
+      "raw_step_deg": 31.618308290728443
+    },
+    {
+      "frame": 130,
+      "segment": "Rlower",
+      "raw_step_deg": 42.78606373467115
+    },
+    {
+      "frame": 131,
+      "segment": "Rlower",
+      "raw_step_deg": 26.499571573876832
+    },
+    {
+      "frame": 134,
+      "segment": "Rlower",
+      "raw_step_deg": 35.96693947111382
+    },
+    {
+      "frame": 135,
+      "segment": "Rlower",
+      "raw_step_deg": 28.313516138175896
+    },
+    {
+      "frame": 136,
+      "segment": "Rlower",
+      "raw_step_deg": 22.0223313465147
+    },
+    {
+      "frame": 147,
+      "segment": "Llower",
+      "raw_step_deg": 60.93824426536925
+    },
+    {
+      "frame": 148,
+      "segment": "Llower",
+      "raw_step_deg": 66.38945239290229
+    },
+    {
+      "frame": 148,
+      "segment": "Rlower",
+      "raw_step_deg": 26.187515598624582
+    },
+    {
+      "frame": 149,
+      "segment": "Llower",
+      "raw_step_deg": 54.378896001609604
+    },
+    {
+      "frame": 150,
+      "segment": "Llower",
+      "raw_step_deg": 36.01511279532992
+    },
+    {
+      "frame": 150,
+      "segment": "Rlower",
+      "raw_step_deg": 92.442006868622
+    },
+    {
+      "frame": 151,
+      "segment": "Llower",
+      "raw_step_deg": 24.31097405812965
+    },
+    {
+      "frame": 151,
+      "segment": "Rlower",
+      "raw_step_deg": 92.97954958649117
+    },
+    {
+      "frame": 152,
+      "segment": "Rlower",
+      "raw_step_deg": 99.99808122286703
+    },
+    {
+      "frame": 153,
+      "segment": "Llower",
+      "raw_step_deg": 37.945027141546625
+    },
+    {
+      "frame": 153,
+      "segment": "Rlower",
+      "raw_step_deg": 105.78363394046134
+    },
+    {
+      "frame": 154,
+      "segment": "Llower",
+      "raw_step_deg": 21.91279048015333
+    },
+    {
+      "frame": 154,
+      "segment": "Rlower",
+      "raw_step_deg": 100.87861555028672
+    },
+    {
+      "frame": 155,
+      "segment": "Rlower",
+      "raw_step_deg": 92.97929003930271
+    },
+    {
+      "frame": 156,
+      "segment": "Rlower",
+      "raw_step_deg": 70.08728265860134
+    },
+    {
+      "frame": 157,
+      "segment": "Rlower",
+      "raw_step_deg": 54.158280891418194
+    },
+    {
+      "frame": 158,
+      "segment": "Llower",
+      "raw_step_deg": 80.77601644548353
+    },
+    {
+      "frame": 158,
+      "segment": "Rlower",
+      "raw_step_deg": 46.9134445972723
+    },
+    {
+      "frame": 159,
+      "segment": "Llower",
+      "raw_step_deg": 30.8841244266546
+    },
+    {
+      "frame": 159,
+      "segment": "Rlower",
+      "raw_step_deg": 44.1956508548217
+    },
+    {
+      "frame": 160,
+      "segment": "Llower",
+      "raw_step_deg": 38.371217285377085
+    },
+    {
+      "frame": 160,
+      "segment": "Rlower",
+      "raw_step_deg": 33.74410563215194
+    },
+    {
+      "frame": 161,
+      "segment": "Llower",
+      "raw_step_deg": 27.445844764510618
+    },
+    {
+      "frame": 161,
+      "segment": "Rlower",
+      "raw_step_deg": 23.01419604985832
+    },
+    {
+      "frame": 163,
+      "segment": "Llower",
+      "raw_step_deg": 46.968731563508975
+    },
+    {
+      "frame": 163,
+      "segment": "Rlower",
+      "raw_step_deg": 20.388773785742966
+    },
+    {
+      "frame": 164,
+      "segment": "Llower",
+      "raw_step_deg": 49.70140828816103
+    },
+    {
+      "frame": 164,
+      "segment": "Rlower",
+      "raw_step_deg": 25.499993879412976
+    },
+    {
+      "frame": 165,
+      "segment": "Llower",
+      "raw_step_deg": 34.49216161043008
+    },
+    {
+      "frame": 165,
+      "segment": "Rlower",
+      "raw_step_deg": 22.496559918325147
+    },
+    {
+      "frame": 170,
+      "segment": "Rlower",
+      "raw_step_deg": 21.251247385449865
+    },
+    {
+      "frame": 171,
+      "segment": "Rlower",
+      "raw_step_deg": 32.64771683639233
+    },
+    {
+      "frame": 172,
+      "segment": "Rlower",
+      "raw_step_deg": 102.39251331944172
+    },
+    {
+      "frame": 173,
+      "segment": "Rlower",
+      "raw_step_deg": 100.79005531750835
+    },
+    {
+      "frame": 174,
+      "segment": "Rlower",
+      "raw_step_deg": 85.51323757831845
+    },
+    {
+      "frame": 175,
+      "segment": "Rlower",
+      "raw_step_deg": 43.26248991984705
+    },
+    {
+      "frame": 176,
+      "segment": "Rupper",
+      "raw_step_deg": 38.960058139007636
+    },
+    {
+      "frame": 176,
+      "segment": "Rlower",
+      "raw_step_deg": 39.11756571636272
+    },
+    {
+      "frame": 177,
+      "segment": "Rlower",
+      "raw_step_deg": 28.212509593182453
+    },
+    {
+      "frame": 180,
+      "segment": "Rlower",
+      "raw_step_deg": 30.73053737788311
+    },
+    {
+      "frame": 181,
+      "segment": "Rlower",
+      "raw_step_deg": 22.406240911835486
+    },
+    {
+      "frame": 186,
+      "segment": "Llower",
+      "raw_step_deg": 21.288282378676968
+    },
+    {
+      "frame": 187,
+      "segment": "Llower",
+      "raw_step_deg": 26.147364331588662
+    },
+    {
+      "frame": 187,
+      "segment": "Rlower",
+      "raw_step_deg": 29.508199893828458
+    },
+    {
+      "frame": 188,
+      "segment": "Llower",
+      "raw_step_deg": 24.753126354050423
+    },
+    {
+      "frame": 188,
+      "segment": "Rlower",
+      "raw_step_deg": 25.551785496341893
+    },
+    {
+      "frame": 192,
+      "segment": "Rlower",
+      "raw_step_deg": 35.516375797230175
+    },
+    {
+      "frame": 193,
+      "segment": "Rlower",
+      "raw_step_deg": 79.31739539728146
+    },
+    {
+      "frame": 194,
+      "segment": "Rlower",
+      "raw_step_deg": 68.89195857271407
+    },
+    {
+      "frame": 195,
+      "segment": "Rlower",
+      "raw_step_deg": 30.60507021792456
+    },
+    {
+      "frame": 196,
+      "segment": "Rlower",
+      "raw_step_deg": 34.01861434998934
+    },
+    {
+      "frame": 201,
+      "segment": "Llower",
+      "raw_step_deg": 22.44360033904816
+    },
+    {
+      "frame": 203,
+      "segment": "Rlower",
+      "raw_step_deg": 21.202556674404136
+    },
+    {
+      "frame": 205,
+      "segment": "Llower",
+      "raw_step_deg": 21.913640838704996
+    },
+    {
+      "frame": 205,
+      "segment": "Rlower",
+      "raw_step_deg": 22.305230951747458
+    },
+    {
+      "frame": 206,
+      "segment": "Rlower",
+      "raw_step_deg": 32.7377831258827
+    },
+    {
+      "frame": 208,
+      "segment": "Llower",
+      "raw_step_deg": 36.392309992243874
+    },
+    {
+      "frame": 209,
+      "segment": "Llower",
+      "raw_step_deg": 48.751486068963175
+    },
+    {
+      "frame": 210,
+      "segment": "Llower",
+      "raw_step_deg": 29.884123260462204
+    },
+    {
+      "frame": 210,
+      "segment": "Rupper",
+      "raw_step_deg": 41.46157735648437
+    },
+    {
+      "frame": 211,
+      "segment": "Rupper",
+      "raw_step_deg": 36.75954535825336
+    },
+    {
+      "frame": 212,
+      "segment": "Rupper",
+      "raw_step_deg": 45.99469536144638
+    },
+    {
+      "frame": 212,
+      "segment": "Rlower",
+      "raw_step_deg": 51.37732155952331
+    },
+    {
+      "frame": 213,
+      "segment": "Llower",
+      "raw_step_deg": 20.442443704693634
+    },
+    {
+      "frame": 213,
+      "segment": "Rupper",
+      "raw_step_deg": 61.42522992300199
+    },
+    {
+      "frame": 213,
+      "segment": "Rlower",
+      "raw_step_deg": 26.793947604462506
+    },
+    {
+      "frame": 214,
+      "segment": "Rupper",
+      "raw_step_deg": 39.03268354045238
+    },
+    {
+      "frame": 215,
+      "segment": "Rlower",
+      "raw_step_deg": 35.788138779021224
+    },
+    {
+      "frame": 216,
+      "segment": "Rlower",
+      "raw_step_deg": 83.87248953589798
+    },
+    {
+      "frame": 217,
+      "segment": "Rupper",
+      "raw_step_deg": 63.00294897976158
+    },
+    {
+      "frame": 217,
+      "segment": "Rlower",
+      "raw_step_deg": 33.39094728602185
+    },
+    {
+      "frame": 218,
+      "segment": "Rupper",
+      "raw_step_deg": 46.457085507877906
+    },
+    {
+      "frame": 218,
+      "segment": "Rlower",
+      "raw_step_deg": 53.61644539965567
+    },
+    {
+      "frame": 219,
+      "segment": "Rupper",
+      "raw_step_deg": 22.98518652890598
+    },
+    {
+      "frame": 219,
+      "segment": "Rlower",
+      "raw_step_deg": 40.41235784713287
+    },
+    {
+      "frame": 220,
+      "segment": "Rlower",
+      "raw_step_deg": 30.344771708655376
+    },
+    {
+      "frame": 223,
+      "segment": "Rlower",
+      "raw_step_deg": 116.14904706260265
+    },
+    {
+      "frame": 224,
+      "segment": "Rlower",
+      "raw_step_deg": 106.30918284614798
+    },
+    {
+      "frame": 225,
+      "segment": "Rlower",
+      "raw_step_deg": 91.12081605670974
+    },
+    {
+      "frame": 226,
+      "segment": "Rlower",
+      "raw_step_deg": 75.72076804451449
+    },
+    {
+      "frame": 227,
+      "segment": "Rlower",
+      "raw_step_deg": 56.406212260485276
+    },
+    {
+      "frame": 228,
+      "segment": "Rlower",
+      "raw_step_deg": 33.108703378949414
+    },
+    {
+      "frame": 229,
+      "segment": "Rlower",
+      "raw_step_deg": 51.559759327348935
+    },
+    {
+      "frame": 230,
+      "segment": "Llower",
+      "raw_step_deg": 35.63355110753633
+    },
+    {
+      "frame": 230,
+      "segment": "Rlower",
+      "raw_step_deg": 128.79704110347052
+    },
+    {
+      "frame": 231,
+      "segment": "Llower",
+      "raw_step_deg": 38.19351625374086
+    },
+    {
+      "frame": 231,
+      "segment": "Rlower",
+      "raw_step_deg": 118.12141444960558
+    },
+    {
+      "frame": 232,
+      "segment": "Llower",
+      "raw_step_deg": 28.153143296463995
+    },
+    {
+      "frame": 232,
+      "segment": "Rlower",
+      "raw_step_deg": 93.21168039562322
+    },
+    {
+      "frame": 233,
+      "segment": "Llower",
+      "raw_step_deg": 50.69703813328462
+    },
+    {
+      "frame": 233,
+      "segment": "Rlower",
+      "raw_step_deg": 73.53246422690161
+    },
+    {
+      "frame": 234,
+      "segment": "Lupper",
+      "raw_step_deg": 21.56261009650136
+    },
+    {
+      "frame": 234,
+      "segment": "Llower",
+      "raw_step_deg": 58.41153189513893
+    },
+    {
+      "frame": 234,
+      "segment": "Rlower",
+      "raw_step_deg": 47.22801237459183
+    },
+    {
+      "frame": 235,
+      "segment": "Lupper",
+      "raw_step_deg": 47.47368403375343
+    },
+    {
+      "frame": 235,
+      "segment": "Llower",
+      "raw_step_deg": 92.3498266355835
+    },
+    {
+      "frame": 235,
+      "segment": "Rlower",
+      "raw_step_deg": 32.23253354240935
+    },
+    {
+      "frame": 236,
+      "segment": "Lupper",
+      "raw_step_deg": 66.11648388272272
+    },
+    {
+      "frame": 236,
+      "segment": "Llower",
+      "raw_step_deg": 78.91936612339897
+    },
+    {
+      "frame": 236,
+      "segment": "Rlower",
+      "raw_step_deg": 25.488061538932964
+    },
+    {
+      "frame": 237,
+      "segment": "Lupper",
+      "raw_step_deg": 66.09355493767899
+    },
+    {
+      "frame": 237,
+      "segment": "Llower",
+      "raw_step_deg": 54.05160016677176
+    },
+    {
+      "frame": 237,
+      "segment": "Rlower",
+      "raw_step_deg": 40.95534764086512
+    },
+    {
+      "frame": 238,
+      "segment": "Lupper",
+      "raw_step_deg": 44.90803617015945
+    },
+    {
+      "frame": 238,
+      "segment": "Llower",
+      "raw_step_deg": 33.62563600099807
+    },
+    {
+      "frame": 239,
+      "segment": "Lupper",
+      "raw_step_deg": 22.9198130808125
+    },
+    {
+      "frame": 241,
+      "segment": "Rlower",
+      "raw_step_deg": 21.03655746436344
+    },
+    {
+      "frame": 243,
+      "segment": "Rlower",
+      "raw_step_deg": 26.490883573252578
+    },
+    {
+      "frame": 253,
+      "segment": "Lupper",
+      "raw_step_deg": 24.948107764286778
+    },
+    {
+      "frame": 254,
+      "segment": "Lupper",
+      "raw_step_deg": 24.106423552866104
+    },
+    {
+      "frame": 256,
+      "segment": "Rlower",
+      "raw_step_deg": 28.75083778280618
+    },
+    {
+      "frame": 261,
+      "segment": "Llower",
+      "raw_step_deg": 21.654631527641648
+    },
+    {
+      "frame": 273,
+      "segment": "Llower",
+      "raw_step_deg": 29.022173877774105
+    },
+    {
+      "frame": 274,
+      "segment": "Llower",
+      "raw_step_deg": 28.061649497437088
+    },
+    {
+      "frame": 274,
+      "segment": "Rlower",
+      "raw_step_deg": 26.391593113288103
+    },
+    {
+      "frame": 275,
+      "segment": "Rlower",
+      "raw_step_deg": 22.34955887946084
+    },
+    {
+      "frame": 281,
+      "segment": "Rlower",
+      "raw_step_deg": 56.01481168519228
+    },
+    {
+      "frame": 282,
+      "segment": "Rlower",
+      "raw_step_deg": 86.4579688537471
+    },
+    {
+      "frame": 283,
+      "segment": "Rlower",
+      "raw_step_deg": 70.86367026155668
+    },
+    {
+      "frame": 284,
+      "segment": "Rlower",
+      "raw_step_deg": 43.42611734669846
+    },
+    {
+      "frame": 285,
+      "segment": "Rlower",
+      "raw_step_deg": 105.23794963710151
+    },
+    {
+      "frame": 286,
+      "segment": "Rlower",
+      "raw_step_deg": 100.429072989684
+    },
+    {
+      "frame": 287,
+      "segment": "Rlower",
+      "raw_step_deg": 78.44690827813085
+    },
+    {
+      "frame": 288,
+      "segment": "Rlower",
+      "raw_step_deg": 69.37781041894459
+    },
+    {
+      "frame": 289,
+      "segment": "Rlower",
+      "raw_step_deg": 70.64531594398055
+    },
+    {
+      "frame": 290,
+      "segment": "Rlower",
+      "raw_step_deg": 45.599913842514226
+    },
+    {
+      "frame": 291,
+      "segment": "Rlower",
+      "raw_step_deg": 51.36344944531901
+    },
+    {
+      "frame": 292,
+      "segment": "Rlower",
+      "raw_step_deg": 32.18959897328665
+    },
+    {
+      "frame": 332,
+      "segment": "Rlower",
+      "raw_step_deg": 21.572997106681655
+    },
+    {
+      "frame": 348,
+      "segment": "Rlower",
+      "raw_step_deg": 20.067112856970386
+    }
+  ],
+  "direction_limit_deg_per_60fps_frame": 20,
+  "wrist_orientation": "unobserved; neutral forearm-aligned wrist, not extracted hand orientation",
+  "head_orientation_scope": "screen-space eye-line roll only; unreliable monocular pitch/yaw not applied to rig",
+  "source_leg_median_length_m": 0.8006930000349786,
+  "root_scale_method": "target/source leg-chain length normalization; median hip-to-floor scaling rejected because it erased knee-flexion height"
+}

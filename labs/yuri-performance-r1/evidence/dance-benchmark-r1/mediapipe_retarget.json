@@ -1,0 +1,406 @@
+{
+  "method": "mediapipe",
+  "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\mediapipe_DANCE_R1.blend",
+  "candidate_sha256": "fe3dfa3de4e5d254329497a34271ffaf4af8d40754b4f177a16f0ffb512b9dba",
+  "source_proxy_sha256": "271b0fdd060810ae133e5604869976382a2df9ca0af0c863854daffd0ff75c32",
+  "rights": "existing original procedural laboratory proxy; source performer likeness not recreated",
+  "body_only": true,
+  "frames": 360,
+  "fps": 60,
+  "retarget": "joint-position normalization, individual upper/lower arm lengths, target shoulder/hip widths; positional arm reconstruction and contact-goal leg IK; parallel-transported twist, hemisphere-continuous baking",
+  "hip_height_normalization_scale": 0.8699267103952425,
+  "arm_length_ratios": {
+    "armL": 1.4178902345793523,
+    "armR": 1.0581313542690927
+  },
+  "target_shoulder_width_m": 0.4,
+  "target_hip_width_m": 0.2,
+  "max_reach_clamp_m": 0.0428242829366553,
+  "max_bone_scale_error": 1.430511474609375e-06,
+  "ambiguous_axial_roll_repairs": 3590,
+  "foot_depth_heading_constraint": "front-facing segment only; preserve lateral toe heading, constrain forward Y and floor slope; original depth unresolved",
+  "floor_constraints": "source foot targets already contact-corrected; IK reach clamp can invalidate contact; downstream QA required",
+  "status": "RECONSTRUCTION_CANDIDATE_NOT_ACCURACY_PASS",
+  "direction_outlier_repairs": [
+    {
+      "frame": 44,
+      "segment": "Llower",
+      "raw_step_deg": 22.10677980541274
+    },
+    {
+      "frame": 45,
+      "segment": "Rlower",
+      "raw_step_deg": 20.442619582064765
+    },
+    {
+      "frame": 60,
+      "segment": "Llower",
+      "raw_step_deg": 21.045860182012998
+    },
+    {
+      "frame": 68,
+      "segment": "Rlower",
+      "raw_step_deg": 27.785740590819838
+    },
+    {
+      "frame": 69,
+      "segment": "Rlower",
+      "raw_step_deg": 31.383267821009962
+    },
+    {
+      "frame": 71,
+      "segment": "Rlower",
+      "raw_step_deg": 24.898023694650366
+    },
+    {
+      "frame": 73,
+      "segment": "Rlower",
+      "raw_step_deg": 36.717362109939366
+    },
+    {
+      "frame": 74,
+      "segment": "Rlower",
+      "raw_step_deg": 44.19470145852707
+    },
+    {
+      "frame": 75,
+      "segment": "Rlower",
+      "raw_step_deg": 28.484197442892636
+    },
+    {
+      "frame": 81,
+      "segment": "Rlower",
+      "raw_step_deg": 27.61017740839383
+    },
+    {
+      "frame": 82,
+      "segment": "Rlower",
+      "raw_step_deg": 32.461935690967984
+    },
+    {
+      "frame": 83,
+      "segment": "Rlower",
+      "raw_step_deg": 20.635408501577544
+    },
+    {
+      "frame": 84,
+      "segment": "Rlower",
+      "raw_step_deg": 27.81749584781852
+    },
+    {
+      "frame": 85,
+      "segment": "Rlower",
+      "raw_step_deg": 29.570617577558618
+    },
+    {
+      "frame": 87,
+      "segment": "Rlower",
+      "raw_step_deg": 20.196044630385426
+    },
+    {
+      "frame": 88,
+      "segment": "Rlower",
+      "raw_step_deg": 23.156859918599668
+    },
+    {
+      "frame": 107,
+      "segment": "Llower",
+      "raw_step_deg": 40.04161517898457
+    },
+    {
+      "frame": 108,
+      "segment": "Llower",
+      "raw_step_deg": 37.368436232192494
+    },
+    {
+      "frame": 109,
+      "segment": "Llower",
+      "raw_step_deg": 30.08272808605325
+    },
+    {
+      "frame": 110,
+      "segment": "Llower",
+      "raw_step_deg": 24.19654448386984
+    },
+    {
+      "frame": 124,
+      "segment": "Rlower",
+      "raw_step_deg": 59.418759401473196
+    },
+    {
+      "frame": 126,
+      "segment": "Rlower",
+      "raw_step_deg": 24.682643924457768
+    },
+    {
+      "frame": 134,
+      "segment": "Llower",
+      "raw_step_deg": 21.79618549064287
+    },
+    {
+      "frame": 164,
+      "segment": "Llower",
+      "raw_step_deg": 21.908846045907644
+    },
+    {
+      "frame": 165,
+      "segment": "Llower",
+      "raw_step_deg": 20.999841782480036
+    },
+    {
+      "frame": 176,
+      "segment": "Rlower",
+      "raw_step_deg": 20.870793895849108
+    },
+    {
+      "frame": 182,
+      "segment": "Rlower",
+      "raw_step_deg": 27.49404028684152
+    },
+    {
+      "frame": 187,
+      "segment": "Llower",
+      "raw_step_deg": 22.069097651761776
+    },
+    {
+      "frame": 188,
+      "segment": "Llower",
+      "raw_step_deg": 27.256320675421104
+    },
+    {
+      "frame": 189,
+      "segment": "Llower",
+      "raw_step_deg": 25.020569241191442
+    },
+    {
+      "frame": 204,
+      "segment": "Rupper",
+      "raw_step_deg": 54.02666314611204
+    },
+    {
+      "frame": 204,
+      "segment": "Rlower",
+      "raw_step_deg": 96.3035021272129
+    },
+    {
+      "frame": 205,
+      "segment": "Rupper",
+      "raw_step_deg": 52.57954072137769
+    },
+    {
+      "frame": 205,
+      "segment": "Rlower",
+      "raw_step_deg": 76.46423413567038
+    },
+    {
+      "frame": 206,
+      "segment": "Rupper",
+      "raw_step_deg": 41.81077419289586
+    },
+    {
+      "frame": 206,
+      "segment": "Rlower",
+      "raw_step_deg": 53.60425351198719
+    },
+    {
+      "frame": 207,
+      "segment": "Rlower",
+      "raw_step_deg": 36.419555616843056
+    },
+    {
+      "frame": 208,
+      "segment": "Rupper",
+      "raw_step_deg": 59.45515064937102
+    },
+    {
+      "frame": 208,
+      "segment": "Rlower",
+      "raw_step_deg": 88.60940331022024
+    },
+    {
+      "frame": 209,
+      "segment": "Rupper",
+      "raw_step_deg": 70.01550420061366
+    },
+    {
+      "frame": 209,
+      "segment": "Rlower",
+      "raw_step_deg": 66.39865948790346
+    },
+    {
+      "frame": 210,
+      "segment": "Rupper",
+      "raw_step_deg": 48.001725958487114
+    },
+    {
+      "frame": 210,
+      "segment": "Rlower",
+      "raw_step_deg": 46.02224151436904
+    },
+    {
+      "frame": 211,
+      "segment": "Rupper",
+      "raw_step_deg": 28.092856631754877
+    },
+    {
+      "frame": 231,
+      "segment": "Llower",
+      "raw_step_deg": 27.111172325369164
+    },
+    {
+      "frame": 232,
+      "segment": "Llower",
+      "raw_step_deg": 41.89705314249146
+    },
+    {
+      "frame": 233,
+      "segment": "Llower",
+      "raw_step_deg": 38.96721617725781
+    },
+    {
+      "frame": 234,
+      "segment": "Llower",
+      "raw_step_deg": 37.093097646370936
+    },
+    {
+      "frame": 235,
+      "segment": "Llower",
+      "raw_step_deg": 46.74095841506739
+    },
+    {
+      "frame": 236,
+      "segment": "Llower",
+      "raw_step_deg": 41.1881785443871
+    },
+    {
+      "frame": 237,
+      "segment": "Llower",
+      "raw_step_deg": 31.922678595617135
+    },
+    {
+      "frame": 254,
+      "segment": "Lupper",
+      "raw_step_deg": 24.03748303847858
+    },
+    {
+      "frame": 255,
+      "segment": "Lupper",
+      "raw_step_deg": 23.50933353826547
+    },
+    {
+      "frame": 260,
+      "segment": "Rlower",
+      "raw_step_deg": 78.02412639869623
+    },
+    {
+      "frame": 261,
+      "segment": "Rlower",
+      "raw_step_deg": 37.03105562304513
+    },
+    {
+      "frame": 280,
+      "segment": "Rlower",
+      "raw_step_deg": 28.854984507270533
+    },
+    {
+      "frame": 281,
+      "segment": "Rlower",
+      "raw_step_deg": 106.77332152100702
+    },
+    {
+      "frame": 282,
+      "segment": "Rlower",
+      "raw_step_deg": 85.84332013033766
+    },
+    {
+      "frame": 283,
+      "segment": "Rlower",
+      "raw_step_deg": 65.9089895659269
+    },
+    {
+      "frame": 284,
+      "segment": "Rlower",
+      "raw_step_deg": 47.31707121117962
+    },
+    {
+      "frame": 285,
+      "segment": "Rlower",
+      "raw_step_deg": 32.98319182276126
+    },
+    {
+      "frame": 289,
+      "segment": "Rlower",
+      "raw_step_deg": 35.97954117013249
+    },
+    {
+      "frame": 290,
+      "segment": "Rlower",
+      "raw_step_deg": 84.7641843924215
+    },
+    {
+      "frame": 291,
+      "segment": "Rlower",
+      "raw_step_deg": 86.92505134013842
+    },
+    {
+      "frame": 292,
+      "segment": "Rlower",
+      "raw_step_deg": 66.71439864266564
+    },
+    {
+      "frame": 293,
+      "segment": "Rlower",
+      "raw_step_deg": 43.54171488330634
+    },
+    {
+      "frame": 310,
+      "segment": "Rlower",
+      "raw_step_deg": 69.91130966482513
+    },
+    {
+      "frame": 311,
+      "segment": "Rlower",
+      "raw_step_deg": 35.60302699213554
+    },
+    {
+      "frame": 312,
+      "segment": "Rlower",
+      "raw_step_deg": 46.20517447090949
+    },
+    {
+      "frame": 313,
+      "segment": "Rlower",
+      "raw_step_deg": 53.299326546681144
+    },
+    {
+      "frame": 314,
+      "segment": "Rlower",
+      "raw_step_deg": 41.148491730214744
+    },
+    {
+      "frame": 315,
+      "segment": "Rlower",
+      "raw_step_deg": 24.909409619996776
+    },
+    {
+      "frame": 318,
+      "segment": "Llower",
+      "raw_step_deg": 20.531343739383228
+    },
+    {
+      "frame": 323,
+      "segment": "Llower",
+      "raw_step_deg": 20.80580123080185
+    },
+    {
+      "frame": 324,
+      "segment": "Llower",
+      "raw_step_deg": 20.93215460780521
+    }
+  ],
+  "direction_limit_deg_per_60fps_frame": 20,
+  "wrist_orientation": "unobserved; neutral forearm-aligned wrist, not extracted hand orientation",
+  "head_orientation_scope": "screen-space eye-line roll only; unreliable monocular pitch/yaw not applied to rig",
+  "source_leg_median_length_m": 0.8852792906664038,
+  "root_scale_method": "target/source leg-chain length normalization; median hip-to-floor scaling rejected because it erased knee-flexion height"
+}

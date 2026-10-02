@@ -1,0 +1,146 @@
+{
+  "reference_url": "https://www.youtube.com/watch?v=IrqXrM4CaiE",
+  "video_id": "IrqXrM4CaiE",
+  "title": "RESCENE (\ub9ac\uc13c\ub290) - 'Pretty Girl' Dance Practice [MIRRORED]",
+  "uploader_channel": "BLACK CAT",
+  "upload_date": "20260812",
+  "source_local_only": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\reference\\reference.mp4",
+  "source_sha256": "d101fa1158abadd9da763b1ba3ff1a15d81ecae9c80e4e3fd1693d5d0f42639b",
+  "source_committed": false,
+  "width": 1920,
+  "height": 1080,
+  "encoded_fps": "60/1",
+  "r_frame_rate": "60/1",
+  "duration_seconds": 207.634,
+  "stream_duration_seconds": 207.616667,
+  "frame_count": 12457,
+  "display_rotation": [],
+  "reference_is_mirrored": true,
+  "mirror_evidence": "source title explicitly MIRRORED; inference convention will be recorded separately",
+  "dancers_observed": 5,
+  "dancer_selection": {
+    "appearance": "white layered dress, rightmost through20\u201326s; no identity attribution",
+    "track": "single fixed ROI1380,100,1840,1020, reviewed across every0.5s and full interval playback",
+    "identity_switch": "none observed",
+    "dancers_observed": 5
+  },
+  "dance_start_seconds": 0.0,
+  "dance_end_seconds": 207.616667,
+  "camera_motion": {
+    "whole_reference": "framing/pan/zoom changes; later ceiling and side-wall coverage changes. Physical-camera vs digital reframing not distinguishable from this view",
+    "benchmark_interval": [
+      20,
+      26
+    ],
+    "selected_static_background_gate": {
+      "frames": 360,
+      "two_wall_seam_peak_to_peak_px": [
+        0,
+        0
+      ],
+      "studio_floor_edge_2hz_px": 843,
+      "floor_edge_peak_to_peak_selected_2hz_px": 0
+    },
+    "camera_estimation_scope": "background2D anchors verified for selected segment; rejected affine ECC; no estimated6DOF world camera or known intrinsics"
+  },
+  "cuts": {
+    "whole_reference_scan": "FFmpeg scene filter at native60fps after480x270 resize",
+    "threshold": 0.2,
+    "cut_candidates_seconds": [],
+    "hard_cut_verdict": "none detected at this threshold; continuously changing framing remains, not a universal static-camera assumption"
+  },
+  "floor_and_feet": {
+    "selected_segment": "full body and shoes visible for target; skirt hides hip centres; wrists can overlap torso/hair or nearby performer",
+    "whole_reference": "group formation occludes some dancers; floor/feet generally visible in overview, no all-frame whole-dance visibility certification"
+  },
+  "root_trajectory_world_m": "UNIDENTIFIED_WITHOUT_CAMERA_AND_SCALE_CALIBRATION",
+  "repeated_or_chorus_intervals": {
+    "audio_template": [
+      20,
+      26
+    ],
+    "strongest_repeat_candidate": [
+      91.6,
+      97.6
+    ],
+    "chroma_similarity": 0.9673258876,
+    "other_candidates": [
+      {
+        "start_seconds": 91.6,
+        "end_seconds": 97.6,
+        "chroma_similarity": 0.9673258875548599
+      },
+      {
+        "start_seconds": 84.5,
+        "end_seconds": 90.5,
+        "chroma_similarity": 0.9352217715988973
+      },
+      {
+        "start_seconds": 131.0,
+        "end_seconds": 137.0,
+        "chroma_similarity": 0.9188276377172702
+      },
+      {
+        "start_seconds": 67.9,
+        "end_seconds": 73.9,
+        "chroma_similarity": 0.9159587354182832
+      },
+      {
+        "start_seconds": 5.5,
+        "end_seconds": 11.5,
+        "chroma_similarity": 0.9152574549868351
+      },
+      {
+        "start_seconds": 117.6,
+        "end_seconds": 123.6,
+        "chroma_similarity": 0.914624803420447
+      },
+      {
+        "start_seconds": 41.5,
+        "end_seconds": 47.5,
+        "chroma_similarity": 0.9115208379993011
+      },
+      {
+        "start_seconds": 77.3,
+        "end_seconds": 83.3,
+        "chroma_similarity": 0.9100627985235054
+      }
+    ],
+    "chorus_labels": "not verified; audio recurrence candidates are not counted as annotated choruses"
+  },
+  "duplicate_frame_diagnostic_10_to_20s": {
+    "samples": 599,
+    "even_pair_mean": 3.505920370370371,
+    "odd_pair_mean": 3.5195611529171313,
+    "fraction_below_0_05": 0.0
+  },
+  "status": "REFERENCE_ANALYSIS_CHECKPOINT_WITH_LABELLED_BOUNDARY_CHORUS_AND_WORLD_CALIBRATION_LIMITS",
+  "dance_interval_definition": "visible performance, including opening and closing held choreography poses; no title card or outro removed",
+  "dynamic_movement_onset_estimate_seconds": 2.25,
+  "dynamic_movement_onset_uncertainty_seconds": 0.25,
+  "final_pose_reached_estimate_seconds": 206.0,
+  "final_pose_reached_uncertainty_seconds": 0.5,
+  "boundary_scope": "pose onset/settling are visual estimates from timecoded contacts, not frame-exact manual annotations",
+  "root_motion_selected": {
+    "pelvis_lateral_image_range_px": {
+      "mediapipe": 110.838,
+      "rtmw3d": 107.813
+    },
+    "normalized_lateral_range_assumed_m": {
+      "mediapipe": 0.241,
+      "rtmw3d": 0.258
+    },
+    "world_depth_and_metric_scale": "UNRESOLVED: assumed actor height1.65m and focal1700px, no known camera/body/floor calibration"
+  },
+  "first_benchmark": {
+    "source_interval": [
+      20,
+      26
+    ],
+    "motion_fps": 60,
+    "frames": 360,
+    "preview_fps": 30,
+    "expanded_phrase_or_chorus": false,
+    "reason": "exclude framing change beginning after26s; accurate-motion gate not passed"
+  }
+}

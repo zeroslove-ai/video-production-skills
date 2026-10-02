@@ -1,0 +1,303 @@
+{
+  "source_sha256": "5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e",
+  "original_action": "MOTION5H_Legacy_Greeting_Wave",
+  "frame_range": [
+    1,
+    145
+  ],
+  "duration_seconds": 6,
+  "fps": 24,
+  "face": "NEUTRAL ONLY",
+  "scope": "existing original motion replay, not newly completed performance",
+  "source_rotation_modes": {
+    "Root": "QUATERNION",
+    "J_Bip_C_Hips": "QUATERNION",
+    "J_Bip_C_Spine": "QUATERNION",
+    "J_Bip_C_Chest": "QUATERNION",
+    "J_Bip_C_UpperChest": "QUATERNION",
+    "J_Bip_C_Neck": "QUATERNION",
+    "J_Bip_C_Head": "QUATERNION",
+    "J_Adj_L_FaceEye": "QUATERNION",
+    "J_Adj_R_FaceEye": "QUATERNION",
+    "MOTION5H_HairTip.L": "QUATERNION",
+    "MOTION5H_HairTip.R": "QUATERNION",
+    "J_Bip_L_Shoulder": "QUATERNION",
+    "J_Bip_L_UpperArm": "QUATERNION",
+    "J_Bip_L_LowerArm": "QUATERNION",
+    "J_Bip_L_Hand": "QUATERNION",
+    "J_Bip_L_Thumb1": "QUATERNION",
+    "J_Bip_L_Thumb2": "QUATERNION",
+    "J_Bip_L_Thumb3": "QUATERNION",
+    "J_Bip_L_Index1": "QUATERNION",
+    "J_Bip_L_Index2": "QUATERNION",
+    "J_Bip_L_Index3": "QUATERNION",
+    "J_Bip_L_Middle1": "QUATERNION",
+    "J_Bip_L_Middle2": "QUATERNION",
+    "J_Bip_L_Middle3": "QUATERNION",
+    "J_Bip_L_Ring1": "QUATERNION",
+    "J_Bip_L_Ring2": "QUATERNION",
+    "J_Bip_L_Ring3": "QUATERNION",
+    "J_Bip_L_Little1": "QUATERNION",
+    "J_Bip_L_Little2": "QUATERNION",
+    "J_Bip_L_Little3": "QUATERNION",
+    "J_Bip_R_Shoulder": "QUATERNION",
+    "J_Bip_R_UpperArm": "QUATERNION",
+    "J_Bip_R_LowerArm": "QUATERNION",
+    "J_Bip_R_Hand": "QUATERNION",
+    "J_Bip_R_Thumb1": "QUATERNION",
+    "J_Bip_R_Thumb2": "QUATERNION",
+    "J_Bip_R_Thumb3": "QUATERNION",
+    "J_Bip_R_Index1": "QUATERNION",
+    "J_Bip_R_Index2": "QUATERNION",
+    "J_Bip_R_Index3": "QUATERNION",
+    "J_Bip_R_Middle1": "QUATERNION",
+    "J_Bip_R_Middle2": "QUATERNION",
+    "J_Bip_R_Middle3": "QUATERNION",
+    "J_Bip_R_Ring1": "QUATERNION",
+    "J_Bip_R_Ring2": "QUATERNION",
+    "J_Bip_R_Ring3": "QUATERNION",
+    "J_Bip_R_Little1": "QUATERNION",
+    "J_Bip_R_Little2": "QUATERNION",
+    "J_Bip_R_Little3": "QUATERNION",
+    "J_Bip_L_UpperLeg": "QUATERNION",
+    "J_Bip_L_LowerLeg": "QUATERNION",
+    "J_Bip_L_Foot": "QUATERNION",
+    "J_Bip_L_ToeBase": "QUATERNION",
+    "J_Bip_R_UpperLeg": "QUATERNION",
+    "J_Bip_R_LowerLeg": "QUATERNION",
+    "J_Bip_R_Foot": "QUATERNION",
+    "J_Bip_R_ToeBase": "QUATERNION"
+  },
+  "frames": [
+    {
+      "camera": "waist_threequarter",
+      "frame": 1,
+      "time_seconds": 0.0,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\waist_threequarter\\0001.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.14057183265686035,
+          -0.011034844443202019,
+          0.5164391994476318
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.011013139970600605,
+          0.5081000328063965
+        ]
+      }
+    },
+    {
+      "camera": "waist_threequarter",
+      "frame": 37,
+      "time_seconds": 1.5,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\waist_threequarter\\0037.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.1502303183078766,
+          -0.15929414331912994,
+          0.7697885632514954
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.010937458835542202,
+          0.5080240964889526
+        ]
+      }
+    },
+    {
+      "camera": "waist_threequarter",
+      "frame": 73,
+      "time_seconds": 3.0,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\waist_threequarter\\0073.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.15023034811019897,
+          -0.15966077148914337,
+          0.7698138952255249
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.010960020124912262,
+          0.5080475211143494
+        ]
+      }
+    },
+    {
+      "camera": "waist_threequarter",
+      "frame": 109,
+      "time_seconds": 4.5,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\waist_threequarter\\0109.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.1502303183078766,
+          -0.16036906838417053,
+          0.7698596715927124
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.011003745719790459,
+          0.5080910325050354
+        ]
+      }
+    },
+    {
+      "camera": "waist_threequarter",
+      "frame": 145,
+      "time_seconds": 6.0,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\waist_threequarter\\0145.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.14057183265686035,
+          -0.010897837579250336,
+          0.5163441896438599
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.010919417254626751,
+          0.508004903793335
+        ]
+      }
+    },
+    {
+      "camera": "hand_face",
+      "frame": 1,
+      "time_seconds": 0.0,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\hand_face\\0001.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.14057183265686035,
+          -0.011034844443202019,
+          0.5164391994476318
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.011013139970600605,
+          0.5081000328063965
+        ]
+      }
+    },
+    {
+      "camera": "hand_face",
+      "frame": 37,
+      "time_seconds": 1.5,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\hand_face\\0037.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.1502303183078766,
+          -0.15929414331912994,
+          0.7697885632514954
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.010937458835542202,
+          0.5080240964889526
+        ]
+      }
+    },
+    {
+      "camera": "hand_face",
+      "frame": 73,
+      "time_seconds": 3.0,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\hand_face\\0073.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.15023034811019897,
+          -0.15966077148914337,
+          0.7698138952255249
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.010960020124912262,
+          0.5080475211143494
+        ]
+      }
+    },
+    {
+      "camera": "hand_face",
+      "frame": 109,
+      "time_seconds": 4.5,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\hand_face\\0109.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.1502303183078766,
+          -0.16036906838417053,
+          0.7698596715927124
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.011003745719790459,
+          0.5080910325050354
+        ]
+      }
+    },
+    {
+      "camera": "hand_face",
+      "frame": 145,
+      "time_seconds": 6.0,
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\existing-greeting-r4\\hand_face\\0145.png",
+      "root_m": [
+        0.0019521676003932953,
+        -0.029282573610544205,
+        -3.034726958617284e-08
+      ],
+      "wrists_m": {
+        "L": [
+          0.14057183265686035,
+          -0.010897837579250336,
+          0.5163441896438599
+        ],
+        "R": [
+          -0.12949761748313904,
+          -0.010919417254626751,
+          0.508004903793335
+        ]
+      }
+    }
+  ]
+}

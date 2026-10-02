@@ -6,12 +6,13 @@ from pathlib import Path
 import bpy,math,json,hashlib,sys
 from mathutils import Vector,Quaternion,Matrix
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
-ELBOW='please_elbow' in sys.argv
+WRIST_DELAY='please_wrist_delay' in sys.argv
+ELBOW='please_elbow' in sys.argv or WRIST_DELAY
 REVISION='please_hands' in sys.argv or ELBOW
 from acting_recipe import score,curve
 from native_preservation import signature
 SOURCE=Path(r'C:\Users\JAEWAN\Downloads\Character_Master_R2_20261002.blend')
-folder='native-body-r3-please-elbow' if ELBOW else 'native-body-r3-please-hands' if REVISION else 'native-body-r3'
+folder='native-body-r4-wrist-delay' if WRIST_DELAY else 'native-body-r3-please-elbow' if ELBOW else 'native-body-r3-please-hands' if REVISION else 'native-body-r3'
 OUT=ROOT/('local/'+folder);OUT.mkdir(parents=True,exist_ok=True)
 E=ROOT/('evidence/'+folder);E.mkdir(parents=True,exist_ok=True)
 sha=hashlib.sha256(SOURCE.read_bytes()).hexdigest();assert sha=='5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e'
@@ -86,7 +87,9 @@ for clip in ('greeting_wave','shy_lookaway','please_tilt'):
                     across=finger_direction.cross(palm).normalized()
                     hand_target=Matrix((across,finger_direction,palm)).transposed().to_quaternion()
                 goal=wrists[side].translation.lerp(destination,ask)
-                rotation=wrists[side].to_quaternion().slerp(hand_target,(1. if REVISION else .75)*max(0,min(1,ask)))
+                progress=max(0,min(1,ask))
+                if WRIST_DELAY:progress=progress**2
+                rotation=wrists[side].to_quaternion().slerp(hand_target,(1. if REVISION else .75)*progress)
                 max_error=max(max_error,arm_ik(side,goal,rotation,elbow_low=ELBOW))
         r.animation_data.action=a
         for b in r.pose.bones:

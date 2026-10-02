@@ -2,6 +2,16 @@
   "videos": [
     {
       "clip": "greeting_wave",
+      "camera": "full_body",
+      "file": "greeting_wave__full_body.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "81071990e62efaf1638185721c6bbdf09e67ebbd889e16142a0b67beb3a61b33"
+    },
+    {
+      "clip": "greeting_wave",
       "camera": "waist_threequarter",
       "file": "greeting_wave__waist_threequarter.mp4",
       "duration": 5,
@@ -9,6 +19,136 @@
       "width": 640,
       "height": 360,
       "sha256": "78b79adfd60365721d36e7ffac04d2d9d63c4426bec5559fdba94c7884cb28c0"
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "file": "greeting_wave__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "3421afb2b3a3f6410d1f44d07aa6bc215ba56e9158158e9bf88672d9908d8b7d"
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "face_close",
+      "file": "greeting_wave__face_close.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "82c6c2dc85256021ab826dbf6861bd0a8368c61a58feb2ea9c73495c92a98b9b"
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "vertical",
+      "file": "greeting_wave__vertical.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 360,
+      "height": 640,
+      "sha256": "6ab0c212945947946357e18196356d59693ac0c98fb8971ca7083976e4bb9f34"
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "full_body",
+      "file": "shy_lookaway__full_body.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "46f5b1838e265c5cd78e5a8827aa90b3944bba51246dc1ec7605f7ff713a22ce"
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "waist_threequarter",
+      "file": "shy_lookaway__waist_threequarter.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "e5a512d53bee2318dc8d3a8f9297d51ca2a772237b495b39e8ab5916834338cb"
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "hand_face",
+      "file": "shy_lookaway__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "0d578a56aad613b54ac1eb917b70eb00277051895a630ed9fc9c849ea0eb3f32"
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "face_close",
+      "file": "shy_lookaway__face_close.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "d88d4164fd85069969fba5f7977db867ecc112121c30bd33f5d2a151171764b8"
+    },
+    {
+      "clip": "shy_lookaway",
+      "camera": "vertical",
+      "file": "shy_lookaway__vertical.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 360,
+      "height": 640,
+      "sha256": "adff0dcd4564c4deea2e1c6a902d017e0adb9be9f08323961a04bfdb92afcb8f"
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "full_body",
+      "file": "please_tilt__full_body.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "c6edf3f6fce4abb5c102dc60aa255ae8fbd0c28b6202f3a8ef72e159c2bb1d54"
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "waist_threequarter",
+      "file": "please_tilt__waist_threequarter.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "3e79904e8e777b075e3d108c160310ed4f122cf448c172054f9dc091a7ac7dd5"
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "hand_face",
+      "file": "please_tilt__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "e4e588b915636836d6713f1708921b47183fd9a735e14778ba27312aa9e723b1"
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "face_close",
+      "file": "please_tilt__face_close.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "88cf220900b2cfd06023b30390688248dd7ae7f3b933dab0206658f7bd192d0e"
+    },
+    {
+      "clip": "please_tilt",
+      "camera": "vertical",
+      "file": "please_tilt__vertical.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 360,
+      "height": 640,
+      "sha256": "5e89755ae0a54f4bc6a07b318e5d7ad800a34e550ca264151a790d357e2d2aad"
     }
   ],
   "actual_yuri_approved_performances": 0

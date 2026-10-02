@@ -1,11 +1,11 @@
 """Native body adapter all-frame gates, then CPU contact frames or a single movie shot."""
 from pathlib import Path
 import bpy,json,sys,math,hashlib
-ROOT=Path(__file__).resolve().parents[1];folder='native-camera-r4' if 'camera_r4' in sys.argv else 'native-body-r3-please-elbow' if 'please_elbow' in sys.argv else 'native-body-r3-please-hands' if 'please_hands' in sys.argv else 'native-body-r3';OUT=ROOT/('local/'+folder);E=ROOT/('evidence/'+folder)
+ROOT=Path(__file__).resolve().parents[1];folder='native-relaxed-wave-r5' if 'relaxed_wave' in sys.argv else 'native-body-r4-wrist-delay' if 'please_wrist_delay' in sys.argv else 'native-camera-r4' if 'camera_r4' in sys.argv else 'native-body-r3-please-elbow' if 'please_elbow' in sys.argv else 'native-body-r3-please-hands' if 'please_hands' in sys.argv else 'native-body-r3';OUT=ROOT/('local/'+folder);E=ROOT/('evidence/'+folder)
 meta=json.loads((E/'build_receipt.json').read_text());p=Path(meta['candidate']);assert hashlib.sha256(p.read_bytes()).hexdigest()==meta['candidate_sha256']
 bpy.ops.wm.open_mainfile(filepath=str(p));s=bpy.context.scene;r=bpy.data.objects['Armature']
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else ['qa']
-args=[x for x in args if x not in ('please_hands','please_elbow','camera_r4')]
+args=[x for x in args if x not in ('please_hands','please_elbow','camera_r4','please_wrist_delay','relaxed_wave')]
 def bind(clip):
     r.animation_data.action=bpy.data.actions[meta['action_registry'][clip]]
     if r.animation_data.action.slots:r.animation_data.action_slot=r.animation_data.action.slots[0]

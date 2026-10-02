@@ -1,0 +1,89 @@
+{
+  "jobs": {
+    "greeting_wave__natural__hand_face": {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "variant": "natural",
+      "candidate_sha256": "bde081aab366cf3abf98976a2a5f127022da56d5ebde58f4b93774710d83058d",
+      "returncode": 0,
+      "frames": 121,
+      "elapsed_seconds": 202.5740603999584,
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_acting_r2.py",
+        "--",
+        "video",
+        "greeting_wave",
+        "hand_face",
+        "natural",
+        "face_mix"
+      ],
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\face-mix-r4\\greeting_wave__natural__hand_face.log"
+    },
+    "greeting_wave__shy_face__hand_face": {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "variant": "shy_face",
+      "candidate_sha256": "bde081aab366cf3abf98976a2a5f127022da56d5ebde58f4b93774710d83058d",
+      "returncode": 0,
+      "frames": 121,
+      "elapsed_seconds": 191.9498678999953,
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_acting_r2.py",
+        "--",
+        "video",
+        "greeting_wave",
+        "hand_face",
+        "shy_face",
+        "face_mix"
+      ],
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\face-mix-r4\\greeting_wave__shy_face__hand_face.log"
+    },
+    "greeting_wave__please_face__hand_face": {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "variant": "please_face",
+      "candidate_sha256": "bde081aab366cf3abf98976a2a5f127022da56d5ebde58f4b93774710d83058d",
+      "returncode": 0,
+      "frames": 121,
+      "elapsed_seconds": 190.98750149999978,
+      "command": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--threads",
+        "4",
+        "--python-exit-code",
+        "1",
+        "--python",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\render_acting_r2.py",
+        "--",
+        "video",
+        "greeting_wave",
+        "hand_face",
+        "please_face",
+        "face_mix"
+      ],
+      "renderer": "CYCLES_CPU_4_THREADS",
+      "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\face-mix-r4\\greeting_wave__please_face__hand_face.log"
+    }
+  },
+  "candidate_sha256": "bde081aab366cf3abf98976a2a5f127022da56d5ebde58f4b93774710d83058d"
+}

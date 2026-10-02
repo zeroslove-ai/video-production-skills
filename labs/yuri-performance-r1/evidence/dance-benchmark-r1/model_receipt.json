@@ -1,0 +1,18 @@
+[
+  {
+    "name": "mediapipe_heavy.task",
+    "source_url": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_heavy/float16/latest/pose_landmarker_heavy.task",
+    "bytes": 30664242,
+    "sha256": "64437af838a65d18e5ba7a0d39b465540069bc8aae8308de3e318aad31fcbc7b",
+    "execution": "CPU_ONLY",
+    "git": "IGNORED_LOCAL_MODEL"
+  },
+  {
+    "name": "rtmw3d.onnx",
+    "source_url": "https://huggingface.co/Soykaf/RTMW3D-x/resolve/main/onnx/rtmw3d-x_8xb64_cocktail14-384x288-b0a0eab7_20240626.onnx",
+    "bytes": 369330857,
+    "sha256": "4a289c0e99d47eb595e99679d9d4a2d1def1b4241f9adcbafba44b9ff585ebcd",
+    "execution": "CPU_ONLY",
+    "git": "IGNORED_LOCAL_MODEL"
+  }
+]

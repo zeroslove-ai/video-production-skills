@@ -6,8 +6,9 @@ import bpy,json,math,sys,numpy as np
 from collections import Counter
 from mathutils.bvhtree import BVHTree
 ROOT=Path(__file__).resolve().parents[1];reports=[]
-experiment='please_elbow' in sys.argv
-configs=[('native-body-r3-please-elbow',('please_tilt',))] if experiment else [('native-body-r3',('greeting_wave','shy_lookaway')),('native-body-r3-please-hands',('please_tilt',))]
+experiment='please_elbow' in sys.argv or 'please_wrist_delay' in sys.argv
+experiment_folder='native-body-r4-wrist-delay' if 'please_wrist_delay' in sys.argv else 'native-body-r3-please-elbow'
+configs=[(experiment_folder,('please_tilt',))] if experiment else [('native-body-r3',('greeting_wave','shy_lookaway')),('native-body-r3-please-hands',('please_tilt',))]
 for folder,clips in configs:
     E=ROOT/('evidence/'+folder);meta=json.loads((E/'build_receipt.json').read_text());bpy.ops.wm.open_mainfile(filepath=meta['candidate']);s=bpy.context.scene;r=bpy.data.objects['Armature'];head=bpy.data.objects['Character_Body_Head']
     meshes=[o for o in bpy.data.objects if o.type=='MESH' and not o.hide_render]
@@ -48,4 +49,4 @@ for folder,clips in configs:
             bounds.append({'frame':frame,'min_m':lo.tolist(),'max_m':hi.tolist()})
         height0=bounds[0]['max_m'][2]-bounds[0]['min_m'][2];max_height=max(b['max_m'][2]-b['min_m'][2] for b in bounds)
         reports.append({'clip':clip,'candidate_sha256':meta['candidate_sha256'],'frames':121,'mesh_objects':len(meshes),'evaluated_vertex_samples':tested,'max_vertex_step_m_per_frame':max_step,'max_height_vs_start':max_height/height0,'finite_and_fixed_topology':'PASS','gross_bound_health':'PASS' if max_height/height0<1.15 and max_step<.06 else 'REVIEW','sampled_hand_overlap':contacts,'collision_scope':'Triangle surface overlaps only; shared wrist boundary omitted; no penetration depth/no physics/contact acceptance','visual_quality':'PENDING_FULL_PLAYBACK_AND_HAND_DETAIL_REVIEW','bounds':bounds})
-out=ROOT/('evidence/native-body-r3-please-elbow' if experiment else 'evidence/native-body-video-r3');out.mkdir(parents=True,exist_ok=True);(out/'mesh_qa.json').write_text(json.dumps({'clips':reports,'actual_yuri_approved_performances':0},indent=2));print(json.dumps([{k:v for k,v in r.items() if k!='bounds'} for r in reports]))
+out=ROOT/('evidence/'+experiment_folder if experiment else 'evidence/native-body-video-r3');out.mkdir(parents=True,exist_ok=True);(out/'mesh_qa.json').write_text(json.dumps({'clips':reports,'actual_yuri_approved_performances':0},indent=2));print(json.dumps([{k:v for k,v in r.items() if k!='bounds'} for r in reports]))

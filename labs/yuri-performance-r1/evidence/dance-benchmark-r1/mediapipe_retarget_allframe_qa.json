@@ -1,0 +1,34 @@
+{
+  "frames": 360,
+  "finite": true,
+  "minimum_foot_head_z_m": 0.05532032251358032,
+  "max_quaternion_step_deg": 24.078276343296483,
+  "max_root_step_m": 0.03311157226671137,
+  "preview_fps": 30,
+  "motion_fps": 60,
+  "per_bone_max_step_deg": {
+    "hips": 8.02049135931275,
+    "spine": 8.02049135931275,
+    "chest": 8.020588689508424,
+    "neck": 8.020588689508424,
+    "head": 11.307005071872696,
+    "upper_arm.L": 20.078333150229426,
+    "forearm.L": 20.078333150229426,
+    "hand.L": 20.0782938766417,
+    "upper_arm.R": 20.028786957990153,
+    "forearm.R": 20.078341915336978,
+    "hand.R": 20.078369236093636,
+    "thigh.L": 15.185026826934088,
+    "shin.L": 17.23401186095163,
+    "foot.L": 8.048861403804045,
+    "thigh.R": 17.500607804635568,
+    "shin.R": 24.078276343296483,
+    "foot.R": 9.165233625527826
+  },
+  "candidate_sha256": "fe3dfa3de4e5d254329497a34271ffaf4af8d40754b4f177a16f0ffb512b9dba",
+  "render_folder": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\mediapipe_render_fe3dfa3de4",
+  "worst_rotation": {
+    "bone": "shin.R",
+    "frame": 166
+  }
+}

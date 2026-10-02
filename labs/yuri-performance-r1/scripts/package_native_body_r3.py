@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,hashlib,subprocess,shutil,sys
 from PIL import Image,ImageDraw
-ROOT=Path(__file__).resolve().parents[1];folder='native-camera-r4' if 'camera_r4' in sys.argv else 'native-body-r3-please-elbow' if 'please_elbow' in sys.argv else 'native-body-r3-please-hands' if 'please_hands' in sys.argv else 'native-body-r3';OUT=ROOT/('local/'+folder);E=ROOT/('evidence/'+folder);meta=json.loads((E/'build_receipt.json').read_text());candidate=Path(meta['candidate'])
+ROOT=Path(__file__).resolve().parents[1];folder='native-relaxed-wave-r5' if 'relaxed_wave' in sys.argv else 'native-body-r4-wrist-delay' if 'please_wrist_delay' in sys.argv else 'native-camera-r4' if 'camera_r4' in sys.argv else 'native-body-r3-please-elbow' if 'please_elbow' in sys.argv else 'native-body-r3-please-hands' if 'please_hands' in sys.argv else 'native-body-r3';OUT=ROOT/('local/'+folder);E=ROOT/('evidence/'+folder);meta=json.loads((E/'build_receipt.json').read_text());candidate=Path(meta['candidate'])
 assert hashlib.sha256(candidate.read_bytes()).hexdigest()==meta['candidate_sha256']
 qa=json.loads((E/'structural_qa.json').read_text());assert qa['candidate_sha256']==meta['candidate_sha256'] and all(c['technical']=='PASS' for c in qa['clips'])
 records=[]

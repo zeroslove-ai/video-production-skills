@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-02T13:17:57.548128+00:00",
+  "comparison_sha256": "36126472188e724aacf2c8122a74d72d2047b57babf89ae04136448c3c7ba449",
+  "browser_video": {
+    "currentTime": 6,
+    "duration": 6,
+    "ended": true,
+    "playbackRate": 1
+  },
+  "scope": "entire6sec1x browser playback plus all360frame structural/trajectory diagnostics",
+  "visual_verdict": "FAIL accurate dance; residual arm/hand/knee/depth deviations",
+  "mcp_live_inspect": {
+    "candidate": "motionbert_DANCE_R1.blend",
+    "frame": 181,
+    "bones": 17,
+    "saved": false
+  },
+  "gpu_lease": "PRODUCT_EXCLUSIVE preserved; CPU-only; RTX4080SUPER observed2876MiB/5percent; no GPU inference"
+}

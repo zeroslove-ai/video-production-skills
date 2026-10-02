@@ -1,0 +1,70 @@
+{
+  "method": "12 pitch-class STFT chroma, 100ms sampling, six-second template20\u201326s; pitch-class similarity may match generic harmony and is only a candidate locator",
+  "template": [
+    20,
+    26
+  ],
+  "repeated_audio_candidates": [
+    {
+      "start_seconds": 91.6,
+      "end_seconds": 97.6,
+      "chroma_similarity": 0.9673258875548599
+    },
+    {
+      "start_seconds": 84.5,
+      "end_seconds": 90.5,
+      "chroma_similarity": 0.9352217715988973
+    },
+    {
+      "start_seconds": 131.0,
+      "end_seconds": 137.0,
+      "chroma_similarity": 0.9188276377172702
+    },
+    {
+      "start_seconds": 67.9,
+      "end_seconds": 73.9,
+      "chroma_similarity": 0.9159587354182832
+    },
+    {
+      "start_seconds": 5.5,
+      "end_seconds": 11.5,
+      "chroma_similarity": 0.9152574549868351
+    },
+    {
+      "start_seconds": 117.6,
+      "end_seconds": 123.6,
+      "chroma_similarity": 0.914624803420447
+    },
+    {
+      "start_seconds": 41.5,
+      "end_seconds": 47.5,
+      "chroma_similarity": 0.9115208379993011
+    },
+    {
+      "start_seconds": 77.3,
+      "end_seconds": 83.3,
+      "chroma_similarity": 0.9100627985235054
+    }
+  ],
+  "chorus_label": "UNVERIFIED; musical similarity is not a chorus annotation",
+  "selected_segment_audio_onsets_seconds": [
+    20.17814058956916,
+    20.572879818594103,
+    20.758639455782312,
+    21.223038548752832,
+    21.43201814058957,
+    21.664217687074828,
+    21.849977324263037,
+    22.105396825396824,
+    22.54657596371882,
+    22.987755102040815,
+    23.452154195011335,
+    23.754013605442175,
+    24.334512471655326,
+    24.775691609977322,
+    25.240090702947846,
+    25.518730158730158,
+    25.843809523809522
+  ],
+  "onset_scope": "signal transients, not manually labelled dance beats"
+}

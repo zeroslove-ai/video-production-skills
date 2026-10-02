@@ -1,0 +1,572 @@
+[
+  {
+    "estimator": "mediapipe",
+    "fps": 60,
+    "frames": 360,
+    "assumed_height_m": 1.65,
+    "assumed_focal_px": 1700.0,
+    "derived_constant_depth_m": 4.241993284348984,
+    "scale_not_ground_truth": true,
+    "camera_selected": "20\u201326s fixed studio seams; 26\u201328s excluded from final benchmark",
+    "contact_locks": [
+      {
+        "side": 0,
+        "start_frame": 0,
+        "end_frame": 32,
+        "anchor_xy_assumed_m": [
+          0.09807258001382532,
+          0.0018693829725665752
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 36,
+        "end_frame": 62,
+        "anchor_xy_assumed_m": [
+          0.026881623281496875,
+          0.036037185746021216
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 66,
+        "end_frame": 84,
+        "anchor_xy_assumed_m": [
+          0.09298989502239627,
+          -0.05821920952419095
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 93,
+        "end_frame": 111,
+        "anchor_xy_assumed_m": [
+          -0.023831180105390093,
+          0.07552803074038072
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 122,
+        "end_frame": 139,
+        "anchor_xy_assumed_m": [
+          0.13086767851762032,
+          -0.010835694852245833
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 148,
+        "end_frame": 163,
+        "anchor_xy_assumed_m": [
+          0.03572128984489388,
+          0.05942331600888384
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 176,
+        "end_frame": 226,
+        "anchor_xy_assumed_m": [
+          0.2594308058630005,
+          0.08644602233501544
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 258,
+        "end_frame": 359,
+        "anchor_xy_assumed_m": [
+          0.24735740038201384,
+          0.06034332093788246
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 0,
+        "end_frame": 35,
+        "anchor_xy_assumed_m": [
+          -0.060852581883681076,
+          0.05856345404622938
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 45,
+        "end_frame": 60,
+        "anchor_xy_assumed_m": [
+          -0.1931620731845438,
+          -0.18656010354446975
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 67,
+        "end_frame": 86,
+        "anchor_xy_assumed_m": [
+          -0.06396031116325285,
+          0.030018094920841773
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 96,
+        "end_frame": 110,
+        "anchor_xy_assumed_m": [
+          -0.2416540596781132,
+          -0.1952192618192891
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 122,
+        "end_frame": 140,
+        "anchor_xy_assumed_m": [
+          -0.019824200186365132,
+          0.06279661316864375
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 146,
+        "end_frame": 164,
+        "anchor_xy_assumed_m": [
+          -0.12875324330031074,
+          -0.15215751157283802
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 173,
+        "end_frame": 194,
+        "anchor_xy_assumed_m": [
+          0.054498180921721456,
+          0.028307770055297516
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 232,
+        "end_frame": 291,
+        "anchor_xy_assumed_m": [
+          -0.21858470358418924,
+          -0.12194254320533986
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 301,
+        "end_frame": 359,
+        "anchor_xy_assumed_m": [
+          -0.20763497085399224,
+          -0.1144022593805334
+        ]
+      }
+    ],
+    "sliding_internal_diagnostic_not_GT_contact_accuracy": [
+      {
+        "side": 0,
+        "contact_frame_pairs": 277,
+        "raw_mean_speed_m_s": 0.6420855492541657,
+        "cleaned_mean_speed_m_s": 0.16959647066711506
+      },
+      {
+        "side": 1,
+        "contact_frame_pairs": 257,
+        "raw_mean_speed_m_s": 0.8188655230835005,
+        "cleaned_mean_speed_m_s": 0.19862779300345043
+      }
+    ],
+    "max_cleanup_displacement_m": 0.2410171417759095,
+    "root_x_range_assumed_m": 0.276572977209803,
+    "root_depth_world_trajectory": "UNRESOLVED; hip-relative model depth and assumed constant camera distance cannot establish real floor trajectory",
+    "depth_uncertainty": "single camera and unknown intrinsics/body size; no metric-world PASS",
+    "sharp_preserved_samples": 337
+  },
+  {
+    "estimator": "rtmw3d",
+    "fps": 60,
+    "frames": 360,
+    "assumed_height_m": 1.65,
+    "assumed_focal_px": 1700.0,
+    "derived_constant_depth_m": 4.255162809990815,
+    "scale_not_ground_truth": true,
+    "camera_selected": "20\u201326s fixed studio seams; 26\u201328s excluded from final benchmark",
+    "contact_locks": [
+      {
+        "side": 0,
+        "start_frame": 0,
+        "end_frame": 32,
+        "anchor_xy_assumed_m": [
+          0.07992565145578508,
+          0.005541421685900004
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 39,
+        "end_frame": 61,
+        "anchor_xy_assumed_m": [
+          0.0008261855974930569,
+          0.004894270215715677
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 67,
+        "end_frame": 83,
+        "anchor_xy_assumed_m": [
+          0.08252211730258291,
+          0.007482926334653577
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 93,
+        "end_frame": 110,
+        "anchor_xy_assumed_m": [
+          -0.024163618759474773,
+          0.04390636895384104
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 122,
+        "end_frame": 139,
+        "anchor_xy_assumed_m": [
+          0.11138103140388267,
+          0.0013550549745559681
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 143,
+        "end_frame": 163,
+        "anchor_xy_assumed_m": [
+          0.046969314841774135,
+          0.015451140063149576
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 176,
+        "end_frame": 224,
+        "anchor_xy_assumed_m": [
+          0.23738927523563985,
+          0.0788332743304116
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 258,
+        "end_frame": 359,
+        "anchor_xy_assumed_m": [
+          0.22632768915699167,
+          0.005966068591390335
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 0,
+        "end_frame": 35,
+        "anchor_xy_assumed_m": [
+          -0.0351081300589758,
+          0.04528153666428156
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 45,
+        "end_frame": 59,
+        "anchor_xy_assumed_m": [
+          -0.13958606980203375,
+          -0.02309587938444954
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 67,
+        "end_frame": 86,
+        "anchor_xy_assumed_m": [
+          -0.05415174950629193,
+          -0.01763531906264168
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 97,
+        "end_frame": 108,
+        "anchor_xy_assumed_m": [
+          -0.17200555046271784,
+          0.025280085631779255
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 121,
+        "end_frame": 144,
+        "anchor_xy_assumed_m": [
+          -0.02225543461896441,
+          -0.019758857573781687
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 149,
+        "end_frame": 162,
+        "anchor_xy_assumed_m": [
+          -0.0708747792831349,
+          0.04501866719552447
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 175,
+        "end_frame": 194,
+        "anchor_xy_assumed_m": [
+          0.08807142476370346,
+          -0.01834316509110586
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 233,
+        "end_frame": 254,
+        "anchor_xy_assumed_m": [
+          -0.19001432337004528,
+          -0.016280323266983025
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 258,
+        "end_frame": 292,
+        "anchor_xy_assumed_m": [
+          -0.14210052018336192,
+          -0.016138815879821772
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 299,
+        "end_frame": 303,
+        "anchor_xy_assumed_m": [
+          -0.2001967351349514,
+          0.0523802191019058
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 309,
+        "end_frame": 359,
+        "anchor_xy_assumed_m": [
+          -0.16574418781171635,
+          -0.01152772137096951
+        ]
+      }
+    ],
+    "sliding_internal_diagnostic_not_GT_contact_accuracy": [
+      {
+        "side": 0,
+        "contact_frame_pairs": 273,
+        "raw_mean_speed_m_s": 0.9310891973492669,
+        "cleaned_mean_speed_m_s": 0.49791128996759004
+      },
+      {
+        "side": 1,
+        "contact_frame_pairs": 243,
+        "raw_mean_speed_m_s": 0.6086555114142828,
+        "cleaned_mean_speed_m_s": 0.3521298859667258
+      }
+    ],
+    "max_cleanup_displacement_m": 0.5582613785129493,
+    "root_x_range_assumed_m": 0.2720458436040619,
+    "root_depth_world_trajectory": "UNRESOLVED; hip-relative model depth and assumed constant camera distance cannot establish real floor trajectory",
+    "depth_uncertainty": "single camera and unknown intrinsics/body size; no metric-world PASS",
+    "sharp_preserved_samples": 310
+  },
+  {
+    "estimator": "motionbert",
+    "fps": 60,
+    "frames": 360,
+    "assumed_height_m": 1.65,
+    "assumed_focal_px": 1700.0,
+    "derived_constant_depth_m": 4.241993284348984,
+    "scale_not_ground_truth": true,
+    "camera_selected": "20\u201326s fixed studio seams; 26\u201328s excluded from final benchmark",
+    "contact_locks": [
+      {
+        "side": 0,
+        "start_frame": 0,
+        "end_frame": 32,
+        "anchor_xy_assumed_m": [
+          0.04619756483970339,
+          0.06369094238534581
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 36,
+        "end_frame": 62,
+        "anchor_xy_assumed_m": [
+          0.014092081663945377,
+          0.08693361034657557
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 66,
+        "end_frame": 84,
+        "anchor_xy_assumed_m": [
+          0.03769555939676369,
+          0.06865819560788128
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 93,
+        "end_frame": 111,
+        "anchor_xy_assumed_m": [
+          -0.04071991705548179,
+          0.10567309613350971
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 122,
+        "end_frame": 139,
+        "anchor_xy_assumed_m": [
+          0.09021544365485441,
+          0.08833715306912829
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 148,
+        "end_frame": 163,
+        "anchor_xy_assumed_m": [
+          0.006263584653991903,
+          0.0909595697214739
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 176,
+        "end_frame": 226,
+        "anchor_xy_assumed_m": [
+          0.2029385625938923,
+          0.1328949861683013
+        ]
+      },
+      {
+        "side": 0,
+        "start_frame": 258,
+        "end_frame": 359,
+        "anchor_xy_assumed_m": [
+          0.19899148210271278,
+          0.14158223986783572
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 0,
+        "end_frame": 35,
+        "anchor_xy_assumed_m": [
+          -0.062309988061406904,
+          0.07185584393475689
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 45,
+        "end_frame": 60,
+        "anchor_xy_assumed_m": [
+          -0.15555292822572442,
+          0.017985974066455836
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 67,
+        "end_frame": 86,
+        "anchor_xy_assumed_m": [
+          -0.07510795630088218,
+          0.07411393566121754
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 96,
+        "end_frame": 110,
+        "anchor_xy_assumed_m": [
+          -0.2074411272519521,
+          0.027512650234059216
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 122,
+        "end_frame": 140,
+        "anchor_xy_assumed_m": [
+          -0.03236403333824022,
+          0.09076090241289675
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 146,
+        "end_frame": 164,
+        "anchor_xy_assumed_m": [
+          -0.09939892467377956,
+          0.034542743381560964
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 173,
+        "end_frame": 194,
+        "anchor_xy_assumed_m": [
+          0.0657264762304367,
+          0.10217678223923032
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 232,
+        "end_frame": 291,
+        "anchor_xy_assumed_m": [
+          -0.2021055413728687,
+          0.06494783878900603
+        ]
+      },
+      {
+        "side": 1,
+        "start_frame": 301,
+        "end_frame": 359,
+        "anchor_xy_assumed_m": [
+          -0.19432921516840412,
+          0.06976574777006794
+        ]
+      }
+    ],
+    "sliding_internal_diagnostic_not_GT_contact_accuracy": [
+      {
+        "side": 0,
+        "contact_frame_pairs": 277,
+        "raw_mean_speed_m_s": 0.32337802804812943,
+        "cleaned_mean_speed_m_s": 0.1429204813303059
+      },
+      {
+        "side": 1,
+        "contact_frame_pairs": 257,
+        "raw_mean_speed_m_s": 0.4163124918049918,
+        "cleaned_mean_speed_m_s": 0.1632902058079787
+      }
+    ],
+    "max_cleanup_displacement_m": 0.12354087619641817,
+    "root_x_range_assumed_m": 0.276572977209803,
+    "root_depth_world_trajectory": "UNRESOLVED; hip-relative model depth and assumed constant camera distance cannot establish real floor trajectory",
+    "depth_uncertainty": "single camera and unknown intrinsics/body size; no metric-world PASS",
+    "sharp_preserved_samples": 337
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "frames": 360,
+  "finite": true,
+  "minimum_foot_head_z_m": 0.03298485651612282,
+  "max_quaternion_step_deg": 154.88560433649454,
+  "max_root_step_m": 0.035862363235225556,
+  "preview_fps": 30,
+  "motion_fps": 60
+}
