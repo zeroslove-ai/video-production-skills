@@ -81,6 +81,11 @@ def export_package(args: argparse.Namespace) -> dict:
     height = int(scene.render.resolution_y)
     fps = float(scene.render.fps / scene.render.fps_base)
 
+    from math import gcd
+
+    g = gcd(width, height) or 1
+    aspect_ratio = f"{width // g}:{height // g}"
+
     blend_path = Path(bpy.data.filepath) if bpy.data.filepath else Path("untitled.blend")
     blend_hash = _sha256_file(blend_path) if blend_path.is_file() else "0" * 64
 
@@ -94,7 +99,7 @@ def export_package(args: argparse.Namespace) -> dict:
         "image": {
             "width": width,
             "height": height,
-            "aspect_ratio": f"{width}:{height}",
+            "aspect_ratio": aspect_ratio,
         },
         "camera": {
             "sensor_width_mm": float(scene.camera.data.sensor_width),
