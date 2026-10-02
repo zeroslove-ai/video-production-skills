@@ -1,0 +1,286 @@
+{
+  "version": "1.0.0",
+  "status": "proposed_not_render_validated",
+  "presets": [
+    {
+      "preset_id": "SOFT_DAY",
+      "mood": "soft_day",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 30,
+        "elevation_deg": 30,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.5
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.2
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#EEDBC0",
+        "#A9BDD4"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ]
+    },
+    {
+      "preset_id": "WARM_CONFESSION",
+      "mood": "warm_confession",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 40,
+        "elevation_deg": 30,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.35
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.25
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#D9A267",
+        "#81758D"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ]
+    },
+    {
+      "preset_id": "COOL_TENSION",
+      "mood": "cool_tension",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 55,
+        "elevation_deg": 30,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.2
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.4
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#65758A",
+        "#83C7D1"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ]
+    },
+    {
+      "preset_id": "HERO_RIM",
+      "mood": "hero_rim",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 30,
+        "elevation_deg": 30,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.3
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.7
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#718AB0",
+        "#EBC78D"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ]
+    },
+    {
+      "preset_id": "NIGHT_NEON",
+      "mood": "night_neon",
+      "engine_baseline": "BLENDER_EEVEE",
+      "key": {
+        "type": "AREA",
+        "azimuth_deg": 45,
+        "elevation_deg": 30,
+        "size_relative_to_subject_height": 1.5,
+        "energy_relative": 1.0
+      },
+      "fill": {
+        "type": "AREA",
+        "azimuth_deg": -25,
+        "elevation_deg": 15,
+        "energy_relative": 0.25
+      },
+      "rim": {
+        "type": "AREA",
+        "azimuth_deg": 150,
+        "elevation_deg": 35,
+        "energy_relative": 0.5
+      },
+      "calibration": "relative_energy_not_measured_exposure_ratio; absolute watts require set calibration",
+      "palette_srgb_hex": [
+        "#9365BF",
+        "#63B8CF"
+      ],
+      "color": {
+        "working_space": "Linear Rec.709",
+        "display": "sRGB",
+        "view_transform": "Standard",
+        "exposure_ev": 0
+      },
+      "eye_highlight": {
+        "default_policy": "preserve_asset",
+        "live_light_requires_asset_capability": true,
+        "review_rules": [
+          "pupil_separation",
+          "motivated_direction",
+          "no_duplicate_catchlight",
+          "no_temporal_flicker"
+        ]
+      },
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "review_rules": [
+        "face_readability",
+        "hair_rim_clipping",
+        "iris_hue",
+        "approved_palette"
+      ]
+    }
+  ]
+}

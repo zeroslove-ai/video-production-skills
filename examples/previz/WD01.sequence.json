@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0.0",
+  "sequence_id": "WD01",
+  "revision": "R1",
+  "production_mode": "WEB_DRAMA",
+  "status": "design_fixture",
+  "logline": "카페에서 약속을 설명하고 상대의 반응을 기다린 뒤 결심한다.",
+  "fps": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "resolution": {
+    "width": 1280,
+    "height": 720,
+    "pixel_aspect_x": 1,
+    "pixel_aspect_y": 1
+  },
+  "duration_frames": 720,
+  "timeline_origin": 0,
+  "assets": [
+    {
+      "asset_id": "CHAR_A",
+      "kind": "character",
+      "uri": "inputs/CHAR_A.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked"
+    },
+    {
+      "asset_id": "CHAR_B",
+      "kind": "character",
+      "uri": "inputs/CHAR_B.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked"
+    },
+    {
+      "asset_id": "CLIP_A_DIALOGUE",
+      "kind": "animation_clip",
+      "uri": "inputs/CLIP_A_DIALOGUE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 720
+      }
+    },
+    {
+      "asset_id": "CLIP_B_DIALOGUE",
+      "kind": "animation_clip",
+      "uri": "inputs/CLIP_B_DIALOGUE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "B_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 720
+      }
+    },
+    {
+      "asset_id": "SET_CAFE",
+      "kind": "set",
+      "uri": "inputs/SET_CAFE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "PROP_NOTE",
+      "kind": "prop",
+      "uri": "inputs/PROP_NOTE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "A_VOICE",
+      "kind": "audio",
+      "uri": "inputs/A_VOICE.wav",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "not_applicable",
+      "root_motion_policy": "not_applicable",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 0,
+        "duration": 144
+      }
+    },
+    {
+      "asset_id": "B_VOICE",
+      "kind": "audio",
+      "uri": "inputs/B_VOICE.wav",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "not_applicable",
+      "root_motion_policy": "not_applicable",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 0,
+        "duration": 96
+      }
+    }
+  ],
+  "reference_packs": [
+    {
+      "pack_id": "REF_WD01_R1",
+      "revision": "PLACEHOLDER_R1",
+      "panel_ids": [
+        "WD01_CAMERA",
+        "WD01_LOOK"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "WD01_SH010",
+      "manifest_uri": "WD01_SH010.shot.json",
+      "revision": "R1",
+      "timeline_start": 0,
+      "source_range": {
+        "start": 1,
+        "duration": 120
+      }
+    },
+    {
+      "shot_id": "WD01_SH020",
+      "manifest_uri": "WD01_SH020.shot.json",
+      "revision": "R1",
+      "timeline_start": 120,
+      "source_range": {
+        "start": 121,
+        "duration": 144
+      }
+    },
+    {
+      "shot_id": "WD01_SH030",
+      "manifest_uri": "WD01_SH030.shot.json",
+      "revision": "R1",
+      "timeline_start": 264,
+      "source_range": {
+        "start": 265,
+        "duration": 120
+      }
+    },
+    {
+      "shot_id": "WD01_SH040",
+      "manifest_uri": "WD01_SH040.shot.json",
+      "revision": "R1",
+      "timeline_start": 384,
+      "source_range": {
+        "start": 385,
+        "duration": 120
+      }
+    },
+    {
+      "shot_id": "WD01_SH050",
+      "manifest_uri": "WD01_SH050.shot.json",
+      "revision": "R1",
+      "timeline_start": 504,
+      "source_range": {
+        "start": 505,
+        "duration": 120
+      }
+    },
+    {
+      "shot_id": "WD01_SH060",
+      "manifest_uri": "WD01_SH060.shot.json",
+      "revision": "R1",
+      "timeline_start": 624,
+      "source_range": {
+        "start": 625,
+        "duration": 96
+      }
+    }
+  ],
+  "gaps": [],
+  "audio_tracks": [
+    {
+      "track_id": "A1_DIALOGUE_A",
+      "clips": [
+        {
+          "clip_id": "A_LINE01",
+          "asset_id": "A_VOICE",
+          "timeline_start": 120,
+          "source_range": {
+            "start": 0,
+            "duration": 144
+          },
+          "gain_db": 0
+        }
+      ]
+    },
+    {
+      "track_id": "A2_DIALOGUE_B",
+      "clips": [
+        {
+          "clip_id": "B_LINE01",
+          "asset_id": "B_VOICE",
+          "timeline_start": 384,
+          "source_range": {
+            "start": 0,
+            "duration": 96
+          },
+          "gain_db": 0
+        }
+      ]
+    }
+  ],
+  "editorial": {
+    "picture_track": "V1",
+    "transition_policy": "cuts_only",
+    "unsupported_policy": "report_or_bake",
+    "otio_target_uri": "editorial/WD01.otio"
+  },
+  "handoff": {
+    "coordinate_system": "Blender_Z_up_camera_minus_Z_forward_plus_Y_up",
+    "units": "meters",
+    "gameplay_return_anchor_id": "NOT_APPLICABLE",
+    "event_markers": []
+  },
+  "art_review": {
+    "status": "draft",
+    "reviewer": "PM_AND_ART_REVIEW_PENDING",
+    "decision": "Design fixture; assets and look not approved."
+  }
+}

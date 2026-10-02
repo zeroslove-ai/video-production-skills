@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0.0",
+  "sequence_id": "CS01",
+  "revision": "R1",
+  "production_mode": "CHARACTER_SHORT",
+  "status": "design_fixture",
+  "logline": "창가에서 돌아보고 인사한 뒤 감정을 유지한다.",
+  "fps": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "resolution": {
+    "width": 1280,
+    "height": 720,
+    "pixel_aspect_x": 1,
+    "pixel_aspect_y": 1
+  },
+  "duration_frames": 288,
+  "timeline_origin": 0,
+  "assets": [
+    {
+      "asset_id": "CHAR_A",
+      "kind": "character",
+      "uri": "inputs/CHAR_A.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked"
+    },
+    {
+      "asset_id": "CLIP_A_GREETING",
+      "kind": "animation_clip",
+      "uri": "inputs/CLIP_A_GREETING.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 288
+      }
+    },
+    {
+      "asset_id": "SET_WINDOW",
+      "kind": "set",
+      "uri": "inputs/SET_WINDOW.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    }
+  ],
+  "reference_packs": [
+    {
+      "pack_id": "REF_CS01_R1",
+      "revision": "PLACEHOLDER_R1",
+      "panel_ids": [
+        "CS01_CAMERA",
+        "CS01_LOOK"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "CS01_SH010",
+      "manifest_uri": "CS01_SH010.shot.json",
+      "revision": "R1",
+      "timeline_start": 0,
+      "source_range": {
+        "start": 1,
+        "duration": 96
+      }
+    },
+    {
+      "shot_id": "CS01_SH020",
+      "manifest_uri": "CS01_SH020.shot.json",
+      "revision": "R1",
+      "timeline_start": 96,
+      "source_range": {
+        "start": 97,
+        "duration": 96
+      }
+    },
+    {
+      "shot_id": "CS01_SH030",
+      "manifest_uri": "CS01_SH030.shot.json",
+      "revision": "R1",
+      "timeline_start": 192,
+      "source_range": {
+        "start": 193,
+        "duration": 96
+      }
+    }
+  ],
+  "gaps": [],
+  "audio_tracks": [],
+  "editorial": {
+    "picture_track": "V1",
+    "transition_policy": "cuts_only",
+    "unsupported_policy": "report_or_bake",
+    "otio_target_uri": "editorial/CS01.otio"
+  },
+  "handoff": {
+    "coordinate_system": "Blender_Z_up_camera_minus_Z_forward_plus_Y_up",
+    "units": "meters",
+    "gameplay_return_anchor_id": "NOT_APPLICABLE",
+    "event_markers": []
+  },
+  "art_review": {
+    "status": "draft",
+    "reviewer": "PM_AND_ART_REVIEW_PENDING",
+    "decision": "Design fixture; assets and look not approved."
+  }
+}
