@@ -60,7 +60,8 @@ python -m previs_pipeline.cli validate previs/out/demo_r1/demo_r1_12s
 ComfyUI dry-run (no server):
 
 ```powershell
-python -c "from pathlib import Path; from previs.adapters.comfyui import ComfyUIAdapter; a=ComfyUIAdapter(); print(a.run_dry_run(Path('previs/out/demo_r1/demo_r1_12s'), Path('previs/out/comfy_dry_run')))"
+python -m previs_pipeline.cli dry-run comfyui previs/out/demo_r1/demo_r1_12s -w previs/out/comfy_dry_run
+python -m previs_pipeline.cli dry-run external previs/out/demo_r1/demo_r1_12s -w previs/out/external_dry_run
 ```
 
 Live Blender export (workstation gate — **not run in CI worker**):
