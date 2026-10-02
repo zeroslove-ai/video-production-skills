@@ -1,0 +1,49 @@
+{
+  "media": [
+    {
+      "file": "sequence_24fps.mp4",
+      "fps": 24,
+      "frames": 264,
+      "duration_seconds": 11,
+      "full_normal_speed_playback": "VERIFIED_BROWSER_ENDED_RATE_1",
+      "sha256": "942e23b160834508b0504f2f1b1e4dcfe8ba8ec7ff2938c0e26c9a21af3c3d11"
+    },
+    {
+      "file": "fbx_sequence_24fps.mp4",
+      "fps": 24,
+      "frames": 264,
+      "duration_seconds": 11,
+      "full_normal_speed_playback": "VERIFIED_BROWSER_ENDED_RATE_1",
+      "sha256": "10c624ee73b58b0aec835375540bf340ab02568f2374bdd57faa38082e8ed2a6"
+    },
+    {
+      "file": "comparison_24fps.mp4",
+      "fps": 24,
+      "frames": 264,
+      "duration_seconds": 11,
+      "full_normal_speed_playback": "SAME_TIME_SYNCED_NATIVE_FBX_CONTENT_ENCODED",
+      "sha256": "4f04124fdef40b4dd7c1a4d53bbf3e6d5f791e47243288c48698cc84f28173dc"
+    },
+    {
+      "file": "strong_2cycles_24fps.mp4",
+      "fps": 24,
+      "frames": 96,
+      "duration_seconds": 4,
+      "full_normal_speed_playback": "VERIFIED_BROWSER_ENDED_RATE_1",
+      "sha256": "37c10c3f38e09f2f9c31968191d3326f7152096fec157cab8887604ec795d24d"
+    },
+    {
+      "file": "startle_24fps.mp4",
+      "fps": 24,
+      "frames": 36,
+      "duration_seconds": 1.5,
+      "full_normal_speed_playback": "VERIFIED_BROWSER_ENDED_RATE_1",
+      "sha256": "74a30edc3623bba8a9443691dadf37c7985c95430a5531df0a5a045ba26d22fd"
+    }
+  ],
+  "native_verdict": "PASS_NO_MAJOR_POSE_POP",
+  "fbx_verdict": "SKELETON_PASS; MATERIAL_SHADERS_NOT_EQUIVALENT; NO_UNITY_ACCEPTANCE",
+  "source_surface_audit": "A/O visually weak; neutral/blink/gaze response sampled",
+  "culling_mode_required": "AlwaysAnimate",
+  "unity_runtime": "UNTESTED"
+}

@@ -1,3 +1,9 @@
+## R4 model handoff checkpoint — 2026-10-02
+
+R4 vs R3d rest rigs / 78 actions preserved. R2 66 original actions archived without curve edits. Existing 6 polished reactions reused through target-neutral retarget and grounded foot IK; 11sec native/FBX 24fps full playback complete. Export single GameRig 79 bones / 21 meshes / head 72 keys, 6 animation-only FBX takes. Full-frame fresh FBX joint error <=1.3µm. Native shader/gaze drivers and DQ/surface relax are not a Unity port; FBX material reconstruction and AlwaysAnimate runtime gate remain untested. See R4_MODEL_HANDOFF_R1_KO.md, evidence/model-handoff-r4, scripts/r4_*.py. No product/laptop/main changes.
+
+Bundle SHA256: 48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85
+
 ## Desktop checkpoint R2: constrained dance reprojection
 
 [DANCE_REPROJECTION_R2_KO.md](DANCE_REPROJECTION_R2_KO.md): 같은6초의 normalized 팔 제약 보정. 수동 wrist11labels 평균62.17→16.73px, actual mesh-mask IoU.5905→.6169. Unconstrained158.91deg pop 후보는 폐기했다. World/root/contact accuracy gate는 FAIL 유지. First3 native5camera 비교3영상과 relaxed-finger wave1영상 완료. 아래 checkpoint들은 작성 시점의 역사이며 최신 상태는 LATEST_RUN/evidence로 확인한다.

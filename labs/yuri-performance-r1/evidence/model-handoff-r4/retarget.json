@@ -1,0 +1,117 @@
+{
+  "source_r4_actions_preserved": 78,
+  "r2_original_actions_preserved": 66,
+  "r4_mesh_weights_keys_rest_preserved": true,
+  "retarget_method": "world rest rotation delta transferred to target rest orientation; hierarchical parent pose removal; normalized pelvis/root translation; native target limb lengths retained",
+  "translation_height_ratio": 0.8558494790405046,
+  "mapping": {
+    "root": "Root",
+    "pelvis": "J_Bip_C_Hips",
+    "spine": "J_Bip_C_Spine",
+    "chest": "J_Bip_C_UpperChest",
+    "neck": "J_Bip_C_Neck",
+    "head": "J_Bip_C_Head",
+    "clavicle.L": "J_Bip_L_Shoulder",
+    "upper_arm.L": "J_Bip_L_UpperArm",
+    "forearm.L": "J_Bip_L_LowerArm",
+    "hand.L": "J_Bip_L_Hand",
+    "thigh.L": "J_Bip_L_UpperLeg",
+    "shin.L": "J_Bip_L_LowerLeg",
+    "foot.L": "J_Bip_L_Foot",
+    "toe.L": "J_Bip_L_ToeBase",
+    "thumb1.L": "J_Bip_L_Thumb1",
+    "thumb2.L": "J_Bip_L_Thumb2",
+    "thumb3.L": "J_Bip_L_Thumb3",
+    "index1.L": "J_Bip_L_Index1",
+    "index2.L": "J_Bip_L_Index2",
+    "index3.L": "J_Bip_L_Index3",
+    "middle1.L": "J_Bip_L_Middle1",
+    "middle2.L": "J_Bip_L_Middle2",
+    "middle3.L": "J_Bip_L_Middle3",
+    "ring1.L": "J_Bip_L_Ring1",
+    "ring2.L": "J_Bip_L_Ring2",
+    "ring3.L": "J_Bip_L_Ring3",
+    "pinky1.L": "J_Bip_L_Little1",
+    "pinky2.L": "J_Bip_L_Little2",
+    "pinky3.L": "J_Bip_L_Little3",
+    "clavicle.R": "J_Bip_R_Shoulder",
+    "upper_arm.R": "J_Bip_R_UpperArm",
+    "forearm.R": "J_Bip_R_LowerArm",
+    "hand.R": "J_Bip_R_Hand",
+    "thigh.R": "J_Bip_R_UpperLeg",
+    "shin.R": "J_Bip_R_LowerLeg",
+    "foot.R": "J_Bip_R_Foot",
+    "toe.R": "J_Bip_R_ToeBase",
+    "thumb1.R": "J_Bip_R_Thumb1",
+    "thumb2.R": "J_Bip_R_Thumb2",
+    "thumb3.R": "J_Bip_R_Thumb3",
+    "index1.R": "J_Bip_R_Index1",
+    "index2.R": "J_Bip_R_Index2",
+    "index3.R": "J_Bip_R_Index3",
+    "middle1.R": "J_Bip_R_Middle1",
+    "middle2.R": "J_Bip_R_Middle2",
+    "middle3.R": "J_Bip_R_Middle3",
+    "ring1.R": "J_Bip_R_Ring1",
+    "ring2.R": "J_Bip_R_Ring2",
+    "ring3.R": "J_Bip_R_Ring3",
+    "pinky1.R": "J_Bip_R_Little1",
+    "pinky2.R": "J_Bip_R_Little2",
+    "pinky3.R": "J_Bip_R_Little3"
+  },
+  "clips": [
+    {
+      "source_action": "YRA_R1_BalanceRecover",
+      "target_action": "YRA_R4_BalanceRecover",
+      "frames": 55,
+      "production_clip": true
+    },
+    {
+      "source_action": "YRA_R1_Land_Soft",
+      "target_action": "YRA_R4_Land_Soft",
+      "frames": 43,
+      "production_clip": true
+    },
+    {
+      "source_action": "YRA_R1_Lift_Start",
+      "target_action": "YRA_R4_Lift_Start",
+      "frames": 31,
+      "production_clip": true
+    },
+    {
+      "source_action": "YRA_R1_QA_MilestoneA_Sequence",
+      "target_action": "YRA_R4_QA_MilestoneA_Sequence",
+      "frames": 265,
+      "production_clip": false
+    },
+    {
+      "source_action": "YRA_R1_QA_Release_Placeholder",
+      "target_action": "YRA_R4_QA_Release_Placeholder",
+      "frames": 19,
+      "production_clip": false
+    },
+    {
+      "source_action": "YRA_R1_Startle_Short",
+      "target_action": "YRA_R4_Startle_Short",
+      "frames": 37,
+      "production_clip": true
+    },
+    {
+      "source_action": "YRA_R1_Struggle_Light_Loop",
+      "target_action": "YRA_R4_Struggle_Light_Loop",
+      "frames": 61,
+      "production_clip": true
+    },
+    {
+      "source_action": "YRA_R1_Struggle_Strong_Loop",
+      "target_action": "YRA_R4_Struggle_Strong_Loop",
+      "frames": 49,
+      "production_clip": true
+    }
+  ],
+  "source_action_overwrite": false,
+  "candidate": "Character_Master_Reaction_R4_20261002.blend",
+  "native_r4_body_rig": "Meshy_Fitted_Rig",
+  "donor_face_rig": "Armature",
+  "hair_rig": "Hair_Rig_R4",
+  "face_adapter_constraints": "preserved"
+}

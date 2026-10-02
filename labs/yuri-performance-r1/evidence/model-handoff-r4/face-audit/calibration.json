@@ -1,0 +1,4426 @@
+{
+  "source": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-model-handoff\\Character_Master_Reaction_R4_20261002.blend",
+  "source_sha256": "29db3c7b6ef5d558220e6570697ff7b099c9e152be1939572831defb4eb0b3e0",
+  "provenance": "Existing user-supplied asset from this session; private research reference only; no redistribution license asserted",
+  "research_copy": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\R4_FACE_CALIBRATION_COPY.blend",
+  "source_actions_preserved_count": 166,
+  "body_bones": 57,
+  "original_data_edits": "NONE: no mesh/skin/rest bone/key geometry/driver edits; disposable render settings and current channel values only",
+  "render_engine": "CYCLES_CPU_4_THREADS",
+  "elapsed_seconds": 24.691457799985074,
+  "cases": [
+    {
+      "case": "neutral",
+      "native_shape_values": {},
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\neutral\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\neutral\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\neutral\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "blink_L",
+      "native_shape_values": {
+        "Blink.L": 1
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.008591782769172048,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_L\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_L\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_L\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "blink_R",
+      "native_shape_values": {
+        "Blink.R": 1
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.008605176356800734,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_R\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_R\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_R\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "blink_both",
+      "native_shape_values": {
+        "Blink.L": 1,
+        "Blink.R": 1
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.008605176356800734,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_both\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_both\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_both\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "blink_half",
+      "native_shape_values": {
+        "Blink.L": 0.5,
+        "Blink.R": 0.5
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0036905007347908508,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_half\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_half\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\blink_half\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "gaze_left",
+      "native_shape_values": {},
+      "native_gaze_controls": [
+        -0.65,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0007489480797021055,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_left\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_left\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_left\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "gaze_right",
+      "native_shape_values": {},
+      "native_gaze_controls": [
+        0.65,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0007489480797021055,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_right\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_right\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_right\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "gaze_up",
+      "native_shape_values": {},
+      "native_gaze_controls": [
+        0,
+        0.4
+      ],
+      "evaluated_vertex_delta_m": 0.00026984619242594477,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_up\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_up\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_up\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "gaze_down",
+      "native_shape_values": {},
+      "native_gaze_controls": [
+        0,
+        -0.4
+      ],
+      "evaluated_vertex_delta_m": 0.00029919933173331784,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_down\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_down\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\gaze_down\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "A_approx",
+      "native_shape_values": {
+        "JawOpen": 0.55,
+        "MouthWide": 0.18
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0016061178673319083,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\A_approx\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\A_approx\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\A_approx\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "O_approx",
+      "native_shape_values": {
+        "JawOpen": 0.4,
+        "LipPucker": 0.5
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.001161544252786901,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\O_approx\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\O_approx\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\O_approx\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "smile_squint",
+      "native_shape_values": {
+        "Smile.L": 0.4,
+        "Smile.R": 0.33,
+        "CheekLift.L": 0.2,
+        "CheekLift.R": 0.16,
+        "Blink.L": 0.1,
+        "Blink.R": 0.08
+      },
+      "native_gaze_controls": [
+        0,
+        0
+      ],
+      "evaluated_vertex_delta_m": 0.0011149993598803009,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\smile_squint\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\smile_squint\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\smile_squint\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    },
+    {
+      "case": "shy_return_smile",
+      "native_shape_values": {
+        "Smile.L": 0.25,
+        "Smile.R": 0.19,
+        "BrowRaise.L": 0.14,
+        "BrowRaise.R": 0.09,
+        "ExprBrowInnerUp": 0.18
+      },
+      "native_gaze_controls": [
+        -0.4,
+        -0.25
+      ],
+      "evaluated_vertex_delta_m": 0.0005208635157988262,
+      "frames": [
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\shy_return_smile\\front.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\shy_return_smile\\quarter.png",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\face-audit\\shy_return_smile\\side.png"
+      ],
+      "structural": "FINITENESS_AND_CHANNEL_RESPONSE_CHECK_ONLY",
+      "visual_verdict": "PENDING"
+    }
+  ],
+  "driver_mute_state": [
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_Face_SmileCheek.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_Face_SmileCheek.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_Face_JawCheek\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperLidUntangle.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperLidUntangle.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperMedialUntangle.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperMedialUntangle.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CORR_UpperSurface.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"JawOpen\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Smile.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Smile.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowRaise.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowRaise.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowKnit.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowKnit.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CheekLift.L\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CheekLift.R\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"LipPucker\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"MouthWide\"].value",
+      "mute": true
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.004",
+      "path": "key_blocks[\"ClosurePath.L.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.005",
+      "path": "key_blocks[\"ClosurePath.L.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.006",
+      "path": "key_blocks[\"ClosurePath.L.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.007",
+      "path": "key_blocks[\"ClosurePath.L.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.008",
+      "path": "key_blocks[\"ClosurePath.L.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.009",
+      "path": "key_blocks[\"ClosurePath.R.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.010",
+      "path": "key_blocks[\"ClosurePath.R.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.011",
+      "path": "key_blocks[\"ClosurePath.R.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.012",
+      "path": "key_blocks[\"ClosurePath.R.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.013",
+      "path": "key_blocks[\"ClosurePath.R.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"EyePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"EyePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"EyePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"EyePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"EyePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"EyePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.014",
+      "path": "key_blocks[\"EyePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"EyePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"EyePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"EyePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"EyePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"EyePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"EyePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.015",
+      "path": "key_blocks[\"EyePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.002",
+      "path": "key_blocks[\"ClosurePath.L.63\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.1\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.2\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.3\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.4\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.5\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.6\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.7\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.8\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.9\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.10\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.11\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.12\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.13\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.14\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.15\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.16\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.17\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.18\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.19\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.20\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.21\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.22\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.23\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.24\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.25\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.26\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.27\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.28\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.29\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.30\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.31\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.32\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.33\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.34\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.35\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.36\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.37\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.38\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.39\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.40\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.41\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.42\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.43\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.44\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.45\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.46\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.47\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.48\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.49\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.50\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.51\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.52\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.53\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.54\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.55\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.56\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.57\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.58\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.59\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.60\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.61\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.62\"].value",
+      "mute": false
+    },
+    {
+      "key_id": "Key.003",
+      "path": "key_blocks[\"ClosurePath.R.63\"].value",
+      "mute": false
+    }
+  ],
+  "A_O": "Approximate semantic jaw/wide/pucker recipes. Native dedicated A/O viseme keys absent; phonetic acceptance NOT established.",
+  "actual_face_gate": "PENDING_RENDER_REVIEW; no elaborate target acting authored yet",
+  "actual_yuri_approved_performances": 0,
+  "missing_external_images": []
+}

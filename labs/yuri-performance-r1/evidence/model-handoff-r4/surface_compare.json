@@ -1,0 +1,236 @@
+{
+  "same_head_vertex_count": true,
+  "max_head_vertex_delta_above_z843_m": 0.0,
+  "max_expression_delta_difference_m": {
+    "Basis": 0.0,
+    "JawOpen": 0.0,
+    "Smile.L": 0.0,
+    "Smile.R": 0.0,
+    "Blink.L": 0.0,
+    "EyePath.L.1": 0.0,
+    "EyePath.L.2": 0.0,
+    "EyePath.L.3": 0.0,
+    "EyePath.L.4": 0.0,
+    "EyePath.L.5": 0.0,
+    "EyePath.L.6": 0.0,
+    "EyePath.L.7": 0.0,
+    "Blink.R": 0.0,
+    "EyePath.R.1": 0.0,
+    "EyePath.R.2": 0.0,
+    "EyePath.R.3": 0.0,
+    "EyePath.R.4": 0.0,
+    "EyePath.R.5": 0.0,
+    "EyePath.R.6": 0.0,
+    "EyePath.R.7": 0.0,
+    "BrowRaise.L": 0.0,
+    "BrowKnit.L": 0.0,
+    "CheekLift.L": 0.0,
+    "CORR_Face_SmileCheek.L": 0.0,
+    "BrowRaise.R": 0.0,
+    "BrowKnit.R": 0.0,
+    "CheekLift.R": 0.0,
+    "CORR_Face_SmileCheek.R": 0.0,
+    "LipPucker": 0.0,
+    "MouthWide": 0.0,
+    "CORR_Face_JawCheek": 0.0,
+    "CORR_UpperLidUntangle.L": 0.0,
+    "CORR_UpperLidUntangle.R": 0.0,
+    "CORR_UpperMedialUntangle.L": 0.0,
+    "CORR_UpperMedialUntangle.R": 0.0,
+    "CORR_UpperSurface.L.1": 0.0,
+    "CORR_UpperSurface.L.2": 0.0,
+    "CORR_UpperSurface.L.3": 0.0,
+    "CORR_UpperSurface.L.4": 0.0,
+    "CORR_UpperSurface.L.5": 0.0,
+    "CORR_UpperSurface.L.6": 0.0,
+    "CORR_UpperSurface.L.7": 0.0,
+    "CORR_UpperSurface.L.8": 0.0,
+    "CORR_UpperSurface.R.1": 0.0,
+    "CORR_UpperSurface.R.2": 0.0,
+    "CORR_UpperSurface.R.3": 0.0,
+    "CORR_UpperSurface.R.4": 0.0,
+    "CORR_UpperSurface.R.5": 0.0,
+    "CORR_UpperSurface.R.6": 0.0,
+    "CORR_UpperSurface.R.7": 0.0,
+    "CORR_UpperSurface.R.8": 0.0,
+    "SEC_Chest.L.X": 0.0,
+    "SEC_Chest.L.Y": 0.0,
+    "SEC_Chest.L.Z": 0.0,
+    "SEC_Chest.R.X": 0.0,
+    "SEC_Chest.R.Y": 0.0,
+    "SEC_Chest.R.Z": 0.0,
+    "SEC_Hip.L.X": 0.0,
+    "SEC_Hip.L.Y": 0.0,
+    "SEC_Hip.L.Z": 0.0,
+    "SEC_Hip.R.X": 0.0,
+    "SEC_Hip.R.Y": 0.0,
+    "SEC_Hip.R.Z": 0.0,
+    "CORR_Elbow.L.Volume": 0.0,
+    "CORR_BicepsFlex.L": 0.0,
+    "CORR_Elbow.R.Volume": 0.0,
+    "CORR_BicepsFlex.R": 0.0,
+    "CORR_Knee.L.Volume": 0.0,
+    "CORR_Knee.R.Volume": 0.0,
+    "ExprSmileCurve": 0.0,
+    "ExprMouthDown": 0.0,
+    "ExprBrowInnerUp": 0.0
+  },
+  "r4_visible_skin": [
+    {
+      "name": "Character_Body_Head",
+      "deform_weight_sum_error": 2.9802322387695312e-08,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "Globe.L",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "Globe.R",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "Hair_Replacement_R4",
+      "deform_weight_sum_error": 2.9802322387695312e-08,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.L.1",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.L.2",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.L.3",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.L.4",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.L.5",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.R.1",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.R.2",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.R.3",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.R.4",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LashRootRepair.R.5",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LowerLashesClean.L",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "LowerLashesClean.R",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "MedialBacking.L",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "MedialBacking.R",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "Meshy_Body_NeutralCovered",
+      "deform_weight_sum_error": 0.12137933075428009,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 7437,
+      "surface_mask_groups_excluded": [
+        "Joint_Smoothing_Mask",
+        "R3_Surface_LinearBlend",
+        "R3_Joint_CorrectiveSmooth",
+        "R3_Shoulder_PoseRelax.L",
+        "R3_Shoulder_PoseRelax.R",
+        "R3_Hip_PoseRelax.L",
+        "R3_Hip_PoseRelax.R"
+      ]
+    },
+    {
+      "name": "OriginalMedialLashes.L",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    },
+    {
+      "name": "OriginalMedialLashes.R",
+      "deform_weight_sum_error": 0.0,
+      "deform_unweighted_vertices": 0,
+      "deform_gt4": 0,
+      "surface_mask_groups_excluded": []
+    }
+  ],
+  "weight_mask_note": "R3_* procedural masks are not deform influences; all group sums alone would produce a false normalization failure."
+}

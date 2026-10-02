@@ -1,0 +1,5145 @@
+{
+  "scope": "Native Blender material recipes; Unity shader reconstruction required for procedural masks/eye layers/gaze. Extracted originals, no invented texture bake.",
+  "textures": [
+    {
+      "blender_image": "bald_anime_head_3d_model_basecolor.002",
+      "file": "textures/bald_anime_head_3d_model_basecolor.002.jpg",
+      "bytes": 1367400,
+      "sha256": "bed3aecd8c0640eb3581bb4e1039279103f3d33d6aff3bc0aaff5ef5c4b3b362",
+      "colorspace": "sRGB",
+      "resolution": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "blender_image": "Face_Clean_LidClosed.L",
+      "file": "textures/Face_Clean_LidClosed.L.png",
+      "bytes": 38814,
+      "sha256": "681fb7cbc7542505c9fb6c0f4d6ec52e1f5d452e6eb4a401c19c39761fef9d28",
+      "colorspace": "sRGB",
+      "resolution": [
+        512,
+        128
+      ]
+    },
+    {
+      "blender_image": "Face_Clean_LidClosed.R",
+      "file": "textures/Face_Clean_LidClosed.R.png",
+      "bytes": 38638,
+      "sha256": "00448a6b9a88c51bedcc3ab02216fb15e3925b1e0fd6b2d4d370382ceeaab256",
+      "colorspace": "sRGB",
+      "resolution": [
+        512,
+        128
+      ]
+    },
+    {
+      "blender_image": "Face_Clean_LidNeutral.L",
+      "file": "textures/Face_Clean_LidNeutral.L.png",
+      "bytes": 76646,
+      "sha256": "b5ff2b659daf09162b5938807a17e09dcfdca57e7229a9a7d51345d496d3e997",
+      "colorspace": "sRGB",
+      "resolution": [
+        512,
+        128
+      ]
+    },
+    {
+      "blender_image": "Face_Clean_LidNeutral.R",
+      "file": "textures/Face_Clean_LidNeutral.R.png",
+      "bytes": 76499,
+      "sha256": "df730a2ca42e116dd55ff8c11b93a854052cb4e07113c9ef082e0430c7136fb8",
+      "colorspace": "sRGB",
+      "resolution": [
+        512,
+        128
+      ]
+    },
+    {
+      "blender_image": "Face_Debanded_LidClosed.L",
+      "file": "textures/Face_Debanded_LidClosed.L.png",
+      "bytes": 35785,
+      "sha256": "16c918cd0d06fb197031b7a7f9c8aea94a6b955e4e2ccf04cd90465fe1f70847",
+      "colorspace": "sRGB",
+      "resolution": [
+        512,
+        128
+      ]
+    },
+    {
+      "blender_image": "Face_Debanded_LidClosed.R",
+      "file": "textures/Face_Debanded_LidClosed.R.png",
+      "bytes": 36061,
+      "sha256": "f6c929d054af155bb452a1ad62df360a2a4b18e60dccc0bd52a03807edb2e890",
+      "colorspace": "sRGB",
+      "resolution": [
+        512,
+        128
+      ]
+    },
+    {
+      "blender_image": "R4_Meshy_Color_Safe_4K",
+      "file": "textures/R4_Meshy_Color_Safe_4K.png",
+      "bytes": 4239106,
+      "sha256": "9529c4a3b8b45ab1a1e7c1ec88c7583a5ef140224a6edfffce64ca946bbe1f4a",
+      "colorspace": "sRGB",
+      "resolution": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "blender_image": "R4_Meshy_Normal_Safe_4K",
+      "file": "textures/R4_Meshy_Normal_Safe_4K.png",
+      "bytes": 3808709,
+      "sha256": "aa1ca76133eb9774fad2add96e72504821488e95dd51bd2544eddfa8221f6430",
+      "colorspace": "Non-Color",
+      "resolution": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "blender_image": "R4_Meshy_Roughness_Safe_4K",
+      "file": "textures/R4_Meshy_Roughness_Safe_4K.png",
+      "bytes": 2328391,
+      "sha256": "d88761449405dd6e71046248ce4e38adf4ad6e2ee0080c678ee68466c4c677dc",
+      "colorspace": "Non-Color",
+      "resolution": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "blender_image": "Skin_Clean_R3_BaseColor_2K",
+      "file": "textures/Skin_Clean_R3_BaseColor_2K.png",
+      "bytes": 163037,
+      "sha256": "2e5f04e8584f3ab22aa708299642b0a6fd012e2281b5c02df37de176d7a73b34",
+      "colorspace": "sRGB",
+      "resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "blender_image": "stylized_hair_3d_model_Clone1_metallic",
+      "file": "textures/stylized_hair_3d_model_Clone1_metallic.jpg",
+      "bytes": 437500,
+      "sha256": "a7d6930b65ba4f6f606f1670057a77975188a102c18adf191ef3b55f92bda37f",
+      "colorspace": "Non-Color",
+      "resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "blender_image": "stylized_hair_3d_model_Clone1_roughness",
+      "file": "textures/stylized_hair_3d_model_Clone1_roughness.jpg",
+      "bytes": 151000,
+      "sha256": "780b0a41932c98b0195c92b6d2447228126052d23557b2cca504c3ef13a0f8a4",
+      "colorspace": "Non-Color",
+      "resolution": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "blender_image": "tripo_image_8d1987b0_0",
+      "file": "textures/tripo_image_8d1987b0_0.jpg",
+      "bytes": 1431278,
+      "sha256": "c77e24340c692a6f0df34b331dc726318cb52e4d44677d97a43f1523db8def90",
+      "colorspace": "sRGB",
+      "resolution": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "blender_image": "tripo_image_8d1987b0_3",
+      "file": "textures/tripo_image_8d1987b0_3.jpg",
+      "bytes": 1095037,
+      "sha256": "a07c41f77b6edf43bcd46adaa6d1bfd3c46fe33e7888becd91638718490dcc18",
+      "colorspace": "Non-Color",
+      "resolution": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "materials": {
+    "Assembly_Studio_Ground": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.12999999523162842,
+              0.15000000596046448,
+              0.1899999976158142,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.8500000238418579,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "AVATAR_Board_Dark": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.012000000104308128,
+              0.017999999225139618,
+              0.02800000086426735,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 1.0,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "AVATAR_Board_Text": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.9200000166893005,
+              0.9599999785423279,
+              1.0,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.9200000166893005,
+              0.9599999785423279,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.800000011920929,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "ContinuousEyeSkin.L": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5,
+            "IOR": 1.399999976158142,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.054999999701976776,
+            "Subsurface Radius": [
+              1.0,
+              0.3499999940395355,
+              0.20000000298023224
+            ],
+            "Subsurface Scale": 0.0006500000017695129,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.41999998688697815,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Emission Strength": 1.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Strength": 1.0,
+            "Color": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "Face_Clean_LidNeutral.L",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "ShaderNodeTexCoord",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mapping",
+          "type": "ShaderNodeMapping",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              -0.0,
+              -0.0,
+              -0.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8210182189941406,
+            "From Max": 0.8415735363960266,
+            "To Min": 0.5,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.4000000059604645,
+              0.3499999940395355,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry.001",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ.001",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.001",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8560000061988831,
+            "To Min": 1.0,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy).001",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.6100000143051147,
+              0.44600000977516174,
+              0.4020000100135803,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.002",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8539999723434448,
+            "To Min": 0.8999999761581421,
+            "To Max": 0.5,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Neck Rest Position",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "image": "Face_Debanded_LidClosed.L",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Blink texture corrective",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.0,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "R3 broad upper-lid pigment mask",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "R3 smooth closed skin field",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.8879232406616211,
+              0.6104956865310669,
+              0.5583404898643494,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "R3 anatomical fold only",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 0.5,
+            "Value_001": 0.0,
+            "Value_002": 0.5
+          }
+        },
+        {
+          "name": "R3 soft warm fold",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.9100000262260437,
+              0.8199999928474426,
+              0.800000011920929,
+              1.0
+            ]
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Blink texture corrective",
+          "Color1"
+        ],
+        [
+          "R3 broad upper-lid pigment mask",
+          "Fac",
+          "R3 smooth closed skin field",
+          "Fac"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "R3 smooth closed skin field",
+          "Color1"
+        ],
+        [
+          "R3 smooth closed skin field",
+          "Color",
+          "Blink texture corrective",
+          "Color2"
+        ],
+        [
+          "R3 anatomical fold only",
+          "Fac",
+          "Math",
+          "Value"
+        ],
+        [
+          "Math",
+          "Value",
+          "R3 soft warm fold",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "R3 soft warm fold",
+          "Color1"
+        ],
+        [
+          "R3 soft warm fold",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ]
+    },
+    "ContinuousEyeSkin.R": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5,
+            "IOR": 1.399999976158142,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.054999999701976776,
+            "Subsurface Radius": [
+              1.0,
+              0.3499999940395355,
+              0.20000000298023224
+            ],
+            "Subsurface Scale": 0.0006500000017695129,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.41999998688697815,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Emission Strength": 1.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Strength": 1.0,
+            "Color": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "Face_Clean_LidNeutral.R",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "ShaderNodeTexCoord",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mapping",
+          "type": "ShaderNodeMapping",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              -0.0,
+              -0.0,
+              -0.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8210182189941406,
+            "From Max": 0.8415735363960266,
+            "To Min": 0.5,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.4000000059604645,
+              0.3499999940395355,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry.001",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ.001",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.001",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8560000061988831,
+            "To Min": 1.0,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy).001",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.6100000143051147,
+              0.44600000977516174,
+              0.4020000100135803,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.002",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8539999723434448,
+            "To Min": 0.8999999761581421,
+            "To Max": 0.5,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Neck Rest Position",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Image Texture.001",
+          "type": "ShaderNodeTexImage",
+          "image": "Face_Debanded_LidClosed.R",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Blink texture corrective",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.0,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "R3 broad upper-lid pigment mask",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "R3 smooth closed skin field",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.8879232406616211,
+              0.6104956865310669,
+              0.5583404898643494,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "R3 anatomical fold only",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Math",
+          "type": "ShaderNodeMath",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 0.5,
+            "Value_001": 0.0,
+            "Value_002": 0.5
+          }
+        },
+        {
+          "name": "R3 soft warm fold",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.9100000262260437,
+              0.8199999928474426,
+              0.800000011920929,
+              1.0
+            ]
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Blink texture corrective",
+          "Color1"
+        ],
+        [
+          "R3 broad upper-lid pigment mask",
+          "Fac",
+          "R3 smooth closed skin field",
+          "Fac"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "R3 smooth closed skin field",
+          "Color1"
+        ],
+        [
+          "R3 smooth closed skin field",
+          "Color",
+          "Blink texture corrective",
+          "Color2"
+        ],
+        [
+          "R3 anatomical fold only",
+          "Fac",
+          "Math",
+          "Value"
+        ],
+        [
+          "Math",
+          "Value",
+          "R3 soft warm fold",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "R3 soft warm fold",
+          "Color1"
+        ],
+        [
+          "R3 soft warm fold",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ]
+    },
+    "Face_Iris_Wet_v1": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.17000000178813934,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.4000000059604645,
+            "Coat Roughness": 0.07000000029802322,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Emission Strength": 1.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Strength": 1.0,
+            "Color": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "bald_anime_head_3d_model_basecolor.002",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "ShaderNodeTexCoord",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mapping",
+          "type": "ShaderNodeMapping",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              -0.0,
+              -0.0,
+              -0.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8210182189941406,
+            "From Max": 0.8415735363960266,
+            "To Min": 0.5,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.4000000059604645,
+              0.3499999940395355,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry.001",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ.001",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.001",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8560000061988831,
+            "To Min": 1.0,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy).001",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.6100000143051147,
+              0.44600000977516174,
+              0.4020000100135803,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.002",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8539999723434448,
+            "To Min": 0.8999999761581421,
+            "To Max": 0.5,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Neck Rest Position",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ]
+      ]
+    },
+    "Face_Lash_Pigment": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.024000000208616257,
+              0.012000000104308128,
+              0.012000000104308128,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.47999998927116394,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.33000001311302185,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "Face_LowerLash_Pigment": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.05000000074505806,
+              0.02500000037252903,
+              0.023000000044703484,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5699999928474426,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.33000001311302185,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "Face_Sclera_Wet.L": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.28999999165534973,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.47999998927116394,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.18000000715255737,
+            "Coat Roughness": 0.10000000149011612,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Emission Strength": 1.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Strength": 1.0,
+            "Color": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "bald_anime_head_3d_model_basecolor.002",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "ShaderNodeTexCoord",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mapping",
+          "type": "ShaderNodeMapping",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              -0.0,
+              -0.0,
+              -0.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8210182189941406,
+            "From Max": 0.8415735363960266,
+            "To Min": 0.5,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.4000000059604645,
+              0.3499999940395355,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry.001",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ.001",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.001",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8560000061988831,
+            "To Min": 1.0,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy).001",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.6100000143051147,
+              0.44600000977516174,
+              0.4020000100135803,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.002",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8539999723434448,
+            "To Min": 0.8999999761581421,
+            "To Max": 0.5,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Neck Rest Position",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ]
+      ]
+    },
+    "Face_Sclera_Wet.R": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.28999999165534973,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.47999998927116394,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.18000000715255737,
+            "Coat Roughness": 0.10000000149011612,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Emission Strength": 1.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Strength": 1.0,
+            "Color": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "bald_anime_head_3d_model_basecolor.002",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "ShaderNodeTexCoord",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mapping",
+          "type": "ShaderNodeMapping",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              -0.0,
+              -0.0,
+              -0.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8210182189941406,
+            "From Max": 0.8415735363960266,
+            "To Min": 0.5,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.4000000059604645,
+              0.3499999940395355,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry.001",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ.001",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.001",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8560000061988831,
+            "To Min": 1.0,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy).001",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.6100000143051147,
+              0.44600000977516174,
+              0.4020000100135803,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.002",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8539999723434448,
+            "To Min": 0.8999999761581421,
+            "To Max": 0.5,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Neck Rest Position",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ]
+      ]
+    },
+    "Ground_Matte": {
+      "nodes": [
+        {
+          "name": "\ud504\ub808\uc784",
+          "type": "NodeFrame",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "\uba38\ud2f0\ub9ac\uc5bc \ucd9c\ub825",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "\ud504\ub9b0\uc2dc\ud50c\ub4dc BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.10499999672174454,
+              0.125,
+              0.15000000596046448,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.4000000059604645,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.004999999888241291,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "\uba38\ud2f0\ub9ac\uc5bc \ucd9c\ub825.001",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "\ud655\uc0b0 BSDF",
+          "type": "ShaderNodeBsdfDiffuse",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Color": [
+              0.10499999672174454,
+              0.125,
+              0.15000000596046448,
+              1.0
+            ],
+            "Roughness": 0.0,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "\ud504\ub9b0\uc2dc\ud50c\ub4dc BSDF",
+          "BSDF",
+          "\uba38\ud2f0\ub9ac\uc5bc \ucd9c\ub825",
+          "Surface"
+        ],
+        [
+          "\ud655\uc0b0 BSDF",
+          "BSDF",
+          "\uba38\ud2f0\ub9ac\uc5bc \ucd9c\ub825.001",
+          "Surface"
+        ]
+      ]
+    },
+    "Hair_Pearl_PBR": {
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Hair_Color",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.5600000023841858,
+              0.5350000262260437,
+              0.4950000047683716,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.4000000059604645,
+            "IOR": 1.4600000381469727,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.30000001192092896,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        }
+      ],
+      "links": [
+        [
+          "Hair_Color",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5,
+            "IOR": 1.399999976158142,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.054999999701976776,
+            "Subsurface Radius": [
+              1.0,
+              0.3499999940395355,
+              0.20000000298023224
+            ],
+            "Subsurface Scale": 0.0006500000017695129,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.41999998688697815,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "Emission Strength": 1.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Strength": 1.0,
+            "Color": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Image Texture",
+          "type": "ShaderNodeTexImage",
+          "image": "bald_anime_head_3d_model_basecolor.002",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Texture Coordinate",
+          "type": "ShaderNodeTexCoord",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Mapping",
+          "type": "ShaderNodeMapping",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Location": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Rotation": [
+              -0.0,
+              -0.0,
+              -0.0
+            ],
+            "Scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8210182189941406,
+            "From Max": 0.8415735363960266,
+            "To Min": 0.5,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy)",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.5,
+              0.4000000059604645,
+              0.3499999940395355,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Geometry.001",
+          "type": "ShaderNodeNewGeometry",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Separate XYZ.001",
+          "type": "ShaderNodeSeparateXYZ",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.001",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8560000061988831,
+            "To Min": 1.0,
+            "To Max": 0.0,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Mix (Legacy).001",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.9046612977981567,
+              0.5520114898681641,
+              0.5028864741325378,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Map Range.002",
+          "type": "ShaderNodeMapRange",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 1.0,
+            "From Min": 0.8281679749488831,
+            "From Max": 0.8539999723434448,
+            "To Min": 0.5799999833106995,
+            "To Max": 0.5,
+            "Steps": 4.0,
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "From_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "To_Min_FLOAT3": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "To_Max_FLOAT3": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Steps_FLOAT3": [
+              4.0,
+              4.0,
+              4.0
+            ]
+          }
+        },
+        {
+          "name": "Neck Rest Position",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "R3 broad lid halo L",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "R3 blink halo L",
+          "type": "ShaderNodeMath",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 0.5,
+            "Value_001": 0.0,
+            "Value_002": 0.5
+          }
+        },
+        {
+          "name": "R3 feathered skin halo L",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.8879232406616211,
+              0.6104956865310669,
+              0.5583404898643494,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "R3 broad lid halo R",
+          "type": "ShaderNodeAttribute",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "R3 blink halo R",
+          "type": "ShaderNodeMath",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Value": 0.5,
+            "Value_001": 0.0,
+            "Value_002": 0.5
+          }
+        },
+        {
+          "name": "R3 feathered skin halo R",
+          "type": "ShaderNodeMixRGB",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 0.5,
+            "Color1": [
+              0.5,
+              0.5,
+              0.5,
+              1.0
+            ],
+            "Color2": [
+              0.8879232406616211,
+              0.6104956865310669,
+              0.5583404898643494,
+              1.0
+            ]
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "R3 broad lid halo L",
+          "Fac",
+          "R3 blink halo L",
+          "Value"
+        ],
+        [
+          "R3 blink halo L",
+          "Value",
+          "R3 feathered skin halo L",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "R3 feathered skin halo L",
+          "Color1"
+        ],
+        [
+          "R3 broad lid halo R",
+          "Fac",
+          "R3 blink halo R",
+          "Value"
+        ],
+        [
+          "R3 blink halo R",
+          "Value",
+          "R3 feathered skin halo R",
+          "Fac"
+        ],
+        [
+          "R3 feathered skin halo L",
+          "Color",
+          "R3 feathered skin halo R",
+          "Color1"
+        ],
+        [
+          "R3 feathered skin halo R",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ]
+    },
+    "Neck transition.001": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.9046612977981567,
+              0.5520114898681641,
+              0.5028864741325378,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5799999833106995,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.054999999701976776,
+            "Subsurface Radius": [
+              1.0,
+              0.3499999940395355,
+              0.20000000298023224
+            ],
+            "Subsurface Scale": 0.0006500000017695129,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.41999998688697815,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "QA_Pedestal_TourStageFade": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.11999999731779099,
+              0.18000000715255737,
+              0.2199999988079071,
+              1.0
+            ],
+            "Metallic": 0.4000000059604645,
+            "Roughness": 0.47999998927116394,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Tour transparent stage",
+          "type": "ShaderNodeBsdfTransparent",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Tour prop visibility",
+          "type": "ShaderNodeMixShader",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 1.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Tour transparent stage",
+          "BSDF",
+          "Tour prop visibility",
+          "Shader"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Tour prop visibility",
+          "Shader_001"
+        ],
+        [
+          "Tour prop visibility",
+          "Shader",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "QA_Prop_Teal_TourStageFade": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.03500000014901161,
+              0.4300000071525574,
+              0.41999998688697815,
+              1.0
+            ],
+            "Metallic": 0.15000000596046448,
+            "Roughness": 0.47999998927116394,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Tour transparent stage",
+          "type": "ShaderNodeBsdfTransparent",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Weight": 0.0
+          }
+        },
+        {
+          "name": "Tour prop visibility",
+          "type": "ShaderNodeMixShader",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Fac": 1.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Tour transparent stage",
+          "BSDF",
+          "Tour prop visibility",
+          "Shader"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Tour prop visibility",
+          "Shader_001"
+        ],
+        [
+          "Tour prop visibility",
+          "Shader",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    },
+    "R4_Meshy_OriginalDetail_FaceMatched": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5799999833106995,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.054999999701976776,
+            "Subsurface Radius": [
+              1.0,
+              0.3499999940395355,
+              0.20000000298023224
+            ],
+            "Subsurface Scale": 0.0006500000017695129,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.41999998688697815,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Original Meshy Color - safe derived 4K",
+          "type": "ShaderNodeTexImage",
+          "image": "R4_Meshy_Color_Safe_4K",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Original Meshy Normal - safe derived 4K",
+          "type": "ShaderNodeTexImage",
+          "image": "R4_Meshy_Normal_Safe_4K",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "Normal Map",
+          "type": "ShaderNodeNormalMap",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Strength": 0.3499999940395355,
+            "Color": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "Original Meshy Roughness - safe derived 4K",
+          "type": "ShaderNodeTexImage",
+          "image": "R4_Meshy_Roughness_Safe_4K",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Original Meshy Color - safe derived 4K",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Original Meshy Normal - safe derived 4K",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Original Meshy Roughness - safe derived 4K",
+          "Color",
+          "Principled BSDF",
+          "Roughness"
+        ]
+      ]
+    },
+    "Skin_Clean_R3": {
+      "nodes": [
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        },
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.800000011920929,
+              0.800000011920929,
+              0.800000011920929,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.5799999833106995,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.04500000178813934,
+            "Subsurface Radius": [
+              1.0,
+              0.3499999940395355,
+              0.20000000298023224
+            ],
+            "Subsurface Scale": 0.0005000000237487257,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.3199999928474426,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Clean skin color field",
+          "type": "ShaderNodeVertexColor",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Clean 2K skin bake",
+          "type": "ShaderNodeTexImage",
+          "image": "Skin_Clean_R3_BaseColor_2K",
+          "group": null,
+          "inputs": {
+            "Vector": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Clean 2K skin bake",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ]
+    },
+    "Studio_Backdrop_Matte": {
+      "nodes": [
+        {
+          "name": "Principled BSDF",
+          "type": "ShaderNodeBsdfPrincipled",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Base Color": [
+              0.054999999701976776,
+              0.07500000298023224,
+              0.10000000149011612,
+              1.0
+            ],
+            "Metallic": 0.0,
+            "Roughness": 0.949999988079071,
+            "IOR": 1.5,
+            "Alpha": 1.0,
+            "Thin Wall": false,
+            "Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Weight": 0.0,
+            "Diffuse Roughness": 0.0,
+            "Subsurface Weight": 0.0,
+            "Subsurface Radius": [
+              1.0,
+              0.20000000298023224,
+              0.10000000149011612
+            ],
+            "Subsurface Scale": 0.05000000074505806,
+            "Subsurface IOR": 1.399999976158142,
+            "Subsurface Anisotropy": 0.0,
+            "Specular IOR Level": 0.5,
+            "Specular Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Anisotropic": 0.0,
+            "Anisotropic Rotation": 0.0,
+            "Tangent": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Transmission Weight": 0.0,
+            "Coat Weight": 0.0,
+            "Coat Roughness": 0.029999999329447746,
+            "Coat IOR": 1.5,
+            "Coat Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Coat Normal": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Sheen Weight": 0.0,
+            "Sheen Roughness": 0.5,
+            "Sheen Tint": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Emission Strength": 0.0,
+            "Thin Film Thickness": 0.0,
+            "Thin Film IOR": 1.3300000429153442
+          }
+        },
+        {
+          "name": "Material Output",
+          "type": "ShaderNodeOutputMaterial",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Displacement": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "Thickness": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    }
+  },
+  "node_groups": {
+    "MToon": {
+      "nodes": [
+        {
+          "name": "Group Output",
+          "type": "NodeGroupOutput",
+          "image": null,
+          "group": null,
+          "inputs": {}
+        },
+        {
+          "name": "Emission",
+          "type": "ShaderNodeEmission",
+          "image": null,
+          "group": null,
+          "inputs": {
+            "Color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "Strength": 1.0,
+            "Weight": 0.0
+          }
+        }
+      ],
+      "links": [
+        [
+          "Emission",
+          "Emission",
+          "Group Output",
+          "Output_1"
+        ]
+      ]
+    }
+  },
+  "mesh_material_slots": {
+    "Assembly_Studio_Ground": [
+      "Assembly_Studio_Ground"
+    ],
+    "Character_Body_Head": [
+      "Skin_Clean_R3",
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+      "Neck transition.001",
+      "ContinuousEyeSkin.L",
+      "ContinuousEyeSkin.R",
+      "Face_Iris_Wet_v1",
+      "Face_Lash_Pigment",
+      "Face_LowerLash_Pigment"
+    ],
+    "Globe.L": [
+      "Face_Sclera_Wet.L"
+    ],
+    "Globe.R": [
+      "Face_Sclera_Wet.R"
+    ],
+    "Hair_Replacement_R4": [
+      "Hair_Pearl_PBR"
+    ],
+    "LashRootRepair.L.1": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.L.2": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.L.3": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.L.4": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.L.5": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.R.1": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.R.2": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.R.3": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.R.4": [
+      "Face_Lash_Pigment"
+    ],
+    "LashRootRepair.R.5": [
+      "Face_Lash_Pigment"
+    ],
+    "LowerLashesClean.L": [
+      "Face_LowerLash_Pigment"
+    ],
+    "LowerLashesClean.R": [
+      "Face_LowerLash_Pigment"
+    ],
+    "MedialBacking.L": [
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+    ],
+    "MedialBacking.R": [
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+    ],
+    "Meshy_Body_NeutralCovered": [
+      "R4_Meshy_OriginalDetail_FaceMatched",
+      "R4_Meshy_OriginalDetail_FaceMatched",
+      "R4_Meshy_OriginalDetail_FaceMatched"
+    ],
+    "OriginalMedialLashes.L": [
+      "Face_Lash_Pigment"
+    ],
+    "OriginalMedialLashes.R": [
+      "Face_Lash_Pigment"
+    ]
+  }
+}

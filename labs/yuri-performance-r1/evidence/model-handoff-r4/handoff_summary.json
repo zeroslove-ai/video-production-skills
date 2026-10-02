@@ -1,0 +1,42 @@
+{
+  "status": "R4_NATIVE_REACTION_COMPATIBLE; FBX_SKELETON_ROUNDTRIP_PASS; UNITY_RUNTIME_UNTESTED; MATERIAL_PORT_PENDING",
+  "sources": {
+    "R2": "5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e",
+    "R3d": "2d7b82934801fd511a2a0cda45448e8261fcc4dac906a88c262733cdeb2ec3bc",
+    "R4": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa"
+  },
+  "incoming_r4_actions": 78,
+  "r2_original_66_actions": "Absent in incoming R4; archived unchanged into research master, not recreated or claimed R4-compatible",
+  "master_actions": 166,
+  "production_reaction_clips": 6,
+  "qa_helper_clips": 2,
+  "game_rig_bones": 79,
+  "game_rig_meshes": 21,
+  "game_rig_shape_keys_head": 72,
+  "game_rig_top_root": "RuntimeRoot",
+  "scale": {
+    "native_fitted_object_scale": 0.535,
+    "unit_length_scale": 1.0,
+    "apply_unit_conversion": "FBX scale metadata; do not manually multiply by 100",
+    "rig_poses": "native target A-rest; source common performance neutral reference"
+  },
+  "candidate_sha256": "94a78fae16efd8e39827e2ef31dbfdcf72477cd4be158a80283578a7a947e606",
+  "normal_speed": {
+    "fps": 24,
+    "sequence_seconds": 11,
+    "light_loop_cycles": 2,
+    "strong_loop_cycles": 2,
+    "startle_seconds": 1.5,
+    "full_playback_receipt": "metadata/playback_receipt.json"
+  },
+  "native_missing_textures": 0,
+  "extracted_texture_count": 15,
+  "face_gate": "Neutral/blink/gaze sampled on R4; A/O approximate recipes remain visually weak, no phoneme certification",
+  "vrm": "Optional reference omitted; no new rights/license metadata invented",
+  "limitations": [
+    "FBX is linear skinning; native dual-quaternion + second masked linear skin modifier and pose-driven surface relaxation are not encoded.",
+    "Native gaze Geometry Nodes and Blender driver graphs are not Unity runtime logic.",
+    "Complex node material masks require material reconstruction; embedded images and native master are included.",
+    "Unity Generic import, clip weight, state-entered, normalized-time advance and AlwaysAnimate runtime gate still need laptop validation."
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "run_id": "desktop-dance-reprojection-r2-20261002",
+  "run_id": "desktop-r4-model-handoff-r1",
   "time_utc": "2026-10-02T13:43:50.202500+00:00",
   "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1",
   "branch": "research/yuri-performance-previs-r1-20261002",
@@ -104,5 +104,13 @@
   "native_face_A_O": "FAIL: semantic proxy faces only",
   "dance_retarget_variants": 5,
   "native_five_camera_comparison_movies": 3,
-  "native_relaxed_fingers_wave_movies": 1
+  "native_relaxed_fingers_wave_movies": 1,
+  "r4_model_handoff": {
+    "status": "NATIVE_REACTION_AND_FBX_SKELETON_PASS; UNITY_RUNTIME_UNTESTED; SHADER_PORT_PENDING",
+    "candidate_sha256": "94a78fae16efd8e39827e2ef31dbfdcf72477cd4be158a80283578a7a947e606",
+    "bundle_sha256": "48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85",
+    "clips": 6,
+    "game_rig_bones": 79,
+    "next_bounded_experiment": "CPU neutral albedo / eye material bake on export-only copy; compare shader appearance without changing master skin/keys or product repository"
+  }
 }

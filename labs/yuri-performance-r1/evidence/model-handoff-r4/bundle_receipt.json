@@ -1,0 +1,10 @@
+{
+  "bundle": "YURI_R4_MODEL_HANDOFF_R1.zip",
+  "bytes": 173489353,
+  "sha256": "48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85",
+  "files": 120,
+  "zip_crc": "PASS",
+  "all_manifest_sha256": "PASS",
+  "source_r4_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_sha256": "94a78fae16efd8e39827e2ef31dbfdcf72477cd4be158a80283578a7a947e606"
+}

@@ -1,0 +1,78 @@
+{
+  "clips": [
+    {
+      "action": "YRA_R4_BalanceRecover",
+      "frames_evaluated": 55,
+      "actual_non_root_bone_motion_m": 0.15751167483301726,
+      "root_excursion_m": 0.008708157604266437,
+      "max_bone_step_m": 0.033076704224620564,
+      "loop_seam_position_m": null,
+      "loop_cycles_rendered": null,
+      "mesh_bounds_finite_all_frames": true,
+      "native_structural": "PASS",
+      "unity_state_weight_normalized_time_AlwaysAnimate": "PENDING_LAPTOP_IMPORT; AlwaysAnimate REQUIRED"
+    },
+    {
+      "action": "YRA_R4_Land_Soft",
+      "frames_evaluated": 43,
+      "actual_non_root_bone_motion_m": 0.15983665156544052,
+      "root_excursion_m": 0.03299290062126798,
+      "max_bone_step_m": 0.042217680502474215,
+      "loop_seam_position_m": null,
+      "loop_cycles_rendered": null,
+      "mesh_bounds_finite_all_frames": true,
+      "native_structural": "PASS",
+      "unity_state_weight_normalized_time_AlwaysAnimate": "PENDING_LAPTOP_IMPORT; AlwaysAnimate REQUIRED"
+    },
+    {
+      "action": "YRA_R4_Lift_Start",
+      "frames_evaluated": 31,
+      "actual_non_root_bone_motion_m": 0.2135377795483002,
+      "root_excursion_m": 0.0,
+      "max_bone_step_m": 0.04154446078645987,
+      "loop_seam_position_m": null,
+      "loop_cycles_rendered": null,
+      "mesh_bounds_finite_all_frames": true,
+      "native_structural": "PASS",
+      "unity_state_weight_normalized_time_AlwaysAnimate": "PENDING_LAPTOP_IMPORT; AlwaysAnimate REQUIRED"
+    },
+    {
+      "action": "YRA_R4_Startle_Short",
+      "frames_evaluated": 37,
+      "actual_non_root_bone_motion_m": 0.16073362914997516,
+      "root_excursion_m": 0.005202641669957383,
+      "max_bone_step_m": 0.050821668672248806,
+      "loop_seam_position_m": null,
+      "loop_cycles_rendered": null,
+      "mesh_bounds_finite_all_frames": true,
+      "native_structural": "PASS",
+      "unity_state_weight_normalized_time_AlwaysAnimate": "PENDING_LAPTOP_IMPORT; AlwaysAnimate REQUIRED"
+    },
+    {
+      "action": "YRA_R4_Struggle_Light_Loop",
+      "frames_evaluated": 61,
+      "actual_non_root_bone_motion_m": 0.0839199364145452,
+      "root_excursion_m": 0.0,
+      "max_bone_step_m": 0.006222808824364874,
+      "loop_seam_position_m": 7.657827832054985e-08,
+      "loop_cycles_rendered": 2,
+      "mesh_bounds_finite_all_frames": true,
+      "native_structural": "PASS",
+      "unity_state_weight_normalized_time_AlwaysAnimate": "PENDING_LAPTOP_IMPORT; AlwaysAnimate REQUIRED"
+    },
+    {
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "frames_evaluated": 49,
+      "actual_non_root_bone_motion_m": 0.18436247072688636,
+      "root_excursion_m": 0.0,
+      "max_bone_step_m": 0.016763399853758375,
+      "loop_seam_position_m": 1.5521546196937307e-07,
+      "loop_cycles_rendered": 2,
+      "mesh_bounds_finite_all_frames": true,
+      "native_structural": "PASS",
+      "unity_state_weight_normalized_time_AlwaysAnimate": "PENDING_LAPTOP_IMPORT; AlwaysAnimate REQUIRED"
+    }
+  ],
+  "engine": "Blender native only",
+  "unity_runtime_pass": false
+}

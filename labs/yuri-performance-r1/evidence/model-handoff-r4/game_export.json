@@ -1,0 +1,118 @@
+{
+  "armatures": 1,
+  "bone_count": 79,
+  "export_only_removed_unweighted_donor_bones": [
+    "J_Bip_L_Shoulder",
+    "J_Bip_L_UpperArm",
+    "J_Bip_L_LowerArm",
+    "J_Bip_L_Hand",
+    "J_Bip_L_Thumb1",
+    "J_Bip_L_Thumb2",
+    "J_Bip_L_Thumb3",
+    "J_Bip_L_Index1",
+    "J_Bip_L_Index2",
+    "J_Bip_L_Index3",
+    "J_Bip_L_Middle1",
+    "J_Bip_L_Middle2",
+    "J_Bip_L_Middle3",
+    "J_Bip_L_Ring1",
+    "J_Bip_L_Ring2",
+    "J_Bip_L_Ring3",
+    "J_Bip_L_Little1",
+    "J_Bip_L_Little2",
+    "J_Bip_L_Little3",
+    "J_Bip_R_Shoulder",
+    "J_Bip_R_UpperArm",
+    "J_Bip_R_LowerArm",
+    "J_Bip_R_Hand",
+    "J_Bip_R_Thumb1",
+    "J_Bip_R_Thumb2",
+    "J_Bip_R_Thumb3",
+    "J_Bip_R_Index1",
+    "J_Bip_R_Index2",
+    "J_Bip_R_Index3",
+    "J_Bip_R_Middle1",
+    "J_Bip_R_Middle2",
+    "J_Bip_R_Middle3",
+    "J_Bip_R_Ring1",
+    "J_Bip_R_Ring2",
+    "J_Bip_R_Ring3",
+    "J_Bip_R_Little1",
+    "J_Bip_R_Little2",
+    "J_Bip_R_Little3",
+    "J_Bip_L_UpperLeg",
+    "J_Bip_L_LowerLeg",
+    "J_Bip_L_Foot",
+    "J_Bip_L_ToeBase",
+    "J_Bip_R_UpperLeg",
+    "J_Bip_R_LowerLeg",
+    "J_Bip_R_Foot",
+    "J_Bip_R_ToeBase"
+  ],
+  "mesh_count": 21,
+  "meshes": [
+    "Character_Body_Head",
+    "Globe.L",
+    "Globe.R",
+    "Hair_Replacement_R4",
+    "LashRootRepair.L.1",
+    "LashRootRepair.L.2",
+    "LashRootRepair.L.3",
+    "LashRootRepair.L.4",
+    "LashRootRepair.L.5",
+    "LashRootRepair.R.1",
+    "LashRootRepair.R.2",
+    "LashRootRepair.R.3",
+    "LashRootRepair.R.4",
+    "LashRootRepair.R.5",
+    "LowerLashesClean.L",
+    "LowerLashesClean.R",
+    "MedialBacking.L",
+    "MedialBacking.R",
+    "Meshy_Body_NeutralCovered",
+    "OriginalMedialLashes.L",
+    "OriginalMedialLashes.R"
+  ],
+  "full_rig_baked_actions": [
+    {
+      "action": "YRA_R4_BalanceRecover",
+      "frames": 55
+    },
+    {
+      "action": "YRA_R4_Land_Soft",
+      "frames": 43
+    },
+    {
+      "action": "YRA_R4_Lift_Start",
+      "frames": 31
+    },
+    {
+      "action": "YRA_R4_QA_MilestoneA_Sequence",
+      "frames": 265
+    },
+    {
+      "action": "YRA_R4_QA_Release_Placeholder",
+      "frames": 19
+    },
+    {
+      "action": "YRA_R4_Startle_Short",
+      "frames": 37
+    },
+    {
+      "action": "YRA_R4_Struggle_Light_Loop",
+      "frames": 61
+    },
+    {
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "frames": 49
+    }
+  ],
+  "production_fbx_takes": 6,
+  "root": "RuntimeRoot",
+  "deformation_transfer_limits": [
+    "FBX is linear skinning; native dual-quaternion + second masked linear skin modifier and pose-driven surface relaxation are not encoded.",
+    "Native gaze Geometry Nodes and Blender driver graphs are not Unity runtime logic.",
+    "Complex node material masks require material reconstruction; embedded images and native master are included."
+  ],
+  "vrm_reference": "Not generated: optional; no need to invent new license metadata or claim humanoid/expression acceptance before GameRig QA."
+}

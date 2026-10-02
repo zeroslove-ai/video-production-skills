@@ -1,0 +1,45 @@
+{
+  "method": "Analytical target-proportion two-bone IK; preserve source knee bend plane; rest ankle target; only grounded phases",
+  "clips": [
+    {
+      "action": "YRA_R4_Startle_Short",
+      "frames": [
+        1,
+        37
+      ],
+      "before_max_ankle_rest_target_error_m": 0.0037857063006705416,
+      "after_max_ankle_rest_target_error_m": 1.022982421785724e-07,
+      "modified_channels": "thigh/shin/foot quaternion only; no root/pelvis/arm/face/source action edit"
+    },
+    {
+      "action": "YRA_R4_Land_Soft",
+      "frames": [
+        1,
+        43
+      ],
+      "before_max_ankle_rest_target_error_m": 0.012345072506302271,
+      "after_max_ankle_rest_target_error_m": 1.4006711211290585e-07,
+      "modified_channels": "thigh/shin/foot quaternion only; no root/pelvis/arm/face/source action edit"
+    },
+    {
+      "action": "YRA_R4_BalanceRecover",
+      "frames": [
+        1,
+        55
+      ],
+      "before_max_ankle_rest_target_error_m": 0.005289665868052951,
+      "after_max_ankle_rest_target_error_m": 1.3770761869875795e-07,
+      "modified_channels": "thigh/shin/foot quaternion only; no root/pelvis/arm/face/source action edit"
+    },
+    {
+      "action": "YRA_R4_QA_MilestoneA_Sequence",
+      "frames": [
+        169,
+        265
+      ],
+      "before_max_ankle_rest_target_error_m": 0.012345034785827281,
+      "after_max_ankle_rest_target_error_m": 1.6203181705856518e-07,
+      "modified_channels": "thigh/shin/foot quaternion only; no root/pelvis/arm/face/source action edit"
+    }
+  ]
+}

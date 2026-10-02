@@ -1,0 +1,153 @@
+{
+  "master_armatures": 1,
+  "master_bones": 79,
+  "master_meshes": 21,
+  "shape_key_counts": {
+    "Character_Body_Head": 72,
+    "Globe.L": 0,
+    "Globe.R": 0,
+    "Hair_Replacement_R4": 0,
+    "LashRootRepair.L.1": 65,
+    "LashRootRepair.L.2": 65,
+    "LashRootRepair.L.3": 65,
+    "LashRootRepair.L.4": 65,
+    "LashRootRepair.L.5": 65,
+    "LashRootRepair.R.1": 65,
+    "LashRootRepair.R.2": 65,
+    "LashRootRepair.R.3": 65,
+    "LashRootRepair.R.4": 65,
+    "LashRootRepair.R.5": 65,
+    "LowerLashesClean.L": 0,
+    "LowerLashesClean.R": 0,
+    "MedialBacking.L": 0,
+    "MedialBacking.R": 0,
+    "Meshy_Body_NeutralCovered": 0,
+    "OriginalMedialLashes.L": 65,
+    "OriginalMedialLashes.R": 65
+  },
+  "imported_actions": 6,
+  "clips": [
+    {
+      "action": "YRA_R4_BalanceRecover",
+      "frames": 55,
+      "max_world_joint_position_error_m": 1.2212590271033558e-06,
+      "sampled_skin_difference": [
+        {
+          "frame": 1,
+          "max_corresponding_vertex_difference_m": 4.111343521273552e-07
+        },
+        {
+          "frame": 28,
+          "max_corresponding_vertex_difference_m": 2.407318455597794e-05
+        },
+        {
+          "frame": 55,
+          "max_corresponding_vertex_difference_m": 4.111343521273552e-07
+        }
+      ],
+      "skeleton_roundtrip": "PASS"
+    },
+    {
+      "action": "YRA_R4_Land_Soft",
+      "frames": 43,
+      "max_world_joint_position_error_m": 1.0344508022544896e-06,
+      "sampled_skin_difference": [
+        {
+          "frame": 1,
+          "max_corresponding_vertex_difference_m": 4.111343521273552e-07
+        },
+        {
+          "frame": 22,
+          "max_corresponding_vertex_difference_m": 0.00044091834269429985
+        },
+        {
+          "frame": 43,
+          "max_corresponding_vertex_difference_m": 4.111343521273552e-07
+        }
+      ],
+      "skeleton_roundtrip": "PASS"
+    },
+    {
+      "action": "YRA_R4_Lift_Start",
+      "frames": 31,
+      "max_world_joint_position_error_m": 1.0795888714003537e-06,
+      "sampled_skin_difference": [
+        {
+          "frame": 1,
+          "max_corresponding_vertex_difference_m": 2.0977702096559137e-05
+        },
+        {
+          "frame": 16,
+          "max_corresponding_vertex_difference_m": 0.002045592203380151
+        },
+        {
+          "frame": 31,
+          "max_corresponding_vertex_difference_m": 0.0026473870691169957
+        }
+      ],
+      "skeleton_roundtrip": "PASS"
+    },
+    {
+      "action": "YRA_R4_Startle_Short",
+      "frames": 37,
+      "max_world_joint_position_error_m": 1.1321512088575232e-06,
+      "sampled_skin_difference": [
+        {
+          "frame": 1,
+          "max_corresponding_vertex_difference_m": 4.111343521273552e-07
+        },
+        {
+          "frame": 18,
+          "max_corresponding_vertex_difference_m": 0.00048458978147176984
+        },
+        {
+          "frame": 37,
+          "max_corresponding_vertex_difference_m": 4.111343521273552e-07
+        }
+      ],
+      "skeleton_roundtrip": "PASS"
+    },
+    {
+      "action": "YRA_R4_Struggle_Light_Loop",
+      "frames": 61,
+      "max_world_joint_position_error_m": 1.0316296774548874e-06,
+      "sampled_skin_difference": [
+        {
+          "frame": 1,
+          "max_corresponding_vertex_difference_m": 0.00264737559524975
+        },
+        {
+          "frame": 30,
+          "max_corresponding_vertex_difference_m": 0.0017587970694013851
+        },
+        {
+          "frame": 61,
+          "max_corresponding_vertex_difference_m": 0.0026473870691169957
+        }
+      ],
+      "skeleton_roundtrip": "PASS"
+    },
+    {
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "frames": 49,
+      "max_world_joint_position_error_m": 1.0869679585001996e-06,
+      "sampled_skin_difference": [
+        {
+          "frame": 1,
+          "max_corresponding_vertex_difference_m": 0.003928662269732293
+        },
+        {
+          "frame": 24,
+          "max_corresponding_vertex_difference_m": 0.0024976819624048033
+        },
+        {
+          "frame": 49,
+          "max_corresponding_vertex_difference_m": 0.00392867720160802
+        }
+      ],
+      "skeleton_roundtrip": "PASS"
+    }
+  ],
+  "missing_images": [],
+  "runtime_engine": "Fresh Blender FBX importer; Unity untested"
+}

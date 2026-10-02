@@ -1,0 +1,79 @@
+{
+  "preservation": "PASS",
+  "original_r2_actions": 66,
+  "original_r4_actions": 78,
+  "original_r4_meshes_weights_keys_rest": "EXACT_SIGNATURE_MATCH",
+  "production_retarget_clips": 6,
+  "qa_helpers": 2,
+  "transitions": [
+    {
+      "from": "YRA_R4_Lift_Start",
+      "to": "YRA_R4_Struggle_Light_Loop",
+      "max_bone_position_difference_m": 9.01942602346936e-08,
+      "max_bone_rotation_difference_deg": 0.0
+    },
+    {
+      "from": "YRA_R4_Land_Soft",
+      "to": "YRA_R4_BalanceRecover",
+      "max_bone_position_difference_m": 0.0,
+      "max_bone_rotation_difference_deg": 0.0
+    }
+  ],
+  "sequence_frames_evaluated": 265,
+  "sequence_max_step_m": 0.05086594983812983,
+  "sequence_boundary_steps": [
+    {
+      "frame": 31,
+      "max_bone_position_difference_m": 0.005821523832421605,
+      "max_bone_rotation_difference_deg": 2.1591184192894106
+    },
+    {
+      "frame": 32,
+      "max_bone_position_difference_m": 0.005798386328342643,
+      "max_bone_rotation_difference_deg": 2.1652724197315925
+    },
+    {
+      "frame": 91,
+      "max_bone_position_difference_m": 0.005821523832421605,
+      "max_bone_rotation_difference_deg": 2.1591184192894106
+    },
+    {
+      "frame": 92,
+      "max_bone_position_difference_m": 0.005798386328342643,
+      "max_bone_rotation_difference_deg": 2.1652724197315925
+    },
+    {
+      "frame": 151,
+      "max_bone_position_difference_m": 0.005821469445311577,
+      "max_bone_rotation_difference_deg": 2.1591184192894106
+    },
+    {
+      "frame": 152,
+      "max_bone_position_difference_m": 0.0017049136024453074,
+      "max_bone_rotation_difference_deg": 0.5510727890064399
+    },
+    {
+      "frame": 169,
+      "max_bone_position_difference_m": 0.0020696592460072586,
+      "max_bone_rotation_difference_deg": 0.5539060902123787
+    },
+    {
+      "frame": 170,
+      "max_bone_position_difference_m": 0.012133339863443079,
+      "max_bone_rotation_difference_deg": 3.1933433155352144
+    },
+    {
+      "frame": 211,
+      "max_bone_position_difference_m": 0.0,
+      "max_bone_rotation_difference_deg": 0.0
+    },
+    {
+      "frame": 212,
+      "max_bone_position_difference_m": 0.0,
+      "max_bone_rotation_difference_deg": 0.0
+    }
+  ],
+  "candidate_sha256": "94a78fae16efd8e39827e2ef31dbfdcf72477cd4be158a80283578a7a947e606",
+  "normal_speed_visual": "PASS_NATIVE_SEQUENCE: full-frame pose/mesh-bounds validation plus full 1x 24fps playback; FBX material reconstruction pending",
+  "unity_runtime": "UNTESTED; AlwaysAnimate REQUIRED"
+}
