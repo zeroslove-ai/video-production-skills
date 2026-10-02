@@ -1,0 +1,24 @@
+{
+  "clips": {
+    "greeting_wave": {
+      "duration": 5,
+      "currentTime": 5,
+      "ended": true,
+      "playbackRate": 1
+    },
+    "shy_lookaway": {
+      "duration": 5,
+      "currentTime": 5,
+      "ended": true,
+      "playbackRate": 1
+    },
+    "please_tilt": {
+      "duration": 5,
+      "currentTime": 5,
+      "ended": true,
+      "playbackRate": 1
+    }
+  },
+  "scope": "5camera simultaneously presented per clip, 3 full5sec1x playbacks",
+  "face": "neutral; actualfaceA/OFAIL; proxy semanticface studies separate"
+}

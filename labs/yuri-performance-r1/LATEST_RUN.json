@@ -1,14 +1,14 @@
 {
-  "run_id": "desktop-dance-benchmark-r1-20261002",
-  "time_utc": "2026-10-02T13:17:57.483872+00:00",
+  "run_id": "desktop-dance-reprojection-r2-20261002",
+  "time_utc": "2026-10-02T13:43:50.202500+00:00",
   "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1",
   "branch": "research/yuri-performance-previs-r1-20261002",
-  "source_revision": "108b915",
+  "source_revision": "d3dc18e",
   "previous_run_receipt": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\acting-r2\\previous_latest_run_r1.json",
   "latest_run_directory": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1",
-  "blender_file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\motionbert_DANCE_R1.blend",
-  "candidate_sha256": "a11935c63f52c3c1d62c7230da7836bb28b7f78cbc8f35caf0165cb77c4b636e",
-  "review_html": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\REVIEW_DANCE_R1.html",
+  "blender_file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\motionbert_reprojection_stable_DANCE_R1.blend",
+  "candidate_sha256": "dbfc676fa6d0ceda15a531ae881d5028226fdb8e4a57594eb23363855b490e80",
+  "review_html": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\REVIEW_DANCE_R2.html",
   "result": "DESKTOP_RESEARCH_CHECKPOINT_DANCE_ACCURACY_FAIL",
   "semantic_base_recipes": 3,
   "approved_actual_yuri_performances": 0,
@@ -23,7 +23,7 @@
   "product_repos_changed": false,
   "main_merged": false,
   "laptop_work_changed": false,
-  "next_bounded_task": "Same6sec perspective-aware reprojection optimization and independent contact/hand/beat audit; compare GVHMR world motion after owner resolves GPU lease and licensed SMPL setup. No chorus extension before PASS.",
+  "next_bounded_task": "Independent shoe contact onset audit and perspective-aware full-body optimization on same6sec; preserve exact limb lengths/sharp wrist beat timing. World-depth and metric root remain unresolved; no chorus extension.",
   "research_horizon": "Approximately4hour Desktop checkpoint; failed candidates and reusable workflows preserved, no accurate-dance completion claim.",
   "native_body_reference": {
     "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-body-r3\\R2_NATIVE_BODY_TIMING_R3.blend",
@@ -97,9 +97,12 @@
     26
   ],
   "dance_accuracy_gate": "FAIL",
-  "dance_report": "DANCE_BENCHMARK_R1_KO.md",
+  "dance_report": "DANCE_REPROJECTION_R2_KO.md",
   "native_five_camera_cpu_videos": 15,
   "proxy_same_body_face_gaze_videos": 3,
   "pose_model_cpu_inference_candidates": 3,
-  "native_face_A_O": "FAIL: semantic proxy faces only"
+  "native_face_A_O": "FAIL: semantic proxy faces only",
+  "dance_retarget_variants": 5,
+  "native_five_camera_comparison_movies": 3,
+  "native_relaxed_fingers_wave_movies": 1
 }

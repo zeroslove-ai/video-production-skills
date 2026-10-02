@@ -1,0 +1,296 @@
+{
+  "schema": "GENERIC_HUMANOID_DANCE_MAPPING_R2",
+  "source_clip": "Animation",
+  "range_seconds": [
+    0,
+    6
+  ],
+  "fps": 60,
+  "frames": 360,
+  "source_space": "Blender Zup, world Xlateral/Ydepth/Zheight; GLB importer converts glTFYup",
+  "source_bones": {
+    "hips": {
+      "head_rest": [
+        0.0,
+        0.0,
+        0.8600000143051147
+      ],
+      "tail_rest": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "length_m": 0.13999998569488525,
+      "parent": null
+    },
+    "spine": {
+      "head_rest": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "tail_rest": [
+        0.0,
+        0.0,
+        1.159999966621399
+      ],
+      "length_m": 0.15999996662139893,
+      "parent": "hips"
+    },
+    "chest": {
+      "head_rest": [
+        0.0,
+        0.0,
+        1.159999966621399
+      ],
+      "tail_rest": [
+        0.0,
+        0.0,
+        1.3300000429153442
+      ],
+      "length_m": 0.1700000762939453,
+      "parent": "spine"
+    },
+    "neck": {
+      "head_rest": [
+        0.0,
+        0.0,
+        1.3300000429153442
+      ],
+      "tail_rest": [
+        0.0,
+        0.0,
+        1.440000057220459
+      ],
+      "length_m": 0.11000001430511475,
+      "parent": "chest"
+    },
+    "head": {
+      "head_rest": [
+        0.0,
+        0.0,
+        1.440000057220459
+      ],
+      "tail_rest": [
+        0.0,
+        0.0,
+        1.7000000476837158
+      ],
+      "length_m": 0.25999999046325684,
+      "parent": "neck"
+    },
+    "upper_arm.L": {
+      "head_rest": [
+        0.20000000298023224,
+        0.0,
+        1.309999942779541
+      ],
+      "tail_rest": [
+        0.3400000035762787,
+        0.0,
+        1.0800000429153442
+      ],
+      "length_m": 0.26925814151763916,
+      "parent": "chest"
+    },
+    "forearm.L": {
+      "head_rest": [
+        0.3400000035762787,
+        0.0,
+        1.0800000429153442
+      ],
+      "tail_rest": [
+        0.4000000059604645,
+        0.0,
+        0.8600000143051147
+      ],
+      "length_m": 0.22803500294685364,
+      "parent": "upper_arm.L"
+    },
+    "hand.L": {
+      "head_rest": [
+        0.4000000059604645,
+        0.0,
+        0.8600000143051147
+      ],
+      "tail_rest": [
+        0.41999998688697815,
+        0.0,
+        0.75
+      ],
+      "length_m": 0.111803337931633,
+      "parent": "forearm.L"
+    },
+    "upper_arm.R": {
+      "head_rest": [
+        -0.20000000298023224,
+        0.0,
+        1.309999942779541
+      ],
+      "tail_rest": [
+        -0.3400000035762787,
+        0.0,
+        1.0800000429153442
+      ],
+      "length_m": 0.26925814151763916,
+      "parent": "chest"
+    },
+    "forearm.R": {
+      "head_rest": [
+        -0.3400000035762787,
+        0.0,
+        1.0800000429153442
+      ],
+      "tail_rest": [
+        -0.4000000059604645,
+        0.0,
+        0.8600000143051147
+      ],
+      "length_m": 0.22803500294685364,
+      "parent": "upper_arm.R"
+    },
+    "hand.R": {
+      "head_rest": [
+        -0.4000000059604645,
+        0.0,
+        0.8600000143051147
+      ],
+      "tail_rest": [
+        -0.41999998688697815,
+        0.0,
+        0.75
+      ],
+      "length_m": 0.111803337931633,
+      "parent": "forearm.R"
+    },
+    "thigh.L": {
+      "head_rest": [
+        0.10000000149011612,
+        0.0,
+        0.8600000143051147
+      ],
+      "tail_rest": [
+        0.10999999940395355,
+        0.0,
+        0.4699999988079071
+      ],
+      "length_m": 0.39012816548347473,
+      "parent": "hips"
+    },
+    "shin.L": {
+      "head_rest": [
+        0.10999999940395355,
+        0.0,
+        0.4699999988079071
+      ],
+      "tail_rest": [
+        0.10999999940395355,
+        0.0,
+        0.09000000357627869
+      ],
+      "length_m": 0.37999993562698364,
+      "parent": "thigh.L"
+    },
+    "foot.L": {
+      "head_rest": [
+        0.10999999940395355,
+        0.0,
+        0.09000000357627869
+      ],
+      "tail_rest": [
+        0.10999999940395355,
+        -0.17000000178813934,
+        0.05000000074505806
+      ],
+      "length_m": 0.17464247345924377,
+      "parent": "shin.L"
+    },
+    "thigh.R": {
+      "head_rest": [
+        -0.10000000149011612,
+        0.0,
+        0.8600000143051147
+      ],
+      "tail_rest": [
+        -0.10999999940395355,
+        0.0,
+        0.4699999988079071
+      ],
+      "length_m": 0.39012816548347473,
+      "parent": "hips"
+    },
+    "shin.R": {
+      "head_rest": [
+        -0.10999999940395355,
+        0.0,
+        0.4699999988079071
+      ],
+      "tail_rest": [
+        -0.10999999940395355,
+        0.0,
+        0.09000000357627869
+      ],
+      "length_m": 0.37999993562698364,
+      "parent": "thigh.R"
+    },
+    "foot.R": {
+      "head_rest": [
+        -0.10999999940395355,
+        0.0,
+        0.09000000357627869
+      ],
+      "tail_rest": [
+        -0.10999999940395355,
+        -0.17000000178813934,
+        0.05000000074505806
+      ],
+      "length_m": 0.17464247345924377,
+      "parent": "shin.R"
+    }
+  },
+  "semantic_chains": {
+    "root": "hips",
+    "torso": [
+      "spine",
+      "chest",
+      "neck",
+      "head"
+    ],
+    "left_arm": [
+      "upper_arm.L",
+      "forearm.L",
+      "hand.L"
+    ],
+    "right_arm": [
+      "upper_arm.R",
+      "forearm.R",
+      "hand.R"
+    ],
+    "left_leg": [
+      "thigh.L",
+      "shin.L",
+      "foot.L"
+    ],
+    "right_leg": [
+      "thigh.R",
+      "shin.R",
+      "foot.R"
+    ]
+  },
+  "target_config_required": [
+    "target semantic bone aliases",
+    "target rest shoulder and hip widths",
+    "target per-bone upper/lower arm and leg lengths",
+    "target hip-to-floor/rest height",
+    "target floor/contact foot offset",
+    "target axis convention"
+  ],
+  "reapplication": "use baked joint direction and contact windows; scale root using leg-chain ratio, reconstruct limb positions at target per-bone lengths, IK knee poles, parallel-transport twist; do not raw-copy rotations",
+  "limitations": [
+    "metric root depth unidentified",
+    "camera fit used for this source/target arm optimization must be refitted for new target proportions",
+    "wrist twist/fingers/headyawpitch not reconstructed",
+    "no actualYuri or product runtime approval"
+  ],
+  "tests": "17bone GLB imported into fresh Blender and sampled; different target proportions require separate retarget QA"
+}

@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-02T13:45:19.160049+00:00",
+  "comparison_sha256": "2b4a1487d063755ba23df2c6855cb66729accb21ada64e7df189087e3ca80fdf",
+  "browser_playback": {
+    "duration": 6,
+    "currentTime": 6,
+    "ended": true,
+    "playbackRate": 1
+  },
+  "mcp_live_inspection": {
+    "candidate": "motionbert_reprojection_stable_DANCE_R1.blend",
+    "frame": 181,
+    "bones": 17,
+    "saved": false
+  },
+  "scope": "full6sec1x playback and all360frames mesh/joints/time-domain QA; accurate world dance gate remainsFAIL"
+}

@@ -1,0 +1,532 @@
+{
+  "camera_frozen": {
+    "method": "motionbert",
+    "frames": 360,
+    "projection": "one all-frame isotropic orthographic fit to shoulders/hips, no per-frame alignment",
+    "scope": "retarget wrist vs estimator2D observations; independent sparse manual audit is separate; unknown perspective and body proportions affect metric",
+    "scale_px_per_m": 384.48507818947286,
+    "translation_px": [
+      1582.733573090873,
+      851.4544257084408
+    ],
+    "wrist_trajectories": [
+      {
+        "side": "L",
+        "mean_error_px": 30.709899142159863,
+        "p95_error_px": 57.310768337360955,
+        "maximum_error_px": 101.52870648762969
+      },
+      {
+        "side": "R",
+        "mean_error_px": 64.12504884573536,
+        "p95_error_px": 167.14956262475272,
+        "maximum_error_px": 298.0671808953954
+      }
+    ]
+  },
+  "manual_scope": "Source-only unmarked 20.5/21.5/22.5/23.5/24.5/25.5s grids viewed before reading predictions at these frames; no estimator coordinates used to annotate. Frames were used by the solver's detector observations, so this is independent manual-label audit, not held-out motion input. Wrist boundary uncertainty and motion blur remain.",
+  "candidates": [
+    {
+      "method": "motionbert",
+      "manual_label_points": 11,
+      "manual_uncertainty_px": 20,
+      "manual_mean_error_px": 62.167703944589746,
+      "manual_p95_error_px": 157.54291156931555,
+      "manual_samples": [
+        {
+          "source_seconds": 20.5,
+          "side": "L",
+          "error_px": 47.43049625299663
+        },
+        {
+          "source_seconds": 20.5,
+          "side": "R",
+          "error_px": 88.83323395001408
+        },
+        {
+          "source_seconds": 21.5,
+          "side": "L",
+          "error_px": 25.478981081369884
+        },
+        {
+          "source_seconds": 21.5,
+          "side": "R",
+          "error_px": 186.07202379991935
+        },
+        {
+          "source_seconds": 22.5,
+          "side": "L",
+          "error_px": 11.438218270005125
+        },
+        {
+          "source_seconds": 22.5,
+          "side": "R",
+          "error_px": 129.01379933871172
+        },
+        {
+          "source_seconds": 23.5,
+          "side": "L",
+          "error_px": 42.03371481698494
+        },
+        {
+          "source_seconds": 23.5,
+          "side": "R",
+          "error_px": 59.588694609409025
+        },
+        {
+          "source_seconds": 24.5,
+          "side": "R",
+          "error_px": 32.14046066314578
+        },
+        {
+          "source_seconds": 25.5,
+          "side": "L",
+          "error_px": 34.305276581260664
+        },
+        {
+          "source_seconds": 25.5,
+          "side": "R",
+          "error_px": 27.50984402667009
+        }
+      ],
+      "timing": [
+        {
+          "side": "L",
+          "reference_detector_speed_peak_seconds": [
+            20.233333333333334,
+            20.55,
+            20.75,
+            21.0,
+            21.366666666666667,
+            21.6,
+            21.833333333333332,
+            22.2,
+            22.433333333333334,
+            22.65,
+            22.9,
+            23.1,
+            23.35,
+            23.883333333333333,
+            24.28333333333333,
+            24.616666666666667,
+            24.866666666666667,
+            25.183333333333334,
+            25.383333333333333
+          ],
+          "retarget_speed_peak_seconds": [
+            20.233333333333334,
+            20.633333333333333,
+            21.05,
+            21.466666666666665,
+            21.8,
+            22.35,
+            22.75,
+            22.95,
+            23.183333333333334,
+            23.433333333333334,
+            23.866666666666667,
+            24.2,
+            24.666666666666668,
+            24.866666666666667,
+            25.133333333333333,
+            25.333333333333332
+          ],
+          "speed_curve_crosscorrelation_lag_ms": 16.666666666666668,
+          "reference_peak_nearest_retarget_mean_abs_delta_ms": 69.29824561403508,
+          "retarget_peak_nearest_audio_transient_mean_abs_delta_ms": 104.53939909296994,
+          "scope": "detector/reference image speed vs retarget; signal transients are not choreography beat labels; no timing PASS from proximity alone"
+        },
+        {
+          "side": "R",
+          "reference_detector_speed_peak_seconds": [
+            20.183333333333334,
+            20.5,
+            20.716666666666665,
+            21.1,
+            21.366666666666667,
+            21.583333333333332,
+            21.8,
+            22.03333333333333,
+            22.233333333333334,
+            22.483333333333334,
+            22.78333333333333,
+            23.0,
+            23.233333333333334,
+            23.433333333333334,
+            23.8,
+            24.083333333333332,
+            24.3,
+            24.53333333333333,
+            24.8,
+            25.133333333333333,
+            25.46666666666667
+          ],
+          "retarget_speed_peak_seconds": [
+            20.166666666666668,
+            20.45,
+            20.7,
+            20.966666666666665,
+            21.166666666666668,
+            21.616666666666667,
+            21.916666666666668,
+            22.25,
+            22.55,
+            22.78333333333333,
+            23.0,
+            23.266666666666666,
+            23.8,
+            24.35,
+            24.7,
+            25.133333333333333
+          ],
+          "speed_curve_crosscorrelation_lag_ms": 433.33333333333337,
+          "reference_peak_nearest_retarget_mean_abs_delta_ms": 86.5079365079365,
+          "retarget_peak_nearest_audio_transient_mean_abs_delta_ms": 85.3585600907032,
+          "scope": "detector/reference image speed vs retarget; signal transients are not choreography beat labels; no timing PASS from proximity alone"
+        }
+      ],
+      "nonarm_head_position_max_change_m": 0.0,
+      "rotation_max_step_deg": 20.067085536213707,
+      "verdict": "IMPROVED_IMAGE_FIT_NOT_WORLD_DANCE_PASS"
+    },
+    {
+      "method": "motionbert_reprojection",
+      "manual_label_points": 11,
+      "manual_uncertainty_px": 20,
+      "manual_mean_error_px": 14.874723618628275,
+      "manual_p95_error_px": 31.584439942299227,
+      "manual_samples": [
+        {
+          "source_seconds": 20.5,
+          "side": "L",
+          "error_px": 11.022028660327212
+        },
+        {
+          "source_seconds": 20.5,
+          "side": "R",
+          "error_px": 9.374849934769065
+        },
+        {
+          "source_seconds": 21.5,
+          "side": "L",
+          "error_px": 16.433093004153445
+        },
+        {
+          "source_seconds": 21.5,
+          "side": "R",
+          "error_px": 37.6687574395543
+        },
+        {
+          "source_seconds": 22.5,
+          "side": "L",
+          "error_px": 19.188031431366802
+        },
+        {
+          "source_seconds": 22.5,
+          "side": "R",
+          "error_px": 25.500122445044152
+        },
+        {
+          "source_seconds": 23.5,
+          "side": "L",
+          "error_px": 5.303407254696374
+        },
+        {
+          "source_seconds": 23.5,
+          "side": "R",
+          "error_px": 7.568298856156039
+        },
+        {
+          "source_seconds": 24.5,
+          "side": "R",
+          "error_px": 21.31323492013977
+        },
+        {
+          "source_seconds": 25.5,
+          "side": "L",
+          "error_px": 1.296875278373416
+        },
+        {
+          "source_seconds": 25.5,
+          "side": "R",
+          "error_px": 8.953260580330458
+        }
+      ],
+      "timing": [
+        {
+          "side": "L",
+          "reference_detector_speed_peak_seconds": [
+            20.233333333333334,
+            20.55,
+            20.75,
+            21.0,
+            21.366666666666667,
+            21.6,
+            21.833333333333332,
+            22.2,
+            22.433333333333334,
+            22.65,
+            22.9,
+            23.1,
+            23.35,
+            23.883333333333333,
+            24.28333333333333,
+            24.616666666666667,
+            24.866666666666667,
+            25.183333333333334,
+            25.383333333333333
+          ],
+          "retarget_speed_peak_seconds": [
+            20.2,
+            20.533333333333335,
+            20.75,
+            21.0,
+            21.366666666666667,
+            21.6,
+            21.833333333333332,
+            22.2,
+            22.433333333333334,
+            22.65,
+            22.9,
+            23.1,
+            23.35,
+            23.883333333333333,
+            24.28333333333333,
+            24.616666666666667,
+            24.866666666666667,
+            25.183333333333334,
+            25.383333333333333
+          ],
+          "speed_curve_crosscorrelation_lag_ms": 0.0,
+          "reference_peak_nearest_retarget_mean_abs_delta_ms": 2.6315789473684212,
+          "retarget_peak_nearest_audio_transient_mean_abs_delta_ms": 88.17758682420275,
+          "scope": "detector/reference image speed vs retarget; signal transients are not choreography beat labels; no timing PASS from proximity alone"
+        },
+        {
+          "side": "R",
+          "reference_detector_speed_peak_seconds": [
+            20.183333333333334,
+            20.5,
+            20.716666666666665,
+            21.1,
+            21.366666666666667,
+            21.583333333333332,
+            21.8,
+            22.03333333333333,
+            22.233333333333334,
+            22.483333333333334,
+            22.78333333333333,
+            23.0,
+            23.233333333333334,
+            23.433333333333334,
+            23.8,
+            24.083333333333332,
+            24.3,
+            24.53333333333333,
+            24.8,
+            25.133333333333333,
+            25.46666666666667
+          ],
+          "retarget_speed_peak_seconds": [
+            20.183333333333334,
+            20.5,
+            20.716666666666665,
+            21.1,
+            21.366666666666667,
+            21.583333333333332,
+            21.8,
+            22.03333333333333,
+            22.233333333333334,
+            22.483333333333334,
+            22.78333333333333,
+            23.0,
+            23.233333333333334,
+            23.433333333333334,
+            23.8,
+            24.3,
+            24.53333333333333,
+            24.8,
+            25.133333333333333,
+            25.46666666666667
+          ],
+          "speed_curve_crosscorrelation_lag_ms": 0.0,
+          "reference_peak_nearest_retarget_mean_abs_delta_ms": 10.317460317460318,
+          "retarget_peak_nearest_audio_transient_mean_abs_delta_ms": 80.96485260770923,
+          "scope": "detector/reference image speed vs retarget; signal transients are not choreography beat labels; no timing PASS from proximity alone"
+        }
+      ],
+      "nonarm_head_position_max_change_m": 0.0,
+      "rotation_max_step_deg": 158.9112668342524,
+      "verdict": "FAIL_TEMPORAL_POP"
+    },
+    {
+      "method": "motionbert_reprojection_stable",
+      "manual_label_points": 11,
+      "manual_uncertainty_px": 20,
+      "manual_mean_error_px": 16.725858546179637,
+      "manual_p95_error_px": 35.27220189988675,
+      "manual_samples": [
+        {
+          "source_seconds": 20.5,
+          "side": "L",
+          "error_px": 11.02203846484269
+        },
+        {
+          "source_seconds": 20.5,
+          "side": "R",
+          "error_px": 9.375069744218274
+        },
+        {
+          "source_seconds": 21.5,
+          "side": "L",
+          "error_px": 16.433134615430806
+        },
+        {
+          "source_seconds": 21.5,
+          "side": "R",
+          "error_px": 37.58036984621965
+        },
+        {
+          "source_seconds": 22.5,
+          "side": "L",
+          "error_px": 19.188002473730734
+        },
+        {
+          "source_seconds": 22.5,
+          "side": "R",
+          "error_px": 20.554730290003494
+        },
+        {
+          "source_seconds": 23.5,
+          "side": "L",
+          "error_px": 5.303318871103608
+        },
+        {
+          "source_seconds": 23.5,
+          "side": "R",
+          "error_px": 32.96403395355385
+        },
+        {
+          "source_seconds": 24.5,
+          "side": "R",
+          "error_px": 21.31323193529265
+        },
+        {
+          "source_seconds": 25.5,
+          "side": "L",
+          "error_px": 1.2972538986565674
+        },
+        {
+          "source_seconds": 25.5,
+          "side": "R",
+          "error_px": 8.953259914923636
+        }
+      ],
+      "timing": [
+        {
+          "side": "L",
+          "reference_detector_speed_peak_seconds": [
+            20.233333333333334,
+            20.55,
+            20.75,
+            21.0,
+            21.366666666666667,
+            21.6,
+            21.833333333333332,
+            22.2,
+            22.433333333333334,
+            22.65,
+            22.9,
+            23.1,
+            23.35,
+            23.883333333333333,
+            24.28333333333333,
+            24.616666666666667,
+            24.866666666666667,
+            25.183333333333334,
+            25.383333333333333
+          ],
+          "retarget_speed_peak_seconds": [
+            20.2,
+            20.533333333333335,
+            20.75,
+            21.0,
+            21.366666666666667,
+            21.6,
+            21.833333333333332,
+            22.2,
+            22.433333333333334,
+            22.65,
+            22.9,
+            23.1,
+            23.35,
+            23.883333333333333,
+            24.28333333333333,
+            24.616666666666667,
+            24.866666666666667,
+            25.133333333333333,
+            25.383333333333333
+          ],
+          "speed_curve_crosscorrelation_lag_ms": 0.0,
+          "reference_peak_nearest_retarget_mean_abs_delta_ms": 5.2631578947368425,
+          "retarget_peak_nearest_audio_transient_mean_abs_delta_ms": 90.8091657715712,
+          "scope": "detector/reference image speed vs retarget; signal transients are not choreography beat labels; no timing PASS from proximity alone"
+        },
+        {
+          "side": "R",
+          "reference_detector_speed_peak_seconds": [
+            20.183333333333334,
+            20.5,
+            20.716666666666665,
+            21.1,
+            21.366666666666667,
+            21.583333333333332,
+            21.8,
+            22.03333333333333,
+            22.233333333333334,
+            22.483333333333334,
+            22.78333333333333,
+            23.0,
+            23.233333333333334,
+            23.433333333333334,
+            23.8,
+            24.083333333333332,
+            24.3,
+            24.53333333333333,
+            24.8,
+            25.133333333333333,
+            25.46666666666667
+          ],
+          "retarget_speed_peak_seconds": [
+            20.183333333333334,
+            20.5,
+            20.716666666666665,
+            20.933333333333334,
+            21.15,
+            21.366666666666667,
+            21.583333333333332,
+            21.866666666666667,
+            22.066666666666666,
+            22.483333333333334,
+            22.78333333333333,
+            23.0,
+            23.266666666666666,
+            23.46666666666667,
+            23.8,
+            24.3,
+            24.666666666666668,
+            25.166666666666668,
+            25.46666666666667
+          ],
+          "speed_curve_crosscorrelation_lag_ms": 0.0,
+          "reference_peak_nearest_retarget_mean_abs_delta_ms": 42.85714285714286,
+          "retarget_peak_nearest_audio_transient_mean_abs_delta_ms": 71.80809165771544,
+          "scope": "detector/reference image speed vs retarget; signal transients are not choreography beat labels; no timing PASS from proximity alone"
+        }
+      ],
+      "nonarm_head_position_max_change_m": 0.0,
+      "rotation_max_step_deg": 20.078369236093636,
+      "verdict": "IMPROVED_IMAGE_FIT_NOT_WORLD_DANCE_PASS"
+    }
+  ]
+}

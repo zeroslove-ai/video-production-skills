@@ -1,0 +1,15 @@
+{
+  "videos": [
+    {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "file": "greeting_wave__hand_face.mp4",
+      "duration": 5,
+      "fps": 24,
+      "width": 640,
+      "height": 360,
+      "sha256": "e2e7216c57debcf16b732c1530290b9d940a80ee0e2f84c735226cc6d79c3127"
+    }
+  ],
+  "actual_yuri_approved_performances": 0
+}

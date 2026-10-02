@@ -1,0 +1,101 @@
+{
+  "contacts": [
+    {
+      "clip": "greeting_wave",
+      "camera": "full_body",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave__full_body_contact.jpg",
+      "candidate_sha256": "b03096f62cb43267f25cc065e6d61f013f25e0effca478aa2bf3b4d7e060e7a9",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\full_body\\0001.png",
+          "sha256": "9f5e4fce8fd25e4380316724c60aa0584bde19fa8172c6da53e021cce818d67d"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\full_body\\0025.png",
+          "sha256": "5c5265121ca0c2d46a6d37eeb84aa1118eff5d7f3c3b118872d3e894e92ec948"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\full_body\\0049.png",
+          "sha256": "6b5fc5ac1e65ade05b227dc0bfa564b8addf6f17905170dc1446bd4ca62bb880"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\full_body\\0073.png",
+          "sha256": "603f26e4347d2c8e231e1725c45564c07f15c584a5f91359efd7690c0214e918"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\full_body\\0097.png",
+          "sha256": "db12f3efcf6eb21381ed1e0b41c294067885becb91dfe97627c545d49515b5cc"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\full_body\\0121.png",
+          "sha256": "f647e5a84a1363d38c77f17c6755fd2ee35f4d131652e6e64209a1459ef57170"
+        }
+      ]
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "waist_threequarter",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave__waist_threequarter_contact.jpg",
+      "candidate_sha256": "b03096f62cb43267f25cc065e6d61f013f25e0effca478aa2bf3b4d7e060e7a9",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\waist_threequarter\\0001.png",
+          "sha256": "2a2ac62b06939ccad3e4826f6b3fe9c6cbedef7e842aaee9fdbbb0275f67bf6e"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\waist_threequarter\\0025.png",
+          "sha256": "83388deb82fcaf6c3bf8db1b38c14b1ecc44d22588b4e54e488ad2cb3e9fce5f"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\waist_threequarter\\0049.png",
+          "sha256": "a3bca533d82687d5eb6811775bf01b8d009302749788d6e244b13fa85aa7ecc7"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\waist_threequarter\\0073.png",
+          "sha256": "4172de3fefafc40464e2b820873724c27c563d4f26638f24181cb101209d6add"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\waist_threequarter\\0097.png",
+          "sha256": "46f220031273d0eb290b89801b017320aee707ca455e4db761e7ba76ab9ff70a"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\waist_threequarter\\0121.png",
+          "sha256": "ae7ee42b1215074441aaa544ac1134f2f9453739208e8f0d6d99a7032c065284"
+        }
+      ]
+    },
+    {
+      "clip": "greeting_wave",
+      "camera": "hand_face",
+      "contact": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave__hand_face_contact.jpg",
+      "candidate_sha256": "b03096f62cb43267f25cc065e6d61f013f25e0effca478aa2bf3b4d7e060e7a9",
+      "frames": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\hand_face\\0001.png",
+          "sha256": "8084abc7aa9530e8259674cad72ebad2a58d4ad71d564113cfead5eed348225a"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\hand_face\\0025.png",
+          "sha256": "500162a0787e601d4bfb337f4d906b668ab6f528a3fcc003f25aaf818f512c45"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\hand_face\\0049.png",
+          "sha256": "2c65272c8342eb76a5303e9dfa3566d2d1b42ac14e0503cc394e1931c1ddfffc"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\hand_face\\0073.png",
+          "sha256": "b765a8663a0f49e16396abf383fbd15636422ce3e335d00871f16738769e8b94"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\hand_face\\0097.png",
+          "sha256": "b1370a3e2f4b0b523d9d3eaf8acb678908c16b08d00ae99bc5a53ef436147193"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-relaxed-wave-r5\\greeting_wave\\hand_face\\0121.png",
+          "sha256": "e2e5997ea9102cf99ad0928a3ea9c02b9833286337a40d9e2096e330934a8a1f"
+        }
+      ]
+    }
+  ],
+  "classification": "PRIVATE_NATIVE_BODY_REFERENCE_FACE_NEUTRAL_NO_PRODUCT_APPROVAL"
+}

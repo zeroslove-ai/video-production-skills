@@ -1,0 +1,95 @@
+{
+  "original_annotation": {
+    "schema": "MANUAL_WRIST_AUDIT_R2",
+    "crop_origin": [
+      1380,
+      100
+    ],
+    "joint_order": [
+      "wrist.L",
+      "wrist.R"
+    ],
+    "uncertainty_px": 20,
+    "scope": "Source-only unmarked 20.5/21.5/22.5/23.5/24.5/25.5s grids viewed before reading predictions at these frames; no estimator coordinates used to annotate. Frames were used by the solver's detector observations, so this is independent manual-label audit, not held-out motion input. Wrist boundary uncertainty and motion blur remain.",
+    "mirror": "anatomical model convention on displayed mirrored dancer; performer original unmirror unverified",
+    "samples": [
+      {
+        "source_seconds": 20.5,
+        "xy_crop": [
+          [
+            335,
+            414
+          ],
+          [
+            245,
+            421
+          ]
+        ]
+      },
+      {
+        "source_seconds": 21.5,
+        "xy_crop": [
+          [
+            270,
+            443
+          ],
+          [
+            121,
+            451
+          ]
+        ]
+      },
+      {
+        "source_seconds": 22.5,
+        "xy_crop": [
+          [
+            237,
+            360
+          ],
+          [
+            108,
+            384
+          ]
+        ]
+      },
+      {
+        "source_seconds": 23.5,
+        "xy_crop": [
+          [
+            382,
+            329
+          ],
+          [
+            302,
+            320
+          ]
+        ]
+      },
+      {
+        "source_seconds": 24.5,
+        "xy_crop": [
+          null,
+          [
+            77,
+            263
+          ]
+        ],
+        "omission": "left wrist boundary obscured near folded forearm/chest"
+      },
+      {
+        "source_seconds": 25.5,
+        "xy_crop": [
+          [
+            306,
+            263
+          ],
+          [
+            199,
+            395
+          ]
+        ]
+      }
+    ]
+  },
+  "failure": "24.5s right-wrist label [77,263] followed neighbouring performer arm. Enlarged source-only crop shows selected white-dress right wrist at waist [177,401]. Corrected label retained separately; no model coordinate substituted."
+}

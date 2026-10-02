@@ -1,0 +1,371 @@
+{
+  "method": "motionbert_reprojection",
+  "candidate": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\motionbert_reprojection_DANCE_R1.blend",
+  "candidate_sha256": "083969f70116680dafc3bb00e9966aae872ec49917d0d7cb4fd770edef0cd72e",
+  "source_proxy_sha256": "271b0fdd060810ae133e5604869976382a2df9ca0af0c863854daffd0ff75c32",
+  "rights": "existing original procedural laboratory proxy; source performer likeness not recreated",
+  "body_only": true,
+  "frames": 360,
+  "fps": 60,
+  "retarget": "original normalized rig and body/root/legs/head; arms optimized against fixed2D camera with target bone lengths",
+  "hip_height_normalization_scale": 0.917810407868875,
+  "arm_length_ratios": {
+    "armL": 1.1260306349877927,
+    "armR": 1.2515614701563071
+  },
+  "target_shoulder_width_m": 0.4,
+  "target_hip_width_m": 0.2,
+  "max_reach_clamp_m": 0.040422034714208466,
+  "max_bone_scale_error": 1.3709068298339844e-06,
+  "ambiguous_axial_roll_repairs": 3590,
+  "foot_depth_heading_constraint": "front-facing segment only; preserve lateral toe heading, constrain forward Y and floor slope; original depth unresolved",
+  "floor_constraints": "source foot targets already contact-corrected; IK reach clamp can invalidate contact; downstream QA required",
+  "status": "REPROJECTION_EXPERIMENT_NOT_WORLD_ACCURACY_PASS",
+  "direction_outlier_repairs": [
+    {
+      "frame": 11,
+      "segment": "Rlower",
+      "raw_step_deg": 83.17171895724385
+    },
+    {
+      "frame": 12,
+      "segment": "Rlower",
+      "raw_step_deg": 79.0837414559645
+    },
+    {
+      "frame": 13,
+      "segment": "Rlower",
+      "raw_step_deg": 68.0412107002648
+    },
+    {
+      "frame": 14,
+      "segment": "Rlower",
+      "raw_step_deg": 54.259842389281694
+    },
+    {
+      "frame": 15,
+      "segment": "Rlower",
+      "raw_step_deg": 39.2809711620661
+    },
+    {
+      "frame": 16,
+      "segment": "Rlower",
+      "raw_step_deg": 25.099181303443704
+    },
+    {
+      "frame": 20,
+      "segment": "Rlower",
+      "raw_step_deg": 22.048719782373045
+    },
+    {
+      "frame": 21,
+      "segment": "Rlower",
+      "raw_step_deg": 20.40601830584996
+    },
+    {
+      "frame": 42,
+      "segment": "Rlower",
+      "raw_step_deg": 102.74355089183452
+    },
+    {
+      "frame": 43,
+      "segment": "Rlower",
+      "raw_step_deg": 83.30927213693873
+    },
+    {
+      "frame": 44,
+      "segment": "Rlower",
+      "raw_step_deg": 62.96435841095101
+    },
+    {
+      "frame": 45,
+      "segment": "Rlower",
+      "raw_step_deg": 42.26386503677241
+    },
+    {
+      "frame": 46,
+      "segment": "Rlower",
+      "raw_step_deg": 21.88212293077997
+    },
+    {
+      "frame": 72,
+      "segment": "Rlower",
+      "raw_step_deg": 76.9247118291343
+    },
+    {
+      "frame": 73,
+      "segment": "Rlower",
+      "raw_step_deg": 51.08703510470318
+    },
+    {
+      "frame": 74,
+      "segment": "Rlower",
+      "raw_step_deg": 25.01099160842779
+    },
+    {
+      "frame": 98,
+      "segment": "Rlower",
+      "raw_step_deg": 96.25923567120205
+    },
+    {
+      "frame": 99,
+      "segment": "Rlower",
+      "raw_step_deg": 65.70756045711406
+    },
+    {
+      "frame": 100,
+      "segment": "Rlower",
+      "raw_step_deg": 40.81123406447244
+    },
+    {
+      "frame": 110,
+      "segment": "Llower",
+      "raw_step_deg": 21.687664030015124
+    },
+    {
+      "frame": 111,
+      "segment": "Llower",
+      "raw_step_deg": 20.88649991584555
+    },
+    {
+      "frame": 113,
+      "segment": "Rlower",
+      "raw_step_deg": 83.10497434867449
+    },
+    {
+      "frame": 114,
+      "segment": "Rlower",
+      "raw_step_deg": 73.05541649451125
+    },
+    {
+      "frame": 115,
+      "segment": "Rlower",
+      "raw_step_deg": 59.72492263101902
+    },
+    {
+      "frame": 116,
+      "segment": "Rlower",
+      "raw_step_deg": 46.17296329878371
+    },
+    {
+      "frame": 117,
+      "segment": "Rlower",
+      "raw_step_deg": 32.006051299720895
+    },
+    {
+      "frame": 125,
+      "segment": "Rlower",
+      "raw_step_deg": 85.39170802241641
+    },
+    {
+      "frame": 126,
+      "segment": "Rlower",
+      "raw_step_deg": 64.43209093150587
+    },
+    {
+      "frame": 127,
+      "segment": "Rlower",
+      "raw_step_deg": 42.68616880296513
+    },
+    {
+      "frame": 128,
+      "segment": "Rlower",
+      "raw_step_deg": 23.111529660625585
+    },
+    {
+      "frame": 153,
+      "segment": "Rlower",
+      "raw_step_deg": 75.76077929267242
+    },
+    {
+      "frame": 154,
+      "segment": "Rlower",
+      "raw_step_deg": 49.034361768533834
+    },
+    {
+      "frame": 155,
+      "segment": "Rlower",
+      "raw_step_deg": 26.862285354655775
+    },
+    {
+      "frame": 164,
+      "segment": "Llower",
+      "raw_step_deg": 28.477213574466298
+    },
+    {
+      "frame": 165,
+      "segment": "Llower",
+      "raw_step_deg": 35.19553449115799
+    },
+    {
+      "frame": 166,
+      "segment": "Llower",
+      "raw_step_deg": 32.93355683806278
+    },
+    {
+      "frame": 166,
+      "segment": "Rlower",
+      "raw_step_deg": 157.96469459547131
+    },
+    {
+      "frame": 167,
+      "segment": "Llower",
+      "raw_step_deg": 24.297158292986005
+    },
+    {
+      "frame": 167,
+      "segment": "Rlower",
+      "raw_step_deg": 140.48859009448316
+    },
+    {
+      "frame": 168,
+      "segment": "Rlower",
+      "raw_step_deg": 121.86099766170092
+    },
+    {
+      "frame": 169,
+      "segment": "Rlower",
+      "raw_step_deg": 102.33116456031665
+    },
+    {
+      "frame": 170,
+      "segment": "Rlower",
+      "raw_step_deg": 82.57695974469748
+    },
+    {
+      "frame": 171,
+      "segment": "Rlower",
+      "raw_step_deg": 62.82433270277657
+    },
+    {
+      "frame": 172,
+      "segment": "Rlower",
+      "raw_step_deg": 43.38514645696214
+    },
+    {
+      "frame": 173,
+      "segment": "Rlower",
+      "raw_step_deg": 24.264137743443577
+    },
+    {
+      "frame": 182,
+      "segment": "Rlower",
+      "raw_step_deg": 124.10636770982924
+    },
+    {
+      "frame": 183,
+      "segment": "Rlower",
+      "raw_step_deg": 100.89607351380528
+    },
+    {
+      "frame": 184,
+      "segment": "Rlower",
+      "raw_step_deg": 78.94404359687023
+    },
+    {
+      "frame": 185,
+      "segment": "Rlower",
+      "raw_step_deg": 56.19072662236054
+    },
+    {
+      "frame": 186,
+      "segment": "Rlower",
+      "raw_step_deg": 32.88394234393181
+    },
+    {
+      "frame": 194,
+      "segment": "Rlower",
+      "raw_step_deg": 93.16306310911108
+    },
+    {
+      "frame": 195,
+      "segment": "Rlower",
+      "raw_step_deg": 77.26538800455619
+    },
+    {
+      "frame": 196,
+      "segment": "Rlower",
+      "raw_step_deg": 59.97031083733007
+    },
+    {
+      "frame": 197,
+      "segment": "Rlower",
+      "raw_step_deg": 40.77442959012983
+    },
+    {
+      "frame": 198,
+      "segment": "Rlower",
+      "raw_step_deg": 21.218387345352934
+    },
+    {
+      "frame": 206,
+      "segment": "Rlower",
+      "raw_step_deg": 20.688050477058123
+    },
+    {
+      "frame": 207,
+      "segment": "Rlower",
+      "raw_step_deg": 23.269955898424033
+    },
+    {
+      "frame": 208,
+      "segment": "Rlower",
+      "raw_step_deg": 24.290857443476668
+    },
+    {
+      "frame": 234,
+      "segment": "Llower",
+      "raw_step_deg": 119.1461887119176
+    },
+    {
+      "frame": 235,
+      "segment": "Llower",
+      "raw_step_deg": 101.47780072541526
+    },
+    {
+      "frame": 236,
+      "segment": "Llower",
+      "raw_step_deg": 82.79104519404235
+    },
+    {
+      "frame": 237,
+      "segment": "Llower",
+      "raw_step_deg": 62.614775668851415
+    },
+    {
+      "frame": 238,
+      "segment": "Llower",
+      "raw_step_deg": 42.18873637099686
+    },
+    {
+      "frame": 239,
+      "segment": "Llower",
+      "raw_step_deg": 21.47257454286225
+    }
+  ],
+  "direction_limit_deg_per_60fps_frame": 20,
+  "wrist_orientation": "unobserved; neutral forearm-aligned wrist, not extracted hand orientation",
+  "head_orientation_scope": "screen-space eye-line roll only; unreliable monocular pitch/yaw not applied to rig",
+  "source_leg_median_length_m": 0.8390927957536132,
+  "root_scale_method": "target/source leg-chain length normalization; median hip-to-floor scaling rejected because it erased knee-flexion height",
+  "base_candidate_sha256": "a11935c63f52c3c1d62c7230da7836bb28b7f78cbc8f35caf0165cb77c4b636e",
+  "arm_reprojection_summary": [
+    {
+      "side": "L",
+      "before_mean_px": 30.709899142159863,
+      "after_mean_px": 2.084778308295633,
+      "before_p95_px": 57.310768337360955,
+      "after_p95_px": 5.610268558388886,
+      "max_direction_step_deg": 94.50361180401435
+    },
+    {
+      "side": "R",
+      "before_mean_px": 64.12504884573536,
+      "after_mean_px": 1.2384664867784696,
+      "before_p95_px": 167.14956262475272,
+      "after_p95_px": 3.3744392304588122,
+      "max_direction_step_deg": 117.44375399940023
+    }
+  ],
+  "max_baked_wrist_position_error_m": 2.6066386229598374e-07
+}

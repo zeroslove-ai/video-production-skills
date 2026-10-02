@@ -1,0 +1,10 @@
+{
+  "jobs": {
+    "greeting_wave__hand_face": {
+      "returncode": 0,
+      "candidate_sha256": "b03096f62cb43267f25cc065e6d61f013f25e0effca478aa2bf3b4d7e060e7a9",
+      "frames_rendered": 121,
+      "execution": "CPU_ONLY"
+    }
+  }
+}

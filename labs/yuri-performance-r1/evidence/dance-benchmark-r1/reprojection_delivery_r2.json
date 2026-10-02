@@ -1,0 +1,17 @@
+{
+  "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\reprojection_comparison_6sec.mp4",
+  "sha256": "2b4a1487d063755ba23df2c6855cb66729accb21ada64e7df189087e3ca80fdf",
+  "duration_seconds": 6,
+  "preview_fps": 30,
+  "frames": 180,
+  "motion_fps": 60,
+  "candidates": {
+    "motionbert": "a11935c63f52c3c1d62c7230da7836bb28b7f78cbc8f35caf0165cb77c4b636e",
+    "motionbert_reprojection": "083969f70116680dafc3bb00e9966aae872ec49917d0d7cb4fd770edef0cd72e",
+    "motionbert_reprojection_stable": "dbfc676fa6d0ceda15a531ae881d5028226fdb8e4a57594eb23363855b490e80"
+  },
+  "source_media_in_git": false,
+  "body_only": true,
+  "scope": "same extraction, three arm retarget variants; not three additional extraction stacks",
+  "world_accuracy_gate": "FAIL"
+}

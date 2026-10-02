@@ -1,0 +1,96 @@
+{
+  "videos": [
+    {
+      "clip": "greeting_wave",
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-compare-r5\\greeting_wave_five_camera.mp4",
+      "sha256": "1f598ccf4be3409d8db0d6ea1afc92d39db22a06dafa0a3961403b2d3ee4e4f5",
+      "duration": 5,
+      "fps": 24,
+      "sources": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\greeting_wave__full_body.mp4",
+          "sha256": "81071990e62efaf1638185721c6bbdf09e67ebbd889e16142a0b67beb3a61b33"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\greeting_wave__waist_threequarter.mp4",
+          "sha256": "78b79adfd60365721d36e7ffac04d2d9d63c4426bec5559fdba94c7884cb28c0"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\greeting_wave__face_close.mp4",
+          "sha256": "82c6c2dc85256021ab826dbf6861bd0a8368c61a58feb2ea9c73495c92a98b9b"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\greeting_wave__hand_face.mp4",
+          "sha256": "3421afb2b3a3f6410d1f44d07aa6bc215ba56e9158158e9bf88672d9908d8b7d"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\greeting_wave__vertical.mp4",
+          "sha256": "6ab0c212945947946357e18196356d59693ac0c98fb8971ca7083976e4bb9f34"
+        }
+      ],
+      "phase_label_scope": "semantic recipe intervals, not independently scored emotional readability"
+    },
+    {
+      "clip": "shy_lookaway",
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-compare-r5\\shy_lookaway_five_camera.mp4",
+      "sha256": "d4edfbf475aff448a91784ebc3aff0994bc9a83797cb2957d875d04d879df151",
+      "duration": 5,
+      "fps": 24,
+      "sources": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\shy_lookaway__full_body.mp4",
+          "sha256": "46f5b1838e265c5cd78e5a8827aa90b3944bba51246dc1ec7605f7ff713a22ce"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\shy_lookaway__waist_threequarter.mp4",
+          "sha256": "e5a512d53bee2318dc8d3a8f9297d51ca2a772237b495b39e8ab5916834338cb"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\shy_lookaway__face_close.mp4",
+          "sha256": "d88d4164fd85069969fba5f7977db867ecc112121c30bd33f5d2a151171764b8"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\shy_lookaway__hand_face.mp4",
+          "sha256": "0d578a56aad613b54ac1eb917b70eb00277051895a630ed9fc9c849ea0eb3f32"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\shy_lookaway__vertical.mp4",
+          "sha256": "adff0dcd4564c4deea2e1c6a902d017e0adb9be9f08323961a04bfdb92afcb8f"
+        }
+      ],
+      "phase_label_scope": "semantic recipe intervals, not independently scored emotional readability"
+    },
+    {
+      "clip": "please_tilt",
+      "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-compare-r5\\please_tilt_five_camera.mp4",
+      "sha256": "5aa01180e580f7bf8c7a71c685c2bf8aaf6bba2fc6b28e8cde74d7c394f8ac18",
+      "duration": 5,
+      "fps": 24,
+      "sources": [
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\please_tilt__full_body.mp4",
+          "sha256": "c6edf3f6fce4abb5c102dc60aa255ae8fbd0c28b6202f3a8ef72e159c2bb1d54"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\please_tilt__waist_threequarter.mp4",
+          "sha256": "3e79904e8e777b075e3d108c160310ed4f122cf448c172054f9dc091a7ac7dd5"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\please_tilt__face_close.mp4",
+          "sha256": "88cf220900b2cfd06023b30390688248dd7ae7f3b933dab0206658f7bd192d0e"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\please_tilt__hand_face.mp4",
+          "sha256": "e4e588b915636836d6713f1708921b47183fd9a735e14778ba27312aa9e723b1"
+        },
+        {
+          "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\native-camera-r4\\please_tilt__vertical.mp4",
+          "sha256": "5e89755ae0a54f4bc6a07b318e5d7ad800a34e550ca264151a790d357e2d2aad"
+        }
+      ],
+      "phase_label_scope": "semantic recipe intervals, not independently scored emotional readability"
+    }
+  ],
+  "new_physical_base_recipes": 0,
+  "actual_yuri_approved": 0
+}

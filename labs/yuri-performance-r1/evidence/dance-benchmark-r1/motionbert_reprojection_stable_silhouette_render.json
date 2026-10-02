@@ -1,0 +1,45 @@
+{
+  "method": "motionbert_reprojection_stable",
+  "candidate_sha256": "dbfc676fa6d0ceda15a531ae881d5028226fdb8e4a57594eb23363855b490e80",
+  "frames": 360,
+  "resolution": [
+    230,
+    460
+  ],
+  "camera_frozen_from_r1": {
+    "method": "motionbert",
+    "frames": 360,
+    "projection": "one all-frame isotropic orthographic fit to shoulders/hips, no per-frame alignment",
+    "scope": "retarget wrist vs estimator2D observations; independent sparse manual audit is separate; unknown perspective and body proportions affect metric",
+    "scale_px_per_m": 384.48507818947286,
+    "translation_px": [
+      1582.733573090873,
+      851.4544257084408
+    ],
+    "wrist_trajectories": [
+      {
+        "side": "L",
+        "mean_error_px": 30.709899142159863,
+        "p95_error_px": 57.310768337360955,
+        "maximum_error_px": 101.52870648762969
+      },
+      {
+        "side": "R",
+        "mean_error_px": 64.12504884573536,
+        "p95_error_px": 167.14956262475272,
+        "maximum_error_px": 298.0671808953954
+      }
+    ]
+  },
+  "ortho_camera_location": [
+    0.07091673632049292,
+    -5,
+    0.7580383277314422
+  ],
+  "ortho_scale": 2.392810676378518,
+  "render_folder": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\dance-benchmark-r1\\motionbert_reprojection_stable_silhouette_dbfc676fa6",
+  "engine": "CYCLES_CPU",
+  "samples": 1,
+  "actual_geometry": "armature-modified proxy meshes, floor hidden, alpha mask; not capsule approximation",
+  "scope": "proxy body/clothing proportions differ; reference mask still model-derived, not manual silhouette ground truth"
+}

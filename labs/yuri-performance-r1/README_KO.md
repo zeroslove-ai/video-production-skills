@@ -1,3 +1,7 @@
+## Desktop checkpoint R2: constrained dance reprojection
+
+[DANCE_REPROJECTION_R2_KO.md](DANCE_REPROJECTION_R2_KO.md): 같은6초의 normalized 팔 제약 보정. 수동 wrist11labels 평균62.17→16.73px, actual mesh-mask IoU.5905→.6169. Unconstrained158.91deg pop 후보는 폐기했다. World/root/contact accuracy gate는 FAIL 유지. First3 native5camera 비교3영상과 relaxed-finger wave1영상 완료. 아래 checkpoint들은 작성 시점의 역사이며 최신 상태는 LATEST_RUN/evidence로 확인한다.
+
 ## Desktop checkpoint 2026-10-02: dance6sec
 
 실제 MediaPipe / RTMW3D / MediaPipe2D+MotionBERT를 CPU 비교했다. 3 Blender/GLB와 전체1x 비교 영상은 생성·재임포트 검증됐으나 정확도 gate는 FAIL이다. 상세/재현/실패/최신 후보는 [DANCE_BENCHMARK_R1_KO.md](DANCE_BENCHMARK_R1_KO.md)에 있다. Source/model/video는 Git 제외. native5camera15영상, same-body proxy face/gaze3영상도 완료했다. 실제 R2 A/O face acceptance는 FAIL을 유지한다. GPU PRODUCT_EXCLUSIVE, product/laptop/main은 보존한다.

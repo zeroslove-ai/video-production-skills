@@ -1,0 +1,11 @@
+{
+  "clip": "greeting_wave",
+  "camera": "hand_face",
+  "duration": 5,
+  "currentTime": 5,
+  "ended": true,
+  "playbackRate": 1,
+  "candidate_sha256": "b03096f62cb43267f25cc065e6d61f013f25e0effca478aa2bf3b4d7e060e7a9",
+  "visual": "mild curled-finger wave, no gross hand mesh break seen; finger contact depth and per-joint skin acceptance not independently proven",
+  "face": "neutral; no actual advancedface acceptance"
+}
