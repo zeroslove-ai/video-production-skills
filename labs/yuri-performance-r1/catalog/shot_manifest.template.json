@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "shot_id": "greeting_wave__A01",
+  "status": "TEMPLATE_NOT_RENDERED",
+  "character_count": 1,
+  "character_asset_hash": null,
+  "rig_profile": null,
+  "source_license_review": null,
+  "fps": 24,
+  "duration_seconds": 4,
+  "aspect_ratio": "16:9",
+  "camera_id": "waist_threequarter",
+  "frame_domain": "inclusive_start_exclusive_end",
+  "beats": [
+    {
+      "at": 0,
+      "intent": "notice"
+    },
+    {
+      "at": 0.45,
+      "intent": "anticipate"
+    },
+    {
+      "at": 0.8,
+      "intent": "wave"
+    },
+    {
+      "at": 2.0,
+      "intent": "smile_hold"
+    },
+    {
+      "at": 3.0,
+      "intent": "settle"
+    },
+    {
+      "at": 4.0,
+      "intent": "neutral"
+    }
+  ],
+  "passes": {
+    "beauty": null,
+    "previz_mp4": null,
+    "first_frame": null,
+    "last_frame": null,
+    "depth": null,
+    "pose": null,
+    "mask_id": null,
+    "camera_metadata": "catalog/cameras.json"
+  },
+  "video_provider": {
+    "selected": null,
+    "billing_authorized": false,
+    "job_id": null,
+    "input_manifest_hash": null
+  },
+  "acceptance": {
+    "one_subject": null,
+    "identity": null,
+    "eye_mouth": null,
+    "hands": null,
+    "feet_contact": null,
+    "camera_continuity": null,
+    "loop_or_return": null
+  }
+}

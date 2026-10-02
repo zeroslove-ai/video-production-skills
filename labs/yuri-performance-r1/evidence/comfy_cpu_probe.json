@@ -1,0 +1,127 @@
+{
+  "status": "CPU_CORE_API_PASS",
+  "cpu_only": true,
+  "inference_submissions": 0,
+  "shared_config_changed": false,
+  "endpoint": "http://127.0.0.1:8191",
+  "command": [
+    "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\python_embeded\\python.exe",
+    "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\ComfyUI\\main.py",
+    "--cpu",
+    "--listen",
+    "127.0.0.1",
+    "--port",
+    "8191",
+    "--disable-all-custom-nodes",
+    "--disable-api-nodes",
+    "--disable-auto-launch",
+    "--preview-method",
+    "none",
+    "--user-directory",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\user",
+    "--input-directory",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\input",
+    "--output-directory",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output",
+    "--temp-directory",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\temp"
+  ],
+  "time_utc": "2026-10-02T08:42:55Z",
+  "owned_pid": 84456,
+  "stats": {
+    "system": {
+      "os": "win32",
+      "ram_total": 66095271936,
+      "ram_free": 35262287872,
+      "comfyui_version": "0.34.6",
+      "required_frontend_version": "1.49.6",
+      "installed_templates_version": "0.11.55",
+      "required_templates_version": "0.11.55",
+      "comfy_package_versions": [
+        {
+          "name": "comfyui-frontend-package",
+          "installed": "1.49.6",
+          "required": "1.49.6"
+        },
+        {
+          "name": "comfyui-workflow-templates",
+          "installed": "0.11.55",
+          "required": "0.11.55"
+        },
+        {
+          "name": "comfyui-embedded-docs",
+          "installed": "0.5.10",
+          "required": "0.5.10"
+        },
+        {
+          "name": "comfy-kitchen",
+          "installed": "0.2.31",
+          "required": "0.2.31"
+        },
+        {
+          "name": "comfy-aimdo",
+          "installed": "0.4.15",
+          "required": "0.4.15"
+        }
+      ],
+      "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "pytorch_version": "2.10.0+cu130",
+      "embedded_python": true,
+      "deploy_environment": "local-git",
+      "argv": [
+        "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\ComfyUI\\main.py",
+        "--cpu",
+        "--listen",
+        "127.0.0.1",
+        "--port",
+        "8191",
+        "--disable-all-custom-nodes",
+        "--disable-api-nodes",
+        "--disable-auto-launch",
+        "--preview-method",
+        "none",
+        "--user-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\user",
+        "--input-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\input",
+        "--output-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output",
+        "--temp-directory",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\temp"
+      ]
+    },
+    "devices": [
+      {
+        "name": "cpu",
+        "type": "cpu",
+        "index": null,
+        "vram_total": 66095271936,
+        "vram_free": 35260014592,
+        "torch_vram_total": 66095271936,
+        "torch_vram_free": 35260014592
+      }
+    ]
+  },
+  "queue": {
+    "queue_running": [],
+    "queue_pending": []
+  },
+  "node_count": 639,
+  "relevant_nodes": [
+    "CLIPLoader",
+    "CreateVideo",
+    "DualCLIPLoader",
+    "LTXVAudioVAELoader",
+    "QuadrupleCLIPLoader",
+    "SaveVideo",
+    "TripleCLIPLoader",
+    "UNETLoader",
+    "VAELoader",
+    "Wan22FunControlToVideo",
+    "Wan22ImageToVideoLatent",
+    "WanImageToVideo"
+  ],
+  "gpu_inference": "NOT_RUN_PRODUCT_EXCLUSIVE_LEASE",
+  "custom_nodes": "DISABLED_FOR_ISOLATED_PROBE_NOT_VALIDATED",
+  "owned_probe_process_stopped": true
+}

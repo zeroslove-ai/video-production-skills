@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "--background",
+    "--factory-startup",
+    "--threads",
+    "4",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\build_previs.py",
+    "--",
+    "--render",
+    "--reel"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 8.12,
+  "log": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\build_previs.log",
+  "gpu": "NOT_USED_CPU_ONLY"
+}

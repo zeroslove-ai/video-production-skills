@@ -1,0 +1,28 @@
+{
+  "status": "DRAFTS_ONLY_NOT_SUBMITTED",
+  "verified_mcp_model_on_2026_10_02": "cinematic_studio_3_0",
+  "web_ui_version_is_not_mcp_model_id": true,
+  "paid_submissions": 0,
+  "free_quota_used": 0,
+  "default_duration_seconds": 4,
+  "required_inputs_before_submit": [
+    "approved adult original character start image",
+    "same shot previz as motion reference only where selected model supports video input",
+    "current model schema and credit estimate",
+    "owner generation approval"
+  ],
+  "shots": [
+    {
+      "id": "wave_A01",
+      "prompt": "Exactly one adult original anime-style woman, alone in a quiet cozy room. She notices a friend just beside the camera, makes a small relaxed greeting wave, then lets the hand settle while holding a warm smile. Gentle anticipation, one readable gesture, soft asymmetry, no abrupt pose reset. One continuous waist-up three-quarter shot, hands remain visible. No second performer, mirror duplicate, crowd or background person. Preserve the approved reference character and outfit."
+    },
+    {
+      "id": "shy_A01",
+      "prompt": "Exactly one adult original anime-style woman, alone. She meets the friend's gaze briefly, shows a restrained smile, glances away in embarrassment, holds a short pause, and looks back with a softer smile. Keep the head motion small and eyes coherent. One continuous close-medium shot. Preserve reference identity, natural eyelids and stable mouth. No extra person, abrupt camera move or exaggerated head wobble."
+    },
+    {
+      "id": "please_A01",
+      "prompt": "Exactly one adult original anime-style woman asks her friend a playful gentle favor through acting. A small preparatory pause, a modest head tilt, softly raised inner brows, slight forward attention, a hopeful smile, then a relaxed return. Adult character, affectionate nonsexual tone. One continuous medium shot, no extra hands or additional people. Preserve the same camera axis and reference identity."
+    }
+  ]
+}

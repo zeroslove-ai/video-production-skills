@@ -1,0 +1,124 @@
+{
+  "status": "SEMANTIC_RECIPES_NOT_TARGET_RIG_VALIDATED",
+  "unit": "normalized_intent_not_universal_blendshape_weight",
+  "profiles": {
+    "natural_soft": {
+      "hold_seconds": [
+        0.2,
+        0.5
+      ],
+      "overshoot": "minimal"
+    },
+    "anime_soft": {
+      "hold_seconds": [
+        0.35,
+        0.8
+      ],
+      "overshoot": "controlled_after_mesh_collision_QA"
+    }
+  },
+  "composition_order": [
+    "mood",
+    "acting_envelope",
+    "gaze_eyelid_follow",
+    "blink_override",
+    "speech_viseme_budget",
+    "correctives",
+    "clamp_to_calibrated_limits"
+  ],
+  "conflicts": [
+    "blink overrides eyeWide",
+    "cheekPuff requires calibrated lipSeal; speech reduces cheekPuff",
+    "speech reserves jaw/mouth range; smile must not break lip closure",
+    "eyeLookAt has single writer",
+    "spring bones applied once, not baked and simulated twice"
+  ],
+  "recipes": {
+    "soft_smile": {
+      "smile_l": 0.3,
+      "smile_r": 0.26,
+      "eye_squint_l": 0.08,
+      "eye_squint_r": 0.06
+    },
+    "bright_smile": {
+      "smile_l": 0.65,
+      "smile_r": 0.6,
+      "eye_squint_l": 0.25,
+      "eye_squint_r": 0.22,
+      "jaw_open": 0.08
+    },
+    "shy": {
+      "smile_l": 0.18,
+      "smile_r": 0.12,
+      "brow_inner_up": 0.16,
+      "blush": 0.35
+    },
+    "please": {
+      "brow_inner_up": 0.22,
+      "smile_l": 0.12,
+      "smile_r": 0.12,
+      "lip_pucker": 0.1
+    },
+    "playful_pout": {
+      "lip_pucker": 0.35,
+      "mouth_down_l": 0.18,
+      "mouth_down_r": 0.12,
+      "brow_down_l": 0.15
+    },
+    "cheek_puff": {
+      "cheek_puff_l": 0.65,
+      "cheek_puff_r": 0.65,
+      "lip_press": 0.35
+    },
+    "wink_l": {
+      "blink_l": 1.0,
+      "smile_l": 0.38,
+      "smile_r": 0.32
+    },
+    "wink_r": {
+      "blink_r": 1.0,
+      "smile_l": 0.32,
+      "smile_r": 0.38
+    },
+    "curious": {
+      "brow_up_l": 0.24,
+      "brow_up_r": 0.12,
+      "jaw_open": 0.04
+    },
+    "surprise_small": {
+      "eye_wide_l": 0.25,
+      "eye_wide_r": 0.25,
+      "brow_inner_up": 0.3,
+      "jaw_open": 0.15
+    },
+    "amused": {
+      "smile_l": 0.42,
+      "smile_r": 0.36,
+      "eye_squint_l": 0.18,
+      "eye_squint_r": 0.15,
+      "jaw_open": 0.1
+    },
+    "sleepy": {
+      "blink_l": 0.35,
+      "blink_r": 0.32,
+      "jaw_open": 0.02
+    },
+    "proud": {
+      "smile_l": 0.25,
+      "smile_r": 0.3,
+      "brow_up_r": 0.13
+    },
+    "apologetic": {
+      "brow_inner_up": 0.25,
+      "mouth_down_l": 0.1,
+      "mouth_down_r": 0.1
+    },
+    "reassuring": {
+      "smile_l": 0.22,
+      "smile_r": 0.22,
+      "eye_squint_l": 0.1,
+      "eye_squint_r": 0.1
+    },
+    "neutral": {}
+  }
+}

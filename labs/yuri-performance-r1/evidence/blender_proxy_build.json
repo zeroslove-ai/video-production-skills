@@ -1,0 +1,504 @@
+{
+  "initial": {
+    "blender": "5.2.1 LTS",
+    "initial_objects": 3,
+    "initial_filepath": ""
+  },
+  "result": "PROXY_NATIVE_BUILD_AND_GLB_STRUCTURE_PASS",
+  "bone_count": 17,
+  "morph_count": 6,
+  "cameras": 6,
+  "renderer": "CYCLES_CPU",
+  "file": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\YURI_PERFORMANCE_PROXY_R1.blend",
+  "clips": [
+    {
+      "id": "greeting_wave",
+      "status": "PROXY_EXPORT_STRUCTURE_PASS",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\greeting_wave__proxy.glb",
+      "bytes": 242728,
+      "sha256": "da882ad90c0801dc3ff38c873477d504cb963873a03813bca42ec9309bf9a335",
+      "frames": [
+        1,
+        96
+      ],
+      "sample_fps": 24,
+      "sampled_duration_seconds": 3.9583333333333335,
+      "channels": [
+        "rotation",
+        "scale",
+        "translation",
+        "weights"
+      ],
+      "skeletal_rotation": true,
+      "skin_count": 1,
+      "animation_count": 6,
+      "time_bounds_first": [
+        [
+          [
+            0
+          ],
+          [
+            3.9583333333333335
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            3.9583333333333335
+          ]
+        ]
+      ],
+      "samples": [
+        {
+          "frame": 1,
+          "head_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.0,
+            "blink_r": 0.0,
+            "brow_up_r": 0.0,
+            "smile": 0.0,
+            "jaw_open": 0.0
+          }
+        },
+        {
+          "frame": 49,
+          "head_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.08715,
+            "brow_up_l": 0.0,
+            "blink_r": 0.08715,
+            "brow_up_r": 0.0,
+            "smile": 0.75,
+            "jaw_open": 0.0
+          }
+        },
+        {
+          "frame": 96,
+          "head_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.0,
+            "blink_r": 0.0,
+            "brow_up_r": 0.0,
+            "smile": 0.0,
+            "jaw_open": 0.0
+          }
+        }
+      ],
+      "production_ready": false,
+      "retarget_roundtrip": "NOT_TESTED",
+      "visual_acceptance": "PROXY_ONLY_NOT_FINAL"
+    },
+    {
+      "id": "shy_lookaway",
+      "status": "PROXY_EXPORT_STRUCTURE_PASS",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\shy_lookaway__proxy.glb",
+      "bytes": 242008,
+      "sha256": "4812bcbb005e243fc956695a5bd99e99882b19840fee1334697bd0444194343a",
+      "frames": [
+        97,
+        192
+      ],
+      "sample_fps": 24,
+      "sampled_duration_seconds": 3.9583333333333335,
+      "channels": [
+        "rotation",
+        "scale",
+        "translation",
+        "weights"
+      ],
+      "skeletal_rotation": true,
+      "skin_count": 1,
+      "animation_count": 6,
+      "time_bounds_first": [
+        [
+          [
+            0
+          ],
+          [
+            3.9583333333333335
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            3.9583333333333335
+          ]
+        ]
+      ],
+      "samples": [
+        {
+          "frame": 97,
+          "head_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.0,
+            "blink_r": 0.0,
+            "brow_up_r": 0.0,
+            "smile": 0.0,
+            "jaw_open": 0.0
+          }
+        },
+        {
+          "frame": 145,
+          "head_matrix": [
+            [
+              0.9321035742759705,
+              0.037859369069337845,
+              0.36020785570144653,
+              0.0
+            ],
+            [
+              0.36219197511672974,
+              -0.09743135422468185,
+              -0.9269973635673523,
+              0.0
+            ],
+            [
+              0.0,
+              0.9945219159126282,
+              -0.10452846437692642,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.11114,
+            "blink_r": 0.0,
+            "brow_up_r": 0.0,
+            "smile": 0.33087,
+            "jaw_open": 0.0
+          }
+        },
+        {
+          "frame": 192,
+          "head_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.0,
+            "blink_r": 0.0,
+            "brow_up_r": 0.0,
+            "smile": 0.0,
+            "jaw_open": 0.0
+          }
+        }
+      ],
+      "production_ready": false,
+      "retarget_roundtrip": "NOT_TESTED",
+      "visual_acceptance": "PROXY_ONLY_NOT_FINAL"
+    },
+    {
+      "id": "please_tilt",
+      "status": "PROXY_EXPORT_STRUCTURE_PASS",
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\please_tilt__proxy.glb",
+      "bytes": 243372,
+      "sha256": "17d877a79066d13793c7207372b4b2b58906a9dabdc04f99cb26e08d8ce72187",
+      "frames": [
+        193,
+        288
+      ],
+      "sample_fps": 24,
+      "sampled_duration_seconds": 3.9583333333333335,
+      "channels": [
+        "rotation",
+        "scale",
+        "translation",
+        "weights"
+      ],
+      "skeletal_rotation": true,
+      "skin_count": 1,
+      "animation_count": 6,
+      "time_bounds_first": [
+        [
+          [
+            0
+          ],
+          [
+            3.9583333333333335
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            3.9583333333333335
+          ]
+        ]
+      ],
+      "samples": [
+        {
+          "frame": 193,
+          "head_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.0,
+            "blink_r": 0.0,
+            "brow_up_r": 0.0,
+            "smile": 0.0,
+            "jaw_open": 0.0
+          }
+        },
+        {
+          "frame": 241,
+          "head_matrix": [
+            [
+              0.9858598709106445,
+              0.07695959508419037,
+              -0.14885398745536804,
+              0.0
+            ],
+            [
+              -0.14510953426361084,
+              -0.05218074098229408,
+              -0.9880386590957642,
+              -0.014654073864221573
+            ],
+            [
+              -0.0838063657283783,
+              0.9956677556037903,
+              -0.04027532786130905,
+              1.439616322517395
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.4,
+            "blink_r": 0.0,
+            "brow_up_r": 0.3,
+            "smile": 0.2901,
+            "jaw_open": 0.03395
+          }
+        },
+        {
+          "frame": 288,
+          "head_matrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              1.440000057220459
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "face_values": {
+            "blink_l": 0.0,
+            "brow_up_l": 0.0,
+            "blink_r": 0.0,
+            "brow_up_r": 0.0,
+            "smile": 0.0,
+            "jaw_open": 0.0
+          }
+        }
+      ],
+      "production_ready": false,
+      "retarget_roundtrip": "NOT_TESTED",
+      "visual_acceptance": "PROXY_ONLY_NOT_FINAL"
+    }
+  ],
+  "production_clips_completed": 0,
+  "proxy_seed_clips": 3,
+  "input_assets": "NONE_ORIGINAL_PROCEDURAL_PROXY",
+  "limitations": [
+    "rigid segments, no smooth anatomical deformation",
+    "no independent eyeball gaze",
+    "no fingers or real eyelid/lip/tongue topology",
+    "not actual Yuri and not a production face rig"
+  ],
+  "preview_frames": [
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\greeting_wave__proxy_preview.png",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\shy_lookaway__proxy_preview.png",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\please_tilt__proxy_preview.png"
+  ],
+  "reel_sequence": {
+    "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\output\\greeting_frames",
+    "frames": 48,
+    "output_fps": 12,
+    "clip_id": "greeting_wave",
+    "status": "RENDERED_AWAITING_ENCODING"
+  }
+}
