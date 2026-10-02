@@ -1,0 +1,1356 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zeroslove-ai.github.io/video-production-skills/schemas/shot_manifest.schema.json",
+  "title": "Shot Manifest R1",
+  "description": "Design contract, not evidence of produced assets. Cross-document checks require semantic validation.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.1.0"
+    },
+    "shot_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]*$"
+    },
+    "sequence_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]*$"
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "production_mode": {
+      "type": "string",
+      "enum": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "design_fixture",
+        "draft",
+        "locked"
+      ]
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "beat_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]*$"
+    },
+    "fps": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "numerator": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "denominator": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "numerator",
+        "denominator"
+      ]
+    },
+    "resolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pixel_aspect_x": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "pixel_aspect_y": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "pixel_aspect_x",
+        "pixel_aspect_y"
+      ]
+    },
+    "source_range": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "duration": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "start",
+        "duration"
+      ]
+    },
+    "handles": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "in": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "out": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "in",
+        "out"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "character",
+              "animation_clip",
+              "set",
+              "prop",
+              "audio",
+              "facial_expression_clip"
+            ]
+          },
+          "uri": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "provenance": {
+            "type": "string",
+            "minLength": 1
+          },
+          "intake_status": {
+            "type": "string",
+            "enum": [
+              "placeholder",
+              "verified"
+            ]
+          },
+          "units": {
+            "type": "string",
+            "enum": [
+              "meters",
+              "not_applicable"
+            ]
+          },
+          "root_motion_policy": {
+            "type": "string",
+            "enum": [
+              "locked",
+              "authored",
+              "not_applicable"
+            ]
+          },
+          "binding_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fps": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "numerator": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "denominator": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "numerator",
+              "denominator"
+            ]
+          },
+          "available_range": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "duration": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "start",
+              "duration"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "kind",
+          "uri",
+          "revision",
+          "sha256",
+          "provenance",
+          "intake_status",
+          "units",
+          "root_motion_policy"
+        ]
+      },
+      "minItems": 1
+    },
+    "placements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "instance_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "position_m": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "rotation_deg_xyz": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "asset_id",
+          "instance_id",
+          "position_m",
+          "rotation_deg_xyz"
+        ]
+      },
+      "minItems": 1
+    },
+    "animations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "entity_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "clip_asset_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "binding_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "clip_range": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "duration": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "start",
+              "duration"
+            ]
+          },
+          "root_motion_policy": {
+            "type": "string",
+            "enum": [
+              "locked",
+              "authored"
+            ]
+          },
+          "facial_clip_asset_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          }
+        },
+        "required": [
+          "entity_id",
+          "clip_asset_id",
+          "binding_id",
+          "clip_range",
+          "root_motion_policy"
+        ]
+      },
+      "minItems": 0
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preset_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+        },
+        "preset_revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "overrides": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "lens_mm": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "subject_id": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]*$"
+            },
+            "gaze_target_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "screen_side": {
+              "type": "string",
+              "enum": [
+                "left",
+                "center",
+                "right"
+              ]
+            },
+            "eye_target_xy": {
+              "type": "array",
+              "items": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "motion": {
+              "type": "string",
+              "enum": [
+                "LOCKED",
+                "PUSH_IN",
+                "PAN_REVEAL",
+                "TRACK_LATERAL",
+                "ORBIT_REVEAL",
+                "CRANE_SETTLE"
+              ]
+            },
+            "axis_camera_side": {
+              "type": "string",
+              "enum": [
+                "negative",
+                "positive",
+                "on_axis",
+                "not_applicable"
+              ]
+            },
+            "motion_override": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "travel_m": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "azimuth_deg": {
+                  "type": "number"
+                },
+                "distance_fraction": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              },
+              "required": []
+            }
+          },
+          "required": [
+            "subject_id",
+            "gaze_target_id",
+            "screen_side",
+            "axis_camera_side"
+          ]
+        }
+      },
+      "required": [
+        "preset_id",
+        "preset_revision",
+        "overrides"
+      ]
+    },
+    "lighting": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preset_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+        },
+        "preset_revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "overrides": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "exposure_ev": {
+              "type": "number"
+            },
+            "eye_highlight_policy": {
+              "type": "string",
+              "enum": [
+                "preserve_asset",
+                "motivated_light",
+                "review_required"
+              ]
+            }
+          },
+          "required": []
+        }
+      },
+      "required": [
+        "preset_id",
+        "preset_revision",
+        "overrides"
+      ]
+    },
+    "reference_packs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "pack_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "panel_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]*$"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "pack_id",
+          "revision",
+          "panel_ids"
+        ]
+      },
+      "minItems": 1
+    },
+    "continuity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "axis_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gaze": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prop_states": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "incoming_pose_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "outgoing_pose_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "exceptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "axis_id",
+        "gaze",
+        "prop_states",
+        "incoming_pose_note",
+        "outgoing_pose_note",
+        "exceptions"
+      ]
+    },
+    "board": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "grease_pencil_layers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "panel_source_frames": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "grease_pencil_layers",
+        "panel_source_frames",
+        "notes"
+      ]
+    },
+    "export_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "const": "1.0.0"
+        },
+        "output_root": {
+          "type": "string",
+          "minLength": 1
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "beauty",
+              "clay",
+              "depth",
+              "mask",
+              "pose",
+              "first_frame",
+              "last_frame",
+              "camera_metadata",
+              "previz",
+              "preview",
+              "normal",
+              "edge",
+              "silhouette",
+              "shot_manifest"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "pose_joint_map_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "depth_near_m": {
+          "type": "number",
+          "minimum": 0
+        },
+        "depth_far_m": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "background_policy": {
+          "type": "string",
+          "enum": [
+            "opaque",
+            "transparent"
+          ]
+        },
+        "color_working_space": {
+          "type": "string",
+          "enum": [
+            "Linear Rec.709"
+          ]
+        },
+        "display": {
+          "type": "string",
+          "enum": [
+            "sRGB"
+          ]
+        },
+        "view_transform": {
+          "type": "string",
+          "enum": [
+            "Standard",
+            "AgX"
+          ]
+        },
+        "control_blur": {
+          "const": false
+        }
+      },
+      "required": [
+        "version",
+        "output_root",
+        "products",
+        "pose_joint_map_id",
+        "depth_near_m",
+        "depth_far_m",
+        "background_policy",
+        "color_working_space",
+        "display",
+        "view_transform",
+        "control_blur"
+      ]
+    },
+    "art_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "approved",
+            "rejected"
+          ]
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "reviewer",
+        "decision"
+      ]
+    },
+    "extensions": {
+      "type": "object"
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "framing",
+        "subject_position",
+        "headroom_fraction",
+        "eyeline",
+        "depth_structure"
+      ],
+      "properties": {
+        "framing": {
+          "type": "string",
+          "enum": [
+            "EWS",
+            "WS",
+            "MS",
+            "MCU",
+            "CU",
+            "ECU",
+            "INSERT"
+          ]
+        },
+        "subject_position": {
+          "type": "string"
+        },
+        "headroom_fraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "eyeline": {
+          "type": "string"
+        },
+        "depth_structure": {
+          "type": "string"
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "beauty": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "clay": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "depth": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "mask": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "pose": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "first_frame": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "last_frame": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "camera_metadata": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "previz": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "preview": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "normal": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "edge": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "silhouette": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        },
+        "shot_manifest": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "uri",
+            "status"
+          ],
+          "properties": {
+            "uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "enum": [
+                "planned",
+                "produced",
+                "unavailable"
+              ]
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "produced"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "sha256"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "shot_id",
+    "sequence_id",
+    "revision",
+    "production_mode",
+    "status",
+    "purpose",
+    "beat_id",
+    "fps",
+    "resolution",
+    "source_range",
+    "handles",
+    "assets",
+    "placements",
+    "animations",
+    "camera",
+    "lighting",
+    "reference_packs",
+    "continuity",
+    "board",
+    "export_contract",
+    "art_review",
+    "composition"
+  ]
+}

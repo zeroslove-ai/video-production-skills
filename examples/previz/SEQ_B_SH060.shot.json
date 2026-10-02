@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.1.0",
+  "shot_id": "SEQ_B_SH060",
+  "sequence_id": "SEQ_B",
+  "revision": "R1",
+  "production_mode": "WEB_DRAMA",
+  "status": "design_fixture",
+  "purpose": "ots_a",
+  "beat_id": "SEQ_B_BEAT06",
+  "fps": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "resolution": {
+    "width": 1280,
+    "height": 720,
+    "pixel_aspect_x": 1,
+    "pixel_aspect_y": 1
+  },
+  "source_range": {
+    "start": 313,
+    "duration": 72
+  },
+  "handles": {
+    "in": 0,
+    "out": 0
+  },
+  "assets": [
+    {
+      "asset_id": "CHAR_A",
+      "kind": "character",
+      "uri": "inputs/CHAR_A.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE"
+    },
+    {
+      "asset_id": "CHAR_B",
+      "kind": "character",
+      "uri": "inputs/CHAR_B.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "B_COMPATIBLE"
+    },
+    {
+      "asset_id": "BODY_A_DIALOGUE",
+      "kind": "animation_clip",
+      "uri": "inputs/BODY_A_DIALOGUE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 720
+      }
+    },
+    {
+      "asset_id": "BODY_B_DIALOGUE",
+      "kind": "animation_clip",
+      "uri": "inputs/BODY_B_DIALOGUE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "B_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 720
+      }
+    },
+    {
+      "asset_id": "SET_CAFE",
+      "kind": "set",
+      "uri": "inputs/SET_CAFE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "PROP_NOTE",
+      "kind": "prop",
+      "uri": "inputs/PROP_NOTE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "FACE_A_DIALOGUE",
+      "kind": "facial_expression_clip",
+      "uri": "inputs/FACE_A_DIALOGUE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 720
+      }
+    },
+    {
+      "asset_id": "FACE_B_DIALOGUE",
+      "kind": "facial_expression_clip",
+      "uri": "inputs/FACE_B_DIALOGUE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "B_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 720
+      }
+    }
+  ],
+  "placements": [
+    {
+      "asset_id": "CHAR_A",
+      "instance_id": "CHAR_A",
+      "position_m": [
+        -1,
+        0,
+        0
+      ],
+      "rotation_deg_xyz": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset_id": "CHAR_B",
+      "instance_id": "CHAR_B",
+      "position_m": [
+        1,
+        0,
+        0
+      ],
+      "rotation_deg_xyz": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset_id": "SET_CAFE",
+      "instance_id": "SET_CAFE",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg_xyz": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "asset_id": "PROP_NOTE",
+      "instance_id": "PROP_NOTE",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "rotation_deg_xyz": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "entity_id": "CHAR_A",
+      "clip_asset_id": "BODY_A_DIALOGUE",
+      "facial_clip_asset_id": "FACE_A_DIALOGUE",
+      "binding_id": "A_COMPATIBLE",
+      "clip_range": {
+        "start": 313,
+        "duration": 72
+      },
+      "root_motion_policy": "locked"
+    },
+    {
+      "entity_id": "CHAR_B",
+      "clip_asset_id": "BODY_B_DIALOGUE",
+      "facial_clip_asset_id": "FACE_B_DIALOGUE",
+      "binding_id": "B_COMPATIBLE",
+      "clip_range": {
+        "start": 313,
+        "duration": 72
+      },
+      "root_motion_policy": "locked"
+    }
+  ],
+  "camera": {
+    "preset_id": "dialogue_ots_right",
+    "preset_revision": "1.1.0",
+    "overrides": {
+      "subject_id": "CHAR_A",
+      "gaze_target_id": "CHAR_B",
+      "screen_side": "left",
+      "axis_camera_side": "negative",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ]
+    }
+  },
+  "lighting": {
+    "preset_id": "warm_window_evening",
+    "preset_revision": "1.1.0",
+    "overrides": {
+      "eye_highlight_policy": "preserve_asset"
+    }
+  },
+  "reference_packs": [
+    {
+      "pack_id": "REF_SEQ_B_R1",
+      "revision": "PLACEHOLDER_R1",
+      "panel_ids": [
+        "SEQ_B_CAMERA",
+        "SEQ_B_LOOK"
+      ]
+    }
+  ],
+  "continuity": {
+    "axis_id": "CAFE_A_TO_B",
+    "gaze": "CHAR_B",
+    "prop_states": {
+      "PROP_NOTE": "CLOSED"
+    },
+    "incoming_pose_note": "Sample supplied compatible clip at clip_range.start; no performance synthesis.",
+    "outgoing_pose_note": "Sample supplied clip last included frame; review cut continuity.",
+    "exceptions": []
+  },
+  "board": {
+    "grease_pencil_layers": [
+      "layout",
+      "action_arrows",
+      "camera_notes",
+      "dialogue",
+      "review"
+    ],
+    "panel_source_frames": [
+      313,
+      349,
+      384
+    ],
+    "notes": "Automatic supplied-pose/proxy camera frame with generated GP annotations; hand drawing optional."
+  },
+  "export_contract": {
+    "version": "1.0.0",
+    "output_root": "exports/SEQ_B_SH060/R1",
+    "products": [
+      "previz",
+      "beauty",
+      "clay",
+      "depth",
+      "mask",
+      "pose",
+      "first_frame",
+      "last_frame",
+      "camera_metadata"
+    ],
+    "pose_joint_map_id": "UPSTREAM_JOINT_MAP_PENDING",
+    "depth_near_m": 0.1,
+    "depth_far_m": 50,
+    "background_policy": "opaque",
+    "color_working_space": "Linear Rec.709",
+    "display": "sRGB",
+    "view_transform": "Standard",
+    "control_blur": false
+  },
+  "art_review": {
+    "status": "draft",
+    "reviewer": "PM_AND_ART_REVIEW_PENDING",
+    "decision": "Design fixture; assets and look not approved."
+  },
+  "composition": {
+    "framing": "MCU",
+    "subject_position": "left_third",
+    "headroom_fraction": 0.08,
+    "eyeline": "CHAR_B",
+    "depth_structure": "Quiet foreground / acting face or prop midground / motivated set background"
+  },
+  "outputs": {
+    "previz": {
+      "uri": "exports/SEQ_B_SH060/R1/previz.mp4",
+      "status": "planned"
+    },
+    "beauty": {
+      "uri": "exports/SEQ_B_SH060/R1/beauty.mp4",
+      "status": "planned"
+    },
+    "clay": {
+      "uri": "exports/SEQ_B_SH060/R1/clay.mp4",
+      "status": "planned"
+    },
+    "depth": {
+      "uri": "exports/SEQ_B_SH060/R1/depth.mp4",
+      "status": "planned"
+    },
+    "mask": {
+      "uri": "exports/SEQ_B_SH060/R1/mask.mp4",
+      "status": "planned"
+    },
+    "pose": {
+      "uri": "exports/SEQ_B_SH060/R1/pose.mp4",
+      "status": "planned"
+    },
+    "first_frame": {
+      "uri": "exports/SEQ_B_SH060/R1/first_frame.png",
+      "status": "planned"
+    },
+    "last_frame": {
+      "uri": "exports/SEQ_B_SH060/R1/last_frame.png",
+      "status": "planned"
+    },
+    "camera_metadata": {
+      "uri": "exports/SEQ_B_SH060/R1/camera.json",
+      "status": "planned"
+    }
+  }
+}

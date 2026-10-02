@@ -1,0 +1,2961 @@
+{
+  "version": "1.1.0",
+  "status": "proposed_not_render_validated",
+  "coordinate_convention": "normalized_raster_x_right_y_down; meters; Blender Z up",
+  "override_policy": "shot overrides merged over preset; resolved settings saved with source revision; artistic exceptions require review",
+  "presets": [
+    {
+      "preset_id": "EWS24_LOCKED",
+      "shot_size": "EWS",
+      "projection": "PERSP",
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "geography",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        21.6,
+        26.4
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "WS35_LOCKED",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        31.5,
+        38.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "MS50_LOCKED",
+      "shot_size": "MS",
+      "projection": "PERSP",
+      "lens_mm": 50,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        45.0,
+        55.0
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "MCU65_LOCKED",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 65,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        58.5,
+        71.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "CU85_LOCKED",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 85,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "eye_line",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        76.5,
+        93.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "ECU100_LOCKED",
+      "shot_size": "ECU",
+      "projection": "PERSP",
+      "lens_mm": 100,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "detail",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        90.0,
+        110.0
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "OTS65_LOCKED",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 65,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "over_shoulder",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        58.5,
+        71.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "INSERT85_LOCKED",
+      "shot_size": "INSERT",
+      "projection": "PERSP",
+      "lens_mm": 85,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "detail",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        76.5,
+        93.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "MCU65_PUSH",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 65,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "PUSH_IN",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0.1,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        58.5,
+        71.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "PUSH_IN",
+      "movement_speed": {
+        "translation_m_per_sec": 0.03,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "WS35_TRACK",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "TRACK_LATERAL",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          1,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        31.5,
+        38.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "TRACK_LATERAL",
+      "movement_speed": {
+        "translation_m_per_sec": 0.25,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "MS50_ORBIT",
+      "shot_size": "MS",
+      "projection": "PERSP",
+      "lens_mm": 50,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "center",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "ORBIT_REVEAL",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 20,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        45.0,
+        55.0
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "ORBIT_REVEAL",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "WS35_PAN",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "geography",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "PAN_REVEAL",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 20,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        31.5,
+        38.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "PAN_REVEAL",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 5
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "WS35_CRANE",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "CRANE_SETTLE",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0.5
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        31.5,
+        38.5
+      ],
+      "revision": "1.1.0",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "CRANE_SETTLE",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "neutral"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ]
+    },
+    {
+      "preset_id": "cute_closeup_soft",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 75,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "eye_line",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        65,
+        85
+      ],
+      "base_preset_id": "CU85_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0.03
+      },
+      "camera_pitch": 2,
+      "camera_yaw": 10,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.04,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "cute"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "cute_medium_candid",
+      "shot_size": "MS",
+      "projection": "PERSP",
+      "lens_mm": 50,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "TRACK_LATERAL",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          1,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        45,
+        60
+      ],
+      "base_preset_id": "MS50_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0.03
+      },
+      "camera_pitch": 2,
+      "camera_yaw": 20,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "TRACK_LATERAL",
+      "movement_speed": {
+        "translation_m_per_sec": 0.08,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "playful",
+        "sleepy"
+      ],
+      "recommended_lighting": "window_morning",
+      "recommended_duration_seconds": [
+        1.5,
+        3
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "shy_side_profile",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 75,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.67,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        65,
+        85
+      ],
+      "base_preset_id": "MCU65_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 45,
+      "subject_position": "right_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "shy",
+        "mysterious"
+      ],
+      "recommended_lighting": "melancholy_side_light",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "shy_lookaway",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 70,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.67,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        60,
+        80
+      ],
+      "base_preset_id": "MCU65_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0.05
+      },
+      "camera_pitch": 3,
+      "camera_yaw": 25,
+      "subject_position": "right_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "shy"
+      ],
+      "recommended_lighting": "warm_window_evening",
+      "recommended_duration_seconds": [
+        2,
+        3.5
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "romantic_push_in",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 75,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.67,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "PUSH_IN",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0.1,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        65,
+        85
+      ],
+      "base_preset_id": "CU85_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 10,
+      "subject_position": "right_third",
+      "headroom": {
+        "fraction": 0.05,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "PUSH_IN",
+      "movement_speed": {
+        "translation_m_per_sec": 0.03,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "romantic"
+      ],
+      "recommended_lighting": "warm_window_evening",
+      "recommended_duration_seconds": [
+        3,
+        5
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "romantic_eye_contact",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 80,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "eye_line",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        70,
+        90
+      ],
+      "base_preset_id": "CU85_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 5,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.04,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "romantic",
+        "lovely"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        3
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "room_candid_35",
+      "shot_size": "MS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        32,
+        40
+      ],
+      "base_preset_id": "MS50_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 20,
+      "subject_position": "left_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "comfortable"
+      ],
+      "recommended_lighting": "cozy_room",
+      "recommended_duration_seconds": [
+        3,
+        5
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "room_wide_environment",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        24,
+        35
+      ],
+      "base_preset_id": "WS35_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0.05
+      },
+      "camera_pitch": 2,
+      "camera_yaw": 20,
+      "subject_position": "left_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "comfortable",
+        "lonely"
+      ],
+      "recommended_lighting": "window_morning",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "dialogue_master",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        32,
+        40
+      ],
+      "base_preset_id": "WS35_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "comfortable",
+        "dramatic"
+      ],
+      "recommended_lighting": "cozy_room",
+      "recommended_duration_seconds": [
+        3,
+        6
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "dialogue_ots_left",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 65,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "over_shoulder",
+      "eye_target_xy": [
+        0.67,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        55,
+        75
+      ],
+      "base_preset_id": "OTS65_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 20,
+      "subject_position": "right_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "romantic",
+        "dramatic"
+      ],
+      "recommended_lighting": "warm_window_evening",
+      "recommended_duration_seconds": [
+        2,
+        5
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "dialogue_ots_right",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 65,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "over_shoulder",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        55,
+        75
+      ],
+      "base_preset_id": "OTS65_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": -20,
+      "subject_position": "left_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "romantic",
+        "dramatic"
+      ],
+      "recommended_lighting": "warm_window_evening",
+      "recommended_duration_seconds": [
+        2,
+        5
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "reaction_closeup",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 80,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "eye_line",
+      "eye_target_xy": [
+        0.67,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        70,
+        90
+      ],
+      "base_preset_id": "CU85_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 15,
+      "subject_position": "right_third",
+      "headroom": {
+        "fraction": 0.04,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "lovely",
+        "angry"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "reaction_medium",
+      "shot_size": "MCU",
+      "projection": "PERSP",
+      "lens_mm": 60,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        50,
+        70
+      ],
+      "base_preset_id": "MCU65_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 10,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "surprised",
+        "playful"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        1,
+        2.5
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "sad_negative_space",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        35,
+        50
+      ],
+      "base_preset_id": "WS35_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0.05
+      },
+      "camera_pitch": 2,
+      "camera_yaw": 20,
+      "subject_position": "left_20_percent",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "lonely"
+      ],
+      "recommended_lighting": "night_blue",
+      "recommended_duration_seconds": [
+        4,
+        6
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "sad_profile_closeup",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 75,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "eye_line",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        65,
+        90
+      ],
+      "base_preset_id": "CU85_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 60,
+      "subject_position": "left_third",
+      "headroom": {
+        "fraction": 0.04,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "melancholy"
+      ],
+      "recommended_lighting": "melancholy_side_light",
+      "recommended_duration_seconds": [
+        3,
+        5
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "hero_reveal_low",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "CRANE_SETTLE",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0.5
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        28,
+        40
+      ],
+      "base_preset_id": "WS35_CRANE",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": -0.25
+      },
+      "camera_pitch": -8,
+      "camera_yaw": 15,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "CRANE_SETTLE",
+      "movement_speed": {
+        "translation_m_per_sec": 0.15,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "heroic"
+      ],
+      "recommended_lighting": "hero_rim",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "hero_medium",
+      "shot_size": "MS",
+      "projection": "PERSP",
+      "lens_mm": 50,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "thirds",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        40,
+        60
+      ],
+      "base_preset_id": "MS50_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": -0.1
+      },
+      "camera_pitch": -3,
+      "camera_yaw": 10,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "heroic",
+        "confident"
+      ],
+      "recommended_lighting": "hero_rim",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "hero_closeup",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 75,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "eye_line",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "PUSH_IN",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0.1,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        65,
+        85
+      ],
+      "base_preset_id": "CU85_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": -0.08
+      },
+      "camera_pitch": -3,
+      "camera_yaw": 20,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.04,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "PUSH_IN",
+      "movement_speed": {
+        "translation_m_per_sec": 0.04,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "heroic",
+        "dramatic"
+      ],
+      "recommended_lighting": "hero_rim",
+      "recommended_duration_seconds": [
+        2,
+        3
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "action_wide_dynamic",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "PAN_REVEAL",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 20,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        24,
+        35
+      ],
+      "base_preset_id": "WS35_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": -0.1
+      },
+      "camera_pitch": -3,
+      "camera_yaw": 20,
+      "subject_position": "left_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "PAN_REVEAL",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 5
+      },
+      "intended_emotion": [
+        "action"
+      ],
+      "recommended_lighting": "hero_rim",
+      "recommended_duration_seconds": [
+        1,
+        3
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "action_tracking",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.33,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "TRACK_LATERAL",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          1,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        28,
+        40
+      ],
+      "base_preset_id": "WS35_TRACK",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": -0.1
+      },
+      "camera_pitch": -3,
+      "camera_yaw": 20,
+      "subject_position": "left_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "TRACK_LATERAL",
+      "movement_speed": {
+        "translation_m_per_sec": 0.4,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "action"
+      ],
+      "recommended_lighting": "hero_rim",
+      "recommended_duration_seconds": [
+        1,
+        3
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "environment_establishing",
+      "shot_size": "EWS",
+      "projection": "PERSP",
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "geography",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        20,
+        28
+      ],
+      "base_preset_id": "EWS24_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0.1
+      },
+      "camera_pitch": 4,
+      "camera_yaw": 0,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "mysterious",
+        "heroic"
+      ],
+      "recommended_lighting": "dramatic_backlight",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "character_entrance",
+      "shot_size": "WS",
+      "projection": "PERSP",
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "full_body",
+      "eye_target_xy": [
+        0.67,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": false,
+      "motion": {
+        "type": "TRACK_LATERAL",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          1,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": true,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": false,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        35,
+        50
+      ],
+      "base_preset_id": "WS35_TRACK",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": -0.1
+      },
+      "camera_pitch": -3,
+      "camera_yaw": 10,
+      "subject_position": "right_third",
+      "headroom": {
+        "fraction": 0.08,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": false,
+        "fstop": 5.6,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "TRACK_LATERAL",
+      "movement_speed": {
+        "translation_m_per_sec": 0.25,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "confident"
+      ],
+      "recommended_lighting": "hero_rim",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    },
+    {
+      "preset_id": "ending_hold",
+      "shot_size": "CU",
+      "projection": "PERSP",
+      "lens_mm": 75,
+      "sensor_width_mm": 36,
+      "sensor_fit": "HORIZONTAL",
+      "composition": "eye_line",
+      "eye_target_xy": [
+        0.5,
+        0.35
+      ],
+      "headroom_fraction_range": [
+        0.05,
+        0.1
+      ],
+      "intentional_crop_requires_review": true,
+      "motion": {
+        "type": "LOCKED",
+        "interpolation": "ease_in_out",
+        "distance_fraction_max": 0,
+        "azimuth_deg_max": 0,
+        "default_travel_m": [
+          0,
+          0,
+          0
+        ],
+        "requires_collision_and_axis_check": false,
+        "translation_speed_m_per_sec_max": 0.5,
+        "angular_speed_deg_per_sec_max": 10
+      },
+      "dof_enabled": true,
+      "caption_safe_y_min": 0.82,
+      "allowed_modes": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ],
+      "fit_policy": "project_landmarks_then_solve_distance",
+      "review_rules": [
+        "face_identity",
+        "occlusion",
+        "axis",
+        "aspect_reframe"
+      ],
+      "allowed_lens_mm_range": [
+        65,
+        85
+      ],
+      "base_preset_id": "CU85_LOCKED",
+      "camera_height": {
+        "anchor": "evaluated_eye_center",
+        "offset_m": 0
+      },
+      "camera_pitch": 0,
+      "camera_yaw": 5,
+      "subject_position": "center",
+      "headroom": {
+        "fraction": 0.04,
+        "intentional_crop": "review"
+      },
+      "DOF": {
+        "enabled": true,
+        "fstop": 4,
+        "focus_target": "evaluated_eye_center",
+        "control_outputs_enabled": false
+      },
+      "movement": "LOCKED",
+      "movement_speed": {
+        "translation_m_per_sec": 0,
+        "angular_deg_per_sec": 0
+      },
+      "intended_emotion": [
+        "lovely",
+        "comfortable"
+      ],
+      "recommended_lighting": "soft_beauty_key",
+      "recommended_duration_seconds": [
+        2,
+        4
+      ],
+      "revision": "1.1.0"
+    }
+  ],
+  "angle_convention": "height eye-relative meters; camera_pitch positive down; camera_yaw azimuth relative subject forward; solve orientation via targets, not raw Euler copy"
+}

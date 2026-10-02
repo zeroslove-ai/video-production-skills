@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.1.0",
+  "sequence_id": "SEQ_C",
+  "revision": "R1",
+  "production_mode": "GAME_CUTSCENE",
+  "status": "design_fixture",
+  "logline": "캐릭터가 공간에 등장하고 경고를 듣고 행동한 뒤 hero shot에서 gameplay camera로 돌아간다.",
+  "fps": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "resolution": {
+    "width": 1280,
+    "height": 720,
+    "pixel_aspect_x": 1,
+    "pixel_aspect_y": 1
+  },
+  "duration_frames": 432,
+  "timeline_origin": 0,
+  "assets": [
+    {
+      "asset_id": "CHAR_A",
+      "kind": "character",
+      "uri": "inputs/CHAR_A.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "authored",
+      "binding_id": "A_COMPATIBLE"
+    },
+    {
+      "asset_id": "BODY_A_GAME",
+      "kind": "animation_clip",
+      "uri": "inputs/BODY_A_GAME.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "authored",
+      "binding_id": "A_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 432
+      }
+    },
+    {
+      "asset_id": "SET_GATE",
+      "kind": "set",
+      "uri": "inputs/SET_GATE.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "PROP_BEACON",
+      "kind": "prop",
+      "uri": "inputs/PROP_BEACON.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "not_applicable"
+    },
+    {
+      "asset_id": "FACE_A_GAME",
+      "kind": "facial_expression_clip",
+      "uri": "inputs/FACE_A_GAME.blend",
+      "revision": "PLACEHOLDER_R1",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "provenance": "Synthetic design fixture. No media downloaded or produced. Upstream owner must supply actual revision/hash.",
+      "intake_status": "placeholder",
+      "units": "meters",
+      "root_motion_policy": "locked",
+      "binding_id": "A_COMPATIBLE",
+      "fps": {
+        "numerator": 24,
+        "denominator": 1
+      },
+      "available_range": {
+        "start": 1,
+        "duration": 432
+      }
+    }
+  ],
+  "reference_packs": [
+    {
+      "pack_id": "REF_SEQ_C_R1",
+      "revision": "PLACEHOLDER_R1",
+      "panel_ids": [
+        "SEQ_C_CAMERA",
+        "SEQ_C_LOOK"
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "SEQ_C_SH010",
+      "manifest_uri": "SEQ_C_SH010.shot.json",
+      "revision": "R1",
+      "timeline_start": 0,
+      "source_range": {
+        "start": 1,
+        "duration": 48
+      }
+    },
+    {
+      "shot_id": "SEQ_C_SH020",
+      "manifest_uri": "SEQ_C_SH020.shot.json",
+      "revision": "R1",
+      "timeline_start": 48,
+      "source_range": {
+        "start": 49,
+        "duration": 60
+      }
+    },
+    {
+      "shot_id": "SEQ_C_SH030",
+      "manifest_uri": "SEQ_C_SH030.shot.json",
+      "revision": "R1",
+      "timeline_start": 108,
+      "source_range": {
+        "start": 109,
+        "duration": 48
+      }
+    },
+    {
+      "shot_id": "SEQ_C_SH040",
+      "manifest_uri": "SEQ_C_SH040.shot.json",
+      "revision": "R1",
+      "timeline_start": 156,
+      "source_range": {
+        "start": 157,
+        "duration": 48
+      }
+    },
+    {
+      "shot_id": "SEQ_C_SH050",
+      "manifest_uri": "SEQ_C_SH050.shot.json",
+      "revision": "R1",
+      "timeline_start": 204,
+      "source_range": {
+        "start": 205,
+        "duration": 48
+      }
+    },
+    {
+      "shot_id": "SEQ_C_SH060",
+      "manifest_uri": "SEQ_C_SH060.shot.json",
+      "revision": "R1",
+      "timeline_start": 252,
+      "source_range": {
+        "start": 253,
+        "duration": 72
+      }
+    },
+    {
+      "shot_id": "SEQ_C_SH070",
+      "manifest_uri": "SEQ_C_SH070.shot.json",
+      "revision": "R1",
+      "timeline_start": 324,
+      "source_range": {
+        "start": 325,
+        "duration": 48
+      }
+    },
+    {
+      "shot_id": "SEQ_C_SH080",
+      "manifest_uri": "SEQ_C_SH080.shot.json",
+      "revision": "R1",
+      "timeline_start": 372,
+      "source_range": {
+        "start": 373,
+        "duration": 60
+      }
+    }
+  ],
+  "gaps": [],
+  "audio_tracks": [],
+  "editorial": {
+    "picture_track": "V1",
+    "transition_policy": "cuts_only",
+    "unsupported_policy": "report_or_bake",
+    "otio_target_uri": "editorial/SEQ_C.otio"
+  },
+  "handoff": {
+    "coordinate_system": "Blender_Z_up_camera_minus_Z_forward_plus_Y_up",
+    "units": "meters",
+    "gameplay_return_anchor_id": "GAMEPLAY_RETURN_PENDING",
+    "event_markers": [
+      {
+        "event_id": "GAMEPLAY_RETURN",
+        "timeline_frame": 431,
+        "description": "Engine anchor/camera samples pending; last included frame."
+      }
+    ]
+  },
+  "art_review": {
+    "status": "draft",
+    "reviewer": "PM_AND_ART_REVIEW_PENDING",
+    "decision": "Design fixture; assets and look not approved."
+  },
+  "duration_target_frames": 432
+}

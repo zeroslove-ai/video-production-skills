@@ -1,0 +1,556 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zeroslove-ai.github.io/video-production-skills/schemas/sequence_manifest.schema.json",
+  "title": "Sequence Manifest R1",
+  "description": "One V1 picture track, straight cuts and explicit gaps, independent audio tracks. Integer frames at rational fps.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.1.0"
+    },
+    "sequence_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_]*$"
+    },
+    "revision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "production_mode": {
+      "type": "string",
+      "enum": [
+        "CHARACTER_SHORT",
+        "WEB_DRAMA",
+        "GAME_CUTSCENE"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "design_fixture",
+        "draft",
+        "locked"
+      ]
+    },
+    "logline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "fps": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "numerator": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "denominator": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "numerator",
+        "denominator"
+      ]
+    },
+    "resolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pixel_aspect_x": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "pixel_aspect_y": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "width",
+        "height",
+        "pixel_aspect_x",
+        "pixel_aspect_y"
+      ]
+    },
+    "duration_frames": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "timeline_origin": {
+      "const": 0
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "character",
+              "animation_clip",
+              "set",
+              "prop",
+              "audio",
+              "facial_expression_clip"
+            ]
+          },
+          "uri": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "provenance": {
+            "type": "string",
+            "minLength": 1
+          },
+          "intake_status": {
+            "type": "string",
+            "enum": [
+              "placeholder",
+              "verified"
+            ]
+          },
+          "units": {
+            "type": "string",
+            "enum": [
+              "meters",
+              "not_applicable"
+            ]
+          },
+          "root_motion_policy": {
+            "type": "string",
+            "enum": [
+              "locked",
+              "authored",
+              "not_applicable"
+            ]
+          },
+          "binding_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fps": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "numerator": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "denominator": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "numerator",
+              "denominator"
+            ]
+          },
+          "available_range": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "duration": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "start",
+              "duration"
+            ]
+          }
+        },
+        "required": [
+          "asset_id",
+          "kind",
+          "uri",
+          "revision",
+          "sha256",
+          "provenance",
+          "intake_status",
+          "units",
+          "root_motion_policy"
+        ]
+      },
+      "minItems": 1
+    },
+    "reference_packs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "pack_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "panel_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]*$"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "pack_id",
+          "revision",
+          "panel_ids"
+        ]
+      },
+      "minItems": 1
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "shot_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "manifest_uri": {
+            "type": "string",
+            "minLength": 1
+          },
+          "revision": {
+            "type": "string",
+            "minLength": 1
+          },
+          "timeline_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_range": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "start": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "duration": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "required": [
+              "start",
+              "duration"
+            ]
+          }
+        },
+        "required": [
+          "shot_id",
+          "manifest_uri",
+          "revision",
+          "timeline_start",
+          "source_range"
+        ]
+      },
+      "minItems": 1
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "timeline_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "duration": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "timeline_start",
+          "duration",
+          "reason"
+        ]
+      },
+      "minItems": 0
+    },
+    "audio_tracks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "track_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]*$"
+          },
+          "clips": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "clip_id": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_]*$"
+                },
+                "asset_id": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_]*$"
+                },
+                "timeline_start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "source_range": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "duration": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "duration"
+                  ]
+                },
+                "gain_db": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "clip_id",
+                "asset_id",
+                "timeline_start",
+                "source_range",
+                "gain_db"
+              ]
+            },
+            "minItems": 1
+          },
+          "role": {
+            "enum": [
+              "dialogue",
+              "ambience",
+              "music"
+            ]
+          }
+        },
+        "required": [
+          "track_id",
+          "clips",
+          "role"
+        ]
+      },
+      "minItems": 0
+    },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "picture_track": {
+          "const": "V1"
+        },
+        "transition_policy": {
+          "const": "cuts_only"
+        },
+        "unsupported_policy": {
+          "const": "report_or_bake"
+        },
+        "otio_target_uri": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "picture_track",
+        "transition_policy",
+        "unsupported_policy",
+        "otio_target_uri"
+      ]
+    },
+    "handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "coordinate_system": {
+          "const": "Blender_Z_up_camera_minus_Z_forward_plus_Y_up"
+        },
+        "units": {
+          "const": "meters"
+        },
+        "gameplay_return_anchor_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_markers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "event_id": {
+                "type": "string",
+                "pattern": "^[A-Z][A-Z0-9_]*$"
+              },
+              "timeline_frame": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "description": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "event_id",
+              "timeline_frame",
+              "description"
+            ]
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "coordinate_system",
+        "units",
+        "gameplay_return_anchor_id",
+        "event_markers"
+      ]
+    },
+    "art_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "approved",
+            "rejected"
+          ]
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "reviewer",
+        "decision"
+      ]
+    },
+    "extensions": {
+      "type": "object"
+    },
+    "duration_target_frames": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "subtitle_cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cue_id",
+          "timeline_start",
+          "duration",
+          "text",
+          "language"
+        ],
+        "properties": {
+          "cue_id": {
+            "type": "string"
+          },
+          "timeline_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "duration": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "language": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "sequence_id",
+    "revision",
+    "production_mode",
+    "status",
+    "logline",
+    "fps",
+    "resolution",
+    "duration_frames",
+    "timeline_origin",
+    "assets",
+    "reference_packs",
+    "shots",
+    "gaps",
+    "audio_tracks",
+    "editorial",
+    "handoff",
+    "art_review"
+  ]
+}
