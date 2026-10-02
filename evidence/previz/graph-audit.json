@@ -1,0 +1,77 @@
+{
+  "upstream": "Comfy-Org/workflow_templates@9fac9ca259773c82c25553103edd51b6550d5fc4",
+  "template": "templates/video_wan2_2_14B_fun_control.json",
+  "license": "MIT",
+  "installed_core": "8fed37813848259fbdd2548ae3cd9f14df7fd68b",
+  "scope": "template class presence + installed core static schema input names; no live model/type/VRAM validation",
+  "nodes": {
+    "1": {
+      "class_type": "UNETLoader",
+      "input_names_match": true
+    },
+    "2": {
+      "class_type": "UNETLoader",
+      "input_names_match": true
+    },
+    "3": {
+      "class_type": "CLIPLoader",
+      "input_names_match": true
+    },
+    "4": {
+      "class_type": "VAELoader",
+      "input_names_match": true
+    },
+    "5": {
+      "class_type": "LoadImage",
+      "input_names_match": true
+    },
+    "6": {
+      "class_type": "LoadVideo",
+      "input_names_match": true
+    },
+    "7": {
+      "class_type": "GetVideoComponents",
+      "input_names_match": true
+    },
+    "8": {
+      "class_type": "CLIPTextEncode",
+      "input_names_match": true
+    },
+    "9": {
+      "class_type": "CLIPTextEncode",
+      "input_names_match": true
+    },
+    "10": {
+      "class_type": "Wan22FunControlToVideo",
+      "input_names_match": true
+    },
+    "11": {
+      "class_type": "ModelSamplingSD3",
+      "input_names_match": true
+    },
+    "12": {
+      "class_type": "ModelSamplingSD3",
+      "input_names_match": true
+    },
+    "13": {
+      "class_type": "KSamplerAdvanced",
+      "input_names_match": true
+    },
+    "14": {
+      "class_type": "KSamplerAdvanced",
+      "input_names_match": true
+    },
+    "15": {
+      "class_type": "VAEDecode",
+      "input_names_match": true
+    },
+    "16": {
+      "class_type": "CreateVideo",
+      "input_names_match": true
+    },
+    "17": {
+      "class_type": "SaveVideo",
+      "input_names_match": true
+    }
+  }
+}

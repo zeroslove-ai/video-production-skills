@@ -1,0 +1,13 @@
+test_asset_tamper_and_smoke_rejected (test_pipeline.PipelineTests.test_asset_tamper_and_smoke_rejected) ... ok
+test_fal_status_never_sends_key_to_foreign_host (test_pipeline.PipelineTests.test_fal_status_never_sends_key_to_foreign_host) ... ok
+test_frame_layout_rejected_before_ffmpeg (test_pipeline.PipelineTests.test_frame_layout_rejected_before_ffmpeg) ... ok
+test_graph_references_and_binding (test_pipeline.PipelineTests.test_graph_references_and_binding) ... ok
+test_missing_model_prevents_submission (test_pipeline.PipelineTests.test_missing_model_prevents_submission) ... ok
+test_preflight_accepts_pending_upload_names (test_pipeline.PipelineTests.test_preflight_accepts_pending_upload_names) ... ok
+test_reference_provider_requires_real_urls (test_pipeline.PipelineTests.test_reference_provider_requires_real_urls) ... ok
+test_seedance25_uses_reference_task (test_pipeline.PipelineTests.test_seedance25_uses_reference_task) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.019s
+
+OK

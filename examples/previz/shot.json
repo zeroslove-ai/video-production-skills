@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "shot_id": "cube-dolly-001",
+  "prompt": "One orange cube moves left to right on a blue floor. Smooth slow camera dolly, preserve the cube count and composition. No cuts, no text.",
+  "negative_prompt": "duplicate objects, flicker, warped geometry, cuts, text",
+  "width": 640,
+  "height": 384,
+  "fps": 16,
+  "frame_count": 81,
+  "provider_duration_seconds": 5,
+  "seed": 101,
+  "depth_near": 1.0,
+  "depth_far": 20.0,
+  "generate_audio": false,
+  "reference_images": [],
+  "reference_video_url": null
+}
