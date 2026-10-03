@@ -1,0 +1,223 @@
+{
+  "capability_delta": "새 Windows 기능 없음; native 미실행 exact broker packet + harmless helper strict preflight 공급",
+  "native_authorized": false,
+  "historical_guard_FAIL_preserved": true,
+  "private_packet": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_MORPH67_TWO_INPUT_BROKER_REVIEW_R1.zip",
+    "bytes": 26323500,
+    "sha256": "724e62ffed23f3aa3a00a5d710542770005757499eb7a083be62a92964b31301",
+    "members": 65,
+    "CRC_and_private_member_SHA_verified": true
+  },
+  "final_config": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\FIXED_BROKER_CONFIG_R1.json",
+    "sha256": "2ad037eadcdeea0dbc711333c7fd03dcd7f3864119793958f10227d7606f9807"
+  },
+  "broker": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_two_input_owned_barrier_broker_r1.py",
+    "sha256": "d72254774de3d096ff546dd40373d7e7edb6242d49132c0b917190b8fd8298a8"
+  },
+  "collector_sha256": "68f9c54d892aad1ccae72c832d32e2203d6711d1024e64f6c2a50a6c73d89717",
+  "wrapper_sha256": "8b1dc2c352b4f12f4d9b29b0a646015924be8dce9e02eaacf0760dc0acc215e4",
+  "final_helper": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\HELPER_PREFLIGHT_RESULT_R1.json",
+    "sha256": "f4a5923959a5932f983506776ca08846a086ebcdf5c6078ac08f700a56b93dae",
+    "pid": 2508,
+    "creation_FILETIME": 134355373616495911,
+    "parent_pid": 136708,
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "BEFORE": {
+      "phase": "BEFORE",
+      "owned_pid": 2508,
+      "owned_process_handle": 404,
+      "limited_query_handle": 416,
+      "original": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Windows\\System32\\cmd.exe",
+        "creation_FILETIME": 134355373616495911
+      },
+      "limited": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Windows\\System32\\cmd.exe",
+        "creation_FILETIME": 134355373616495911
+      },
+      "job": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": [
+          2508
+        ]
+      },
+      "parent_pid": 136708,
+      "owned_handle_signaled": false
+    },
+    "AFTER": {
+      "phase": "AFTER",
+      "owned_pid": 2508,
+      "owned_process_handle": 404,
+      "limited_query_handle": 416,
+      "original": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Windows\\System32\\cmd.exe",
+        "creation_FILETIME": 134355373616495911
+      },
+      "limited": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Windows\\System32\\cmd.exe",
+        "creation_FILETIME": 134355373616495911
+      },
+      "job": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": [
+          2508
+        ]
+      },
+      "parent_pid": 136708,
+      "owned_handle_signaled": false
+    },
+    "terminal_exit_code": 0,
+    "terminal_job": {
+      "active": 0,
+      "total": 1,
+      "limit_terminated": 0,
+      "pids": []
+    },
+    "combined_payload_output_bytes": 1419,
+    "wall_seconds": 0.3360214999993332
+  },
+  "previous_attempts_preserved": [
+    {
+      "attempt": "r1",
+      "status": "FAIL",
+      "receipt_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r1\\HELPER_PREFLIGHT_RESULT_R1.json",
+      "receipt_sha256": "73e5fbe2366c698b0a2b5c2b1471486e5024b4c81d3d2425c18462791b79f92e",
+      "pid": 64912,
+      "strict_AFTER_available": false,
+      "terminal_cleanup_job": {
+        "active": 0,
+        "total": 2,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "attempt": "r2",
+      "status": "FAIL",
+      "receipt_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r2\\HELPER_PREFLIGHT_RESULT_R1.json",
+      "receipt_sha256": "221541fd2b63ae1544c397771d8815b667f27d22b683fa74a66a8394a0a76061",
+      "pid": 125780,
+      "strict_AFTER_available": false,
+      "terminal_cleanup_job": {
+        "active": 0,
+        "total": 2,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "attempt": "r3",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "receipt_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r3\\HELPER_PREFLIGHT_RESULT_R1.json",
+      "receipt_sha256": "82c276cc632e4c49f60ab4745873f39cd360973f647394d95fa9e291c541f815",
+      "pid": 120288,
+      "strict_AFTER_available": true,
+      "terminal_cleanup_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    }
+  ],
+  "config": {
+    "schema": "TWO_INPUT_LIVE_BARRIER_BROKER_R1",
+    "native_authorized": false,
+    "broker_sha256": "d72254774de3d096ff546dd40373d7e7edb6242d49132c0b917190b8fd8298a8",
+    "collector_sha256": "68f9c54d892aad1ccae72c832d32e2203d6711d1024e64f6c2a50a6c73d89717",
+    "limits": {
+      "wall_seconds": 90,
+      "memory_bytes": 4294967296,
+      "Blender_threads": 2,
+      "process_limit": 1,
+      "output_bytes": 67108864,
+      "affinity_mask": 3,
+      "kill_on_close": true,
+      "creation_flags": 524300
+    },
+    "helper": {
+      "argv": [
+        "C:\\Windows\\System32\\cmd.exe",
+        "/d",
+        "/q",
+        "/s",
+        "/c",
+        "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_owned_barrier_helper_r2.cmd",
+        "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\helper-gates-r1"
+      ],
+      "command_line": "\"C:\\Windows\\System32\\cmd.exe\" /d /q /s /c \"\"C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_owned_barrier_helper_r2.cmd\" \"C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\helper-gates-r1\"\"",
+      "gates": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\helper-gates-r1",
+      "result_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\HELPER_PREFLIGHT_RESULT_R1.json",
+      "executable_sha256": "badf4752413cb0cbdc03fb95820ca167f0cdc63b597ccdb5ef43111180e088b0"
+    },
+    "native": {
+      "argv": [
+        "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "--background",
+        "--factory-startup",
+        "--disable-autoexec",
+        "--threads",
+        "2",
+        "--python",
+        "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_two_input_live_barrier_wrapper_r1.py",
+        "--",
+        "--kind",
+        "native",
+        "--gates",
+        "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\native-gates-r1",
+        "--collector",
+        "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_morph67_two_input_normal_collector_DRAFT_R1.py",
+        "--collector-config",
+        "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\NATIVE_PAYLOAD_CONFIG_R1.json"
+      ],
+      "gates": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\native-gates-r1",
+      "capture_output": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1",
+      "approval_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\NEW_NATIVE_APPROVAL_R1.json",
+      "result_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\NATIVE_GUARD_RESULT_R1.json",
+      "executable_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb"
+    },
+    "pinned_files": {
+      "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r1\\SOURCE_BYTE_CLONE_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+      "C:\\Program Files\\Python313\\python.exe": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+      "C:\\Windows\\System32\\cmd.exe": "badf4752413cb0cbdc03fb95820ca167f0cdc63b597ccdb5ef43111180e088b0",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_owned_barrier_helper_r2.cmd": "96a8b87ffe726bd6984ffbf61272b920d1050aee37b098423779861695ab973c",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\NATIVE_PAYLOAD_CONFIG_R1.json": "b8ebd3c35c50612362a06ae36a83a0753072838df3b35c3b796b10c54a6f984b",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_two_input_owned_barrier_broker_r1.py": "d72254774de3d096ff546dd40373d7e7edb6242d49132c0b917190b8fd8298a8",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_two_input_live_barrier_wrapper_r1.py": "8b1dc2c352b4f12f4d9b29b0a646015924be8dce9e02eaacf0760dc0acc215e4",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_morph67_two_input_normal_collector_DRAFT_R1.py": "68f9c54d892aad1ccae72c832d32e2203d6711d1024e64f6c2a50a6c73d89717",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\r4_appearance_signature.py": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\workflow\\native_preservation.py": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_morph67_two_input_normal_collector_DRAFT_R1.py": "68f9c54d892aad1ccae72c832d32e2203d6711d1024e64f6c2a50a6c73d89717",
+      "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-source-normal-proposal-r1\\WORST_source_inputs_PRIVATE_R1.json": "170accdfe80954ae2fe340e1aca3bdef5ac2e7fd25049be2089ab69766bd77a2",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-source-normal-proposal-r1\\NEUTRAL_source_inputs_PRIVATE_R1.json": "b775d6252cc4e9c3703d76e5747a7113bfb5d8318f1d1ff5e9b2b73df5d53961",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\inputs\\WORST_source_inputs_PRIVATE_R1.json": "170accdfe80954ae2fe340e1aca3bdef5ac2e7fd25049be2089ab69766bd77a2",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\inputs\\NEUTRAL_source_inputs_PRIVATE_R1.json": "b775d6252cc4e9c3703d76e5747a7113bfb5d8318f1d1ff5e9b2b73df5d53961",
+      "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473"
+    }
+  },
+  "scope": "PM authorized preparation+helper only. No Blender native/source evaluation/render/export/save/product write. CMD DETACHED helper PASS is not Blender guard/native normal witness.",
+  "source_inputs_private_keys": "native_face ordered FACE16 and NativeYaw/NativePitch are source inputs. applied_* match. original_morph_weights is71 consumer percent outputs; source evaluates original37 active correctives and preserves13 muted bridges instead of forcing those71 values. Exact numeric inputs remain inside private packet.",
+  "source_custom_normal_semantics": "Original head CORNER INT16_2D short2 encodes fan-space normal, not xyz normal delta. Current shape/GN positions alter fan spaces/cache. Capture evaluated attribute type/payload and current CORNER normals per stage; preserve original adjacency/UV/smooth. Consumer DN0 improvement with zero geometry delta does not prove source-equivalent normal.",
+  "hypothesis_result": "NoWindow console helpers both failed extra Job processes despite successful BEFORE image queries. DETACHED_PROCESS cooperative BEFORE/AFTER + original/limited handle queries passed. No identity proof of old extra PID executable, so conhost cause remains hypothesis. Strict AFTER unchanged; no image error waiver/exitFILETIME terminal substitute.",
+  "next": "Root PM reviews exact final config/broker/collector/packet and supplies NEW approval; native remains unrun pending that decision."
+}
