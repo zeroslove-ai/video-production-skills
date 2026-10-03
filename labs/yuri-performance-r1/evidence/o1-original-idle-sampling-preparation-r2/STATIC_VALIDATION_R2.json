@@ -1,0 +1,8 @@
+{
+  "status": "AST_INPUT_HASH_REVERSE_DIFF_AND_SYNTHETIC_LOG_FOOTER_REGRESSION_PASS",
+  "native_runs": 0,
+  "guard_scope_resources_LIVE_cleanup_145frame_requirements_unchanged": true,
+  "R1_scripts_SHA_unchanged": true,
+  "synthetic_closed_log_includes_footer": true,
+  "custody_no_self_hash": true
+}

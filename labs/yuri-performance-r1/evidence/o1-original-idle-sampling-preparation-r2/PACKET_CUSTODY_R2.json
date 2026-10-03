@@ -1,0 +1,54 @@
+{
+  "status": "PREPARATION_ONLY_NEW_R2_REVIEW_PENDING",
+  "packet": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-original-idle-sampling-preparation-r2\\YURI_ORIGINAL_IDLE_SAMPLING_PREPARATION_R2.zip",
+  "bytes": 28331,
+  "sha256": "5f4562b1bcf14aee3e9f83e43fefea4ff119e76266abe2446e25805e47cf7f1b",
+  "members": {
+    "r4_original_idle_sample_r2.py": {
+      "bytes": 17012,
+      "sha256": "fb44ed96ebb07ad1c2b55cd2619828a97ca6ecdaa1bf366b24f9f2d79334f416"
+    },
+    "r4_original_idle_sample_launcher_r2.py": {
+      "bytes": 18207,
+      "sha256": "b6890cb38139340a7c2693d001708ecf68125a2a6e48d2a7fd89224de237564b"
+    },
+    "r4_audit_original_idle_sample_r2.py": {
+      "bytes": 3822,
+      "sha256": "1a6c2ddaf92becf2d2b2043958ac660f9907dbe4733290780446b2bea7b0b94d"
+    },
+    "r4_prepare_original_idle_sampling_r2.py": {
+      "bytes": 9834,
+      "sha256": "0afd5f958bbd1be3e36f0cc781cdc607db8d69027af48ccfc0c914517817f449"
+    },
+    "r4_appearance_signature.py": {
+      "bytes": 6092,
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba"
+    },
+    "native_preservation.py": {
+      "bytes": 1334,
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3"
+    },
+    "r4_installed_addon_origin_gate_r2.py": {
+      "bytes": 3861,
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094"
+    },
+    "APPROVAL_RECEIPT_TEMPLATE_NOT_APPROVAL_R2.json": {
+      "bytes": 1325,
+      "sha256": "6e3e2f06439899c4058dce3e7a08a331455eaf015af04f3584b7c661fea2cc24"
+    },
+    "FIXED_ROUTE_CONFIG_R2.json": {
+      "bytes": 3545,
+      "sha256": "c6361839f60242c103cba6231b918a971cd17a6b151070d0ccc5ca8ce9ef87cb"
+    },
+    "SAMPLING_PROPOSAL_R2.json": {
+      "bytes": 6807,
+      "sha256": "4ab430889ed19d57f4e689e5f6556f8205612428eff17d90714b099ac5d8190f"
+    },
+    "STATIC_VALIDATION_R2.json": {
+      "bytes": 307,
+      "sha256": "786fb331dd9c4b0252074eb7e50e40e4be84d722926b97637077b8338a03c857"
+    }
+  },
+  "CRC_all_member_SHA_verified": true,
+  "private_numeric_source_data_in_packet": false
+}
