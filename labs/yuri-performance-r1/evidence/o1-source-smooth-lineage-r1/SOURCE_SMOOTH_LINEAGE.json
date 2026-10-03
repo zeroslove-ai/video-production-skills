@@ -1,0 +1,126 @@
+{
+  "status": "SOURCE_LINEAGE_VERIFIED_EVALUATED_NATIVE_CAPTURE_PENDING",
+  "source_inventory": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json",
+    "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+    "renderer": "Meshy_Body_NeutralCovered",
+    "attribute_names": [
+      "R2_Hand_Cuff_RestDistance",
+      "R3_Neck_RestZ",
+      "R4_NonExplicit_TextureMask",
+      "R4_Neck_ToneBlend",
+      "position",
+      ".select_vert",
+      ".edge_verts",
+      ".select_edge",
+      "sharp_edge",
+      "material_index",
+      ".select_poly",
+      ".corner_vert",
+      ".corner_edge",
+      "custom_normal",
+      "UVMap"
+    ]
+  },
+  "inventory_writer": {
+    "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_recovery_source_data.py",
+    "sha256": "c9f012fd6c554ac4bfc059e2cb55d5273d4a2f4b3cd7181124e7b06d4c427dae",
+    "operation": "original o.data.attributes enumeration; nonempty attribute rows exported before ReactionLane evaluation; not evaluated smooth capture"
+  },
+  "ordered_modifiers": [
+    {
+      "order": 0,
+      "name": "Armature",
+      "type": "ARMATURE"
+    },
+    {
+      "order": 1,
+      "name": "R3 neck and joints - local linear blend",
+      "type": "ARMATURE"
+    },
+    {
+      "order": 2,
+      "name": "R3 local joint surface relaxation",
+      "type": "CORRECTIVE_SMOOTH"
+    },
+    {
+      "order": 3,
+      "name": "R3 raised shoulder surface L",
+      "type": "SMOOTH"
+    },
+    {
+      "order": 4,
+      "name": "R3 raised shoulder surface R",
+      "type": "SMOOTH"
+    },
+    {
+      "order": 5,
+      "name": "R3 bent hip surface L",
+      "type": "SMOOTH"
+    },
+    {
+      "order": 6,
+      "name": "R3 bent hip surface R",
+      "type": "SMOOTH"
+    }
+  ],
+  "modifier_type_registration": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-body-modifier-source-contract-r1\\upstream\\MOD_armature.cc",
+      "sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e",
+      "registration": "ModifierTypeType::OnlyDeform"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-body-modifier-source-contract-r1\\upstream\\MOD_correctivesmooth.cc",
+      "sha256": "34064ee367b0b79f2804a48101943630366d5c166b842fa9f439dbf4aa1dad3b",
+      "registration": "ModifierTypeType::OnlyDeform"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-body-modifier-source-contract-r1\\upstream\\MOD_smooth.cc",
+      "sha256": "33b067daeedfd3f09132ffeca157c9008290468f112102e02eb231cf13ec61e6",
+      "registration": "ModifierTypeType::OnlyDeform"
+    }
+  ],
+  "cycles_policy": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-actual-cycles-readback-preparation-r1\\upstream\\intern\\cycles\\blender\\mesh.cpp",
+    "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+    "receipt": {
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/blender/mesh.cpp",
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054,
+      "license": "Apache-2.0"
+    },
+    "empty_sharp_faces_branch": "std::fill(smooth, smooth + numtris, normals_domain != blender::bke::MeshNormalDomain::Face);"
+  },
+  "scope": {
+    "original_sharp_face_absent": "VERIFIED_FROZEN_INVENTORY",
+    "non_topology_changing_modifier_types": "VERIFIED_REGISTRATIONS",
+    "all_smooth_expected": "CONDITIONAL_ON_EVALUATED_NORMALS_DOMAIN_NOT_FACE_AND_SHARP_FACE_REMAINING_ABSENT",
+    "actual_evaluated_normals_domain": "NOT_CAPTURED_HERE",
+    "actual_evaluated_sharp_face": "NOT_CAPTURED_HERE",
+    "actual_native_smooth_array": "NOT_CAPTURED_HERE"
+  },
+  "prior_r2_smooth_provenance": "Preserved unchanged; shorthand absent sharp_faces => smooth true is qualified by exact normals_domain condition here. Expected all-ones remains a diagnostic expectation, never runtime replacement data.",
+  "acquisition": {
+    "helper": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_readback_proposal\\staged_native_acquisition_v5.py",
+    "sha256": "fd19e8eee90d24b7d0720b8f19e8c76b23cfb33ce3297f6b58814e1dc2a3378c",
+    "approval_template": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-owned-job-and-acquisition-v5-r1\\ACQUISITION_REVIEW_TEMPLATE_NOT_APPROVED.json",
+    "approval_template_sha256": "2c83cab515cb12bc2d408c06a4366d45af5e1ef4eb2352ab6fd748303e0ca778",
+    "owner_approval": false,
+    "known_payload_bytes": 7054121984,
+    "extra_git_transport_bytes": "UNKNOWN",
+    "dry_command": "& 'C:\\Program Files\\Python313\\python.exe' 'C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_readback_proposal\\staged_native_acquisition_v5.py'",
+    "post_real_approval_command": "& 'C:\\Program Files\\Python313\\python.exe' 'C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_readback_proposal\\staged_native_acquisition_v5.py' --execute --approval 'C:\\YuriTransfer\\owner-reviewed-acquisition-receipt.json'",
+    "receipt_path": "proposed exact input path; no receipt created or approval fabricated",
+    "execution_scope": "download/verify/unpack only; no build or capture"
+  },
+  "next_gates": [
+    "Real owner acquisition approval",
+    "Verify staged resources and per-file hashes",
+    "Separate owned build and compile/link validation",
+    "Postcompile guard closure and API checks",
+    "Explicit bounded native capture acceptance; actual evaluated attributes and native buffers",
+    "Unity/PBR visual acceptance remains separate"
+  ],
+  "source_or_gui_or_product_mutation": false
+}
