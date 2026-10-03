@@ -1,0 +1,792 @@
+{
+  "case": "probe-timeout",
+  "status": "PASS",
+  "argv": [
+    "C:\\Program Files\\Python313\\python.exe",
+    "-I",
+    "-S",
+    "-c",
+    "import time;print('FIXED_READONLY_GUARD_PROBE',flush=True);time.sleep(10)"
+  ],
+  "exe_sha256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+  "inputs_before": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "small_read_purpose": "PM_AUTHORIZED_FIXED_PROBE_PID_DIAGNOSIS_ONLY",
+  "human_large_resource_acquisition_approved": false,
+  "native_layout": {
+    "Basic_size": 64,
+    "Extended_size": 144,
+    "Accounting_size": 48,
+    "PidList_ids_offset": 8,
+    "Basic_flags_offset": 16,
+    "Basic_active_offset": 40,
+    "Accounting_active_offset": 40,
+    "ProcessEntry_size": 568,
+    "ProcessEntry_parent_offset": 32
+  },
+  "job_limit_readback_verified": true,
+  "pid": 71808,
+  "thread_id": 124388,
+  "creation_FILETIME": 134355058875576260,
+  "created_suspended": true,
+  "assigned_before_resume": true,
+  "active_before_resume": 1,
+  "exit_code": 88,
+  "termination_reason": "TIMEOUT",
+  "active_after_exit": 0,
+  "total_job_processes": 2,
+  "limit_terminated_processes": 0,
+  "final_job_pids": [],
+  "extra_associations": "Raw accounting/PID-list anomaly retained; origin and admission status unresolved",
+  "owned_process_signaled_after_job_close": true,
+  "resources_samples": [
+    {
+      "free_RAM_bytes": 32744001536,
+      "free_C_bytes": 264265318400
+    },
+    {
+      "free_RAM_bytes": 32744103936,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.003649100020993501,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32744075264,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.05340560001786798,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32744075264,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.0994838000042364,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32744108032,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.14479240000946447,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32744108032,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.19161830004304647,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32744108032,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.23835980001604185,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32744280064,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.28540930000599474,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32727240704,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.3329768000403419,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32727949312,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.3785416000173427,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32736878592,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.4251638000132516,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32734085120,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.4716324000037275,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32730451968,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.5176641000434756,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32736055296,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.5643950000521727,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32739065856,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.6101907000411302,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32729657344,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.6573568000458181,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32735227904,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.703380000020843,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32740237312,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.7509857999975793,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32728408064,
+      "free_C_bytes": 264265314304,
+      "monotonic_since_create": 0.797480600012932,
+      "accounting_before_PID_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      },
+      "associated_job_pids": [
+        71808,
+        117768
+      ],
+      "PID_identities": [
+        {
+          "pid": 71808,
+          "parent_pid": 69644,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355058875576260,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        },
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 2,
+        "total": 2,
+        "limit_terminated": 0
+      }
+    }
+  ],
+  "wall_seconds": 0.8470181000302546,
+  "limits": {
+    "affinity_mask": 3,
+    "process_and_job_RAM_bytes": 8589934592,
+    "active_process_limit": 1,
+    "watchdog_seconds": 0.8,
+    "kill_on_close": true
+  },
+  "inputs_after": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "guard_sha256": "dfa8b60ea29e4c269f33f3f251174ce54be06935b7b4e5757ae29ca006c43cba"
+}

@@ -1,0 +1,186 @@
+{
+  "status": "CONHOST_IDENTITY_CONFIRMED_DETACHED_FIXED_PROBES_SINGLE_PROCESS_AND_ZERO_DRAIN",
+  "scope": "FIXED_HARMLESS_PYTHON_PROBE_CAUSAL_DIAGNOSIS_ONLY",
+  "findings": [
+    {
+      "variant": "console-r2",
+      "case": "probe-success",
+      "root_pid": 136840,
+      "root_creation_FILETIME": 134355058869160450,
+      "extra_identities": [
+        {
+          "pid": 121016,
+          "parent_pid": 136840,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058869202715,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 0
+        }
+      ],
+      "total_job_processes": 2,
+      "limit_terminated_processes": 0,
+      "active_after_exit": 0,
+      "exit_code": 0,
+      "samples": 12,
+      "native_layout": {
+        "Basic_size": 64,
+        "Extended_size": 144,
+        "Accounting_size": 48,
+        "PidList_ids_offset": 8,
+        "Basic_flags_offset": 16,
+        "Basic_active_offset": 40,
+        "Accounting_active_offset": 40,
+        "ProcessEntry_size": 568,
+        "ProcessEntry_parent_offset": 32
+      },
+      "guard_sha256": "dfa8b60ea29e4c269f33f3f251174ce54be06935b7b4e5757ae29ca006c43cba",
+      "actual_probe_receipt_sha256": "4c5d36d78f020da1813edffb16a396cec77080eef94cb369571c41b4a80bfcbe"
+    },
+    {
+      "variant": "console-r2",
+      "case": "probe-timeout",
+      "root_pid": 71808,
+      "root_creation_FILETIME": 134355058875576260,
+      "extra_identities": [
+        {
+          "pid": 117768,
+          "parent_pid": 71808,
+          "snapshot_exe": "conhost.exe",
+          "executable": "C:\\Windows\\System32\\conhost.exe",
+          "creation_FILETIME": 134355058875613800,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "total_job_processes": 2,
+      "limit_terminated_processes": 0,
+      "active_after_exit": 0,
+      "exit_code": 88,
+      "samples": 18,
+      "native_layout": {
+        "Basic_size": 64,
+        "Extended_size": 144,
+        "Accounting_size": 48,
+        "PidList_ids_offset": 8,
+        "Basic_flags_offset": 16,
+        "Basic_active_offset": 40,
+        "Accounting_active_offset": 40,
+        "ProcessEntry_size": 568,
+        "ProcessEntry_parent_offset": 32
+      },
+      "guard_sha256": "dfa8b60ea29e4c269f33f3f251174ce54be06935b7b4e5757ae29ca006c43cba",
+      "actual_probe_receipt_sha256": "e9101534669744ec534ad2c624a4ff2585ebbb6620157219aaf5ca09c10154aa"
+    },
+    {
+      "variant": "detached-r3",
+      "case": "probe-success",
+      "root_pid": 112736,
+      "root_creation_FILETIME": 134355059330029006,
+      "extra_identities": [],
+      "total_job_processes": 1,
+      "limit_terminated_processes": 0,
+      "active_after_exit": 0,
+      "exit_code": 0,
+      "samples": 12,
+      "native_layout": {
+        "Basic_size": 64,
+        "Extended_size": 144,
+        "Accounting_size": 48,
+        "PidList_ids_offset": 8,
+        "Basic_flags_offset": 16,
+        "Basic_active_offset": 40,
+        "Accounting_active_offset": 40,
+        "ProcessEntry_size": 568,
+        "ProcessEntry_parent_offset": 32
+      },
+      "guard_sha256": "e21b9ceed80a65ca60ba98c71b8a394b84f0287c10a0bc5717a9b6dd265f7aed",
+      "actual_probe_receipt_sha256": "0bc700fbdf2e6aecf9d8ded065f818c8150f0a2b038f87eb4dcc6fdae29eec92"
+    },
+    {
+      "variant": "detached-r3",
+      "case": "probe-timeout",
+      "root_pid": 126136,
+      "root_creation_FILETIME": 134355059336115994,
+      "extra_identities": [],
+      "total_job_processes": 1,
+      "limit_terminated_processes": 0,
+      "active_after_exit": 0,
+      "exit_code": 88,
+      "samples": 17,
+      "native_layout": {
+        "Basic_size": 64,
+        "Extended_size": 144,
+        "Accounting_size": 48,
+        "PidList_ids_offset": 8,
+        "Basic_flags_offset": 16,
+        "Basic_active_offset": 40,
+        "Accounting_active_offset": 40,
+        "ProcessEntry_size": 568,
+        "ProcessEntry_parent_offset": 32
+      },
+      "guard_sha256": "e21b9ceed80a65ca60ba98c71b8a394b84f0287c10a0bc5717a9b6dd265f7aed",
+      "actual_probe_receipt_sha256": "6b59e1b24a874055a18346e3d2c34537741897ac01a17619171b7561560be361"
+    }
+  ],
+  "change": "CREATE_SUSPENDED|CREATE_NO_WINDOW -> CREATE_SUSPENDED|DETACHED_PROCESS; fixed probe argv/limits/resource floors unchanged between R2 and R3",
+  "limits_relaxed": false,
+  "Blender_launches": 0,
+  "source_read": "NOT_RUN",
+  "approval_receipt_created": false,
+  "human_large_resource_acquisition_approved": false,
+  "native_custom_capture_approved": false,
+  "semantic_limit": "No claim of a general Windows console-host limit exemption; actual conhost identity/Active2 is measured. One flag A/B removes the helper in this environment. R3 has no Blender execution route.",
+  "files": {
+    "console-r2/probe-success.json": {
+      "bytes": 17158,
+      "sha256": "4c5d36d78f020da1813edffb16a396cec77080eef94cb369571c41b4a80bfcbe"
+    },
+    "console-r2/probe-success.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "console-r2/probe-timeout.json": {
+      "bytes": 24290,
+      "sha256": "e9101534669744ec534ad2c624a4ff2585ebbb6620157219aaf5ca09c10154aa"
+    },
+    "console-r2/probe-timeout.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "console-r2/PROBE_MANIFEST.json": {
+      "bytes": 47081,
+      "sha256": "dccbcd6739fcc92273d95bff5b297bc7344e754e0a85fd944c9d1e46b5090bcc"
+    },
+    "console-r2/r4_readonly_owned_job_guard_diagnose_r2.py": {
+      "bytes": 13774,
+      "sha256": "dfa8b60ea29e4c269f33f3f251174ce54be06935b7b4e5757ae29ca006c43cba"
+    },
+    "detached-r3/probe-success.json": {
+      "bytes": 13159,
+      "sha256": "0bc700fbdf2e6aecf9d8ded065f818c8150f0a2b038f87eb4dcc6fdae29eec92"
+    },
+    "detached-r3/probe-success.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "detached-r3/probe-timeout.json": {
+      "bytes": 17436,
+      "sha256": "6b59e1b24a874055a18346e3d2c34537741897ac01a17619171b7561560be361"
+    },
+    "detached-r3/probe-timeout.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "detached-r3/PROBE_MANIFEST.json": {
+      "bytes": 34884,
+      "sha256": "3e3d71c2c493e74d5a98d9455926b58fe9b6c5d7e77de6c7e03b7081706d3251"
+    },
+    "detached-r3/r4_readonly_owned_job_guard_detached_r3.py": {
+      "bytes": 14063,
+      "sha256": "e21b9ceed80a65ca60ba98c71b8a394b84f0287c10a0bc5717a9b6dd265f7aed"
+    }
+  }
+}
