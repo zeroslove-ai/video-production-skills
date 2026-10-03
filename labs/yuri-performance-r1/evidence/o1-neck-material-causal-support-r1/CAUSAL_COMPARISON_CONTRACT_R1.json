@@ -1,0 +1,128 @@
+{
+  "player_visible_delta": "\uc0c8 Windows \uae30\ub2a5 \uc5c6\uc74c; neck/material matched\ube44\uad50\uc6a9 \uc6d0\ubcf8 causal \uc785\ub825\uacc4\uc57d \uc900\ube44",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "known_source_facts": {
+    "head_neck_attribute": {
+      "name": "neck_rest_position",
+      "domain": "POINT",
+      "type": "FLOAT_VECTOR",
+      "array": "attribute_7_vector",
+      "source_file": "data/Character_Body_Head_original_mesh.npz",
+      "source_file_sha256": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473",
+      "source_file_bytes": 1655757
+    },
+    "head_slot2": "Neck transition.001",
+    "head_main_graph": "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+    "live_neck_color_chain": [
+      "Neck Rest Position.Vector",
+      "Separate XYZ.001.Z",
+      "Map Range.001.Result",
+      "Mix (Legacy).001",
+      "R3 feathered skin halo L",
+      "R3 feathered skin halo R",
+      "Principled BSDF.Base Color"
+    ],
+    "live_neck_roughness_chain": [
+      "Neck Rest Position.Vector",
+      "Separate XYZ.001.Z",
+      "Map Range.002.Result",
+      "Principled BSDF.Roughness"
+    ],
+    "unused_legacy_branch": "Separate XYZ/Map Range/Mix (Legacy) branch has no live final Base Color output in cached links; do not substitute it for .001 active color chain",
+    "head_normal_caveat": "Normal Map.Normal connected to BSDF.Normal, but no cached link feeds Normal Map.Color; inspect defaults/Strength in private graph, do not invent missing image normal connection",
+    "body_graph": "R4_Meshy_OriginalDetail_FaceMatched: separate image BaseColor, image Roughness, image Normal -> tangent NormalMap -> BSDF.Normal",
+    "hair_graph": "Hair_Color -> Material Output.Surface only; no linked texture/Normal; source Metallic0. Pearl/light hair appearance is not evidence of metallic material.",
+    "heterogeneous_materials": "Head main rest-mask graph, separate flat Neck transition.001 and baked Skin_Clean_R3, and body image/normal graph differ in original source; equality of materials cannot be assumed"
+  },
+  "exact_field_refs": {
+    "materials": "executable_material_graphs.json[exactMaterial].principled_inputs[].inputs[name].default/sources and node_graph.nodes/links; MapRange/NormalMap/Mapping properties+input defaults preserved",
+    "neck_rest": "mesh_slot_UV_attributes_shape_deltas.json[renderer=Character_Body_Head].attributes[name=neck_rest_position].fields[property=vector].array -> original NPZ POINT array; never replace with animated world-Z",
+    "UV_slot": "same renderer .UV/.material_slots; NPZ polygon_material_slot / uv_0 indexed native corners; no vertex-UV collapse",
+    "world_bind": "source_renderers_bind.json[name].path/matrix_world/matrix_local/armature_bindings[].settings/target/target_path/bone_indices; exact Armature versus Meshy_Fitted_Rig versus Hair_Rig_R4 domains",
+    "color_light": "neutral_camera_light_color_driver_state.json.camera/lights/world/color_management; originalCYCLES vs actual Unitylighting/shader pipeline separately"
+  },
+  "source_hierarchy_targets": [
+    {
+      "name": "Character_Body_Head",
+      "path": "Armature/Character_Body_Head",
+      "armature_targets": [
+        {
+          "target": "Armature",
+          "target_path": "Armature"
+        }
+      ]
+    },
+    {
+      "name": "Hair_Replacement_R4",
+      "path": "Assembly_Root/Hair_Replacement_R4",
+      "armature_targets": [
+        {
+          "target": "Hair_Rig_R4",
+          "target_path": "Assembly_Root/Hair_Rig_R4"
+        }
+      ]
+    },
+    {
+      "name": "Meshy_Body_NeutralCovered",
+      "path": "Assembly_Root/Meshy_Body_NeutralCovered",
+      "armature_targets": [
+        {
+          "target": "Meshy_Fitted_Rig",
+          "target_path": "Assembly_Root/Meshy_Fitted_Rig"
+        },
+        {
+          "target": "Meshy_Fitted_Rig",
+          "target_path": "Assembly_Root/Meshy_Fitted_Rig"
+        }
+      ]
+    }
+  ],
+  "matched_comparison_order": [
+    "Neutral frame1/source OFF unchanged: head/body neck world-position correspondence and rest/skin/hierarchy first",
+    "Per source polygon slot verify active neck_rest_position-restZ mask vs shader adapter attribute/interpolation and active MapRange.001/.002",
+    "Compare actual hair Metallic/BaseColor/Roughness/IOR/specular and native surface normals under same light/color; separate authoredPearl from wrongmetallicflag",
+    "Compare body image identity/colorspace/UV, roughness sampling/conversion, tangent normal convention and actual Principled feature coverage",
+    "Capture actual Windows camera/light/world/exposure/color reference before attributing residual difference to geometry or provider"
+  ],
+  "missing_actual_consumer_fields": [
+    "Build55 actual runtime per-renderer shader/material/property-block values including hair Metallic/roughness/BaseColor/specular and final bound slot IDs",
+    "Active neck_rest_position source-index/corner transport and fragment-space mask samples at exact source-corresponding neck vertices/corners",
+    "Matched neutral Player sourceworld vs consumerworld neck positions/bind-pose/skin/rig matrices and native normals/tangents before shader",
+    "Actual Player camera/light/color pipeline and captured frame provenance; build success is not Player interaction proof"
+  ],
+  "minimal_request_if_needed": "Ask Laptop existingwriter for these exact runtime readbacks/matched screenshot. No Desktop native capture needed: source fields/graphs/UV/rest/bind and normal conventions already cached. Exact seam vertex correspondence remains a consumer comparison task, not a new broad inventory.",
+  "causal_verdict": "UNPROVEN Unitycause; source authored dependencies enumerated. No provider-label blame, source merge/weld/edit/export, guard waiver or PBRPASS.",
+  "input_custody": [
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-source-fidelity-recovery-r1\\executable_material_graphs.json",
+      "bytes": 2144045,
+      "sha256": "d5b8c60ff96a55749bda51f690f8ea3ace9193213abacc15e4d2fa6745bdd01e"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-source-fidelity-recovery-r1\\mesh_slot_UV_attributes_shape_deltas.json",
+      "bytes": 2489830,
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-native-unity-probe-r1\\source_renderers_bind.json",
+      "bytes": 2017708,
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\model-handoff-r4\\materials_textures.json",
+      "bytes": 124537,
+      "sha256": "4ebbb3bb970e448fb83ee3981ca2a85d4c75c97a806b7da30cb8c37fcc5d4a22"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-source-fidelity-recovery-r1\\neutral_camera_light_color_driver_state.json",
+      "bytes": 32179,
+      "sha256": "8b3def32f4fe1b591267cdff63e77bb9ea40fad6a9e85bead4dee9a5d99afe91"
+    }
+  ],
+  "private_extract": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-neck-material-causal-support-r1\\EXACT_NECK_MATERIAL_COMPARISON_INPUTS_PRIVATE_R1.json",
+    "bytes": 962550,
+    "sha256": "d803b393de10e852a86cf35d59813609237a331439be141d79f080efe649f239"
+  },
+  "native_runs_exports": 0
+}

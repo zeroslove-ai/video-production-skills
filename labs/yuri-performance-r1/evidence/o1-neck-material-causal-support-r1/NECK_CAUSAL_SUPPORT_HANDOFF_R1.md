@@ -1,0 +1,19 @@
+새 Windows 기능 없음 — 기존 source에서 목·hair·body 재질과 bind를 실제로 대조할 짧은 causal 입력계약을 전달했다.
+
+DONE: Cached native metadata에서5개 source material graph,3개 renderer의 slot/UV/attribute/세계좌표/modifier/bind·rig 경로와 원본 light/color 조건을 추렸다. SourceSHAa30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa unchanged. Full numeric graph/default/matrix metadata는 private extract에만 있다. Exact source file hashes와 name/field pointers는 CAUSAL_COMPARISON_CONTRACT_R1.json에 고정했다.
+
+FAILED-HOLD: Actual Unity cause,Windows appearance,normal/tangent/PBR fidelity still unproven. Build55 status is PM-reported, not Desktop-observed Player proof. R3 strict guardFAIL/finalpromotionHOLD unchanged. No new native capture,export,source edit or Unityimplementation.
+
+CAUSE inputs:
+
+- Head main material Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001 uses POINT/FLOAT_VECTOR **neck_rest_position**. Active color path goes Separate XYZ.001→Map Range.001→Mix (Legacy).001→lid halo mixes→Base Color; active roughness uses Map Range.002. Do not substitute animated world-Z or the dead legacy unnumbered color branch. Original array attribute_7_vector in Character_Body_Head_original_mesh.npz, native head12928points; exact source corner/polygon indexing remains required.
+- Head slot2 **Neck transition.001** is a separate flat Principled material; Skin_Clean_R3 uses its own 2K skin bake. Body R4_Meshy_OriginalDetail_FaceMatched uses separate original4Kcolor/roughness and tangent NormalMap textures. The original heterogeneous graphs are not equivalent materials.
+- Hair_Pearl_PBR has Hair_Color BSDF→Surface only, no linked image/normal and source **Metallic0**. Gray/metal-like Unity appearance cannot be attributed to the source being metallic without runtime shader/uniform/light readback. The private extract preserves actual BaseColor/Roughness/IOR/specular/defaults.
+- Head NormalMap.Normal is linked, but cached links do not feed its Color socket; inspect native Color/Strength defaults. Do not invent an omitted image-normal edge. Body normal mapping has a real texture path and tangent-space dependency.
+- Source hierarchy is Armature/Character_Body_Head→Armature; Assembly_Root/Meshy_Body_NeutralCovered→Meshy_Fitted_Rig; Assembly_Root/Hair_Replacement_R4→Hair_Rig_R4. Keep each original world/local/rest/skin/modifier order; source Armature and Meshy rig are different domains. Provider labels do not identify the defect stage.
+
+NEXT: Existing Laptop writer reads exact runtime hair shader/material/property-block values; original neck-rest attribute/corner mask and material slots; neutral world/bind/skin positions and normals before shader; matched camera/light/color actual Player screenshot. Compare position/bind first, then active rest-mask/slot/UV, then Principled/image/normal/light features. Current source metadata is sufficient; no Desktop rerun is needed. If those consumer readbacks are absent, request those exact fields rather than a broad capture. No source weld/merge/body replacement to hide a mismatch.
+
+VISUAL_EVIDENCE: Reuse actual original neutral camera PNG packetd64fc25251e36285c8dbf93d8cc846599d9aff1cef5b6b5056c6a2d6c5039f17,Drive1ZbqV8UbAI266sXx4947B18SKeVnV4Yg9,8sampleCPU reference; matched code-equivalent metadata camera/lights/world/AgX/exposure is included. It is Blender reference, not WindowsPlayerPASS.
+
+Private causal input ZIP77705bytes SHA256 **16bc6dc70fa2568da6acd04d679bf8d974f0d479f161f282c1ec4c381a26f545**,CRC/private memberSHA verified. [Owner-only source comparison contract](https://drive.google.com/file/d/121UYLKwGeuEa8idBJ0IwLOch8IRNoEoM/view?usp=drivesdk). Readback exact ID/name/size/parent/shared=false/owner-only; recipient verifies downloaded SHA because connector does not expose remote checksums. No new texture bake/model export or duplicated full inventory.
