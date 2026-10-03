@@ -1,0 +1,1582 @@
+{
+  "task_id": "ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1",
+  "method": "File-only validated PE section/RSDS + MSF7 stream1/DBI/S_PUB32/TPI/IPI. No process memory, debugger attach or ctypes.",
+  "exe": {
+    "path": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "bytes": 113014232,
+    "sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+    "RSDS": [
+      {
+        "guid": "9033ee60-d621-7701-4c4c-44205044422e",
+        "age": 1,
+        "file_offset": 97812920,
+        "embedded_path": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\source\\creator\\Release\\blender_private.pdb"
+      }
+    ]
+  },
+  "PDB": {
+    "path": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.pdb",
+    "bytes": 88977408,
+    "sha256": "3086e93547d9ce8c7b559422ed331441d3f8de29f42e7cf13d15b98975cf20ce",
+    "GUID": "9033ee60-d621-7701-4c4c-44205044422e",
+    "age": 1,
+    "PE_identity_match": true,
+    "DBI_flags": 2
+  },
+  "sections": [
+    {
+      "name": ".text",
+      "virtual_size": 79786134,
+      "VA": 4096,
+      "raw_size": 79786496,
+      "raw_pointer": 1024
+    },
+    {
+      "name": ".rdata",
+      "virtual_size": 26078572,
+      "VA": 79794176,
+      "raw_size": 26078720,
+      "raw_pointer": 79787520
+    },
+    {
+      "name": ".data",
+      "virtual_size": 16437952,
+      "VA": 105873408,
+      "raw_size": 4052992,
+      "raw_pointer": 105866240
+    },
+    {
+      "name": ".pdata",
+      "virtual_size": 2483736,
+      "VA": 122314752,
+      "raw_size": 2484224,
+      "raw_pointer": 109919232
+    },
+    {
+      "name": ".tgtsym",
+      "virtual_size": 2347,
+      "VA": 124801024,
+      "raw_size": 2560,
+      "raw_pointer": 112403456
+    },
+    {
+      "name": ".tls",
+      "virtual_size": 613,
+      "VA": 124805120,
+      "raw_size": 1024,
+      "raw_pointer": 112406016
+    },
+    {
+      "name": ".rsrc",
+      "virtual_size": 307280,
+      "VA": 124809216,
+      "raw_size": 307712,
+      "raw_pointer": 112407040
+    },
+    {
+      "name": ".reloc",
+      "virtual_size": 284640,
+      "VA": 125120512,
+      "raw_size": 284672,
+      "raw_pointer": 112714752
+    }
+  ],
+  "public_symbols": [
+    {
+      "name": "??$_Reallocate@$0A@@?$vector@UTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@AEAAXAEA_K@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43354720,
+      "RVA": 43358816,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61841408,
+      "RVA": 61845504,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??1?$_Uninitialized_backout_al@V?$allocator@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@QEAA@XZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43381744,
+      "RVA": 43385840,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$_Stable_partition_unchecked@PEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V<lambda_3>@?0??degenPrologue@23@IEAAXXZ@@std@@YAPEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@PEAU123@0V<lambda_3>@?0??degenPrologue@23@IEAAXXZ@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43371840,
+      "RVA": 43375936,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61846144,
+      "RVA": 61850240,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?find@AttributeSet@ccl@@QEAAPEAVAttribute@2@AEAVAttributeRequest@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 55567744,
+      "RVA": 55571840,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??R<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@QEBA?A?<auto>@@I@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61855600,
+      "RVA": 61859696,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61849888,
+      "RVA": 61853984,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61870704,
+      "RVA": 61874800,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61847280,
+      "RVA": 61851376,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??1?$AtomicHashSet@I$00UVertexHash@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@UVertexEqual@23@UAtomicHashSetLinearProbeFcn@3@@mikk@@QEAA@XZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43356976,
+      "RVA": 43361072,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?GetTexCoord@MikkMeshWrapper@ccl@@QEAA?AUfloat3@mikk@@HH@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61837792,
+      "RVA": 61841888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61838688,
+      "RVA": 61842784,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?GetNormal@MikkMeshWrapper@ccl@@QEAA?AUfloat3@mikk@@HH@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61844512,
+      "RVA": 61848608,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?update_tangents@Mesh@ccl@@QEAAXPEAVScene@2@_N@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61826336,
+      "RVA": 61830432,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?generateInitialVerticesIndexList@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61831808,
+      "RVA": 61835904,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??R<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@QEBA?A?<auto>@@I@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61845424,
+      "RVA": 61849520,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362488,
+      "RVA": 94156664,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362472,
+      "RVA": 94156648,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3580448,
+      "RVA": 109453856,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61863760,
+      "RVA": 61867856,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362448,
+      "RVA": 94156624,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??RVertexHash@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEBAIAEBI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61844208,
+      "RVA": 61848304,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?assignRecur@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXII@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43386704,
+      "RVA": 43390800,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??1?$vector@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@QEAA@XZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 453200,
+      "RVA": 457296,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?_Tidy@?$vector@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@AEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 32518384,
+      "RVA": 32522480,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61839344,
+      "RVA": 61843440,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??RVertexEqual@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEBA_NAEBI0@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61843744,
+      "RVA": 61847840,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??R<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@QEBA?A?<auto>@@I@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61859472,
+      "RVA": 61863568,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61852912,
+      "RVA": 61857008,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61834272,
+      "RVA": 61838368,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363024,
+      "RVA": 94157200,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$accumulateTSpaces@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61866128,
+      "RVA": 61870224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362896,
+      "RVA": 94157072,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??1?$AtomicHashSet@I$0A@UVertexHash@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@UVertexEqual@23@UAtomicHashSetLinearProbeFcn@3@@mikk@@QEAA@XZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43356976,
+      "RVA": 43361072,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362728,
+      "RVA": 94156904,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362744,
+      "RVA": 94156920,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$_Construct_n@AEBUNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@?$vector@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@AEAAX_KAEBUNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43381184,
+      "RVA": 43385280,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362960,
+      "RVA": 94157136,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362384,
+      "RVA": 94156560,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61832224,
+      "RVA": 61836320,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61860448,
+      "RVA": 61864544,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3579056,
+      "RVA": 109452464,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?_Xlength@?$vector@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@CAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 607024,
+      "RVA": 611120,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?degenEpilogue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61835632,
+      "RVA": 61839728,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362576,
+      "RVA": 94156752,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61846544,
+      "RVA": 61850640,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61870256,
+      "RVA": 61874352,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61846832,
+      "RVA": 61850928,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@UTSpace@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UTSpace@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43373552,
+      "RVA": 43377648,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61856848,
+      "RVA": 61860944,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362704,
+      "RVA": 94156880,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$_Reallocate@$0A@@?$vector@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@AEAAXAEA_K@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 612608,
+      "RVA": 616704,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3580208,
+      "RVA": 109453616,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3578800,
+      "RVA": 109452208,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362600,
+      "RVA": 94156776,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362616,
+      "RVA": 94156792,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362832,
+      "RVA": 94157008,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$_Stable_partition_unchecked1@PEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V<lambda_3>@?0??degenPrologue@23@IEAAXXZ@@std@@YA?AU?$pair@PEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@_J@0@PEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@0V<lambda_3>@?0??degenPrologue@34@IEAAXXZ@_JQEAU234@2@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43372240,
+      "RVA": 43376336,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??R<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@QEBA?A?<auto>@@I@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61840016,
+      "RVA": 61844112,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362768,
+      "RVA": 94156944,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362640,
+      "RVA": 94156816,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61857136,
+      "RVA": 61861232,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?synchronize@BlenderSession@ccl@@QEAAXAEAUDepsgraph@blender@@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 36424896,
+      "RVA": 36428992,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363240,
+      "RVA": 94157416,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363256,
+      "RVA": 94157432,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61832640,
+      "RVA": 61836736,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61850624,
+      "RVA": 61854720,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61853648,
+      "RVA": 61857744,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61852512,
+      "RVA": 61856608,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61832944,
+      "RVA": 61837040,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363216,
+      "RVA": 94157392,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363112,
+      "RVA": 94157288,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363128,
+      "RVA": 94157304,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61861184,
+      "RVA": 61865280,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362856,
+      "RVA": 94157032,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362872,
+      "RVA": 94157048,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?genTangSpace@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61831008,
+      "RVA": 61835104,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362936,
+      "RVA": 94157112,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362808,
+      "RVA": 94156984,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362344,
+      "RVA": 94156520,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362360,
+      "RVA": 94156536,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61841856,
+      "RVA": 61845952,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61857584,
+      "RVA": 61861680,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??1?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEAA@XZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43343904,
+      "RVA": 43348000,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363280,
+      "RVA": 94157456,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362984,
+      "RVA": 94157160,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363000,
+      "RVA": 94157176,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3579312,
+      "RVA": 109452720,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3579536,
+      "RVA": 109452944,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?buildNeighbors@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEAAXPEAV23@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43384960,
+      "RVA": 43389056,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362296,
+      "RVA": 94156472,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363064,
+      "RVA": 94157240,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61864208,
+      "RVA": 61868304,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?find@AttributeSet@ccl@@QEBAPEAVAttribute@2@W4AttributeStandard@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 55567632,
+      "RVA": 55571728,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?find@AttributeSet@ccl@@QEBAPEAVAttribute@2@Vustring@v3_1@OpenImageIO@@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 55565152,
+      "RVA": 55569248,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61860736,
+      "RVA": 61864832,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61849488,
+      "RVA": 61853584,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362552,
+      "RVA": 94156728,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362680,
+      "RVA": 94156856,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363192,
+      "RVA": 94157368,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61869968,
+      "RVA": 61874064,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?device_update@GeometryManager@ccl@@QEAAXPEAVDevice@2@PEAVDeviceScene@2@PEAVScene@2@AEAVProgress@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61630608,
+      "RVA": 61634704,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61840720,
+      "RVA": 61844816,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362424,
+      "RVA": 94156600,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61856448,
+      "RVA": 61860544,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61860048,
+      "RVA": 61864144,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?need_attribute@Geometry@ccl@@QEAA_NPEBVScene@2@W4AttributeStandard@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 65042704,
+      "RVA": 65046800,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?need_attribute@Geometry@ccl@@QEAA_NPEAVScene@2@Vustring@v3_1@OpenImageIO@@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 65042832,
+      "RVA": 65046928,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61869568,
+      "RVA": 61873664,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363152,
+      "RVA": 94157328,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362512,
+      "RVA": 94156688,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$accumulateTSpaces@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61872592,
+      "RVA": 61876688,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??R<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@QEBA?A?<auto>@@I@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61849168,
+      "RVA": 61853264,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$radixsort@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V<lambda_1>@?0??buildNeighbors@234@QEAAXPEAV34@@Z@@mikk@@YAXAEAV?$vector@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UEntry@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@0V<lambda_1>@?0??buildNeighbors@NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@0@QEAAXPEAV60@@Z@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43385632,
+      "RVA": 43389728,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3579984,
+      "RVA": 109453392,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3579760,
+      "RVA": 109453168,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61850176,
+      "RVA": 61854272,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?_Xlength@?$vector@UTSpace@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UTSpace@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@CAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 607024,
+      "RVA": 611120,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??1NeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEAA@XZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 453200,
+      "RVA": 457296,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$_Emplace_reallocate@AEAIAEAI@?$vector@UTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@AEAAPEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEAU234@AEAI1@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43354976,
+      "RVA": 43359072,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61863072,
+      "RVA": 61867168,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61853200,
+      "RVA": 61857296,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363088,
+      "RVA": 94157264,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?sync_mesh@BlenderSync@ccl@@AEAAXAEAUBObjectInfo@2@PEAVMesh@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 70763840,
+      "RVA": 70767936,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??$_Uninitialized_fill_n@V?$allocator@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@YAPEAUNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@PEAU123@_KAEBU123@AEAV?$allocator@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@0@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43381424,
+      "RVA": 43385520,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61863472,
+      "RVA": 61867568,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?GetPosition@MikkMeshWrapper@ccl@@QEAA?AUfloat3@mikk@@HH@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61838384,
+      "RVA": 61842480,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?build4RuleGroups@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 43350112,
+      "RVA": 43354208,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61841120,
+      "RVA": 61845216,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14362320,
+      "RVA": 94156496,
+      "flags": 0,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?_Xlength@?$vector@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@CAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 607024,
+      "RVA": 611120,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    }
+  ],
+  "Mikk_TBB_public_symbol_count": 96,
+  "TBB_samples": [
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61841408,
+      "RVA": 61845504,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61846144,
+      "RVA": 61850240,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61849888,
+      "RVA": 61853984,
+      "flags": 2,
+      "within_virtual_and_raw_section": true
+    }
+  ],
+  "build_global_strings": {
+    "build_linkflags": {
+      "value": "/MACHINE:X64  /SUBSYSTEM:CONSOLE /STACK:2097152 /ignore:4049 /ignore:4217 /ignore:4221",
+      "RVA": 105874640
+    },
+    "build_platform": {
+      "value": "Windows",
+      "RVA": 105873637
+    },
+    "build_cxxflags": {
+      "value": " /W3 -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof -Wno-suggest-override -Wundef -Wundef-prefix -Wunused-parameter -Wmismatched-tags -Werror=unguarded-availability-new /DWIN32 /D_WINDOWS /EHsc  /Gy /MP /nologo /J /Gd /showFilenames /EHsc -Wno-unused-command-line-argument -Wno-microsoft-enum-forward-reference /clang:-funsigned-char /clang:-fno-strict-aliasing /clang:-ffp-contract=off -march=x86-64-v2 ",
+      "RVA": 105874144
+    },
+    "build_date": {
+      "value": "2026-08-25",
+      "RVA": 105873568
+    },
+    "build_system": {
+      "value": "CMake",
+      "RVA": 105874727
+    },
+    "build_hash": {
+      "value": "9e2066aef7ef",
+      "RVA": 105873588
+    },
+    "build_type": {
+      "value": "Release",
+      "RVA": 105873645
+    },
+    "build_time": {
+      "value": "02:38:20",
+      "RVA": 105873579
+    },
+    "build_branch": {
+      "value": "blender-v5.2-release",
+      "RVA": 105873616
+    },
+    "build_cflags": {
+      "value": " /W3 -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter -Wundef -Wundef-prefix -Werror=unguarded-availability-new /DWIN32 /D_WINDOWS /MP /nologo /J /Gy /Gd /showFilenames -Wno-unused-command-line-argument -Wno-microsoft-enum-forward-reference /clang:-funsigned-char /clang:-fno-strict-aliasing /clang:-ffp-contract=off -march=x86-64-v2 ",
+      "RVA": 105873664
+    }
+  },
+  "TPI": {
+    "stream_bytes": 56,
+    "type_index_begin": 4096,
+    "type_index_end": 4096,
+    "type_record_bytes": 0
+  },
+  "IPI": {
+    "stream_bytes": 56,
+    "type_index_begin": 4096,
+    "type_index_end": 4096,
+    "type_record_bytes": 0
+  },
+  "module_count": 5793,
+  "cycles_module_compiler_records": [
+    {
+      "module": "intern\\cycles\\scene\\CMakeFiles\\cycles_scene.dir\\attribute.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\cycles_scene.lib",
+      "stream": 1742,
+      "symbol_bytes": 160,
+      "compiler_records": []
+    },
+    {
+      "module": "intern\\cycles\\scene\\CMakeFiles\\cycles_scene.dir\\mesh.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\cycles_scene.lib",
+      "stream": 2099,
+      "symbol_bytes": 1600,
+      "compiler_records": []
+    },
+    {
+      "module": "intern\\cycles\\scene\\CMakeFiles\\cycles_scene.dir\\scene_attributes.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\cycles_scene.lib",
+      "stream": 65535,
+      "symbol_bytes": 0,
+      "compiler_records": []
+    },
+    {
+      "module": "intern\\cycles\\scene\\CMakeFiles\\cycles_scene.dir\\geometry_attributes.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\cycles_scene.lib",
+      "stream": 65535,
+      "symbol_bytes": 0,
+      "compiler_records": []
+    },
+    {
+      "module": "intern\\cycles\\scene\\CMakeFiles\\cycles_scene.dir\\geometry_mesh.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\cycles_scene.lib",
+      "stream": 65535,
+      "symbol_bytes": 0,
+      "compiler_records": []
+    },
+    {
+      "module": "intern\\cycles\\scene\\CMakeFiles\\cycles_scene.dir\\mesh_displace.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\cycles_scene.lib",
+      "stream": 2287,
+      "symbol_bytes": 3032,
+      "compiler_records": []
+    },
+    {
+      "module": "intern\\cycles\\scene\\CMakeFiles\\cycles_scene.dir\\mesh_subdivision.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\cycles_scene.lib",
+      "stream": 65535,
+      "symbol_bytes": 0,
+      "compiler_records": []
+    },
+    {
+      "module": "intern\\cycles\\blender\\CMakeFiles\\bf_intern_cycles.dir\\mesh.cpp.obj",
+      "object": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\lib\\bf_intern_cycles.lib",
+      "stream": 2294,
+      "symbol_bytes": 3968,
+      "compiler_records": []
+    }
+  ],
+  "native_type_member_layout_ready": false,
+  "safe_host_attribute_observer_ready": false,
+  "actual_buffer": "HOLD"
+}

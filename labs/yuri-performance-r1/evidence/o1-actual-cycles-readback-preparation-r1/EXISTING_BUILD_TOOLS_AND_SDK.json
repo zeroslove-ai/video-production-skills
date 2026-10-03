@@ -1,0 +1,57 @@
+{
+  "tools_and_sdk": [
+    {
+      "Path": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\python_embeded\\Lib\\site-packages\\cmake\\data\\bin\\cmake.exe",
+      "Bytes": 13465160,
+      "FileVersion": "4.4.0",
+      "SHA256": "4510F1883DFAD3238602BAE9A7A4B441FB4A931A643604AA44336710B6BE5F6F"
+    },
+    {
+      "Path": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\python_embeded\\Scripts\\ninja.exe",
+      "Bytes": 598528,
+      "FileVersion": null,
+      "SHA256": "CB4590BAD18F01607E819908D536FBA71AFBE36EB0F1D5A13C60D88D635CA959"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+      "Bytes": 677736,
+      "FileVersion": "19.44.35228.0",
+      "SHA256": "88C8344236A27A6E727E0A8EDC49AAA2690BDC7A9464B9D18CC7ABE70A9F1C0D"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat",
+      "Bytes": 39,
+      "FileVersion": null,
+      "SHA256": "6B516D8FCF543C14B2D861E1F45661E0029230FE0DC48E86CE78522801822209"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um\\Windows.h",
+      "Bytes": 7153,
+      "FileVersion": null,
+      "SHA256": "65CCD069FE343519A7EC0698CCAF5A6F0388F1AF180B959B8271902B983CB099"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x64\\kernel32.lib",
+      "Bytes": 300468,
+      "FileVersion": null,
+      "SHA256": "D9810FEACBB1150584CDD484EA1CE60B4E6B3DDEC3B8AFA505C0AE47330027E2"
+    },
+    {
+      "Path": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\ucrt\\x64\\ucrt.lib",
+      "Bytes": 285588,
+      "FileVersion": null,
+      "SHA256": "7EF4EAC926BF597D2F243F16CDFED7E0DB22CB3CA34A1D7E088A84C994A03D66"
+    }
+  ],
+  "UE_clang_candidate_directories": [],
+  "proposed_isolated_path_exists": false,
+  "search_scope": [
+    "C:\\Users\\JAEWAN\\dev",
+    "C:\\work",
+    "C:\\workspace",
+    "C:\\w",
+    "C:\\c",
+    "C:\\Users\\JAEWAN\\Downloads",
+    "Blender install folder and VS BuildTools"
+  ]
+}

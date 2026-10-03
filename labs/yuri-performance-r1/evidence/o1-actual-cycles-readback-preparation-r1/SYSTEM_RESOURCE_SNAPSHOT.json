@@ -1,0 +1,160 @@
+{
+  "os": {
+    "TotalVisibleMemorySize": 64546164,
+    "FreePhysicalMemory": 31787788
+  },
+  "disks": [
+    {
+      "DeviceID": "C:",
+      "Size": 1999673716736,
+      "FreeSpace": 263764242432
+    },
+    {
+      "DeviceID": "D:",
+      "Size": 8001561817088,
+      "FreeSpace": 409198850048
+    }
+  ],
+  "blender_process": [
+    {
+      "ProcessId": 129152,
+      "ExecutablePath": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe"
+    }
+  ],
+  "blender_exe": {
+    "FullName": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "Length": 113014232,
+    "FileVersion": "5.2",
+    "ProductVersion": "5.2"
+  },
+  "install_root": [
+    {
+      "Name": "5.2",
+      "Mode": "d----"
+    },
+    {
+      "Name": "blender.crt",
+      "Mode": "d----"
+    },
+    {
+      "Name": "blender.shared",
+      "Mode": "d----"
+    },
+    {
+      "Name": "license",
+      "Mode": "d----"
+    },
+    {
+      "Name": "blender_cpu_check.dll",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_cpu_check.lib",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_debug_cycles.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_debug_gpu_glitchworkaround.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_debug_gpu.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_debug_log.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_factory_startup_vulkan.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_factory_startup.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_oculus.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_startup_opengl.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_startup_vulkan.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender_system_info.cmd",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender-launcher.exe",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender.exe",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "blender.pdb",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "BlendThumb.dll",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "BlendThumb.lib",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "copyright.txt",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "cycles_kernel_oneapi_aot.dll",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "oculus.json",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "python3.dll",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "python313.dll",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "readme.html",
+      "Mode": "-a---"
+    },
+    {
+      "Name": "ucrtbase.dll",
+      "Mode": "-a---"
+    }
+  ],
+  "on_PATH": [
+    {
+      "Name": "git.exe",
+      "Source": "C:\\Program Files\\Git\\cmd\\git.exe"
+    }
+  ],
+  "SDK_include_versions": [
+    {
+      "FullName": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0"
+    }
+  ],
+  "SDK_lib_versions": [
+    {
+      "FullName": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0"
+    }
+  ]
+}

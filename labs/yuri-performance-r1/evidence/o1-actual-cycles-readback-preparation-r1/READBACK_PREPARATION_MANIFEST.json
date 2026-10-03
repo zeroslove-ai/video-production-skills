@@ -1,0 +1,423 @@
+{
+  "task_id": "ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1",
+  "status": "DONE_READ_ONLY_RESOURCE_PUBLIC_SYMBOL_AND_GUARDED_PROPOSAL",
+  "timestamp_KST": "2026-10-03T18:12:54.926886+09:00",
+  "source_build": "9e2066aef7ef",
+  "installed_PE_PDB_identity": "PASS_FILE_ONLY",
+  "safe_actual_host_attribute_observer": "NOT_READY_MISSING_NATIVE_ADAPTER_AND_BUILD_RESOURCES",
+  "actual_Cycles_buffer_PBR": "HOLD",
+  "original_CORNER_0_001_degree_gate": "UNCHANGED",
+  "Blender_launch_attach_GPU_render_build_large_download_source_save_product_jobs": 0,
+  "GUI_PID_preserved": 129152,
+  "PDB_type_record_bytes": 0,
+  "public_target_symbols": 148,
+  "PDB_Mikk_TBB_symbols": 96,
+  "source_and_proposal_files_unchanged": true,
+  "proposed_diff_status": "NOT_APPLIED_NOT_COMPILED",
+  "stock_sync_only_route": "UNSAFE_OR_NOOP_VIEWPORT_RENDER_START",
+  "full_source_deps_matching_clang_private_types": "NOT_LOCATED_IN_BOUNDED_SEARCH",
+  "existing_CMake_Ninja_MSVC_SDK": "AVAILABLE_EXACT_PATHS_HASHED",
+  "resource_snapshot": {
+    "os": {
+      "TotalVisibleMemorySize": 64546164,
+      "FreePhysicalMemory": 31787788
+    },
+    "disks": [
+      {
+        "DeviceID": "C:",
+        "Size": 1999673716736,
+        "FreeSpace": 263764242432
+      },
+      {
+        "DeviceID": "D:",
+        "Size": 8001561817088,
+        "FreeSpace": 409198850048
+      }
+    ],
+    "blender_process": [
+      {
+        "ProcessId": 129152,
+        "ExecutablePath": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe"
+      }
+    ],
+    "blender_exe": {
+      "FullName": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "Length": 113014232,
+      "FileVersion": "5.2",
+      "ProductVersion": "5.2"
+    },
+    "install_root": [
+      {
+        "Name": "5.2",
+        "Mode": "d----"
+      },
+      {
+        "Name": "blender.crt",
+        "Mode": "d----"
+      },
+      {
+        "Name": "blender.shared",
+        "Mode": "d----"
+      },
+      {
+        "Name": "license",
+        "Mode": "d----"
+      },
+      {
+        "Name": "blender_cpu_check.dll",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_cpu_check.lib",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_debug_cycles.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_debug_gpu_glitchworkaround.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_debug_gpu.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_debug_log.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_factory_startup_vulkan.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_factory_startup.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_oculus.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_startup_opengl.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_startup_vulkan.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender_system_info.cmd",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender-launcher.exe",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender.exe",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "blender.pdb",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "BlendThumb.dll",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "BlendThumb.lib",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "copyright.txt",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "cycles_kernel_oneapi_aot.dll",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "oculus.json",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "python3.dll",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "python313.dll",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "readme.html",
+        "Mode": "-a---"
+      },
+      {
+        "Name": "ucrtbase.dll",
+        "Mode": "-a---"
+      }
+    ],
+    "on_PATH": [
+      {
+        "Name": "git.exe",
+        "Source": "C:\\Program Files\\Git\\cmd\\git.exe"
+      }
+    ],
+    "SDK_include_versions": [
+      {
+        "FullName": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0"
+      }
+    ],
+    "SDK_lib_versions": [
+      {
+        "FullName": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0"
+      }
+    ]
+  },
+  "tool_snapshot": {
+    "tools_and_sdk": [
+      {
+        "Path": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\python_embeded\\Lib\\site-packages\\cmake\\data\\bin\\cmake.exe",
+        "Bytes": 13465160,
+        "FileVersion": "4.4.0",
+        "SHA256": "4510F1883DFAD3238602BAE9A7A4B441FB4A931A643604AA44336710B6BE5F6F"
+      },
+      {
+        "Path": "C:\\Users\\JAEWAN\\Downloads\\ComfyUI-Easy-Install\\ComfyUI-Easy-Install\\python_embeded\\Scripts\\ninja.exe",
+        "Bytes": 598528,
+        "FileVersion": null,
+        "SHA256": "CB4590BAD18F01607E819908D536FBA71AFBE36EB0F1D5A13C60D88D635CA959"
+      },
+      {
+        "Path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+        "Bytes": 677736,
+        "FileVersion": "19.44.35228.0",
+        "SHA256": "88C8344236A27A6E727E0A8EDC49AAA2690BDC7A9464B9D18CC7ABE70A9F1C0D"
+      },
+      {
+        "Path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat",
+        "Bytes": 39,
+        "FileVersion": null,
+        "SHA256": "6B516D8FCF543C14B2D861E1F45661E0029230FE0DC48E86CE78522801822209"
+      },
+      {
+        "Path": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um\\Windows.h",
+        "Bytes": 7153,
+        "FileVersion": null,
+        "SHA256": "65CCD069FE343519A7EC0698CCAF5A6F0388F1AF180B959B8271902B983CB099"
+      },
+      {
+        "Path": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\um\\x64\\kernel32.lib",
+        "Bytes": 300468,
+        "FileVersion": null,
+        "SHA256": "D9810FEACBB1150584CDD484EA1CE60B4E6B3DDEC3B8AFA505C0AE47330027E2"
+      },
+      {
+        "Path": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.19041.0\\ucrt\\x64\\ucrt.lib",
+        "Bytes": 285588,
+        "FileVersion": null,
+        "SHA256": "7EF4EAC926BF597D2F243F16CDFED7E0DB22CB3CA34A1D7E088A84C994A03D66"
+      }
+    ],
+    "UE_clang_candidate_directories": [],
+    "proposed_isolated_path_exists": false,
+    "search_scope": [
+      "C:\\Users\\JAEWAN\\dev",
+      "C:\\work",
+      "C:\\workspace",
+      "C:\\w",
+      "C:\\c",
+      "C:\\Users\\JAEWAN\\Downloads",
+      "Blender install folder and VS BuildTools"
+    ]
+  },
+  "files": [
+    {
+      "path": "EXISTING_BUILD_TOOLS_AND_SDK.json",
+      "bytes": 2239,
+      "sha256": "c0f5e6dff99ce6972075a50c0a5d33b6f4f50a8877f412e356ec05c1df22297e"
+    },
+    {
+      "path": "GUARDED_STRONG6_ENTRY_AND_OUTPUT_CONTRACT_R1.md",
+      "bytes": 5384,
+      "sha256": "85ff8a161c0cfacc921055c354650c51ca3b5ca377dc0977ddd3761d186ac8eb"
+    },
+    {
+      "path": "INSTALLED_BUILD_GLOBAL_STRINGS.json",
+      "bytes": 2697,
+      "sha256": "a78aecc6b08ecc7ed5e1e77f066dd771a79d7a4502c5aba8f59459da94da5928"
+    },
+    {
+      "path": "INSTALLED_PE_PDB_IDENTITY.json",
+      "bytes": 8740,
+      "sha256": "cc2453912b0e20a861626b2f9fe77446b40317782cd442697a6fadfdef4f5748"
+    },
+    {
+      "path": "PDB_CAPABILITY_AND_PUBLIC_SYMBOLS.json",
+      "bytes": 2232,
+      "sha256": "afe1d37ac23aa23be90ae43cd0be276909edf7eb037b8089089aab9722ec4513"
+    },
+    {
+      "path": "PDB_CYCLES_MODULE_COMPILER_RECORDS.json",
+      "bytes": 131,
+      "sha256": "3123f2e9af550d93892d34ce6599a5a8a6ffeda8f1fa7060ab10722f9d13a5f7"
+    },
+    {
+      "path": "PDB_NATIVE_OBSERVER_INVENTORY.json",
+      "bytes": 75353,
+      "sha256": "1e6be4cdc7926b11393a43526c42dbbbace6c2a17afed5493ddd2cbf6016f44e"
+    },
+    {
+      "path": "PDB_SYMBOL_RVA_CHECK.json",
+      "bytes": 16371,
+      "sha256": "91df8c346c6fd968da63d1e3c1f54103f0a0b725bf9fcf1b7adba575346570f5"
+    },
+    {
+      "path": "PE_EXPORTS.log",
+      "bytes": 1150,
+      "sha256": "8cbef17e3ba6d2fa7d64e3a35be67615e6d3b3df0c5c56c248a2b2c7d81e240a"
+    },
+    {
+      "path": "PROPOSED_GUARDED_HOST_READBACK.diff",
+      "bytes": 5152,
+      "sha256": "ef68ca751f580b2dd9c11f0feb9f1377fc5fced4a5525452efa883f330332bbe"
+    },
+    {
+      "path": "PROPOSED_SOURCE_DIFF_RECEIPT.json",
+      "bytes": 1248,
+      "sha256": "dac5979eed991b5a6c4b05174cdc11ec9a58208c29070effa81ad5e508e3c542"
+    },
+    {
+      "path": "ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1.md",
+      "bytes": 9217,
+      "sha256": "5c8480b5e6438953d4a09987a67040c1dd93820453765fcd8048ad5ef892a6f9"
+    },
+    {
+      "path": "SYSTEM_RESOURCE_SNAPSHOT.json",
+      "bytes": 3025,
+      "sha256": "5d86113bc2ca9e3e6b0f533df46fec60d068a542603ea1a96e6054c578893eb1"
+    },
+    {
+      "path": "UPSTREAM_SOURCE_RECEIPT.json",
+      "bytes": 5803,
+      "sha256": "120a31a498c9ca60adecc592a7474495b12f9966e328f23c5f0c21f2ebb42da2"
+    },
+    {
+      "path": "upstream/Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "upstream/COPYING",
+      "bytes": 302,
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387"
+    },
+    {
+      "path": "upstream/source/creator/buildinfo.c",
+      "bytes": 1489,
+      "sha256": "0ce0430bece916f88e5984955a9d8e1b746ebe1cec4ef42fe4e61a6a4dc6943c"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/mesh.cpp",
+      "bytes": 43054,
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/python.cpp",
+      "bytes": 27720,
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/session.cpp",
+      "bytes": 36489,
+      "sha256": "b0e56332e47577537a976efecd14041db6b20aae197a9a0a5cafe3ddb79a1136"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/shader.cpp",
+      "bytes": 78773,
+      "sha256": "1d5d479326dd6bed43642fde4488c2e5fc6bf6d94002e5c2d7fda866f287f9a0"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/sync.cpp",
+      "bytes": 46496,
+      "sha256": "7d879d381b1dffb4c8c30f1feb3f1dd258f3e6fb302ea6ad6c43cf39d9bea895"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/sync.h",
+      "bytes": 11402,
+      "sha256": "9ac87ba71ae9e6a5781646f3c88250e69adc591e3010d6301b1bdcf409385f23"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/attribute.cpp",
+      "bytes": 32593,
+      "sha256": "61d47bcadb82e21e189f9c42591ce6578dcd7af5023993d4469d963837796799"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/attribute.h",
+      "bytes": 9114,
+      "sha256": "0e85e284362cbb1ca5580f373984aec13264917498d1bc47e8960bc53896d9ea"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/geometry.cpp",
+      "bytes": 39767,
+      "sha256": "1ba91093ca1a983e7e5c743b27955d9da20cb8fcac9168338e695c68088edea7"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/geometry.h",
+      "bytes": 8844,
+      "sha256": "5c6334b0c19ddf992e54dbba891ec914386878f76617187c1bf1feb9c10c2ff9"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/geometry_attributes.cpp",
+      "bytes": 23563,
+      "sha256": "0e50fec6351292d198303220c8657bd70593f57a12199ecbcd5858e11cf653d1"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/mesh.cpp",
+      "bytes": 30464,
+      "sha256": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/scene.cpp",
+      "bytes": 35350,
+      "sha256": "a2de5da0021ac4ac8e99521fbd443c8eb740e86f26d366978a44d24cb430bc2a"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/scene.h",
+      "bytes": 10367,
+      "sha256": "9baa57ff34569bedefa22873e297f17234e2a867b66f929717e6d2e3c0dda655"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/shader.cpp",
+      "bytes": 36136,
+      "sha256": "024804a4de683acb1d12abfd9121790c14022069bead45b521507dc4b3d40b49"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/shader.h",
+      "bytes": 7795,
+      "sha256": "cdafd28a51422252fa95e6d7d434c525cf4b5742d6591bafc8a75db38a057fcf"
+    },
+    {
+      "path": "upstream/intern/cycles/session/session.cpp",
+      "bytes": 22906,
+      "sha256": "efed5ff97bb0028a1e6cc997e5e84ee7d39807894e66b5cad97ce9345a0bed9c"
+    },
+    {
+      "path": "upstream/intern/cycles/device/cpu/device.cpp",
+      "bytes": 1393,
+      "sha256": "bbd622923cbb6c401a5ee766f4abcf6b41708ae8bc735c249cde01268fe6b308"
+    },
+    {
+      "path": "upstream/intern/cycles/device/cpu/device_impl.cpp",
+      "bytes": 9913,
+      "sha256": "9be1d060fbbaccfb702e5f2b9127345dd61dd7480c3bdb88edee904c8ca3faf3"
+    }
+  ],
+  "next_bounded_stage": "Resource/config/typed native adapter plus denial/writer implementation under isolated build root;no stock sync job ready. Large resource sizes must be determined first; current user large-download rule retained.",
+  "post_inventory_EXE_PDB_master_library_hashes_match": true,
+  "immutable_master_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "immutable_Action_library_sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d"
+}

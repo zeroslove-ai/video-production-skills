@@ -1,0 +1,282 @@
+{
+  "task_id": "ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_CYCLES_READBACK_PREPARATION_20261003_R1_6664a345c246",
+  "manifest_sha256": "6664a345c2466b433ef667cf3a00ce043ef4d4f214cc03a6e3089f0ce5571244",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_CYCLES_READBACK_PREPARATION_20261003_R1_6664a345c246\\YURI_O1_R4_CYCLES_READBACK_PREPARATION_20261003_R1.part01-of-01.zip",
+      "sha256": "04e2e5efb0f5a764319e1467cc1a3507a41dad3f3f23273f3167c45959ca7b74",
+      "bytes": 839398,
+      "files": [
+        "EXISTING_BUILD_TOOLS_AND_SDK.json",
+        "GUARDED_STRONG6_ENTRY_AND_OUTPUT_CONTRACT_R1.md",
+        "INSTALLED_BUILD_GLOBAL_STRINGS.json",
+        "INSTALLED_PE_PDB_IDENTITY.json",
+        "PDB_CAPABILITY_AND_PUBLIC_SYMBOLS.json",
+        "PDB_CYCLES_MODULE_COMPILER_RECORDS.json",
+        "PDB_NATIVE_OBSERVER_INVENTORY.json",
+        "PDB_SYMBOL_RVA_CHECK.json",
+        "PE_EXPORTS.log",
+        "PROPOSED_GUARDED_HOST_READBACK.diff",
+        "PROPOSED_SOURCE_DIFF_RECEIPT.json",
+        "ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1.md",
+        "SYSTEM_RESOURCE_SNAPSHOT.json",
+        "UPSTREAM_SOURCE_RECEIPT.json",
+        "upstream/Apache-2.0.txt",
+        "upstream/COPYING",
+        "upstream/source/creator/buildinfo.c",
+        "upstream/intern/cycles/blender/mesh.cpp",
+        "upstream/intern/cycles/blender/python.cpp",
+        "upstream/intern/cycles/blender/session.cpp",
+        "upstream/intern/cycles/blender/shader.cpp",
+        "upstream/intern/cycles/blender/sync.cpp",
+        "upstream/intern/cycles/blender/sync.h",
+        "upstream/intern/cycles/scene/attribute.cpp",
+        "upstream/intern/cycles/scene/attribute.h",
+        "upstream/intern/cycles/scene/geometry.cpp",
+        "upstream/intern/cycles/scene/geometry.h",
+        "upstream/intern/cycles/scene/geometry_attributes.cpp",
+        "upstream/intern/cycles/scene/mesh.cpp",
+        "upstream/intern/cycles/scene/scene.cpp",
+        "upstream/intern/cycles/scene/scene.h",
+        "upstream/intern/cycles/scene/shader.cpp",
+        "upstream/intern/cycles/scene/shader.h",
+        "upstream/intern/cycles/session/session.cpp",
+        "upstream/intern/cycles/device/cpu/device.cpp",
+        "upstream/intern/cycles/device/cpu/device_impl.cpp",
+        "metadata/EXISTING_BUILD_TOOLS_AND_SDK.json",
+        "metadata/GUARDED_STRONG6_ENTRY_AND_OUTPUT_CONTRACT_R1.md",
+        "metadata/INSTALLED_BUILD_GLOBAL_STRINGS.json",
+        "metadata/INSTALLED_PE_PDB_IDENTITY.json",
+        "metadata/PDB_CAPABILITY_AND_PUBLIC_SYMBOLS.json",
+        "metadata/PDB_CYCLES_MODULE_COMPILER_RECORDS.json",
+        "metadata/PDB_NATIVE_OBSERVER_INVENTORY.json",
+        "metadata/PDB_SYMBOL_RVA_CHECK.json",
+        "metadata/PROPOSED_SOURCE_DIFF_RECEIPT.json",
+        "metadata/READBACK_PREPARATION_MANIFEST.json",
+        "metadata/ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1.md",
+        "metadata/SYSTEM_RESOURCE_SNAPSHOT.json",
+        "metadata/UPSTREAM_SOURCE_RECEIPT.json",
+        "scripts/r4_installed_blender_pdb_inventory.py",
+        "scripts/r4_source_reference_packet_freeze.py",
+        "scripts/r4_prepare_guarded_host_readback_patch.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "EXISTING_BUILD_TOOLS_AND_SDK.json": {
+      "sha256": "c0f5e6dff99ce6972075a50c0a5d33b6f4f50a8877f412e356ec05c1df22297e",
+      "bytes": 2239
+    },
+    "GUARDED_STRONG6_ENTRY_AND_OUTPUT_CONTRACT_R1.md": {
+      "sha256": "85ff8a161c0cfacc921055c354650c51ca3b5ca377dc0977ddd3761d186ac8eb",
+      "bytes": 5384
+    },
+    "INSTALLED_BUILD_GLOBAL_STRINGS.json": {
+      "sha256": "a78aecc6b08ecc7ed5e1e77f066dd771a79d7a4502c5aba8f59459da94da5928",
+      "bytes": 2697
+    },
+    "INSTALLED_PE_PDB_IDENTITY.json": {
+      "sha256": "cc2453912b0e20a861626b2f9fe77446b40317782cd442697a6fadfdef4f5748",
+      "bytes": 8740
+    },
+    "PDB_CAPABILITY_AND_PUBLIC_SYMBOLS.json": {
+      "sha256": "afe1d37ac23aa23be90ae43cd0be276909edf7eb037b8089089aab9722ec4513",
+      "bytes": 2232
+    },
+    "PDB_CYCLES_MODULE_COMPILER_RECORDS.json": {
+      "sha256": "3123f2e9af550d93892d34ce6599a5a8a6ffeda8f1fa7060ab10722f9d13a5f7",
+      "bytes": 131
+    },
+    "PDB_NATIVE_OBSERVER_INVENTORY.json": {
+      "sha256": "1e6be4cdc7926b11393a43526c42dbbbace6c2a17afed5493ddd2cbf6016f44e",
+      "bytes": 75353
+    },
+    "PDB_SYMBOL_RVA_CHECK.json": {
+      "sha256": "91df8c346c6fd968da63d1e3c1f54103f0a0b725bf9fcf1b7adba575346570f5",
+      "bytes": 16371
+    },
+    "PE_EXPORTS.log": {
+      "sha256": "8cbef17e3ba6d2fa7d64e3a35be67615e6d3b3df0c5c56c248a2b2c7d81e240a",
+      "bytes": 1150
+    },
+    "PROPOSED_GUARDED_HOST_READBACK.diff": {
+      "sha256": "ef68ca751f580b2dd9c11f0feb9f1377fc5fced4a5525452efa883f330332bbe",
+      "bytes": 5152
+    },
+    "PROPOSED_SOURCE_DIFF_RECEIPT.json": {
+      "sha256": "dac5979eed991b5a6c4b05174cdc11ec9a58208c29070effa81ad5e508e3c542",
+      "bytes": 1248
+    },
+    "ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1.md": {
+      "sha256": "5c8480b5e6438953d4a09987a67040c1dd93820453765fcd8048ad5ef892a6f9",
+      "bytes": 9217
+    },
+    "SYSTEM_RESOURCE_SNAPSHOT.json": {
+      "sha256": "5d86113bc2ca9e3e6b0f533df46fec60d068a542603ea1a96e6054c578893eb1",
+      "bytes": 3025
+    },
+    "UPSTREAM_SOURCE_RECEIPT.json": {
+      "sha256": "120a31a498c9ca60adecc592a7474495b12f9966e328f23c5f0c21f2ebb42da2",
+      "bytes": 5803
+    },
+    "upstream/Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "upstream/COPYING": {
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302
+    },
+    "upstream/source/creator/buildinfo.c": {
+      "sha256": "0ce0430bece916f88e5984955a9d8e1b746ebe1cec4ef42fe4e61a6a4dc6943c",
+      "bytes": 1489
+    },
+    "upstream/intern/cycles/blender/mesh.cpp": {
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054
+    },
+    "upstream/intern/cycles/blender/python.cpp": {
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0",
+      "bytes": 27720
+    },
+    "upstream/intern/cycles/blender/session.cpp": {
+      "sha256": "b0e56332e47577537a976efecd14041db6b20aae197a9a0a5cafe3ddb79a1136",
+      "bytes": 36489
+    },
+    "upstream/intern/cycles/blender/shader.cpp": {
+      "sha256": "1d5d479326dd6bed43642fde4488c2e5fc6bf6d94002e5c2d7fda866f287f9a0",
+      "bytes": 78773
+    },
+    "upstream/intern/cycles/blender/sync.cpp": {
+      "sha256": "7d879d381b1dffb4c8c30f1feb3f1dd258f3e6fb302ea6ad6c43cf39d9bea895",
+      "bytes": 46496
+    },
+    "upstream/intern/cycles/blender/sync.h": {
+      "sha256": "9ac87ba71ae9e6a5781646f3c88250e69adc591e3010d6301b1bdcf409385f23",
+      "bytes": 11402
+    },
+    "upstream/intern/cycles/scene/attribute.cpp": {
+      "sha256": "61d47bcadb82e21e189f9c42591ce6578dcd7af5023993d4469d963837796799",
+      "bytes": 32593
+    },
+    "upstream/intern/cycles/scene/attribute.h": {
+      "sha256": "0e85e284362cbb1ca5580f373984aec13264917498d1bc47e8960bc53896d9ea",
+      "bytes": 9114
+    },
+    "upstream/intern/cycles/scene/geometry.cpp": {
+      "sha256": "1ba91093ca1a983e7e5c743b27955d9da20cb8fcac9168338e695c68088edea7",
+      "bytes": 39767
+    },
+    "upstream/intern/cycles/scene/geometry.h": {
+      "sha256": "5c6334b0c19ddf992e54dbba891ec914386878f76617187c1bf1feb9c10c2ff9",
+      "bytes": 8844
+    },
+    "upstream/intern/cycles/scene/geometry_attributes.cpp": {
+      "sha256": "0e50fec6351292d198303220c8657bd70593f57a12199ecbcd5858e11cf653d1",
+      "bytes": 23563
+    },
+    "upstream/intern/cycles/scene/mesh.cpp": {
+      "sha256": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54",
+      "bytes": 30464
+    },
+    "upstream/intern/cycles/scene/scene.cpp": {
+      "sha256": "a2de5da0021ac4ac8e99521fbd443c8eb740e86f26d366978a44d24cb430bc2a",
+      "bytes": 35350
+    },
+    "upstream/intern/cycles/scene/scene.h": {
+      "sha256": "9baa57ff34569bedefa22873e297f17234e2a867b66f929717e6d2e3c0dda655",
+      "bytes": 10367
+    },
+    "upstream/intern/cycles/scene/shader.cpp": {
+      "sha256": "024804a4de683acb1d12abfd9121790c14022069bead45b521507dc4b3d40b49",
+      "bytes": 36136
+    },
+    "upstream/intern/cycles/scene/shader.h": {
+      "sha256": "cdafd28a51422252fa95e6d7d434c525cf4b5742d6591bafc8a75db38a057fcf",
+      "bytes": 7795
+    },
+    "upstream/intern/cycles/session/session.cpp": {
+      "sha256": "efed5ff97bb0028a1e6cc997e5e84ee7d39807894e66b5cad97ce9345a0bed9c",
+      "bytes": 22906
+    },
+    "upstream/intern/cycles/device/cpu/device.cpp": {
+      "sha256": "bbd622923cbb6c401a5ee766f4abcf6b41708ae8bc735c249cde01268fe6b308",
+      "bytes": 1393
+    },
+    "upstream/intern/cycles/device/cpu/device_impl.cpp": {
+      "sha256": "9be1d060fbbaccfb702e5f2b9127345dd61dd7480c3bdb88edee904c8ca3faf3",
+      "bytes": 9913
+    },
+    "metadata/EXISTING_BUILD_TOOLS_AND_SDK.json": {
+      "sha256": "c0f5e6dff99ce6972075a50c0a5d33b6f4f50a8877f412e356ec05c1df22297e",
+      "bytes": 2239
+    },
+    "metadata/GUARDED_STRONG6_ENTRY_AND_OUTPUT_CONTRACT_R1.md": {
+      "sha256": "85ff8a161c0cfacc921055c354650c51ca3b5ca377dc0977ddd3761d186ac8eb",
+      "bytes": 5384
+    },
+    "metadata/INSTALLED_BUILD_GLOBAL_STRINGS.json": {
+      "sha256": "a78aecc6b08ecc7ed5e1e77f066dd771a79d7a4502c5aba8f59459da94da5928",
+      "bytes": 2697
+    },
+    "metadata/INSTALLED_PE_PDB_IDENTITY.json": {
+      "sha256": "cc2453912b0e20a861626b2f9fe77446b40317782cd442697a6fadfdef4f5748",
+      "bytes": 8740
+    },
+    "metadata/PDB_CAPABILITY_AND_PUBLIC_SYMBOLS.json": {
+      "sha256": "afe1d37ac23aa23be90ae43cd0be276909edf7eb037b8089089aab9722ec4513",
+      "bytes": 2232
+    },
+    "metadata/PDB_CYCLES_MODULE_COMPILER_RECORDS.json": {
+      "sha256": "3123f2e9af550d93892d34ce6599a5a8a6ffeda8f1fa7060ab10722f9d13a5f7",
+      "bytes": 131
+    },
+    "metadata/PDB_NATIVE_OBSERVER_INVENTORY.json": {
+      "sha256": "1e6be4cdc7926b11393a43526c42dbbbace6c2a17afed5493ddd2cbf6016f44e",
+      "bytes": 75353
+    },
+    "metadata/PDB_SYMBOL_RVA_CHECK.json": {
+      "sha256": "91df8c346c6fd968da63d1e3c1f54103f0a0b725bf9fcf1b7adba575346570f5",
+      "bytes": 16371
+    },
+    "metadata/PROPOSED_SOURCE_DIFF_RECEIPT.json": {
+      "sha256": "dac5979eed991b5a6c4b05174cdc11ec9a58208c29070effa81ad5e508e3c542",
+      "bytes": 1248
+    },
+    "metadata/READBACK_PREPARATION_MANIFEST.json": {
+      "sha256": "6664a345c2466b433ef667cf3a00ce043ef4d4f214cc03a6e3089f0ce5571244",
+      "bytes": 13807
+    },
+    "metadata/ROOT_PM_ACTUAL_CYCLES_READBACK_PREPARATION_R1.md": {
+      "sha256": "5c8480b5e6438953d4a09987a67040c1dd93820453765fcd8048ad5ef892a6f9",
+      "bytes": 9217
+    },
+    "metadata/SYSTEM_RESOURCE_SNAPSHOT.json": {
+      "sha256": "5d86113bc2ca9e3e6b0f533df46fec60d068a542603ea1a96e6054c578893eb1",
+      "bytes": 3025
+    },
+    "metadata/UPSTREAM_SOURCE_RECEIPT.json": {
+      "sha256": "120a31a498c9ca60adecc592a7474495b12f9966e328f23c5f0c21f2ebb42da2",
+      "bytes": 5803
+    },
+    "scripts/r4_installed_blender_pdb_inventory.py": {
+      "sha256": "f603d13e665ee2ef5f988227e0513dab9913a322f7fbc7c89cdc8a3059cc6d7a",
+      "bytes": 6227
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "87f26d5471d0416e1bad44eb9a1d829759d445961d472c7a0cf1a04894cf79f7",
+      "bytes": 8188
+    },
+    "scripts/r4_prepare_guarded_host_readback_patch.py": {
+      "sha256": "f50a8f691dbe652367acdbd1e1c2ef3053858586f2954de1180d019a4d8df70d",
+      "bytes": 6682
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 839398,
+  "data_bytes": 664030,
+  "aggregate_file_manifest_sha256": "58f097b53ce254c8a91cdf77e1de4c5842268dc1d8fc0fe875c837585f1c62d9",
+  "source_or_frozen_input_writes": 0
+}

@@ -1,0 +1,52 @@
+{
+  "build_linkflags": {
+    "value": "/MACHINE:X64  /SUBSYSTEM:CONSOLE /STACK:2097152 /ignore:4049 /ignore:4217 /ignore:4221",
+    "RVA": 105874640,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_platform": {
+    "value": "Windows",
+    "RVA": 105873637,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_cxxflags": {
+    "value": " /W3 -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wno-overloaded-virtual -Wno-sign-compare -Wno-invalid-offsetof -Wno-suggest-override -Wundef -Wundef-prefix -Wunused-parameter -Wmismatched-tags -Werror=unguarded-availability-new /DWIN32 /D_WINDOWS /EHsc  /Gy /MP /nologo /J /Gd /showFilenames /EHsc -Wno-unused-command-line-argument -Wno-microsoft-enum-forward-reference /clang:-funsigned-char /clang:-fno-strict-aliasing /clang:-ffp-contract=off -march=x86-64-v2 ",
+    "RVA": 105874144,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_date": {
+    "value": "2026-08-25",
+    "RVA": 105873568,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_system": {
+    "value": "CMake",
+    "RVA": 105874727,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_hash": {
+    "value": "9e2066aef7ef",
+    "RVA": 105873588,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_type": {
+    "value": "Release",
+    "RVA": 105873645,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_time": {
+    "value": "02:38:20",
+    "RVA": 105873579,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_branch": {
+    "value": "blender-v5.2-release",
+    "RVA": 105873616,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  },
+  "build_cflags": {
+    "value": " /W3 -Werror=implicit-function-declaration -Werror=return-type -Wno-tautological-compare -Wno-unknown-pragmas -Wno-char-subscripts -Wstrict-prototypes -Wmissing-prototypes -Wunused-parameter -Wundef -Wundef-prefix -Werror=unguarded-availability-new /DWIN32 /D_WINDOWS /MP /nologo /J /Gy /Gd /showFilenames -Wno-unused-command-line-argument -Wno-microsoft-enum-forward-reference /clang:-funsigned-char /clang:-fno-strict-aliasing /clang:-ffp-contract=off -march=x86-64-v2 ",
+    "RVA": 105873664,
+    "on_disk_source": "PDB public data symbol + PE section raw bytes; no process memory"
+  }
+}

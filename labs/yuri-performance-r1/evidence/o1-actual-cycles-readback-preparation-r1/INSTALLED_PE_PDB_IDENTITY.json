@@ -1,0 +1,60 @@
+{
+  "exe": {
+    "path": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "bytes": 113014232,
+    "sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+    "CodeView_RSDS": [
+      {
+        "guid": "9033ee60-d621-7701-4c4c-44205044422e",
+        "age": 1,
+        "embedded_PDB_path": "C:\\Users\\blender\\git\\blender-v520\\build_release_2022cl\\source\\creator\\Release\\blender_private.pdb"
+      }
+    ]
+  },
+  "PDB": {
+    "path": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.pdb",
+    "bytes": 88977408,
+    "sha256": "3086e93547d9ce8c7b559422ed331441d3f8de29f42e7cf13d15b98975cf20ce",
+    "GUID": "9033ee60-d621-7701-4c4c-44205044422e",
+    "age": 1,
+    "MSF_block_size": 4096,
+    "stream_count": 2350,
+    "info_stream_sha256": "c89c68f5e208dad6ca5b196333bd6adb46439ca92e888a14a236510b967abf9b"
+  },
+  "PE_PDB_GUID_age_match": true,
+  "executable_embedded_build_hash_strings": [],
+  "executable_embedded_compiler_flag_strings": [],
+  "PDB_raw_ASCII_target_symbol_hits": [
+    "??$_Reallocate@$0A@@?$vector@UTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V?$allocator@UTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@AEAAXAEA_K@Z",
+    "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+    "??1?$_Uninitialized_backout_al@V?$allocator@UNeighborShard@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@@std@@@std@@QEAA@XZ",
+    "??$_Stable_partition_unchecked@PEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@V<lambda_3>@?0??degenPrologue@23@IEAAXXZ@@std@@YAPEAUTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@PEAU123@0V<lambda_3>@?0??degenPrologue@23@IEAAXXZ@@Z",
+    "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+    "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_2>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+    "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+    "??R<lambda_1>@?0??initTriangle@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@QEBA?A?<auto>@@I@Z",
+    "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??degenPrologue@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+    "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+    "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+    "??1?$AtomicHashSet@I$00UVertexHash@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@UVertexEqual@23@UAtomicHashSetLinearProbeFcn@3@@mikk@@QEAA@XZ",
+    "?GetTexCoord@MikkMeshWrapper@ccl@@QEAA?AUfloat3@mikk@@HH@Z",
+    "??$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+    "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+    "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+    "?GetNormal@MikkMeshWrapper@ccl@@QEAA?AUfloat3@mikk@@HH@Z",
+    "?update_tangents@Mesh@ccl@@QEAAXPEAVScene@2@_N@Z",
+    "?generateInitialVerticesIndexList@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+    "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+    "??R<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@QEBA?A?<auto>@@I@Z",
+    "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+    "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+    "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+    "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$00@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+    "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+    "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??buildNeighbors@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+    "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0???$generateSharedVerticesIndexList_impl@$0A@@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+    "??RVertexHash@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@QEBAIAEBI@Z",
+    "?assignRecur@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXII@Z"
+  ],
+  "PDB_symbol_hit_scope": "Raw on-disk string evidence only; not a verified symbol RVA/type/layout reader and not process memory access."
+}

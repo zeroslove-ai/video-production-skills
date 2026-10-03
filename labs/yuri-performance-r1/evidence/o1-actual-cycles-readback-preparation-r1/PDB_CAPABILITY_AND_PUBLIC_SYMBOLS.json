@@ -1,0 +1,80 @@
+{
+  "DBI_age": 1,
+  "symbol_record_stream": 2349,
+  "DBI_module_info_bytes": 1345588,
+  "DBI_flags": 2,
+  "TPI_stream_bytes": 56,
+  "TPI_type_index_begin": 4096,
+  "TPI_type_index_end": 4096,
+  "TPI_type_record_bytes": 0,
+  "S_PUB32_symbols": [
+    {
+      "name": "?find@AttributeSet@ccl@@QEAAPEAVAttribute@2@AEAVAttributeRequest@2@@Z",
+      "section": 1,
+      "offset": 55567744,
+      "flags": 2
+    },
+    {
+      "name": "?update_tangents@Mesh@ccl@@QEAAXPEAVScene@2@_N@Z",
+      "section": 1,
+      "offset": 61826336,
+      "flags": 2
+    },
+    {
+      "name": "__imp_?find@AttributeSet@points@v13_0@openvdb@@QEBA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+      "section": 2,
+      "offset": 18069288,
+      "flags": 0
+    },
+    {
+      "name": "?synchronize@BlenderSession@ccl@@QEAAXAEAUDepsgraph@blender@@@Z",
+      "section": 1,
+      "offset": 36424896,
+      "flags": 2
+    },
+    {
+      "name": "?find@AttributeSet@ccl@@QEBAPEAVAttribute@2@W4AttributeStandard@2@@Z",
+      "section": 1,
+      "offset": 55567632,
+      "flags": 2
+    },
+    {
+      "name": "?find@AttributeSet@ccl@@QEBAPEAVAttribute@2@Vustring@v3_1@OpenImageIO@@@Z",
+      "section": 1,
+      "offset": 55565152,
+      "flags": 2
+    },
+    {
+      "name": "?device_update@GeometryManager@ccl@@QEAAXPEAVDevice@2@PEAVDeviceScene@2@PEAVScene@2@AEAVProgress@2@@Z",
+      "section": 1,
+      "offset": 61630608,
+      "flags": 2
+    },
+    {
+      "name": "?need_attribute@Geometry@ccl@@QEAA_NPEBVScene@2@W4AttributeStandard@2@@Z",
+      "section": 1,
+      "offset": 65042704,
+      "flags": 2
+    },
+    {
+      "name": "?need_attribute@Geometry@ccl@@QEAA_NPEAVScene@2@Vustring@v3_1@OpenImageIO@@@Z",
+      "section": 1,
+      "offset": 65042832,
+      "flags": 2
+    },
+    {
+      "name": "?data_sizeof@Attribute@ccl@@QEBA_KXZ",
+      "section": 1,
+      "offset": 55559056,
+      "flags": 2
+    },
+    {
+      "name": "?sync_mesh@BlenderSync@ccl@@AEAAXAEAUBObjectInfo@2@PEAVMesh@2@@Z",
+      "section": 1,
+      "offset": 70763840,
+      "flags": 2
+    }
+  ],
+  "symbol_records_parsed_bytes": 59005488,
+  "symbol_records_bytes": 59005488
+}

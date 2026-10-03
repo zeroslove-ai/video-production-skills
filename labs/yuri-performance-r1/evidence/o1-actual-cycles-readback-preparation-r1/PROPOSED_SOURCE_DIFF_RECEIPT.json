@@ -1,0 +1,21 @@
+{
+  "status": "PROPOSED_SOURCE_DIFF_NOT_APPLIED_NOT_COMPILED",
+  "guard_macro": "WITH_CYCLES_HOST_MESH_READBACK",
+  "scope": "Only compiled into a separate research binary; defaults absent. Does not register Python API or create Scene/device/session. Driver/writers and lifecycle denial instrumentation still required.",
+  "original_files": {
+    "intern/cycles/blender/sync.h": {
+      "sha256": "9ac87ba71ae9e6a5781646f3c88250e69adc591e3010d6301b1bdcf409385f23",
+      "bytes": 11402
+    },
+    "intern/cycles/blender/mesh.cpp": {
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054
+    },
+    "intern/cycles/blender/sync.cpp": {
+      "sha256": "7d879d381b1dffb4c8c30f1feb3f1dd258f3e6fb302ea6ad6c43cf39d9bea895",
+      "bytes": 46496
+    }
+  },
+  "diff_sha256": "ef68ca751f580b2dd9c11f0feb9f1377fc5fced4a5525452efa883f330332bbe",
+  "not_a_safe_observer_readiness_claim": "No compilation, ABI layout, runtime side effect or caller lifetime has been verified for this proposal. Kernel flag alone cannot prove absence of earlier device upload; driver must deny device_update/load_kernels/upload/BVH/session start entrypoints and serialize native buffers with typed access."
+}

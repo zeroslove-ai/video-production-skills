@@ -1,0 +1,382 @@
+{
+  "sections": [
+    {
+      "name": ".text",
+      "virtual_size": 79786134,
+      "VA": 4096,
+      "raw_size": 79786496,
+      "raw_pointer": 1024
+    },
+    {
+      "name": ".rdata",
+      "virtual_size": 26078572,
+      "VA": 79794176,
+      "raw_size": 26078720,
+      "raw_pointer": 79787520
+    },
+    {
+      "name": ".data",
+      "virtual_size": 16437952,
+      "VA": 105873408,
+      "raw_size": 4052992,
+      "raw_pointer": 105866240
+    },
+    {
+      "name": ".pdata",
+      "virtual_size": 2483736,
+      "VA": 122314752,
+      "raw_size": 2484224,
+      "raw_pointer": 109919232
+    },
+    {
+      "name": ".tgtsym",
+      "virtual_size": 2347,
+      "VA": 124801024,
+      "raw_size": 2560,
+      "raw_pointer": 112403456
+    },
+    {
+      "name": ".tls",
+      "virtual_size": 613,
+      "VA": 124805120,
+      "raw_size": 1024,
+      "raw_pointer": 112406016
+    },
+    {
+      "name": ".rsrc",
+      "virtual_size": 307280,
+      "VA": 124809216,
+      "raw_size": 307712,
+      "raw_pointer": 112407040
+    },
+    {
+      "name": ".reloc",
+      "virtual_size": 284640,
+      "VA": 125120512,
+      "raw_size": 284672,
+      "raw_pointer": 112714752
+    }
+  ],
+  "S_PUB32_RVA_records": [
+    {
+      "name": "?find@AttributeSet@ccl@@QEAAPEAVAttribute@2@AEAVAttributeRequest@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 55567744,
+      "RVA": 55571840,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "??$work_balance@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$dynamic_grainsize_mode@U?$adaptive_mode@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61870704,
+      "RVA": 61874800,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "?GetNormal@MikkMeshWrapper@ccl@@QEAA?AUfloat3@mikk@@HH@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61844512,
+      "RVA": 61848608,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "?update_tangents@Mesh@ccl@@QEAAXPEAVScene@2@_N@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61826336,
+      "RVA": 61830432,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "??_R0?AU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@@8",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 3580448,
+      "RVA": 109453856,
+      "within_virtual_and_raw_section": true,
+      "flags": 0
+    },
+    {
+      "name": "build_linkflags",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 1232,
+      "RVA": 105874640,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "2f4d414348494e453a58363420202f53554253595354454d3a434f4e534f4c45202f535441434b3a32303937313532202f69676e6f72653a34303439202f69676e6f72653a34323137202f69676e6f72653a3432323100434d616b65000000000000000000000000018870113ff60e0001020000000000000000000000000000"
+    },
+    {
+      "name": "build_platform",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 229,
+      "RVA": 105873637,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "57696e646f77730052656c65617365000000000000000000000000202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d6465636c61726174696f6e202d576572726f723d72657475726e2d74797065202d576e6f2d746175746f6c6f676963616c2d636f6d70617265202d576e6f2d756e6b6e6f776e"
+    },
+    {
+      "name": "build_commit_date",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 4052848,
+      "RVA": 109926256,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "?generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61834272,
+      "RVA": 61838368,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "build_commit_timestamp",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 196,
+      "RVA": 105873604,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "6c768c6a0000000000000000626c656e6465722d76352e322d72656c656173650057696e646f77730052656c65617365000000000000000000000000202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d6465636c61726174696f6e202d576572726f723d72657475726e2d74797065202d576e6f2d"
+    },
+    {
+      "name": "??$execute@U?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@V?$blocked_range@I@234@@?$partition_type_base@Vauto_partition_type@d1@detail@tbb@@@d1@detail@tbb@@QEAAXAEAU?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@123@AEAV?$blocked_range@I@123@AEAUexecution_data@123@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61870256,
+      "RVA": 61874352,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "build_cxxflags",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 736,
+      "RVA": 105874144,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "202f5733202d576e6f2d746175746f6c6f676963616c2d636f6d70617265202d576e6f2d756e6b6e6f776e2d707261676d6173202d576e6f2d636861722d73756273637269707473202d576e6f2d6f7665726c6f616465642d7669727475616c202d576e6f2d7369676e2d636f6d70617265202d576e6f2d696e76616c69642d"
+    },
+    {
+      "name": "?cancel@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 580128,
+      "RVA": 584224,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "build_date",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 160,
+      "RVA": 105873568,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "323032362d30382d32350030323a33383a323000396532303636616566376566000000006c768c6a0000000000000000626c656e6465722d76352e322d72656c656173650057696e646f77730052656c65617365000000000000000000000000202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d64"
+    },
+    {
+      "name": "?synchronize@BlenderSession@ccl@@QEAAXAEAUDepsgraph@blender@@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 36424896,
+      "RVA": 36428992,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "??_R3?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363240,
+      "RVA": 94157416,
+      "within_virtual_and_raw_section": true,
+      "flags": 0
+    },
+    {
+      "name": "??_R2?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363256,
+      "RVA": 94157432,
+      "within_virtual_and_raw_section": true,
+      "flags": 0
+    },
+    {
+      "name": "??_R4?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363216,
+      "RVA": 94157392,
+      "within_virtual_and_raw_section": true,
+      "flags": 0
+    },
+    {
+      "name": "build_system",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 1319,
+      "RVA": 105874727,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "434d616b65000000000000000000000000018870113ff60e0001020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "??_R1A@?0A@EA@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@8",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363280,
+      "RVA": 94157456,
+      "within_virtual_and_raw_section": true,
+      "flags": 0
+    },
+    {
+      "name": "?find@AttributeSet@ccl@@QEBAPEAVAttribute@2@W4AttributeStandard@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 55567632,
+      "RVA": 55571728,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "?find@AttributeSet@ccl@@QEBAPEAVAttribute@2@Vustring@v3_1@OpenImageIO@@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 55565152,
+      "RVA": 55569248,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "build_hash",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 180,
+      "RVA": 105873588,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "396532303636616566376566000000006c768c6a0000000000000000626c656e6465722d76352e322d72656c656173650057696e646f77730052656c65617365000000000000000000000000202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d6465636c61726174696f6e202d576572726f723d72"
+    },
+    {
+      "name": "??_G?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAXI@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 579792,
+      "RVA": 583888,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "??_7?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@6B@",
+      "section": 2,
+      "section_name": ".rdata",
+      "offset": 14363192,
+      "RVA": 94157368,
+      "within_virtual_and_raw_section": true,
+      "flags": 0
+    },
+    {
+      "name": "build_commit_time",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 4052864,
+      "RVA": 109926272,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "?execute@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@UEAAPEAVtask@234@AEAUexecution_data@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61869968,
+      "RVA": 61874064,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "?device_update@GeometryManager@ccl@@QEAAXPEAVDevice@2@PEAVDeviceScene@2@PEAVScene@2@AEAVProgress@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61630608,
+      "RVA": 61634704,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "?run@?$start_for@V?$blocked_range@I@d1@detail@tbb@@V?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@$$CBVauto_partitioner@234@@d1@detail@tbb@@SAXAEBV?$blocked_range@I@234@AEBV?$parallel_for_body_wrapper@V<lambda_1>@?0??generateTSpaces@?$Mikktspace@UMikkMeshWrapper@ccl@@@mikk@@IEAAXXZ@I@234@AEBVauto_partitioner@234@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 61869568,
+      "RVA": 61873664,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "build_type",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 237,
+      "RVA": 105873645,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "52656c65617365000000000000000000000000202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d6465636c61726174696f6e202d576572726f723d72657475726e2d74797065202d576e6f2d746175746f6c6f676963616c2d636f6d70617265202d576e6f2d756e6b6e6f776e2d707261676d6173"
+    },
+    {
+      "name": "build_time",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 171,
+      "RVA": 105873579,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "30323a33383a323000396532303636616566376566000000006c768c6a0000000000000000626c656e6465722d76352e322d72656c656173650057696e646f77730052656c65617365000000000000000000000000202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d6465636c61726174696f6e20"
+    },
+    {
+      "name": "build_branch",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 208,
+      "RVA": 105873616,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "626c656e6465722d76352e322d72656c656173650057696e646f77730052656c65617365000000000000000000000000202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d6465636c61726174696f6e202d576572726f723d72657475726e2d74797065202d576e6f2d746175746f6c6f676963616c"
+    },
+    {
+      "name": "?sync_mesh@BlenderSync@ccl@@AEAAXAEAUBObjectInfo@2@PEAVMesh@2@@Z",
+      "section": 1,
+      "section_name": ".text",
+      "offset": 70763840,
+      "RVA": 70767936,
+      "within_virtual_and_raw_section": true,
+      "flags": 2
+    },
+    {
+      "name": "build_cflags",
+      "section": 3,
+      "section_name": ".data",
+      "offset": 256,
+      "RVA": 105873664,
+      "within_virtual_and_raw_section": true,
+      "flags": 0,
+      "raw_PE_data_prefix_hex": "202f5733202d576572726f723d696d706c696369742d66756e6374696f6e2d6465636c61726174696f6e202d576572726f723d72657475726e2d74797065202d576e6f2d746175746f6c6f676963616c2d636f6d70617265202d576e6f2d756e6b6e6f776e2d707261676d6173202d576e6f2d636861722d7375627363726970"
+    }
+  ],
+  "matching_symbols_only_no_process_memory_or_type_guess": true
+}
