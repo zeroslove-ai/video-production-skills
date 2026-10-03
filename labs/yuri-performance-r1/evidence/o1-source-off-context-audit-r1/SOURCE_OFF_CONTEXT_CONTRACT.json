@@ -1,0 +1,5281 @@
+{
+  "task_id": "YURI_O1_SOURCE_OFF_CONTEXT_AUDIT_R1",
+  "method": "Python/NumPy existing frozen metadata/array read only; no source file load or Blender job",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_expanded_rigs.json": {
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "bytes": 560498
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_renderers_bind.json": {
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a",
+      "bytes": 2017708
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\neutral_camera_light_color_driver_state.json": {
+      "sha256": "8b3def32f4fe1b591267cdff63e77bb9ea40fad6a9e85bead4dee9a5d99afe91",
+      "bytes": 32179
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\evaluated_driver_geometry_references.json": {
+      "sha256": "9389be451c62068f27428b539da5c053f963e50e197a77c95f9de1f82b0e279d",
+      "bytes": 10669508
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\neutral.npz": {
+      "sha256": "0cf58035a3892ed28d1888790fb45850d895bf55a0911ed45c8a104bc32200be",
+      "bytes": 5241717
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\manual_morph_peak_geometry.npz": {
+      "sha256": "96914e07caf95566692762ec99f30bc6a5cbb4c655057462bb0896ed77f85b9f",
+      "bytes": 4919055
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\MANUAL_MORPH_RECEIPT.json": {
+      "sha256": "3a8fd2289cf7f3d300087c402e61d469403c0d971fc0270beb266700a59aeaa7",
+      "bytes": 230279
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dense-half-expression-r1\\DENSE_HALF_SOURCE_RECEIPT.json": {
+      "sha256": "440937d1d2c50162e22474e7b89753bf91022500e3f259c8b4ac6338e2f83f27",
+      "bytes": 785986
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dense-half-expression-r1\\R4_Existing_DirectMorph_Half_Dense_20261003_R1.npz": {
+      "sha256": "e1ef053db04440e29d945330a87138a8e8cf05baaa16e5d710174b0882fcc83f",
+      "bytes": 4923861
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_recovery_manual_morph.py": {
+      "sha256": "2645a80b64f2522a3c86718365e2057dec21d87d1832619873b6d661f66b24e0",
+      "bytes": 5578
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_dense_half_expression_reference.py": {
+      "sha256": "dadd5029103c8c3feaa27977e044ce70f7bf2362e883cdec8f50d3fda6cc7fb4",
+      "bytes": 10942
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_recovery_source_data.py": {
+      "sha256": "c9f012fd6c554ac4bfc059e2cb55d5273d4a2f4b3cd7181124e7b06d4c427dae",
+      "bytes": 11827
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_o1_native_probe_export.py": {
+      "sha256": "78fad536e24a733c9305c6a9784250a10cbef3af3a2a6ac7735b873652c84194",
+      "bytes": 13054
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_recovery_deform_layers.py": {
+      "sha256": "170b360c415ac383c1e9e43d864108beb13d6f5020effb09eba567558238e29e",
+      "bytes": 5050
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_adapter.py": {
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+      "bytes": 2307
+    }
+  },
+  "frozen_recovery_ZIP_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+  "frozen_half_ZIP_sha256": "b262bd4d62d83823c5febe9f9c3f2903943123ef02df293542b30c7d35b7cc87",
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_OFF_frame": 1,
+  "active_body_Action": null,
+  "rig_Actions": {
+    "Armature": null,
+    "AVATAR_FaceBoard": null,
+    "Hair_Rig_R4": null,
+    "Meshy_Fitted_Rig": null
+  },
+  "body_object_world": [
+    [
+      0.5350000262260437,
+      0.0,
+      0.0,
+      0.0019499999471008778
+    ],
+    [
+      0.0,
+      0.5350000262260437,
+      0.0,
+      -0.02800000086426735
+    ],
+    [
+      0.0,
+      0.0,
+      0.5350000262260437,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "body_object_scale": [
+    0.5350000262260437,
+    0.5350000262260437,
+    0.5350000262260437
+  ],
+  "all_137_bone_pointers": [
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "root",
+      "index": 0,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/0",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pelvis",
+      "index": 1,
+      "deform": true,
+      "parent": "root",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/1",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "spine",
+      "index": 2,
+      "deform": true,
+      "parent": "pelvis",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/2",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "chest",
+      "index": 3,
+      "deform": true,
+      "parent": "spine",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/3",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "neck",
+      "index": 4,
+      "deform": true,
+      "parent": "chest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/4",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "head",
+      "index": 5,
+      "deform": true,
+      "parent": "neck",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/5",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Head_Bind",
+      "index": 6,
+      "deform": false,
+      "parent": "head",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/6",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": true,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.34747496247291565
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Neck_Bind",
+      "index": 7,
+      "deform": false,
+      "parent": "neck",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/7",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": true,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.4511163830757141
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "clavicle.L",
+      "index": 8,
+      "deform": true,
+      "parent": "chest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/8",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "upper_arm.L",
+      "index": 9,
+      "deform": true,
+      "parent": "clavicle.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/9",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "forearm.L",
+      "index": 10,
+      "deform": true,
+      "parent": "upper_arm.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/10",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "hand.L",
+      "index": 11,
+      "deform": true,
+      "parent": "forearm.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/11",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index1.L",
+      "index": 12,
+      "deform": true,
+      "parent": "hand.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/12",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index2.L",
+      "index": 13,
+      "deform": true,
+      "parent": "index1.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/13",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index3.L",
+      "index": 14,
+      "deform": true,
+      "parent": "index2.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/14",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle1.L",
+      "index": 15,
+      "deform": true,
+      "parent": "hand.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/15",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle2.L",
+      "index": 16,
+      "deform": true,
+      "parent": "middle1.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/16",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle3.L",
+      "index": 17,
+      "deform": true,
+      "parent": "middle2.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/17",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring1.L",
+      "index": 18,
+      "deform": true,
+      "parent": "hand.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/18",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring2.L",
+      "index": 19,
+      "deform": true,
+      "parent": "ring1.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/19",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring3.L",
+      "index": 20,
+      "deform": true,
+      "parent": "ring2.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/20",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky1.L",
+      "index": 21,
+      "deform": true,
+      "parent": "hand.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/21",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky2.L",
+      "index": 22,
+      "deform": true,
+      "parent": "pinky1.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/22",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky3.L",
+      "index": 23,
+      "deform": true,
+      "parent": "pinky2.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/23",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb1.L",
+      "index": 24,
+      "deform": true,
+      "parent": "hand.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/24",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb2.L",
+      "index": 25,
+      "deform": true,
+      "parent": "thumb1.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/25",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb3.L",
+      "index": 26,
+      "deform": true,
+      "parent": "thumb2.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/26",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_L_Bind",
+      "index": 27,
+      "deform": false,
+      "parent": "clavicle.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/27",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": true,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.46398335695266724
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "clavicle.R",
+      "index": 28,
+      "deform": true,
+      "parent": "chest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/28",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "upper_arm.R",
+      "index": 29,
+      "deform": true,
+      "parent": "clavicle.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/29",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "forearm.R",
+      "index": 30,
+      "deform": true,
+      "parent": "upper_arm.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/30",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "hand.R",
+      "index": 31,
+      "deform": true,
+      "parent": "forearm.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/31",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index1.R",
+      "index": 32,
+      "deform": true,
+      "parent": "hand.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/32",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index2.R",
+      "index": 33,
+      "deform": true,
+      "parent": "index1.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/33",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index3.R",
+      "index": 34,
+      "deform": true,
+      "parent": "index2.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/34",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle1.R",
+      "index": 35,
+      "deform": true,
+      "parent": "hand.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/35",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle2.R",
+      "index": 36,
+      "deform": true,
+      "parent": "middle1.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/36",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle3.R",
+      "index": 37,
+      "deform": true,
+      "parent": "middle2.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/37",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring1.R",
+      "index": 38,
+      "deform": true,
+      "parent": "hand.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/38",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring2.R",
+      "index": 39,
+      "deform": true,
+      "parent": "ring1.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/39",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring3.R",
+      "index": 40,
+      "deform": true,
+      "parent": "ring2.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/40",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky1.R",
+      "index": 41,
+      "deform": true,
+      "parent": "hand.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/41",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky2.R",
+      "index": 42,
+      "deform": true,
+      "parent": "pinky1.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/42",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky3.R",
+      "index": 43,
+      "deform": true,
+      "parent": "pinky2.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/43",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb1.R",
+      "index": 44,
+      "deform": true,
+      "parent": "hand.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/44",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb2.R",
+      "index": 45,
+      "deform": true,
+      "parent": "thumb1.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/45",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb3.R",
+      "index": 46,
+      "deform": true,
+      "parent": "thumb2.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/46",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_R_Bind",
+      "index": 47,
+      "deform": false,
+      "parent": "clavicle.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/47",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": true,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.45991790294647217
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_UpperChest_Bind",
+      "index": 48,
+      "deform": false,
+      "parent": "chest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/48",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": true,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.45927560329437256
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thigh.L",
+      "index": 49,
+      "deform": true,
+      "parent": "pelvis",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/49",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "shin.L",
+      "index": 50,
+      "deform": true,
+      "parent": "thigh.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/50",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "foot.L",
+      "index": 51,
+      "deform": true,
+      "parent": "shin.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/51",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "toe.L",
+      "index": 52,
+      "deform": true,
+      "parent": "foot.L",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/52",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thigh.R",
+      "index": 53,
+      "deform": true,
+      "parent": "pelvis",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/53",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "shin.R",
+      "index": 54,
+      "deform": true,
+      "parent": "thigh.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/54",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "foot.R",
+      "index": 55,
+      "deform": true,
+      "parent": "shin.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/55",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "toe.R",
+      "index": 56,
+      "deform": true,
+      "parent": "foot.R",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Meshy_Fitted_Rig/bones/56",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "Root",
+      "index": 0,
+      "deform": true,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/0",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Hips",
+      "index": 1,
+      "deform": true,
+      "parent": "Root",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/1",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Spine",
+      "index": 2,
+      "deform": true,
+      "parent": "J_Bip_C_Hips",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/2",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Chest",
+      "index": 3,
+      "deform": true,
+      "parent": "J_Bip_C_Spine",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/3",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_UpperChest",
+      "index": 4,
+      "deform": true,
+      "parent": "J_Bip_C_Chest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/4",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Neck",
+      "index": 5,
+      "deform": true,
+      "parent": "J_Bip_C_UpperChest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/5",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 5.960464477539063e-08
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Head",
+      "index": 6,
+      "deform": true,
+      "parent": "J_Bip_C_Neck",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/6",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Adj_L_FaceEye",
+      "index": 7,
+      "deform": true,
+      "parent": "J_Bip_C_Head",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/7",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Adj_R_FaceEye",
+      "index": 8,
+      "deform": true,
+      "parent": "J_Bip_C_Head",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/8",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "MOTION5H_HairTip.L",
+      "index": 9,
+      "deform": true,
+      "parent": "J_Bip_C_Head",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/9",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 8.940696716308594e-08
+    },
+    {
+      "rig": "Armature",
+      "bone": "MOTION5H_HairTip.R",
+      "index": 10,
+      "deform": true,
+      "parent": "J_Bip_C_Head",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/10",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Shoulder",
+      "index": 11,
+      "deform": true,
+      "parent": "J_Bip_C_UpperChest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/11",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_UpperArm",
+      "index": 12,
+      "deform": true,
+      "parent": "J_Bip_L_Shoulder",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/12",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_LowerArm",
+      "index": 13,
+      "deform": true,
+      "parent": "J_Bip_L_UpperArm",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/13",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Hand",
+      "index": 14,
+      "deform": true,
+      "parent": "J_Bip_L_LowerArm",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/14",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb1",
+      "index": 15,
+      "deform": true,
+      "parent": "J_Bip_L_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/15",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb2",
+      "index": 16,
+      "deform": true,
+      "parent": "J_Bip_L_Thumb1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/16",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb3",
+      "index": 17,
+      "deform": true,
+      "parent": "J_Bip_L_Thumb2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/17",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index1",
+      "index": 18,
+      "deform": true,
+      "parent": "J_Bip_L_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/18",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index2",
+      "index": 19,
+      "deform": true,
+      "parent": "J_Bip_L_Index1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/19",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index3",
+      "index": 20,
+      "deform": true,
+      "parent": "J_Bip_L_Index2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/20",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle1",
+      "index": 21,
+      "deform": true,
+      "parent": "J_Bip_L_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/21",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle2",
+      "index": 22,
+      "deform": true,
+      "parent": "J_Bip_L_Middle1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/22",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle3",
+      "index": 23,
+      "deform": true,
+      "parent": "J_Bip_L_Middle2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/23",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring1",
+      "index": 24,
+      "deform": true,
+      "parent": "J_Bip_L_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/24",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring2",
+      "index": 25,
+      "deform": true,
+      "parent": "J_Bip_L_Ring1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/25",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring3",
+      "index": 26,
+      "deform": true,
+      "parent": "J_Bip_L_Ring2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/26",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.1920928955078125e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little1",
+      "index": 27,
+      "deform": true,
+      "parent": "J_Bip_L_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/27",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 7.450580596923828e-08
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little2",
+      "index": 28,
+      "deform": true,
+      "parent": "J_Bip_L_Little1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/28",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 7.450580596923828e-08
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little3",
+      "index": 29,
+      "deform": true,
+      "parent": "J_Bip_L_Little2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/29",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 7.450580596923828e-08
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Shoulder",
+      "index": 30,
+      "deform": true,
+      "parent": "J_Bip_C_UpperChest",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/30",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_UpperArm",
+      "index": 31,
+      "deform": true,
+      "parent": "J_Bip_R_Shoulder",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/31",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_LowerArm",
+      "index": 32,
+      "deform": true,
+      "parent": "J_Bip_R_UpperArm",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/32",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Hand",
+      "index": 33,
+      "deform": true,
+      "parent": "J_Bip_R_LowerArm",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/33",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb1",
+      "index": 34,
+      "deform": true,
+      "parent": "J_Bip_R_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/34",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb2",
+      "index": 35,
+      "deform": true,
+      "parent": "J_Bip_R_Thumb1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/35",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb3",
+      "index": 36,
+      "deform": true,
+      "parent": "J_Bip_R_Thumb2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/36",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index1",
+      "index": 37,
+      "deform": true,
+      "parent": "J_Bip_R_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/37",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index2",
+      "index": 38,
+      "deform": true,
+      "parent": "J_Bip_R_Index1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/38",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index3",
+      "index": 39,
+      "deform": true,
+      "parent": "J_Bip_R_Index2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/39",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle1",
+      "index": 40,
+      "deform": true,
+      "parent": "J_Bip_R_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/40",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle2",
+      "index": 41,
+      "deform": true,
+      "parent": "J_Bip_R_Middle1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/41",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle3",
+      "index": 42,
+      "deform": true,
+      "parent": "J_Bip_R_Middle2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/42",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring1",
+      "index": 43,
+      "deform": true,
+      "parent": "J_Bip_R_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/43",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring2",
+      "index": 44,
+      "deform": true,
+      "parent": "J_Bip_R_Ring1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/44",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring3",
+      "index": 45,
+      "deform": true,
+      "parent": "J_Bip_R_Ring2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/45",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little1",
+      "index": 46,
+      "deform": true,
+      "parent": "J_Bip_R_Hand",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/46",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 2.086162567138672e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little2",
+      "index": 47,
+      "deform": true,
+      "parent": "J_Bip_R_Little1",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/47",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little3",
+      "index": 48,
+      "deform": true,
+      "parent": "J_Bip_R_Little2",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/48",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 1.7881393432617188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_UpperLeg",
+      "index": 49,
+      "deform": true,
+      "parent": "J_Bip_C_Hips",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/49",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_LowerLeg",
+      "index": 50,
+      "deform": true,
+      "parent": "J_Bip_L_UpperLeg",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/50",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Foot",
+      "index": 51,
+      "deform": true,
+      "parent": "J_Bip_L_LowerLeg",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/51",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_ToeBase",
+      "index": 52,
+      "deform": true,
+      "parent": "J_Bip_L_Foot",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/52",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_UpperLeg",
+      "index": 53,
+      "deform": true,
+      "parent": "J_Bip_C_Hips",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/53",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_LowerLeg",
+      "index": 54,
+      "deform": true,
+      "parent": "J_Bip_R_UpperLeg",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/54",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Foot",
+      "index": 55,
+      "deform": true,
+      "parent": "J_Bip_R_LowerLeg",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/55",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_ToeBase",
+      "index": 56,
+      "deform": true,
+      "parent": "J_Bip_R_Foot",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Armature/bones/56",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_HeadRoot",
+      "index": 0,
+      "deform": true,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/0",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.76837158203125e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_Base",
+      "index": 1,
+      "deform": true,
+      "parent": "Hair_HeadRoot",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/1",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.172325134277344e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_01",
+      "index": 2,
+      "deform": true,
+      "parent": "Hair_Pony_Base",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/2",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.172325134277344e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_02",
+      "index": 3,
+      "deform": true,
+      "parent": "Hair_Pony_01",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/3",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.172325134277344e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_03",
+      "index": 4,
+      "deform": true,
+      "parent": "Hair_Pony_02",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/4",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.172325134277344e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_04",
+      "index": 5,
+      "deform": true,
+      "parent": "Hair_Pony_03",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/5",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.172325134277344e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.L.01",
+      "index": 6,
+      "deform": true,
+      "parent": "Hair_HeadRoot",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/6",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.172325134277344e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.L.02",
+      "index": 7,
+      "deform": true,
+      "parent": "Hair_Side.L.01",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/7",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 4.172325134277344e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.R.01",
+      "index": 8,
+      "deform": true,
+      "parent": "Hair_HeadRoot",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/8",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 2.980232238769531e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.R.02",
+      "index": 9,
+      "deform": true,
+      "parent": "Hair_Side.R.01",
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/Hair_Rig_R4/bones/9",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 2.980232238769531e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "JawOpen",
+      "index": 0,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/0",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 3.552713678800501e-15
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Smile.L",
+      "index": 1,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/1",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Smile.R",
+      "index": 2,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/2",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Blink.L",
+      "index": 3,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/3",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 5.960464477539063e-08
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Blink.R",
+      "index": 4,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/4",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 5.960464477539063e-08
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowRaise.L",
+      "index": 5,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/5",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowRaise.R",
+      "index": 6,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/6",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 0.0
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowKnit.L",
+      "index": 7,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/7",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 2.9802322387695312e-08
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowKnit.R",
+      "index": 8,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/8",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 2.9802322387695312e-08
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "CheekLift.L",
+      "index": 9,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/9",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 2.9802322387695312e-08
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "CheekLift.R",
+      "index": 10,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/10",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 5.960464477539063e-08
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "LipPucker",
+      "index": 11,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/11",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 5.960464477539063e-08
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "MouthWide",
+      "index": 12,
+      "deform": false,
+      "parent": null,
+      "matrix_file_sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "json_pointer": "/AVATAR_FaceBoard/bones/12",
+      "rest_fields": [
+        "local_rest",
+        "armature_rest",
+        "world_rest"
+      ],
+      "OFF_fields": [
+        "neutral_pose_channels",
+        "neutral_evaluated_armature",
+        "neutral_evaluated_world",
+        "constraints"
+      ],
+      "neutral_channels_nonidentity": false,
+      "rest_vs_evaluated_OFF_max_matrix_delta": 2.9802322387695312e-08
+    }
+  ],
+  "nonidentity_native_pose_channels": [
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Head_Bind",
+      "channels": {
+        "location": [
+          -5.960464477539063e-08,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "quaternion_wxyz": [
+          1.0,
+          -1.7763568394002505e-15,
+          1.9930302741499872e-08,
+          -3.1888486518028e-08
+        ],
+        "euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.8691587448120117,
+          1.8691587448120117,
+          1.8691589832305908
+        ]
+      }
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Neck_Bind",
+      "channels": {
+        "location": [
+          -5.960464477539063e-08,
+          0.0,
+          7.450580596923828e-09
+        ],
+        "rotation_mode": "QUATERNION",
+        "quaternion_wxyz": [
+          1.0,
+          -2.092681405940766e-08,
+          -2.491288508821299e-09,
+          -5.1818787483171036e-08
+        ],
+        "euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.8691587448120117,
+          1.8691591024398804,
+          1.8691591024398804
+        ]
+      }
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_L_Bind",
+      "channels": {
+        "location": [
+          -3.725290298461914e-09,
+          1.4901161193847656e-08,
+          1.1920928955078125e-07
+        ],
+        "rotation_mode": "QUATERNION",
+        "quaternion_wxyz": [
+          1.0,
+          -1.554563624495131e-07,
+          -5.854527529436382e-09,
+          -7.084598685480614e-09
+        ],
+        "euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.8691585063934326,
+          1.86915922164917,
+          1.869158387184143
+        ]
+      }
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_R_Bind",
+      "channels": {
+        "location": [
+          1.1920928955078125e-07,
+          2.9802322387695312e-08,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "quaternion_wxyz": [
+          1.0,
+          1.8535183698986657e-07,
+          -7.972121807142685e-08,
+          -1.8535180856815714e-07
+        ],
+        "euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.8691587448120117,
+          1.8691591024398804,
+          1.8691586256027222
+        ]
+      }
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_UpperChest_Bind",
+      "channels": {
+        "location": [
+          0.0,
+          -1.1920928955078125e-07,
+          -3.725290298461914e-09
+        ],
+        "rotation_mode": "QUATERNION",
+        "quaternion_wxyz": [
+          1.0,
+          -2.7404173152945077e-08,
+          5.723735796436813e-08,
+          7.97212429404226e-09
+        ],
+        "euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.869158148765564,
+          1.869158148765564,
+          1.869158387184143
+        ]
+      }
+    }
+  ],
+  "all_21_renderer_contracts": [
+    {
+      "renderer": "Character_Body_Head",
+      "vertices": 12928,
+      "source_path": "Armature/Character_Body_Head",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/0"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/0"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          2.0344828044471797e-09,
+          4.2626567164916196e-08,
+          -3.5868121806004183e-09
+        ],
+        [
+          -3.990973773682072e-09,
+          0.9999999403953552,
+          4.371138828673793e-08,
+          4.656682817127944e-10
+        ],
+        [
+          4.704383727016648e-08,
+          -1.033160259567012e-07,
+          1.0,
+          -4.431786049252651e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "Character_Body_Head_world_position",
+      "neutral_NPZ_local_array": "Character_Body_Head_local_position",
+      "world_AABB_min": [
+        -0.05160466209053993,
+        -0.09147649258375168,
+        0.8212149143218994
+      ],
+      "world_AABB_max": [
+        0.05550471320748329,
+        0.02547663077712059,
+        0.9539217948913574
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Armature",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Face true gaze before head deformation",
+          "NODES"
+        ],
+        [
+          "Armature",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "Globe.L",
+      "vertices": 18242,
+      "source_path": "Globe.L",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/1"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/1"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127287331538355e-09,
+          -2.2086386053388196e-09,
+          -3.703227502427353e-09
+        ],
+        [
+          -3.0127285111092306e-09,
+          1.0,
+          7.35137177798606e-08,
+          4.656683372239456e-10
+        ],
+        [
+          2.2086386053388196e-09,
+          -7.351371067443324e-08,
+          1.0000001192092896,
+          -4.4317864933418605e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "Globe.L_world_position",
+      "neutral_NPZ_local_array": "Globe.L_local_position",
+      "world_AABB_min": [
+        0.010325023904442787,
+        -0.07516074925661087,
+        0.8717265725135803
+      ],
+      "world_AABB_max": [
+        0.03732502460479736,
+        -0.04310934990644455,
+        0.8957266211509705
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Bind to existing head",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Face true gaze before head deformation",
+          "NODES"
+        ],
+        [
+          "Bind to existing head",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "Globe.R",
+      "vertices": 18242,
+      "source_path": "Globe.R",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/2"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/2"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127287331538355e-09,
+          -2.2086386053388196e-09,
+          -3.703227502427353e-09
+        ],
+        [
+          -3.0127285111092306e-09,
+          1.0,
+          7.35137177798606e-08,
+          4.656683372239456e-10
+        ],
+        [
+          2.2086386053388196e-09,
+          -7.351371067443324e-08,
+          1.0000001192092896,
+          -4.4317864933418605e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "Globe.R_world_position",
+      "neutral_NPZ_local_array": "Globe.R_local_position",
+      "world_AABB_min": [
+        -0.0334249772131443,
+        -0.07516072690486908,
+        0.8717265725135803
+      ],
+      "world_AABB_max": [
+        -0.006424976512789726,
+        -0.04310934990644455,
+        0.8957266211509705
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Bind to existing head",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Face true gaze before head deformation",
+          "NODES"
+        ],
+        [
+          "Bind to existing head",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "Hair_Replacement_R4",
+      "vertices": 10408,
+      "source_path": "Assembly_Root/Hair_Replacement_R4",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/3"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/3"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "Hair_Replacement_R4_world_position",
+      "neutral_NPZ_local_array": "Hair_Replacement_R4_local_position",
+      "world_AABB_min": [
+        -0.05820675566792488,
+        -0.08692452311515808,
+        0.8105360865592957
+      ],
+      "world_AABB_max": [
+        0.06219685077667236,
+        0.0752822533249855,
+        0.9796229004859924
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Hair_Rig_R4",
+          "modifier": "Hair strand deformation",
+          "bone_count": 10,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Hair_Rig_R4"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Hair strand deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.L.1",
+      "vertices": 81,
+      "source_path": "LashRootRepair.L.1",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/4"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/4"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.L.1_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.L.1_local_position",
+      "world_AABB_min": [
+        0.02003592997789383,
+        -0.08225776255130768,
+        0.8875935077667236
+      ],
+      "world_AABB_max": [
+        0.021754680201411247,
+        -0.07725776731967926,
+        0.8897810578346252
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.L.2",
+      "vertices": 69,
+      "source_path": "LashRootRepair.L.2",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/5"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/5"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.L.2_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.L.2_local_position",
+      "world_AABB_min": [
+        0.018629679456353188,
+        -0.08171090483665466,
+        0.8868122696876526
+      ],
+      "world_AABB_max": [
+        0.02003592997789383,
+        -0.07710152864456177,
+        0.8891560435295105
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.L.3",
+      "vertices": 36,
+      "source_path": "LashRootRepair.L.3",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/6"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/6"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.L.3_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.L.3_local_position",
+      "world_AABB_min": [
+        0.016442181542515755,
+        -0.0792890265583992,
+        0.8852497935295105
+      ],
+      "world_AABB_max": [
+        0.01753593236207962,
+        -0.07647652924060822,
+        0.8863435387611389
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.L.4",
+      "vertices": 30,
+      "source_path": "LashRootRepair.L.4",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/7"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/7"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.L.4_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.L.4_local_position",
+      "world_AABB_min": [
+        0.01573905721306801,
+        -0.07717965543270111,
+        0.883999764919281
+      ],
+      "world_AABB_max": [
+        0.01597343198955059,
+        -0.07600777596235275,
+        0.8843122720718384
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.L.5",
+      "vertices": 26,
+      "source_path": "LashRootRepair.L.5",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/8"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/8"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.L.5_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.L.5_local_position",
+      "world_AABB_min": [
+        0.016442181542515755,
+        -0.07725778222084045,
+        0.8847810626029968
+      ],
+      "world_AABB_max": [
+        0.016676556318998337,
+        -0.07624214887619019,
+        0.8850154280662537
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.R.1",
+      "vertices": 81,
+      "source_path": "LashRootRepair.R.1",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/9"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/9"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.R.1_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.R.1_local_position",
+      "world_AABB_min": [
+        -0.017776569351553917,
+        -0.08225777745246887,
+        0.8875935077667236
+      ],
+      "world_AABB_max": [
+        -0.016135945916175842,
+        -0.07725778222084045,
+        0.8897029161453247
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.R.2",
+      "vertices": 33,
+      "source_path": "LashRootRepair.R.2",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/10"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/10"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.R.2_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.R.2_local_position",
+      "world_AABB_min": [
+        -0.013635944575071335,
+        -0.0792890265583992,
+        0.885327935218811
+      ],
+      "world_AABB_max": [
+        -0.012542192824184895,
+        -0.07647652924060822,
+        0.8863435387611389
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.R.3",
+      "vertices": 30,
+      "source_path": "LashRootRepair.R.3",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/11"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/11"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.R.3_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.R.3_local_position",
+      "world_AABB_min": [
+        -0.012073444202542305,
+        -0.07717965543270111,
+        0.883999764919281
+      ],
+      "world_AABB_max": [
+        -0.011839069426059723,
+        -0.07600777596235275,
+        0.8842341899871826
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.R.4",
+      "vertices": 28,
+      "source_path": "LashRootRepair.R.4",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/12"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/12"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.R.4_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.R.4_local_position",
+      "world_AABB_min": [
+        -0.012620318681001663,
+        -0.07944527268409729,
+        0.8844685554504395
+      ],
+      "world_AABB_max": [
+        -0.01168281864374876,
+        -0.0760859027504921,
+        0.8848591446876526
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LashRootRepair.R.5",
+      "vertices": 27,
+      "source_path": "LashRootRepair.R.5",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/13"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/13"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LashRootRepair.R.5_world_position",
+      "neutral_NPZ_local_array": "LashRootRepair.R.5_local_position",
+      "world_AABB_min": [
+        -0.012776568531990051,
+        -0.07725778222084045,
+        0.8847810626029968
+      ],
+      "world_AABB_max": [
+        -0.01254219375550747,
+        -0.07624214887619019,
+        0.8850154280662537
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LowerLashesClean.L",
+      "vertices": 648,
+      "source_path": "LowerLashesClean.L",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/14"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/14"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127287331538355e-09,
+          -2.2086386053388196e-09,
+          -3.703227502427353e-09
+        ],
+        [
+          -3.0127285111092306e-09,
+          1.0,
+          7.35137177798606e-08,
+          4.656683372239456e-10
+        ],
+        [
+          2.2086386053388196e-09,
+          -7.351371067443324e-08,
+          1.0000001192092896,
+          -4.4317864933418605e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LowerLashesClean.L_world_position",
+      "neutral_NPZ_local_array": "LowerLashesClean.L_local_position",
+      "world_AABB_min": [
+        0.019795868545770645,
+        -0.07609429210424423,
+        0.8758788108825684
+      ],
+      "world_AABB_max": [
+        0.037179552018642426,
+        -0.06736620515584946,
+        0.8814143538475037
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head binding",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head binding",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "LowerLashesClean.R",
+      "vertices": 702,
+      "source_path": "LowerLashesClean.R",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/15"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/15"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127287331538355e-09,
+          -2.2086386053388196e-09,
+          -3.703227502427353e-09
+        ],
+        [
+          -3.0127285111092306e-09,
+          1.0,
+          7.35137177798606e-08,
+          4.656683372239456e-10
+        ],
+        [
+          2.2086386053388196e-09,
+          -7.351371067443324e-08,
+          1.0000001192092896,
+          -4.4317864933418605e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "LowerLashesClean.R_world_position",
+      "neutral_NPZ_local_array": "LowerLashesClean.R_local_position",
+      "world_AABB_min": [
+        -0.0333024226129055,
+        -0.07611595839262009,
+        0.8759059906005859
+      ],
+      "world_AABB_max": [
+        -0.015924246981739998,
+        -0.06736273318529129,
+        0.8814217448234558
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head binding",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head binding",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "MedialBacking.L",
+      "vertices": 22,
+      "source_path": "MedialBacking.L",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/16"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/16"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127287331538355e-09,
+          -2.2086386053388196e-09,
+          -3.703227502427353e-09
+        ],
+        [
+          -3.0127285111092306e-09,
+          1.0,
+          7.35137177798606e-08,
+          4.656683372239456e-10
+        ],
+        [
+          2.2086386053388196e-09,
+          -7.351371067443324e-08,
+          1.0000001192092896,
+          -4.4317864933418605e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "MedialBacking.L_world_position",
+      "neutral_NPZ_local_array": "MedialBacking.L_local_position",
+      "world_AABB_min": [
+        0.014410926029086113,
+        -0.07374021410942078,
+        0.8792343139648438
+      ],
+      "world_AABB_max": [
+        0.01628592610359192,
+        -0.07130895555019379,
+        0.8822811841964722
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Head bound",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Head bound",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "MedialBacking.R",
+      "vertices": 22,
+      "source_path": "MedialBacking.R",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/17"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/17"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127287331538355e-09,
+          -2.2086386053388196e-09,
+          -3.703227502427353e-09
+        ],
+        [
+          -3.0127285111092306e-09,
+          1.0,
+          7.35137177798606e-08,
+          4.656683372239456e-10
+        ],
+        [
+          2.2086386053388196e-09,
+          -7.351371067443324e-08,
+          1.0000001192092896,
+          -4.4317864933418605e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "MedialBacking.R_world_position",
+      "neutral_NPZ_local_array": "MedialBacking.R_local_position",
+      "world_AABB_min": [
+        -0.012464074417948723,
+        -0.07381834089756012,
+        0.8791561722755432
+      ],
+      "world_AABB_max": [
+        -0.010510949417948723,
+        -0.07130896300077438,
+        0.8822811841964722
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Head bound",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Head bound",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "Meshy_Body_NeutralCovered",
+      "vertices": 63561,
+      "source_path": "Assembly_Root/Meshy_Body_NeutralCovered",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/18"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/18"
+      },
+      "matrix_world": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "Meshy_Body_NeutralCovered_world_position",
+      "neutral_NPZ_local_array": "Meshy_Body_NeutralCovered_local_position",
+      "world_AABB_min": [
+        -0.21825958788394928,
+        -0.12781086564064026,
+        -5.245735845704758e-09
+      ],
+      "world_AABB_max": [
+        0.22247377038002014,
+        0.03656376898288727,
+        0.822748064994812
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Meshy_Fitted_Rig",
+          "modifier": "Armature",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": true,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        },
+        {
+          "rig": "Meshy_Fitted_Rig",
+          "modifier": "R3 neck and joints - local linear blend",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Armature",
+          "ARMATURE"
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          "ARMATURE"
+        ],
+        [
+          "R3 local joint surface relaxation",
+          "CORRECTIVE_SMOOTH"
+        ],
+        [
+          "R3 raised shoulder surface L",
+          "SMOOTH"
+        ],
+        [
+          "R3 raised shoulder surface R",
+          "SMOOTH"
+        ],
+        [
+          "R3 bent hip surface L",
+          "SMOOTH"
+        ],
+        [
+          "R3 bent hip surface R",
+          "SMOOTH"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "OriginalMedialLashes.L",
+      "vertices": 397,
+      "source_path": "OriginalMedialLashes.L",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/19"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/19"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127282890646256e-09,
+          -2.208634830580536e-09,
+          -3.5868121806004183e-09
+        ],
+        [
+          -3.0127282890646256e-09,
+          0.9999999403953552,
+          7.35137177798606e-08,
+          4.656682817127944e-10
+        ],
+        [
+          2.208635052625141e-09,
+          -7.351371067443324e-08,
+          1.0,
+          -4.431786049252651e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "OriginalMedialLashes.L_world_position",
+      "neutral_NPZ_local_array": "OriginalMedialLashes.L_local_position",
+      "world_AABB_min": [
+        0.014332801103591919,
+        -0.08147645741701126,
+        0.8820467591285706
+      ],
+      "world_AABB_max": [
+        0.023473422974348068,
+        -0.0756952166557312,
+        0.8904061317443848
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    },
+    {
+      "renderer": "OriginalMedialLashes.R",
+      "vertices": 438,
+      "source_path": "OriginalMedialLashes.R",
+      "bind_metadata_pointer": {
+        "input_index": 1,
+        "json_pointer": "/20"
+      },
+      "stack_shape_material_pointer": {
+        "input_index": 4,
+        "json_pointer": "/20"
+      },
+      "matrix_world": [
+        [
+          1.0,
+          3.0127282890646256e-09,
+          -2.208634830580536e-09,
+          -3.5868121806004183e-09
+        ],
+        [
+          -3.0127282890646256e-09,
+          0.9999999403953552,
+          7.35137177798606e-08,
+          4.656682817127944e-10
+        ],
+        [
+          2.208635052625141e-09,
+          -7.351371067443324e-08,
+          1.0,
+          -4.431786049252651e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "neutral_NPZ_world_array": "OriginalMedialLashes.R_world_position",
+      "neutral_NPZ_local_array": "OriginalMedialLashes.R_local_position",
+      "world_AABB_min": [
+        -0.019573450088500977,
+        -0.08171084523200989,
+        0.8820467591285706
+      ],
+      "world_AABB_max": [
+        -0.010432824492454529,
+        -0.0756952166557312,
+        0.8904061317443848
+      ],
+      "armature_bindings": [
+        {
+          "rig": "Armature",
+          "modifier": "Existing head deformation",
+          "bone_count": 57,
+          "inverse_bind_raw_rest_field": "inverse_bind_rest_mesh_to_bone",
+          "evaluated_OFF_inverse_field": "inverse_bind_evaluated_neutral_mesh_to_bone",
+          "settings": {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Armature"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        }
+      ],
+      "ordered_modifier_names_types": [
+        [
+          "Existing head deformation",
+          "ARMATURE"
+        ]
+      ],
+      "world_arrays_already_include_object_scale": true
+    }
+  ],
+  "native_vs_recovery_neutral_rig_world_matrix_max_delta": 0.0,
+  "crosschecked_bones": 124,
+  "faceboard13_pointer": "input_index 0 /AVATAR_FaceBoard/bones; recovery neutral rig_pose omitted FaceBoard but native expanded contains all13",
+  "baseline_semantics": "Neutral = source evaluated OFF frame1, Action none, existing poses/constraints/drivers/ShapeKeys/modifiers retained. NOT identity pose and NOT raw rest. Bind raw rest and evaluated OFF inverses are separate fields.",
+  "morph_semantics": "Manual zero/half/peak changes only saved existing head input keys then frame_set(1). No body Action/pose reset. Dense half AST-reuses exact setinput/evaluate. Frame1 OFF context retained; muted13 bridge drivers retained. Per-case half/peak rig matrices not independently captured; infer body context from frozen code and unchanged source component snapshots, not new measured matrices.",
+  "precision_semantics": "Recovery neutral explicit float64 matrix multiplication -> final float32; manual/dense half matrix buffer float32 multiply -> final float32. Reused-zero observed residual <=1.666000493e-8m; does not explain centimeter discrepancy.",
+  "scale_contract": "Compare world meters using each exact evaluated object world matrix once. Frozen world_position arrays already include scale (.535 body rig/object domain); do not rescale them. Unity BakeMesh raw output scale semantics must be declared and checked before its world conversion; preserve original .535 hierarchy, never compensate by changing rig/rest/geometry.",
+  "PM_reported_consumer_scale_AB_not_independently_rederived": {
+    "useScale_false": {
+      "max_m": 0.369968202,
+      "RMS_m": 0.235387318
+    },
+    "useScale_true": {
+      "max_m": 7.321465750500254e-07,
+      "RMS_m": 2.9152165e-07
+    },
+    "scope": "Immutable body against same frozen neutral/correspondence, per PM. Raw A/B buffers not present in this worker audit. Isolates reported measurement scale semantics; prior pose mismatch hypothesis not established."
+  },
+  "Unity_API_source": "https://docs.unity3d.com/ScriptReference/SkinnedMeshRenderer.BakeMesh.html",
+  "missing_fields_for_independent_consumer_AB": "Consumer A/B BakeMesh vertex buffers, useScale flag, actual renderer localToWorldMatrix/lossyScale, coordinate P/H and correspondence hash. Need consumer receipt, not new source capture.",
+  "missing_fields_for_independent_half_pose_assertion": "Per-half/peak evaluated FaceBoard/body world matrices were not captured separately. Existing source OFF contract + generation code available; no new CPU capture justified by isolated37cm scale discrepancy.",
+  "input_bytes_unchanged": true,
+  "new_Blender_data_jobs": 0,
+  "new_export_render_bake_jobs": 0,
+  "gates_preserved": [
+    "Blender imported rotation FAIL",
+    "true DQ/7-weight deformation HOLD",
+    "gaze/GN HOLD",
+    "material/PBR visual HOLD",
+    "no canonical appearance promotion"
+  ]
+}
