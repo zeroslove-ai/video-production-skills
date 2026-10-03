@@ -1,0 +1,47 @@
+{
+  "task_id": "YURI_O1_ALL_BIND_ROW_COUNT_AND_RENDERER_BASIS_DIAGNOSTIC_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_RENDERER_BASIS_DIAGNOSTIC_20261003_R1_e0fc731341c1",
+  "manifest_sha256": "e0fc731341c157d85c39e383651ac8af4582314fe0eee8f6202848c2e2fcfa4e",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_RENDERER_BASIS_DIAGNOSTIC_20261003_R1_e0fc731341c1\\YURI_O1_R4_RENDERER_BASIS_DIAGNOSTIC_20261003_R1.part01-of-01.zip",
+      "sha256": "23453b453a269a6c34a2449b30a80632943b5fff0b9a1f8157d6f942a130f8af",
+      "bytes": 1644136,
+      "files": [
+        "R4_Renderer_Position_Basis_Candidates_And_Source_Index_Sets.npz",
+        "metadata/RENDERER_BASIS_DIAGNOSTIC_MANIFEST.json",
+        "metadata/YURI_O1_SKINNED_WORLD_FRAME_AND_ROW_COUNT_CORRECTION_R1.md",
+        "scripts/r4_renderer_basis_diagnostic.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "R4_Renderer_Position_Basis_Candidates_And_Source_Index_Sets.npz": {
+      "sha256": "0d58ded722440cf9a43869988085d62391645380e36bb945ae4c50a729ca86db",
+      "bytes": 875932
+    },
+    "metadata/RENDERER_BASIS_DIAGNOSTIC_MANIFEST.json": {
+      "sha256": "e0fc731341c157d85c39e383651ac8af4582314fe0eee8f6202848c2e2fcfa4e",
+      "bytes": 742075
+    },
+    "metadata/YURI_O1_SKINNED_WORLD_FRAME_AND_ROW_COUNT_CORRECTION_R1.md": {
+      "sha256": "1e0c6b3e251a5ba67544bf4d391c280370d9230061b1ee18d25075ad5d20187e",
+      "bytes": 5155
+    },
+    "scripts/r4_renderer_basis_diagnostic.py": {
+      "sha256": "3ca307680d3500a3760a95866665f323db4c700a06faa93a14371f328bca7633",
+      "bytes": 15789
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "38ec9a1d8ec3a46d2bf308d74cb767e6d51c155bfd082c8da395c7279a8bca2c",
+      "bytes": 4261
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 1644136,
+  "data_bytes": 875932,
+  "aggregate_file_manifest_sha256": "1083c92675a5777cfe3c6014a77d2f0e3c2a9e6acf6d5dbc8983d3f496a8adfd",
+  "source_or_frozen_input_writes": 0
+}
