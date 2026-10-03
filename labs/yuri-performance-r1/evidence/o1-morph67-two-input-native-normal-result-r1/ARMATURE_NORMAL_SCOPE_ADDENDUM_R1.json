@@ -1,0 +1,90 @@
+{
+  "scope": "Cached native stage differences, not consumer errors; no further native run",
+  "Armature_stage_diagnostics": [
+    {
+      "input": "WORST",
+      "from": "SHAPE_GN",
+      "to": "FULL_SOURCE",
+      "max_position_vector_delta_m": 8.940696716308594e-08,
+      "max_normal_vector_delta": 0.08784330636262894,
+      "max_normal_angle_deg": 5.034670202909315,
+      "worst_source_CORNER": 58781,
+      "source_vertex": 11616,
+      "source_polygon": 19153,
+      "material_slot_zero_based": 3,
+      "adjacent_source_polygons": 4,
+      "adjacent_native_triangle_min_area_m2": 2.8606446345530923e-09,
+      "min_twice_area_over_longest_edge_squared": 0.0010846538235509942,
+      "interpretation": "Thin adjacent triangles support numerical sensitivity hypothesis in geometry-dependent normal spaces, but no exact BKE causal trace or runtime normal-policy conclusion is claimed."
+    },
+    {
+      "input": "NEUTRAL",
+      "from": "SHAPE_GN",
+      "to": "FULL_SOURCE",
+      "max_position_vector_delta_m": 8.940696716308594e-08,
+      "max_normal_vector_delta": 0.12096823006868362,
+      "max_normal_angle_deg": 6.9352016251157895,
+      "worst_source_CORNER": 23318,
+      "source_vertex": 4082,
+      "source_polygon": 7766,
+      "material_slot_zero_based": 1,
+      "adjacent_source_polygons": 5,
+      "adjacent_native_triangle_min_area_m2": 1.732646140615639e-11,
+      "min_twice_area_over_longest_edge_squared": 0.0001014487030302313,
+      "interpretation": "Thin adjacent triangles support numerical sensitivity hypothesis in geometry-dependent normal spaces, but no exact BKE causal trace or runtime normal-policy conclusion is claimed."
+    }
+  ],
+  "native_triangle_correspondence": [
+    {
+      "input": "WORST",
+      "stage": "SHAPE_ONLY",
+      "native_triangle_rows": 23459,
+      "triangle_source_polygon_rows_exact_OFF": true,
+      "triangle_source_corner_rows_changed_from_OFF": 34,
+      "triangle_source_corners_SHA256": "7b8d6efc11287206f2a815d30cf783bd6f75824c2672da00f015021b2421bad6"
+    },
+    {
+      "input": "WORST",
+      "stage": "SHAPE_GN",
+      "native_triangle_rows": 23459,
+      "triangle_source_polygon_rows_exact_OFF": true,
+      "triangle_source_corner_rows_changed_from_OFF": 34,
+      "triangle_source_corners_SHA256": "7b8d6efc11287206f2a815d30cf783bd6f75824c2672da00f015021b2421bad6"
+    },
+    {
+      "input": "WORST",
+      "stage": "FULL_SOURCE",
+      "native_triangle_rows": 23459,
+      "triangle_source_polygon_rows_exact_OFF": true,
+      "triangle_source_corner_rows_changed_from_OFF": 34,
+      "triangle_source_corners_SHA256": "7b8d6efc11287206f2a815d30cf783bd6f75824c2672da00f015021b2421bad6"
+    },
+    {
+      "input": "NEUTRAL",
+      "stage": "SHAPE_ONLY",
+      "native_triangle_rows": 23459,
+      "triangle_source_polygon_rows_exact_OFF": true,
+      "triangle_source_corner_rows_changed_from_OFF": 0,
+      "triangle_source_corners_SHA256": "e5f09732e4218657fe16b8def62330bc4273bd4c0881ae4a12ef357f104a8ed0"
+    },
+    {
+      "input": "NEUTRAL",
+      "stage": "SHAPE_GN",
+      "native_triangle_rows": 23459,
+      "triangle_source_polygon_rows_exact_OFF": true,
+      "triangle_source_corner_rows_changed_from_OFF": 0,
+      "triangle_source_corners_SHA256": "e5f09732e4218657fe16b8def62330bc4273bd4c0881ae4a12ef357f104a8ed0"
+    },
+    {
+      "input": "NEUTRAL",
+      "stage": "FULL_SOURCE",
+      "native_triangle_rows": 23459,
+      "triangle_source_polygon_rows_exact_OFF": true,
+      "triangle_source_corner_rows_changed_from_OFF": 0,
+      "triangle_source_corners_SHA256": "e5f09732e4218657fe16b8def62330bc4273bd4c0881ae4a12ef357f104a8ed0"
+    }
+  ],
+  "rule": "Original polygon/loop/material/smooth/UV topology remains exact; per-stage native triangle corners retain original IDs but need not equal static OFF triangulation. Use supplied actual stage rows, not importer diagonal assumptions.",
+  "frozen_private_bundle_unchanged_SHA256": "ce5c1cb7d61b27072ebfd55de450d86b06ada318b368eddb45733d4010bdb766",
+  "historical_guard_FAIL_product_normal_policy_PBR_F2_PRIMARY": "HOLD preserved"
+}

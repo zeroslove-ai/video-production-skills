@@ -1,0 +1,312 @@
+{
+  "capability_delta": "새 Windows 기능 없음; exact2input source-rest CORNER normal reference 획득",
+  "new_native_guard": {
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\NATIVE_GUARD_RESULT_R1.json",
+    "sha256": "15e6e65e8adefcb2077cd8d64f1d81c0c20e055e48fdb790e4b5cbb134a1cf24",
+    "pid": 125288,
+    "creation_FILETIME": 134355383056822996,
+    "parent_pid": 133792,
+    "BEFORE": {
+      "phase": "BEFORE",
+      "owned_pid": 125288,
+      "owned_process_handle": 416,
+      "limited_query_handle": 424,
+      "original": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "creation_FILETIME": 134355383056822996
+      },
+      "limited": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "creation_FILETIME": 134355383056822996
+      },
+      "job": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": [
+          125288
+        ]
+      },
+      "parent_pid": 133792,
+      "owned_handle_signaled": false
+    },
+    "AFTER": {
+      "phase": "AFTER",
+      "owned_pid": 125288,
+      "owned_process_handle": 416,
+      "limited_query_handle": 424,
+      "original": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "creation_FILETIME": 134355383056822996
+      },
+      "limited": {
+        "QueryFullProcessImageName_success": true,
+        "error": 0,
+        "image": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+        "creation_FILETIME": 134355383056822996
+      },
+      "job": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": [
+          125288
+        ]
+      },
+      "parent_pid": 133792,
+      "owned_handle_signaled": false
+    },
+    "terminal_exit_code": 0,
+    "terminal_job": {
+      "active": 0,
+      "total": 1,
+      "limit_terminated": 0,
+      "pids": []
+    },
+    "combined_output_bytes": 7422724,
+    "wall_seconds": 21.975488299969584,
+    "cleanup_errors": []
+  },
+  "approval": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-native-broker-preparation-r4\\NEW_NATIVE_APPROVAL_R1.json",
+    "sha256": "8a8fa1de163de48b59b9f982ea7323fb6b4cdde62c347ea847f29df990de3aa5",
+    "new_exact_approval": true,
+    "historical_approval_reused": false
+  },
+  "native_launches": 1,
+  "records": [
+    {
+      "case": "WORST_SHAPE_ONLY",
+      "file": "WORST_SHAPE_ONLY_PRIVATE_R1.npz",
+      "bytes": 935059,
+      "sha256": "33517b301b7f459c0d898f327ef9b5817d53541190ecaf004e5fceb91559d3d6",
+      "vertices": 12928,
+      "CORNERs": 66861,
+      "polygons": 21701,
+      "source_topology_UV_material_smooth_exact": true,
+      "custom_normal_type": "CORNER INT16_2D",
+      "custom_payload_exact_original": true,
+      "custom_short2_LE_SHA256": "08b1fc8e6e4fa00c97728fc90b07adb59393d17995e330c7b7df8b0197028f95",
+      "normal_unit_length_max_abs_error": 1.7881393432617188e-07,
+      "tangent_sign_values": [
+        -1.0,
+        1.0
+      ],
+      "tangent_normal_max_abs_dot": 0.9213356375694275,
+      "position_vs_FULL_SOURCE_OFF_max_vector_delta_m": 0.014734583906829357,
+      "normal_vs_FULL_SOURCE_OFF_max_angle_deg": 147.88040548624554,
+      "CORNERs_vs_FULL_SOURCE_OFF_over_0_001deg": 41896,
+      "head_slot6_vs_FULL_SOURCE_OFF_max_angle_deg": 124.62849645365698,
+      "normal_diagnostic_scope": "Native stage changes versus FULL_SOURCE OFF baseline, not consumer errors. SHAPE_ONLY/GN baselines differ modifier scope; do not attribute all angle delta solely to FACE."
+    },
+    {
+      "case": "WORST_SHAPE_GN",
+      "file": "WORST_SHAPE_GN_PRIVATE_R1.npz",
+      "bytes": 935534,
+      "sha256": "294805176bf49f6cbcdebefb5da51c0f11578fb9a5ec857b445067a83ba2e81f",
+      "vertices": 12928,
+      "CORNERs": 66861,
+      "polygons": 21701,
+      "source_topology_UV_material_smooth_exact": true,
+      "custom_normal_type": "CORNER INT16_2D",
+      "custom_payload_exact_original": true,
+      "custom_short2_LE_SHA256": "08b1fc8e6e4fa00c97728fc90b07adb59393d17995e330c7b7df8b0197028f95",
+      "normal_unit_length_max_abs_error": 1.7881393432617188e-07,
+      "tangent_sign_values": [
+        -1.0,
+        1.0
+      ],
+      "tangent_normal_max_abs_dot": 0.9213356375694275,
+      "position_vs_FULL_SOURCE_OFF_max_vector_delta_m": 0.014734583906829357,
+      "normal_vs_FULL_SOURCE_OFF_max_angle_deg": 147.88040548624554,
+      "CORNERs_vs_FULL_SOURCE_OFF_over_0_001deg": 42465,
+      "head_slot6_vs_FULL_SOURCE_OFF_max_angle_deg": 124.62849645365698,
+      "normal_diagnostic_scope": "Native stage changes versus FULL_SOURCE OFF baseline, not consumer errors. SHAPE_ONLY/GN baselines differ modifier scope; do not attribute all angle delta solely to FACE."
+    },
+    {
+      "case": "WORST_FULL_SOURCE",
+      "file": "WORST_FULL_SOURCE_PRIVATE_R1.npz",
+      "bytes": 935687,
+      "sha256": "8c28b0fe87691a458f8534badb39a6c4684de1ad48af83e9999c85233a26a687",
+      "vertices": 12928,
+      "CORNERs": 66861,
+      "polygons": 21701,
+      "source_topology_UV_material_smooth_exact": true,
+      "custom_normal_type": "CORNER INT16_2D",
+      "custom_payload_exact_original": true,
+      "custom_short2_LE_SHA256": "08b1fc8e6e4fa00c97728fc90b07adb59393d17995e330c7b7df8b0197028f95",
+      "normal_unit_length_max_abs_error": 1.7881393432617188e-07,
+      "tangent_sign_values": [
+        -1.0,
+        1.0
+      ],
+      "tangent_normal_max_abs_dot": 0.921214759349823,
+      "position_vs_FULL_SOURCE_OFF_max_vector_delta_m": 0.014734534546732903,
+      "normal_vs_FULL_SOURCE_OFF_max_angle_deg": 148.0492846863775,
+      "CORNERs_vs_FULL_SOURCE_OFF_over_0_001deg": 25224,
+      "head_slot6_vs_FULL_SOURCE_OFF_max_angle_deg": 124.63641058982643,
+      "normal_diagnostic_scope": "Native stage changes versus FULL_SOURCE OFF baseline, not consumer errors. SHAPE_ONLY/GN baselines differ modifier scope; do not attribute all angle delta solely to FACE."
+    },
+    {
+      "case": "NEUTRAL_SHAPE_ONLY",
+      "file": "NEUTRAL_SHAPE_ONLY_PRIVATE_R1.npz",
+      "bytes": 918370,
+      "sha256": "fb19599f0e09a28c7448125788c85418e9e4ab84f27f79d8fb6b96e0a5f9e123",
+      "vertices": 12928,
+      "CORNERs": 66861,
+      "polygons": 21701,
+      "source_topology_UV_material_smooth_exact": true,
+      "custom_normal_type": "CORNER INT16_2D",
+      "custom_payload_exact_original": true,
+      "custom_short2_LE_SHA256": "08b1fc8e6e4fa00c97728fc90b07adb59393d17995e330c7b7df8b0197028f95",
+      "normal_unit_length_max_abs_error": 1.7881393432617188e-07,
+      "tangent_sign_values": [
+        -1.0,
+        1.0
+      ],
+      "tangent_normal_max_abs_dot": 0.8196740746498108,
+      "position_vs_FULL_SOURCE_OFF_max_vector_delta_m": 2.9522192335207365e-07,
+      "normal_vs_FULL_SOURCE_OFF_max_angle_deg": 6.934655730048602,
+      "CORNERs_vs_FULL_SOURCE_OFF_over_0_001deg": 33505,
+      "head_slot6_vs_FULL_SOURCE_OFF_max_angle_deg": 1.0927072507466746,
+      "normal_diagnostic_scope": "Native stage changes versus FULL_SOURCE OFF baseline, not consumer errors. SHAPE_ONLY/GN baselines differ modifier scope; do not attribute all angle delta solely to FACE."
+    },
+    {
+      "case": "NEUTRAL_SHAPE_GN",
+      "file": "NEUTRAL_SHAPE_GN_PRIVATE_R1.npz",
+      "bytes": 918982,
+      "sha256": "61d17c7219aaf62d64aa5298e4b9e7d88d0647baa7fff87659b761b874dddbd0",
+      "vertices": 12928,
+      "CORNERs": 66861,
+      "polygons": 21701,
+      "source_topology_UV_material_smooth_exact": true,
+      "custom_normal_type": "CORNER INT16_2D",
+      "custom_payload_exact_original": true,
+      "custom_short2_LE_SHA256": "08b1fc8e6e4fa00c97728fc90b07adb59393d17995e330c7b7df8b0197028f95",
+      "normal_unit_length_max_abs_error": 1.7881393432617188e-07,
+      "tangent_sign_values": [
+        -1.0,
+        1.0
+      ],
+      "tangent_normal_max_abs_dot": 0.8196740746498108,
+      "position_vs_FULL_SOURCE_OFF_max_vector_delta_m": 2.0980000044801272e-05,
+      "normal_vs_FULL_SOURCE_OFF_max_angle_deg": 6.934655730048602,
+      "CORNERs_vs_FULL_SOURCE_OFF_over_0_001deg": 34074,
+      "head_slot6_vs_FULL_SOURCE_OFF_max_angle_deg": 1.0927072507466746,
+      "normal_diagnostic_scope": "Native stage changes versus FULL_SOURCE OFF baseline, not consumer errors. SHAPE_ONLY/GN baselines differ modifier scope; do not attribute all angle delta solely to FACE."
+    },
+    {
+      "case": "NEUTRAL_FULL_SOURCE",
+      "file": "NEUTRAL_FULL_SOURCE_PRIVATE_R1.npz",
+      "bytes": 919097,
+      "sha256": "adc8055e53099a49d23f0f0f829265a2368608b687dbf8c0700849ed82bdb154",
+      "vertices": 12928,
+      "CORNERs": 66861,
+      "polygons": 21701,
+      "source_topology_UV_material_smooth_exact": true,
+      "custom_normal_type": "CORNER INT16_2D",
+      "custom_payload_exact_original": true,
+      "custom_short2_LE_SHA256": "08b1fc8e6e4fa00c97728fc90b07adb59393d17995e330c7b7df8b0197028f95",
+      "normal_unit_length_max_abs_error": 1.7881393432617188e-07,
+      "tangent_sign_values": [
+        -1.0,
+        1.0
+      ],
+      "tangent_normal_max_abs_dot": 0.8196674585342407,
+      "position_vs_FULL_SOURCE_OFF_max_vector_delta_m": 2.095175841532182e-05,
+      "normal_vs_FULL_SOURCE_OFF_max_angle_deg": 0.14690019740722787,
+      "CORNERs_vs_FULL_SOURCE_OFF_over_0_001deg": 4511,
+      "head_slot6_vs_FULL_SOURCE_OFF_max_angle_deg": 0.0,
+      "normal_diagnostic_scope": "Native stage changes versus FULL_SOURCE OFF baseline, not consumer errors. SHAPE_ONLY/GN baselines differ modifier scope; do not attribute all angle delta solely to FACE."
+    }
+  ],
+  "native_stage_change_diagnostics": [
+    {
+      "input": "WORST",
+      "from": "SHAPE_ONLY",
+      "to": "SHAPE_GN",
+      "position_max_vector_delta_m": 0.00033302296651527286,
+      "normal_max_angle_deg": 0.9172114769793965,
+      "normal_changed_CORNERs": 786,
+      "packed_payload_exact_between_stages": true
+    },
+    {
+      "input": "WORST",
+      "from": "SHAPE_GN",
+      "to": "FULL_SOURCE",
+      "position_max_vector_delta_m": 8.940696716308594e-08,
+      "normal_max_angle_deg": 5.034670202909315,
+      "normal_changed_CORNERs": 66857,
+      "packed_payload_exact_between_stages": true
+    },
+    {
+      "input": "NEUTRAL",
+      "from": "SHAPE_ONLY",
+      "to": "SHAPE_GN",
+      "position_max_vector_delta_m": 2.095175841532182e-05,
+      "normal_max_angle_deg": 0.06600055064690438,
+      "normal_changed_CORNERs": 786,
+      "packed_payload_exact_between_stages": true
+    },
+    {
+      "input": "NEUTRAL",
+      "from": "SHAPE_GN",
+      "to": "FULL_SOURCE",
+      "position_max_vector_delta_m": 8.940696716308594e-08,
+      "normal_max_angle_deg": 6.9352016251157895,
+      "normal_changed_CORNERs": 66850,
+      "packed_payload_exact_between_stages": true
+    }
+  ],
+  "OFF_ALL_ARRAYS_exact": true,
+  "OFF_full_source_component_diff": {},
+  "prior_source_neutral_local_CORNER_normal_max_abs_delta": 0.0,
+  "all20_pinned_source_clone_input_script_SHA_prepost_exact": true,
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "input_SHA256": {
+    "WORST": "170accdfe80954ae2fe340e1aca3bdef5ac2e7fd25049be2089ab69766bd77a2",
+    "NEUTRAL": "b775d6252cc4e9c3703d76e5747a7113bfb5d8318f1d1ff5e9b2b73df5d53961"
+  },
+  "source_Key_vs_consumer71_weight100_diagnostic": {
+    "WORST": {
+      "compared_named_keys": 71,
+      "missing_source_keys": [],
+      "max_abs_source_vs_consumer_weight100": 3.2989502019020733e-08,
+      "scope": "Diagnostic readback; no tolerance waiver or forced source corrective weights"
+    },
+    "NEUTRAL": {
+      "compared_named_keys": 71,
+      "missing_source_keys": [],
+      "max_abs_source_vs_consumer_weight100": 3.620077490811696e-12,
+      "scope": "Diagnostic readback; no tolerance waiver or forced source corrective weights"
+    }
+  },
+  "consumer_contract": {
+    "scope": "SOURCE_REFERENCE_ONLY / original head-local source-rest, FACE16+GAZE2; no full runtime body pose parity",
+    "arrays": "6stage+2OFF NPZ, original source-loop indices retained. Current local position, CORNER normal/tangent, sign, custom short2, topology/UV/smooth/triangle source polygon+corners and object matrix are private.",
+    "consumer_stage_selection": "Compare unskinned Unity mesh with SHAPE_GN if consumer has applied source GN before skinning; FULL_SOURCE includes original source Armature/rest. Match local/world basis and actual bones before any postskin comparison.",
+    "normal_space": "Blender head local meters/Z-up. World row n=normalize(n_local inverse(A)), tangent t=project(t_local A^T perpendicular to world normal), normalized; sign gains determinant parity. Actual consumer basis K/winding/UV signs require separate witness.",
+    "identity": "Use existing original head NPZ loop_vertex_indices/polygon_loop_start/total/polygon_material_slot plus native triangle_source_corners/polygon. Do not average per source vertex or compare arbitrary Unity split-vertex order.",
+    "controls": "Exact native_face16 and2gaze pinned input files; 13 source FACE bridge drivers muted,37 active source correctives derive all72 Key outputs. Consumer71weights/100 are diagnostic only, never forced into source.",
+    "semantics": "Custom short2 is bit-identical original at all6stages but current evaluated normal differs. Decode on current geometric fan spaces, not normal xyz blend deltas/static rotations. Frozen normal arrays are oracle evidence, not final runtime pose injection.",
+    "minimal_comparison": "At same authored input record consumer source-corner correspondence+positions/normals/tangent4+UV0 and pre/postskin scope; compare per-original-CORNER normal angle and sign/handedness. Source-only large angle metrics do not select DN0/PRIMARY policy.",
+    "held": "Product normal policy/PRIMARY and canonical appearance/F2/F3 remain HOLD. Historical guard FAIL artifacts remain unchanged."
+  },
+  "private_bundle": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_MORPH67_TWO_INPUT_NATIVE_NORMAL_REFERENCE_R1.zip",
+    "bytes": 6082981,
+    "sha256": "ce5c1cb7d61b27072ebfd55de450d86b06ada318b368eddb45733d4010bdb766",
+    "members": 31,
+    "CRC_and_member_SHA_verified": true
+  },
+  "no_render_export_save_Unity": true,
+  "guard_history": "Historical native guard FAIL preserved. New bounded run has separate strict PASS; no retroactive relabel.",
+  "held": "Runtime body pose equivalence/product normal policy/PRIMARY/appearance/F2/F3 HOLD; source-only oracle handoff."
+}
