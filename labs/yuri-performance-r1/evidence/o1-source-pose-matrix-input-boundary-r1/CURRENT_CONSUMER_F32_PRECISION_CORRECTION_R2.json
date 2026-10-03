@@ -1,0 +1,21 @@
+{
+  "status": "PM_REPORTED_CURRENT_FLOAT32_SCOPE_CORRECTION_NOT_DESKTOP_RECOMPUTED",
+  "source": "ROOT_PM_POSE_BOUNDARY_REPORT_PRECISION_CORRECTION_R1 delegation; Laptop NATIVE_LOCAL_R2_INPUT_F32_BIT_AUDIT_R1.json",
+  "historical_checkpoint_preserved": "e712d5ff2969bbe27258b6235a01602658df4bf4",
+  "bodyWorld_actual_float32_bits": "BITEXACT",
+  "bodyWorld_actual_float32_max_component_delta": 0,
+  "prior_2_622604e_minus8": "JSON decimal versus widened native float64 storage precision only; not float32 input mismatch",
+  "all57_pose_max_component_delta": {
+    "Startle11": 0.000002115964889526367,
+    "Strong6": 0.000001952052116394043
+  },
+  "positive_weight51_pose_max_component_delta": {
+    "Startle11": {"delta": 0.000001341104507446289, "bone": "thumb1.L"},
+    "Strong6": {"delta": 0.000001430511474609375, "bone": "toe.L"}
+  },
+  "actual_consumer_rigWorld": "Earlier raw receipt missing; consumer44 now records it, current raw-bit comparison pending here",
+  "source_rest_geometry_full_weights_slots_flags": "Preserve original57/63561/304799 including zero helpers; positive-weight51 statistic is not permission to prune slots",
+  "numpy_inverse_world_control": "Historical scoped non-byte-equivalence observation unchanged; not current consumer cause",
+  "cause": "NOT_ISOLATED; pose/channel reconstruction versus matrix operator remains separate",
+  "new_Blender_native_build_acquisition_replay": false
+}
