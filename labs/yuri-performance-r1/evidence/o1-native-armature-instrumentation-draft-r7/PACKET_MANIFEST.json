@@ -1,0 +1,192 @@
+{
+  "status": "TYPED_SOURCE_DRAFT_STATIC_CHECKED_NOT_COMPILED_CAPTURE_PENDING",
+  "files": [
+    {
+      "path": "CMAKE_TEXT_RECEIPT.json",
+      "bytes": 222,
+      "sha256": "0baa536b9bae8f6d187d6adc3e568b0d232eaccc15bd493350c4a2d9004e0bb3"
+    },
+    {
+      "path": "NATIVE_ARITHMETIC_INTERMEDIATE_REQUEST_R1_3b8383a6.md",
+      "bytes": 8298,
+      "sha256": "3dd4bf71a71c4d39a5f2563f49f01e36f7bb420471bcd69ede33c4dacca54992"
+    },
+    {
+      "path": "native_armature_typed_r7.patch",
+      "bytes": 29798,
+      "sha256": "b2ba72354e36d96f87ef98f7f7c2b1dba39a95338bff2a91f4cdeb48d64989e2"
+    },
+    {
+      "path": "PATCH_APPLY_AND_SCOPE.json",
+      "bytes": 8734,
+      "sha256": "c52ecddb0c0b4fe2a44772398c3a066466567a80b2aebc09d8bf97df28c89878"
+    },
+    {
+      "path": "request-inputs-exact.json",
+      "bytes": 119754,
+      "sha256": "a46c693c28e09a93729bbe433a522d47c7a452c740a6af6ceb8868ddec370b17"
+    },
+    {
+      "path": "SECOND_LBS_CANONICAL_SCHEMA_R7.md",
+      "bytes": 4716,
+      "sha256": "fac3e9669c2916df21fdbb0102918e90b64fb10a77648d15558c83eb0c846828"
+    },
+    {
+      "path": "STATIC_VALIDATION_R7.json",
+      "bytes": 10053,
+      "sha256": "8ecd835b7aac45680258eafad215b8834ea02f0a67861aa3cc7dcdf6fb815282"
+    },
+    {
+      "path": "SYNTHETIC_ONLY_CanonicalSchema_R7.manifest.json",
+      "bytes": 28648,
+      "sha256": "45b831f2270d90b0a81b42e3ae31657d6b385fc857831f16eb4245937ee0c303"
+    },
+    {
+      "path": "SYNTHETIC_ONLY_CanonicalSchema_R7.npz",
+      "bytes": 21175,
+      "sha256": "8147c63f2d2fb7e5eaddd88683f3780f7b9d28eb876ea6b58afcfbaaacac2dec"
+    },
+    {
+      "path": "TEXT_SOURCE_RECEIPT.json",
+      "bytes": 1287,
+      "sha256": "d4b033ad2a62e0600897e55542e6223209ffa6d0df5025e282255455faefc6d9"
+    },
+    {
+      "path": "upstream/source/blender/blenkernel/intern/armature_deform.cc",
+      "bytes": 28079,
+      "sha256": "aad1cf4d4dd30f8d5f89f556721b7dc628092dd57db4ac8f4c03c741495d38ba"
+    },
+    {
+      "path": "upstream/source/blender/blenkernel/intern/armature_update.cc",
+      "bytes": 37357,
+      "sha256": "420a2b53bde880af686688a4957eb4b692ed6687a67e80bebbdf6b05afdf7bf5"
+    },
+    {
+      "path": "upstream/source/blender/blenlib/intern/math_rotation_c.cc",
+      "bytes": 66548,
+      "sha256": "58fa312f5765ae55a84f9f68d8f809bf7e7ac61e220adb9d93ac7ce16f300260"
+    },
+    {
+      "path": "upstream/source/blender/modifiers/intern/MOD_armature.cc",
+      "bytes": 10070,
+      "sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e"
+    },
+    {
+      "path": "upstream/source/blender/python/intern/bpy_interface.cc",
+      "bytes": 38568,
+      "sha256": "f8f1f47b6c6a5b7369a4ef48d68d3ec6070cda98ab15e66a0349302d6d04fdce"
+    },
+    {
+      "path": "upstream-reference/ACTION_API_TEXT_RECEIPT.json",
+      "bytes": 588,
+      "sha256": "e42722f4222047daa6f1d6b6db5e52ce57a3b0fe3658b9f274cb25fb6414c7e0"
+    },
+    {
+      "path": "upstream-reference/CMakeLists.txt",
+      "bytes": 93556,
+      "sha256": "3bb656a5a66917e269ac3b25b8292f98b9e4a7aa10ce7918155a12ec9ba0fb16"
+    },
+    {
+      "path": "upstream-reference/DEG_depsgraph_query.hh",
+      "bytes": 14775,
+      "sha256": "5b24676df310fd95478f9c0343666e154c7595c7c0ef88f722cddd784a54e73c"
+    },
+    {
+      "path": "upstream-reference/DNA_action_types.h",
+      "bytes": 44560,
+      "sha256": "79d644982dc05fe763bd2da8912cf63a5b527b04841d7b525232d1dd9ab86b5d"
+    },
+    {
+      "path": "upstream-reference/DNA_anim_types.h",
+      "bytes": 23488,
+      "sha256": "3f861788385b6bfbeab940c7f9a0ce1030b16ccecf6b195a35945ed3c4e753bf"
+    },
+    {
+      "path": "upstream-reference/DNA_armature_types.h",
+      "bytes": 20743,
+      "sha256": "6748dd426402defdd09a5e90134b9ccaa9d1b6a8cc63e7d62ad875f997acee7a"
+    },
+    {
+      "path": "upstream-reference/DNA_object_types.h",
+      "bytes": 23322,
+      "sha256": "2f5ac201f03efe8abca4b8e9f340a97ac114370e1373ba760ea597956bae54b2"
+    },
+    {
+      "path": "upstream-reference/math_matrix_c.cc",
+      "bytes": 77086,
+      "sha256": "ef68e49a889b67e8628fb8a731ab15cc16b6bb0ecd978d99cfdf179fdfdb4c79"
+    },
+    {
+      "path": "upstream-reference/O1SourceBodyArmature.cs",
+      "bytes": 20164,
+      "sha256": "1ba79eba06715b26e34ef8377bdd4bb18d59604b53ed17a1aaf3cdc3743cd017"
+    },
+    {
+      "path": "upstream-reference/O1SourceBodyRenderer.cs",
+      "bytes": 7167,
+      "sha256": "94b82fa51394c0d16e88d47e88d487cf8693edfdef3795488accbb12e2cff938"
+    },
+    {
+      "path": "upstream-reference/PINNED_BINDING_SOURCE_RECEIPT.json",
+      "bytes": 891,
+      "sha256": "c5446b600c346900d44e5fb3a4df548c91ba9b612a5641fd8f05f6577aafa0df"
+    },
+    {
+      "path": "upstream-reference/rna_layer.cc",
+      "bytes": 30432,
+      "sha256": "7d9348db22f8d2e4f88cdb2ec9368e0ca689fb015c28bae40cc7dafafd36c599"
+    },
+    {
+      "path": "workflow/armature_canonical_pack_r7.py",
+      "bytes": 13073,
+      "sha256": "48bced4581270e2d336be58e35df2e2d92c803d99fa03c30a4411843f22ec381"
+    },
+    {
+      "path": "workflow/armature_canonical_validate_r7.py",
+      "bytes": 15548,
+      "sha256": "ae9c34b88066bb7903ff55da0656f11af0e2a7b1fdef995ab09672d20aa36574"
+    },
+    {
+      "path": "workflow/armature_live_recipe_r5.py",
+      "bytes": 2392,
+      "sha256": "e4bb90caf3c2ee34a9bb9f508361f0fe83519eefa572f388f4dea8071d427a3c"
+    },
+    {
+      "path": "workflow/armature_owned_invocation_r7.py",
+      "bytes": 6121,
+      "sha256": "4d6bba9a36fb7d1af8a955e63e41adf4ce8a092d19b236d23e2de766d2ead13b"
+    },
+    {
+      "path": "workflow/armature_trace_r4.hh.in",
+      "bytes": 5686,
+      "sha256": "0aaea8f8ac8720d47ae253ead6fc7f4c2facb810f406701a4fc31a20cedf94e2"
+    },
+    {
+      "path": "workflow/armature_trace_unpack_r1.py",
+      "bytes": 4446,
+      "sha256": "d4b2e8e68c02e3b0853fafca26dc454b7e58424b6fdbd340d4ebc702b2f048c0"
+    },
+    {
+      "path": "workflow/armature_validator_fixture_r7.py",
+      "bytes": 7416,
+      "sha256": "869176932d29e5bd021a8800c1c5702304af34d3fd760524f0a2f1469ce5a45c"
+    },
+    {
+      "path": "workflow/bpy_yuri_armature_trace_r5.hh",
+      "bytes": 4191,
+      "sha256": "4331d3e9ca20bb5be850914fd26d297a104691bc50ab32bab71ce3f299236dd9"
+    },
+    {
+      "path": "workflow/r4_armature_draft_finalize_r7.py",
+      "bytes": 11100,
+      "sha256": "703299a2938e93ec2b58ebd4b6af0f83c1f3c7e440c35514a139b2651f293c3b"
+    },
+    {
+      "path": "workflow/r4_armature_instrumentation_draft_r7.py",
+      "bytes": 17983,
+      "sha256": "047629d67b51af2a52577d308d9a08ccec0131cc4a098762fca64900fdf1fd16"
+    }
+  ],
+  "source_commit": "9e2066aef7ef7e20c142ad7bd3303138a4304c93",
+  "patch_sha256": "b2ba72354e36d96f87ef98f7f7c2b1dba39a95338bff2a91f4cdeb48d64989e2"
+}
