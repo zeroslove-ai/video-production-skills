@@ -1,0 +1,26 @@
+{
+  "scope": "READ_ONLY_PRE_EXECUTION_RECONCILIATION",
+  "free_RAM_bytes": 31656656896,
+  "free_C_bytes": 263374049280,
+  "blender": [
+    {
+      "ProcessId": 129152,
+      "ParentProcessId": 137352,
+      "CreationDate": "2026-10-02T23:17:57.000664+09:00",
+      "ExecutablePath": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "CommandLine": "\"C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe\" \"C:\\Users\\JAEWAN\\Downloads\\Character_Master_NeckSkin_R4.blend\""
+    }
+  ],
+  "gpu_lease": {
+    "mode": "PRODUCT_EXCLUSIVE",
+    "observation": "read-only process observation; product lane must verify/own release",
+    "owner": "product-observed",
+    "pid": 58248,
+    "schemaVersion": 1,
+    "started_at": "2026-09-17T12:07:01Z",
+    "task": "resume E0 recheck: owner product player R3 active; preserve PRODUCT_EXCLUSIVE"
+  },
+  "gpu_lease_sha256": "4F1F8F9188A55E0BBF2349034076F74367B1323EDFC98FCF308AD7F90EEB968D",
+  "gui_129152_preserved": true,
+  "unknown_blender_workers": 0
+}

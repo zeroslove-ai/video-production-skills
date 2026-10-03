@@ -1,0 +1,13 @@
+# Original Idle R2 actual capture: failed restoration
+
+One approved attempt consumed. Exact original R2 scripts/config/receipt unchanged. PID112528,creation FILETIME134355172202005518,parent130444,process handle404,Job handle388. Native exit93 after53.2988seconds; whole guard **FAIL**,retry0. Cleanup Active0,total1,limitTerminated0,PIDs[],no errors,Job closed and owned handle signaled. Final closed-log and Job-receipt custody verified. Original GUI Blender129152 and product-exclusive GPU lease unchanged.
+
+The collector streamed145 complete frame records with curve counts364/16/2/4,all137bones,57BODY/10Hair,72headKey outputs,14Hair drivers and13mutes at every frame. Independently verified every native geometry block offset/byte SHA:331863240bytes. This is failed-capture custody, **not accepted native playback**. Final result, endpoint report and restored driver/NLA report were not written because OFF full-signature assertion failed first. The frozen independent auditor also failed the before==after assertion.
+
+Actual OFF differences: objects Character_Body_Head,Hair_Rig_R4,Meshy_Fitted_Rig; mesh_attributes tripo_mesh_1d697050.001. Original source/six input SHA unchanged. Geometry/ShapeKeys/weights,rest,Actions,materials/nodes/textures/world category hashes remain equal before/ON/restored. Restored evaluated world geometry hashes are equal. Driver/NLA structural graph is exact before/ON; restored structural report is absent. These equal categories do not waive the failed full signature.
+
+Before-binding metadata records empty last_slot_identifier and null Action/slot with handle0 on all four target IDs. Collector restores Action/slot but does not explicitly restore last_slot_identifier. This is a concrete omitted rollback obligation and a hypothesis matching the four owner scopes, **not a proven cause**: raw final AnimData fields were not saved. Other custom/pose/driver/evaluation inputs must remain candidates until field-level evidence exists.
+
+Private frozen ZIP334371579bytes SHA256 **214b046b547c41ffc83cd0fa72bc783cf2b6cc98fbde51561147b3aab5e64c4b** at the original private output directory. CRC and every member SHA verified. No numeric geometry/key/property matrices are published. Public FAILED_CAPTURE_CUSTODY_R2.json records actual receipts/counts/hashes and failures. No source save/export/render/unmute/retry and no delivery as production transport.
+
+Next single handoff task: file-only R3 forensic restoration design, with complete before/ON/after raw fingerprint inputs and exact AnimData/NLA/custom/Key rollback obligations. No further native run is authorized by this consumed receipt.
