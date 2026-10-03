@@ -1,0 +1,104 @@
+{
+  "PM_seed_record": {
+    "path": "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\pm\\YURI_ROOT_PM_WORKSTREAMS_R1.md",
+    "sha256_of_record": "b98c9699dfd2df762440b5af63d0d8632df2c280b6938de03e6f286ba48b236e",
+    "entries": [
+      {
+        "file": "Character_GameRig_R4_20261002.fbx",
+        "bytes": 24914028,
+        "sha256": "012b93322bcedeb473f65cc651eb28c503ba95fef5ef9b4301bbdc687d93773f",
+        "bones_reported_by_PM": 125
+      },
+      {
+        "file": "YURI_REACTION_R4_ANIMATION_ONLY.fbx",
+        "bytes": 6320428,
+        "sha256": "117b0fb96ee2d68f08841c33a6a87191318558ccaf299bcb9c5cddc206ad173e",
+        "bones_reported_by_PM": 125
+      }
+    ]
+  },
+  "08caad7_final_manifest_current_files": [
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-model-handoff\\Character_GameRig_R4_20261002.fbx",
+      "bytes": 23954844,
+      "sha256": "30094d82b3a7340d2adde58e71805834c79922fd921311e5f4e780a5dd19045d"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-model-handoff\\YURI_REACTION_R4_ANIMATION_ONLY.fbx",
+      "bytes": 4034844,
+      "sha256": "83a6b1126210e19aaf1ca55bd2c108056f2cb91c00d4818d9a796ad14e4038eb"
+    }
+  ],
+  "final_manifest_sha256": "c84404f3ee15f9c53adb09d82a3e1e4383d0a7e8bc45ef5821bba94b32064e1d",
+  "08caad7_old_sealed_zip": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_MODEL_HANDOFF_R1.zip",
+    "sha256": "48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85",
+    "matching_final_FBX_bytes_verified": true
+  },
+  "preserved_rejected_snapshots": [
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-model-handoff\\rejected-rest-delta\\Character_GameRig_R4_20261002.fbx",
+      "bytes": 24914028,
+      "sha256": "aa445fb078a3834bfb5106eac53f7405e0b065ece5f3f66e4265b5643f437d77"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-model-handoff\\rejected-rest-delta\\YURI_REACTION_R4_ANIMATION_ONLY.fbx",
+      "bytes": 6298108,
+      "sha256": "04d50bf33d4dbb81d6c7bd862f44f0f708e2a42be9ddb720e6531906c3f55a25"
+    }
+  ],
+  "committed_08caad7_export_bones": 79,
+  "committed_removed_unused_donor_bones": [
+    "J_Bip_L_Shoulder",
+    "J_Bip_L_UpperArm",
+    "J_Bip_L_LowerArm",
+    "J_Bip_L_Hand",
+    "J_Bip_L_Thumb1",
+    "J_Bip_L_Thumb2",
+    "J_Bip_L_Thumb3",
+    "J_Bip_L_Index1",
+    "J_Bip_L_Index2",
+    "J_Bip_L_Index3",
+    "J_Bip_L_Middle1",
+    "J_Bip_L_Middle2",
+    "J_Bip_L_Middle3",
+    "J_Bip_L_Ring1",
+    "J_Bip_L_Ring2",
+    "J_Bip_L_Ring3",
+    "J_Bip_L_Little1",
+    "J_Bip_L_Little2",
+    "J_Bip_L_Little3",
+    "J_Bip_R_Shoulder",
+    "J_Bip_R_UpperArm",
+    "J_Bip_R_LowerArm",
+    "J_Bip_R_Hand",
+    "J_Bip_R_Thumb1",
+    "J_Bip_R_Thumb2",
+    "J_Bip_R_Thumb3",
+    "J_Bip_R_Index1",
+    "J_Bip_R_Index2",
+    "J_Bip_R_Index3",
+    "J_Bip_R_Middle1",
+    "J_Bip_R_Middle2",
+    "J_Bip_R_Middle3",
+    "J_Bip_R_Ring1",
+    "J_Bip_R_Ring2",
+    "J_Bip_R_Ring3",
+    "J_Bip_R_Little1",
+    "J_Bip_R_Little2",
+    "J_Bip_R_Little3",
+    "J_Bip_L_UpperLeg",
+    "J_Bip_L_LowerLeg",
+    "J_Bip_L_Foot",
+    "J_Bip_L_ToeBase",
+    "J_Bip_R_UpperLeg",
+    "J_Bip_R_LowerLeg",
+    "J_Bip_R_Foot",
+    "J_Bip_R_ToeBase"
+  ],
+  "verified_conclusion": "PM seed125-bone hashes are NOT the final08caad7 79-bone pair. Final bytes match both historical manifest and sealed original handoff ZIP. Corrective820a237 instead preserves original four rigs and uses Action library only.",
+  "inference": "57+57+10+RuntimeRoot=125 and removal of46 donor bones yields79. This explains structural candidate-stage difference, but does NOT prove exact012B/117B byte lineage.",
+  "unresolved": "Exact012B/117B FBX binaries were not found in checked asset outputs; rejected snapshots also have different hashes. No exact generation timestamp/build provenance is claimed for PM seed bytes.",
+  "records_changed": false,
+  "old_FBX_packaged_for_new_custody": false
+}

@@ -1,0 +1,146 @@
+{
+  "marker": "YURI_O1_DESKTOP_CUSTODY_FROZEN",
+  "owner": "DESKTOP_ASSET",
+  "producer_repository": {
+    "remote": "https://github.com/zeroslove-ai/video-production-skills.git",
+    "branch": "research/yuri-performance-previs-r1-20261002",
+    "asset_commit": "820a23791d17838b101296b50c87fd7564db791f",
+    "parent_historical_commit": "08caad76e6a279d07698cbfaa33d5c50f2aa097d",
+    "origin_head_verified_at_freeze": "820a23791d17838b101296b50c87fd7564db791f",
+    "origin_matches_asset_checkpoint": true
+  },
+  "source_master": {
+    "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "member": "source/Character_Master_NeckSkin_R4.blend",
+    "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "bytes": 26553642,
+    "immutable_visual_authority": true
+  },
+  "action_asset": {
+    "path": "YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend",
+    "bytes": 9318285,
+    "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d"
+  },
+  "OFF_preserving_master": {
+    "path": "Character_R4_Animation_OFF_20261003.blend",
+    "bytes": 27961321,
+    "sha256": "0a0ed7082735e00f2d05ac3385140be4a17204b4548a11fea1e647849b816cd5"
+  },
+  "rig_contract_evidence": "rig_contract.json",
+  "rest_and_scale_assumptions": {
+    "basis": "original Blender Z-up native A-rest; original helper bind poses are nonidentity and must remain intact",
+    "Meshy_Fitted_Rig_object_uniform_scale": 0.535,
+    "scene_unit_scale": 1.0,
+    "do_not_apply_scale_or_rebuild": true,
+    "binding": "original Meshy_Fitted_Rig quaternion channels; OBMeshy_Fitted_Rig Action slot; retain face/hair constraints and drivers",
+    "retarget_translation_height_ratio": 0.8558494790405046,
+    "Unity_axis_unit_Avatar_rest_conversion": "NOT certified; must be specified by Laptop consumer before any export"
+  },
+  "actual_clips": [
+    {
+      "action": "YRA_R4_Startle_Short",
+      "frames": 37,
+      "duration_seconds": 1.5,
+      "fps": 24,
+      "loop": false,
+      "native_PASS": true
+    },
+    {
+      "action": "YRA_R4_Lift_Start",
+      "frames": 31,
+      "duration_seconds": 1.25,
+      "fps": 24,
+      "loop": false,
+      "native_PASS": true
+    },
+    {
+      "action": "YRA_R4_Struggle_Light_Loop",
+      "frames": 61,
+      "duration_seconds": 2.5,
+      "fps": 24,
+      "loop": true,
+      "native_PASS": true
+    },
+    {
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "frames": 49,
+      "duration_seconds": 2.0,
+      "fps": 24,
+      "loop": true,
+      "native_PASS": true
+    },
+    {
+      "action": "YRA_R4_Land_Soft",
+      "frames": 43,
+      "duration_seconds": 1.75,
+      "fps": 24,
+      "loop": false,
+      "native_PASS": true
+    },
+    {
+      "action": "YRA_R4_BalanceRecover",
+      "frames": 55,
+      "duration_seconds": 2.25,
+      "fps": 24,
+      "loop": false,
+      "native_PASS": true
+    }
+  ],
+  "QA_only_not_production": [
+    {
+      "action": "YRA_R4_QA_Release_Placeholder",
+      "frames": 19,
+      "duration_seconds": 0.75,
+      "status": "placeholder, NOT completed release or physics motion"
+    },
+    {
+      "action": "YRA_R4_QA_MilestoneA_Sequence",
+      "frames": 265,
+      "duration_seconds": 11,
+      "status": "QA sequence helper, NOT seventh physical clip"
+    }
+  ],
+  "preservation_acceptance": {
+    "source_bytes_identical": true,
+    "geometry_material_slots_ShapeKeys_weights_rest_pose_drivers_hash_differences": 0,
+    "OFF_neutral_RGBA_channel_differences": 0,
+    "ON_then_OFF_RGBA_channel_differences": 0,
+    "native_reactions": 6,
+    "loop_cycles_tested": 2,
+    "new_asset_generation_in_custody_task": 0
+  },
+  "defects_and_limits": [
+    "CPU preview sampling noise is retained; no material edit to hide it.",
+    "Physical world-space lift/drop/release trajectory and Active Ragdoll are not implemented.",
+    "Face phoneme A/O readability remains weak in prior native face audit; no new expression promotion or raw face mapping.",
+    "Original native DQ+masked LBS+surface relax, gaze Geometry Nodes and drivers are preserved in Blender; FBX cannot encode their behavior by itself.",
+    "GameRig125/79 FBX candidates are historical compatibility experiments ONLY, never canonical source character.",
+    "Python ReactionLane is Blender-only original-hierarchy ON/OFF restoration, not a Unity Runtime adapter or exported Unity animation controller."
+  ],
+  "exact_consumers": [
+    {
+      "owner": "Root PM O1",
+      "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1",
+      "branch": "pm/yuri-root-pm-r1",
+      "requested_by_thread": "01a0ff8a-5bc8-7541-a876-e39fcc7941bf",
+      "input": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_APPEARANCE_PRESERVE_20261003_407cda9db7b4.zip",
+      "responsibility": "custody/contract reconciliation and cross-host transfer; not performed here"
+    },
+    {
+      "owner": "Laptop Unity O1 consumer",
+      "target_branch_reported_by_PM": "work/yuri-unity-avatar-sandbox-u0-r1",
+      "owner_identity": "awaiting Root PM/Laptop requirements; no thread or host identity invented",
+      "input": "verified source R4 + Action-only library + contract after Root PM transfer",
+      "status": "Unity adaptation/import/export gates BLOCKED pending requirements; no Laptop/product writes"
+    }
+  ],
+  "blocked_Unity_export_gates": [
+    "Laptop must return exact native Avatar rig/hierarchy paths, rest pose, import axis/unit/globalScale and Generic vs Humanoid requirements.",
+    "Laptop must identify current source-preserving geometry/material/gaze/hair adapter and DQ/LBS/surface-relax tolerance; no body merge/substitution.",
+    "Agree animation-only export format and original FittedRig57 bind paths; original face/hair follower-driver hierarchy must remain separately owned.",
+    "Consumer must run state-entered, normalized-time advanced, weight>0, AlwaysAnimate, actual nonroot motion, no root teleport, no gross mesh break, loops2cycles.",
+    "Neutral Unity before/after render and geometry/material/morph/weights/rest gates must be met before any appearance promotion.",
+    "Physics profile/G1/G2/G3/Windows Player and VRM/Humanoid facial gates are external consumer work; Desktop Blender PASS does not certify them."
+  ],
+  "stop_condition": "No new Blender export or asset production until Laptop requirements are returned; custody verified only."
+}

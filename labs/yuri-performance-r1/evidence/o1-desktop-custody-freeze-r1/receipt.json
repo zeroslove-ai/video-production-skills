@@ -1,0 +1,19 @@
+{
+  "marker": "YURI_O1_DESKTOP_CUSTODY_FROZEN",
+  "created_utc": "2026-10-03T03:03:54.218190+00:00",
+  "source_zip": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_APPEARANCE_PRESERVE_CORRECTION_R1.zip",
+  "frozen_zip": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_APPEARANCE_PRESERVE_20261003_407cda9db7b4.zip",
+  "bytes": 62446950,
+  "sha256": "407cda9db7b45053f8fbb3e83467fa4888db456f31ebec376e1701c70d4f2d64",
+  "copied_bytes_unchanged": true,
+  "destination_read_only": true,
+  "ZIP_CRC_and_member_manifest": "PASS",
+  "source_R4_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "original_source_and_all_prior_artifacts_unchanged": true,
+  "producer_asset_checkpoint": "820a23791d17838b101296b50c87fd7564db791f",
+  "origin_match": true,
+  "consumer": "Root PM O1; cross-host transfer is PM responsibility",
+  "Blender_UI_or_exports_used": false,
+  "Unity_export": "BLOCKED; await Laptop exact contract",
+  "historical_seed_lineage": "final pair verified; exact seed012B/117B binaries unverified; see lineage.json"
+}
