@@ -1,0 +1,56 @@
+{
+  "status": "EXACT_FULL_RECIPE_FILE_CUSTODY_RESOLVED_NO_LIVE_OR_NATIVE_PASS",
+  "source_commit": "5dd8712e0a711bd6f8dccd1036f1e28a0827257f",
+  "source_git_path": "unity/YuriAvatarSandboxU0/Assets/AvatarCandidates/O1_ExactBindWeight_080352_R1/SourceBodyArmatureInput.json",
+  "source_git_blob_SHA1": "95d18fbd9ae0a58da2e28b60b24f1e77a51752b2",
+  "source_git_blob_metadata_independently_checked": "GitHub contents metadata size18390792/blob95d18...; encodingnone; recipe body not downloaded",
+  "PM_existing_local_source": "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\artifacts\\pm-custody\\r7-source-recipe\\SourceBodyArmatureInput_0cd0bdd7.json",
+  "owned_exact_copy": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json",
+  "bytes": 18390792,
+  "sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+  "counts": {
+    "positions": 63561,
+    "bone_slots": 57,
+    "CSR_offsets": 63562,
+    "ordered_CSR_entries": 304799,
+    "groups": 58,
+    "mask_group": 52
+  },
+  "zero_weight_entries_preserved": 37310,
+  "request_subset_checks": "PASS original57rest/name order/sourceWorld/five original positions and exact original ordered CSR indices/group/mapping/float32 weight bytes",
+  "original_raw_bytes_preserved": true,
+  "normalize_prune_fit_rewrite": false,
+  "file_arming_checks": [
+    {
+      "row": 0,
+      "action": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "status": "FILES_AND_DECLARED_ROUTING_VERIFIED_NOT_RUNTIME_ACTION_INSPECTED",
+      "file_sha256": {
+        "source": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+        "actions": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+        "pose": "03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3",
+        "recipe": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+        "request": "a46c693c28e09a93729bbe433a522d47c7a452c740a6af6ceb8868ddec370b17"
+      }
+    },
+    {
+      "row": 1,
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "status": "FILES_AND_DECLARED_ROUTING_VERIFIED_NOT_RUNTIME_ACTION_INSPECTED",
+      "file_sha256": {
+        "source": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+        "actions": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+        "pose": "03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3",
+        "recipe": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+        "request": "a46c693c28e09a93729bbe433a522d47c7a452c740a6af6ceb8868ddec370b17"
+      }
+    }
+  ],
+  "live_source_verifier": "IMPLEMENTED_NOT_RUN; must compare full bpy63561/57/304799 AFTER source load and BEFORE Action/arming",
+  "native_numeric_acceptance": false,
+  "source_or_GUI_mutation": false,
+  "acquisition_approval": false,
+  "build_capture_approval": false
+}

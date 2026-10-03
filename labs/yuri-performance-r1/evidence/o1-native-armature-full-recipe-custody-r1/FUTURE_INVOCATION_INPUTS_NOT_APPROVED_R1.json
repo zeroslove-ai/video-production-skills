@@ -1,0 +1,35 @@
+{
+  "status": "REVIEWED_ACTUAL_FILE_INPUTS_ONLY_NOT_EXECUTION_APPROVAL",
+  "files": {
+    "source": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "actions": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend",
+    "pose": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\reference\\native_evaluated_all_frames.json.gz",
+    "recipe": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json",
+    "request": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-canonical-validation-r4\\request-inputs-exact.json"
+  },
+  "recipe_custody_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+  "recipe_source_git_blob_SHA1": "95d18fbd9ae0a58da2e28b60b24f1e77a51752b2",
+  "cases": [
+    {
+      "row": 0,
+      "action": "YRA_R4_Startle_Short",
+      "frame": 11
+    },
+    {
+      "row": 1,
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6
+    }
+  ],
+  "invocation_adapter": "armature_owned_invocation_r7.invoke(bpy,native,files,row,approved_build)",
+  "expected_patch_sha256": "b2ba72354e36d96f87ef98f7f7c2b1dba39a95338bff2a91f4cdeb48d64989e2",
+  "actual_owner_capture_approval": false,
+  "acquisition_approval": false,
+  "pending": [
+    "separate real owner approvals/resource/build/compiler/guard custody",
+    "compiled _yuri_armature_trace_r5 module",
+    "actual full live source recipe/Action/slot/B pose verification",
+    "joined capture+restore and numeric/consumer gates"
+  ],
+  "no_automatic_invocation": "This receipt only resolves files. Its false approval fields cannot authorize execution; use separate approved_build receipt."
+}
