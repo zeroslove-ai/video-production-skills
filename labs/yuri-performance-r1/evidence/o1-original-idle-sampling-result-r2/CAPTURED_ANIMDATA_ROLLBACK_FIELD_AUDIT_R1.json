@@ -1,0 +1,322 @@
+{
+  "status": "FILE_ONLY_ACTUAL_CAPTURED_FIELD_TO_FROZEN_CODE_COMPARISON",
+  "native_runs": 0,
+  "original_capture_sha256": "e3cdd8a5ddd8e64fbf576c12038f06b0ad11066ac32d617ba0fefc7c69f5cd43",
+  "frozen_collector_sha256": "fb44ed96ebb07ad1c2b55cd2619828a97ca6ecdaa1bf366b24f9f2d79334f416",
+  "rows": [
+    {
+      "owner": "Character_Body_Head",
+      "ID_type": "Object",
+      "fields": [
+        {
+          "field": "action",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "EXPLICIT_ASSIGN_ORIGINAL",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_extrapolation",
+          "saved_value_sha256": "d82791e477f7b6777f6379a5109065c732f59e6231f32caaf8fc654a85ad55ae",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_blend_type",
+          "saved_value_sha256": "3350ceb8999b3b997d256da22dacf1abeea0378c3f653a3a90755142c89106f0",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_influence",
+          "saved_value_sha256": "d0ff5974b6aa52cf562bea5921840c032a860a91a3512f7fe8f768f6bbe005f6",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_tweak_storage",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle_tweak_storage",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_nla",
+          "saved_value_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_tweak_mode",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_pin",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "IMPLICIT_ACTION_CLEAR_BEHAVIOR_ONLY; no explicit assignment or final raw readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "last_slot_identifier",
+          "saved_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "rollback_obligation": "CONCRETE_OMITTED_EXPLICIT_ROLLBACK; original empty; final raw value missing; cause UNPROVEN",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "RESTORED_ONLY_IF_ORIGINAL_ACTION_NONNULL; null branch has no explicit slot readback",
+          "after_native_field_status": "NOT_RECORDED"
+        }
+      ]
+    },
+    {
+      "owner": "Hair_Rig_R4",
+      "ID_type": "Object",
+      "fields": [
+        {
+          "field": "action",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "EXPLICIT_ASSIGN_ORIGINAL",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_extrapolation",
+          "saved_value_sha256": "d82791e477f7b6777f6379a5109065c732f59e6231f32caaf8fc654a85ad55ae",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_blend_type",
+          "saved_value_sha256": "3350ceb8999b3b997d256da22dacf1abeea0378c3f653a3a90755142c89106f0",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_influence",
+          "saved_value_sha256": "d0ff5974b6aa52cf562bea5921840c032a860a91a3512f7fe8f768f6bbe005f6",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_tweak_storage",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle_tweak_storage",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_nla",
+          "saved_value_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_tweak_mode",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_pin",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "IMPLICIT_ACTION_CLEAR_BEHAVIOR_ONLY; no explicit assignment or final raw readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "last_slot_identifier",
+          "saved_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "rollback_obligation": "CONCRETE_OMITTED_EXPLICIT_ROLLBACK; original empty; final raw value missing; cause UNPROVEN",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "RESTORED_ONLY_IF_ORIGINAL_ACTION_NONNULL; null branch has no explicit slot readback",
+          "after_native_field_status": "NOT_RECORDED"
+        }
+      ]
+    },
+    {
+      "owner": "Meshy_Fitted_Rig",
+      "ID_type": "Object",
+      "fields": [
+        {
+          "field": "action",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "EXPLICIT_ASSIGN_ORIGINAL",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_extrapolation",
+          "saved_value_sha256": "d82791e477f7b6777f6379a5109065c732f59e6231f32caaf8fc654a85ad55ae",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_blend_type",
+          "saved_value_sha256": "3350ceb8999b3b997d256da22dacf1abeea0378c3f653a3a90755142c89106f0",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_influence",
+          "saved_value_sha256": "d0ff5974b6aa52cf562bea5921840c032a860a91a3512f7fe8f768f6bbe005f6",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_tweak_storage",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle_tweak_storage",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_nla",
+          "saved_value_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_tweak_mode",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_pin",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "IMPLICIT_ACTION_CLEAR_BEHAVIOR_ONLY; no explicit assignment or final raw readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "last_slot_identifier",
+          "saved_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "rollback_obligation": "CONCRETE_OMITTED_EXPLICIT_ROLLBACK; original empty; final raw value missing; cause UNPROVEN",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "RESTORED_ONLY_IF_ORIGINAL_ACTION_NONNULL; null branch has no explicit slot readback",
+          "after_native_field_status": "NOT_RECORDED"
+        }
+      ]
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "ID_type": "Key",
+      "fields": [
+        {
+          "field": "action",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "EXPLICIT_ASSIGN_ORIGINAL",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_extrapolation",
+          "saved_value_sha256": "d82791e477f7b6777f6379a5109065c732f59e6231f32caaf8fc654a85ad55ae",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_blend_type",
+          "saved_value_sha256": "3350ceb8999b3b997d256da22dacf1abeea0378c3f653a3a90755142c89106f0",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_influence",
+          "saved_value_sha256": "d0ff5974b6aa52cf562bea5921840c032a860a91a3512f7fe8f768f6bbe005f6",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_tweak_storage",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle_tweak_storage",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_nla",
+          "saved_value_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_tweak_mode",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "use_pin",
+          "saved_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+          "rollback_obligation": "NOT_EXPLICITLY_RESTORED; unchanged native state must be verified in raw final readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot_handle",
+          "saved_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "rollback_obligation": "IMPLICIT_ACTION_CLEAR_BEHAVIOR_ONLY; no explicit assignment or final raw readback",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "last_slot_identifier",
+          "saved_value_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+          "rollback_obligation": "CONCRETE_OMITTED_EXPLICIT_ROLLBACK; original empty; final raw value missing; cause UNPROVEN",
+          "after_native_field_status": "NOT_RECORDED"
+        },
+        {
+          "field": "action_slot",
+          "saved_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "rollback_obligation": "RESTORED_ONLY_IF_ORIGINAL_ACTION_NONNULL; null branch has no explicit slot readback",
+          "after_native_field_status": "NOT_RECORDED"
+        }
+      ]
+    }
+  ],
+  "scope": "Four actual AnimData owners including original Key; full raw props/custom/anim before/ON/after required in R3. Key AnimData contributes to owner mesh_attributes fingerprint. No category omission/epsilon waiver.",
+  "root_cause": "UNPROVEN; no final raw fields captured, hashes cannot isolate the exact field"
+}
