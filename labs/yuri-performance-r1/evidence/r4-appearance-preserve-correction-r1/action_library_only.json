@@ -1,0 +1,17 @@
+{
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0,
+  "materials": 0,
+  "images": 0,
+  "actions": [
+    "YRA_R4_BalanceRecover",
+    "YRA_R4_Land_Soft",
+    "YRA_R4_Lift_Start",
+    "YRA_R4_QA_MilestoneA_Sequence",
+    "YRA_R4_QA_Release_Placeholder",
+    "YRA_R4_Startle_Short",
+    "YRA_R4_Struggle_Light_Loop",
+    "YRA_R4_Struggle_Strong_Loop"
+  ]
+}

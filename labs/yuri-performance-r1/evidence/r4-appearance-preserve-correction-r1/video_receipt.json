@@ -1,0 +1,35 @@
+[
+  {
+    "file": "sequence_24fps.mp4",
+    "frames": 264,
+    "fps": 24,
+    "duration_seconds": 11.0,
+    "width": 256,
+    "height": 384,
+    "complete_decode": "PASS",
+    "normal_speed": true,
+    "audio": "none; animation QA"
+  },
+  {
+    "file": "strong_2cycles_24fps.mp4",
+    "frames": 96,
+    "fps": 24,
+    "duration_seconds": 4.0,
+    "width": 256,
+    "height": 384,
+    "complete_decode": "PASS",
+    "normal_speed": true,
+    "audio": "none; animation QA"
+  },
+  {
+    "file": "startle_24fps.mp4",
+    "frames": 36,
+    "fps": 24,
+    "duration_seconds": 1.5,
+    "width": 256,
+    "height": 384,
+    "complete_decode": "PASS",
+    "normal_speed": true,
+    "audio": "none; animation QA"
+  }
+]

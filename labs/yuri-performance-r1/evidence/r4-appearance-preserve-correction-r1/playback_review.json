@@ -1,0 +1,34 @@
+{
+  "review_url": "http://127.0.0.1:8774/REVIEW_R4_APPEARANCE_CORRECTION.html",
+  "browser": "Codex IAB",
+  "UI_play_command": "whole normal-speed proof play button",
+  "videos": [
+    {
+      "id": "sequence",
+      "time": 11,
+      "duration": 11,
+      "playbackRate": 1,
+      "ended": true,
+      "media_error": null
+    },
+    {
+      "id": "strong",
+      "time": 4,
+      "duration": 4,
+      "playbackRate": 1,
+      "ended": true,
+      "media_error": null
+    },
+    {
+      "id": "startle",
+      "time": 1.5,
+      "duration": 1.5,
+      "playbackRate": 1,
+      "ended": true,
+      "media_error": null
+    }
+  ],
+  "native_visual_verdict": "No gross body/face/hair mesh break or unexpected root teleport observed; original source neutral appearance preserved. Preview sampling noise retained. No Unity visual promotion.",
+  "joint_QA": "every frame all six clips; both loops2cycles",
+  "Unity_runtime": "PENDING; AlwaysAnimate REQUIRED"
+}

@@ -1,0 +1,210 @@
+{
+  "checkpoint": "R4_APPEARANCE_PRESERVE_CORRECTION_R1",
+  "created_utc": "2026-10-03T00:52:11.798885+00:00",
+  "parent_checkpoint": "08caad76e6a279d07698cbfaa33d5c50f2aa097d",
+  "canonical_source": "Character_Master_NeckSkin_R4.blend",
+  "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "appearance_promoted": false,
+  "new_GameRig": false,
+  "source_changes": 0,
+  "OFF_pixel_max_difference": 0,
+  "native_reactions": 6,
+  "Unity_validated": false,
+  "files": [
+    {
+      "path": "appearance_motion_proof_grid.png",
+      "bytes": 312017,
+      "sha256": "482aab361e9625e3b05da49a98f0c70e1f631de2baaf0a25bfb63d6582fb1918"
+    },
+    {
+      "path": "Character_R4_Animation_OFF_20261003.blend",
+      "bytes": 27961321,
+      "sha256": "0a0ed7082735e00f2d05ac3385140be4a17204b4548a11fea1e647849b816cd5"
+    },
+    {
+      "path": "metadata/action_library_only.json",
+      "bytes": 368,
+      "sha256": "482216986daf7956bc9dc2ed0611c31dd7a38128c52ebcfb7f073e030161c69b"
+    },
+    {
+      "path": "metadata/all_frame_motion.json",
+      "bytes": 2884,
+      "sha256": "d0765dae2d2c86265f2e842be8b05aec4f34a9355884fe86b6570c5f019bd252"
+    },
+    {
+      "path": "metadata/append_diff.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "metadata/authority_after_append.json",
+      "bytes": 35774,
+      "sha256": "aee164c2ec9c444719a3a75ad73f47759548045275ff95e69601e93d32f1e544"
+    },
+    {
+      "path": "metadata/authority_after_on_off.json",
+      "bytes": 35774,
+      "sha256": "aee164c2ec9c444719a3a75ad73f47759548045275ff95e69601e93d32f1e544"
+    },
+    {
+      "path": "metadata/authority_before.json",
+      "bytes": 35774,
+      "sha256": "aee164c2ec9c444719a3a75ad73f47759548045275ff95e69601e93d32f1e544"
+    },
+    {
+      "path": "metadata/authority_reopened.json",
+      "bytes": 35774,
+      "sha256": "aee164c2ec9c444719a3a75ad73f47759548045275ff95e69601e93d32f1e544"
+    },
+    {
+      "path": "metadata/clip_mapping.json",
+      "bytes": 4577,
+      "sha256": "72de45beb5b96cc7db417e7aa11542e6fe2c4b502f478e04d8f8227f69a4fcef"
+    },
+    {
+      "path": "metadata/failure_correction_log.json",
+      "bytes": 1440,
+      "sha256": "111af4d5c16ed16add76110b016d0844bc592c6c2c50d95487147a944af35b2d"
+    },
+    {
+      "path": "metadata/immutable_history_receipt.json",
+      "bytes": 533,
+      "sha256": "8617d961c19659fb2d9424d295ad37aa1dbf42771fb8ab2a699238c8811027c1"
+    },
+    {
+      "path": "metadata/neutral_authority_manifest.json",
+      "bytes": 3995,
+      "sha256": "83393125e4dc741d453b154d8722d168881367ac4fb9c169340c4c303c9c26ad"
+    },
+    {
+      "path": "metadata/on_off_diff.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "metadata/pixels_authority_source_camera.json",
+      "bytes": 755,
+      "sha256": "3bc645c665407d0afbe1737b7372cc50a7a0fabb315dde89864fb2eadff3421d"
+    },
+    {
+      "path": "metadata/pixels_full_body_QA.json",
+      "bytes": 755,
+      "sha256": "e5a9a8d3d36fdf4ba3f785f07688e8e631fda299e777f6d5c17c6cbf99101c23"
+    },
+    {
+      "path": "metadata/playback_review.json",
+      "bytes": 987,
+      "sha256": "f0884ec4bd68795d290376061f4285e1a24ca44ea3c6c01916b951215ac8f027"
+    },
+    {
+      "path": "metadata/preservation_receipt.json",
+      "bytes": 1193,
+      "sha256": "15290ca2af66d226f65bb91fc2ad0a4993697ad2f49f8bd2444381392c39da16"
+    },
+    {
+      "path": "metadata/reopen_diff.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "metadata/video_receipt.json",
+      "bytes": 742,
+      "sha256": "2a69216b4c1cfa5f51fc34a112425747b065faaa7b1be188afbe5fe6e7dc1331"
+    },
+    {
+      "path": "neutral/authority_source_camera_after_OFF.png",
+      "bytes": 1535139,
+      "sha256": "52367b5e7714a0bf0599a66c654d64468530346fb2cc176fa690d66529b302ee"
+    },
+    {
+      "path": "neutral/authority_source_camera_after_ON_then_OFF.png",
+      "bytes": 1535139,
+      "sha256": "5142ff0a8bafdb10ec9e5a38fe82bc3707b780738b663f2c1543f204e0eee630"
+    },
+    {
+      "path": "neutral/authority_source_camera_before.png",
+      "bytes": 1535113,
+      "sha256": "6fa3a53dbc65cada3ea7c9d402cc007a49f9af6bc52fe3de901df2c68255c7b9"
+    },
+    {
+      "path": "neutral/full_body_QA_after_OFF.png",
+      "bytes": 189009,
+      "sha256": "ee436ac12dd86f6f695dc5468c11442a76f999090a51b6561c1f9d2d3c7656e7"
+    },
+    {
+      "path": "neutral/full_body_QA_after_ON_then_OFF.png",
+      "bytes": 189009,
+      "sha256": "10ab896b27f05bbea87796b4078b9bd7ac62eca75f6aafe578811a1a905cfa69"
+    },
+    {
+      "path": "neutral/full_body_QA_before.png",
+      "bytes": 188983,
+      "sha256": "cce5eae2de4308e86cb3a8ffaf9eb6ca885a4bdd9de4185a649ab1359cc0e890"
+    },
+    {
+      "path": "REVIEW_R4_APPEARANCE_CORRECTION.html",
+      "bytes": 1427,
+      "sha256": "8719c49cdc0d42535db96e56a2716dd6db205a47d2bf10c54bb30dbae478383b"
+    },
+    {
+      "path": "sequence_24fps.mp4",
+      "bytes": 677355,
+      "sha256": "117433f3c72d2883e29caf8309191e6d7cc80273cc317856323fc67009ec4001"
+    },
+    {
+      "path": "source/Character_Master_NeckSkin_R4.blend",
+      "bytes": 26553642,
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa"
+    },
+    {
+      "path": "startle_24fps.mp4",
+      "bytes": 107395,
+      "sha256": "e0ef603e5d3a38790e76d75c022bce8286fce48159e5869083aa01d35f39da88"
+    },
+    {
+      "path": "strong_2cycles_24fps.mp4",
+      "bytes": 319639,
+      "sha256": "2468f2a514d78c661605de7b37a6ca4f371adcacd407cd8626ba14b23d92eb99"
+    },
+    {
+      "path": "workflow/native_preservation.py",
+      "bytes": 1334,
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3"
+    },
+    {
+      "path": "workflow/r4_appearance_adapter.py",
+      "bytes": 2307,
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae"
+    },
+    {
+      "path": "workflow/r4_appearance_build.py",
+      "bytes": 4227,
+      "sha256": "a9b88bd0ca432ccc7e2fb819fbd312f1e8a94b861d4c8ae2032ef86d986bf0e2"
+    },
+    {
+      "path": "workflow/r4_appearance_package.py",
+      "bytes": 13511,
+      "sha256": "da7de50795db9c53241c7c1a8feae41d018f6ab091a0105090f26bf1c26b8734"
+    },
+    {
+      "path": "workflow/r4_appearance_qa.py",
+      "bytes": 6743,
+      "sha256": "f2fc3045e4bf54618c78dc83a1987e2c6107760ea9061583c5b2055e09a23062"
+    },
+    {
+      "path": "workflow/r4_appearance_signature.py",
+      "bytes": 6092,
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba"
+    },
+    {
+      "path": "YURI_R4_APPEARANCE_PRESERVE_CORRECTION_R1.md",
+      "bytes": 5420,
+      "sha256": "3cac5f7e8b994e6f96f7bd5902bdc11be3a884520e5cc60cff3d91de9bed3a30"
+    },
+    {
+      "path": "YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend",
+      "bytes": 9318285,
+      "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d"
+    }
+  ]
+}

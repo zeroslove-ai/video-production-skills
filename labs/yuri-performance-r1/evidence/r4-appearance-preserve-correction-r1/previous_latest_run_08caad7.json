@@ -1,5 +1,5 @@
 {
-  "run_id": "desktop-r4-appearance-preserve-correction-r1",
+  "run_id": "desktop-r4-model-handoff-r1",
   "time_utc": "2026-10-02T13:43:50.202500+00:00",
   "workspace": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1",
   "branch": "research/yuri-performance-previs-r1-20261002",
@@ -111,24 +111,6 @@
     "bundle_sha256": "48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85",
     "clips": 6,
     "game_rig_bones": 79,
-    "next_bounded_experiment": "Superseded by R4_APPEARANCE_PRESERVE_CORRECTION_R1; no canonical material baking/rebuild",
-    "classification_override": "HISTORICAL STRUCTURAL/ANIMATION EXPERIMENT ONLY; NOT CANONICAL APPEARANCE"
-  },
-  "r4_appearance_preserve_correction": {
-    "status": "SOURCE_AUTHORITY_OFF_PIXEL_IDENTICAL_ACTIONS_ONLY_NATIVE_6_PASS; NO_APPEARANCE_PROMOTION",
-    "parent_checkpoint": "08caad76e6a279d07698cbfaa33d5c50f2aa097d",
-    "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
-    "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\Character_R4_Animation_OFF_20261003.blend",
-    "candidate_sha256": "0a0ed7082735e00f2d05ac3385140be4a17204b4548a11fea1e647849b816cd5",
-    "report": "R4_APPEARANCE_PRESERVE_CORRECTION_R1_KO.md",
-    "OFF_pixel_difference": 0,
-    "saved_state": "OFF original source pose/bindings",
-    "original_actions": 78,
-    "added_reaction_actions": 6,
-    "QA_helpers": 2,
-    "new_GameRig": false,
-    "prior_GameRig_role": "COMPATIBILITY EXPERIMENT ONLY",
-    "Unity_runtime": "UNTESTED; AlwaysAnimate mandatory",
-    "next_bounded_experiment": "Owner-isolated Unity animation-only native import / appearance adapter verification; preserve canonical source and compare neutral before/after"
+    "next_bounded_experiment": "CPU neutral albedo / eye material bake on export-only copy; compare shader appearance without changing master skin/keys or product repository"
   }
 }

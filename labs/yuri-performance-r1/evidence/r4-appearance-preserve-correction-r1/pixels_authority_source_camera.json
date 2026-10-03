@@ -1,0 +1,24 @@
+{
+  "before_after_OFF": {
+    "size": [
+      960,
+      920
+    ],
+    "unequal_channels": 0,
+    "max_abs_pixel_channel_difference": 0.0,
+    "pixel_float_sha256_before": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+    "pixel_float_sha256_after": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+    "PASS": true
+  },
+  "before_after_ON_then_OFF": {
+    "size": [
+      960,
+      920
+    ],
+    "unequal_channels": 0,
+    "max_abs_pixel_channel_difference": 0.0,
+    "pixel_float_sha256_before": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+    "pixel_float_sha256_after": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+    "PASS": true
+  }
+}

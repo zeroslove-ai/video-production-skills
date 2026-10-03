@@ -1,0 +1,24 @@
+{
+  "before_after_OFF": {
+    "size": [
+      256,
+      384
+    ],
+    "unequal_channels": 0,
+    "max_abs_pixel_channel_difference": 0.0,
+    "pixel_float_sha256_before": "61cd9038eb182661a23a5ee6f0fd024b3618cda19810e1d3d63b43366a9fe118",
+    "pixel_float_sha256_after": "61cd9038eb182661a23a5ee6f0fd024b3618cda19810e1d3d63b43366a9fe118",
+    "PASS": true
+  },
+  "before_after_ON_then_OFF": {
+    "size": [
+      256,
+      384
+    ],
+    "unequal_channels": 0,
+    "max_abs_pixel_channel_difference": 0.0,
+    "pixel_float_sha256_before": "61cd9038eb182661a23a5ee6f0fd024b3618cda19810e1d3d63b43366a9fe118",
+    "pixel_float_sha256_after": "61cd9038eb182661a23a5ee6f0fd024b3618cda19810e1d3d63b43366a9fe118",
+    "PASS": true
+  }
+}

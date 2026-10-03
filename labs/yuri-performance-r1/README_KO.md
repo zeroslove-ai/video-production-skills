@@ -1,3 +1,7 @@
+## R4 appearance correction — 2026-10-03
+
+[R4_APPEARANCE_PRESERVE_CORRECTION_R1_KO.md](R4_APPEARANCE_PRESERVE_CORRECTION_R1_KO.md): source R4 immutable visual authority. Original 4 rigs/97 objects/19 materials/78 Actions preserved; only 6 existing reactions + 2 QA Actions added. OFF source-camera/full-body pixels identical (0 unequal channels), including ON→OFF restore. Native 24fps sequence11sec + Strong2cycles4sec + Startle1.5sec. Prior 08caad7 and bundle unchanged; GameRig structural/animation experiment ONLY, no appearance promotion. No product/laptop/main edits. Unity AlwaysAnimate runtime/appearance remains owner gate.
+
 ## R4 model handoff checkpoint — 2026-10-02
 
 R4 vs R3d rest rigs / 78 actions preserved. R2 66 original actions archived without curve edits. Existing 6 polished reactions reused through target-neutral retarget and grounded foot IK; 11sec native/FBX 24fps full playback complete. Export single GameRig 79 bones / 21 meshes / head 72 keys, 6 animation-only FBX takes. Full-frame fresh FBX joint error <=1.3µm. Native shader/gaze drivers and DQ/surface relax are not a Unity port; FBX material reconstruction and AlwaysAnimate runtime gate remain untested. See R4_MODEL_HANDOFF_R1_KO.md, evidence/model-handoff-r4, scripts/r4_*.py. No product/laptop/main changes.

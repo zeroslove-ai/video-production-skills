@@ -1,0 +1,32 @@
+{
+  "failures_preserved_in_code_and_receipts": [
+    {
+      "issue": "RGBA image pixels accidentally included in generic RNA fingerprint",
+      "effect": "read-only audit became expensive; no source changes",
+      "correction": "hash packed image bytes and colorspace; compare actual rendered pixels in a separate gate"
+    },
+    {
+      "issue": "Blender library loader replaces assigned action-name list entries with Action IDs",
+      "effect": "build halted before save",
+      "correction": "assign list copy; retain immutable name list"
+    },
+    {
+      "issue": "session_uid differs after reopening every Blender ID",
+      "effect": "false fingerprint mismatch; evaluated geometry unchanged",
+      "correction": "exclude transient session ID; retain all visual/hierarchy/driver checks"
+    },
+    {
+      "issue": "ActionSlot uses identifier, not name, in Blender5.2",
+      "effect": "adapter binding halted",
+      "correction": "explicit OBMeshy_Fitted_Rig slot identifier"
+    },
+    {
+      "issue": "Action ON then OFF retains last_slot_identifier cache",
+      "effect": "OFF pixels/geometry unchanged, but strict binding metadata differed",
+      "correction": "capture and restore slot handle and last_slot_identifier; strict ON/OFF fingerprint now identical"
+    }
+  ],
+  "new_motion_created": false,
+  "new_geometry_created": false,
+  "old_checkpoint_deleted_or_overwritten": false
+}

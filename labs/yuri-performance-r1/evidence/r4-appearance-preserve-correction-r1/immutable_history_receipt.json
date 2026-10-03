@@ -1,0 +1,18 @@
+{
+  "sourceR4": {
+    "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "unchanged": true
+  },
+  "sourceR3d": {
+    "sha256": "2d7b82934801fd511a2a0cda45448e8261fcc4dac906a88c262733cdeb2ec3bc",
+    "unchanged": true
+  },
+  "sourceR2": {
+    "sha256": "5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e",
+    "unchanged": true
+  },
+  "previous08caad7bundle": {
+    "sha256": "48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85",
+    "unchanged": true
+  }
+}
