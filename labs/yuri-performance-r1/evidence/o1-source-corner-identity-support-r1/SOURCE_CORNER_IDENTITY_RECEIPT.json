@@ -1,0 +1,8075 @@
+{
+  "task_id": "YURI_O1_SOURCE_CORNER_IDENTITY_SUPPORT_R1",
+  "status": "DONE_SOURCE_SUPPORT_CONSUMER_MAPPING_PENDING",
+  "scope": "Frozen source/actual FBX data only. No bpy, source binary write, mesh edit, Blender export or renderer transform change.",
+  "FBX_version": 7400,
+  "all21_meshes": [
+    {
+      "renderer": "Character_Body_Head",
+      "FBX_geometry_id": 49064143,
+      "control_points": 12928,
+      "source_loose_vertices": 835,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Skin_Clean_R3",
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+        "Neck transition.001",
+        "ContinuousEyeSkin.L",
+        "ContinuousEyeSkin.R",
+        "Face_Iris_Wet_v1",
+        "Face_Lash_Pigment",
+        "Face_LowerLash_Pigment"
+      ],
+      "source_material_slots": [
+        "Skin_Clean_R3",
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+        "Neck transition.001",
+        "ContinuousEyeSkin.L",
+        "ContinuousEyeSkin.R",
+        "Face_Iris_Wet_v1",
+        "Face_Lash_Pigment",
+        "Face_LowerLash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Globe.L",
+      "FBX_geometry_id": 284517197,
+      "control_points": 18242,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Sclera_Wet.L"
+      ],
+      "source_material_slots": [
+        "Face_Sclera_Wet.L"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Globe.R",
+      "FBX_geometry_id": 179913707,
+      "control_points": 18242,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Sclera_Wet.R"
+      ],
+      "source_material_slots": [
+        "Face_Sclera_Wet.R"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Hair_Replacement_R4",
+      "FBX_geometry_id": 485558741,
+      "control_points": 10408,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Hair_Pearl_PBR"
+      ],
+      "source_material_slots": [
+        "Hair_Pearl_PBR"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": []
+    },
+    {
+      "renderer": "LashRootRepair.L.1",
+      "FBX_geometry_id": 219848279,
+      "control_points": 81,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.2",
+      "FBX_geometry_id": 138653588,
+      "control_points": 69,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.3",
+      "FBX_geometry_id": 496792331,
+      "control_points": 36,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.4",
+      "FBX_geometry_id": 653894734,
+      "control_points": 30,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.5",
+      "FBX_geometry_id": 364320002,
+      "control_points": 26,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.1",
+      "FBX_geometry_id": 383337096,
+      "control_points": 81,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.2",
+      "FBX_geometry_id": 519132746,
+      "control_points": 33,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.3",
+      "FBX_geometry_id": 452327299,
+      "control_points": 30,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.4",
+      "FBX_geometry_id": 303893618,
+      "control_points": 28,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.5",
+      "FBX_geometry_id": 262244788,
+      "control_points": 27,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "LowerLashesClean.L",
+      "FBX_geometry_id": 940287927,
+      "control_points": 648,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_LowerLash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_LowerLash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": []
+    },
+    {
+      "renderer": "LowerLashesClean.R",
+      "FBX_geometry_id": 600815929,
+      "control_points": 702,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_LowerLash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_LowerLash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": []
+    },
+    {
+      "renderer": "MedialBacking.L",
+      "FBX_geometry_id": 484893120,
+      "control_points": 22,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+      ],
+      "source_material_slots": [
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "MedialBacking.R",
+      "FBX_geometry_id": 462112896,
+      "control_points": 22,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+      ],
+      "source_material_slots": [
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Meshy_Body_NeutralCovered",
+      "FBX_geometry_id": 264987650,
+      "control_points": 63561,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": false,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "R4_Meshy_OriginalDetail_FaceMatched"
+      ],
+      "source_material_slots": [
+        "R4_Meshy_OriginalDetail_FaceMatched",
+        "R4_Meshy_OriginalDetail_FaceMatched",
+        "R4_Meshy_OriginalDetail_FaceMatched"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "OriginalMedialLashes.L",
+      "FBX_geometry_id": 209665114,
+      "control_points": 397,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "OriginalMedialLashes.R",
+      "FBX_geometry_id": 71165762,
+      "control_points": 438,
+      "source_loose_vertices": 0,
+      "positions_exact": true,
+      "polygon_corner_controlpoints_exact": true,
+      "polygon_starts_exact": true,
+      "polygon_sizes_exact": true,
+      "polygon_material_slots_exact": true,
+      "polygon_material_names_exact": true,
+      "FBX_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "source_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "UV_layer_count_exact": true,
+      "UV": [
+        {
+          "source_layer": "UVMap",
+          "FBX_layer": "UVMap",
+          "loop_values_exact": true
+        }
+      ]
+    }
+  ],
+  "head_candidate_semantics": [
+    {
+      "renderer": "Character_Body_Head",
+      "source_vertex": 11325,
+      "FBX_controlpoint": 11325,
+      "position": [
+        0.015905488282442093,
+        -0.07405934482812881,
+        0.8802146315574646
+      ],
+      "corners": [
+        {
+          "source_loop": 60345,
+          "source_polygon": 19576,
+          "polygon_corner_ordinal": 3,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.10204081982374191,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13303,
+          "source_corner_normal": [
+            0.589377760887146,
+            -0.5728053450584412,
+            -0.5696735382080078
+          ],
+          "source_tangent_uv0": [
+            -0.20364513993263245,
+            0.577050507068634,
+            -0.7909117341041565
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            21190,
+            21191
+          ]
+        },
+        {
+          "source_loop": 60416,
+          "source_polygon": 19594,
+          "polygon_corner_ordinal": 2,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.10204081982374191,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13303,
+          "source_corner_normal": [
+            0.589377760887146,
+            -0.5728053450584412,
+            -0.5696735382080078
+          ],
+          "source_tangent_uv0": [
+            -0.20364513993263245,
+            0.577050507068634,
+            -0.7909117341041565
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            21226,
+            21227
+          ]
+        }
+      ],
+      "ShapeKeys": [
+        {
+          "name": "Basis",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": false,
+          "FBX_sparse_delta": null,
+          "FBX_delta_exact": null
+        },
+        {
+          "name": "JawOpen",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "LipPucker",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "MouthWide",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_JawCheek",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprSmileCurve",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprMouthDown",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprBrowInnerUp",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Character_Body_Head",
+      "source_vertex": 11343,
+      "FBX_controlpoint": 11343,
+      "position": [
+        0.015905514359474182,
+        -0.07405935972929001,
+        0.8802145719528198
+      ],
+      "corners": [
+        {
+          "source_loop": 60273,
+          "source_polygon": 19558,
+          "polygon_corner_ordinal": 3,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.12244898080825806,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13305,
+          "source_corner_normal": [
+            0.5612555146217346,
+            -0.6057330965995789,
+            -0.5639855265617371
+          ],
+          "source_tangent_uv0": [
+            -0.1984916776418686,
+            0.5630344748497009,
+            -0.8022425770759583
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            21155
+          ]
+        },
+        {
+          "source_loop": 60344,
+          "source_polygon": 19576,
+          "polygon_corner_ordinal": 2,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.12244898080825806,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13305,
+          "source_corner_normal": [
+            0.5612555146217346,
+            -0.6057330965995789,
+            -0.5639855265617371
+          ],
+          "source_tangent_uv0": [
+            -0.1984916776418686,
+            0.5630344748497009,
+            -0.8022425770759583
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            21191
+          ]
+        }
+      ],
+      "ShapeKeys": [
+        {
+          "name": "Basis",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": false,
+          "FBX_sparse_delta": null,
+          "FBX_delta_exact": null
+        },
+        {
+          "name": "JawOpen",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "LipPucker",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "MouthWide",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_JawCheek",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprSmileCurve",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprMouthDown",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprBrowInnerUp",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Character_Body_Head",
+      "source_vertex": 11631,
+      "FBX_controlpoint": 11631,
+      "position": [
+        0.03376908227801323,
+        -0.06922835856676102,
+        0.8802084922790527
+      ],
+      "corners": [
+        {
+          "source_loop": 58728,
+          "source_polygon": 19139,
+          "polygon_corner_ordinal": 3,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.44897958636283875,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13336,
+          "source_corner_normal": [
+            0.39235639572143555,
+            -0.8753262162208557,
+            -0.2825959622859955
+          ],
+          "source_tangent_uv0": [
+            0.8253214359283447,
+            0.1993858516216278,
+            0.5282894968986511
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            20447,
+            20448
+          ]
+        },
+        {
+          "source_loop": 58799,
+          "source_polygon": 19157,
+          "polygon_corner_ordinal": 2,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.44897958636283875,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13336,
+          "source_corner_normal": [
+            0.39235639572143555,
+            -0.8753262162208557,
+            -0.2825959622859955
+          ],
+          "source_tangent_uv0": [
+            0.8253214359283447,
+            0.1993858516216278,
+            0.5282894968986511
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            20483,
+            20484
+          ]
+        }
+      ],
+      "ShapeKeys": [
+        {
+          "name": "Basis",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": false,
+          "FBX_sparse_delta": null,
+          "FBX_delta_exact": null
+        },
+        {
+          "name": "JawOpen",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "LipPucker",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "MouthWide",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_JawCheek",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprSmileCurve",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprMouthDown",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprBrowInnerUp",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Character_Body_Head",
+      "source_vertex": 11649,
+      "FBX_controlpoint": 11649,
+      "position": [
+        0.0337691605091095,
+        -0.06922829151153564,
+        0.8802086114883423
+      ],
+      "corners": [
+        {
+          "source_loop": 58656,
+          "source_polygon": 19121,
+          "polygon_corner_ordinal": 3,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.4693877696990967,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13338,
+          "source_corner_normal": [
+            -0.0436927005648613,
+            -0.4723445475101471,
+            -0.8803303837776184
+          ],
+          "source_tangent_uv0": [
+            0.9971771836280823,
+            0.03323947638273239,
+            -0.0673268511891365
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            20412
+          ]
+        },
+        {
+          "source_loop": 58727,
+          "source_polygon": 19139,
+          "polygon_corner_ordinal": 2,
+          "material_slot": 3,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.4693877696990967,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13338,
+          "source_corner_normal": [
+            -0.0436927005648613,
+            -0.4723445475101471,
+            -0.8803303837776184
+          ],
+          "source_tangent_uv0": [
+            0.9971771836280823,
+            0.03323947638273239,
+            -0.0673268511891365
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            20448
+          ]
+        }
+      ],
+      "ShapeKeys": [
+        {
+          "name": "Basis",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": false,
+          "FBX_sparse_delta": null,
+          "FBX_delta_exact": null
+        },
+        {
+          "name": "JawOpen",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "LipPucker",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "MouthWide",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_JawCheek",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprSmileCurve",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprMouthDown",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprBrowInnerUp",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Character_Body_Head",
+      "source_vertex": 12549,
+      "FBX_controlpoint": 12549,
+      "position": [
+        -0.02992231585085392,
+        -0.06920045614242554,
+        0.8802386522293091
+      ],
+      "corners": [
+        {
+          "source_loop": 51210,
+          "source_polygon": 16939,
+          "polygon_corner_ordinal": 3,
+          "material_slot": 4,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.52173912525177,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13343,
+          "source_corner_normal": [
+            0.08860515803098679,
+            -0.3856421113014221,
+            -0.9183841347694397
+          ],
+          "source_tangent_uv0": [
+            0.8607781529426575,
+            -0.4342990517616272,
+            0.26541566848754883
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            17329,
+            17330
+          ]
+        },
+        {
+          "source_loop": 51281,
+          "source_polygon": 16957,
+          "polygon_corner_ordinal": 2,
+          "material_slot": 4,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.52173912525177,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13343,
+          "source_corner_normal": [
+            0.08860515803098679,
+            -0.3856421113014221,
+            -0.9183841347694397
+          ],
+          "source_tangent_uv0": [
+            0.8607781529426575,
+            -0.4342990517616272,
+            0.26541566848754883
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            17365,
+            17366
+          ]
+        }
+      ],
+      "ShapeKeys": [
+        {
+          "name": "Basis",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": false,
+          "FBX_sparse_delta": null,
+          "FBX_delta_exact": null
+        },
+        {
+          "name": "JawOpen",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "LipPucker",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "MouthWide",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_JawCheek",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprSmileCurve",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprMouthDown",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprBrowInnerUp",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        }
+      ]
+    },
+    {
+      "renderer": "Character_Body_Head",
+      "source_vertex": 12567,
+      "FBX_controlpoint": 12567,
+      "position": [
+        -0.0299222432076931,
+        -0.06920052319765091,
+        0.8802385926246643
+      ],
+      "corners": [
+        {
+          "source_loop": 51138,
+          "source_polygon": 16921,
+          "polygon_corner_ordinal": 3,
+          "material_slot": 4,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.54347825050354,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13345,
+          "source_corner_normal": [
+            -0.415567010641098,
+            -0.9012433886528015,
+            -0.12273764610290527
+          ],
+          "source_tangent_uv0": [
+            0.810814619064331,
+            -0.30591312050819397,
+            -0.4989958107471466
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            17294
+          ]
+        },
+        {
+          "source_loop": 51209,
+          "source_polygon": 16939,
+          "polygon_corner_ordinal": 2,
+          "material_slot": 4,
+          "UV_layer": "UVMap",
+          "UV": [
+            0.54347825050354,
+            1.0
+          ],
+          "FBX_UV_direct_index": 13345,
+          "source_corner_normal": [
+            -0.415567010641098,
+            -0.9012433886528015,
+            -0.12273764610290527
+          ],
+          "source_tangent_uv0": [
+            0.810814619064331,
+            -0.30591312050819397,
+            -0.4989958107471466
+          ],
+          "source_bitangent_sign": 1.0,
+          "source_triangle_ids": [
+            17330
+          ]
+        }
+      ],
+      "ShapeKeys": [
+        {
+          "name": "Basis",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": false,
+          "FBX_sparse_delta": null,
+          "FBX_delta_exact": null
+        },
+        {
+          "name": "JawOpen",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Smile.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "Blink.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "EyePath.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowRaise.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "BrowKnit.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CheekLift.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_SmileCheek.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "LipPucker",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "MouthWide",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Face_JawCheek",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperLidUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperMedialUntangle.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.L.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.1",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.2",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.3",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.4",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.5",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.6",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.7",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_UpperSurface.R.8",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Chest.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.L.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.X",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Y",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "SEC_Hip.R.Z",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.L",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Elbow.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_BicepsFlex.R",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.L.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "CORR_Knee.R.Volume",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprSmileCurve",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprMouthDown",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        },
+        {
+          "name": "ExprBrowInnerUp",
+          "relative_key": "Basis",
+          "source_relative_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_channel_present": true,
+          "FBX_sparse_delta": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "FBX_delta_exact": true
+        }
+      ]
+    }
+  ],
+  "candidate_pair_comparison": [
+    {
+      "source_candidates": [
+        11325,
+        11343
+      ],
+      "UV_sets_equal": false,
+      "different_source_relative_shape_deltas": [],
+      "consumer_identity_resolved": false
+    },
+    {
+      "source_candidates": [
+        11631,
+        11649
+      ],
+      "UV_sets_equal": false,
+      "different_source_relative_shape_deltas": [],
+      "consumer_identity_resolved": false
+    },
+    {
+      "source_candidates": [
+        12549,
+        12567
+      ],
+      "UV_sets_equal": false,
+      "different_source_relative_shape_deltas": [],
+      "consumer_identity_resolved": false
+    }
+  ],
+  "retained_Unity_candidates": [
+    {
+      "Unity_split_vertex": 9859,
+      "source_candidates": [
+        12549,
+        12567
+      ]
+    },
+    {
+      "Unity_split_vertex": 9865,
+      "source_candidates": [
+        12549,
+        12567
+      ]
+    },
+    {
+      "Unity_split_vertex": 12926,
+      "source_candidates": [
+        11631,
+        11649
+      ]
+    },
+    {
+      "Unity_split_vertex": 12929,
+      "source_candidates": [
+        11631,
+        11649
+      ]
+    },
+    {
+      "Unity_split_vertex": 12977,
+      "source_candidates": [
+        11325,
+        11343
+      ]
+    },
+    {
+      "Unity_split_vertex": 12980,
+      "source_candidates": [
+        11325,
+        11343
+      ]
+    }
+  ],
+  "semantic_key": [
+    "renderer",
+    "source_vertex/FBX_controlpoint",
+    "source_polygon",
+    "source_loop/polygon_corner_ordinal",
+    "UV_layer/UV_value",
+    "material_slot",
+    "ShapeKey_name/relative_key/delta"
+  ],
+  "triangulation_limit": "Frozen source loop triangulation available; actual FBX polygons retained. Unity importer diagonal/order is not proven without consumer triangles.",
+  "source_head_loose_vertices_preserved": 835,
+  "request": {
+    "carrier_sha256": "3b37f3570742617b42215e980a70260490ffe92c7480c33a5de5060dd38c90c1",
+    "renderer": "Character_Body_Head",
+    "split_vertex_ids": [
+      9859,
+      9865,
+      12926,
+      12929,
+      12977,
+      12980
+    ],
+    "required_fields": [
+      "Actual isolated-clone Unity mesh UV0 for the six split vertices",
+      "Actual triangles/submesh and corner ordinals touching the six split vertices; winding/axis conversion documented",
+      "Actual per-frame named blendshape delta vertices for these vertices, if UV/topology leaves ambiguity",
+      "Actual normals/tangents and importer triangulation provenance if preceding fields still tie",
+      "Clone/mesh identity, carrier hash, capture commit and blob SHA"
+    ],
+    "existing_Unity_renderer_fields": [
+      "bindposes",
+      "bones",
+      "materials",
+      "name",
+      "path",
+      "shapes",
+      "vertices",
+      "weightCounts",
+      "weights",
+      "world"
+    ],
+    "existing_Unity_shape_fields": [
+      "frames",
+      "name",
+      "weight"
+    ],
+    "no_nearest_position_assignment": true
+  },
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx": {
+      "sha256": "3b37f3570742617b42215e980a70260490ffe92c7480c33a5de5060dd38c90c1",
+      "bytes": 23537068
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz": {
+      "sha256": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473",
+      "bytes": 1655757
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz": {
+      "sha256": "3f344df1e67f21fd54cdcd4eff5cb6800b42f84753a41f8132f136aff324024f",
+      "bytes": 1500794
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz": {
+      "sha256": "10dc21ad3da91368ba44f2a7fe40cc960eb2ade2c8515e28147b97d223388c79",
+      "bytes": 1506327
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Hair_Replacement_R4_original_mesh.npz": {
+      "sha256": "4e9436625413c22e2871bc9e7fdf4cd88cdd0af5b34119a318df3f93a9996142",
+      "bytes": 696023
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.1_original_mesh.npz": {
+      "sha256": "dd45c0b334041cf6cbfd89d44accb677233d0bcc3741491856fd35616dad3492",
+      "bytes": 71876
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.2_original_mesh.npz": {
+      "sha256": "2445d1ed47a9cd8604dc551b89ffdd365cb610de4587efd1b8bb4adaad40308b",
+      "bytes": 67870
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.3_original_mesh.npz": {
+      "sha256": "fcc01ca3395b7439fd144742a042710d094089c89c465d2e886900a83d9873c5",
+      "bytes": 45877
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.4_original_mesh.npz": {
+      "sha256": "94acf280365bc83ab86bb3e815db775762d89ce7cfd6bde34d5a42ac1c2735d0",
+      "bytes": 42302
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.5_original_mesh.npz": {
+      "sha256": "4d4fff698ebcc478f966428b0972bb849b5a5fe5f47df25d44672acf5af27dfa",
+      "bytes": 38256
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.1_original_mesh.npz": {
+      "sha256": "74a7a69a5da46f210a15d2bc2250a4d7d4ad6f59d02515e3dc01043e63126f1b",
+      "bytes": 72841
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.2_original_mesh.npz": {
+      "sha256": "e18abf406764e32fbfd1beeff368cedda78be358a57461cf3fdc730cccfe0f8d",
+      "bytes": 44639
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.3_original_mesh.npz": {
+      "sha256": "452c253f43f359d6dfe7267560046be1897c6be443db6ba5b32e45c4cc52e271",
+      "bytes": 41480
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.4_original_mesh.npz": {
+      "sha256": "ad6000cd155bcdb6face12acb83abadd7c04e89f7f186c641c4cc868309f973b",
+      "bytes": 41157
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.5_original_mesh.npz": {
+      "sha256": "17ebecf61bb422df6ed1602297569c9c7a996a7ee43e56eb8e019b5bc5072c74",
+      "bytes": 39363
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.L_original_mesh.npz": {
+      "sha256": "8f71dd36ebffe1de1201b057d2839ea89a2446f6a9fa6ab95f8f22084ed85e9e",
+      "bytes": 41325
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.R_original_mesh.npz": {
+      "sha256": "bfac2108fb153b0c472337a50544134f9624ffaae6c08d03d80f83b116bce00b",
+      "bytes": 44369
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.L_original_mesh.npz": {
+      "sha256": "d212c12dd234cd90e87a37843d795b9a368e175cff0a6278d18aba6e86fc0b9b",
+      "bytes": 5283
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.R_original_mesh.npz": {
+      "sha256": "10e3ef5a383508ed990b0bdf0b4ebd82afcff63c8f2786cac144f80117017479",
+      "bytes": 5278
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz": {
+      "sha256": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f",
+      "bytes": 6179188
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.L_original_mesh.npz": {
+      "sha256": "d09c8d2b6fb13ea6003f1ff365d644532b6a00d6a6553b441dd28a460ca72792",
+      "bytes": 275630
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.R_original_mesh.npz": {
+      "sha256": "4ce51f34d5a3a203670e88ad016bdeb547155a462abbeb602ae061cdc36dce39",
+      "bytes": 301649
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_corner_basis.npz": {
+      "sha256": "c6a1065172c27ebcbdc1a7b34325cabee3c6420aa44c2a562434f9ea23aea4ad",
+      "bytes": 664990
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-renderer-basis-diagnostic-r1\\R4_Renderer_Position_Basis_Candidates_And_Source_Index_Sets.npz": {
+      "sha256": "0d58ded722440cf9a43869988085d62391645380e36bb945ae4c50a729ca86db",
+      "bytes": 875932
+    }
+  },
+  "Unity_inventory": {
+    "commit": "fd19f8d6cd4efa897ec5338afacfd7939c25b10d",
+    "path": "docs/evidence/root-pm-o1-original-bind/raw-inventory.json.gz",
+    "compressed_blob_sha256": "edd496198874388c6a23417a9d79b80d08b189770ecc95cafad172436a4bfb26"
+  },
+  "source_writes": 0,
+  "consumer_assignments": 0,
+  "files": []
+}

@@ -1,0 +1,42 @@
+{
+  "task_id": "YURI_O1_SOURCE_CORNER_IDENTITY_SUPPORT_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_SOURCE_CORNER_IDENTITY_20261003_R1_d77082a2ad12",
+  "manifest_sha256": "d77082a2ad125ebd67654f565a959ffa2f52d14df5e646d153c238fc9bd10d46",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_SOURCE_CORNER_IDENTITY_20261003_R1_d77082a2ad12\\YURI_O1_R4_SOURCE_CORNER_IDENTITY_20261003_R1.part01-of-01.zip",
+      "sha256": "b0698b991d4c21e33697009b148dc445b87a8d5a23e07b5d709f8c1c37d715c5",
+      "bytes": 221164,
+      "files": [
+        "metadata/SOURCE_CORNER_IDENTITY_RECEIPT.json",
+        "metadata/YURI_O1_SOURCE_CORNER_IDENTITY_SUPPORT_R1.md",
+        "scripts/r4_source_corner_identity_support.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "metadata/SOURCE_CORNER_IDENTITY_RECEIPT.json": {
+      "sha256": "d77082a2ad125ebd67654f565a959ffa2f52d14df5e646d153c238fc9bd10d46",
+      "bytes": 199958
+    },
+    "metadata/YURI_O1_SOURCE_CORNER_IDENTITY_SUPPORT_R1.md": {
+      "sha256": "1cdabf3fe2584aab8d5757fdea9258f04848d587bab1dc37ac5149997590c2f7",
+      "bytes": 4619
+    },
+    "scripts/r4_source_corner_identity_support.py": {
+      "sha256": "be6a1f33e66bdc96d3f66c6ad9acb2fff11fdc6dde0c51c2d51ccc01afd30e4e",
+      "bytes": 11377
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "aeb52c4454b3f2d2d04a5b627b975be563ce0a836e6776b2539dc0d9677336eb",
+      "bytes": 4514
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 221164,
+  "data_bytes": 0,
+  "aggregate_file_manifest_sha256": "f01342d469b41cf4716f187ed73b0328b01625b9663e608bb9fc8b0b28280bac",
+  "source_or_frozen_input_writes": 0
+}

@@ -1,11 +1,11 @@
 """Freeze existing data in independently readable <=100MiB ZIP volumes.
-Usage: python this.py gaze|body|weights|bind|basis. No Blender/source access.
+Usage: python this.py gaze|body|weights|bind|basis|corners. No Blender/source access.
 """
 import sys,json,hashlib,zipfile
 from pathlib import Path
 LAB=Path(__file__).resolve().parent.parent
 BASE=Path(r'C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs')
-mode=sys.argv[-1];assert mode in ('gaze','body','weights','bind','basis')
+mode=sys.argv[-1];assert mode in ('gaze','body','weights','bind','basis','corners')
 slug='o1-gaze-evaluated-corner-reference-r1' if mode=='gaze' else 'o1-full-body-deformation-reference-r1'
 name='GAZE_EVALUATED_CORNER_MANIFEST.json' if mode=='gaze' else 'FULL_BODY_DEFORMATION_MANIFEST.json'
 prefix='YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1' if mode=='gaze' else 'YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1'
@@ -18,6 +18,9 @@ if mode=='bind':
 if mode=='basis':
     slug='o1-renderer-basis-diagnostic-r1';name='RENDERER_BASIS_DIAGNOSTIC_MANIFEST.json'
     prefix='YURI_O1_R4_RENDERER_BASIS_DIAGNOSTIC_20261003_R1'
+if mode=='corners':
+    slug='o1-source-corner-identity-support-r1';name='SOURCE_CORNER_IDENTITY_RECEIPT.json'
+    prefix='YURI_O1_R4_SOURCE_CORNER_IDENTITY_20261003_R1'
 E=LAB/'evidence'/slug;OUT=BASE/slug
 def sha(p):
     h=hashlib.sha256()
@@ -34,6 +37,7 @@ script='r4_gaze_evaluated_corner_reference.py' if mode=='gaze' else 'r4_full_bod
 if mode=='weights':script='r4_all_bind_and_weight_diagnostic.py'
 if mode=='bind':script='r4_bind_transport_contract.py'
 if mode=='basis':script='r4_renderer_basis_diagnostic.py'
+if mode=='corners':script='r4_source_corner_identity_support.py'
 for n in (script,'r4_source_reference_packet_freeze.py'):files['scripts/'+n]=LAB/'scripts'/n
 file_manifest={n:{'sha256':sha(p),'bytes':p.stat().st_size} for n,p in files.items()}
 dest=Path(r'C:/YuriTransfer/outbox')/(prefix+'_'+digest[:12]);dest.mkdir(exist_ok=True)
