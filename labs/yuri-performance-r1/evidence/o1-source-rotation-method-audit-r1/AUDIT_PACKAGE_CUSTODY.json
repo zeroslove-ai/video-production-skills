@@ -1,0 +1,10 @@
+{
+  "task_id": "YURI_O1_SOURCE_ROTATION_METHOD_AUDIT_R1",
+  "zip": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_ROTATION_METHOD_AUDIT_20261003_R1_0c95af11c457.zip",
+  "sha256": "0c95af11c457a64860f3b7ed529d66df31ca846dc9039450dce766491d1662d7",
+  "bytes": 9112210,
+  "entries": 11,
+  "all_manifest_file_hashes_verified": true,
+  "crc_verified": true,
+  "source_or_frozen_input_mutations": 0
+}

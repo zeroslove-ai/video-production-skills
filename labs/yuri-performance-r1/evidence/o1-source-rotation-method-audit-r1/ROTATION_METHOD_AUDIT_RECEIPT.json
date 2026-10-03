@@ -1,0 +1,674 @@
+{
+  "task_id": "YURI_O1_SOURCE_ROTATION_METHOD_AUDIT_R1",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx": {
+      "sha256": "3b37f3570742617b42215e980a70260490ffe92c7480c33a5de5060dd38c90c1",
+      "bytes": 23537068
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\YURI_O1_R4_NATIVE_ANIMATION_ONLY_20261003_R1.fbx": {
+      "sha256": "ea3f93f8fe7f59b171a67dd4be5c893bca6cbd238a82d1f68c080e861c30e67c",
+      "bytes": 7071276
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\YURI_O1_R4_NATIVE_IMPORTED_QA_20261003_R1.blend": {
+      "sha256": "3e60109987ac7cfb7ae13e04981e7122eea99e6484240722aa2b673f2e5229fb",
+      "bytes": 38815580
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\reference\\native_evaluated_all_frames.json.gz": {
+      "sha256": "9766d892e6b786ba25959f12586ecd11c79cd7d9e480b5272ca8bc80b7108546",
+      "bytes": 12545560
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\metadata\\take_and_slot_inventory.json": {
+      "sha256": "5e48e0ac08d7a4d8d6cc71b2d7421a72b632726d954d713f8c65f88cd0a42579",
+      "bytes": 5073
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-original-bind-serialization-r1\\motion_position_rotation_fidelity.json": {
+      "sha256": "c750c51cedbec836278587e835141df642f31015bd8be06fbaaef5a056a14cc7",
+      "bytes": 6229
+    },
+    "C:\\YuriTransfer\\outbox\\YURI_O1_R4_ORIGINAL_BIND_SERIALIZATION_20261003_R1_5a04a57f3b47.zip": {
+      "sha256": "5a04a57f3b470248e894fcf2cba0bf479a2f9994a15d2796bdfdb07996c91de6",
+      "bytes": 22607698
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-original-bind-serialization-r1\\BONE_RECONSTRUCTION_DIAGNOSTIC.json": {
+      "sha256": "48eb6b174438954ef533215c3f82c8bb3dba17313612761ce4634107b09634bc",
+      "bytes": 581047
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-original-bind-serialization-r1\\EXACT_BIND_WIRE_RECEIPT.json": {
+      "sha256": "445964250ff6df58232e4be8634884e286e8659f1d8d3490c3cebd78573a8a73",
+      "bytes": 262288
+    }
+  },
+  "input_bytes_unchanged": true,
+  "actions": 6,
+  "bones": 137,
+  "clip_samples": 384,
+  "bone_samples": 52608,
+  "unique_clip_frames": 276,
+  "buffers": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-rotation-method-audit-r1\\frozen_evaluated_matrix_buffers.npz",
+    "sha256": "e8e35c35ac1a0897d80b7e69e9662f08b81d88a3104239e870ff75c8cfcd8546",
+    "dtype": "float64 container of exact float32 evaluated source/import values; separate float64 multiplication diagnostic; ids int32",
+    "index_bones": [
+      [
+        "Meshy_Fitted_Rig",
+        "root"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "pelvis"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "spine"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "chest"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "neck"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "head"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "R3_Head_Bind"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "R3_Neck_Bind"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "clavicle.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "upper_arm.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "forearm.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "hand.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "index1.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "index2.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "index3.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "middle1.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "middle2.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "middle3.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "ring1.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "ring2.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "ring3.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "pinky1.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "pinky2.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "pinky3.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thumb1.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thumb2.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thumb3.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "R3_Shoulder_L_Bind"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "clavicle.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "upper_arm.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "forearm.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "hand.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "index1.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "index2.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "index3.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "middle1.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "middle2.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "middle3.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "ring1.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "ring2.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "ring3.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "pinky1.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "pinky2.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "pinky3.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thumb1.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thumb2.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thumb3.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "R3_Shoulder_R_Bind"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "R3_UpperChest_Bind"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thigh.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "shin.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "foot.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "toe.L"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "thigh.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "shin.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "foot.R"
+      ],
+      [
+        "Meshy_Fitted_Rig",
+        "toe.R"
+      ],
+      [
+        "Armature",
+        "Root"
+      ],
+      [
+        "Armature",
+        "J_Bip_C_Hips"
+      ],
+      [
+        "Armature",
+        "J_Bip_C_Spine"
+      ],
+      [
+        "Armature",
+        "J_Bip_C_Chest"
+      ],
+      [
+        "Armature",
+        "J_Bip_C_UpperChest"
+      ],
+      [
+        "Armature",
+        "J_Bip_C_Neck"
+      ],
+      [
+        "Armature",
+        "J_Bip_C_Head"
+      ],
+      [
+        "Armature",
+        "J_Adj_L_FaceEye"
+      ],
+      [
+        "Armature",
+        "J_Adj_R_FaceEye"
+      ],
+      [
+        "Armature",
+        "MOTION5H_HairTip.L"
+      ],
+      [
+        "Armature",
+        "MOTION5H_HairTip.R"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Shoulder"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_UpperArm"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_LowerArm"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Hand"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Thumb1"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Thumb2"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Thumb3"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Index1"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Index2"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Index3"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Middle1"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Middle2"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Middle3"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Ring1"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Ring2"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Ring3"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Little1"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Little2"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Little3"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Shoulder"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_UpperArm"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_LowerArm"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Hand"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Thumb1"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Thumb2"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Thumb3"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Index1"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Index2"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Index3"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Middle1"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Middle2"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Middle3"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Ring1"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Ring2"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Ring3"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Little1"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Little2"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Little3"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_UpperLeg"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_LowerLeg"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_Foot"
+      ],
+      [
+        "Armature",
+        "J_Bip_L_ToeBase"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_UpperLeg"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_LowerLeg"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_Foot"
+      ],
+      [
+        "Armature",
+        "J_Bip_R_ToeBase"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_HeadRoot"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Pony_Base"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Pony_01"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Pony_02"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Pony_03"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Pony_04"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Side.L.01"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Side.L.02"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Side.R.01"
+      ],
+      [
+        "Hair_Rig_R4",
+        "Hair_Side.R.02"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "JawOpen"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "Smile.L"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "Smile.R"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "Blink.L"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "Blink.R"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "BrowRaise.L"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "BrowRaise.R"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "BrowKnit.L"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "BrowKnit.R"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "CheekLift.L"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "CheekLift.R"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "LipPucker"
+      ],
+      [
+        "AVATAR_FaceBoard",
+        "MouthWide"
+      ]
+    ],
+    "index_actions": [
+      "YRA_R4_Startle_Short",
+      "YRA_R4_Lift_Start",
+      "YRA_R4_Struggle_Light_Loop",
+      "YRA_R4_Struggle_Strong_Loop",
+      "YRA_R4_Land_Soft",
+      "YRA_R4_BalanceRecover"
+    ]
+  },
+  "thresholds_unchanged": {
+    "position_m_less_than": 0.0001,
+    "rotation_deg_less_than": 0.001
+  },
+  "legacy_worst": {
+    "action": "YRA_R4_Startle_Short",
+    "sample": 17,
+    "frame": 17,
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "legacy_float32_decomposition_double_dot_deg": 0.0021210060720103056,
+    "polar_float64_quaternion_2acos_deg": 0.0021221062229851797,
+    "polar_matrix_atan2_deg": 0.002122107853806262,
+    "polar_double_product_quaternion_deg": 0.002121928285954439,
+    "position_m": 3.0692413336107104e-07
+  },
+  "polar_worst": {
+    "action": "YRA_R4_Startle_Short",
+    "sample": 17,
+    "frame": 17,
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "legacy_float32_decomposition_double_dot_deg": 0.0021210060720103056,
+    "polar_float64_quaternion_2acos_deg": 0.0021221062229851797,
+    "polar_matrix_atan2_deg": 0.002122107853806262,
+    "polar_double_product_quaternion_deg": 0.002121928285954439,
+    "position_m": 3.0692413336107104e-07
+  },
+  "matrix_angle_worst": {
+    "action": "YRA_R4_Startle_Short",
+    "sample": 17,
+    "frame": 17,
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "legacy_float32_decomposition_double_dot_deg": 0.0021210060720103056,
+    "polar_float64_quaternion_2acos_deg": 0.0021221062229851797,
+    "polar_matrix_atan2_deg": 0.002122107853806262,
+    "polar_double_product_quaternion_deg": 0.002121928285954439,
+    "position_m": 3.0692413336107104e-07
+  },
+  "polar_float64_product_max_deg": 0.002121928285954439,
+  "position_max_m": 1.5140681553463275e-06,
+  "quaternion_matrix_angle_max_absolute_difference_deg": 3.109299899859191e-06,
+  "stable_quaternion_matrix_angle_max_absolute_difference_deg": 1.646339247113153e-13,
+  "stable_quaternion_max_deg": 0.0021221078538237056,
+  "causal_verdict": "Blender reconstructed/evaluated transform residual remains after float64 polar/SVD. Float32 quaternion decomposition artifact does not explain the failure. Exact earlier worst reproduced; polar vs legacy at that case differs about 1.1e-6 degree. Saved rest reconstruction also retains discrepancy. Unity uses a different importer; its lower independently reported result is not contradicted or certified by this Blender audit.",
+  "determinant_signs_source": [
+    1.0
+  ],
+  "determinant_signs_import": [
+    1.0
+  ],
+  "minimum_singular_value_source": 0.3299999636411683,
+  "minimum_singular_value_import": 0.33000000081956626,
+  "method": "SVD in numpy float64: U diag(1,1,det(U Vt)) Vt; stable normalized float64 wxyz quaternion; 2acos(abs(dot)); independent relative-matrix atan2 skew/trace angle. Original float32 matrices and legacy quaternions retained.",
+  "coordinate_policy": "Common Blender world basis (Z-up, meters) unchanged, full hierarchy/scale evaluated before decomposition. No Unity P/H assumed. Orthogonal basis conjugation preserves SO(3) distance; source P*world*H vs Unity actual Transform requires consumer buffers for direct numerical comparison.",
+  "operations": "read frozen native matrices + load original-bind importer scratch read-only; assign existing Actions in disposable process; no exporter/render/bake/save/source file load",
+  "rotation_PASS": false,
+  "position_PASS": true,
+  "scope": "Measurement-method audit only; previous FAIL record retained. No appearance, Unity, F2/F3, foot contact or material certification."
+}

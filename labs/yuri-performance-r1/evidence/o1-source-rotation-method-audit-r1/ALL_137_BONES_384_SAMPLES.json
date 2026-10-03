@@ -1,0 +1,2801 @@
+{
+  "clips": [
+    {
+      "action": "YRA_R4_Startle_Short",
+      "samples": 37,
+      "legacy_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021210060720103056,
+        "polar_float64_quaternion_2acos_deg": 0.0021221062229851797,
+        "polar_matrix_atan2_deg": 0.002122107853806262,
+        "polar_double_product_quaternion_deg": 0.002121928285954439,
+        "position_m": 3.0692413336107104e-07
+      },
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021210060720103056,
+        "polar_float64_quaternion_2acos_deg": 0.0021221062229851797,
+        "polar_matrix_atan2_deg": 0.002122107853806262,
+        "polar_double_product_quaternion_deg": 0.002121928285954439,
+        "position_m": 3.0692413336107104e-07
+      },
+      "matrix_angle_max_deg": 0.002122107853806262,
+      "position_max_m": 1.2014624324620511e-06,
+      "rotation_PASS": false,
+      "position_PASS": true
+    },
+    {
+      "action": "YRA_R4_Lift_Start",
+      "samples": 31,
+      "legacy_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 19,
+        "frame": 19,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.002114804043054655,
+        "polar_float64_quaternion_2acos_deg": 0.0021170832139663664,
+        "polar_matrix_atan2_deg": 0.0021170830120572767,
+        "polar_double_product_quaternion_deg": 0.0021168421843971866,
+        "position_m": 1.6917289353399782e-07
+      },
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 19,
+        "frame": 19,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.002114804043054655,
+        "polar_float64_quaternion_2acos_deg": 0.0021170832139663664,
+        "polar_matrix_atan2_deg": 0.0021170830120572767,
+        "polar_double_product_quaternion_deg": 0.0021168421843971866,
+        "position_m": 1.6917289353399782e-07
+      },
+      "matrix_angle_max_deg": 0.0021170830120572767,
+      "position_max_m": 1.255328865737161e-06,
+      "rotation_PASS": false,
+      "position_PASS": true
+    },
+    {
+      "action": "YRA_R4_Struggle_Light_Loop",
+      "samples": 121,
+      "legacy_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 40,
+        "frame": 40,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021158460969002073,
+        "polar_float64_quaternion_2acos_deg": 0.0021169702778135843,
+        "polar_matrix_atan2_deg": 0.00211697158493627,
+        "polar_double_product_quaternion_deg": 0.002116851826106882,
+        "position_m": 2.1416369604773536e-07
+      },
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 10,
+        "frame": 10,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021151266383907757,
+        "polar_float64_quaternion_2acos_deg": 0.0021169902486693364,
+        "polar_matrix_atan2_deg": 0.002116990864535364,
+        "polar_double_product_quaternion_deg": 0.0021168903925065166,
+        "position_m": 1.7353866112395635e-07
+      },
+      "matrix_angle_max_deg": 0.002116990864535364,
+      "position_max_m": 1.3197415963104087e-06,
+      "rotation_PASS": false,
+      "position_PASS": true
+    },
+    {
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "samples": 97,
+      "legacy_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 42,
+        "frame": 42,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021123899091723725,
+        "polar_float64_quaternion_2acos_deg": 0.0021160645047579693,
+        "polar_matrix_atan2_deg": 0.0021160651718149575,
+        "polar_double_product_quaternion_deg": 0.002116028679147157,
+        "position_m": 2.1126042125758269e-07
+      },
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 42,
+        "frame": 42,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021123899091723725,
+        "polar_float64_quaternion_2acos_deg": 0.0021160645047579693,
+        "polar_matrix_atan2_deg": 0.0021160651718149575,
+        "polar_double_product_quaternion_deg": 0.002116028679147157,
+        "position_m": 2.1126042125758269e-07
+      },
+      "matrix_angle_max_deg": 0.0021160651718149575,
+      "position_max_m": 1.351987865235061e-06,
+      "rotation_PASS": false,
+      "position_PASS": true
+    },
+    {
+      "action": "YRA_R4_Land_Soft",
+      "samples": 43,
+      "legacy_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 10,
+        "frame": 10,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021180222788907944,
+        "polar_float64_quaternion_2acos_deg": 0.002118442795410547,
+        "polar_matrix_atan2_deg": 0.0021184443558775906,
+        "polar_double_product_quaternion_deg": 0.0021185935003240905,
+        "position_m": 2.394640249012142e-07
+      },
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 8,
+        "frame": 8,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.002116380708366699,
+        "polar_float64_quaternion_2acos_deg": 0.002119554594088351,
+        "polar_matrix_atan2_deg": 0.002119554018277683,
+        "polar_double_product_quaternion_deg": 0.0021199858094700153,
+        "position_m": 1.3291510026835853e-07
+      },
+      "matrix_angle_max_deg": 0.002119554018277683,
+      "position_max_m": 1.5140681553463275e-06,
+      "rotation_PASS": false,
+      "position_PASS": true
+    },
+    {
+      "action": "YRA_R4_BalanceRecover",
+      "samples": 55,
+      "legacy_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 30,
+        "frame": 30,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.002116422038680402,
+        "polar_float64_quaternion_2acos_deg": 0.0021198771542117107,
+        "polar_matrix_atan2_deg": 0.002119877101228556,
+        "polar_double_product_quaternion_deg": 0.002119851021103606,
+        "position_m": 1.9556887072930765e-07
+      },
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 30,
+        "frame": 30,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.002116422038680402,
+        "polar_float64_quaternion_2acos_deg": 0.0021198771542117107,
+        "polar_matrix_atan2_deg": 0.002119877101228556,
+        "polar_double_product_quaternion_deg": 0.002119851021103606,
+        "position_m": 1.9556887072930765e-07
+      },
+      "matrix_angle_max_deg": 0.002119877101228556,
+      "position_max_m": 1.3332376283229134e-06,
+      "rotation_PASS": false,
+      "position_PASS": true
+    }
+  ],
+  "per_bone": [
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "root",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "root",
+        "legacy_float32_decomposition_double_dot_deg": 9.80911239371096e-06,
+        "polar_float64_quaternion_2acos_deg": 2.4148365394514667e-06,
+        "polar_matrix_atan2_deg": 3.4150949634923864e-06,
+        "polar_double_product_quaternion_deg": 2.4148365394514667e-06,
+        "position_m": 4.561779398670751e-09
+      },
+      "legacy_max_deg": 9.80911239371096e-06,
+      "position_max_m": 9.313225746154785e-09
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pelvis",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "pelvis",
+        "legacy_float32_decomposition_double_dot_deg": 9.659346157805868e-06,
+        "polar_float64_quaternion_2acos_deg": 2.4148365394514667e-06,
+        "polar_matrix_atan2_deg": 2.9590336036465928e-06,
+        "polar_double_product_quaternion_deg": 2.4148365394514667e-06,
+        "position_m": 5.963374150388733e-08
+      },
+      "legacy_max_deg": 9.659346157805868e-06,
+      "position_max_m": 1.192238405779396e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "spine",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 11,
+        "frame": 11,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "spine",
+        "legacy_float32_decomposition_double_dot_deg": 0.0,
+        "polar_float64_quaternion_2acos_deg": 3.818191820832845e-06,
+        "polar_matrix_atan2_deg": 3.511337780049666e-06,
+        "polar_double_product_quaternion_deg": 4.182619578303746e-06,
+        "position_m": 5.972094663188382e-08
+      },
+      "legacy_max_deg": 1.4688877218970407e-05,
+      "position_max_m": 1.1934018492431453e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "chest",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 15,
+        "frame": 15,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "chest",
+        "legacy_float32_decomposition_double_dot_deg": 5.399738656763832e-06,
+        "polar_float64_quaternion_2acos_deg": 7.82496472061276e-06,
+        "polar_matrix_atan2_deg": 7.844476610341591e-06,
+        "polar_double_product_quaternion_deg": 8.00910673140078e-06,
+        "position_m": 1.192238405779396e-07
+      },
+      "legacy_max_deg": 1.961822478742194e-05,
+      "position_max_m": 1.7905630199186888e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "neck",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 15,
+        "frame": 15,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "neck",
+        "legacy_float32_decomposition_double_dot_deg": 9.956626120759429e-06,
+        "polar_float64_quaternion_2acos_deg": 8.00910673140078e-06,
+        "polar_matrix_atan2_deg": 8.134806071319468e-06,
+        "polar_double_product_quaternion_deg": 7.636383641665691e-06,
+        "position_m": 1.1957616087974574e-07
+      },
+      "legacy_max_deg": 2.4328804008734184e-05,
+      "position_max_m": 2.980232238769531e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "head",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 15,
+        "frame": 15,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "head",
+        "legacy_float32_decomposition_double_dot_deg": 5.399738656763832e-06,
+        "polar_float64_quaternion_2acos_deg": 7.443026089337883e-06,
+        "polar_matrix_atan2_deg": 7.978430701965612e-06,
+        "polar_double_product_quaternion_deg": 7.636383641665691e-06,
+        "position_m": 1.2040473798473493e-07
+      },
+      "legacy_max_deg": 1.9839906680179257e-05,
+      "position_max_m": 2.981163415870451e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Head_Bind",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 40,
+        "frame": 40,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "R3_Head_Bind",
+        "legacy_float32_decomposition_double_dot_deg": 0.0001100010394858205,
+        "polar_float64_quaternion_2acos_deg": 0.00011788261460342861,
+        "polar_matrix_atan2_deg": 0.00011790325300469024,
+        "polar_double_product_quaternion_deg": 0.00011770934872453665,
+        "position_m": 2.982327887244987e-07
+      },
+      "legacy_max_deg": 0.00012454564810799112,
+      "position_max_m": 4.768517667379964e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Neck_Bind",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 36,
+        "frame": 36,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "R3_Neck_Bind",
+        "legacy_float32_decomposition_double_dot_deg": 2.6618028002479826e-05,
+        "polar_float64_quaternion_2acos_deg": 2.847050291451707e-05,
+        "polar_matrix_atan2_deg": 2.854784326550445e-05,
+        "polar_double_product_quaternion_deg": 2.836790617393633e-05,
+        "position_m": 6.128445761942449e-08
+      },
+      "legacy_max_deg": 3.363478094741179e-05,
+      "position_max_m": 2.983963378895846e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "clavicle.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 14,
+        "frame": 14,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "clavicle.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022038608481869096,
+        "polar_float64_quaternion_2acos_deg": 0.00022255178616106466,
+        "polar_matrix_atan2_deg": 0.00022255148970637086,
+        "polar_double_product_quaternion_deg": 0.00022288561893725497,
+        "position_m": 5.972094663188382e-08
+      },
+      "legacy_max_deg": 0.00022038608481869096,
+      "position_max_m": 2.9803486518177104e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "upper_arm.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "upper_arm.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022249937478885455,
+        "polar_float64_quaternion_2acos_deg": 0.0002261066012660557,
+        "polar_matrix_atan2_deg": 0.00022612266297938546,
+        "polar_double_product_quaternion_deg": 0.00022590018186776815,
+        "position_m": 2.4131141216608354e-07
+      },
+      "legacy_max_deg": 0.00022749503328954823,
+      "position_max_m": 4.193930759123145e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "forearm.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "forearm.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002367771547573437,
+        "polar_float64_quaternion_2acos_deg": 0.00022633215692329688,
+        "polar_matrix_atan2_deg": 0.0002263390592526967,
+        "polar_double_product_quaternion_deg": 0.00022620329551628805,
+        "position_m": 6.264250378566949e-07
+      },
+      "legacy_max_deg": 0.00024657361304679333,
+      "position_max_m": 8.484834237144429e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "hand.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "hand.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002296000370882763,
+        "polar_float64_quaternion_2acos_deg": 0.00022986022156723737,
+        "polar_matrix_atan2_deg": 0.00022986783840037693,
+        "polar_double_product_quaternion_deg": 0.00023020245484740352,
+        "position_m": 1.0031481194321415e-06
+      },
+      "legacy_max_deg": 0.00023065165548605233,
+      "position_max_m": 1.1515426091171298e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index1.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "index1.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002092703531252322,
+        "polar_float64_quaternion_2acos_deg": 0.00020650735556207572,
+        "polar_matrix_atan2_deg": 0.0002065220448543729,
+        "polar_double_product_quaternion_deg": 0.0002069868515356926,
+        "position_m": 1.0050278144429474e-06
+      },
+      "legacy_max_deg": 0.0002092703531252322,
+      "position_max_m": 1.2500333579583694e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index2.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "index2.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00018810941148295028,
+        "polar_float64_quaternion_2acos_deg": 0.0001886820441971519,
+        "polar_matrix_atan2_deg": 0.00018869834807563928,
+        "polar_double_product_quaternion_deg": 0.00018905255421366445,
+        "position_m": 9.961512633179586e-07
+      },
+      "legacy_max_deg": 0.00018810941148295028,
+      "position_max_m": 1.258381888700989e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index3.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "index3.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00030780404930394695,
+        "polar_float64_quaternion_2acos_deg": 0.0003084049755158567,
+        "polar_matrix_atan2_deg": 0.00030840920037388,
+        "polar_double_product_quaternion_deg": 0.00030869319348839004,
+        "position_m": 1.0474361044639333e-06
+      },
+      "legacy_max_deg": 0.00031135943806763136,
+      "position_max_m": 1.3093746239244893e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle1.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "middle1.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022314709910569913,
+        "polar_float64_quaternion_2acos_deg": 0.00023228920077147833,
+        "polar_matrix_atan2_deg": 0.00023229683023126728,
+        "polar_double_product_quaternion_deg": 0.0002324397771922858,
+        "position_m": 1.0894165472051049e-06
+      },
+      "legacy_max_deg": 0.00024386262393846095,
+      "position_max_m": 1.211498541617886e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle2.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "middle2.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022450188670157132,
+        "polar_float64_quaternion_2acos_deg": 0.00022499487034604047,
+        "polar_matrix_atan2_deg": 0.0002249908979025582,
+        "polar_double_product_quaternion_deg": 0.00022559666095346424,
+        "position_m": 1.0849232464592096e-06
+      },
+      "legacy_max_deg": 0.00024370714124229446,
+      "position_max_m": 1.2919401283424323e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle3.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "middle3.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00024975761384745846,
+        "polar_float64_quaternion_2acos_deg": 0.00025817301932090723,
+        "polar_matrix_atan2_deg": 0.0002581759409507127,
+        "polar_double_product_quaternion_deg": 0.0002589961441752939,
+        "position_m": 1.0761898806850784e-06
+      },
+      "legacy_max_deg": 0.0002737193516390095,
+      "position_max_m": 1.330012113825686e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring1.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "ring1.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002696735661379363,
+        "polar_float64_quaternion_2acos_deg": 0.0002728444717227621,
+        "polar_matrix_atan2_deg": 0.0002728547068336934,
+        "polar_double_product_quaternion_deg": 0.0002730474373152152,
+        "position_m": 1.0498711439256987e-06
+      },
+      "legacy_max_deg": 0.00027861814287546966,
+      "position_max_m": 1.2678307350904967e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring2.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "ring2.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00025055020113664016,
+        "polar_float64_quaternion_2acos_deg": 0.00024224313315343782,
+        "polar_matrix_atan2_deg": 0.00024224235431970318,
+        "polar_double_product_quaternion_deg": 0.00024197818905579932,
+        "position_m": 1.0536712127723508e-06
+      },
+      "legacy_max_deg": 0.0002528669420704608,
+      "position_max_m": 1.3093534261711643e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring3.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "ring3.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00017498819353012183,
+        "polar_float64_quaternion_2acos_deg": 0.00017470470363223408,
+        "polar_matrix_atan2_deg": 0.00017471806186386088,
+        "polar_double_product_quaternion_deg": 0.0001750964654291032,
+        "position_m": 1.020375985847115e-06
+      },
+      "legacy_max_deg": 0.00017498819353012183,
+      "position_max_m": 1.3197415963104087e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky1.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "pinky1.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00021288944736969694,
+        "polar_float64_quaternion_2acos_deg": 0.00020621770892248795,
+        "polar_matrix_atan2_deg": 0.00020622711661267827,
+        "polar_double_product_quaternion_deg": 0.00020642262300476645,
+        "position_m": 1.0995603093131343e-06
+      },
+      "legacy_max_deg": 0.00021288944736969694,
+      "position_max_m": 1.2415504521272484e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky2.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "pinky2.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002633279318196843,
+        "polar_float64_quaternion_2acos_deg": 0.000249202472876862,
+        "polar_matrix_atan2_deg": 0.00024920287020185737,
+        "polar_double_product_quaternion_deg": 0.0002495590737101489,
+        "position_m": 1.1668665379555161e-06
+      },
+      "legacy_max_deg": 0.0002633279318196843,
+      "position_max_m": 1.284009809763289e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky3.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "pinky3.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.00017366687787101452,
+        "polar_float64_quaternion_2acos_deg": 0.00017075472925033458,
+        "polar_matrix_atan2_deg": 0.0001707612434062725,
+        "polar_double_product_quaternion_deg": 0.00017066078830837964,
+        "position_m": 1.255328865737161e-06
+      },
+      "legacy_max_deg": 0.00017366687787101452,
+      "position_max_m": 1.3158029091591569e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb1.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thumb1.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002362717337283067,
+        "polar_float64_quaternion_2acos_deg": 0.00023422669638505054,
+        "polar_matrix_atan2_deg": 0.00023422897191759337,
+        "polar_double_product_quaternion_deg": 0.0002323268540259369,
+        "position_m": 1.0031481194321415e-06
+      },
+      "legacy_max_deg": 0.0002362717337283067,
+      "position_max_m": 1.1668249109809223e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb2.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 28,
+        "frame": 28,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thumb2.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0005407131238274323,
+        "polar_float64_quaternion_2acos_deg": 0.0005371749467856646,
+        "polar_matrix_atan2_deg": 0.0005371760940739729,
+        "polar_double_product_quaternion_deg": 0.0005378421608819761,
+        "position_m": 3.1327897372288464e-07
+      },
+      "legacy_max_deg": 0.0005444586236173392,
+      "position_max_m": 1.249500351492198e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb3.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thumb3.L",
+        "legacy_float32_decomposition_double_dot_deg": 0.0005530766504131461,
+        "polar_float64_quaternion_2acos_deg": 0.0005531082803984218,
+        "polar_matrix_atan2_deg": 0.0005531088000977853,
+        "polar_double_product_quaternion_deg": 0.00055382737454258,
+        "position_m": 9.523928869530436e-07
+      },
+      "legacy_max_deg": 0.0005530766504131461,
+      "position_max_m": 1.259126077549315e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_L_Bind",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 14,
+        "frame": 14,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "R3_Shoulder_L_Bind",
+        "legacy_float32_decomposition_double_dot_deg": 0.00018495188756804525,
+        "polar_float64_quaternion_2acos_deg": 0.0001869432882588767,
+        "polar_matrix_atan2_deg": 0.00018693857925138508,
+        "polar_double_product_quaternion_deg": 0.00018723939302340905,
+        "position_m": 2.454242623150097e-07
+      },
+      "legacy_max_deg": 0.00018495188756804525,
+      "position_max_m": 2.4581976641876484e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "clavicle.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "clavicle.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002023569622404184,
+        "polar_float64_quaternion_2acos_deg": 0.00020615407348251633,
+        "polar_matrix_atan2_deg": 0.00020615419978690854,
+        "polar_double_product_quaternion_deg": 0.00020608334439219822,
+        "position_m": 1.1935471999347802e-07
+      },
+      "legacy_max_deg": 0.00020561592220440605,
+      "position_max_m": 2.980290445862022e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "upper_arm.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "upper_arm.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002014833450156057,
+        "polar_float64_quaternion_2acos_deg": 0.00019624168803554474,
+        "polar_matrix_atan2_deg": 0.00019625010612055597,
+        "polar_double_product_quaternion_deg": 0.0001962045400449729,
+        "position_m": 3.577830554110697e-07
+      },
+      "legacy_max_deg": 0.0002014833450156057,
+      "position_max_m": 4.781305246040327e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "forearm.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "forearm.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002117634035648477,
+        "polar_float64_quaternion_2acos_deg": 0.0002048914450455227,
+        "polar_matrix_atan2_deg": 0.00020489888820577877,
+        "polar_double_product_quaternion_deg": 0.00020479892558803296,
+        "position_m": 7.692521511995975e-07
+      },
+      "legacy_max_deg": 0.0002117634035648477,
+      "position_max_m": 8.50443877861472e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "hand.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "hand.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022490413876459823,
+        "polar_float64_quaternion_2acos_deg": 0.00021704665808504572,
+        "polar_matrix_atan2_deg": 0.00021704656848724592,
+        "polar_double_product_quaternion_deg": 0.0002164951799229801,
+        "position_m": 1.223370813917817e-06
+      },
+      "legacy_max_deg": 0.00022490413876459823,
+      "position_max_m": 1.223370813917817e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index1.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "index1.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022975237595525565,
+        "polar_float64_quaternion_2acos_deg": 0.00022655748802239282,
+        "polar_matrix_atan2_deg": 0.00022657002006347147,
+        "polar_double_product_quaternion_deg": 0.00022725138700716322,
+        "position_m": 1.3501440893178226e-06
+      },
+      "legacy_max_deg": 0.00022975237595525565,
+      "position_max_m": 1.3501440893178226e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index2.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 35,
+        "frame": 35,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "index2.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00018169940052934448,
+        "polar_float64_quaternion_2acos_deg": 0.0001947202960679452,
+        "polar_matrix_atan2_deg": 0.000194724587107771,
+        "polar_double_product_quaternion_deg": 0.00019519887201820853,
+        "position_m": 8.297953481868419e-07
+      },
+      "legacy_max_deg": 0.00019540788043053122,
+      "position_max_m": 1.3641888963878568e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index3.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 12,
+        "frame": 12,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "index3.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.0004733356822588865,
+        "polar_float64_quaternion_2acos_deg": 0.0004632270852889422,
+        "polar_matrix_atan2_deg": 0.00046323381382787555,
+        "polar_double_product_quaternion_deg": 0.0004626129781824556,
+        "position_m": 1.2310379476739694e-06
+      },
+      "legacy_max_deg": 0.0004733356822588865,
+      "position_max_m": 1.4724277647776156e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle1.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "middle1.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022620974033004255,
+        "polar_float64_quaternion_2acos_deg": 0.0002232907826801718,
+        "polar_matrix_atan2_deg": 0.00022328506421121505,
+        "polar_double_product_quaternion_deg": 0.00022301639734370647,
+        "position_m": 1.4067398587667552e-06
+      },
+      "legacy_max_deg": 0.00022686614959334777,
+      "position_max_m": 1.4067398587667552e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle2.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 35,
+        "frame": 35,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "middle2.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00020059865590882944,
+        "polar_float64_quaternion_2acos_deg": 0.0002048914450455227,
+        "polar_matrix_atan2_deg": 0.00020489694453043028,
+        "polar_double_product_quaternion_deg": 0.00020510479220517137,
+        "position_m": 7.611270421220144e-07
+      },
+      "legacy_max_deg": 0.0002079285042700523,
+      "position_max_m": 1.4158896826213026e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle3.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "middle3.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00017634094779484872,
+        "polar_float64_quaternion_2acos_deg": 0.00016753118850100775,
+        "polar_matrix_atan2_deg": 0.00016755499971460557,
+        "polar_double_product_quaternion_deg": 0.00016735705771026647,
+        "position_m": 1.5140681553463275e-06
+      },
+      "legacy_max_deg": 0.00017634094779484872,
+      "position_max_m": 1.5140681553463275e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring1.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "ring1.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00020966706133596465,
+        "polar_float64_quaternion_2acos_deg": 0.00020516164731151782,
+        "polar_matrix_atan2_deg": 0.0002051782748672489,
+        "polar_double_product_quaternion_deg": 0.00020494835933691086,
+        "position_m": 1.332264023103546e-06
+      },
+      "legacy_max_deg": 0.00020966706133596465,
+      "position_max_m": 1.332264023103546e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring2.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "ring2.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002922351332013991,
+        "polar_float64_quaternion_2acos_deg": 0.00028691876049982804,
+        "polar_matrix_atan2_deg": 0.00028692345052837314,
+        "polar_double_product_quaternion_deg": 0.00028675103564033575,
+        "position_m": 1.4156544280080071e-06
+      },
+      "legacy_max_deg": 0.0002922351332013991,
+      "position_max_m": 1.4156544280080071e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring3.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "ring3.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00017886099412761674,
+        "polar_float64_quaternion_2acos_deg": 0.0001704641990496727,
+        "polar_matrix_atan2_deg": 0.00017048626980400536,
+        "polar_double_product_quaternion_deg": 0.00017002747293329835,
+        "position_m": 1.4710699234228654e-06
+      },
+      "legacy_max_deg": 0.00017886099412761674,
+      "position_max_m": 1.4710699234228654e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky1.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "pinky1.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00022233550961897144,
+        "polar_float64_quaternion_2acos_deg": 0.00021631328796555205,
+        "polar_matrix_atan2_deg": 0.00021631918463957688,
+        "polar_double_product_quaternion_deg": 0.00021574642119616345,
+        "position_m": 1.3234850749966609e-06
+      },
+      "legacy_max_deg": 0.00022233550961897144,
+      "position_max_m": 1.3234850749966609e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky2.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "pinky2.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00018680286428593917,
+        "polar_float64_quaternion_2acos_deg": 0.00018517246234835965,
+        "polar_matrix_atan2_deg": 0.00018517476215626673,
+        "polar_double_product_quaternion_deg": 0.0001854399504310312,
+        "position_m": 1.4067250608699935e-06
+      },
+      "legacy_max_deg": 0.00018680286428593917,
+      "position_max_m": 1.4067250608699935e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky3.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "pinky3.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00020794953724701955,
+        "polar_float64_quaternion_2acos_deg": 0.00020317660296247122,
+        "polar_matrix_atan2_deg": 0.00020319100886324475,
+        "polar_double_product_quaternion_deg": 0.00020323399748422695,
+        "position_m": 1.479649713279383e-06
+      },
+      "legacy_max_deg": 0.00020794953724701955,
+      "position_max_m": 1.479649713279383e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb1.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thumb1.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.00021290314285347513,
+        "polar_float64_quaternion_2acos_deg": 0.00021755653595181447,
+        "polar_matrix_atan2_deg": 0.00021756655150459022,
+        "polar_double_product_quaternion_deg": 0.00021851935770598639,
+        "position_m": 1.2577641533992743e-06
+      },
+      "legacy_max_deg": 0.00021290314285347513,
+      "position_max_m": 1.2577641533992743e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb2.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thumb2.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.0006015754786033012,
+        "polar_float64_quaternion_2acos_deg": 0.0005986700744320177,
+        "polar_matrix_atan2_deg": 0.000598677169164999,
+        "polar_double_product_quaternion_deg": 0.0005979268885949288,
+        "position_m": 3.960037906741593e-07
+      },
+      "legacy_max_deg": 0.0006015754786033012,
+      "position_max_m": 1.3411252033438134e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb3.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 8,
+        "frame": 8,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thumb3.R",
+        "legacy_float32_decomposition_double_dot_deg": 0.0005642713978274054,
+        "polar_float64_quaternion_2acos_deg": 0.000571592370003856,
+        "polar_matrix_atan2_deg": 0.0005715933352909475,
+        "polar_double_product_quaternion_deg": 0.0005712658099114966,
+        "position_m": 9.068920644940697e-07
+      },
+      "legacy_max_deg": 0.0005751063896233638,
+      "position_max_m": 1.3327378984431098e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_R_Bind",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 39,
+        "frame": 39,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "R3_Shoulder_R_Bind",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002199026579773725,
+        "polar_float64_quaternion_2acos_deg": 0.00021687867309162358,
+        "polar_matrix_atan2_deg": 0.0002168790705758791,
+        "polar_double_product_quaternion_deg": 0.00021654904449554293,
+        "position_m": 1.2950407934016508e-07
+      },
+      "legacy_max_deg": 0.0002199026579773725,
+      "position_max_m": 3.025580239016908e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_UpperChest_Bind",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 40,
+        "frame": 40,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "R3_UpperChest_Bind",
+        "legacy_float32_decomposition_double_dot_deg": 2.7106472927070668e-05,
+        "polar_float64_quaternion_2acos_deg": 2.0773209379101157e-05,
+        "polar_matrix_atan2_deg": 2.093810790407222e-05,
+        "polar_double_product_quaternion_deg": 2.0773209379101157e-05,
+        "position_m": 5.963783209280894e-08
+      },
+      "legacy_max_deg": 3.646323212220162e-05,
+      "position_max_m": 2.980756971017408e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thigh.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 34,
+        "frame": 34,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thigh.L",
+        "legacy_float32_decomposition_double_dot_deg": 2.4979263396122898e-05,
+        "polar_float64_quaternion_2acos_deg": 2.9575586669422044e-05,
+        "polar_matrix_atan2_deg": 2.9552926549270787e-05,
+        "polar_double_product_quaternion_deg": 2.967400819492987e-05,
+        "position_m": 6.00973732952091e-08
+      },
+      "legacy_max_deg": 3.646323212220162e-05,
+      "position_max_m": 1.1967404487884797e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "shin.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 33,
+        "frame": 33,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "shin.L",
+        "legacy_float32_decomposition_double_dot_deg": 4.826653589343111e-05,
+        "polar_float64_quaternion_2acos_deg": 3.6622809392810054e-05,
+        "polar_matrix_atan2_deg": 3.664005059455927e-05,
+        "polar_double_product_quaternion_deg": 3.666259518335044e-05,
+        "position_m": 1.3587099481252495e-07
+      },
+      "legacy_max_deg": 4.826653589343111e-05,
+      "position_max_m": 2.0997555063727427e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "foot.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 12,
+        "frame": 12,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "foot.L",
+        "legacy_float32_decomposition_double_dot_deg": 6.733454619131256e-05,
+        "polar_float64_quaternion_2acos_deg": 6.770161233415569e-05,
+        "polar_matrix_atan2_deg": 6.77252666738891e-05,
+        "polar_double_product_quaternion_deg": 6.711768718623022e-05,
+        "position_m": 1.9087341994752674e-07
+      },
+      "legacy_max_deg": 6.733454619131256e-05,
+      "position_max_m": 2.910498527381511e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "toe.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 12,
+        "frame": 12,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "toe.L",
+        "legacy_float32_decomposition_double_dot_deg": 5.301652494189108e-05,
+        "polar_float64_quaternion_2acos_deg": 5.148191372051674e-05,
+        "polar_matrix_atan2_deg": 5.150410873211388e-05,
+        "polar_double_product_quaternion_deg": 5.027849733801774e-05,
+        "position_m": 2.7567148208618164e-07
+      },
+      "legacy_max_deg": 5.301652494189108e-05,
+      "position_max_m": 3.326373433511407e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thigh.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 37,
+        "frame": 37,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "thigh.R",
+        "legacy_float32_decomposition_double_dot_deg": 3.893806920213427e-05,
+        "polar_float64_quaternion_2acos_deg": 3.073585126505747e-05,
+        "polar_matrix_atan2_deg": 3.0768060875337005e-05,
+        "polar_double_product_quaternion_deg": 3.0449930155107498e-05,
+        "position_m": 1.1944189326376765e-07
+      },
+      "legacy_max_deg": 3.893806920213427e-05,
+      "position_max_m": 1.1967404487884797e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "shin.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 55,
+        "frame": 55,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "shin.R",
+        "legacy_float32_decomposition_double_dot_deg": 4.817583765627192e-05,
+        "polar_float64_quaternion_2acos_deg": 4.00455336570041e-05,
+        "polar_matrix_atan2_deg": 4.0080327932456725e-05,
+        "polar_double_product_quaternion_deg": 3.893806920213427e-05,
+        "position_m": 9.163002577609453e-08
+      },
+      "legacy_max_deg": 4.817583765627192e-05,
+      "position_max_m": 2.0981025457872038e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "foot.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 14,
+        "frame": 14,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "foot.R",
+        "legacy_float32_decomposition_double_dot_deg": 5.9544208714703734e-05,
+        "polar_float64_quaternion_2acos_deg": 5.724741704125848e-05,
+        "polar_matrix_atan2_deg": 5.726849608079113e-05,
+        "polar_double_product_quaternion_deg": 5.624547773293869e-05,
+        "position_m": 6.146728992462158e-08
+      },
+      "legacy_max_deg": 5.9544208714703734e-05,
+      "position_max_m": 2.576718966428747e-07
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "toe.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Meshy_Fitted_Rig",
+        "bone": "toe.R",
+        "legacy_float32_decomposition_double_dot_deg": 5.760283679196418e-05,
+        "polar_float64_quaternion_2acos_deg": 6.423192839181373e-05,
+        "polar_matrix_atan2_deg": 6.428845933422232e-05,
+        "polar_double_product_quaternion_deg": 6.513347323133085e-05,
+        "position_m": 1.7544495819980824e-07
+      },
+      "legacy_max_deg": 6.099553964699637e-05,
+      "position_max_m": 2.476127350015024e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "Root",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "Root",
+        "legacy_float32_decomposition_double_dot_deg": 2.2329078268013682e-05,
+        "polar_float64_quaternion_2acos_deg": 2.606457820835492e-05,
+        "polar_matrix_atan2_deg": 2.6144832815349756e-05,
+        "polar_double_product_quaternion_deg": 2.6008585494473073e-05,
+        "position_m": 3.49075435224222e-09
+      },
+      "legacy_max_deg": 2.2329078268013682e-05,
+      "position_max_m": 3.49075435224222e-09
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Hips",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_C_Hips",
+        "legacy_float32_decomposition_double_dot_deg": 3.266730320588777e-05,
+        "polar_float64_quaternion_2acos_deg": 2.6781832797797937e-05,
+        "polar_matrix_atan2_deg": 2.677530010065283e-05,
+        "polar_double_product_quaternion_deg": 2.6727342745829975e-05,
+        "position_m": 1.5455465785346176e-07
+      },
+      "legacy_max_deg": 3.266730320588777e-05,
+      "position_max_m": 1.5455465785346176e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Spine",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_C_Spine",
+        "legacy_float32_decomposition_double_dot_deg": 1.9469034601067064e-05,
+        "polar_float64_quaternion_2acos_deg": 2.6008585494473073e-05,
+        "polar_matrix_atan2_deg": 2.6099791214358403e-05,
+        "polar_double_product_quaternion_deg": 2.6008585494473073e-05,
+        "position_m": 1.9758104998579872e-07
+      },
+      "legacy_max_deg": 1.9469034601067064e-05,
+      "position_max_m": 1.9758104998579872e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Chest",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_C_Chest",
+        "legacy_float32_decomposition_double_dot_deg": 3.5980254080869636e-05,
+        "polar_float64_quaternion_2acos_deg": 3.302239302041094e-05,
+        "polar_matrix_atan2_deg": 3.306141603052475e-05,
+        "polar_double_product_quaternion_deg": 3.302239302041094e-05,
+        "position_m": 2.1146778320958666e-07
+      },
+      "legacy_max_deg": 3.5980254080869636e-05,
+      "position_max_m": 2.1146778320958666e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_UpperChest",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 33,
+        "frame": 33,
+        "rig": "Armature",
+        "bone": "J_Bip_C_UpperChest",
+        "legacy_float32_decomposition_double_dot_deg": 3.363478094741179e-05,
+        "polar_float64_quaternion_2acos_deg": 3.248830293691662e-05,
+        "polar_matrix_atan2_deg": 3.2528165319408964e-05,
+        "polar_double_product_quaternion_deg": 3.27564365317364e-05,
+        "position_m": 2.2298564041739933e-07
+      },
+      "legacy_max_deg": 4.306270419866663e-05,
+      "position_max_m": 2.6209905953745725e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Neck",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 24,
+        "frame": 24,
+        "rig": "Armature",
+        "bone": "J_Bip_C_Neck",
+        "legacy_float32_decomposition_double_dot_deg": 2.9377754437940875e-05,
+        "polar_float64_quaternion_2acos_deg": 3.171628329212882e-05,
+        "polar_matrix_atan2_deg": 3.169689216499402e-05,
+        "polar_double_product_quaternion_deg": 3.157808532191534e-05,
+        "position_m": 4.1947792551672613e-07
+      },
+      "legacy_max_deg": 3.916206761302329e-05,
+      "position_max_m": 4.1947792551672613e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Head",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 38,
+        "frame": 38,
+        "rig": "Armature",
+        "bone": "J_Bip_C_Head",
+        "legacy_float32_decomposition_double_dot_deg": 5.8056607945109e-05,
+        "polar_float64_quaternion_2acos_deg": 5.485454151053806e-05,
+        "polar_matrix_atan2_deg": 5.48658406851979e-05,
+        "polar_double_product_quaternion_deg": 5.485454151053806e-05,
+        "position_m": 3.779896325167395e-07
+      },
+      "legacy_max_deg": 6.008043427019458e-05,
+      "position_max_m": 4.744351725127955e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Adj_L_FaceEye",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 24,
+        "frame": 24,
+        "rig": "Armature",
+        "bone": "J_Adj_L_FaceEye",
+        "legacy_float32_decomposition_double_dot_deg": 5.340011203639979e-05,
+        "polar_float64_quaternion_2acos_deg": 5.361807258331028e-05,
+        "polar_matrix_atan2_deg": 5.365014218125409e-05,
+        "polar_double_product_quaternion_deg": 5.386222393620918e-05,
+        "position_m": 4.608117844568658e-07
+      },
+      "legacy_max_deg": 5.73491903074517e-05,
+      "position_max_m": 5.448810152943637e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Adj_R_FaceEye",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 38,
+        "frame": 38,
+        "rig": "Armature",
+        "bone": "J_Adj_R_FaceEye",
+        "legacy_float32_decomposition_double_dot_deg": 5.973975672455723e-05,
+        "polar_float64_quaternion_2acos_deg": 5.2185059013381464e-05,
+        "polar_matrix_atan2_deg": 5.217642785360014e-05,
+        "polar_double_product_quaternion_deg": 5.184873934008893e-05,
+        "position_m": 3.801724457219666e-07
+      },
+      "legacy_max_deg": 5.973975672455723e-05,
+      "position_max_m": 5.488232648382874e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "MOTION5H_HairTip.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 29,
+        "frame": 29,
+        "rig": "Armature",
+        "bone": "MOTION5H_HairTip.L",
+        "legacy_float32_decomposition_double_dot_deg": 3.829629265785269e-05,
+        "polar_float64_quaternion_2acos_deg": 3.701874316320648e-05,
+        "polar_matrix_atan2_deg": 3.702623722592225e-05,
+        "polar_double_product_quaternion_deg": 3.701874316320648e-05,
+        "position_m": 3.1383221643429025e-07
+      },
+      "legacy_max_deg": 4.426468493192651e-05,
+      "position_max_m": 5.643200034314487e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "MOTION5H_HairTip.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 22,
+        "frame": 22,
+        "rig": "Armature",
+        "bone": "MOTION5H_HairTip.R",
+        "legacy_float32_decomposition_double_dot_deg": 2.996733336300671e-05,
+        "polar_float64_quaternion_2acos_deg": 3.934775887528644e-05,
+        "polar_matrix_atan2_deg": 3.938469879787868e-05,
+        "polar_double_product_quaternion_deg": 3.934775887528644e-05,
+        "position_m": 4.5374529020648727e-07
+      },
+      "legacy_max_deg": 4.670071607147995e-05,
+      "position_max_m": 5.095653827833681e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Shoulder",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Shoulder",
+        "legacy_float32_decomposition_double_dot_deg": 3.0161298710667534e-05,
+        "polar_float64_quaternion_2acos_deg": 3.025781511322959e-05,
+        "polar_matrix_atan2_deg": 3.0315552649579468e-05,
+        "polar_double_product_quaternion_deg": 2.9918645543096362e-05,
+        "position_m": 1.9883736968040466e-07
+      },
+      "legacy_max_deg": 4.24489525582367e-05,
+      "position_max_m": 4.1415381897601856e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_UpperArm",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_L_UpperArm",
+        "legacy_float32_decomposition_double_dot_deg": 8.045429397254005e-05,
+        "polar_float64_quaternion_2acos_deg": 8.081588812691843e-05,
+        "polar_matrix_atan2_deg": 8.079043257809856e-05,
+        "polar_double_product_quaternion_deg": 8.065337137365915e-05,
+        "position_m": 1.4297014918460853e-07
+      },
+      "legacy_max_deg": 8.312791999106062e-05,
+      "position_max_m": 4.445297379897188e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_LowerArm",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_LowerArm",
+        "legacy_float32_decomposition_double_dot_deg": 0.00018065333886874453,
+        "polar_float64_quaternion_2acos_deg": 0.00017676207589510963,
+        "polar_matrix_atan2_deg": 0.00017677607085661709,
+        "polar_double_product_quaternion_deg": 0.00017679506312613213,
+        "position_m": 2.736266298898866e-07
+      },
+      "legacy_max_deg": 0.00018373399299132938,
+      "position_max_m": 6.112314828067784e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Hand",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 32,
+        "frame": 32,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Hand",
+        "legacy_float32_decomposition_double_dot_deg": 4.4461855996567804e-05,
+        "polar_float64_quaternion_2acos_deg": 3.799052894191949e-05,
+        "polar_matrix_atan2_deg": 3.803482280009749e-05,
+        "polar_double_product_quaternion_deg": 3.8105477854964984e-05,
+        "position_m": 1.838648718484203e-07
+      },
+      "legacy_max_deg": 4.937144968632044e-05,
+      "position_max_m": 4.3348438998972007e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Thumb1",
+        "legacy_float32_decomposition_double_dot_deg": 8.085195859875547e-05,
+        "polar_float64_quaternion_2acos_deg": 8.664856156941036e-05,
+        "polar_matrix_atan2_deg": 8.664431903981722e-05,
+        "polar_double_product_quaternion_deg": 8.642956028592383e-05,
+        "position_m": 1.22212802636059e-07
+      },
+      "legacy_max_deg": 8.476041854024133e-05,
+      "position_max_m": 5.480388245221979e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Thumb2",
+        "legacy_float32_decomposition_double_dot_deg": 3.440612458546887e-05,
+        "polar_float64_quaternion_2acos_deg": 3.470146154391412e-05,
+        "polar_matrix_atan2_deg": 3.475446495681485e-05,
+        "polar_double_product_quaternion_deg": 3.474344759864636e-05,
+        "position_m": 1.8605018742167719e-07
+      },
+      "legacy_max_deg": 3.565463422438738e-05,
+      "position_max_m": 4.925419867061127e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Thumb3",
+        "legacy_float32_decomposition_double_dot_deg": 7.034182988920031e-05,
+        "polar_float64_quaternion_2acos_deg": 7.226375648440854e-05,
+        "polar_matrix_atan2_deg": 7.22972784276605e-05,
+        "polar_double_product_quaternion_deg": 7.296643490470553e-05,
+        "position_m": 2.617530103115912e-07
+      },
+      "legacy_max_deg": 7.360301346343746e-05,
+      "position_max_m": 5.085123599510702e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Lift_Start",
+        "sample": 28,
+        "frame": 28,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index1",
+        "legacy_float32_decomposition_double_dot_deg": 4.265451769541229e-05,
+        "polar_float64_quaternion_2acos_deg": 5.162330897092325e-05,
+        "polar_matrix_atan2_deg": 5.162891559408381e-05,
+        "polar_double_product_quaternion_deg": 5.1792473735516976e-05,
+        "position_m": 1.2468597271427185e-07
+      },
+      "legacy_max_deg": 5.895367304344113e-05,
+      "position_max_m": 4.905833931250326e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index2",
+        "legacy_float32_decomposition_double_dot_deg": 0.001652662329900231,
+        "polar_float64_quaternion_2acos_deg": 0.0016502064264428897,
+        "polar_matrix_atan2_deg": 0.0016502058507739162,
+        "polar_double_product_quaternion_deg": 0.0016502099602003488,
+        "position_m": 1.0437463019879088e-07
+      },
+      "legacy_max_deg": 0.001652662329900231,
+      "position_max_m": 4.962332786722992e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0021210060720103056,
+        "polar_float64_quaternion_2acos_deg": 0.0021221062229851797,
+        "polar_matrix_atan2_deg": 0.002122107853806262,
+        "polar_double_product_quaternion_deg": 0.002121928285954439,
+        "position_m": 3.0692413336107104e-07
+      },
+      "legacy_max_deg": 0.0021210060720103056,
+      "position_max_m": 4.140270945265831e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 32,
+        "frame": 32,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Middle1",
+        "legacy_float32_decomposition_double_dot_deg": 2.119010463505988e-05,
+        "polar_float64_quaternion_2acos_deg": 3.167028430738245e-05,
+        "polar_matrix_atan2_deg": 3.176687004956132e-05,
+        "polar_double_product_quaternion_deg": 3.185388169650561e-05,
+        "position_m": 2.7028258364226004e-07
+      },
+      "legacy_max_deg": 4.413274817069726e-05,
+      "position_max_m": 4.954636096954346e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 32,
+        "frame": 32,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Middle2",
+        "legacy_float32_decomposition_double_dot_deg": 5.517254151663637e-05,
+        "polar_float64_quaternion_2acos_deg": 3.916206761302329e-05,
+        "polar_matrix_atan2_deg": 3.918026188062288e-05,
+        "polar_double_product_quaternion_deg": 3.9124823603063984e-05,
+        "position_m": 2.9737058346681454e-07
+      },
+      "legacy_max_deg": 5.517254151663637e-05,
+      "position_max_m": 5.103511747581872e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 15,
+        "frame": 15,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Middle3",
+        "legacy_float32_decomposition_double_dot_deg": 0.0006292630337074159,
+        "polar_float64_quaternion_2acos_deg": 0.000630915040293502,
+        "polar_matrix_atan2_deg": 0.000630919909663656,
+        "polar_double_product_quaternion_deg": 0.0006310213237960617,
+        "position_m": 1.6361617487667314e-07
+      },
+      "legacy_max_deg": 0.0006341601679932367,
+      "position_max_m": 5.119259174556101e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Ring1",
+        "legacy_float32_decomposition_double_dot_deg": 3.622254809177215e-05,
+        "polar_float64_quaternion_2acos_deg": 4.251758470096461e-05,
+        "polar_matrix_atan2_deg": 4.255045405729944e-05,
+        "polar_double_product_quaternion_deg": 4.24489525582367e-05,
+        "position_m": 1.0419164799859372e-07
+      },
+      "legacy_max_deg": 5.013330934407165e-05,
+      "position_max_m": 5.499964476347481e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Ring2",
+        "legacy_float32_decomposition_double_dot_deg": 4.11940254657222e-05,
+        "polar_float64_quaternion_2acos_deg": 3.4150945850063884e-05,
+        "polar_matrix_atan2_deg": 3.421034514531746e-05,
+        "polar_double_product_quaternion_deg": 3.4065461496091986e-05,
+        "position_m": 1.1468605074415392e-07
+      },
+      "legacy_max_deg": 4.11940254657222e-05,
+      "position_max_m": 5.488645513043876e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Ring3",
+        "legacy_float32_decomposition_double_dot_deg": 2.996733336300671e-05,
+        "polar_float64_quaternion_2acos_deg": 2.90784825821284e-05,
+        "polar_matrix_atan2_deg": 2.912430328722683e-05,
+        "polar_double_product_quaternion_deg": 2.90784825821284e-05,
+        "position_m": 1.1623287246306872e-07
+      },
+      "legacy_max_deg": 4.333269244982293e-05,
+      "position_max_m": 5.507416815300479e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Little1",
+        "legacy_float32_decomposition_double_dot_deg": 3.5980254080869636e-05,
+        "polar_float64_quaternion_2acos_deg": 3.120656550389813e-05,
+        "polar_matrix_atan2_deg": 3.121977468462751e-05,
+        "polar_double_product_quaternion_deg": 3.0924996750400395e-05,
+        "position_m": 1.0205952729413721e-07
+      },
+      "legacy_max_deg": 4.0190889973957885e-05,
+      "position_max_m": 5.466889294860238e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Little2",
+        "legacy_float32_decomposition_double_dot_deg": 6.879105987123031e-05,
+        "polar_float64_quaternion_2acos_deg": 6.800241437794833e-05,
+        "polar_matrix_atan2_deg": 6.804161422843174e-05,
+        "polar_double_product_quaternion_deg": 6.770161233415569e-05,
+        "position_m": 1.0356646219891406e-07
+      },
+      "legacy_max_deg": 6.879105987123031e-05,
+      "position_max_m": 6.062875983829522e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 26,
+        "frame": 26,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Little3",
+        "legacy_float32_decomposition_double_dot_deg": 6.493171702158565e-05,
+        "polar_float64_quaternion_2acos_deg": 6.569065594953265e-05,
+        "polar_matrix_atan2_deg": 6.572479632338071e-05,
+        "polar_double_product_quaternion_deg": 6.544607997246575e-05,
+        "position_m": 1.739355553676002e-07
+      },
+      "legacy_max_deg": 6.493171702158565e-05,
+      "position_max_m": 6.086832518685088e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Shoulder",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 47,
+        "frame": 47,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Shoulder",
+        "legacy_float32_decomposition_double_dot_deg": 5.6011715788764106e-05,
+        "polar_float64_quaternion_2acos_deg": 5.226880080409834e-05,
+        "polar_matrix_atan2_deg": 5.229173220936056e-05,
+        "polar_double_product_quaternion_deg": 5.2296684935611804e-05,
+        "position_m": 3.1318205576821393e-07
+      },
+      "legacy_max_deg": 5.6011715788764106e-05,
+      "position_max_m": 4.182706444387568e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_UpperArm",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 47,
+        "frame": 47,
+        "rig": "Armature",
+        "bone": "J_Bip_R_UpperArm",
+        "legacy_float32_decomposition_double_dot_deg": 5.0912406004863176e-05,
+        "polar_float64_quaternion_2acos_deg": 4.716664762235081e-05,
+        "polar_matrix_atan2_deg": 4.720244463376444e-05,
+        "polar_double_product_quaternion_deg": 4.710478969721382e-05,
+        "position_m": 2.486823112297559e-07
+      },
+      "legacy_max_deg": 5.1453588043698123e-05,
+      "position_max_m": 4.695279177884682e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_LowerArm",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Armature",
+        "bone": "J_Bip_R_LowerArm",
+        "legacy_float32_decomposition_double_dot_deg": 4.651303661396636e-05,
+        "polar_float64_quaternion_2acos_deg": 4.9341912471779356e-05,
+        "polar_matrix_atan2_deg": 4.9401589011355806e-05,
+        "polar_double_product_quaternion_deg": 4.960711426980963e-05,
+        "position_m": 2.3181515014944457e-07
+      },
+      "legacy_max_deg": 5.030748465512057e-05,
+      "position_max_m": 5.042782801096951e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Hand",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Hand",
+        "legacy_float32_decomposition_double_dot_deg": 7.712369430023147e-05,
+        "polar_float64_quaternion_2acos_deg": 6.885460820798852e-05,
+        "polar_matrix_atan2_deg": 6.886288838347207e-05,
+        "polar_double_product_quaternion_deg": 6.870623732371504e-05,
+        "position_m": 2.861343679706081e-07
+      },
+      "legacy_max_deg": 7.712369430023147e-05,
+      "position_max_m": 6.433713588678904e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 2,
+        "frame": 2,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Thumb1",
+        "legacy_float32_decomposition_double_dot_deg": 0.0002003659596444281,
+        "polar_float64_quaternion_2acos_deg": 0.00020293249514964585,
+        "polar_matrix_atan2_deg": 0.0002029293035961526,
+        "polar_double_product_quaternion_deg": 0.000203133546429025,
+        "position_m": 2.558883981821383e-07
+      },
+      "legacy_max_deg": 0.0002003659596444281,
+      "position_max_m": 6.251415632598805e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 2,
+        "frame": 2,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Thumb2",
+        "legacy_float32_decomposition_double_dot_deg": 9.430238149809447e-05,
+        "polar_float64_quaternion_2acos_deg": 9.467268023225813e-05,
+        "polar_matrix_atan2_deg": 9.465764811236548e-05,
+        "polar_double_product_quaternion_deg": 9.494945656490001e-05,
+        "position_m": 2.6927948547156455e-07
+      },
+      "legacy_max_deg": 9.430238149809447e-05,
+      "position_max_m": 6.164168425361457e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 2,
+        "frame": 2,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Thumb3",
+        "legacy_float32_decomposition_double_dot_deg": 0.00043020026598449267,
+        "polar_float64_quaternion_2acos_deg": 0.0004323501651971865,
+        "polar_matrix_atan2_deg": 0.0004323507024470928,
+        "polar_double_product_quaternion_deg": 0.00043236365274738236,
+        "position_m": 2.484799347170039e-07
+      },
+      "legacy_max_deg": 0.00043222201247888924,
+      "position_max_m": 6.36567666129935e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 53,
+        "frame": 53,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Index1",
+        "legacy_float32_decomposition_double_dot_deg": 9.045166678240452e-05,
+        "polar_float64_quaternion_2acos_deg": 9.268065876748007e-05,
+        "polar_matrix_atan2_deg": 9.270470944223974e-05,
+        "polar_double_product_quaternion_deg": 9.377528860261402e-05,
+        "position_m": 4.470076714150044e-07
+      },
+      "legacy_max_deg": 9.045166678240452e-05,
+      "position_max_m": 5.925085637982647e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Index2",
+        "legacy_float32_decomposition_double_dot_deg": 7.272628142307983e-05,
+        "polar_float64_quaternion_2acos_deg": 6.915039493785622e-05,
+        "polar_matrix_atan2_deg": 6.916100158891578e-05,
+        "polar_double_product_quaternion_deg": 6.927677407759618e-05,
+        "position_m": 3.66387556373015e-07
+      },
+      "legacy_max_deg": 7.272628142307983e-05,
+      "position_max_m": 5.712341242652974e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Index3",
+        "legacy_float32_decomposition_double_dot_deg": 7.296643490470553e-05,
+        "polar_float64_quaternion_2acos_deg": 6.978000181101706e-05,
+        "polar_matrix_atan2_deg": 6.980385458735056e-05,
+        "polar_double_product_quaternion_deg": 6.990524271671157e-05,
+        "position_m": 3.293670707488616e-07
+      },
+      "legacy_max_deg": 7.296643490470553e-05,
+      "position_max_m": 5.51085689211801e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_BalanceRecover",
+        "sample": 25,
+        "frame": 25,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Middle1",
+        "legacy_float32_decomposition_double_dot_deg": 6.28785597586261e-05,
+        "polar_float64_quaternion_2acos_deg": 6.046742979648907e-05,
+        "polar_matrix_atan2_deg": 6.047999436150611e-05,
+        "polar_double_product_quaternion_deg": 6.05156302264597e-05,
+        "position_m": 3.7051659401685716e-07
+      },
+      "legacy_max_deg": 6.28785597586261e-05,
+      "position_max_m": 5.918523819813896e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Middle2",
+        "legacy_float32_decomposition_double_dot_deg": 6.542380045523378e-05,
+        "polar_float64_quaternion_2acos_deg": 7.22032087096515e-05,
+        "polar_matrix_atan2_deg": 7.222358505852524e-05,
+        "polar_double_product_quaternion_deg": 7.212239927335303e-05,
+        "position_m": 2.952395387154007e-07
+      },
+      "legacy_max_deg": 7.216281530301616e-05,
+      "position_max_m": 6.539980277010333e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Middle3",
+        "legacy_float32_decomposition_double_dot_deg": 5.5541240407384276e-05,
+        "polar_float64_quaternion_2acos_deg": 5.998329526685435e-05,
+        "polar_matrix_atan2_deg": 6.002118102904467e-05,
+        "polar_double_product_quaternion_deg": 5.998329526685435e-05,
+        "position_m": 2.707507057199074e-07
+      },
+      "legacy_max_deg": 6.315617064383128e-05,
+      "position_max_m": 6.438720021734454e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Ring1",
+        "legacy_float32_decomposition_double_dot_deg": 7.300638368125694e-05,
+        "polar_float64_quaternion_2acos_deg": 6.716111500519421e-05,
+        "polar_matrix_atan2_deg": 6.718812253564321e-05,
+        "polar_double_product_quaternion_deg": 6.652863709571243e-05,
+        "position_m": 3.3071263313243074e-07
+      },
+      "legacy_max_deg": 7.300638368125694e-05,
+      "position_max_m": 6.08261311408455e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 17,
+        "frame": 17,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Ring2",
+        "legacy_float32_decomposition_double_dot_deg": 8.506945086649684e-05,
+        "polar_float64_quaternion_2acos_deg": 7.304631060996284e-05,
+        "polar_matrix_atan2_deg": 7.304688901426213e-05,
+        "polar_double_product_quaternion_deg": 7.236455686327786e-05,
+        "position_m": 3.2030998308384375e-07
+      },
+      "legacy_max_deg": 8.506945086649684e-05,
+      "position_max_m": 6.776342988551899e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 11,
+        "frame": 11,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Ring3",
+        "legacy_float32_decomposition_double_dot_deg": 7.544190519847481e-05,
+        "polar_float64_quaternion_2acos_deg": 7.407685749980353e-05,
+        "polar_matrix_atan2_deg": 7.413642171790746e-05,
+        "polar_double_product_quaternion_deg": 7.509326294925018e-05,
+        "position_m": 1.8143349382111313e-07
+      },
+      "legacy_max_deg": 8.052674269858699e-05,
+      "position_max_m": 7.731750045167107e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little1",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 34,
+        "frame": 34,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Little1",
+        "legacy_float32_decomposition_double_dot_deg": 7.935962672071852e-05,
+        "polar_float64_quaternion_2acos_deg": 7.798837887337943e-05,
+        "polar_matrix_atan2_deg": 7.80043096580915e-05,
+        "polar_double_product_quaternion_deg": 7.863992218181875e-05,
+        "position_m": 2.3055454181360497e-07
+      },
+      "legacy_max_deg": 8.189109132934248e-05,
+      "position_max_m": 6.461659284468729e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little2",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 18,
+        "frame": 18,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Little2",
+        "legacy_float32_decomposition_double_dot_deg": 4.787226917874394e-05,
+        "polar_float64_quaternion_2acos_deg": 4.429760772184947e-05,
+        "polar_matrix_atan2_deg": 4.431121111377239e-05,
+        "polar_double_product_quaternion_deg": 4.433050606111995e-05,
+        "position_m": 2.6258011972762557e-07
+      },
+      "legacy_max_deg": 4.787226917874394e-05,
+      "position_max_m": 7.30612914093212e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little3",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 18,
+        "frame": 18,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Little3",
+        "legacy_float32_decomposition_double_dot_deg": 4.9430471165477876e-05,
+        "polar_float64_quaternion_2acos_deg": 5.024949329906643e-05,
+        "polar_matrix_atan2_deg": 5.0305596803437406e-05,
+        "polar_double_product_quaternion_deg": 5.022047250929432e-05,
+        "position_m": 2.189459945629129e-07
+      },
+      "legacy_max_deg": 4.9430471165477876e-05,
+      "position_max_m": 7.634573255449235e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_UpperLeg",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_L_UpperLeg",
+        "legacy_float32_decomposition_double_dot_deg": 5.167975875156225e-05,
+        "polar_float64_quaternion_2acos_deg": 5.0075116278208596e-05,
+        "polar_matrix_atan2_deg": 5.0095397045055715e-05,
+        "polar_double_product_quaternion_deg": 4.998769965709271e-05,
+        "position_m": 1.46771237388938e-07
+      },
+      "legacy_max_deg": 5.167975875156225e-05,
+      "position_max_m": 1.46771237388938e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_LowerLeg",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_L_LowerLeg",
+        "legacy_float32_decomposition_double_dot_deg": 5.285127822841514e-05,
+        "polar_float64_quaternion_2acos_deg": 4.2551859260904636e-05,
+        "polar_matrix_atan2_deg": 4.259519566285674e-05,
+        "polar_double_product_quaternion_deg": 4.251758470096461e-05,
+        "position_m": 1.0195323961529142e-07
+      },
+      "legacy_max_deg": 5.285127822841514e-05,
+      "position_max_m": 1.0195323961529142e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Foot",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_L_Foot",
+        "legacy_float32_decomposition_double_dot_deg": 6.231962813730414e-05,
+        "polar_float64_quaternion_2acos_deg": 6.842983790973712e-05,
+        "polar_matrix_atan2_deg": 6.844828484941625e-05,
+        "polar_double_product_quaternion_deg": 6.800241437794833e-05,
+        "position_m": 1.6434611197396453e-07
+      },
+      "legacy_max_deg": 6.231962813730414e-05,
+      "position_max_m": 1.6434611197396453e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_ToeBase",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_L_ToeBase",
+        "legacy_float32_decomposition_double_dot_deg": 4.7011850199182074e-05,
+        "polar_float64_quaternion_2acos_deg": 4.3967270466990636e-05,
+        "polar_matrix_atan2_deg": 4.4022593643996854e-05,
+        "polar_double_product_quaternion_deg": 4.37678713873624e-05,
+        "position_m": 1.5450975527905292e-07
+      },
+      "legacy_max_deg": 4.7011850199182074e-05,
+      "position_max_m": 1.5450975527905292e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_UpperLeg",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_R_UpperLeg",
+        "legacy_float32_decomposition_double_dot_deg": 6.87698640426972e-05,
+        "polar_float64_quaternion_2acos_deg": 5.8556674096253074e-05,
+        "polar_matrix_atan2_deg": 5.8591294992372206e-05,
+        "polar_double_product_quaternion_deg": 5.8606446033922464e-05,
+        "position_m": 1.895510291041218e-07
+      },
+      "legacy_max_deg": 6.87698640426972e-05,
+      "position_max_m": 1.895510291041218e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_LowerLeg",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_R_LowerLeg",
+        "legacy_float32_decomposition_double_dot_deg": 5.9249676609974653e-05,
+        "polar_float64_quaternion_2acos_deg": 5.1566797395176046e-05,
+        "polar_matrix_atan2_deg": 5.1596479337726275e-05,
+        "polar_double_product_quaternion_deg": 5.1453588043698123e-05,
+        "position_m": 2.0553341841896955e-07
+      },
+      "legacy_max_deg": 5.9249676609974653e-05,
+      "position_max_m": 2.0553341841896955e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Foot",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_R_Foot",
+        "legacy_float32_decomposition_double_dot_deg": 8.29347827315095e-05,
+        "polar_float64_quaternion_2acos_deg": 8.479481108316214e-05,
+        "polar_matrix_atan2_deg": 8.479772516905344e-05,
+        "polar_double_product_quaternion_deg": 8.489790511647485e-05,
+        "position_m": 1.5774306177899338e-07
+      },
+      "legacy_max_deg": 8.29347827315095e-05,
+      "position_max_m": 1.5774306177899338e-07
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_ToeBase",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "Armature",
+        "bone": "J_Bip_R_ToeBase",
+        "legacy_float32_decomposition_double_dot_deg": 0.00011918631174715846,
+        "polar_float64_quaternion_2acos_deg": 0.00011427816864882637,
+        "polar_matrix_atan2_deg": 0.00011426859026393706,
+        "polar_double_product_quaternion_deg": 0.0001138307942002728,
+        "position_m": 1.8590094429133476e-07
+      },
+      "legacy_max_deg": 0.00011918631174715846,
+      "position_max_m": 1.8590094429133476e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_HeadRoot",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 16,
+        "frame": 16,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_HeadRoot",
+        "legacy_float32_decomposition_double_dot_deg": 3.068838274056813e-05,
+        "polar_float64_quaternion_2acos_deg": 2.92783370481263e-05,
+        "polar_matrix_atan2_deg": 2.9317133376123104e-05,
+        "polar_double_product_quaternion_deg": 3.0112924503574538e-05,
+        "position_m": 1.3083694230242374e-07
+      },
+      "legacy_max_deg": 3.221793787913893e-05,
+      "position_max_m": 1.705678346839929e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_Base",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 3,
+        "frame": 3,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Pony_Base",
+        "legacy_float32_decomposition_double_dot_deg": 4.306270419866663e-05,
+        "polar_float64_quaternion_2acos_deg": 4.309654522879991e-05,
+        "polar_matrix_atan2_deg": 4.3137832342394956e-05,
+        "polar_double_product_quaternion_deg": 4.306270419866663e-05,
+        "position_m": 2.245863678586395e-07
+      },
+      "legacy_max_deg": 4.306270419866663e-05,
+      "position_max_m": 2.653207090581865e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_01",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 36,
+        "frame": 36,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Pony_01",
+        "legacy_float32_decomposition_double_dot_deg": 5.9690929779967495e-05,
+        "polar_float64_quaternion_2acos_deg": 5.062524970449704e-05,
+        "polar_matrix_atan2_deg": 5.0655748592427835e-05,
+        "polar_double_product_quaternion_deg": 5.1055378502021736e-05,
+        "position_m": 2.1563486594662822e-07
+      },
+      "legacy_max_deg": 5.9690929779967495e-05,
+      "position_max_m": 3.2744962673688675e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_02",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Strong_Loop",
+        "sample": 36,
+        "frame": 36,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Pony_02",
+        "legacy_float32_decomposition_double_dot_deg": 8.843050956516292e-05,
+        "polar_float64_quaternion_2acos_deg": 7.968960580189999e-05,
+        "polar_matrix_atan2_deg": 7.971143488121171e-05,
+        "polar_double_product_quaternion_deg": 7.976274909935561e-05,
+        "position_m": 2.4283064138490353e-07
+      },
+      "legacy_max_deg": 8.843050956516292e-05,
+      "position_max_m": 3.5847209594080816e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_03",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 11,
+        "frame": 11,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Pony_03",
+        "legacy_float32_decomposition_double_dot_deg": 4.5881894249578165e-05,
+        "polar_float64_quaternion_2acos_deg": 5.1595060920123645e-05,
+        "polar_matrix_atan2_deg": 5.165907486484266e-05,
+        "polar_double_product_quaternion_deg": 5.1112455522083596e-05,
+        "position_m": 2.0085297111491098e-07
+      },
+      "legacy_max_deg": 6.0804030415583676e-05,
+      "position_max_m": 4.074427164694793e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_04",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 11,
+        "frame": 11,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Pony_04",
+        "legacy_float32_decomposition_double_dot_deg": 7.200101506512351e-05,
+        "polar_float64_quaternion_2acos_deg": 6.967546242376055e-05,
+        "polar_matrix_atan2_deg": 6.970908888591632e-05,
+        "polar_double_product_quaternion_deg": 6.936089891014131e-05,
+        "position_m": 1.6168105918730557e-07
+      },
+      "legacy_max_deg": 7.216281530301616e-05,
+      "position_max_m": 3.624155372834517e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.L.01",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Land_Soft",
+        "sample": 11,
+        "frame": 11,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Side.L.01",
+        "legacy_float32_decomposition_double_dot_deg": 7.544190519847481e-05,
+        "polar_float64_quaternion_2acos_deg": 6.735619369104923e-05,
+        "polar_matrix_atan2_deg": 6.737354057254532e-05,
+        "polar_double_product_quaternion_deg": 6.724788650779639e-05,
+        "position_m": 2.1788967871501682e-07
+      },
+      "legacy_max_deg": 7.811912226587497e-05,
+      "position_max_m": 2.606904810208217e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.L.02",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 35,
+        "frame": 35,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Side.L.02",
+        "legacy_float32_decomposition_double_dot_deg": 8.228181226580807e-05,
+        "polar_float64_quaternion_2acos_deg": 9.853598392430065e-05,
+        "polar_matrix_atan2_deg": 9.854840905903765e-05,
+        "polar_double_product_quaternion_deg": 9.855077800649862e-05,
+        "position_m": 7.028863677424642e-08
+      },
+      "legacy_max_deg": 0.00012008805112018792,
+      "position_max_m": 2.8473502835663206e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.R.01",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Struggle_Light_Loop",
+        "sample": 16,
+        "frame": 16,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Side.R.01",
+        "legacy_float32_decomposition_double_dot_deg": 6.429998272316635e-05,
+        "polar_float64_quaternion_2acos_deg": 5.7196462498860023e-05,
+        "polar_matrix_atan2_deg": 5.714936133233757e-05,
+        "polar_double_product_quaternion_deg": 5.711994545791422e-05,
+        "position_m": 1.1903453848265453e-07
+      },
+      "legacy_max_deg": 7.348407503916849e-05,
+      "position_max_m": 2.5831067298888735e-07
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.R.02",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 21,
+        "frame": 21,
+        "rig": "Hair_Rig_R4",
+        "bone": "Hair_Side.R.02",
+        "legacy_float32_decomposition_double_dot_deg": 0.000106417328310896,
+        "polar_float64_quaternion_2acos_deg": 0.00010629396175241473,
+        "polar_matrix_atan2_deg": 0.00010630708959162321,
+        "polar_double_product_quaternion_deg": 0.00010632138891368979,
+        "position_m": 1.1715430910525014e-07
+      },
+      "legacy_max_deg": 0.00011271105652721508,
+      "position_max_m": 2.5122933536898145e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "JawOpen",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "JawOpen",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.8231616061100753e-05,
+        "polar_matrix_atan2_deg": 1.8356133052499812e-05,
+        "polar_double_product_quaternion_deg": 1.8231616061100753e-05,
+        "position_m": 1.3207717166271684e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.3207717166271684e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Smile.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "Smile.L",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.2731557704981462e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.2731557704981462e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Smile.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "Smile.R",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.2605580922729247e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.2605580922729247e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Blink.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "Blink.L",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.8231616061100753e-05,
+        "polar_matrix_atan2_deg": 1.8356133052499812e-05,
+        "polar_double_product_quaternion_deg": 1.8231616061100753e-05,
+        "position_m": 1.2644054553268208e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.2644054553268208e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Blink.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "Blink.R",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.228781230931777e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.228781230931777e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowRaise.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "BrowRaise.L",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.802055034406159e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.802055034406159e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowRaise.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "BrowRaise.R",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.2065570608304177e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.2065570608304177e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowKnit.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "BrowKnit.L",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.8231616061100753e-05,
+        "polar_matrix_atan2_deg": 1.8356133052499812e-05,
+        "polar_double_product_quaternion_deg": 1.8231616061100753e-05,
+        "position_m": 1.2867090135194766e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.2867090135194766e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowKnit.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "BrowKnit.R",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.2731557704981462e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.2731557704981462e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "CheekLift.L",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "CheekLift.L",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.2605580922729247e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.2605580922729247e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "CheekLift.R",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "CheekLift.R",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.8231616061100753e-05,
+        "polar_matrix_atan2_deg": 1.8356133052499812e-05,
+        "polar_double_product_quaternion_deg": 1.8231616061100753e-05,
+        "position_m": 1.228781230931777e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.228781230931777e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "LipPucker",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "LipPucker",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.228781230931777e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.228781230931777e-07
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "MouthWide",
+      "samples": 384,
+      "polar_worst": {
+        "action": "YRA_R4_Startle_Short",
+        "sample": 1,
+        "frame": 1,
+        "rig": "AVATAR_FaceBoard",
+        "bone": "MouthWide",
+        "legacy_float32_decomposition_double_dot_deg": 1.9394009140490052e-05,
+        "polar_float64_quaternion_2acos_deg": 1.1326587362040635e-05,
+        "polar_matrix_atan2_deg": 1.1525944803257544e-05,
+        "polar_double_product_quaternion_deg": 1.1581149199548747e-05,
+        "position_m": 1.802055034406159e-07
+      },
+      "legacy_max_deg": 1.9394009140490052e-05,
+      "position_max_m": 1.802055034406159e-07
+    }
+  ]
+}

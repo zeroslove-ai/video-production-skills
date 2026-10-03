@@ -1,0 +1,50 @@
+{
+  "input_sha256": "e8e35c35ac1a0897d80b7e69e9662f08b81d88a3104239e870ff75c8cfcd8546",
+  "bone_samples": 52608,
+  "matrix_angle_max_deg": 0.002122107853804401,
+  "worst_id_clip_sample_frame_bone": [
+    0,
+    17,
+    17,
+    77
+  ],
+  "position_max_m": 1.5140681553463275e-06,
+  "rotation_threshold_deg": 0.001,
+  "rotation_PASS": false,
+  "basis_invariance_max_delta_deg": 3.0839874611235277e-13,
+  "test_left_P": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "test_right_H": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  ],
+  "consumer_basis_caveat": "These are explicit test matrices, not inferred Unity conversion. Actual consumer buffers are separate."
+}

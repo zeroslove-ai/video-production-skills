@@ -1,0 +1,832 @@
+{
+  "all_bones": [
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "root",
+      "legacy_deg": 1.9394009140490052e-05,
+      "polar_float64_deg": 1.2778113880520799e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pelvis",
+      "legacy_deg": 9.659346157805868e-06,
+      "polar_float64_deg": 1.2778113880520799e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "spine",
+      "legacy_deg": 1.916717082078121e-05,
+      "polar_float64_deg": 1.2778113880520799e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "chest",
+      "legacy_deg": 1.9318692315611754e-05,
+      "polar_float64_deg": 1.3004292747236516e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "neck",
+      "legacy_deg": 1.9318692315611754e-05,
+      "polar_float64_deg": 1.2547858734911242e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "head",
+      "legacy_deg": 1.9394009140490052e-05,
+      "polar_float64_deg": 1.2891699348793908e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Head_Bind",
+      "legacy_deg": 0.00011611321589022175,
+      "polar_float64_deg": 0.00011177589447210576
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Neck_Bind",
+      "legacy_deg": 1.961822478742194e-05,
+      "polar_float64_deg": 1.831140469640497e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "clavicle.L",
+      "legacy_deg": 1.3336370687868314e-05,
+      "polar_float64_deg": 1.4080795695456205e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "upper_arm.L",
+      "legacy_deg": 1.6555285230907e-05,
+      "polar_float64_deg": 2.426880686682527e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "forearm.L",
+      "legacy_deg": 1.758027537185658e-05,
+      "polar_float64_deg": 2.049056751003828e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "hand.L",
+      "legacy_deg": 1.7413633929712578e-05,
+      "polar_float64_deg": 2.4087918828135828e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index1.L",
+      "legacy_deg": 1.690385577616028e-05,
+      "polar_float64_deg": 1.681739047370585e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index2.L",
+      "legacy_deg": 3.3286224588127975e-05,
+      "polar_float64_deg": 2.6998693283819223e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index3.L",
+      "legacy_deg": 9.719529582175188e-05,
+      "polar_float64_deg": 0.00010538486102433723
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle1.L",
+      "legacy_deg": 2.3783381691638923e-05,
+      "polar_float64_deg": 2.4979263396122898e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle2.L",
+      "legacy_deg": 1.4787793334710992e-05,
+      "polar_float64_deg": 1.8231616061100753e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle3.L",
+      "legacy_deg": 4.289309856050488e-05,
+      "polar_float64_deg": 4.954830320672627e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring1.L",
+      "legacy_deg": 5.342740573204153e-05,
+      "polar_float64_deg": 6.340957960521597e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring2.L",
+      "legacy_deg": 3.111299238319605e-05,
+      "polar_float64_deg": 3.1066100129895285e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring3.L",
+      "legacy_deg": 4.694978832367688e-05,
+      "polar_float64_deg": 4.1930630891383033e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky1.L",
+      "legacy_deg": 2.4448356591142696e-05,
+      "polar_float64_deg": 1.8937615583927184e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky2.L",
+      "legacy_deg": 3.23984319405831e-05,
+      "polar_float64_deg": 4.033572247925316e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky3.L",
+      "legacy_deg": 6.350147759489351e-05,
+      "polar_float64_deg": 6.398177654311891e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb1.L",
+      "legacy_deg": 1.976628896181796e-05,
+      "polar_float64_deg": 1.961822478742194e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb2.L",
+      "legacy_deg": 0.00045489393176120774,
+      "polar_float64_deg": 0.0004547112196120415
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb3.L",
+      "legacy_deg": 0.00034099680953749155,
+      "polar_float64_deg": 0.000337481506145487
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_L_Bind",
+      "legacy_deg": 4.366783040766156e-05,
+      "polar_float64_deg": 3.993616922797983e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "clavicle.R",
+      "legacy_deg": 2.3536915126363644e-05,
+      "polar_float64_deg": 2.5095717469822522e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "upper_arm.R",
+      "legacy_deg": 2.0347774359156983e-05,
+      "polar_float64_deg": 1.9318692315611754e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "forearm.R",
+      "legacy_deg": 1.5080649355333733e-05,
+      "polar_float64_deg": 1.3004292747236516e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "hand.R",
+      "legacy_deg": 1.916717082078121e-05,
+      "polar_float64_deg": 2.480355713490467e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index1.R",
+      "legacy_deg": 3.423621675895667e-05,
+      "polar_float64_deg": 3.5939712936636e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index2.R",
+      "legacy_deg": 0.0001548134359654648,
+      "polar_float64_deg": 0.0001503708455746323
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "index3.R",
+      "legacy_deg": 0.0002853086194208266,
+      "polar_float64_deg": 0.00028939778303792394
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle1.R",
+      "legacy_deg": 2.922850154468323e-05,
+      "polar_float64_deg": 3.2036426925603224e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle2.R",
+      "legacy_deg": 0.00014134531497378796,
+      "polar_float64_deg": 0.00014003970018450565
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "middle3.R",
+      "legacy_deg": 5.993466672601393e-05,
+      "polar_float64_deg": 5.3071492841509825e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring1.R",
+      "legacy_deg": 2.1327258847706054e-05,
+      "polar_float64_deg": 1.3115919625095422e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring2.R",
+      "legacy_deg": 0.00010175320020537904,
+      "polar_float64_deg": 0.00010469089284800327
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "ring3.R",
+      "legacy_deg": 4.874740989273209e-05,
+      "polar_float64_deg": 4.4461855996567804e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky1.R",
+      "legacy_deg": 2.284542576421286e-05,
+      "polar_float64_deg": 2.396656833922184e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky2.R",
+      "legacy_deg": 2.555622776104164e-05,
+      "polar_float64_deg": 2.3412708902503694e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "pinky3.R",
+      "legacy_deg": 2.0276000680978274e-05,
+      "polar_float64_deg": 1.448901923670881e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb1.R",
+      "legacy_deg": 1.85487114168054e-05,
+      "polar_float64_deg": 1.8627141836042958e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb2.R",
+      "legacy_deg": 0.0005495331832009688,
+      "polar_float64_deg": 0.0005465085071160846
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thumb3.R",
+      "legacy_deg": 0.0003993543912682467,
+      "polar_float64_deg": 0.00039933978884429644
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_Shoulder_R_Bind",
+      "legacy_deg": 5.9642062862419e-05,
+      "polar_float64_deg": 5.627139133842914e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "R3_UpperChest_Bind",
+      "legacy_deg": 1.8390847172211968e-05,
+      "polar_float64_deg": 1.2891699348793908e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thigh.L",
+      "legacy_deg": 2.2394272795855996e-05,
+      "polar_float64_deg": 2.462659727359985e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "shin.L",
+      "legacy_deg": 2.8776098462827356e-05,
+      "polar_float64_deg": 3.073585126505747e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "foot.L",
+      "legacy_deg": 2.2972699315936532e-05,
+      "polar_float64_deg": 2.2066374085348525e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "toe.L",
+      "legacy_deg": 4.829673078902933e-06,
+      "polar_float64_deg": 4.829673078902933e-06
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "thigh.R",
+      "legacy_deg": 1.961822478742194e-05,
+      "polar_float64_deg": 2.4744711127599476e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "shin.R",
+      "legacy_deg": 2.3536915126363644e-05,
+      "polar_float64_deg": 3.0161298710667534e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "foot.R",
+      "legacy_deg": 2.2717439178655034e-05,
+      "polar_float64_deg": 2.3536915126363644e-05
+    },
+    {
+      "rig": "Meshy_Fitted_Rig",
+      "bone": "toe.R",
+      "legacy_deg": 3.212731058883991e-05,
+      "polar_float64_deg": 3.068838274056813e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "Root",
+      "legacy_deg": 1.1706354451251832e-05,
+      "polar_float64_deg": 7.636383641665691e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Hips",
+      "legacy_deg": 1.322660445345283e-05,
+      "polar_float64_deg": 4.182619578303746e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Spine",
+      "legacy_deg": 1.1066171232981565e-05,
+      "polar_float64_deg": 7.636383641665691e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Chest",
+      "legacy_deg": 2.8419250842507973e-05,
+      "polar_float64_deg": 2.3474894161838314e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_UpperChest",
+      "legacy_deg": 1.3004292747236516e-05,
+      "polar_float64_deg": 1.1066171232981565e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Neck",
+      "legacy_deg": 1.4286365630539068e-05,
+      "polar_float64_deg": 1.4886052178675776e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_C_Head",
+      "legacy_deg": 1.9014441926092303e-05,
+      "polar_float64_deg": 1.916717082078121e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Adj_L_FaceEye",
+      "legacy_deg": 2.119010463505988e-05,
+      "polar_float64_deg": 2.2394272795855996e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Adj_R_FaceEye",
+      "legacy_deg": 2.779685603401525e-05,
+      "polar_float64_deg": 2.689048165283536e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "MOTION5H_HairTip.L",
+      "legacy_deg": 2.3598773091450764e-05,
+      "polar_float64_deg": 9.195423586105976e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "MOTION5H_HairTip.R",
+      "legacy_deg": 7.443026089337883e-06,
+      "polar_float64_deg": 9.507220963046143e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Shoulder",
+      "legacy_deg": 1.7413633929712578e-05,
+      "polar_float64_deg": 7.636383641665691e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_UpperArm",
+      "legacy_deg": 6.320232057373373e-05,
+      "polar_float64_deg": 5.246367850038212e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_LowerArm",
+      "legacy_deg": 0.0001799498858005795,
+      "polar_float64_deg": 0.00017132580264226456
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Hand",
+      "legacy_deg": 1.601821346280157e-05,
+      "polar_float64_deg": 1.2313298636799906e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb1",
+      "legacy_deg": 5.1453588043698123e-05,
+      "polar_float64_deg": 5.134012905657771e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb2",
+      "legacy_deg": 3.2036426925603224e-05,
+      "polar_float64_deg": 3.185388169650561e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Thumb3",
+      "legacy_deg": 6.099553964699637e-05,
+      "polar_float64_deg": 5.843205877285277e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index1",
+      "legacy_deg": 2.90784825821284e-05,
+      "polar_float64_deg": 2.7480372974888097e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index2",
+      "legacy_deg": 0.0016509774896934864,
+      "polar_float64_deg": 0.0016446880658488189
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Index3",
+      "legacy_deg": 0.002089306749361557,
+      "polar_float64_deg": 0.0020957303287018622
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle1",
+      "legacy_deg": 2.0632372437402982e-05,
+      "polar_float64_deg": 1.2778113880520799e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle2",
+      "legacy_deg": 2.0773209379101157e-05,
+      "polar_float64_deg": 1.6108968939569427e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Middle3",
+      "legacy_deg": 0.0006342245333999484,
+      "polar_float64_deg": 0.0006254146920136086
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring1",
+      "legacy_deg": 2.2653174724081298e-05,
+      "polar_float64_deg": 2.6342756612779254e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring2",
+      "legacy_deg": 1.6199215970291508e-05,
+      "polar_float64_deg": 1.6288963005921602e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Ring3",
+      "legacy_deg": 1.3445240826417657e-05,
+      "polar_float64_deg": 1.546249837520016e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little1",
+      "legacy_deg": 1.2431131930566637e-05,
+      "polar_float64_deg": 1.322660445345283e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little2",
+      "legacy_deg": 5.167975875156225e-05,
+      "polar_float64_deg": 5.464151336010253e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Little3",
+      "legacy_deg": 4.823632209648387e-05,
+      "polar_float64_deg": 5.4588126426632306e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Shoulder",
+      "legacy_deg": 1.0799477313527668e-05,
+      "polar_float64_deg": 1.4886052178675776e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_UpperArm",
+      "legacy_deg": 1.2778113880520799e-05,
+      "polar_float64_deg": 7.636383641665691e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_LowerArm",
+      "legacy_deg": 1.6555285230907e-05,
+      "polar_float64_deg": 9.352621701108683e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Hand",
+      "legacy_deg": 1.3004292747236516e-05,
+      "polar_float64_deg": 1.690385577616028e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb1",
+      "legacy_deg": 0.00016567609047855807,
+      "polar_float64_deg": 0.00016839914161353019
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb2",
+      "legacy_deg": 5.511966892038353e-05,
+      "polar_float64_deg": 5.80314915225859e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Thumb3",
+      "legacy_deg": 0.00039106933879420885,
+      "polar_float64_deg": 0.0003893806920215282
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index1",
+      "legacy_deg": 3.363478094741179e-05,
+      "polar_float64_deg": 3.073585126505747e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index2",
+      "legacy_deg": 2.555622776104164e-05,
+      "polar_float64_deg": 2.2972699315936532e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Index3",
+      "legacy_deg": 2.6781832797797937e-05,
+      "polar_float64_deg": 2.3412708902503694e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle1",
+      "legacy_deg": 7.0403978477281e-06,
+      "polar_float64_deg": 1.1197136397927984e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle2",
+      "legacy_deg": 1.322660445345283e-05,
+      "polar_float64_deg": 7.443026089337883e-06
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Middle3",
+      "legacy_deg": 1.448901923670881e-05,
+      "polar_float64_deg": 1.846994795519987e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring1",
+      "legacy_deg": 2.2909150924997106e-05,
+      "polar_float64_deg": 1.846994795519987e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring2",
+      "legacy_deg": 2.689048165283536e-05,
+      "polar_float64_deg": 2.656320193396619e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Ring3",
+      "legacy_deg": 3.235340282647963e-05,
+      "polar_float64_deg": 3.257792601184328e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little1",
+      "legacy_deg": 3.614196390276095e-05,
+      "polar_float64_deg": 3.8181918208328625e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little2",
+      "legacy_deg": 3.931069079463687e-05,
+      "polar_float64_deg": 4.161653934608438e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Little3",
+      "legacy_deg": 5.637492664462791e-05,
+      "polar_float64_deg": 4.865760801746865e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_UpperLeg",
+      "legacy_deg": 6.347851557006219e-05,
+      "polar_float64_deg": 6.606685614537873e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_LowerLeg",
+      "legacy_deg": 5.35092032880755e-05,
+      "polar_float64_deg": 5.413221171276578e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_Foot",
+      "legacy_deg": 8.063529373779973e-05,
+      "polar_float64_deg": 8.696764834934005e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_L_ToeBase",
+      "legacy_deg": 5.212915641671018e-05,
+      "polar_float64_deg": 4.898607672899632e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_UpperLeg",
+      "legacy_deg": 4.2994942230332055e-05,
+      "polar_float64_deg": 3.741048680443488e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_LowerLeg",
+      "legacy_deg": 3.7488344301356744e-05,
+      "polar_float64_deg": 3.226315605981829e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_Foot",
+      "legacy_deg": 7.019660253793092e-05,
+      "polar_float64_deg": 7.448899844893229e-05
+    },
+    {
+      "rig": "Armature",
+      "bone": "J_Bip_R_ToeBase",
+      "legacy_deg": 0.00013335277497926007,
+      "polar_float64_deg": 0.00013822698164958516
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_HeadRoot",
+      "legacy_deg": 2.0347774359156983e-05,
+      "polar_float64_deg": 1.183023466776879e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_Base",
+      "legacy_deg": 2.1052056881276854e-05,
+      "polar_float64_deg": 2.1052056881276854e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_01",
+      "legacy_deg": 3.0354024625058453e-05,
+      "polar_float64_deg": 2.4328804008734184e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_02",
+      "legacy_deg": 5.42667018870354e-05,
+      "polar_float64_deg": 5.7981226037603666e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_03",
+      "legacy_deg": 2.2198114802541473e-05,
+      "polar_float64_deg": 2.721382571521845e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Pony_04",
+      "legacy_deg": 5.323605600496001e-05,
+      "polar_float64_deg": 4.3197909254110914e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.L.01",
+      "legacy_deg": 6.269280289849891e-05,
+      "polar_float64_deg": 4.36344324445289e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.L.02",
+      "legacy_deg": 6.542380045523378e-05,
+      "polar_float64_deg": 8.050863662917351e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.R.01",
+      "legacy_deg": 4.632459679819529e-05,
+      "polar_float64_deg": 2.6453208906905703e-05
+    },
+    {
+      "rig": "Hair_Rig_R4",
+      "bone": "Hair_Side.R.02",
+      "legacy_deg": 7.582740543562311e-05,
+      "polar_float64_deg": 8.373948413684495e-05
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "JawOpen",
+      "legacy_deg": 9.80911239371096e-06,
+      "polar_float64_deg": 5.399738656763832e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Smile.L",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Smile.R",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Blink.L",
+      "legacy_deg": 9.80911239371096e-06,
+      "polar_float64_deg": 5.399738656763832e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "Blink.R",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowRaise.L",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowRaise.R",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowKnit.L",
+      "legacy_deg": 9.80911239371096e-06,
+      "polar_float64_deg": 5.399738656763832e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "BrowKnit.R",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "CheekLift.L",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "CheekLift.R",
+      "legacy_deg": 9.80911239371096e-06,
+      "polar_float64_deg": 5.399738656763832e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "LipPucker",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    },
+    {
+      "rig": "AVATAR_FaceBoard",
+      "bone": "MouthWide",
+      "legacy_deg": 1.7075472925031877e-06,
+      "polar_float64_deg": 2.4148365394514667e-06
+    }
+  ],
+  "worst": {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "polar_float64_deg": 0.0020957303287018622
+  },
+  "meaning": "Residual exists in saved imported reconstructed rest matrices too. Exact FBX bind transport is independently verified by unchanged wire receipt; no rest/bind offset correction applied."
+}
