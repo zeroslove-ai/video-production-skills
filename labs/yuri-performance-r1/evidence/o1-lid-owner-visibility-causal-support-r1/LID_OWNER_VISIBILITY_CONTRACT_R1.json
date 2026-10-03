@@ -1,0 +1,142 @@
+{
+  "player_visible_delta": "\uc0c8 Windows \uae30\ub2a5 \uc5c6\uc74c; missingLidMargin owner\uac00 original rendered pigment owner\uc778\uc9c0 \uad6c\ubd84 \uc644\ub8cc",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "actual_hidden_guide_facts": [
+    {
+      "object": "LidMarginRefine.L",
+      "mesh": "Accepted original closing band only L",
+      "hide_render": true,
+      "hide_viewport": false,
+      "parent": null,
+      "material": "Face_Lash_Pigment",
+      "Key_ID": "Key.014",
+      "Key_block_names": [
+        "Basis",
+        "Blink.L",
+        "EyePath.L.1",
+        "EyePath.L.2",
+        "EyePath.L.3",
+        "EyePath.L.4",
+        "EyePath.L.5",
+        "EyePath.L.6",
+        "EyePath.L.7"
+      ],
+      "driver_count": 8,
+      "input_owner": "Key FaceControls_TEST_Jaw_Smile.001; Blink.L",
+      "source_vertices": 296,
+      "source_polygons": 290,
+      "source_purpose": "Non-rendered closing-margin binding guide, retaining the existing exact curve. Only restored original source hairs are rendered.",
+      "NPZ_status": "NOT_PRESENT_IN_ORIGINAL21_RENDERER_PACKET; cached raw original mesh and full145 native geometry/Key outputs present"
+    },
+    {
+      "object": "LidMarginRefine.R",
+      "mesh": "Accepted original closing band only R",
+      "hide_render": true,
+      "hide_viewport": false,
+      "parent": null,
+      "material": "Face_Lash_Pigment",
+      "Key_ID": "Key.015",
+      "Key_block_names": [
+        "Basis",
+        "Blink.R",
+        "EyePath.R.1",
+        "EyePath.R.2",
+        "EyePath.R.3",
+        "EyePath.R.4",
+        "EyePath.R.5",
+        "EyePath.R.6",
+        "EyePath.R.7"
+      ],
+      "driver_count": 8,
+      "input_owner": "Key FaceControls_TEST_Jaw_Smile.001; Blink.R",
+      "source_vertices": 296,
+      "source_polygons": 290,
+      "source_purpose": "Non-rendered closing-margin binding guide, retaining the existing exact curve. Only restored original source hairs are rendered.",
+      "NPZ_status": "NOT_PRESENT_IN_ORIGINAL21_RENDERER_PACKET; cached raw original mesh and full145 native geometry/Key outputs present"
+    }
+  ],
+  "visibility_caveat": "hide_renderTrue excludes direct Cycles normal render. hide_viewportFalse alone does not prove per-viewlayer visibility: hide_get/exclude not cached. Scan finds no external guide Object/Key/Mesh references within raw Object/Key and cached node_groups; not a universal dependency proof.",
+  "visible_lash_owner_names": [
+    "LashRootRepair.L.1",
+    "LashRootRepair.L.2",
+    "LashRootRepair.L.3",
+    "LashRootRepair.L.4",
+    "LashRootRepair.L.5",
+    "LashRootRepair.R.1",
+    "LashRootRepair.R.2",
+    "LashRootRepair.R.3",
+    "LashRootRepair.R.4",
+    "LashRootRepair.R.5",
+    "LowerLashesClean.L",
+    "LowerLashesClean.R",
+    "OriginalMedialLashes.L",
+    "OriginalMedialLashes.R"
+  ],
+  "visible_lash_materials": [
+    "Face_Lash_Pigment",
+    "Face_LowerLash_Pigment"
+  ],
+  "pigment_fact": "Both are untextured dark brown source Principled materials with Metallic0. White/silver output needs actual material slot/shader uniform/color pipeline witness, not inferred guide omission.",
+  "visible_lid_materials": [
+    "ContinuousEyeSkin.L",
+    "ContinuousEyeSkin.R"
+  ],
+  "material_color_chain": "Linked shader BaseColor comes from R3 soft warm fold and Blink texture corrective/masked source texture; white unlinked Principled BaseColor default is not final source output.",
+  "material_driver_fields": [
+    {
+      "material": "ContinuousEyeSkin.L",
+      "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+      "index": 0,
+      "source_owner_ID": "FaceControls_TEST_Jaw_Smile.001",
+      "input_path": "key_blocks[\"Blink.L\"].value"
+    },
+    {
+      "material": "ContinuousEyeSkin.L",
+      "path": "nodes[\"Math\"].inputs[1].default_value",
+      "index": 0,
+      "source_owner_ID": "FaceControls_TEST_Jaw_Smile.001",
+      "input_path": "key_blocks[\"Blink.L\"].value"
+    },
+    {
+      "material": "ContinuousEyeSkin.R",
+      "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+      "index": 0,
+      "source_owner_ID": "FaceControls_TEST_Jaw_Smile.001",
+      "input_path": "key_blocks[\"Blink.R\"].value"
+    },
+    {
+      "material": "ContinuousEyeSkin.R",
+      "path": "nodes[\"Math\"].inputs[1].default_value",
+      "index": 0,
+      "source_owner_ID": "FaceControls_TEST_Jaw_Smile.001",
+      "input_path": "key_blocks[\"Blink.R\"].value"
+    }
+  ],
+  "source_attributes": [
+    "R3_LidPigmentMask.L",
+    "R3_LidPigmentMask.R",
+    "R3_AnatomicalFold.L",
+    "R3_AnatomicalFold.R",
+    "neck_rest_position"
+  ],
+  "NPZ_custody": "No new NPZ/export. Full source original raw BEFORE and native145 guide records/Key014015 are already in verified receiver935f3 ZIP. Visible lash owner NPZ paths/bytes/SHA retained in focused private extract.",
+  "missing_witnesses": [
+    "Actual Player white boundary pixel owner/slot segmentation at closed-eye frame32",
+    "Runtime material IDs/uniforms for visible upper/lower lashes and ContinuousEyeSkin slot3/4 vs source links",
+    "Evaluated Blink texture corrective/fold material driver inputs and sourcePOINT-mask interpolation at exact same blink/gaze/frame",
+    "Per-viewlayer hide_get/collection exclude only if source viewport guide visibility needs reproduction; not required to establish hide_renderTrue"
+  ],
+  "next_distinguishing_test": "Existing Laptop writer holds geometry/pose/camera/frame fixed at open/closed states, records visible boundary renderer/material-slot identity and exact linked eyelid-color driver outputs. Compare visible dark lash pigment/default vs actual bound shader; test sourceContinuousEyeSkin live color path with nativeBlink/masks separately. Keep hidden guides hidden; adding them does not reproduce originalnormal render.",
+  "cause_verdict": "Missing LidMarginRefine is not a demonstrated cause of visible artifact; direct source-render contribution excluded by hide_renderTrue. Visible material/slot/driver path mismatch remains hypothesis, needs witness. FACE16 curve agreement does not certify shader drivers/pigment.",
+  "private_extract": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-lid-owner-visibility-causal-support-r1\\LID_GUIDE_VISIBLE_PIGMENT_INPUTS_PRIVATE_R1.json",
+    "bytes": 2558085,
+    "sha256": "7e2d2abf507b97f189f10e40ce2b929481a8def37f58f4ff5cfb61a043587a4f"
+  },
+  "raw_source_custody": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-sampling-r3\\RAW_FINGERPRINT_INPUTS_BEFORE_PRIVATE_R3.json.gz",
+    "sha256": "c501d48954476c3e72ea5b693afb2f3831892d21754f0162a83a9b8c8ab41ec5"
+  },
+  "native_runs_exports_source_edits": 0,
+  "guard_PBR_fullappearance": "HOLD_UNCHANGED"
+}

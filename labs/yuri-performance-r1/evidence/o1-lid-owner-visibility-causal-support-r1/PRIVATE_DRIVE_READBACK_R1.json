@@ -1,0 +1,35 @@
+{
+  "status": "UPLOAD_ID_SIZE_PARENT_OWNER_ONLY_METADATA_VERIFIED; recipient byteSHA check required",
+  "readback": {
+    "id": "12F0Qz_U-c-8pzfNRvEnt9k6TgyGIhpEs",
+    "title": "YURI_LID_OWNER_VISIBLE_PIGMENT_CONTRACT_R1.zip",
+    "mime_type": null,
+    "size": "247000",
+    "url": "https://drive.google.com/file/d/12F0Qz_U-c-8pzfNRvEnt9k6TgyGIhpEs/view?usp=drivesdk",
+    "display_url": "https://drive.google.com/file/d/12F0Qz_U-c-8pzfNRvEnt9k6TgyGIhpEs/view?usp=drivesdk",
+    "file_or_folder": null,
+    "created_time": null,
+    "modified_time": null,
+    "parent_ids": [
+      "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+    ],
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": false,
+    "permissions": [
+      {
+        "type": "user",
+        "role": "owner",
+        "emailAddress": null,
+        "domain": null,
+        "displayName": null,
+        "allowFileDiscovery": null
+      }
+    ],
+    "source_visibility_status": "permission_metadata_available"
+  },
+  "local_bytes": 247000,
+  "local_sha256": "319cc430201df5db3967c49e06de2d9e4bedc9e5b5400732ec961fc3374957e2",
+  "native_capture_export_source_edits": 0
+}
