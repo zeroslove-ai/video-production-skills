@@ -1,0 +1,1325 @@
+{
+  "model_global_settings": {
+    "UpAxis": [
+      1
+    ],
+    "UpAxisSign": [
+      1
+    ],
+    "FrontAxis": [
+      2
+    ],
+    "FrontAxisSign": [
+      1
+    ],
+    "CoordAxis": [
+      0
+    ],
+    "CoordAxisSign": [
+      1
+    ],
+    "OriginalUpAxis": [
+      -1
+    ],
+    "OriginalUpAxisSign": [
+      1
+    ],
+    "UnitScaleFactor": [
+      100.0
+    ],
+    "OriginalUnitScaleFactor": [
+      100.0
+    ],
+    "AmbientColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "DefaultCamera": [
+      "Producer Perspective"
+    ],
+    "TimeMode": [
+      11
+    ],
+    "TimeSpanStart": [
+      0
+    ],
+    "TimeSpanStop": [
+      46186158000
+    ],
+    "CustomFrameRate": [
+      24.0
+    ]
+  },
+  "animation_global_settings": {
+    "UpAxis": [
+      1
+    ],
+    "UpAxisSign": [
+      1
+    ],
+    "FrontAxis": [
+      2
+    ],
+    "FrontAxisSign": [
+      1
+    ],
+    "CoordAxis": [
+      0
+    ],
+    "CoordAxisSign": [
+      1
+    ],
+    "OriginalUpAxis": [
+      -1
+    ],
+    "OriginalUpAxisSign": [
+      1
+    ],
+    "UnitScaleFactor": [
+      100.0
+    ],
+    "OriginalUnitScaleFactor": [
+      100.0
+    ],
+    "AmbientColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "DefaultCamera": [
+      "Producer Perspective"
+    ],
+    "TimeMode": [
+      11
+    ],
+    "TimeSpanStart": [
+      0
+    ],
+    "TimeSpanStop": [
+      46186158000
+    ],
+    "CustomFrameRate": [
+      24.0
+    ]
+  },
+  "globals_identical": true,
+  "shared_object_defaults": [
+    {
+      "name": "AVATAR_BoardRoot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "AVATAR_FaceBoard",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Rotation": {
+          "model": null,
+          "animation": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Armature",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Assembly_Root",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": null,
+          "animation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Rig_R4",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": null,
+          "animation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Meshy_Fitted_Rig",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Rotation": {
+          "model": null,
+          "animation": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "JawOpen",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Smile.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Smile.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Blink.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Blink.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "BrowRaise.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "BrowRaise.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "BrowKnit.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "BrowKnit.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "CheekLift.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "CheekLift.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "LipPucker",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "MouthWide",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Root",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Hips",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Spine",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Chest",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_UpperChest",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Neck",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Head",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Adj_L_FaceEye",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Adj_R_FaceEye",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "MOTION5H_HairTip.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "MOTION5H_HairTip.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Shoulder",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_UpperArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_LowerArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Hand",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Thumb1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Thumb2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Thumb3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Index1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Index2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Index3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Middle1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Middle2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Middle3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Ring1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Ring2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Ring3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Little1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Little2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Little3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Shoulder",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_UpperArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_LowerArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Hand",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Thumb1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Thumb2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Thumb3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Index1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Index2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Index3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Middle1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Middle2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Middle3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Ring1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Ring2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Ring3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Little1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Little2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Little3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_UpperLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_LowerLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Foot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_ToeBase",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_UpperLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_LowerLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Foot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_ToeBase",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_HeadRoot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Pony_Base",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Pony_01",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Pony_02",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Pony_03",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Pony_04",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Side.L.01",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Side.L.02",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Side.R.01",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_Side.R.02",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "root",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": null,
+          "animation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "pelvis",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "spine",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "chest",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "neck",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "head",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "R3_Head_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "R3_Neck_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "clavicle.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "upper_arm.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "forearm.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "hand.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "index1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "index2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "index3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "ring1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "ring2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "ring3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "pinky1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "pinky2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "pinky3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thumb1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thumb2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thumb3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "R3_Shoulder_L_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "clavicle.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "upper_arm.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "forearm.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "hand.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "index1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "index2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "index3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "ring1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "ring2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "ring3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "pinky1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "pinky2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "pinky3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thumb1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thumb2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thumb3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "R3_Shoulder_R_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "R3_UpperChest_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thigh.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "shin.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "foot.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "toe.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "thigh.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "shin.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "foot.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "toe.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    }
+  ],
+  "exact_shared_defaults_PASS": false,
+  "importer_rest_gate": "Do not waive the 1e-5 imported local-rest threshold; direct defaults and imported rest are separate gates."
+}

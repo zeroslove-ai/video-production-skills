@@ -1,0 +1,1436 @@
+[
+  {
+    "image": "bald_anime_head_3d_model_basecolor.002",
+    "properties": {
+      "name_full": "bald_anime_head_3d_model_basecolor.002",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "bald_anime_head_3d_model_basecolor.002"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": [
+        "LibraryWeakReference",
+        null
+      ],
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+      "filepath_raw": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+      "file_format": "JPEG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "UV_GRID",
+      "generated_width": 1024,
+      "generated_height": 1024,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        4096,
+        4096
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/00_00.jpg",
+        "bytes": 1367400,
+        "sha256": "bed3aecd8c0640eb3581bb4e1039279103f3d33d6aff3bc0aaff5ef5c4b3b362",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/bald anime head 3d model/bald+anime+head+3d+model.fbm/bald+anime+head+3d+model_basecolor.jpg"
+      }
+    ]
+  },
+  {
+    "image": "Face_Clean_LidClosed.L",
+    "properties": {
+      "name_full": "Face_Clean_LidClosed.L",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "Face_Clean_LidClosed.L"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "",
+      "filepath_raw": "",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 512,
+      "generated_height": 128,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 32,
+      "size": [
+        512,
+        128
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      512,
+      128
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/01_00.png",
+        "bytes": 38814,
+        "sha256": "681fb7cbc7542505c9fb6c0f4d6ec52e1f5d452e6eb4a401c19c39761fef9d28",
+        "original_packed_filepath": ""
+      }
+    ]
+  },
+  {
+    "image": "Face_Clean_LidClosed.R",
+    "properties": {
+      "name_full": "Face_Clean_LidClosed.R",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "Face_Clean_LidClosed.R"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "",
+      "filepath_raw": "",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 512,
+      "generated_height": 128,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 32,
+      "size": [
+        512,
+        128
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      512,
+      128
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/02_00.png",
+        "bytes": 38638,
+        "sha256": "00448a6b9a88c51bedcc3ab02216fb15e3925b1e0fd6b2d4d370382ceeaab256",
+        "original_packed_filepath": ""
+      }
+    ]
+  },
+  {
+    "image": "Face_Clean_LidNeutral.L",
+    "properties": {
+      "name_full": "Face_Clean_LidNeutral.L",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "Face_Clean_LidNeutral.L"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "",
+      "filepath_raw": "",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 512,
+      "generated_height": 128,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 32,
+      "size": [
+        512,
+        128
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      512,
+      128
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/03_00.png",
+        "bytes": 76646,
+        "sha256": "b5ff2b659daf09162b5938807a17e09dcfdca57e7229a9a7d51345d496d3e997",
+        "original_packed_filepath": ""
+      }
+    ]
+  },
+  {
+    "image": "Face_Clean_LidNeutral.R",
+    "properties": {
+      "name_full": "Face_Clean_LidNeutral.R",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "Face_Clean_LidNeutral.R"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "",
+      "filepath_raw": "",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 512,
+      "generated_height": 128,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 32,
+      "size": [
+        512,
+        128
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      512,
+      128
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/04_00.png",
+        "bytes": 76499,
+        "sha256": "df730a2ca42e116dd55ff8c11b93a854052cb4e07113c9ef082e0430c7136fb8",
+        "original_packed_filepath": ""
+      }
+    ]
+  },
+  {
+    "image": "Face_Debanded_LidClosed.L",
+    "properties": {
+      "name_full": "Face_Debanded_LidClosed.L",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "Face_Debanded_LidClosed.L"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": [
+        "LibraryWeakReference",
+        null
+      ],
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "",
+      "filepath_raw": "",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 512,
+      "generated_height": 128,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 32,
+      "size": [
+        512,
+        128
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      512,
+      128
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/05_00.png",
+        "bytes": 35785,
+        "sha256": "16c918cd0d06fb197031b7a7f9c8aea94a6b955e4e2ccf04cd90465fe1f70847",
+        "original_packed_filepath": ""
+      }
+    ]
+  },
+  {
+    "image": "Face_Debanded_LidClosed.R",
+    "properties": {
+      "name_full": "Face_Debanded_LidClosed.R",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "Face_Debanded_LidClosed.R"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": [
+        "LibraryWeakReference",
+        null
+      ],
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "",
+      "filepath_raw": "",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 512,
+      "generated_height": 128,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 32,
+      "size": [
+        512,
+        128
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      512,
+      128
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/06_00.png",
+        "bytes": 36061,
+        "sha256": "f6c929d054af155bb452a1ad62df360a2a4b18e60dccc0bd52a03807edb2e890",
+        "original_packed_filepath": ""
+      }
+    ]
+  },
+  {
+    "image": "R4_Meshy_Color_Safe_4K",
+    "properties": {
+      "name_full": "R4_Meshy_Color_Safe_4K",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "R4_Meshy_Color_Safe_4K"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Color_Safe_4K.png",
+      "filepath_raw": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Color_Safe_4K.png",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 4096,
+      "generated_height": 4096,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        4096,
+        4096
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/07_00.png",
+        "bytes": 4239106,
+        "sha256": "9529c4a3b8b45ab1a1e7c1ec88c7583a5ef140224a6edfffce64ca946bbe1f4a",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/neck_skin_R4/textures/R4_Meshy_Color_Safe_4K.png"
+      }
+    ]
+  },
+  {
+    "image": "R4_Meshy_Normal_Safe_4K",
+    "properties": {
+      "name_full": "R4_Meshy_Normal_Safe_4K",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "R4_Meshy_Normal_Safe_4K"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Normal_Safe_4K.png",
+      "filepath_raw": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Normal_Safe_4K.png",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 4096,
+      "generated_height": 4096,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        4096,
+        4096
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "Non-Color"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": true
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/08_00.png",
+        "bytes": 3808709,
+        "sha256": "aa1ca76133eb9774fad2add96e72504821488e95dd51bd2544eddfa8221f6430",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/neck_skin_R4/textures/R4_Meshy_Normal_Safe_4K.png"
+      }
+    ]
+  },
+  {
+    "image": "R4_Meshy_Roughness_Safe_4K",
+    "properties": {
+      "name_full": "R4_Meshy_Roughness_Safe_4K",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "R4_Meshy_Roughness_Safe_4K"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Roughness_Safe_4K.png",
+      "filepath_raw": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Roughness_Safe_4K.png",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "BLANK",
+      "generated_width": 4096,
+      "generated_height": 4096,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        4096,
+        4096
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "Non-Color"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": true
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/09_00.png",
+        "bytes": 2328391,
+        "sha256": "d88761449405dd6e71046248ce4e38adf4ad6e2ee0080c678ee68466c4c677dc",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/neck_skin_R4/textures/R4_Meshy_Roughness_Safe_4K.png"
+      }
+    ]
+  },
+  {
+    "image": "Skin_Clean_R3_BaseColor_2K",
+    "properties": {
+      "name_full": "Skin_Clean_R3_BaseColor_2K",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "Skin_Clean_R3_BaseColor_2K"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "//..\\..\\avatar_clean_base_r3\\textures\\Skin_Clean_R3_BaseColor_2K.png",
+      "filepath_raw": "//..\\..\\avatar_clean_base_r3\\textures\\Skin_Clean_R3_BaseColor_2K.png",
+      "file_format": "PNG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "UV_GRID",
+      "generated_width": 1024,
+      "generated_height": 1024,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        2048,
+        2048
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/10_00.png",
+        "bytes": 163037,
+        "sha256": "2e5f04e8584f3ab22aa708299642b0a6fd012e2281b5c02df37de176d7a73b34",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_clean_base_r3/textures/Skin_Clean_R3_BaseColor_2K.png"
+      }
+    ]
+  },
+  {
+    "image": "stylized_hair_3d_model_Clone1_metallic",
+    "properties": {
+      "name_full": "stylized_hair_3d_model_Clone1_metallic",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "stylized_hair_3d_model_Clone1_metallic"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\stylized_hair_3d_model_Clone1_metallic.JPEG",
+      "filepath_raw": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\stylized_hair_3d_model_Clone1_metallic.JPEG",
+      "file_format": "JPEG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "UV_GRID",
+      "generated_width": 1024,
+      "generated_height": 1024,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        2048,
+        2048
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "Non-Color"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": true
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/11_00.jpg",
+        "bytes": 437500,
+        "sha256": "a7d6930b65ba4f6f606f1670057a77975188a102c18adf191ef3b55f92bda37f",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/stylized+hair+3d+model_Clone1/tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm/stylized_hair_3d_model_Clone1_metallic.JPEG"
+      }
+    ]
+  },
+  {
+    "image": "stylized_hair_3d_model_Clone1_roughness",
+    "properties": {
+      "name_full": "stylized_hair_3d_model_Clone1_roughness",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "stylized_hair_3d_model_Clone1_roughness"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\stylized_hair_3d_model_Clone1_roughness.JPEG",
+      "filepath_raw": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\stylized_hair_3d_model_Clone1_roughness.JPEG",
+      "file_format": "JPEG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "UV_GRID",
+      "generated_width": 1024,
+      "generated_height": 1024,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        2048,
+        2048
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "Non-Color"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": true
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/12_00.jpg",
+        "bytes": 151000,
+        "sha256": "780b0a41932c98b0195c92b6d2447228126052d23557b2cca504c3ef13a0f8a4",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/stylized+hair+3d+model_Clone1/tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm/stylized_hair_3d_model_Clone1_roughness.JPEG"
+      }
+    ]
+  },
+  {
+    "image": "tripo_image_8d1987b0_0",
+    "properties": {
+      "name_full": "tripo_image_8d1987b0_0",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "tripo_image_8d1987b0_0"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\tripo_node_e80d9c98-4363-496f-acbc-29435517fa8f_BaseColor.jpg",
+      "filepath_raw": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\tripo_node_e80d9c98-4363-496f-acbc-29435517fa8f_BaseColor.jpg",
+      "file_format": "JPEG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "UV_GRID",
+      "generated_width": 1024,
+      "generated_height": 1024,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        4096,
+        4096
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "sRGB"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": false
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/13_00.jpg",
+        "bytes": 1431278,
+        "sha256": "c77e24340c692a6f0df34b331dc726318cb52e4d44677d97a43f1523db8def90",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/stylized+hair+3d+model_Clone1/tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm/tripo_node_e80d9c98-4363-496f-acbc-29435517fa8f_BaseColor.jpg"
+      }
+    ]
+  },
+  {
+    "image": "tripo_image_8d1987b0_3",
+    "properties": {
+      "name_full": "tripo_image_8d1987b0_3",
+      "id_type": "IMAGE",
+      "is_evaluated": false,
+      "original": [
+        "Image",
+        "tripo_image_8d1987b0_3"
+      ],
+      "use_extra_user": false,
+      "is_embedded_data": false,
+      "is_linked_packed": false,
+      "is_missing": false,
+      "is_editable": true,
+      "tag": false,
+      "is_library_indirect": false,
+      "library": null,
+      "library_weak_reference": null,
+      "asset_data": null,
+      "override_library": null,
+      "preview": null,
+      "filepath": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\tripo_node_e80d9c98-4363-496f-acbc-29435517fa8f_Normal_Bake.jpg",
+      "filepath_raw": "//..\\..\\avatar_originals\\stylized+hair+3d+model_Clone1\\tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm\\tripo_node_e80d9c98-4363-496f-acbc-29435517fa8f_Normal_Bake.jpg",
+      "file_format": "JPEG",
+      "source": "FILE",
+      "type": "IMAGE",
+      "packed_file": [
+        "PackedFile",
+        null
+      ],
+      "use_view_as_render": false,
+      "use_deinterlace": false,
+      "use_multiview": false,
+      "is_stereo_3d": false,
+      "is_multiview": false,
+      "is_dirty": false,
+      "generated_type": "UV_GRID",
+      "generated_width": 1024,
+      "generated_height": 1024,
+      "use_generated_float": false,
+      "generated_color": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "display_aspect": [
+        1.0,
+        1.0
+      ],
+      "has_data": true,
+      "depth": 24,
+      "size": [
+        2048,
+        2048
+      ],
+      "resolution": [
+        2834.645751953125,
+        2834.645751953125
+      ],
+      "frame_duration": 1,
+      "channels": 4,
+      "is_float": false,
+      "colorspace_settings": [
+        "ColorManagedInputColorspaceSettings",
+        "Non-Color"
+      ],
+      "alpha_mode": "STRAIGHT",
+      "use_half_precision": true,
+      "seam_margin": 8,
+      "views_format": "INDIVIDUAL",
+      "stereo_3d_format": [
+        "Stereo3dFormat",
+        null
+      ]
+    },
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "channels": 4,
+    "colorspace": {
+      "is_data": true
+    },
+    "alpha_mode": "STRAIGHT",
+    "packed": [
+      {
+        "path": "textures/14_00.jpg",
+        "bytes": 1095037,
+        "sha256": "a07c41f77b6edf43bcd46adaa6d1bfd3c46fe33e7888becd91638718490dcc18",
+        "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/stylized+hair+3d+model_Clone1/tripo_convert_8d1987b0-a7fb-4c14-a4db-f5ec8c99099b.fbm/tripo_node_e80d9c98-4363-496f-acbc-29435517fa8f_Normal_Bake.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1215 @@
+{
+  "environment": {
+    "factory_startup": true,
+    "disable_autoexec": true,
+    "use_scripts": false,
+    "autoexec_fail": false,
+    "autoexec_fail_message": "",
+    "Blender": "5.2.1 LTS",
+    "namespace_keys": [
+      "__builtins__",
+      "__doc__",
+      "__loader__",
+      "__name__",
+      "__package__",
+      "__spec__",
+      "acos",
+      "acosh",
+      "asin",
+      "asinh",
+      "atan",
+      "atan2",
+      "atanh",
+      "bpy",
+      "cbrt",
+      "ceil",
+      "clamp",
+      "comb",
+      "copysign",
+      "cos",
+      "cosh",
+      "degrees",
+      "dist",
+      "e",
+      "erf",
+      "erfc",
+      "exp",
+      "exp2",
+      "expm1",
+      "fabs",
+      "factorial",
+      "floor",
+      "fma",
+      "fmod",
+      "frexp",
+      "fsum",
+      "gamma",
+      "gcd",
+      "hypot",
+      "inf",
+      "isclose",
+      "isfinite",
+      "isinf",
+      "isnan",
+      "isqrt",
+      "lcm",
+      "ldexp",
+      "lerp",
+      "lgamma",
+      "log",
+      "log10",
+      "log1p",
+      "log2",
+      "modf",
+      "nan",
+      "nextafter",
+      "noise",
+      "perm",
+      "pi",
+      "pow",
+      "prod",
+      "radians",
+      "remainder",
+      "sin",
+      "sinh",
+      "smoothstep",
+      "sqrt",
+      "sumprod",
+      "tan",
+      "tanh",
+      "tau",
+      "trunc",
+      "ulp"
+    ]
+  },
+  "counts": {
+    "total": 872,
+    "muted": 13,
+    "unmuted": 859,
+    "invalid_driver": 0,
+    "invalid_fcurve": 0,
+    "nonstandard_namespace_names": []
+  },
+  "head_board13": [
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"JawOpen\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Smile.L\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Smile.R\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Blink.L\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"Blink.R\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowRaise.L\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowRaise.R\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowKnit.L\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"BrowKnit.R\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CheekLift.L\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"CheekLift.R\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"LipPucker\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "path": "key_blocks[\"MouthWide\"].value",
+      "index": 0,
+      "muted": true,
+      "fcurve_valid": true,
+      "driver_valid": true,
+      "simple_expression": true,
+      "expression": "min(max(slide / 0.055, 0.0), 1.0)",
+      "variables": [
+        "slide"
+      ],
+      "unresolved_nonstandard_expression_names": []
+    }
+  ],
+  "Smile_input_downstream_ON_OFF": [
+    {
+      "requested_local_y_m": 0,
+      "evaluated_bone_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "evaluated_matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "Blender_convert_space_POSE_to_LOCAL": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.1920928955078125e-07
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.450580596923828e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "downstream_head_SmileL_original": 0.0,
+      "downstream_head_SmileL_evaluated": 0.0,
+      "driver_expression_if_unmuted": "clamp(slide/.055,0,1); not executed/authorized",
+      "driver_muted": true
+    },
+    {
+      "requested_local_y_m": 0.0275,
+      "evaluated_bone_location": [
+        0.0,
+        0.027499999850988388,
+        0.0
+      ],
+      "evaluated_matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.027499999850988388
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "Blender_convert_space_POSE_to_LOCAL": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.027499794960021973
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.450580596923828e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "downstream_head_SmileL_original": 0.0,
+      "downstream_head_SmileL_evaluated": 0.0,
+      "driver_expression_if_unmuted": "clamp(slide/.055,0,1); not executed/authorized",
+      "driver_muted": true
+    },
+    {
+      "requested_local_y_m": 0.055,
+      "evaluated_bone_location": [
+        0.0,
+        0.054999999701976776,
+        0.0
+      ],
+      "evaluated_matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.054999999701976776
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "Blender_convert_space_POSE_to_LOCAL": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0549999475479126
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.450580596923828e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "downstream_head_SmileL_original": 0.0,
+      "downstream_head_SmileL_evaluated": 0.0,
+      "driver_expression_if_unmuted": "clamp(slide/.055,0,1); not executed/authorized",
+      "driver_muted": true
+    },
+    {
+      "requested_local_y_m": 0,
+      "evaluated_bone_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "evaluated_matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "Blender_convert_space_POSE_to_LOCAL": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.1920928955078125e-07
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.450580596923828e-09
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "downstream_head_SmileL_original": 0.0,
+      "downstream_head_SmileL_evaluated": 0.0,
+      "driver_expression_if_unmuted": "clamp(slide/.055,0,1); not executed/authorized",
+      "driver_muted": true
+    }
+  ],
+  "bounded_case_outputs": [
+    {
+      "input_case": "board_00_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_00_0.5"
+    },
+    {
+      "input_case": "board_00_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_00_1"
+    },
+    {
+      "input_case": "board_01_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_01_0.5"
+    },
+    {
+      "input_case": "board_01_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_01_1"
+    },
+    {
+      "input_case": "board_02_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_02_0.5"
+    },
+    {
+      "input_case": "board_02_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_02_1"
+    },
+    {
+      "input_case": "board_03_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_03_0.5"
+    },
+    {
+      "input_case": "board_03_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_03_1"
+    },
+    {
+      "input_case": "board_04_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_04_0.5"
+    },
+    {
+      "input_case": "board_04_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_04_1"
+    },
+    {
+      "input_case": "board_05_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_05_0.5"
+    },
+    {
+      "input_case": "board_05_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_05_1"
+    },
+    {
+      "input_case": "board_06_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_06_0.5"
+    },
+    {
+      "input_case": "board_06_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_06_1"
+    },
+    {
+      "input_case": "board_07_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_07_0.5"
+    },
+    {
+      "input_case": "board_07_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_07_1"
+    },
+    {
+      "input_case": "board_08_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_08_0.5"
+    },
+    {
+      "input_case": "board_08_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_08_1"
+    },
+    {
+      "input_case": "board_09_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_09_0.5"
+    },
+    {
+      "input_case": "board_09_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_09_1"
+    },
+    {
+      "input_case": "board_10_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_10_0.5"
+    },
+    {
+      "input_case": "board_10_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_10_1"
+    },
+    {
+      "input_case": "board_11_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_11_0.5"
+    },
+    {
+      "input_case": "board_11_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_11_1"
+    },
+    {
+      "input_case": "board_12_0.5",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_12_0.5"
+    },
+    {
+      "input_case": "board_12_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0,
+          "RMS_m": 0.0
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=board_12_1"
+    },
+    {
+      "input_case": "gaze_-1_0",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0021669301204383373,
+          "RMS_m": 0.00020741482148878276
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.002398526528850198,
+          "RMS_m": 0.0015519201988354325
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0022227719891816378,
+          "RMS_m": 0.0015520973829552531
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=gaze_-1_0"
+    },
+    {
+      "input_case": "gaze_1_0",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0021669259294867516,
+          "RMS_m": 0.00020736314763780683
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0022249571047723293,
+          "RMS_m": 0.0015519203152507544
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.002398526296019554,
+          "RMS_m": 0.001552097499370575
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=gaze_1_0"
+    },
+    {
+      "input_case": "gaze_0_-1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.0014130595372989774,
+          "RMS_m": 0.0001381547044729814
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.0014108408940955997,
+          "RMS_m": 0.0010185744613409042
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0014147108886390924,
+          "RMS_m": 0.0010186949511989951
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=gaze_0_-1"
+    },
+    {
+      "input_case": "gaze_0_1",
+      "geometry_output": [
+        {
+          "mesh": "Character_Body_Head",
+          "max_world_vertex_delta_m": 0.001260728226043284,
+          "RMS_m": 0.00012681916996371
+        },
+        {
+          "mesh": "Globe.L",
+          "max_world_vertex_delta_m": 0.001268738997168839,
+          "RMS_m": 0.0009125120704993606
+        },
+        {
+          "mesh": "Globe.R",
+          "max_world_vertex_delta_m": 0.0012687355047091842,
+          "RMS_m": 0.0009126488585025072
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=gaze_0_1"
+    },
+    {
+      "input_case": "hair_knob_00",
+      "geometry_output": [
+        {
+          "mesh": "Hair_Replacement_R4",
+          "max_world_vertex_delta_m": 0.01537992898374796,
+          "RMS_m": 0.0027376909274607897
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=hair_knob_00"
+    },
+    {
+      "input_case": "hair_knob_01",
+      "geometry_output": [
+        {
+          "mesh": "Hair_Replacement_R4",
+          "max_world_vertex_delta_m": 0.018030067905783653,
+          "RMS_m": 0.003137745661661029
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=hair_knob_01"
+    },
+    {
+      "input_case": "hair_knob_02",
+      "geometry_output": [
+        {
+          "mesh": "Hair_Replacement_R4",
+          "max_world_vertex_delta_m": 0.00890690740197897,
+          "RMS_m": 0.000975130416918546
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=hair_knob_02"
+    },
+    {
+      "input_case": "hair_knob_03",
+      "geometry_output": [
+        {
+          "mesh": "Hair_Replacement_R4",
+          "max_world_vertex_delta_m": 0.007678858935832977,
+          "RMS_m": 0.0006223881500773132
+        }
+      ],
+      "downstream_output_pointer": "evaluated_driver_geometry_references.json tag=hair_knob_03"
+    }
+  ],
+  "causal_disposition": "Zero Smile/Blink response in these original board-input probes is explained by13 source HEAD FaceBoard bridge Fcurves already muted. Read-only authoring GUI confirms same mute flags and no autoexec failure. Do not label as missing Unity shader or source corruption; source dispatch/mute policy is an unresolved ownership contract. Do not unmute/rewrite source silently.",
+  "shader_only": "These13 bridges target shape-key values, not shader-only controls. Their zeros leave dependent blink pigments/lashes inactive; gaze custom props separately drive executable GN with nonzero outputs and geometry measured.",
+  "variable_evaluation_limit": "Native evaluated local bone matrices/locations and downstream outputs recorded. Blender does not expose runtime DriverVariable value as public RNA; transform conversion is a diagnostic, not a claim to query private driver evaluator. No namespace registration required by observed expressions; no source scripts executed.",
+  "F2": "NOT PASS: board-driven expression path muted; combined body/head/gaze/face/hair performance and multicamera1x not certified."
+}

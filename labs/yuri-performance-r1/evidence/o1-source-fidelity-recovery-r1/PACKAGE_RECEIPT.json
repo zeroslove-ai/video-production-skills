@@ -1,0 +1,32 @@
+{
+  "archive": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_SOURCE_FIDELITY_RECOVERY_20261003_R1_080352e24adb.zip",
+  "sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+  "bytes": 178349363,
+  "members": 200,
+  "CRC_all_member_SHA_verified": true,
+  "requires_frozen_probe": "4ec5c10ce90d7d25c06721b7dcd3832be4b7672190c975d42912be876a5a0843",
+  "raw_split_parts": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_SOURCE_FIDELITY_RECOVERY_20261003_R1_080352e24adb.zip.part01",
+      "bytes": 67108864,
+      "sha256": "3828851ab95d43f5057b44e783589d09014facbc2bd17f153e28f372298f20bb"
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_SOURCE_FIDELITY_RECOVERY_20261003_R1_080352e24adb.zip.part02",
+      "bytes": 67108864,
+      "sha256": "c143b8d4d22740cb0689044bd3ad9122b2a95485200eea5e9b6533b8a109e3d1"
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_SOURCE_FIDELITY_RECOVERY_20261003_R1_080352e24adb.zip.part03",
+      "bytes": 44131635,
+      "sha256": "91d382a4e839fb6ca8b072a0357697538681f235f626c250c34897e1ef359fa1"
+    }
+  ],
+  "reassemble": "binary concatenate parts in ascending order, then assert archive SHA before extraction; not independent ZIPs",
+  "status": "PACKET_COMPLETE / PROMOTION_HOLD",
+  "source_preservation": "PASS",
+  "static_rest": "FAIL",
+  "position_rotation": "FAIL",
+  "F2": "NOT_CERTIFIED",
+  "Unity_PASS": false
+}

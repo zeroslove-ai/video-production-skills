@@ -1,0 +1,307 @@
+{
+  "renderer": "Meshy_Body_NeutralCovered",
+  "bind_identity_residual_by_bone": [
+    {
+      "bone": "root",
+      "bind_identity_matrix_max_element_delta": 5.960464088961004e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.1920928955078125e-07
+    },
+    {
+      "bone": "pelvis",
+      "bind_identity_matrix_max_element_delta": 1.1970082824941386e-07,
+      "import_inversebind_vs_source_max_element_delta": 1.1920928955078125e-07
+    },
+    {
+      "bone": "spine",
+      "bind_identity_matrix_max_element_delta": 1.95444402883993e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.1920928955078125e-07
+    },
+    {
+      "bone": "chest",
+      "bind_identity_matrix_max_element_delta": 4.7850040596486565e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.384185791015625e-07
+    },
+    {
+      "bone": "neck",
+      "bind_identity_matrix_max_element_delta": 3.804532155982088e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.384185791015625e-07
+    },
+    {
+      "bone": "head",
+      "bind_identity_matrix_max_element_delta": 5.960464088961004e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.7881393432617188e-07
+    },
+    {
+      "bone": "R3_Head_Bind",
+      "bind_identity_matrix_max_element_delta": 1.4434651607331261e-07,
+      "import_inversebind_vs_source_max_element_delta": 2.1457672119140625e-06
+    },
+    {
+      "bone": "R3_Neck_Bind",
+      "bind_identity_matrix_max_element_delta": 9.802772971134743e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "clavicle.L",
+      "bind_identity_matrix_max_element_delta": 2.7376245559374013e-07,
+      "import_inversebind_vs_source_max_element_delta": 2.384185791015625e-07
+    },
+    {
+      "bone": "upper_arm.L",
+      "bind_identity_matrix_max_element_delta": 1.1963058077490984e-07,
+      "import_inversebind_vs_source_max_element_delta": 4.76837158203125e-07
+    },
+    {
+      "bone": "forearm.L",
+      "bind_identity_matrix_max_element_delta": 1.1037103431199569e-07,
+      "import_inversebind_vs_source_max_element_delta": 5.066394805908203e-07
+    },
+    {
+      "bone": "hand.L",
+      "bind_identity_matrix_max_element_delta": 6.733169466421884e-08,
+      "import_inversebind_vs_source_max_element_delta": 5.960464477539062e-07
+    },
+    {
+      "bone": "index1.L",
+      "bind_identity_matrix_max_element_delta": 8.776228443974077e-08,
+      "import_inversebind_vs_source_max_element_delta": 5.364418029785156e-07
+    },
+    {
+      "bone": "index2.L",
+      "bind_identity_matrix_max_element_delta": 1.4173641105230672e-07,
+      "import_inversebind_vs_source_max_element_delta": 5.364418029785156e-07
+    },
+    {
+      "bone": "index3.L",
+      "bind_identity_matrix_max_element_delta": 9.730638661498148e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.4901161193847656e-06
+    },
+    {
+      "bone": "middle1.L",
+      "bind_identity_matrix_max_element_delta": 1.6750082076910644e-07,
+      "import_inversebind_vs_source_max_element_delta": 5.662441253662109e-07
+    },
+    {
+      "bone": "middle2.L",
+      "bind_identity_matrix_max_element_delta": 8.658381100978829e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.172325134277344e-07
+    },
+    {
+      "bone": "middle3.L",
+      "bind_identity_matrix_max_element_delta": 6.560351684115062e-08,
+      "import_inversebind_vs_source_max_element_delta": 8.344650268554688e-07
+    },
+    {
+      "bone": "ring1.L",
+      "bind_identity_matrix_max_element_delta": 1.0692209417850762e-07,
+      "import_inversebind_vs_source_max_element_delta": 1.0728836059570312e-06
+    },
+    {
+      "bone": "ring2.L",
+      "bind_identity_matrix_max_element_delta": 8.567504505840873e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.172325134277344e-07
+    },
+    {
+      "bone": "ring3.L",
+      "bind_identity_matrix_max_element_delta": 5.331774410866075e-08,
+      "import_inversebind_vs_source_max_element_delta": 8.940696716308594e-07
+    },
+    {
+      "bone": "pinky1.L",
+      "bind_identity_matrix_max_element_delta": 1.3000348841885057e-07,
+      "import_inversebind_vs_source_max_element_delta": 5.960464477539062e-07
+    },
+    {
+      "bone": "pinky2.L",
+      "bind_identity_matrix_max_element_delta": 1.099925470704477e-07,
+      "import_inversebind_vs_source_max_element_delta": 7.450580596923828e-07
+    },
+    {
+      "bone": "pinky3.L",
+      "bind_identity_matrix_max_element_delta": 1.8348524299938163e-07,
+      "import_inversebind_vs_source_max_element_delta": 1.0132789611816406e-06
+    },
+    {
+      "bone": "thumb1.L",
+      "bind_identity_matrix_max_element_delta": 1.0595827926174195e-07,
+      "import_inversebind_vs_source_max_element_delta": 4.470348358154297e-07
+    },
+    {
+      "bone": "thumb2.L",
+      "bind_identity_matrix_max_element_delta": 1.5491696880864936e-07,
+      "import_inversebind_vs_source_max_element_delta": 6.444752216339111e-06
+    },
+    {
+      "bone": "thumb3.L",
+      "bind_identity_matrix_max_element_delta": 4.5563347317312264e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.544854164123535e-06
+    },
+    {
+      "bone": "R3_Shoulder_L_Bind",
+      "bind_identity_matrix_max_element_delta": 1.378062683965453e-07,
+      "import_inversebind_vs_source_max_element_delta": 9.5367431640625e-07
+    },
+    {
+      "bone": "clavicle.R",
+      "bind_identity_matrix_max_element_delta": 2.089040742614401e-07,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "upper_arm.R",
+      "bind_identity_matrix_max_element_delta": 1.8670568047163272e-07,
+      "import_inversebind_vs_source_max_element_delta": 4.76837158203125e-07
+    },
+    {
+      "bone": "forearm.R",
+      "bind_identity_matrix_max_element_delta": 3.5860499347784014e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.086162567138672e-07
+    },
+    {
+      "bone": "hand.R",
+      "bind_identity_matrix_max_element_delta": 8.818355379247578e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.76837158203125e-07
+    },
+    {
+      "bone": "index1.R",
+      "bind_identity_matrix_max_element_delta": 4.414336712832423e-08,
+      "import_inversebind_vs_source_max_element_delta": 5.662441253662109e-07
+    },
+    {
+      "bone": "index2.R",
+      "bind_identity_matrix_max_element_delta": 7.794433531937983e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.7583370208740234e-06
+    },
+    {
+      "bone": "index3.R",
+      "bind_identity_matrix_max_element_delta": 7.349922126476116e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.4868717193603516e-06
+    },
+    {
+      "bone": "middle1.R",
+      "bind_identity_matrix_max_element_delta": 9.242700771405765e-08,
+      "import_inversebind_vs_source_max_element_delta": 5.364418029785156e-07
+    },
+    {
+      "bone": "middle2.R",
+      "bind_identity_matrix_max_element_delta": 8.54671529104678e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.4901161193847656e-06
+    },
+    {
+      "bone": "middle3.R",
+      "bind_identity_matrix_max_element_delta": 1.1619745321489461e-07,
+      "import_inversebind_vs_source_max_element_delta": 8.344650268554688e-07
+    },
+    {
+      "bone": "ring1.R",
+      "bind_identity_matrix_max_element_delta": 8.021394271029436e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "ring2.R",
+      "bind_identity_matrix_max_element_delta": 1.620206396824031e-07,
+      "import_inversebind_vs_source_max_element_delta": 1.1622905731201172e-06
+    },
+    {
+      "bone": "ring3.R",
+      "bind_identity_matrix_max_element_delta": 5.5031632473223624e-08,
+      "import_inversebind_vs_source_max_element_delta": 7.152557373046875e-07
+    },
+    {
+      "bone": "pinky1.R",
+      "bind_identity_matrix_max_element_delta": 1.263287449093653e-07,
+      "import_inversebind_vs_source_max_element_delta": 4.172325134277344e-07
+    },
+    {
+      "bone": "pinky2.R",
+      "bind_identity_matrix_max_element_delta": 1.4214188748251644e-07,
+      "import_inversebind_vs_source_max_element_delta": 7.152557373046875e-07
+    },
+    {
+      "bone": "pinky3.R",
+      "bind_identity_matrix_max_element_delta": 1.1136752353646528e-07,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "thumb1.R",
+      "bind_identity_matrix_max_element_delta": 6.147142000978434e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.2782554626464844e-07
+    },
+    {
+      "bone": "thumb2.R",
+      "bind_identity_matrix_max_element_delta": 1.1159953217099172e-07,
+      "import_inversebind_vs_source_max_element_delta": 7.465481758117676e-06
+    },
+    {
+      "bone": "thumb3.R",
+      "bind_identity_matrix_max_element_delta": 1.50154006894887e-07,
+      "import_inversebind_vs_source_max_element_delta": 4.589557647705078e-06
+    },
+    {
+      "bone": "R3_Shoulder_R_Bind",
+      "bind_identity_matrix_max_element_delta": 8.971265375024018e-08,
+      "import_inversebind_vs_source_max_element_delta": 7.748603820800781e-07
+    },
+    {
+      "bone": "R3_UpperChest_Bind",
+      "bind_identity_matrix_max_element_delta": 1.2083407852081507e-07,
+      "import_inversebind_vs_source_max_element_delta": 4.76837158203125e-07
+    },
+    {
+      "bone": "thigh.L",
+      "bind_identity_matrix_max_element_delta": 6.527549545332079e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.8743019104003906e-07
+    },
+    {
+      "bone": "shin.L",
+      "bind_identity_matrix_max_element_delta": 5.5273910337660936e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.1653402149677277e-07
+    },
+    {
+      "bone": "foot.L",
+      "bind_identity_matrix_max_element_delta": 1.559731788169927e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.76837158203125e-07
+    },
+    {
+      "bone": "toe.L",
+      "bind_identity_matrix_max_element_delta": 1.3990183977963255e-07,
+      "import_inversebind_vs_source_max_element_delta": 2.682209014892578e-07
+    },
+    {
+      "bone": "thigh.R",
+      "bind_identity_matrix_max_element_delta": 6.581106326564168e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.8743019104003906e-07
+    },
+    {
+      "bone": "shin.R",
+      "bind_identity_matrix_max_element_delta": 5.610841946612766e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.093162715435028e-07
+    },
+    {
+      "bone": "foot.R",
+      "bind_identity_matrix_max_element_delta": 7.36428047432014e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "toe.R",
+      "bind_identity_matrix_max_element_delta": 6.422857135035542e-08,
+      "import_inversebind_vs_source_max_element_delta": 7.748603820800781e-07
+    }
+  ],
+  "source_pure_LBS_at_raw_rest_vs_undeformed_world": {
+    "max_m": 9.981397184318203e-08,
+    "RMS_m": 3.961274262620829e-08,
+    "p50_m": 3.132879477124265e-08,
+    "p95_m": 8.307004223881109e-08,
+    "p99_m": 9.707961593123056e-08,
+    "worst_vertex": 8917
+  },
+  "source_pure_LBS_at_evaluated_OFF_vs_native_evaluated_geometry": {
+    "max_m": 2.480344267610503e-07,
+    "RMS_m": 6.143203451627873e-08,
+    "p50_m": 3.6389313263221166e-08,
+    "p95_m": 1.2259191254779615e-07,
+    "p99_m": 1.6819110262682738e-07,
+    "worst_vertex": 27107
+  },
+  "method": "normalized positive deform-bone weights; first armature only; pure LBS diagnostic, not DQ/masked second armature/GN/surface replay"
+}

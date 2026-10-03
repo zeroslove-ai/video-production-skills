@@ -1,0 +1,72 @@
+{
+  "renderer": "Hair_Replacement_R4",
+  "bind_identity_residual_by_bone": [
+    {
+      "bone": "Hair_HeadRoot",
+      "bind_identity_matrix_max_element_delta": 5.037177985833807e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "Hair_Pony_Base",
+      "bind_identity_matrix_max_element_delta": 9.599217309919084e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.2654573917388916e-07
+    },
+    {
+      "bone": "Hair_Pony_01",
+      "bind_identity_matrix_max_element_delta": 1.0709788167417855e-07,
+      "import_inversebind_vs_source_max_element_delta": 5.364418029785156e-07
+    },
+    {
+      "bone": "Hair_Pony_02",
+      "bind_identity_matrix_max_element_delta": 3.682440885555138e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.169741153717041e-06
+    },
+    {
+      "bone": "Hair_Pony_03",
+      "bind_identity_matrix_max_element_delta": 7.449208860865753e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.861503839492798e-07
+    },
+    {
+      "bone": "Hair_Pony_04",
+      "bind_identity_matrix_max_element_delta": 1.3496124107170715e-07,
+      "import_inversebind_vs_source_max_element_delta": 5.178153514862061e-07
+    },
+    {
+      "bone": "Hair_Side.L.01",
+      "bind_identity_matrix_max_element_delta": 1.0139045458767981e-07,
+      "import_inversebind_vs_source_max_element_delta": 1.2665987014770508e-06
+    },
+    {
+      "bone": "Hair_Side.L.02",
+      "bind_identity_matrix_max_element_delta": 5.1998245265139076e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.6316771507263184e-06
+    },
+    {
+      "bone": "Hair_Side.R.01",
+      "bind_identity_matrix_max_element_delta": 1.0535229844066407e-07,
+      "import_inversebind_vs_source_max_element_delta": 1.1920928955078125e-06
+    },
+    {
+      "bone": "Hair_Side.R.02",
+      "bind_identity_matrix_max_element_delta": 8.176865295972391e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.3113021850585938e-06
+    }
+  ],
+  "source_pure_LBS_at_raw_rest_vs_undeformed_world": {
+    "max_m": 5.4622679785592174e-08,
+    "RMS_m": 1.4437807179848507e-08,
+    "p50_m": 9.493511956497174e-09,
+    "p95_m": 3.6515691353727164e-08,
+    "p99_m": 4.515699830625953e-08,
+    "worst_vertex": 6651
+  },
+  "source_pure_LBS_at_evaluated_OFF_vs_native_evaluated_geometry": {
+    "max_m": 1.372190194633558e-07,
+    "RMS_m": 5.265305165876062e-08,
+    "p50_m": 5.1161423487267e-08,
+    "p95_m": 5.8397106781775065e-08,
+    "p99_m": 1.2786447937576915e-07,
+    "worst_vertex": 4960
+  },
+  "method": "normalized positive deform-bone weights; first armature only; pure LBS diagnostic, not DQ/masked second armature/GN/surface replay"
+}

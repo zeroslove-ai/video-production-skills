@@ -1,0 +1,8 @@
+{
+  "scope": "Only FBX Model default TRS serializer; source/rest/pose/Action input unchanged; curve sampling untouched",
+  "captured_OFF_default_models": 164,
+  "original_export_script_sha256": "78fad536e24a733c9305c6a9784250a10cbef3af3a2a6ac7735b873652c84194",
+  "exporter_module_sha256": "8fd324e4ee0d25cc89cd53507b0f93c057b17b699601ac90f81085d5be09e44a",
+  "tolerance_changed": false,
+  "prior_files_changed": false
+}

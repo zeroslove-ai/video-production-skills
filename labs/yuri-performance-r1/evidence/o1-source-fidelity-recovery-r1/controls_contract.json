@@ -1,0 +1,816 @@
+{
+  "FaceBoard13": [
+    {
+      "name": "JawOpen",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Smile.L",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Smile.R",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Blink.L",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Blink.R",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "BrowRaise.L",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "BrowRaise.R",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "BrowKnit.L",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "BrowKnit.R",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "CheekLift.L",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "CheekLift.R",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "LipPucker",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    },
+    {
+      "name": "MouthWide",
+      "unit": "bone LOCAL translation meters; normalized intent y/max_y, not world translation",
+      "default_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "constraints": [
+        [
+          "Slider 0 to 1",
+          {
+            "type": "LIMIT_LOCATION",
+            "is_override_data": false,
+            "owner_space": "LOCAL",
+            "target_space": "WORLD",
+            "space_object": null,
+            "space_subtarget": "",
+            "mute": false,
+            "enabled": true,
+            "show_expanded": true,
+            "is_valid": true,
+            "active": true,
+            "influence": 1.0,
+            "error_location": 0.0,
+            "error_rotation": 0.0,
+            "use_min_x": true,
+            "use_min_y": true,
+            "use_min_z": true,
+            "use_max_x": true,
+            "use_max_y": true,
+            "use_max_z": true,
+            "min_x": 0.0,
+            "min_y": 0.0,
+            "min_z": 0.0,
+            "max_x": 0.0,
+            "max_y": 0.054999999701976776,
+            "max_z": 0.0,
+            "use_transform_limit": true
+          }
+        ]
+      ]
+    }
+  ],
+  "head": {
+    "properties": {
+      "neck_v3": "Rest-space neck color and roughness masks; smootherstep transitions; local Taubin relaxation, unchanged topology and rig",
+      "refined4": "Neck shortened 9 mm with smooth transition, neck contour relaxed; rest neck/head/eye bones and shader coordinates remapped",
+      "facial_controls": "Object Data > Shape Keys: JawOpen, Smile.L, Smile.R. 0 = exact neutral. Conservative test ranges, not production certification.",
+      "blink_status": "Existing full-closure blink keys and gaze are preserved; see prior face geometry QA limitations.",
+      "Face rig quality": "Refined face retained: 72 shape keys and 50 drivers. No phoneme/lip-sync or automatic contact certification.",
+      "Eye rebuild": "Welded continuous eyelid skin with fixed lower lid, true fitted globes behind immutable iris caps, and root-bound lash motion. Original body/rig/actions preserved. See eye rebuild report.",
+      "Lash refinement": "Uniform dark brown lash pigment on existing true lash geometry. Source silhouette and root-bound corrective motion unchanged.",
+      "Face_GazeYaw": 0.0,
+      "Face_GazePitch": 0.0,
+      "Face gaze notes": "True rigid eye-volume/iris motion, ±6° yaw / ±4° pitch. Native Geometry Nodes smoothly ease source-fit posterior clearance up to 0.65 mm yaw plus 0.45 mm down gaze (1.10 mm combined). Exact neutral bypass and fixed socket/lower lid. Only simple built-in driver expressions are used; no script auto-execution required. Export requires baking or a dedicated export rig.",
+      "Face expression controls": "BrowRaise.L/R, BrowKnit.L/R, CheekLift.L/R, LipPucker, MouthWide are conservative native surface deformations. CORR_Face_* are automatic cheek-volume correctives; do not animate directly.",
+      "_Face_gaze_clearance_mode": "smooth_native_nodes_v5",
+      "_Face_gaze_clearance_formula": ".00065*(sqrt(min(1,yaw*yaw)+.0004)-.02)/0.980199980003999+.00045*(sqrt(max(0,min(1,-pitch))**2+.0004)-.02)/0.980199980003999",
+      "Face r2": "Three additive local shapes and bounded presets. Original shape keys and fixed lower eyelids preserved. Strength 0 returns exact neutral. No ARKit or phoneme mapping claimed.",
+      "Clean_Base_R3": "Bikini geometry removed. New neutral 2K skin bake. Original rig, body proportions, face and current separate hair retained.",
+      "Clean_Base_R3_Source": "Character_Master_R2.blend; SHA256 5e88819a61120b74c9a0e3de03f90b9890b7ac13eea2113e10fcada321d21d2e",
+      "Clean_Base_R3_HoleRepair": "Closed one pre-existing 4-edge underarm/torso slit with two faces; no vertices moved or added.",
+      "Assembly_Role": "Original refined face; exact retained R3 geometry, UVs, shape keys and weights.",
+      "Assembly_Source": "Character_CleanBase_R3.blend",
+      "EyelidSurface_R3_Applied": true,
+      "EyelidSurface_R3_Description": "Harmonic upper-lid interior parameter spacing with smooth thin-plate depth reconstruction from surrounding skin and closure boundaries,8 held-blink samples,0.25mm globe clearance bound. Neutral face, materials, UV and all expressions remain unchanged.",
+      "EyelidPigment_R3_Applied": true,
+      "EyelidPigment_R3_Description": "Smooth clean-skin pigment from existing atlas interior, broad upper-lid region and softly feathered head-skin halo. Original images and UV unchanged. Neutral factor zero; brows, lower lids and identity retained.",
+      "LashRoot_R3_Applied": true,
+      "LashRoot_R3_Description": "Malformed medial fringe replaced by smooth continuous lid margin and tapered lashes, native9-sample rim following. Outer original lashes retained; all head keys and rig preserved.",
+      "OriginalFringeBandTransport": true,
+      "R4_NeckAlignment": "Neutral neck re-centered to face/rig x=.00195 with smooth local join reconstruction; no face geometry above z=.843 changed, expression deltas preserved."
+    },
+    "UI": {
+      "neck_v3": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "refined4": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "facial_controls": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "blink_status": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Face rig quality": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Eye rebuild": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Lash refinement": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Face_GazeYaw": {
+        "subtype": "NONE",
+        "description": "Conjugate gaze: positive = character left (+X), limit 6 degrees. Actual whole globe and original iris rotate together.",
+        "min": -1.0,
+        "max": 1.0,
+        "soft_min": -1.0,
+        "soft_max": 1.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "Face_GazePitch": {
+        "subtype": "NONE",
+        "description": "Conjugate gaze: positive = up, limit 4 degrees. Test range only.",
+        "min": -1.0,
+        "max": 1.0,
+        "soft_min": -1.0,
+        "soft_max": 1.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "Face gaze notes": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Face expression controls": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "_Face_gaze_clearance_mode": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "_Face_gaze_clearance_formula": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Face r2": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Clean_Base_R3": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Clean_Base_R3_Source": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Clean_Base_R3_HoleRepair": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Assembly_Role": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Assembly_Source": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "EyelidSurface_R3_Applied": {
+        "subtype": "NONE",
+        "default": false
+      },
+      "EyelidSurface_R3_Description": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "EyelidPigment_R3_Applied": {
+        "subtype": "NONE",
+        "default": false
+      },
+      "EyelidPigment_R3_Description": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "LashRoot_R3_Applied": {
+        "subtype": "NONE",
+        "default": false
+      },
+      "LashRoot_R3_Description": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "OriginalFringeBandTransport": {
+        "subtype": "NONE",
+        "default": false
+      },
+      "R4_NeckAlignment": {
+        "subtype": "NONE",
+        "default": ""
+      }
+    }
+  },
+  "hair": {
+    "properties": {
+      "Pony_Sway": 0.0,
+      "Pony_Lift": 0.0,
+      "Tip_Curl": 0.0,
+      "Side_Sway": 0.0,
+      "Controls": "Pony_Sway, Pony_Lift, Tip_Curl, Side_Sway in Object custom properties; neutral=0",
+      "Dynamics": "Manual skinned pose controls; no spring simulation or automatic collision solver",
+      "Bind_Target": "Armature / J_Bip_C_Head; world space Copy Transforms",
+      "Original_Head_Matrix": [
+        -0.6545360684394836,
+        0.11483972519636154,
+        -0.7472579479217529,
+        0.0019522046204656363,
+        -0.6155717968940735,
+        -0.6547777652740479,
+        0.4385627508163452,
+        -0.025378238409757614,
+        -0.43892335891723633,
+        0.7470458149909973,
+        0.4992678463459015,
+        0.8480583429336548,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "UI": {
+      "Pony_Sway": {
+        "subtype": "NONE",
+        "description": "Ponytail lateral sway in degrees",
+        "min": -15.0,
+        "max": 15.0,
+        "soft_min": -15.0,
+        "soft_max": 15.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "Pony_Lift": {
+        "subtype": "NONE",
+        "description": "Ponytail lift away from head in degrees",
+        "min": -8.0,
+        "max": 18.0,
+        "soft_min": -8.0,
+        "soft_max": 18.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "Tip_Curl": {
+        "subtype": "NONE",
+        "description": "Ponytail tip curl in degrees",
+        "min": -15.0,
+        "max": 15.0,
+        "soft_min": -15.0,
+        "soft_max": 15.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "Side_Sway": {
+        "subtype": "NONE",
+        "description": "Side lock sway in degrees",
+        "min": -8.0,
+        "max": 8.0,
+        "soft_min": -8.0,
+        "soft_max": 8.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "Controls": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Dynamics": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Bind_Target": {
+        "subtype": "NONE",
+        "default": ""
+      },
+      "Original_Head_Matrix": {
+        "subtype": "NONE",
+        "min": -3.4028234663852886e+38,
+        "max": 3.4028234663852886e+38,
+        "soft_min": -3.4028234663852886e+38,
+        "soft_max": 3.4028234663852886e+38,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      }
+    }
+  },
+  "order": "body evaluated pose → existing face COPY_TRANSFORMS helpers → head/globe GN before armature skin; hair root follower→existing driven eulers; Blender dependency graph resolves driver targets, not arbitrary Unity Update order"
+}

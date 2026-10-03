@@ -1,0 +1,27 @@
+"""Read-only causal check of source control paths, no driver unmute or namespace edits."""
+import bpy,sys,json,ast,math
+import numpy as np
+from pathlib import Path
+ROOT=Path(__file__).resolve().parent.parent;E=ROOT/'evidence/o1-source-fidelity-recovery-r1';OUT=Path(r'C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs/o1-source-fidelity-recovery-r1')
+bpy.ops.wm.open_mainfile(filepath=str(ROOT/'local/model-handoff-r4/Character_Master_NeckSkin_R4.blend'),use_scripts=False)
+board=bpy.data.objects['AVATAR_FaceBoard'];head=bpy.data.objects['Character_Body_Head'];owners=[x for group in (bpy.data.objects,bpy.data.shape_keys,bpy.data.node_groups,bpy.data.materials) for x in group if getattr(x,'animation_data',None) and x.animation_data.drivers]
+inventory=[]
+for owner in owners:
+    for f in owner.animation_data.drivers:
+        expression=f.driver.expression;names={n.id for n in ast.walk(ast.parse(expression,mode='eval')) if isinstance(n,ast.Name)} if f.driver.type=='SCRIPTED' else set();variables={v.name for v in f.driver.variables};standard=set(bpy.app.driver_namespace)|{'min','max','abs','pow','round','int','float','bool','self'}
+        inventory.append({'owner':owner.name,'path':f.data_path,'index':f.array_index,'muted':f.mute,'fcurve_valid':f.is_valid,'driver_valid':f.driver.is_valid,'simple_expression':f.driver.is_simple_expression,'expression':expression,'variables':sorted(variables),'unresolved_nonstandard_expression_names':sorted(names-variables-standard)})
+allrefs=json.loads((E/'evaluated_driver_geometry_references.json').read_text(encoding='utf8'));neutral=np.load(OUT/'data/neutral.npz');case=[]
+for r in allrefs:
+    if not(r['tag'].startswith('board_') or r['tag'].startswith('gaze_') or r['tag'].startswith('hair_')):continue
+    v=np.load(OUT/r['geometry']['path']);d=[]
+    for name in r['meshes']:
+        mesh=name['mesh'];key=mesh+'_world_position';delta=np.linalg.norm(v[key]-neutral[key],axis=1);d.append({'mesh':mesh,'max_world_vertex_delta_m':float(delta.max()),'RMS_m':float(np.sqrt(np.mean(delta*delta)))})
+    case.append({'input_case':r['tag'],'geometry_output':d,'downstream_output_pointer':'evaluated_driver_geometry_references.json tag='+r['tag']})
+b=board.pose.bones['Smile.L'];original=b.location.copy();transforms=[]
+for y in (0,.0275,.055,0):
+    b.location.y=y;board.update_tag(refresh={'OBJECT','DATA','TIME'});bpy.context.scene.frame_set(2);bpy.context.view_layer.update();deps=bpy.context.evaluated_depsgraph_get();eb=board.evaluated_get(deps).pose.bones['Smile.L'];local=board.evaluated_get(deps).convert_space(pose_bone=eb,matrix=eb.matrix,from_space='POSE',to_space='LOCAL')
+    transforms.append({'requested_local_y_m':y,'evaluated_bone_location':list(eb.location),'evaluated_matrix_basis':[list(x) for x in eb.matrix_basis],'Blender_convert_space_POSE_to_LOCAL':[list(x) for x in local],'downstream_head_SmileL_original':head.data.shape_keys.key_blocks['Smile.L'].value,'downstream_head_SmileL_evaluated':head.evaluated_get(deps).data.shape_keys.key_blocks['Smile.L'].value,'driver_expression_if_unmuted':'clamp(slide/.055,0,1); not executed/authorized','driver_muted':next(f.mute for f in head.data.shape_keys.animation_data.drivers if f.data_path=='key_blocks["Smile.L"].value')})
+b.location=original;board.update_tag();bpy.context.scene.frame_set(1);bpy.context.view_layer.update()
+result={'environment':{'factory_startup':True,'disable_autoexec':True,'use_scripts':False,'autoexec_fail':bpy.app.autoexec_fail,'autoexec_fail_message':bpy.app.autoexec_fail_message,'Blender':bpy.app.version_string,'namespace_keys':sorted(bpy.app.driver_namespace.keys())},'counts':{'total':len(inventory),'muted':sum(r['muted'] for r in inventory),'unmuted':sum(not r['muted'] for r in inventory),'invalid_driver':sum(not r['driver_valid'] for r in inventory),'invalid_fcurve':sum(not r['fcurve_valid'] for r in inventory),'nonstandard_namespace_names':sorted({n for r in inventory for n in r['unresolved_nonstandard_expression_names']})},'head_board13': [r for r in inventory if r['owner']==head.data.shape_keys.name and 'slide / 0.055' in r['expression']],'Smile_input_downstream_ON_OFF':transforms,'bounded_case_outputs':case,'causal_disposition':'Zero Smile/Blink response in these original board-input probes is explained by13 source HEAD FaceBoard bridge Fcurves already muted. Read-only authoring GUI confirms same mute flags and no autoexec failure. Do not label as missing Unity shader or source corruption; source dispatch/mute policy is an unresolved ownership contract. Do not unmute/rewrite source silently.','shader_only':'These13 bridges target shape-key values, not shader-only controls. Their zeros leave dependent blink pigments/lashes inactive; gaze custom props separately drive executable GN with nonzero outputs and geometry measured.','variable_evaluation_limit':'Native evaluated local bone matrices/locations and downstream outputs recorded. Blender does not expose runtime DriverVariable value as public RNA; transform conversion is a diagnostic, not a claim to query private driver evaluator. No namespace registration required by observed expressions; no source scripts executed.','F2':'NOT PASS: board-driven expression path muted; combined body/head/gaze/face/hair performance and multicamera1x not certified.'}
+for p in (E/'CONTROL_CAUSAL_RECEIPT.json',OUT/'metadata/CONTROL_CAUSAL_RECEIPT.json'):p.write_text(json.dumps(result,indent=2),encoding='utf8')
+print('CONTROL_CAUSAL_COUNTS',result['counts'])

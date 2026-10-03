@@ -1,0 +1,13 @@
+{
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "component_differences": 0,
+  "packed_images": 15,
+  "source_renderer_meshes": 21,
+  "evaluated_reference_cases": 43,
+  "material_graphs": 19,
+  "source_saved": false,
+  "canonical_geometry_rest_weights_drivers_actions_changed": false,
+  "float_array_format": "NPZ float32 source RNA values; world evaluation matrices mathutils float32; texture bytes exact without image re-encode",
+  "prior_packet_reuse": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1",
+  "unsupported_runtime": "Blender node/driver semantics provided; Unity implementation remains consumer feasibility HOLD"
+}

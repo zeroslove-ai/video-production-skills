@@ -1,0 +1,68 @@
+[
+  {
+    "renderer": "Meshy_Body_NeutralCovered",
+    "group": "R3_Surface_LinearBlend",
+    "nonzero_vertices": 29081,
+    "min": 0.0,
+    "max": 1.0,
+    "exact_pointer": "frozen ZIP4ec5c10... reference/source_original_vertex_weights.json.gz; groups index\u2192influences pervertex",
+    "usage": [
+      "R3 neck and joints - local linear blend"
+    ]
+  },
+  {
+    "renderer": "Meshy_Body_NeutralCovered",
+    "group": "R3_Joint_CorrectiveSmooth",
+    "nonzero_vertices": 28291,
+    "min": 0.0,
+    "max": 1.0,
+    "exact_pointer": "frozen ZIP4ec5c10... reference/source_original_vertex_weights.json.gz; groups index\u2192influences pervertex",
+    "usage": [
+      "R3 local joint surface relaxation"
+    ]
+  },
+  {
+    "renderer": "Meshy_Body_NeutralCovered",
+    "group": "R3_Shoulder_PoseRelax.L",
+    "nonzero_vertices": 6102,
+    "min": 0.0,
+    "max": 0.9999999403953552,
+    "exact_pointer": "frozen ZIP4ec5c10... reference/source_original_vertex_weights.json.gz; groups index\u2192influences pervertex",
+    "usage": [
+      "R3 raised shoulder surface L"
+    ]
+  },
+  {
+    "renderer": "Meshy_Body_NeutralCovered",
+    "group": "R3_Shoulder_PoseRelax.R",
+    "nonzero_vertices": 6117,
+    "min": 0.0,
+    "max": 1.0,
+    "exact_pointer": "frozen ZIP4ec5c10... reference/source_original_vertex_weights.json.gz; groups index\u2192influences pervertex",
+    "usage": [
+      "R3 raised shoulder surface R"
+    ]
+  },
+  {
+    "renderer": "Meshy_Body_NeutralCovered",
+    "group": "R3_Hip_PoseRelax.L",
+    "nonzero_vertices": 8037,
+    "min": 0.0,
+    "max": 1.0,
+    "exact_pointer": "frozen ZIP4ec5c10... reference/source_original_vertex_weights.json.gz; groups index\u2192influences pervertex",
+    "usage": [
+      "R3 bent hip surface L"
+    ]
+  },
+  {
+    "renderer": "Meshy_Body_NeutralCovered",
+    "group": "R3_Hip_PoseRelax.R",
+    "nonzero_vertices": 8025,
+    "min": 0.0,
+    "max": 1.0,
+    "exact_pointer": "frozen ZIP4ec5c10... reference/source_original_vertex_weights.json.gz; groups index\u2192influences pervertex",
+    "usage": [
+      "R3 bent hip surface R"
+    ]
+  }
+]

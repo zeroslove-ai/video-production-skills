@@ -1,0 +1,298 @@
+[
+  {
+    "renderer": "Character_Body_Head",
+    "file": "data/Character_Body_Head_corner_basis.npz",
+    "sha256": "c6a1065172c27ebcbdc1a7b34325cabee3c6420aa44c2a562434f9ea23aea4ad",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "Globe.L",
+    "file": "data/Globe.L_corner_basis.npz",
+    "sha256": "4c1fabffdd7b10747aacd7221a5e9af37a6c75e54ee71eba4605c9d77a9a1799",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "Globe.R",
+    "file": "data/Globe.R_corner_basis.npz",
+    "sha256": "1b9bec4d5da9f44c91a4d20521260cef60b9874f6e2a3442bea11cd72a6a4e11",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "Hair_Replacement_R4",
+    "file": "data/Hair_Replacement_R4_corner_basis.npz",
+    "sha256": "48fa9a090c12816a3874818d8d9bd38c3b49e6f98331accc22cf140c5df674c6",
+    "UV": [],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.L.1",
+    "file": "data/LashRootRepair.L.1_corner_basis.npz",
+    "sha256": "59446efe04e7c8bb68df5eed7f96a217de0e78a2c6d2668b42fa89c7c2222d35",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.L.2",
+    "file": "data/LashRootRepair.L.2_corner_basis.npz",
+    "sha256": "c187a746572d7cd3d63d2ccc45c378a6d21b6d24ea57c2717434d6bcbdbf6c15",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.L.3",
+    "file": "data/LashRootRepair.L.3_corner_basis.npz",
+    "sha256": "614b4e1367c601bb92cf5bfeb355b64027344e03224c9b054e04db0a6f6f2ae8",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.L.4",
+    "file": "data/LashRootRepair.L.4_corner_basis.npz",
+    "sha256": "168b7d338492e4fbedd3420a07875f0930acc1ac3db630c575c41fa5e5bd6c76",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.L.5",
+    "file": "data/LashRootRepair.L.5_corner_basis.npz",
+    "sha256": "54bab565d9e1c740f5a0ceca2c23e08dbc63e2c953279b8f800f0b6f3fa23846",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.R.1",
+    "file": "data/LashRootRepair.R.1_corner_basis.npz",
+    "sha256": "6b776cfa5cb263f98899c98344fa5f382aabe8a9584d46315c6af0e476feb7c3",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.R.2",
+    "file": "data/LashRootRepair.R.2_corner_basis.npz",
+    "sha256": "1f6a311e4750a2a5334c37eb410a231a0fe9d2aa1f6bb2dacb189500feb3246c",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.R.3",
+    "file": "data/LashRootRepair.R.3_corner_basis.npz",
+    "sha256": "094e770c07a0ab016da18514c8916d87961149a84a7bf603ccea66866bbef6f7",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.R.4",
+    "file": "data/LashRootRepair.R.4_corner_basis.npz",
+    "sha256": "94329496083bce28da86c9a5a136c73a0f142fb54b135cfae4dbeeef9bfc1445",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LashRootRepair.R.5",
+    "file": "data/LashRootRepair.R.5_corner_basis.npz",
+    "sha256": "fa63ef34586edd8a16748473e3f463d7225e513c643f10246855313e6d3edbcd",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LowerLashesClean.L",
+    "file": "data/LowerLashesClean.L_corner_basis.npz",
+    "sha256": "7006b2ad8bcc52d15a923d0f789a8ff5f7c0286e4026ba7771ab67b389c6e068",
+    "UV": [],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "LowerLashesClean.R",
+    "file": "data/LowerLashesClean.R_corner_basis.npz",
+    "sha256": "40c3e3dd9147c2931f8132759d59d13baf6856abc3b7434ca273331912510959",
+    "UV": [],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "MedialBacking.L",
+    "file": "data/MedialBacking.L_corner_basis.npz",
+    "sha256": "8db97e44b6abd8c7bd4d08193bda3b16b0ff8cc3e38bc3cd0e737bf40f85e5ab",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "MedialBacking.R",
+    "file": "data/MedialBacking.R_corner_basis.npz",
+    "sha256": "9676dd7dbb840edde6b1aa603920648542a68d5cbb7d7b7edf2ce598a6a1b367",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "Meshy_Body_NeutralCovered",
+    "file": "data/Meshy_Body_NeutralCovered_corner_basis.npz",
+    "sha256": "510dc196bec19df6a378672595692f863db00ef80591aae661053969d946f7e9",
+    "UV": [
+      {
+        "name": "UVMap",
+        "unsupported": "Error: Tangent space can only be computed for tris/quads, aborting\n"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "OriginalMedialLashes.L",
+    "file": "data/OriginalMedialLashes.L_corner_basis.npz",
+    "sha256": "0d94e36bd4e201e71854295bb95bb66f53da9089891370bb775475a1ff372ad3",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  },
+  {
+    "renderer": "OriginalMedialLashes.R",
+    "file": "data/OriginalMedialLashes.R_corner_basis.npz",
+    "sha256": "6ed58c491d17b313301e2930eace72f0861ce5354e9d9d408f72d6d27d1cb3d6",
+    "UV": [
+      {
+        "name": "UVMap",
+        "tangent_array": "tangent_uv0",
+        "bitangent_sign_array": "bitangent_sign_uv0"
+      }
+    ],
+    "corner_normals": "source local-space evaluated original mesh normals before runtime modifiers",
+    "tangent_convention": "bitangent=sign*cross(normal,tangent); corner order original loop indices; no Y flip",
+    "triangulation": "Blender native calc_loop_triangles on copy; original polygon/slot indices retained; no source triangulation edit"
+  }
+]

@@ -1,0 +1,1540 @@
+{
+  "scope": "Original body mesh read-only shared by temporary disposable object-copy; source modifiers unchanged, source rig/Action untouched; copy removed",
+  "source_component_diff": {},
+  "source_saved": false,
+  "array_file": "data/Strong_1_49_deformation_layer_ablation.npz",
+  "sha256": "6a9f608c3bbc111fc7192e564de09ba4b7cb3742cb432df0676f08ed4683c71c",
+  "arrays": [
+    {
+      "frame": 1,
+      "stage": "native_full",
+      "array": "native_full_frame1",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": true,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "stage": "DQ_maskedLBS_no_surface",
+      "array": "DQ_maskedLBS_no_surface_frame1",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": true,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "stage": "DQ_only",
+      "array": "DQ_only_frame1",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": true,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "stage": "LBS_only",
+      "array": "LBS_only_frame1",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "stage": "native_full",
+      "array": "native_full_frame49",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": true,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "stage": "DQ_maskedLBS_no_surface",
+      "array": "DQ_maskedLBS_no_surface_frame49",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": true,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "stage": "DQ_only",
+      "array": "DQ_only_frame49",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": true,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 49,
+      "stage": "LBS_only",
+      "array": "LBS_only_frame49",
+      "vertices": 63561,
+      "modifier_settings": [
+        [
+          "Armature",
+          {
+            "type": "ARMATURE",
+            "show_viewport": true,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 312629205,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": false,
+            "vertex_group": "",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 neck and joints - local linear blend",
+          {
+            "type": "ARMATURE",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 1714171291,
+            "object": [
+              "Object",
+              "Meshy_Fitted_Rig"
+            ],
+            "use_bone_envelopes": false,
+            "use_vertex_groups": true,
+            "use_deform_preserve_volume": false,
+            "use_multi_modifier": true,
+            "vertex_group": "R3_Surface_LinearBlend",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 local joint surface relaxation",
+          {
+            "type": "CORRECTIVE_SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 697597798,
+            "factor": 0.222682386636734,
+            "iterations": 24,
+            "scale": 1.0,
+            "rest_source": "ORCO",
+            "smooth_type": "LENGTH_WEIGHTED",
+            "invert_vertex_group": false,
+            "vertex_group": "R3_Joint_CorrectiveSmooth",
+            "is_bind": false,
+            "use_only_smooth": false,
+            "use_pin_boundary": true
+          }
+        ],
+        [
+          "R3 raised shoulder surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 486562295,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 raised shoulder surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 686560588,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 60,
+            "vertex_group": "R3_Shoulder_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface L",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": false,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 900884336,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.L",
+            "invert_vertex_group": false
+          }
+        ],
+        [
+          "R3 bent hip surface R",
+          {
+            "type": "SMOOTH",
+            "show_viewport": false,
+            "show_render": true,
+            "show_in_editmode": false,
+            "show_on_cage": false,
+            "show_expanded": true,
+            "is_active": true,
+            "use_pin_to_last": false,
+            "is_override_data": false,
+            "use_apply_on_spline": false,
+            "execution_time": 0.0,
+            "persistent_uid": 483710664,
+            "use_x": true,
+            "use_y": true,
+            "use_z": true,
+            "factor": 0.0,
+            "iterations": 220,
+            "vertex_group": "R3_Hip_PoseRelax.R",
+            "invert_vertex_group": false
+          }
+        ]
+      ]
+    }
+  ],
+  "layer_metrics": [
+    {
+      "frame": 1,
+      "layer_difference": "native_full versus DQ_maskedLBS_no_surface",
+      "max_m": 0.001454683137126267,
+      "RMS_m": 3.836999167106114e-05,
+      "p95_m": 6.637798651354387e-05,
+      "worst_vertex": 1981
+    },
+    {
+      "frame": 1,
+      "layer_difference": "DQ_maskedLBS_no_surface versus DQ_only",
+      "max_m": 0.0014359459746629,
+      "RMS_m": 0.00014257007569540292,
+      "p95_m": 0.0002618061553221196,
+      "worst_vertex": 9306
+    },
+    {
+      "frame": 1,
+      "layer_difference": "DQ_only versus LBS_only",
+      "max_m": 0.003928732126951218,
+      "RMS_m": 0.0004758961731567979,
+      "p95_m": 0.0010874512372538447,
+      "worst_vertex": 47693
+    },
+    {
+      "frame": 49,
+      "layer_difference": "native_full versus DQ_maskedLBS_no_surface",
+      "max_m": 0.0014546896563842893,
+      "RMS_m": 3.837013355223462e-05,
+      "p95_m": 6.638472405029461e-05,
+      "worst_vertex": 1981
+    },
+    {
+      "frame": 49,
+      "layer_difference": "DQ_maskedLBS_no_surface versus DQ_only",
+      "max_m": 0.001435943995602429,
+      "RMS_m": 0.00014256841677706689,
+      "p95_m": 0.0002617790305521339,
+      "worst_vertex": 9306
+    },
+    {
+      "frame": 49,
+      "layer_difference": "DQ_only versus LBS_only",
+      "max_m": 0.003928724676370621,
+      "RMS_m": 0.00047589390305802226,
+      "p95_m": 0.0010874962899833918,
+      "worst_vertex": 47693
+    }
+  ],
+  "caveat": "Layer ablations show actual Blender stack responses; do not promote LBS-only or retune canonical masks. Full native procedure remains authority."
+}

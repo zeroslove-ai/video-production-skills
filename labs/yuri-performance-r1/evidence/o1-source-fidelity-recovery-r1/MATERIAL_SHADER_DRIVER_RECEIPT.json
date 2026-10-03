@@ -1,0 +1,1306 @@
+{
+  "source_component_diff": {},
+  "material_shader_node_tree_owners": [
+    {
+      "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+      "drivers": [
+        {
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(1,blink*4)",
+          "variables": [
+            {
+              "name": "blink",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Key",
+                    "FaceControls_TEST_Jaw_Smile.001"
+                  ],
+                  "id_type": "KEY",
+                  "data_path": "key_blocks[\"Blink.L\"].value",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(1,blink*4)*0.60",
+          "variables": [
+            {
+              "name": "blink",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Key",
+                    "FaceControls_TEST_Jaw_Smile.001"
+                  ],
+                  "id_type": "KEY",
+                  "data_path": "key_blocks[\"Blink.L\"].value",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+      "drivers": [
+        {
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(1,blink*4)",
+          "variables": [
+            {
+              "name": "blink",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Key",
+                    "FaceControls_TEST_Jaw_Smile.001"
+                  ],
+                  "id_type": "KEY",
+                  "data_path": "key_blocks[\"Blink.R\"].value",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(1,blink*4)*0.60",
+          "variables": [
+            {
+              "name": "blink",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Key",
+                    "FaceControls_TEST_Jaw_Smile.001"
+                  ],
+                  "id_type": "KEY",
+                  "data_path": "key_blocks[\"Blink.R\"].value",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+      "drivers": [
+        {
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(1,blink*4)",
+          "variables": [
+            {
+              "name": "blink",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Key",
+                    "FaceControls_TEST_Jaw_Smile.001"
+                  ],
+                  "id_type": "KEY",
+                  "data_path": "key_blocks[\"Blink.L\"].value",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(1,blink*4)",
+          "variables": [
+            {
+              "name": "blink",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Key",
+                    "FaceControls_TEST_Jaw_Smile.001"
+                  ],
+                  "id_type": "KEY",
+                  "data_path": "key_blocks[\"Blink.R\"].value",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+      "drivers": [
+        {
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(max(opacity,0.0),1.0)",
+          "variables": [
+            {
+              "name": "opacity",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Object",
+                    "QA_Grasp_Prop"
+                  ],
+                  "id_type": "OBJECT",
+                  "data_path": "[\"QA_Prop_Opacity\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+      "drivers": [
+        {
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "mute": false,
+          "valid": true,
+          "expression": "min(max(opacity,0.0),1.0)",
+          "variables": [
+            {
+              "name": "opacity",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": [
+                    "Object",
+                    "QA_Grasp_Prop"
+                  ],
+                  "id_type": "OBJECT",
+                  "data_path": "[\"QA_Prop_Opacity\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "rotation_mode": "AUTO",
+                  "transform_space": "WORLD_SPACE",
+                  "context_property": "ACTIVE_SCENE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0,
+                  "is_fallback_used": false
+                }
+              ]
+            }
+          ],
+          "curve_modifiers": [
+            {
+              "type": "GENERATOR",
+              "show_expanded": true,
+              "mute": false,
+              "is_valid": true,
+              "active": true,
+              "use_restricted_range": false,
+              "frame_start": 0.0,
+              "frame_end": 0.0,
+              "blend_in": 0.0,
+              "blend_out": 0.0,
+              "use_influence": false,
+              "influence": 1.0,
+              "use_additive": false,
+              "mode": "POLYNOMIAL",
+              "poly_order": 1,
+              "coefficients": [
+                0.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "manual_input_output_OFF_ON_OFF": [
+    {
+      "manual_input": "blink",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "blink",
+      "amplitude": 1,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.6000000238418579,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.6000000238418579,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "blink",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "smile",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "smile",
+      "amplitude": 1,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "smile",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "jaw",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "jaw",
+      "amplitude": 1,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "jaw",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "brow",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "brow",
+      "amplitude": 1,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    },
+    {
+      "manual_input": "brow",
+      "amplitude": 0,
+      "material_owned_driver_outputs": [
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.L/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/ContinuousEyeSkin.R/node_tree",
+          "path": "nodes[\"Math\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001/node_tree",
+          "path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+          "index": 0,
+          "value": 0.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Pedestal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        },
+        {
+          "owner_path": "Material/QA_Prop_Teal_TourStageFade/node_tree",
+          "path": "nodes[\"Tour prop visibility\"].inputs[0].default_value",
+          "index": 0,
+          "value": 1.0,
+          "valid": true,
+          "muted": false
+        }
+      ]
+    }
+  ],
+  "additional_driver_count": 8,
+  "note": "Material node trees are not in bpy.data.node_groups. Previous872 counted object/Key/GN/material IDs; this supplement completes shader-owner coverage without duplicate graph data."
+}

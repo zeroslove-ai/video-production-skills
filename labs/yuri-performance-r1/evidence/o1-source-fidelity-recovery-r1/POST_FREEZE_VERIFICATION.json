@@ -1,0 +1,16 @@
+{
+  "source_SHA256_verified": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "prior_frozen_probe_unchanged": true,
+  "package_SHA256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+  "split_reassembly_SHA256_verified": true,
+  "split_total_bytes": 178349363,
+  "zip_CRC_member_hashes_verified": true,
+  "zip_members": 200,
+  "staged_copy_native_full_vs_original_max_world_vertex_delta_m": 3.332000986233652e-08,
+  "parent_commit": "d204379bb8dbab7749a8819863437e788b9ce9ee",
+  "quality_reference_read": {
+    "PM_AGENTS_blob": "1e022e0bab56fac7292371d95c0a77bc25dcf29a",
+    "MOTION_PERFORMANCE_NORTH_STAR_blob": "fce303892cff42b004cdb311b5025ce078909ff4"
+  },
+  "next": "PM REVIEW / consumer adapter feasibility; source mute policy and strict bind representation unresolved"
+}

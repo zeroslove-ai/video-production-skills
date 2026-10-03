@@ -1,0 +1,307 @@
+{
+  "renderer": "Globe.L",
+  "bind_identity_residual_by_bone": [
+    {
+      "bone": "Root",
+      "bind_identity_matrix_max_element_delta": 7.351768187280339e-10,
+      "import_inversebind_vs_source_max_element_delta": 2.384185791015625e-07
+    },
+    {
+      "bone": "J_Bip_C_Hips",
+      "bind_identity_matrix_max_element_delta": 2.4123370634399066e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.7881393432617188e-07
+    },
+    {
+      "bone": "J_Bip_C_Spine",
+      "bind_identity_matrix_max_element_delta": 5.960456794795732e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.384185791015625e-07
+    },
+    {
+      "bone": "J_Bip_C_Chest",
+      "bind_identity_matrix_max_element_delta": 3.878887511188367e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.0547380447387695e-07
+    },
+    {
+      "bone": "J_Bip_C_UpperChest",
+      "bind_identity_matrix_max_element_delta": 1.054524916277444e-07,
+      "import_inversebind_vs_source_max_element_delta": 1.1920928955078125e-07
+    },
+    {
+      "bone": "J_Bip_C_Neck",
+      "bind_identity_matrix_max_element_delta": 4.8709983380135213e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.7881393432617188e-07
+    },
+    {
+      "bone": "J_Bip_C_Head",
+      "bind_identity_matrix_max_element_delta": 6.775216865317901e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "J_Adj_L_FaceEye",
+      "bind_identity_matrix_max_element_delta": 6.05615348980848e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "J_Adj_R_FaceEye",
+      "bind_identity_matrix_max_element_delta": 5.903349253877366e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.172325134277344e-07
+    },
+    {
+      "bone": "MOTION5H_HairTip.L",
+      "bind_identity_matrix_max_element_delta": 5.960466820109644e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.7695128917694092e-07
+    },
+    {
+      "bone": "MOTION5H_HairTip.R",
+      "bind_identity_matrix_max_element_delta": 5.960461302301212e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.8283807629314595e-07
+    },
+    {
+      "bone": "J_Bip_L_Shoulder",
+      "bind_identity_matrix_max_element_delta": 1.4459062480653984e-07,
+      "import_inversebind_vs_source_max_element_delta": 3.129243850708008e-07
+    },
+    {
+      "bone": "J_Bip_L_UpperArm",
+      "bind_identity_matrix_max_element_delta": 2.5608734022242174e-08,
+      "import_inversebind_vs_source_max_element_delta": 8.6973886936903e-07
+    },
+    {
+      "bone": "J_Bip_L_LowerArm",
+      "bind_identity_matrix_max_element_delta": 8.650603366966436e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.384185791015625e-06
+    },
+    {
+      "bone": "J_Bip_L_Hand",
+      "bind_identity_matrix_max_element_delta": 7.459085904493179e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.76837158203125e-07
+    },
+    {
+      "bone": "J_Bip_L_Thumb1",
+      "bind_identity_matrix_max_element_delta": 5.606804109881125e-08,
+      "import_inversebind_vs_source_max_element_delta": 9.5367431640625e-07
+    },
+    {
+      "bone": "J_Bip_L_Thumb2",
+      "bind_identity_matrix_max_element_delta": 7.140105040548406e-08,
+      "import_inversebind_vs_source_max_element_delta": 6.109476089477539e-07
+    },
+    {
+      "bone": "J_Bip_L_Thumb3",
+      "bind_identity_matrix_max_element_delta": 5.708081762811901e-08,
+      "import_inversebind_vs_source_max_element_delta": 8.791685104370117e-07
+    },
+    {
+      "bone": "J_Bip_L_Index1",
+      "bind_identity_matrix_max_element_delta": 2.367945439729624e-08,
+      "import_inversebind_vs_source_max_element_delta": 5.289912223815918e-07
+    },
+    {
+      "bone": "J_Bip_L_Index2",
+      "bind_identity_matrix_max_element_delta": 6.23247877751254e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.2370368242263794e-05
+    },
+    {
+      "bone": "J_Bip_L_Index3",
+      "bind_identity_matrix_max_element_delta": 5.889372367562373e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.8859823942184448e-05
+    },
+    {
+      "bone": "J_Bip_L_Middle1",
+      "bind_identity_matrix_max_element_delta": 5.9604640334498526e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.5802929093952116e-07
+    },
+    {
+      "bone": "J_Bip_L_Middle2",
+      "bind_identity_matrix_max_element_delta": 7.443028648967953e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.470348358154297e-07
+    },
+    {
+      "bone": "J_Bip_L_Middle3",
+      "bind_identity_matrix_max_element_delta": 8.290759412332704e-08,
+      "import_inversebind_vs_source_max_element_delta": 7.867813110351562e-06
+    },
+    {
+      "bone": "J_Bip_L_Ring1",
+      "bind_identity_matrix_max_element_delta": 9.367089925937933e-08,
+      "import_inversebind_vs_source_max_element_delta": 5.736947059631348e-07
+    },
+    {
+      "bone": "J_Bip_L_Ring2",
+      "bind_identity_matrix_max_element_delta": 7.22054035451336e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.3958425521850586e-07
+    },
+    {
+      "bone": "J_Bip_L_Ring3",
+      "bind_identity_matrix_max_element_delta": 7.294130754953443e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.246830940246582e-07
+    },
+    {
+      "bone": "J_Bip_L_Little1",
+      "bind_identity_matrix_max_element_delta": 7.382058486715692e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "J_Bip_L_Little2",
+      "bind_identity_matrix_max_element_delta": 1.3040869750735595e-07,
+      "import_inversebind_vs_source_max_element_delta": 9.462237358093262e-07
+    },
+    {
+      "bone": "J_Bip_L_Little3",
+      "bind_identity_matrix_max_element_delta": 7.630948128944937e-08,
+      "import_inversebind_vs_source_max_element_delta": 9.5367431640625e-07
+    },
+    {
+      "bone": "J_Bip_R_Shoulder",
+      "bind_identity_matrix_max_element_delta": 5.699279698179183e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.5762786865234375e-07
+    },
+    {
+      "bone": "J_Bip_R_UpperArm",
+      "bind_identity_matrix_max_element_delta": 8.028688480710144e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.4156103134155273e-07
+    },
+    {
+      "bone": "J_Bip_R_LowerArm",
+      "bind_identity_matrix_max_element_delta": 1.3241526930496406e-07,
+      "import_inversebind_vs_source_max_element_delta": 2.384185791015625e-07
+    },
+    {
+      "bone": "J_Bip_R_Hand",
+      "bind_identity_matrix_max_element_delta": 5.718844930946432e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.76837158203125e-07
+    },
+    {
+      "bone": "J_Bip_R_Thumb1",
+      "bind_identity_matrix_max_element_delta": 6.778055550160644e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.8477439880371094e-06
+    },
+    {
+      "bone": "J_Bip_R_Thumb2",
+      "bind_identity_matrix_max_element_delta": 4.72328657297183e-08,
+      "import_inversebind_vs_source_max_element_delta": 8.046627044677734e-07
+    },
+    {
+      "bone": "J_Bip_R_Thumb3",
+      "bind_identity_matrix_max_element_delta": 7.876395535788561e-08,
+      "import_inversebind_vs_source_max_element_delta": 6.3478946685791016e-06
+    },
+    {
+      "bone": "J_Bip_R_Index1",
+      "bind_identity_matrix_max_element_delta": 9.096798914143278e-08,
+      "import_inversebind_vs_source_max_element_delta": 6.556510925292969e-07
+    },
+    {
+      "bone": "J_Bip_R_Index2",
+      "bind_identity_matrix_max_element_delta": 5.299410077430622e-08,
+      "import_inversebind_vs_source_max_element_delta": 3.8743019104003906e-07
+    },
+    {
+      "bone": "J_Bip_R_Index3",
+      "bind_identity_matrix_max_element_delta": 1.0514307446918281e-07,
+      "import_inversebind_vs_source_max_element_delta": 3.5390257835388184e-07
+    },
+    {
+      "bone": "J_Bip_R_Middle1",
+      "bind_identity_matrix_max_element_delta": 5.1591204197620755e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.123415470123291e-07
+    },
+    {
+      "bone": "J_Bip_R_Middle2",
+      "bind_identity_matrix_max_element_delta": 4.0708973747527466e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.824482751544565e-07
+    },
+    {
+      "bone": "J_Bip_R_Middle3",
+      "bind_identity_matrix_max_element_delta": 1.5717387336078303e-08,
+      "import_inversebind_vs_source_max_element_delta": 2.8929228790275374e-07
+    },
+    {
+      "bone": "J_Bip_R_Ring1",
+      "bind_identity_matrix_max_element_delta": 6.322816725745639e-08,
+      "import_inversebind_vs_source_max_element_delta": 8.344650268554688e-07
+    },
+    {
+      "bone": "J_Bip_R_Ring2",
+      "bind_identity_matrix_max_element_delta": 8.899218595370684e-08,
+      "import_inversebind_vs_source_max_element_delta": 8.940696716308594e-07
+    },
+    {
+      "bone": "J_Bip_R_Ring3",
+      "bind_identity_matrix_max_element_delta": 8.296667908247457e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.0132789611816406e-06
+    },
+    {
+      "bone": "J_Bip_R_Little1",
+      "bind_identity_matrix_max_element_delta": 6.847976319335203e-08,
+      "import_inversebind_vs_source_max_element_delta": 7.82310962677002e-07
+    },
+    {
+      "bone": "J_Bip_R_Little2",
+      "bind_identity_matrix_max_element_delta": 7.587926309504667e-08,
+      "import_inversebind_vs_source_max_element_delta": 7.748603820800781e-07
+    },
+    {
+      "bone": "J_Bip_R_Little3",
+      "bind_identity_matrix_max_element_delta": 8.306521559475755e-08,
+      "import_inversebind_vs_source_max_element_delta": 9.5367431640625e-07
+    },
+    {
+      "bone": "J_Bip_L_UpperLeg",
+      "bind_identity_matrix_max_element_delta": 9.4592627286616e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.2330710887908936e-06
+    },
+    {
+      "bone": "J_Bip_L_LowerLeg",
+      "bind_identity_matrix_max_element_delta": 3.811018367549934e-08,
+      "import_inversebind_vs_source_max_element_delta": 9.57399606704712e-07
+    },
+    {
+      "bone": "J_Bip_L_Foot",
+      "bind_identity_matrix_max_element_delta": 2.5372785650290552e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.3709068298339844e-06
+    },
+    {
+      "bone": "J_Bip_L_ToeBase",
+      "bind_identity_matrix_max_element_delta": 9.046397275724871e-08,
+      "import_inversebind_vs_source_max_element_delta": 7.748603820800781e-07
+    },
+    {
+      "bone": "J_Bip_R_UpperLeg",
+      "bind_identity_matrix_max_element_delta": 5.5953968791655484e-08,
+      "import_inversebind_vs_source_max_element_delta": 6.221234798431396e-07
+    },
+    {
+      "bone": "J_Bip_R_LowerLeg",
+      "bind_identity_matrix_max_element_delta": 6.759941451051077e-08,
+      "import_inversebind_vs_source_max_element_delta": 4.991888999938965e-07
+    },
+    {
+      "bone": "J_Bip_R_Foot",
+      "bind_identity_matrix_max_element_delta": 5.5649799435286695e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.0728836059570312e-06
+    },
+    {
+      "bone": "J_Bip_R_ToeBase",
+      "bind_identity_matrix_max_element_delta": 5.584091766763777e-08,
+      "import_inversebind_vs_source_max_element_delta": 1.7881393432617188e-06
+    }
+  ],
+  "source_pure_LBS_at_raw_rest_vs_undeformed_world": {
+    "max_m": 6.561438988066037e-08,
+    "RMS_m": 6.476038754523821e-08,
+    "p50_m": 6.476038067698738e-08,
+    "p95_m": 6.548823243792031e-08,
+    "p99_m": 6.558808284769366e-08,
+    "worst_vertex": 8292
+  },
+  "source_pure_LBS_at_evaluated_OFF_vs_native_evaluated_geometry": {
+    "max_m": 9.600343533607708e-08,
+    "RMS_m": 9.306993736915735e-08,
+    "p50_m": 9.30033920585991e-08,
+    "p95_m": 9.542005425829801e-08,
+    "p99_m": 9.583903377915692e-08,
+    "worst_vertex": 7436
+  },
+  "method": "normalized positive deform-bone weights; first armature only; pure LBS diagnostic, not DQ/masked second armature/GN/surface replay"
+}

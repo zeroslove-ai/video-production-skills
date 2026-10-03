@@ -1,0 +1,191 @@
+{
+  "source_saved": false,
+  "source_component_differences": 0,
+  "CPU_only": true,
+  "image_references": [
+    {
+      "renderer": "Character_Body_Head",
+      "channel": "Base Color",
+      "path": "neutral_bakes/Character_Body_Head_Base_Color_512.exr",
+      "sha256": "a700d94022eb994d8c338a5233fe48c77da4112a7ec55285783716b7f674e73b",
+      "bytes": 1449331,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Character_Body_Head",
+      "channel": "Alpha",
+      "path": "neutral_bakes/Character_Body_Head_Alpha_512.exr",
+      "sha256": "9dd2e2c4ee9a07ebdc6ae656ceb6ff8dff217ba7c1f7c1dd4320a8e6d50b0362",
+      "bytes": 5809,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Character_Body_Head",
+      "channel": "Tangent Normal",
+      "path": "neutral_bakes/Character_Body_Head_Tangent_Normal_512.exr",
+      "sha256": "ac81156a5ebf1f20e9d3d962a0f60dd060307190cf0b6f8e7f1d88b351d4a0e9",
+      "bytes": 813898,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Globe.L",
+      "channel": "Base Color",
+      "path": "neutral_bakes/Globe.L_Base_Color_512.exr",
+      "sha256": "779b8b69897451ad24413b0fc67842e1e0e1ccd57b3b4dbb21c9528a6dea61bc",
+      "bytes": 19034,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Globe.L",
+      "channel": "Alpha",
+      "path": "neutral_bakes/Globe.L_Alpha_512.exr",
+      "sha256": "4e9588690a11b155bc4b21a2661814d34fc00e23f103abcbedc9fed8f2243f1c",
+      "bytes": 13514,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Globe.L",
+      "channel": "Tangent Normal",
+      "path": "neutral_bakes/Globe.L_Tangent_Normal_512.exr",
+      "sha256": "d0f48a103162223d60eb7814a108903a5438a2e2e1e7cbc8be268cf89860c407",
+      "bytes": 12642,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Globe.R",
+      "channel": "Base Color",
+      "path": "neutral_bakes/Globe.R_Base_Color_512.exr",
+      "sha256": "846f016af03b88729e2991d203b6c823e0669180fba0d74e658e8b18e3c99673",
+      "bytes": 18859,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Globe.R",
+      "channel": "Alpha",
+      "path": "neutral_bakes/Globe.R_Alpha_512.exr",
+      "sha256": "131c774ba261783e626816cfbb25431cc9805d7066e3f3acd89ce95a91b77f61",
+      "bytes": 13388,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Globe.R",
+      "channel": "Tangent Normal",
+      "path": "neutral_bakes/Globe.R_Tangent_Normal_512.exr",
+      "sha256": "b9c6fcb8f9f622969d4f808387b5463debd4810b2b15ac68be2a67927b13f1d2",
+      "bytes": 12523,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Meshy_Body_NeutralCovered",
+      "channel": "Base Color",
+      "path": "neutral_bakes/Meshy_Body_NeutralCovered_Base_Color_512.exr",
+      "sha256": "d82d8bd9bf49289ac498d965a7ca8771fdc326fbac950b41e9defc3ac67f62ab",
+      "bytes": 954726,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Meshy_Body_NeutralCovered",
+      "channel": "Alpha",
+      "path": "neutral_bakes/Meshy_Body_NeutralCovered_Alpha_512.exr",
+      "sha256": "880c1a9f78418c0a7f8297ae525d0a78fc555e6867ceff1495ea33cd2050a693",
+      "bytes": 113682,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    },
+    {
+      "renderer": "Meshy_Body_NeutralCovered",
+      "channel": "Tangent Normal",
+      "path": "neutral_bakes/Meshy_Body_NeutralCovered_Tangent_Normal_512.exr",
+      "sha256": "829432545563c2a615d95303cc5d1f68cc20180867f58d2b17498dacd21158ae",
+      "bytes": 1077265,
+      "dimensions": [
+        512,
+        512
+      ],
+      "UV": "UVMap",
+      "space": "scene-linear RGB without display view transform; Alpha in RGB (do not confuse image coverage A)",
+      "normal_convention": "Blender tangent bake R:+X,G:+Y,B:+Z; encoded [0,1] to[-1,1]; preserve original UV orientation, no automatic green inversion",
+      "purpose": "Frozen source neutral input reference only; not authoritative source texture; combined slots may overlap UVs, exact polygon/UV assignment remains authority"
+    }
+  ],
+  "opacity": "Principled Alpha actual input graph sampled; no opacity redesign",
+  "roughness": "Original graph/packed Non-Color texture authoritative; Unity smoothness=1-roughness where same scalar convention, no clamp/tuning permitted",
+  "masks": "Exact source POINT/CORNER attributes and polygon material-slot arrays in NPZ; no invented color mask",
+  "limitations": "512px neutral UV diagnostic, not dynamic material equivalence; positional/procedural terms and board/blink drivers must remain executable. UV overlap/lighting/PBR differences are not hidden."
+}

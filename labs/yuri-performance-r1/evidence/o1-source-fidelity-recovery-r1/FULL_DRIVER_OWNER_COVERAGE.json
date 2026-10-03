@@ -1,0 +1,17 @@
+{
+  "objects_Key_GN_material_ID_drivers": {
+    "total": 872,
+    "muted": 13,
+    "unmuted": 859,
+    "invalid_driver": 0,
+    "invalid_fcurve": 0,
+    "nonstandard_namespace_names": []
+  },
+  "additional_material_owned_ShaderNodeTree_drivers": 8,
+  "total_driver_count": 880,
+  "muted_total": 13,
+  "invalid_shader_drivers": 0,
+  "namespace_registration": "No nonstandard names found; no registration performed",
+  "manual_morph_owner": "Head Key data values; board13 remains original muted; linked lash/material drivers consume these direct values",
+  "source_mute_policy_author": "Unknown; original shipped state confirmed, body-only adapter does not own or change it."
+}

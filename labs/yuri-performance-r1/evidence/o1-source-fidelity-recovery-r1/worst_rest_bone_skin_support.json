@@ -1,0 +1,237 @@
+[
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "Character_Body_Head",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "Globe.L",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "Globe.R",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Hair_Rig_R4",
+    "bone": "Hair_Pony_03",
+    "renderer": "Hair_Replacement_R4",
+    "descendants": [
+      "Hair_Pony_03",
+      "Hair_Pony_04"
+    ],
+    "positive_skin_influenced_vertex_count": 1025,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.L.1",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.L.2",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.L.3",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.L.4",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.L.5",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.R.1",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.R.2",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.R.3",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.R.4",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LashRootRepair.R.5",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LowerLashesClean.L",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "LowerLashesClean.R",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "MedialBacking.L",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "MedialBacking.R",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Meshy_Fitted_Rig",
+    "bone": "thigh.L",
+    "renderer": "Meshy_Body_NeutralCovered",
+    "descendants": [
+      "foot.L",
+      "shin.L",
+      "thigh.L",
+      "toe.L"
+    ],
+    "positive_skin_influenced_vertex_count": 18161,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "OriginalMedialLashes.L",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  },
+  {
+    "rig": "Armature",
+    "bone": "J_Bip_L_Index3",
+    "renderer": "OriginalMedialLashes.R",
+    "descendants": [
+      "J_Bip_L_Index3"
+    ],
+    "positive_skin_influenced_vertex_count": 0,
+    "bone_deform": true,
+    "matrix_gate_is_independent_of_influence_count": true
+  }
+]

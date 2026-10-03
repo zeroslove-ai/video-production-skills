@@ -1,0 +1,11 @@
+{
+  "video": "manual_morph_proof/Existing_Blink_Smile_Jaw_24fps_3s.mp4",
+  "sha256": "04e601b20b65a6e5d3f148845a782fbcd276a570e6efdbdca0494cc2b196b58e",
+  "probe": {
+    "avg_frame_rate": "24/1",
+    "duration": "3.000000",
+    "nb_read_frames": "72"
+  },
+  "first_last_unequal_pixel_channels": 0,
+  "use": "Functional direct-morph diagnostic; no F2/F3 performance claim; board drivers remain muted."
+}

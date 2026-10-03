@@ -1,0 +1,90 @@
+[
+  {
+    "requirement": "Material slot→polygon/UV/texture bytes/math",
+    "status": "PROVIDED",
+    "data": [
+      "mesh_slot_UV_attributes_shape_deltas.json",
+      "executable_material_graphs.json",
+      "exact_texture_receipt.json",
+      "data/*_original_mesh.npz",
+      "textures/*"
+    ],
+    "meaning": "Exact source slots/polygon/loop UV indices; all socket defaults/links/node operations including attributes/ramp/math; texture15 exactpacked bytes/channel/colorspace/alpha and node interpolation/mapping."
+  },
+  {
+    "requirement": "Neutral albedo/opacity/normal/masks",
+    "status": "PROVIDED_WITH_LIMITS",
+    "data": [
+      "NEUTRAL_BAKE_RECEIPT.json",
+      "neutral_bakes/*.exr",
+      "CORNER_BASIS_RECEIPT.json",
+      "data/*_corner_basis.npz"
+    ],
+    "meaning": "12 CPU-derived512px scene-linear EXR neutral inputs/Alpha/tangent normals for4UV meshes; hair has no UV and constant source shader, so graph+vertex normals are authority. Exact POINT/CORNER masks and polygon slot assignments in original NPZ. No UV repack or source replacement."
+  },
+  {
+    "requirement": "Camera/lights/color/driver state",
+    "status": "PROVIDED",
+    "data": [
+      "neutral_camera_light_color_driver_state.json"
+    ],
+    "meaning": "Original transforms/projection/world/lights/exposure/view/render state and neutral controls."
+  },
+  {
+    "requirement": "FaceBoard13/face/gaze/hair executable dependencies",
+    "status": "PROVIDED_WITH_OWNERSHIP_HOLD",
+    "data": [
+      "controls_contract.json",
+      "executable_driver_dependencies.json",
+      "executable_geometry_node_graphs.json",
+      "evaluated_driver_geometry_references.json",
+      "CONTROL_CAUSAL_RECEIPT.json",
+      "MATERIAL_SHADER_DRIVER_RECEIPT.json",
+      "MANUAL_MORPH_RECEIPT.json"
+    ],
+    "meaning": "43 native evaluated cases;13board at.5/1 remain muted head output0; gaze cardinal ±1 nonzeroGN+geometry; hair knob poses/driver outputs. Manual Blink/Smile/Jaw/Brow direct morph measured ON/OFF, linked lash/shader output.880 drivers total including8material-node-tree drivers. No unmute/rewrite."
+  },
+  {
+    "requirement": "ShapeKey basis/delta/default correspondence",
+    "status": "PROVIDED",
+    "data": [
+      "mesh_slot_UV_attributes_shape_deltas.json",
+      "data/*_original_mesh.npz"
+    ],
+    "meaning": "Every source exported renderer key name, original index, relative-key delta float32/default/range/mute.72head keys and original basis positions. Actual geometry proof, not count-only."
+  },
+  {
+    "requirement": "DQ/maskedLBS/GN/surface masks/order/normals",
+    "status": "PROVIDED",
+    "data": [
+      "DEFORMATION_LAYER_RECEIPT.json",
+      "exact_mask_coverage.json",
+      "data/Strong_1_49_deformation_layer_ablation.npz",
+      "data/motion_*.npz",
+      "data/gaze_*.npz"
+    ],
+    "meaning": "Original modifiers/settings ordered, pervertex mask weights by exact frozen pointer; dense source/local/world positions+normals; staged-object-copy DQ/mask/surface ablation Strong1/49, source stack unchanged."
+  },
+  {
+    "requirement": "Bind/rest transport and influence support",
+    "status": "PROVIDED_GATE_FAILS",
+    "data": [
+      "*_bind_and_OFF_LBS.json",
+      "LBS_bind_motion_transport_metrics.json",
+      "worst_rest_bone_skin_support.json",
+      "full_deformation_RMS_percentiles.json",
+      "STATIC_CAUSAL_SEPARATION.json",
+      "static-correction/*"
+    ],
+    "meaning": "Raw bind versus evaluated OFF separated; true inversebind identity residual; first-modifier LBS shadow source/import transport; max/RMS/p50/p95/p99/worstvertex; rest/rotation independent failures preserved."
+  },
+  {
+    "requirement": "F0/F1/F2/F3 and promotion",
+    "status": "HOLD",
+    "data": [
+      "RECOVERY_DISPOSITION.json",
+      "manual_morph_proof/Existing_Blink_Smile_Jaw_24fps_3s.mp4"
+    ],
+    "meaning": "F0 Blender functional proof only; F1 product physics/contact unaccepted; F2 character performance/multicamera not certified; F3 not claimed. Reference quality read; no new dance/source redesign."
+  }
+]

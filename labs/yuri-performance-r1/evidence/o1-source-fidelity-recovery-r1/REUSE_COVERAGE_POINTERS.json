@@ -1,0 +1,73 @@
+{
+  "frozen_package_sha256": "4ec5c10ce90d7d25c06721b7dcd3832be4b7672190c975d42912be876a5a0843",
+  "frozen_package_bytes": 175204266,
+  "required_prior_commit": "d204379bb8dbab7749a8819863437e788b9ce9ee",
+  "reused_files": [
+    {
+      "path": "source/Character_Master_NeckSkin_R4.blend",
+      "bytes": 26553642,
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa"
+    },
+    {
+      "path": "source/YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend",
+      "bytes": 9318285,
+      "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d"
+    },
+    {
+      "path": "metadata/source_expanded_rigs.json",
+      "bytes": 560498,
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694"
+    },
+    {
+      "path": "metadata/source_renderers_bind.json",
+      "bytes": 2017708,
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a"
+    },
+    {
+      "path": "metadata/face_board_inputs.json",
+      "bytes": 16331,
+      "sha256": "606b92c7af601d8a55416fc8106320474f258fc9dbf4e9c56b5a847bff6bb317"
+    },
+    {
+      "path": "metadata/source_driver_graph.json",
+      "bytes": 1498500,
+      "sha256": "6ab812f8335fc0efb03623e2233f5f4f44976234cbbd300b7890d538e4d344a0"
+    },
+    {
+      "path": "metadata/semantic_mapping.json",
+      "bytes": 45218,
+      "sha256": "c31b05097c062dae42b25cd97f247d66ca34e2a3e16b19b9726cae11e064309c"
+    },
+    {
+      "path": "reference/source_original_vertex_weights.json.gz",
+      "bytes": 2577908,
+      "sha256": "4c2cd4f57c80368985ee66fc46c29dab0f992dd28001ca4411fa5b40ca07480e"
+    },
+    {
+      "path": "reference/native_evaluated_all_frames.json.gz",
+      "bytes": 12545560,
+      "sha256": "03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3"
+    },
+    {
+      "path": "reference/native_evaluated_motion_geometry_0_25_50_100.json.gz",
+      "bytes": 77344162,
+      "sha256": "d2352d796a42386b5f5c28348dce7b1faa652e926c7cbc38fb38ce61ca50215f"
+    },
+    {
+      "path": "reference/source_neutral_evaluated_world_vertices.json.gz",
+      "bytes": 2936247,
+      "sha256": "6b1546dab970a1f55c69fd5130ead62e4db9520c1832e9de54fd8c42c356f065"
+    },
+    {
+      "path": "metadata/take_and_slot_inventory.json",
+      "bytes": 5073,
+      "sha256": "5e48e0ac08d7a4d8d6cc71b2d7421a72b632726d954d713f8c65f88cd0a42579"
+    },
+    {
+      "path": "visual/source_vs_actual_FBX_24fps.mp4",
+      "bytes": 1174143,
+      "sha256": "b02dc7aa52f0bb3b405de25758d537e930104202fa7a384b72ee3631d9ea5f37"
+    }
+  ],
+  "current_packet_rule": "Additive data only. Existing original source, actions, weights, rig/constraint metadata and full normal-speed6clip proof are exact hash pointers, not duplicated."
+}
