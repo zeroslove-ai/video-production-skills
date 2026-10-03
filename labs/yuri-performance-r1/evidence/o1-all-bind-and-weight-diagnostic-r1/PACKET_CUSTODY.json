@@ -1,0 +1,62 @@
+{
+  "task_id": "YURI_O1_ALL_BIND_AND_7_INFLUENCE_SOURCE_DIAGNOSTIC_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_ALL_BIND_WEIGHT_DIAGNOSTIC_20261003_R1_316f76fadfb2",
+  "manifest_sha256": "316f76fadfb2e381ba92ff16a25136f2338b1c8bb52e899e369f6e18488b3c77",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_ALL_BIND_WEIGHT_DIAGNOSTIC_20261003_R1_316f76fadfb2\\YURI_O1_R4_ALL_BIND_WEIGHT_DIAGNOSTIC_20261003_R1.part01-of-01.zip",
+      "sha256": "de736da6acc2844a47944cf3911884b60e170e438254f949a0bc709e718d0381",
+      "bytes": 6158072,
+      "files": [
+        "R4_Body_All_Original_Group_Weights_CSR.npz",
+        "R4_Body_Seven_Plus_Bone_Rows.json.gz",
+        "metadata/ALL_BIND_AND_WEIGHT_DIAGNOSTIC_RECEIPT.json",
+        "metadata/ALL_RENDERER_BIND_ROWS.json",
+        "metadata/R_MIDDLE3_HEAD_CASE.json",
+        "metadata/YURI_O1_ALL_BIND_AND_WEIGHT_DIAGNOSTIC_R1.md",
+        "scripts/r4_all_bind_and_weight_diagnostic.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "R4_Body_All_Original_Group_Weights_CSR.npz": {
+      "sha256": "5610c3f9d4265b82d34c07ab428159abff96fdd87cb8e921cdb0478c3ea0512f",
+      "bytes": 2579209
+    },
+    "R4_Body_Seven_Plus_Bone_Rows.json.gz": {
+      "sha256": "a375ff18966e53a659bf9506db3026f9a1b86386f8519bc937c8524664331b8d",
+      "bytes": 233358
+    },
+    "metadata/ALL_BIND_AND_WEIGHT_DIAGNOSTIC_RECEIPT.json": {
+      "sha256": "316f76fadfb2e381ba92ff16a25136f2338b1c8bb52e899e369f6e18488b3c77",
+      "bytes": 35568
+    },
+    "metadata/ALL_RENDERER_BIND_ROWS.json": {
+      "sha256": "474684e0b0b4b00089cc50c4c69a4cf1d0cb458c867fa0d2275dae59a9684ee5",
+      "bytes": 3276989
+    },
+    "metadata/R_MIDDLE3_HEAD_CASE.json": {
+      "sha256": "a14f37847634eb809715cfb9b99184c4115e667b0601f3f2e10d551eed76436c",
+      "bytes": 7386
+    },
+    "metadata/YURI_O1_ALL_BIND_AND_WEIGHT_DIAGNOSTIC_R1.md": {
+      "sha256": "7b8de6fe0f0a131fb40f604bce13156d4ae5cfc8c67a530bb3cf5412232330dd",
+      "bytes": 5997
+    },
+    "scripts/r4_all_bind_and_weight_diagnostic.py": {
+      "sha256": "8e5685ab8d4914b3a56c55d92f3d25c53f2a6c72ab417cc92cc105e10905eda4",
+      "bytes": 14477
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "080b6d76569f6435b333c5ac6f36032f22bb9585b60dd4aa53dbcaa73beb2983",
+      "bytes": 3778
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 6158072,
+  "data_bytes": 2812567,
+  "aggregate_file_manifest_sha256": "a245072ced92d72c2a28d6d29c6eab302f3d4291c980ddd58b6f93576a1187f2",
+  "source_or_frozen_input_writes": 0
+}

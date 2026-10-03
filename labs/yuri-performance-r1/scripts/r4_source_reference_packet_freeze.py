@@ -1,14 +1,17 @@
 """Freeze existing data in independently readable <=100MiB ZIP volumes.
-Usage: python this.py gaze|body. No Blender/source access.
+Usage: python this.py gaze|body|weights. No Blender/source access.
 """
 import sys,json,hashlib,zipfile
 from pathlib import Path
 LAB=Path(__file__).resolve().parent.parent
 BASE=Path(r'C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs')
-mode=sys.argv[-1];assert mode in ('gaze','body')
+mode=sys.argv[-1];assert mode in ('gaze','body','weights')
 slug='o1-gaze-evaluated-corner-reference-r1' if mode=='gaze' else 'o1-full-body-deformation-reference-r1'
 name='GAZE_EVALUATED_CORNER_MANIFEST.json' if mode=='gaze' else 'FULL_BODY_DEFORMATION_MANIFEST.json'
 prefix='YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1' if mode=='gaze' else 'YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1'
+if mode=='weights':
+    slug='o1-all-bind-and-weight-diagnostic-r1';name='ALL_BIND_AND_WEIGHT_DIAGNOSTIC_RECEIPT.json'
+    prefix='YURI_O1_R4_ALL_BIND_WEIGHT_DIAGNOSTIC_20261003_R1'
 E=LAB/'evidence'/slug;OUT=BASE/slug
 def sha(p):
     h=hashlib.sha256()
@@ -16,12 +19,13 @@ def sha(p):
         for block in iter(lambda:f.read(1024*1024),b''):h.update(block)
     return h.hexdigest()
 manifest=json.loads((E/name).read_text(encoding='utf8'));digest=sha(E/name)
-data=manifest['files' if mode=='gaze' else 'chunks']
+data=manifest['chunks' if mode=='body' else 'files']
 files={v['path']:OUT/v['path'] for v in data}
 for v in data:assert sha(files[v['path']])==v['sha256'] and files[v['path']].stat().st_size==v['bytes']
 for p in E.iterdir():
     if p.suffix in ('.md','.json') and p.name!='PACKET_CUSTODY.json':files['metadata/'+p.name]=p
 script='r4_gaze_evaluated_corner_reference.py' if mode=='gaze' else 'r4_full_body_deformation_reference.py'
+if mode=='weights':script='r4_all_bind_and_weight_diagnostic.py'
 for n in (script,'r4_source_reference_packet_freeze.py'):files['scripts/'+n]=LAB/'scripts'/n
 file_manifest={n:{'sha256':sha(p),'bytes':p.stat().st_size} for n,p in files.items()}
 dest=Path(r'C:/YuriTransfer/outbox')/(prefix+'_'+digest[:12]);dest.mkdir(exist_ok=True)

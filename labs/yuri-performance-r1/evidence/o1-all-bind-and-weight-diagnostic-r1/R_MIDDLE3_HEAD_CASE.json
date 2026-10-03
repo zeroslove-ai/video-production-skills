@@ -1,0 +1,312 @@
+{
+  "source_and_Blender_import_case": {
+    "renderer": "Character_Body_Head",
+    "rig": "Armature",
+    "bone": "J_Bip_R_Middle3",
+    "bone_index": 42,
+    "source_modifier": "Armature",
+    "import_binding_selection": "same target rig; serialized/imported carrier has one Armature skin, not source layered modifiers",
+    "positive_source_vertices": 0,
+    "source_raw_rest_vs_Blender_import_recovered_bind": {
+      "position_m": 1.5628819492804846e-07,
+      "rotation_polar_matrix_deg": 1.8609547161510908e-05,
+      "max_matrix_element_delta": 3.692431250102155e-07
+    },
+    "source_raw_rest_vs_source_evaluated_OFF": {
+      "position_m": 1.884864366154897e-07,
+      "rotation_polar_matrix_deg": 1.406043569815959e-06,
+      "max_matrix_element_delta": 1.7881393432617188e-07
+    },
+    "source_inverse_bind_rest": [
+      [
+        4.586318311794457e-07,
+        -1.0,
+        -6.593008947675116e-06,
+        -0.018657084554433823
+      ],
+      [
+        -0.9976310133934021,
+        7.98697570303375e-08,
+        -0.06879488378763199,
+        -0.39199069142341614
+      ],
+      [
+        0.06879465281963348,
+        6.700277936033672e-06,
+        -0.9976310133934021,
+        0.7914254069328308
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source_inverse_evaluated_OFF": [
+      [
+        3.845038065719564e-07,
+        -1.000000238418579,
+        -6.655180641246261e-06,
+        -0.018657073378562927
+      ],
+      [
+        -0.9976311326026917,
+        -1.1085165674273867e-08,
+        -0.06879472732543945,
+        -0.3919908404350281
+      ],
+      [
+        0.06879478693008423,
+        6.680878868792206e-06,
+        -0.9976310133934021,
+        0.7914252877235413
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "Blender_import_inverse_bind_rest": [
+      [
+        6.053119818716368e-07,
+        -1.0,
+        -6.645015673711896e-06,
+        -0.018657023087143898
+      ],
+      [
+        -0.9976310729980469,
+        -2.0732311156734795e-07,
+        -0.06879473477602005,
+        -0.3919908404350281
+      ],
+      [
+        0.0687946081161499,
+        6.500321887870086e-06,
+        -0.9976309537887573,
+        0.7914252877235413
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "wire_original_model_equals_animation_exact": true,
+    "wire_converted_source_raw_rest_matrix_delta": 5.960464477539063e-08
+  },
+  "actual_frozen_FBX_clusters": [
+    {
+      "renderer": "Character_Body_Head",
+      "bone": "J_Bip_R_Middle3",
+      "cluster_uid": 596016794,
+      "entries": 0,
+      "positive_entries": 0,
+      "Transform_column_major": [
+        4.58631916444574e-07,
+        -0.9976310133934021,
+        0.06879465281963348,
+        0.0,
+        -1.0,
+        7.986972860862807e-08,
+        6.700278390781023e-06,
+        0.0,
+        -6.5930121309065726e-06,
+        -0.06879488378763199,
+        -0.9976309537887573,
+        0.0,
+        -0.01865708827972412,
+        -0.39199066162109375,
+        0.791425347328186,
+        1.0
+      ],
+      "TransformLink_column_major": [
+        3.79229504687828e-07,
+        -6.586582003365038e-06,
+        0.9999998807907104,
+        0.0,
+        -0.9976306557655334,
+        -0.06879467517137527,
+        3.006987325804289e-09,
+        0.0,
+        0.06879482418298721,
+        -0.9976306557655334,
+        -6.565060175489634e-06,
+        0.0,
+        -0.44550788402557373,
+        0.7625831961631775,
+        0.018662283197045326,
+        1.0
+      ]
+    }
+  ],
+  "consumer_expected_source_matrices": {
+    "basis_source_pointer": "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\evidence\\root-pm-o1\\LAPTOP_ORIGINAL_BIND_bind-rest-summary.json",
+    "P": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "H": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "expected_Unity_bone_world_raw_rest": [
+      [
+        3.792293910009903e-07,
+        0.9976306557655334,
+        -0.06879481673240662,
+        0.4455079138278961
+      ],
+      [
+        6.586581093870336e-06,
+        -0.06879467517137527,
+        -0.9976306557655334,
+        0.7625832557678223
+      ],
+      [
+        -0.9999998807907104,
+        3.0071247714147376e-09,
+        -6.565056537510827e-06,
+        0.018662279471755028
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "expected_Unity_bone_world_evaluated_OFF": [
+      [
+        4.686330612457823e-07,
+        0.9976305365562439,
+        -0.06879465281963348,
+        0.44550785422325134
+      ],
+      [
+        6.5609697230684105e-06,
+        -0.06879480183124542,
+        -0.9976306557655334,
+        0.7625830769538879
+      ],
+      [
+        -0.9999997019767761,
+        -7.522316991526168e-08,
+        -6.621979991905391e-06,
+        0.018662279471755028
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "expected_Unity_renderer_world_source_OFF": [
+      [
+        1.0,
+        -2.0344828044471797e-09,
+        -4.2626567164916196e-08,
+        3.5868121806004183e-09
+      ],
+      [
+        -4.704383727016648e-08,
+        -1.033160259567012e-07,
+        1.0,
+        -4.431786049252651e-09
+      ],
+      [
+        -3.990973773682072e-09,
+        -0.9999999403953552,
+        -4.371138828673793e-08,
+        -4.656682817127944e-10
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "expected_Unity_inverse_raw_rest_bind_from_same_source_frames": [
+      [
+        4.586318311794457e-07,
+        1.0,
+        6.593008947675116e-06,
+        0.018657084554433823
+      ],
+      [
+        0.9976310133934021,
+        7.98697570303375e-08,
+        -0.06879488378763199,
+        -0.39199069142341614
+      ],
+      [
+        -0.06879465281963348,
+        6.700277936033672e-06,
+        -0.9976310133934021,
+        0.7914254069328308
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "meaning": "Source-derived expected matrices under actual consumer declared basis. Actual consumer bindpose row not available; does not fit or alter bone/rest/renderer to observed error."
+  },
+  "PM_reported_Unity_bind_error": {
+    "position_m": 0.010416765,
+    "rotation_deg": 0.675783,
+    "independently_rederived": false
+  },
+  "verdict": "Source/rest/OFF and actual wire/Blender reconstructed bind are distinct domains. This source-side result does not silently waive zero-weight row. Need actual Unity bindpose and matched renderer/bone matrices/P/H to explain consumer10.416765mm/.675783deg; no consumer matrices supplied here."
+}

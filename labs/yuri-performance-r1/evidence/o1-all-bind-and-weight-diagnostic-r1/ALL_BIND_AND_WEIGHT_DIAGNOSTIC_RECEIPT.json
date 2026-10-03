@@ -1,0 +1,1011 @@
+{
+  "task_id": "YURI_O1_ALL_BIND_AND_7_INFLUENCE_SOURCE_DIAGNOSTIC_R1",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\reference\\source_original_vertex_weights.json.gz": {
+      "sha256": "4c2cd4f57c80368985ee66fc46c29dab0f992dd28001ca4411fa5b40ca07480e",
+      "bytes": 2577908
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_expanded_rigs.json": {
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "bytes": 560498
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_renderers_bind.json": {
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a",
+      "bytes": 2017708
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\metadata\\imported_renderer_bind.json": {
+      "sha256": "d8754448770654381a96cc4a46b52b9088d260d5a6ff49849d9be4a0d9e36456",
+      "bytes": 1019959
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\metadata\\EXACT_BIND_WIRE_RECEIPT.json": {
+      "sha256": "445964250ff6df58232e4be8634884e286e8659f1d8d3490c3cebd78573a8a73",
+      "bytes": 262288
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx": {
+      "sha256": "3b37f3570742617b42215e980a70260490ffe92c7480c33a5de5060dd38c90c1",
+      "bytes": 23537068
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-bind-serialization-r1\\YURI_O1_R4_NATIVE_ANIMATION_ONLY_20261003_R1.fbx": {
+      "sha256": "ea3f93f8fe7f59b171a67dd4be5c893bca6cbd238a82d1f68c080e861c30e67c",
+      "bytes": 7071276
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\neutral_camera_light_color_driver_state.json": {
+      "sha256": "8b3def32f4fe1b591267cdff63e77bb9ea40fad6a9e85bead4dee9a5d99afe91",
+      "bytes": 32179
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\skin_weight_roundtrip_comparison.json": {
+      "sha256": "7bbf8c36e3d0afcc88e52b3da8abbdd157c1cd9980c86fc813d2a69ac0daee68",
+      "bytes": 5181
+    },
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_fbx\\export_fbx_bin.py": {
+      "sha256": "8fd324e4ee0d25cc89cd53507b0f93c057b17b699601ac90f81085d5be09e44a",
+      "bytes": 193168
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\evidence\\root-pm-o1\\LAPTOP_ORIGINAL_BIND_bind-rest-summary.json": {
+      "sha256": "5ba6512a6c761714a65ed90d2ecf34fdd459b687cb52eb0f6eccda0f409199d8",
+      "bytes": 18527
+    }
+  },
+  "source_preservation": "No source .blend load/save, no scene mutation/import, no new render/bake/export. Existing binary FBX parsed read-only; frozen weights and metadata only.",
+  "source_component_mutations": 0,
+  "inputs_unchanged": true,
+  "group_identity": [
+    {
+      "group_index": 0,
+      "group_name": "pelvis",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 1,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis",
+      "bone_deform": true
+    },
+    {
+      "group_index": 1,
+      "group_name": "spine",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 2,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine",
+      "bone_deform": true
+    },
+    {
+      "group_index": 2,
+      "group_name": "chest",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 3,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest",
+      "bone_deform": true
+    },
+    {
+      "group_index": 3,
+      "group_name": "neck",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 4,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/neck",
+      "bone_deform": true
+    },
+    {
+      "group_index": 4,
+      "group_name": "head",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 5,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/neck/head",
+      "bone_deform": true
+    },
+    {
+      "group_index": 5,
+      "group_name": "clavicle.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 8,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 6,
+      "group_name": "upper_arm.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 9,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 7,
+      "group_name": "forearm.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 10,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 8,
+      "group_name": "hand.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 11,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 9,
+      "group_name": "index1.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 12,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 10,
+      "group_name": "index2.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 13,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L/index2.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 11,
+      "group_name": "index3.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 14,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L/index2.L/index3.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 12,
+      "group_name": "middle1.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 15,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 13,
+      "group_name": "middle2.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 16,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L/middle2.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 14,
+      "group_name": "middle3.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 17,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L/middle2.L/middle3.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 15,
+      "group_name": "ring1.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 18,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 16,
+      "group_name": "ring2.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 19,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L/ring2.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 17,
+      "group_name": "ring3.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 20,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L/ring2.L/ring3.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 18,
+      "group_name": "pinky1.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 21,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 19,
+      "group_name": "pinky2.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 22,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L/pinky2.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 20,
+      "group_name": "pinky3.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 23,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L/pinky2.L/pinky3.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 21,
+      "group_name": "thumb1.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 24,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 22,
+      "group_name": "thumb2.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 25,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L/thumb2.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 23,
+      "group_name": "thumb3.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 26,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L/thumb2.L/thumb3.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 24,
+      "group_name": "clavicle.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 28,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 25,
+      "group_name": "upper_arm.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 29,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 26,
+      "group_name": "forearm.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 30,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 27,
+      "group_name": "hand.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 31,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 28,
+      "group_name": "index1.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 32,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 29,
+      "group_name": "index2.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 33,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R/index2.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 30,
+      "group_name": "index3.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 34,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R/index2.R/index3.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 31,
+      "group_name": "middle1.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 35,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 32,
+      "group_name": "middle2.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 36,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R/middle2.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 33,
+      "group_name": "middle3.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 37,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R/middle2.R/middle3.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 34,
+      "group_name": "ring1.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 38,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 35,
+      "group_name": "ring2.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 39,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R/ring2.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 36,
+      "group_name": "ring3.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 40,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R/ring2.R/ring3.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 37,
+      "group_name": "pinky1.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 41,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 38,
+      "group_name": "pinky2.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 42,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R/pinky2.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 39,
+      "group_name": "pinky3.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 43,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R/pinky2.R/pinky3.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 40,
+      "group_name": "thumb1.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 44,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 41,
+      "group_name": "thumb2.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 45,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R/thumb2.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 42,
+      "group_name": "thumb3.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 46,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R/thumb2.R/thumb3.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 43,
+      "group_name": "thigh.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 49,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 44,
+      "group_name": "shin.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 50,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 45,
+      "group_name": "foot.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 51,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L/foot.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 46,
+      "group_name": "toe.L",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 52,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L/foot.L/toe.L",
+      "bone_deform": true
+    },
+    {
+      "group_index": 47,
+      "group_name": "thigh.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 53,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 48,
+      "group_name": "shin.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 54,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 49,
+      "group_name": "foot.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 55,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R/foot.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 50,
+      "group_name": "toe.R",
+      "domain": "BONE",
+      "original_rig": "Meshy_Fitted_Rig",
+      "bone_index": 56,
+      "bone_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R/foot.R/toe.R",
+      "bone_deform": true
+    },
+    {
+      "group_index": 51,
+      "group_name": "Joint_Smoothing_Mask",
+      "domain": "PROCEDURAL_MASK",
+      "original_rig": null,
+      "bone_index": null,
+      "bone_path": null,
+      "bone_deform": null
+    },
+    {
+      "group_index": 52,
+      "group_name": "R3_Surface_LinearBlend",
+      "domain": "PROCEDURAL_MASK",
+      "original_rig": null,
+      "bone_index": null,
+      "bone_path": null,
+      "bone_deform": null
+    },
+    {
+      "group_index": 53,
+      "group_name": "R3_Joint_CorrectiveSmooth",
+      "domain": "PROCEDURAL_MASK",
+      "original_rig": null,
+      "bone_index": null,
+      "bone_path": null,
+      "bone_deform": null
+    },
+    {
+      "group_index": 54,
+      "group_name": "R3_Shoulder_PoseRelax.L",
+      "domain": "PROCEDURAL_MASK",
+      "original_rig": null,
+      "bone_index": null,
+      "bone_path": null,
+      "bone_deform": null
+    },
+    {
+      "group_index": 55,
+      "group_name": "R3_Shoulder_PoseRelax.R",
+      "domain": "PROCEDURAL_MASK",
+      "original_rig": null,
+      "bone_index": null,
+      "bone_path": null,
+      "bone_deform": null
+    },
+    {
+      "group_index": 56,
+      "group_name": "R3_Hip_PoseRelax.L",
+      "domain": "PROCEDURAL_MASK",
+      "original_rig": null,
+      "bone_index": null,
+      "bone_path": null,
+      "bone_deform": null
+    },
+    {
+      "group_index": 57,
+      "group_name": "R3_Hip_PoseRelax.R",
+      "domain": "PROCEDURAL_MASK",
+      "original_rig": null,
+      "bone_index": null,
+      "bone_path": null,
+      "bone_deform": null
+    }
+  ],
+  "vertices": 63561,
+  "raw_all_positive_group_max": 11,
+  "strict_positive_bone_weight_count_histogram": {
+    "1": 19044,
+    "2": 20140,
+    "3": 8602,
+    "4": 3640,
+    "5": 1678,
+    "6": 8839,
+    "7": 1467,
+    "8": 151
+  },
+  "diagnostic_threshold_counts_NOT_pruning_policy": {
+    "0": 8,
+    "1e-30": 8,
+    "1e-20": 7,
+    "1e-12": 7,
+    "1e-08": 7,
+    "1e-06": 6,
+    "0.0001": 6
+  },
+  "seventh_weight_max": 9.152620918939647e-07,
+  "eighth_weight_max": 2.225572503568459e-22,
+  "bone_sum_min": 0.8786206692457199,
+  "bone_sum_max": 1.0000000351685363,
+  "source_to_FBX_body_raw_bone_weights": {
+    "source_positive_entries": 172591,
+    "wire_entries": 172591,
+    "differences": [],
+    "extra_positive_entries": [],
+    "all_source_positive_bone_weights_exact": true
+  },
+  "prior_native_Blender_import_weight_receipt": [
+    {
+      "mesh": "Character_Body_Head",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": [
+        "J_Bip_C_Head",
+        "J_Bip_C_UpperChest",
+        "J_Bip_L_Shoulder",
+        "J_Bip_R_Shoulder"
+      ]
+    },
+    {
+      "mesh": "Globe.L",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "Globe.R",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "Hair_Replacement_R4",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.L.1",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.L.2",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.L.3",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.L.4",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.L.5",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.R.1",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.R.2",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.R.3",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.R.4",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LashRootRepair.R.5",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LowerLashesClean.L",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "LowerLashesClean.R",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "MedialBacking.L",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "MedialBacking.R",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "Meshy_Body_NeutralCovered",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [
+        "Joint_Smoothing_Mask",
+        "R3_Surface_LinearBlend",
+        "R3_Joint_CorrectiveSmooth",
+        "R3_Shoulder_PoseRelax.L",
+        "R3_Shoulder_PoseRelax.R",
+        "R3_Hip_PoseRelax.L",
+        "R3_Hip_PoseRelax.R"
+      ],
+      "missing_zero_weight_group_entries": [
+        "chest",
+        "clavicle.L",
+        "clavicle.R",
+        "head",
+        "neck",
+        "pelvis",
+        "spine",
+        "thigh.L",
+        "thigh.R",
+        "upper_arm.L",
+        "upper_arm.R"
+      ]
+    },
+    {
+      "mesh": "OriginalMedialLashes.L",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    },
+    {
+      "mesh": "OriginalMedialLashes.R",
+      "max_skin_bone_influence_delta": 0,
+      "missing_influenced_bones": [],
+      "source_nonbone_mask_groups_not_FBX_skin": [],
+      "missing_zero_weight_group_entries": []
+    }
+  ],
+  "body_modifier_order_settings": [
+    {
+      "order": 0,
+      "name": "Armature",
+      "type": "ARMATURE",
+      "settings": {
+        "type": "ARMATURE",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 312629205,
+        "object": [
+          "Object",
+          "Meshy_Fitted_Rig"
+        ],
+        "use_bone_envelopes": false,
+        "use_vertex_groups": true,
+        "use_deform_preserve_volume": true,
+        "use_multi_modifier": false,
+        "vertex_group": "",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 1,
+      "name": "R3 neck and joints - local linear blend",
+      "type": "ARMATURE",
+      "settings": {
+        "type": "ARMATURE",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 1714171291,
+        "object": [
+          "Object",
+          "Meshy_Fitted_Rig"
+        ],
+        "use_bone_envelopes": false,
+        "use_vertex_groups": true,
+        "use_deform_preserve_volume": false,
+        "use_multi_modifier": true,
+        "vertex_group": "R3_Surface_LinearBlend",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 2,
+      "name": "R3 local joint surface relaxation",
+      "type": "CORRECTIVE_SMOOTH",
+      "settings": {
+        "type": "CORRECTIVE_SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 697597798,
+        "factor": 0.0,
+        "iterations": 24,
+        "scale": 1.0,
+        "rest_source": "ORCO",
+        "smooth_type": "LENGTH_WEIGHTED",
+        "invert_vertex_group": false,
+        "vertex_group": "R3_Joint_CorrectiveSmooth",
+        "is_bind": false,
+        "use_only_smooth": false,
+        "use_pin_boundary": true
+      },
+      "custom": {}
+    },
+    {
+      "order": 3,
+      "name": "R3 raised shoulder surface L",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 486562295,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 60,
+        "vertex_group": "R3_Shoulder_PoseRelax.L",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 4,
+      "name": "R3 raised shoulder surface R",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 686560588,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 60,
+        "vertex_group": "R3_Shoulder_PoseRelax.R",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 5,
+      "name": "R3 bent hip surface L",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 900884336,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 220,
+        "vertex_group": "R3_Hip_PoseRelax.L",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 6,
+      "name": "R3 bent hip surface R",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": true,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 483710664,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 220,
+        "vertex_group": "R3_Hip_PoseRelax.R",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    }
+  ],
+  "normalization_contract": "Raw source weights unchanged. Bone groups are matched by original rig/name/deform identity; seven procedural masks are not bone normalization contributions. Blender armature LBS uses accumulated bone contribution normalization; DQ accumulates weighted transform and normalizes DQ. Secondary LBS mask and subsequent corrective/smooth masks/order are separate. Official current upstream code explains semantics; not asserted binary-identical to installed5.2.1 C++ without matched-build code.",
+  "normalization_primary_source": "https://github.com/blender/blender/blob/main/source/blender/blenkernel/intern/armature_deform.cc",
+  "files": [
+    {
+      "path": "R4_Body_All_Original_Group_Weights_CSR.npz",
+      "bytes": 2579209,
+      "sha256": "5610c3f9d4265b82d34c07ab428159abff96fdd87cb8e921cdb0478c3ea0512f"
+    },
+    {
+      "path": "R4_Body_Seven_Plus_Bone_Rows.json.gz",
+      "bytes": 233358,
+      "sha256": "a375ff18966e53a659bf9506db3026f9a1b86386f8519bc937c8524664331b8d"
+    }
+  ],
+  "CSR_derivation_policy": "Raw original group_index/weight entries including zero preserved exactly. derived_bone_weight_sum/derived_normalized_bone_weight float64 arrays are independent bone-only normalization diagnostics, not edited source or substitute for DQ/corrective stack. Mask CSR entries derived normalized bone weight=0 but raw masks fully preserved.",
+  "all_bind_rows_included": 1207,
+  "all137_original_wire_contract_retained": true,
+  "gates": "No influence-count tolerance/zero-row waiver. Original Blender source/import rotation FAIL unchanged; actual Unity all-bind row and DQ/weight restoration remain consumer gate.",
+  "missing_consumer_case_fields": [
+    "actual head renderer bindpose row matched to J_Bip_R_Middle3 identity/index",
+    "actual renderer localToWorldMatrix",
+    "actual bone raw-rest and evaluated OFF matrices",
+    "source-to-Unity P/H conversion and scale compensation used in bind comparison"
+  ],
+  "next_useful_source_task": "Consumer all-bind exact case receipt comparison; no redundant source extraction needed. Fullstack276deformation and evaluated gaze corner authorities already frozen."
+}
