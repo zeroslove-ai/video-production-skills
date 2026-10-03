@@ -1,0 +1,41 @@
+{
+  "schema": "O1_NORMAL_TESS_INTERMEDIATE_DOMAIN_CONTRACT_R1",
+  "status": "REQUEST_SCHEMA_NOT_ACTUAL_CONSUMER_DATA",
+  "purpose": "Compare already saved actual consumer stages against exact source artifacts without altering topology or approximating source-local coordinates",
+  "source_authority_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "full_original_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+  "consumer_source_review_commit": "8bacd64bfb64e327ccbcdfba615cbd05f4c8576d",
+  "cases": [
+    {"clip": "YRA_R4_Startle_Short", "source_frame": 1, "tri_mismatch_rows": 7, "existing_source_seven_stages": false},
+    {"clip": "YRA_R4_Startle_Short", "source_frame": 11, "tri_mismatch_rows": 8, "existing_source_seven_stages": true},
+    {"clip": "YRA_R4_Struggle_Strong_Loop", "source_frame": 6, "tri_mismatch_rows": 7, "existing_source_seven_stages": true},
+    {"clip": "YRA_R4_Struggle_Strong_Loop", "source_frame": 44, "tri_mismatch_rows": 5, "existing_source_seven_stages": false}
+  ],
+  "actual_consumer_capture_provenance_required": [
+    "Exact code/build/capture hash; actual clip/source frame and Animator pose route",
+    "Original ordered vertex/corner/face IDs, original recipe SHA and source body/rig correspondence",
+    "instance.localToWorldMatrix, declared P=(-x,z,-y), sourceWorld separately with float precision and column/row convention",
+    "Actual runtime Mesh normals/positions/triangles and all material submesh IDs, normal/tangent importer policy"
+  ],
+  "stage_arrays": {
+    "consumer_stage_local_positions": {"dtype": "float32 little endian", "shape": [7, 63561, 3], "domain": "Original SOURCE_LOCAL points before P/world transform; stage0 DQ,1 masked LBS,2 corrective,3..6 Smooth", "source_reference": "No exact local intermediate source arrays currently available; do not inverse-fit WORLD f32 into native local evidence"},
+    "consumer_stage_rendered_positions": {"dtype": "float32 little endian", "shape": [7, 63561, 3], "domain": "DiagnosticStageObserver actual instance.localToWorldMatrix * P * sourceWorld transport", "source_reference": "Existing source stage_00..06_world_position for Startle11/Strong6 in Blender WORLD basis; compare after explicit mapping only"},
+    "source_stage_world_CORNER_normals": {"dtype": "float32 little endian", "shape": [7, 254602, 3], "domain": "Existing actual source arrays; independent from averaged POINT vertex normals; no regeneration required"},
+    "consumer_final_local_CORNER_normals": {"dtype": "float32 little endian", "shape": [254602, 3], "domain": "Original corner IDs, before P; preserve raw bits and any normalization policy"},
+    "actual_mesh_normals": {"dtype": "float32 little endian", "shape": [254602, 3], "domain": "Actual renderer clone Mesh readback; actual transform/basis declared"}
+  },
+  "complete_failure_inventory": {
+    "triangle_rows": "All27 actual wrong rows across four cases, each with slot/slot_row/actual original CORNER triple/source original CORNER triple/source polygon/global source triangle index. First20 rows are insufficient for exhaustive inventory.",
+    "normal_error_ids": "For all four cases: exact source CORNER max-error ID, source point ID, ordered fan corner IDs and adjacent original edge/face IDs; actual and source local/world vectors with capture hashes. Prefer complete normal-error/readback arrays.",
+    "focused_targets": "Use33 IDs and original CSR intervals in NORMAL_TESS_DOMAIN_CONTRACT_R1.json as first stage comparison targets; not a complete normal-fan neighborhood or failure population."
+  },
+  "native_operator_branch_fields_if_already_available": [
+    "Actual Mesh normals_domain and sharp_face availability",
+    "BKE_mesh_face_normals_are_dirty before corner_tris; dirty versus with_normals route; whether face_normals_true or custom-corner-averaged face normals were supplied",
+    "For seven focused pentagons: actual local coordinate bits, projection axes/points, initial signs, ordered ear acceptance/blocker decisions",
+    "Native pose/deform/DQ normalization/order intermediates for selected targets only under separately authorized future capture; existing synthetic R7 output is not actual evidence"
+  ],
+  "unchanged_acceptance": {"normal_max_deg": 0.001, "triangle_identity": "EXACT original CORNER rows and original material slots after one declared winding conversion", "skin_weights": "All304799 original ordered CSR entries including zeros; no pruning, fitting or independent influence normalization", "source_geometry_rest": "IMMUTABLE", "native_numeric_acceptance": false, "PBR_PRIMARY_promotion": false},
+  "forbidden_substitutions": ["Approximate recalculated triangle/vertex normals", "Cached reference normal/triangle substitution into runtime", "Source-local reconstruction from rounded WORLD f32 as exact native evidence", "Canonical rest or bind rewrite", "Epsilon/tolerance relaxation", "Whole-failure conclusions from the focused12 polygon instances"],
+  "next_action": "Laptop compare saved actual stage0..6 arrays for Startle11/Strong6. Mark first mismatching measured boundary; do not launch a new Desktop Blender/native job without exact scoped authorization."
+}

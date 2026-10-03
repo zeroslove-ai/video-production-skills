@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN_SOURCE_DOMAIN_SUPPORT_COMPARATIVE_UPSTREAM_STAGE_PENDING",
+  "zip": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-normal-tess-domain-contract-r1\\YURI_O1_NORMAL_TESS_DOMAIN_CONTRACT_R1.zip",
+  "bytes": 15467,
+  "sha256": "4ae29e12b2929612e38b71caaa12b0ba790d38c9749989e77e03737605e6614c",
+  "files": {
+    "FOCUSED_NORMAL_STAGE_SUPPORT_R1.json": {
+      "bytes": 4403,
+      "sha256": "5887da2e432c519e54903a1a25be437ed13271cb4f879b7f20039d0589a01c8d"
+    },
+    "LAPTOP_DATA_DOMAIN_CONTRACT_R1.json": {
+      "bytes": 5221,
+      "sha256": "cf9e16f030cb6b6a03f402280bd7cf6280ef1aa99edf85b269f33e55437fa055"
+    },
+    "NORMAL_TESS_DOMAIN_CONTRACT_R1.json": {
+      "bytes": 54410,
+      "sha256": "0e6e0e6693639e93fafe0647ff104dbd44b3ad11e5ca49ded671997b1fae9552"
+    },
+    "NORMAL_TESS_STAGE_HANDOFF_R1.md": {
+      "bytes": 9339,
+      "sha256": "472e561215048287239eeab361921dd721e0c42246fd83a17c7b9011e1287b79"
+    },
+    "PRIVATE_SOURCE_CUSTODY_RECEIPT.json": {
+      "bytes": 552,
+      "sha256": "15e8d566acb0871a89ab3f65f1b56ec1c1c6c09771349fd4a24083add96cf60c"
+    }
+  }
+}

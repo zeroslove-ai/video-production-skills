@@ -1,0 +1,146 @@
+{
+  "scope": "ACTUAL_FROZEN_SOURCE_NORMAL_ARRAY_MEASUREMENT_ONLY_NOT_CONSUMER_ERROR",
+  "normal_recalculation": false,
+  "rows": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "source_CORNERs": [
+        253044,
+        253045,
+        253046,
+        253047,
+        253048,
+        253375,
+        253376,
+        253377,
+        253378,
+        253379,
+        253492,
+        253493,
+        253494,
+        253495,
+        253496,
+        254183,
+        254184,
+        254185,
+        254186,
+        254187
+      ],
+      "stage_file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "source_stage_normal_changes": [
+        {
+          "from_stage": 0,
+          "to_stage": 1,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 1,
+          "to_stage": 2,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 2,
+          "to_stage": 3,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 3,
+          "to_stage": 4,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 4,
+          "to_stage": 5,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 5,
+          "to_stage": 6,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        }
+      ]
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "source_CORNERs": [
+        253375,
+        253376,
+        253377,
+        253378,
+        253379,
+        254159,
+        254160,
+        254161,
+        254162,
+        254163,
+        254202,
+        254203,
+        254204,
+        254205,
+        254206
+      ],
+      "stage_file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "source_stage_normal_changes": [
+        {
+          "from_stage": 0,
+          "to_stage": 1,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 1,
+          "to_stage": 2,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 2,
+          "to_stage": 3,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 3,
+          "to_stage": 4,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 4,
+          "to_stage": 5,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        },
+        {
+          "from_stage": 5,
+          "to_stage": 6,
+          "source_normal_changed_CORNERs": 0,
+          "max_source_stage_change_deg": 0.0,
+          "source_CORNERs_over_0_001deg": 0
+        }
+      ]
+    }
+  ],
+  "rule": "Target point coordinates being unchanged does not generally freeze surrounding smooth-fan normals; original neighboring face support must be retained."
+}

@@ -1,0 +1,1791 @@
+{
+  "status": "READONLY_DOMAIN_AND_STAGE_CONTRACT_NO_RUNTIME_FIX",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz": {
+      "bytes": 6179188,
+      "sha256": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-body-modifier-source-contract-r1\\R4_Body_Original_Modifier_Support.npz": {
+      "bytes": 2547998,
+      "sha256": "1dfa764be71c9d06c733bba5be80c2eda1a7fe13bc76ba39c793d9c9ab699f7d"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-body-modifier-source-contract-r1\\BODY_MODIFIER_PARAMETERS_AND_DRIVERS.json": {
+      "bytes": 254366,
+      "sha256": "3a2e563c9330f25c1eaeb1ba04defb02d670da305e63e556b19216cadc8ba7fc"
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\evidence\\root-pm-o1\\PM_ACTUAL_FOURFRAME_DYNAMIC_TESSELLATION_REVIEW_R1.json": {
+      "bytes": 9952,
+      "sha256": "fd640a3519d237788f021aa5741c6d250ea24cfe4101b48b40553f2c04e52ada"
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\evidence\\root-pm-o1\\PM_WRONG_POLYGON_EAR_TRACE_CAUSAL_REVIEW_R1.json": {
+      "bytes": 6026,
+      "sha256": "934e22a266fa2ea24f1540d2fefe9a2cca3a8492505d857d0a41220b52578494"
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\evidence\\root-pm-o1\\PM_ACTUAL_BODY_NORMAL_FLOAT32_CORRECTION_REVIEW_R1.json": {
+      "bytes": 3270,
+      "sha256": "cbb8cb4cedca0552146b6364c4599003abc2d4614e796dd6c388ca1152f0bd2c"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": {
+      "bytes": 18390792,
+      "sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\RAW_POSE_DRIVER_STAGE_MANIFEST.json": {
+      "bytes": 118075,
+      "sha256": "04f07292fcb0525937b6f709fddd9055d581d929b3328b03b50052ecf9bc8aaf"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\R4_All6_Raw_Pose_Quaternions_And_Five_Driver_Factors.npz": {
+      "bytes": 163626,
+      "sha256": "c2b2534e46eb0b5ef20a6f48a588dc14175156c1f65c7821045c6d0e99eff900"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-normal-tess-domain-contract-r1\\PRIVATE_CONSUMER_SOURCE_CUSTODY.json": {
+      "bytes": 552,
+      "sha256": "15e8d566acb0871a89ab3f65f1b56ec1c1c6c09771349fd4a24083add96cf60c"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-normal-tess-domain-contract-r1\\O1SourceBodyTessellation.cs": {
+      "bytes": 5777,
+      "sha256": "5ef926ca0ee59e65eea273b6e9b7f8c9697ba4aeea709c4b814e606b8cdad282"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-normal-tess-domain-contract-r1\\O1SourceCornerNormals.cs": {
+      "bytes": 6164,
+      "sha256": "a20e86c22c29e1494b0afa96e11c604ea755cc4f9b62da9756f82f86efd27cf1"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-corner-normal-tangent-semantics-r1\\upstream\\mesh_normals.cc": {
+      "bytes": 70041,
+      "sha256": "50c001bb7e48b425fa9f5c6ed97dbddbd4f7915d9ee8fb445f0d53a7961272ec"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-corner-normal-tangent-semantics-r1\\upstream\\mesh_runtime.cc": {
+      "bytes": 14364,
+      "sha256": "8c8980950b96da0b5a7e4ac38115b86062739e21b3ad551975090d3c7a3b984d"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-instrumentation-draft-r7\\upstream-reference\\O1SourceBodyArmature.cs": {
+      "bytes": 20164,
+      "sha256": "1ba79eba06715b26e34ef8377bdd4bb18d59604b53ed17a1aaf3cdc3743cd017"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame001_actual_evaluated_cycles_inputs.npz": {
+      "bytes": 6105837,
+      "sha256": "d4567d1d9035eec012f65c48d02a929f31608de04bca8e651cc67f2a9862ecde"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz": {
+      "bytes": 6104160,
+      "sha256": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\YRA_R4_Startle_Short_frame011_seven_stages.npz": {
+      "bytes": 12735974,
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz": {
+      "bytes": 6103679,
+      "sha256": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz": {
+      "bytes": 12735520,
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame044_actual_evaluated_cycles_inputs.npz": {
+      "bytes": 6099338,
+      "sha256": "6217d38197ea22b79d9f4e96756ab308f7708b7c40b392fa677400e98bd2e119"
+    }
+  },
+  "four_actual_runtime_failures": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 1,
+      "actual_triangle_mismatch_rows": 7,
+      "known_first_rows_mapped": [
+        {
+          "slot_row": 117159,
+          "source_global_triangle": 125059,
+          "polygon": 62555,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            250169,
+            250171,
+            250170
+          ],
+          "actual_corner_triangle": [
+            250170,
+            250172,
+            250171
+          ]
+        },
+        {
+          "slot_row": 117160,
+          "source_global_triangle": 125060,
+          "polygon": 62555,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            250169,
+            250172,
+            250171
+          ],
+          "actual_corner_triangle": [
+            250169,
+            250172,
+            250170
+          ]
+        },
+        {
+          "slot_row": 118698,
+          "source_global_triangle": 126815,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254159,
+            254161,
+            254160
+          ],
+          "actual_corner_triangle": [
+            254163,
+            254160,
+            254159
+          ]
+        },
+        {
+          "slot_row": 118699,
+          "source_global_triangle": 126816,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254161,
+            254163,
+            254162
+          ],
+          "actual_corner_triangle": [
+            254160,
+            254162,
+            254161
+          ]
+        },
+        {
+          "slot_row": 118700,
+          "source_global_triangle": 126817,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254159,
+            254163,
+            254161
+          ],
+          "actual_corner_triangle": [
+            254160,
+            254163,
+            254162
+          ]
+        }
+      ],
+      "PM_trace_polygon_instances": [
+        {
+          "source_polygon": 62555,
+          "source_corner_start": 250168,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            3473,
+            3666,
+            4055,
+            4056,
+            3667
+          ],
+          "source_corner_edge_ids": [
+            7166,
+            7946,
+            8358,
+            7948,
+            7167
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            125058,
+            125059,
+            125060
+          ],
+          "current_original_corner_triangles": [
+            [
+              250172,
+              250168,
+              250169
+            ],
+            [
+              250169,
+              250170,
+              250171
+            ],
+            [
+              250169,
+              250171,
+              250172
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 7.217840080698344e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63672,
+          "source_corner_start": 254159,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            62654,
+            62757,
+            62855,
+            62658,
+            62655
+          ],
+          "source_corner_edge_ids": [
+            125653,
+            127209,
+            125851,
+            125445,
+            125439
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126815,
+            126816,
+            126817
+          ],
+          "current_original_corner_triangles": [
+            [
+              254159,
+              254160,
+              254161
+            ],
+            [
+              254161,
+              254162,
+              254163
+            ],
+            [
+              254159,
+              254161,
+              254163
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 1.9086433138623085e-08,
+          "initial_signs_actual": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63678,
+          "source_corner_start": 254183,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            62758,
+            62945,
+            63025,
+            62856,
+            62759
+          ],
+          "source_corner_edge_ids": [
+            126039,
+            126367,
+            127210,
+            125854,
+            125655
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126827,
+            126828,
+            126829
+          ],
+          "current_original_corner_triangles": [
+            [
+              254187,
+              254183,
+              254184
+            ],
+            [
+              254185,
+              254186,
+              254187
+            ],
+            [
+              254184,
+              254185,
+              254187
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 3.301929291567921e-08,
+          "initial_signs_actual": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        }
+      ],
+      "population_scope": "PM first_mismatches and 12 focused ear-trace instances only; not exhaustive actual mismatched-row inventory",
+      "normal_max_deg": 0.09236614707589239,
+      "normal_corners_above_unchanged_gate": 2967,
+      "normal_gate_deg": 0.001,
+      "UV_exact": true,
+      "slots1_2_exact": true,
+      "raw_five_driver_factors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_vertices": [
+        3473,
+        3666,
+        3667,
+        4055,
+        4056,
+        62654,
+        62655,
+        62658,
+        62757,
+        62758,
+        62759,
+        62855,
+        62856,
+        62945,
+        63025
+      ],
+      "selected_mask52_positive": 5,
+      "selected_corrective_mask53_positive": 5,
+      "corrective_output_inactive_for_targets": true,
+      "ordinary_smooth_four_factors_exact_zero": true
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "actual_triangle_mismatch_rows": 8,
+      "known_first_rows_mapped": [
+        {
+          "slot_row": 118206,
+          "source_global_triangle": 126323,
+          "polygon": 63361,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253046,
+            253048,
+            253047
+          ],
+          "actual_corner_triangle": [
+            253045,
+            253047,
+            253046
+          ]
+        },
+        {
+          "slot_row": 118207,
+          "source_global_triangle": 126324,
+          "polygon": 63361,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253045,
+            253048,
+            253046
+          ],
+          "actual_corner_triangle": [
+            253045,
+            253048,
+            253047
+          ]
+        },
+        {
+          "slot_row": 118359,
+          "source_global_triangle": 126476,
+          "polygon": 63450,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253377,
+            253379,
+            253378
+          ],
+          "actual_corner_triangle": [
+            253376,
+            253378,
+            253377
+          ]
+        },
+        {
+          "slot_row": 118360,
+          "source_global_triangle": 126477,
+          "polygon": 63450,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253376,
+            253379,
+            253377
+          ],
+          "actual_corner_triangle": [
+            253376,
+            253379,
+            253378
+          ]
+        },
+        {
+          "slot_row": 118410,
+          "source_global_triangle": 126527,
+          "polygon": 63483,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253493,
+            253495,
+            253494
+          ],
+          "actual_corner_triangle": [
+            253494,
+            253496,
+            253495
+          ]
+        }
+      ],
+      "PM_trace_polygon_instances": [
+        {
+          "source_polygon": 63361,
+          "source_corner_start": 253044,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            44404,
+            44574,
+            44740,
+            44907,
+            44576
+          ],
+          "source_corner_edge_ids": [
+            89176,
+            89510,
+            89844,
+            89846,
+            89178
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126322,
+            126323,
+            126324
+          ],
+          "current_original_corner_triangles": [
+            [
+              253048,
+              253044,
+              253045
+            ],
+            [
+              253046,
+              253047,
+              253048
+            ],
+            [
+              253045,
+              253046,
+              253048
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 3.4377789482651136e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63450,
+          "source_corner_start": 253375,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            53355,
+            53506,
+            53656,
+            53803,
+            53508
+          ],
+          "source_corner_edge_ids": [
+            107071,
+            107370,
+            107664,
+            107667,
+            107072
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126475,
+            126476,
+            126477
+          ],
+          "current_original_corner_triangles": [
+            [
+              253379,
+              253375,
+              253376
+            ],
+            [
+              253377,
+              253378,
+              253379
+            ],
+            [
+              253376,
+              253377,
+              253379
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 3.899473310720603e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63483,
+          "source_corner_start": 253492,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            55421,
+            55553,
+            55809,
+            55800,
+            55548
+          ],
+          "source_corner_edge_ids": [
+            111183,
+            111702,
+            111951,
+            111684,
+            111173
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126526,
+            126527,
+            126528
+          ],
+          "current_original_corner_triangles": [
+            [
+              253496,
+              253492,
+              253493
+            ],
+            [
+              253493,
+              253494,
+              253495
+            ],
+            [
+              253493,
+              253495,
+              253496
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 4.393671560934557e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63678,
+          "source_corner_start": 254183,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            62758,
+            62945,
+            63025,
+            62856,
+            62759
+          ],
+          "source_corner_edge_ids": [
+            126039,
+            126367,
+            127210,
+            125854,
+            125655
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126827,
+            126828,
+            126829
+          ],
+          "current_original_corner_triangles": [
+            [
+              254187,
+              254183,
+              254184
+            ],
+            [
+              254185,
+              254186,
+              254187
+            ],
+            [
+              254184,
+              254185,
+              254187
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 3.7541542515458487e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        }
+      ],
+      "population_scope": "PM first_mismatches and 12 focused ear-trace instances only; not exhaustive actual mismatched-row inventory",
+      "normal_max_deg": 0.04288375144810433,
+      "normal_corners_above_unchanged_gate": 9847,
+      "normal_gate_deg": 0.001,
+      "UV_exact": true,
+      "slots1_2_exact": true,
+      "raw_five_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_vertices": [
+        44404,
+        44574,
+        44576,
+        44740,
+        44907,
+        53355,
+        53506,
+        53508,
+        53656,
+        53803,
+        55421,
+        55548,
+        55553,
+        55800,
+        55809,
+        62758,
+        62759,
+        62856,
+        62945,
+        63025
+      ],
+      "selected_mask52_positive": 0,
+      "selected_corrective_mask53_positive": 0,
+      "corrective_output_inactive_for_targets": true,
+      "ordinary_smooth_four_factors_exact_zero": true
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "actual_triangle_mismatch_rows": 7,
+      "known_first_rows_mapped": [
+        {
+          "slot_row": 118359,
+          "source_global_triangle": 126476,
+          "polygon": 63450,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253376,
+            253378,
+            253377
+          ],
+          "actual_corner_triangle": [
+            253377,
+            253379,
+            253378
+          ]
+        },
+        {
+          "slot_row": 118360,
+          "source_global_triangle": 126477,
+          "polygon": 63450,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253376,
+            253379,
+            253378
+          ],
+          "actual_corner_triangle": [
+            253376,
+            253379,
+            253377
+          ]
+        },
+        {
+          "slot_row": 118698,
+          "source_global_triangle": 126815,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254159,
+            254161,
+            254160
+          ],
+          "actual_corner_triangle": [
+            254163,
+            254160,
+            254159
+          ]
+        },
+        {
+          "slot_row": 118699,
+          "source_global_triangle": 126816,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254161,
+            254163,
+            254162
+          ],
+          "actual_corner_triangle": [
+            254160,
+            254162,
+            254161
+          ]
+        },
+        {
+          "slot_row": 118700,
+          "source_global_triangle": 126817,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254159,
+            254163,
+            254161
+          ],
+          "actual_corner_triangle": [
+            254160,
+            254163,
+            254162
+          ]
+        }
+      ],
+      "PM_trace_polygon_instances": [
+        {
+          "source_polygon": 63450,
+          "source_corner_start": 253375,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            53355,
+            53506,
+            53656,
+            53803,
+            53508
+          ],
+          "source_corner_edge_ids": [
+            107071,
+            107370,
+            107664,
+            107667,
+            107072
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126475,
+            126476,
+            126477
+          ],
+          "current_original_corner_triangles": [
+            [
+              253379,
+              253375,
+              253376
+            ],
+            [
+              253376,
+              253377,
+              253378
+            ],
+            [
+              253376,
+              253378,
+              253379
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 5.130767553947776e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63672,
+          "source_corner_start": 254159,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            62654,
+            62757,
+            62855,
+            62658,
+            62655
+          ],
+          "source_corner_edge_ids": [
+            125653,
+            127209,
+            125851,
+            125445,
+            125439
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126815,
+            126816,
+            126817
+          ],
+          "current_original_corner_triangles": [
+            [
+              254159,
+              254160,
+              254161
+            ],
+            [
+              254161,
+              254162,
+              254163
+            ],
+            [
+              254159,
+              254161,
+              254163
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 8.991464878049844e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63683,
+          "source_corner_start": 254202,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            62856,
+            63025,
+            63103,
+            63042,
+            62874
+          ],
+          "source_corner_edge_ids": [
+            127210,
+            126366,
+            126516,
+            126242,
+            125891
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126836,
+            126837,
+            126838
+          ],
+          "current_original_corner_triangles": [
+            [
+              254206,
+              254202,
+              254203
+            ],
+            [
+              254203,
+              254204,
+              254205
+            ],
+            [
+              254203,
+              254205,
+              254206
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 9.263041260992549e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        }
+      ],
+      "population_scope": "PM first_mismatches and 12 focused ear-trace instances only; not exhaustive actual mismatched-row inventory",
+      "normal_max_deg": 0.05136325154572324,
+      "normal_corners_above_unchanged_gate": 11404,
+      "normal_gate_deg": 0.001,
+      "UV_exact": true,
+      "slots1_2_exact": true,
+      "raw_five_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_vertices": [
+        53355,
+        53506,
+        53508,
+        53656,
+        53803,
+        62654,
+        62655,
+        62658,
+        62757,
+        62855,
+        62856,
+        62874,
+        63025,
+        63042,
+        63103
+      ],
+      "selected_mask52_positive": 0,
+      "selected_corrective_mask53_positive": 0,
+      "corrective_output_inactive_for_targets": true,
+      "ordinary_smooth_four_factors_exact_zero": true
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 44,
+      "actual_triangle_mismatch_rows": 5,
+      "known_first_rows_mapped": [
+        {
+          "slot_row": 118359,
+          "source_global_triangle": 126476,
+          "polygon": 63450,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253376,
+            253378,
+            253377
+          ],
+          "actual_corner_triangle": [
+            253377,
+            253379,
+            253378
+          ]
+        },
+        {
+          "slot_row": 118360,
+          "source_global_triangle": 126477,
+          "polygon": 63450,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            253376,
+            253379,
+            253378
+          ],
+          "actual_corner_triangle": [
+            253376,
+            253379,
+            253377
+          ]
+        },
+        {
+          "slot_row": 118698,
+          "source_global_triangle": 126815,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254163,
+            254160,
+            254159
+          ],
+          "actual_corner_triangle": [
+            254159,
+            254161,
+            254160
+          ]
+        },
+        {
+          "slot_row": 118699,
+          "source_global_triangle": 126816,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254160,
+            254162,
+            254161
+          ],
+          "actual_corner_triangle": [
+            254161,
+            254163,
+            254162
+          ]
+        },
+        {
+          "slot_row": 118700,
+          "source_global_triangle": 126817,
+          "polygon": 63672,
+          "polygon_size": 5,
+          "source_corner_triangle": [
+            254160,
+            254163,
+            254162
+          ],
+          "actual_corner_triangle": [
+            254159,
+            254163,
+            254161
+          ]
+        }
+      ],
+      "PM_trace_polygon_instances": [
+        {
+          "source_polygon": 63450,
+          "source_corner_start": 253375,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            53355,
+            53506,
+            53656,
+            53803,
+            53508
+          ],
+          "source_corner_edge_ids": [
+            107071,
+            107370,
+            107664,
+            107667,
+            107072
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126475,
+            126476,
+            126477
+          ],
+          "current_original_corner_triangles": [
+            [
+              253379,
+              253375,
+              253376
+            ],
+            [
+              253376,
+              253377,
+              253378
+            ],
+            [
+              253376,
+              253378,
+              253379
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 5.224047255152573e-07,
+          "initial_signs_actual": [
+            1,
+            1,
+            -1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        },
+        {
+          "source_polygon": 63672,
+          "source_corner_start": 254159,
+          "source_corner_count": 5,
+          "original_source_vertex_ids": [
+            62654,
+            62757,
+            62855,
+            62658,
+            62655
+          ],
+          "source_corner_edge_ids": [
+            125653,
+            127209,
+            125851,
+            125445,
+            125439
+          ],
+          "material_slot": 0,
+          "current_source_triangle_rows": [
+            126815,
+            126816,
+            126817
+          ],
+          "current_original_corner_triangles": [
+            [
+              254163,
+              254159,
+              254160
+            ],
+            [
+              254160,
+              254161,
+              254162
+            ],
+            [
+              254160,
+              254162,
+              254163
+            ]
+          ],
+          "source_custom_short2_sha256": "de47c9b27eb8d300dbb5f2c353e632c393262cf06340c4fa7f1b40c4cbd36f90",
+          "PM_measured_local_delta_max_m": 4.268343921721728e-07,
+          "initial_signs_actual": [
+            -1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "initial_signs_source": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "first_reported_trace_divergence": 0
+        }
+      ],
+      "population_scope": "PM first_mismatches and 12 focused ear-trace instances only; not exhaustive actual mismatched-row inventory",
+      "normal_max_deg": 0.03245540160543239,
+      "normal_corners_above_unchanged_gate": 11707,
+      "normal_gate_deg": 0.001,
+      "UV_exact": true,
+      "slots1_2_exact": true,
+      "raw_five_driver_factors": [
+        0.18200713396072388,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_vertices": [
+        53355,
+        53506,
+        53508,
+        53656,
+        53803,
+        62654,
+        62655,
+        62658,
+        62757,
+        62855
+      ],
+      "selected_mask52_positive": 0,
+      "selected_corrective_mask53_positive": 0,
+      "corrective_output_inactive_for_targets": true,
+      "ordinary_smooth_four_factors_exact_zero": true
+    }
+  ],
+  "source_stage_analysis": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 1,
+      "seven_stage_source_reference": "NOT_PRESENT; final local source reference and raw driver factors are present"
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "target_vertices": [
+        44404,
+        44574,
+        44576,
+        44740,
+        44907,
+        53355,
+        53506,
+        53508,
+        53656,
+        53803,
+        55421,
+        55548,
+        55553,
+        55800,
+        55809,
+        62758,
+        62759,
+        62856,
+        62945,
+        63025
+      ],
+      "source_world_stage_changes": [
+        {
+          "from_stage": 0,
+          "to_stage": 1,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 25295
+        },
+        {
+          "from_stage": 1,
+          "to_stage": 2,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 25369
+        },
+        {
+          "from_stage": 2,
+          "to_stage": 3,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        },
+        {
+          "from_stage": 3,
+          "to_stage": 4,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        },
+        {
+          "from_stage": 4,
+          "to_stage": 5,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        },
+        {
+          "from_stage": 5,
+          "to_stage": 6,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        }
+      ],
+      "stage06_world_positions_equal_dynamic_reference": true,
+      "all_target_source_stage0_to6_world_bits_equal": true,
+      "arrays_domain": "WORLD f32 only; no source-local intermediate arrays in this existing dataset",
+      "normal_arrays_domain": "actual source CORNER WORLD f32; not recomputed",
+      "consumer_matching_seven_stage_arrays_available_here": false
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "target_vertices": [
+        53355,
+        53506,
+        53508,
+        53656,
+        53803,
+        62654,
+        62655,
+        62658,
+        62757,
+        62855,
+        62856,
+        62874,
+        63025,
+        63042,
+        63103
+      ],
+      "source_world_stage_changes": [
+        {
+          "from_stage": 0,
+          "to_stage": 1,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 25719
+        },
+        {
+          "from_stage": 1,
+          "to_stage": 2,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 27994
+        },
+        {
+          "from_stage": 2,
+          "to_stage": 3,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        },
+        {
+          "from_stage": 3,
+          "to_stage": 4,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        },
+        {
+          "from_stage": 4,
+          "to_stage": 5,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        },
+        {
+          "from_stage": 5,
+          "to_stage": 6,
+          "target_changed_vertices": 0,
+          "target_max_world_position_delta_m": 0.0,
+          "whole_mesh_changed_vertices": 0
+        }
+      ],
+      "stage06_world_positions_equal_dynamic_reference": true,
+      "all_target_source_stage0_to6_world_bits_equal": true,
+      "arrays_domain": "WORLD f32 only; no source-local intermediate arrays in this existing dataset",
+      "normal_arrays_domain": "actual source CORNER WORLD f32; not recomputed",
+      "consumer_matching_seven_stage_arrays_available_here": false
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 44,
+      "seven_stage_source_reference": "NOT_PRESENT; final local source reference and raw driver factors are present"
+    }
+  ],
+  "focused_target_source_vertices": [
+    3473,
+    3666,
+    3667,
+    4055,
+    4056,
+    44404,
+    44574,
+    44576,
+    44740,
+    44907,
+    53355,
+    53506,
+    53508,
+    53656,
+    53803,
+    55421,
+    55548,
+    55553,
+    55800,
+    55809,
+    62654,
+    62655,
+    62658,
+    62757,
+    62758,
+    62759,
+    62855,
+    62856,
+    62874,
+    62945,
+    63025,
+    63042,
+    63103
+  ],
+  "target_ordered_CSR_ranges": [
+    {
+      "source_vertex": 3473,
+      "original_ordered_CSR_start": 31807,
+      "original_ordered_CSR_end": 31813,
+      "entries": 6,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 3666,
+      "original_ordered_CSR_start": 33481,
+      "original_ordered_CSR_end": 33487,
+      "entries": 6,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 3667,
+      "original_ordered_CSR_start": 33487,
+      "original_ordered_CSR_end": 33493,
+      "entries": 6,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 4055,
+      "original_ordered_CSR_start": 36966,
+      "original_ordered_CSR_end": 36972,
+      "entries": 6,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 4056,
+      "original_ordered_CSR_start": 36972,
+      "original_ordered_CSR_end": 36978,
+      "entries": 6,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 44404,
+      "original_ordered_CSR_start": 270761,
+      "original_ordered_CSR_end": 270763,
+      "entries": 2,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 44574,
+      "original_ordered_CSR_start": 271017,
+      "original_ordered_CSR_end": 271019,
+      "entries": 2,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 44576,
+      "original_ordered_CSR_start": 271021,
+      "original_ordered_CSR_end": 271023,
+      "entries": 2,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 44740,
+      "original_ordered_CSR_start": 271280,
+      "original_ordered_CSR_end": 271282,
+      "entries": 2,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 44907,
+      "original_ordered_CSR_start": 271548,
+      "original_ordered_CSR_end": 271550,
+      "entries": 2,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 53355,
+      "original_ordered_CSR_start": 288732,
+      "original_ordered_CSR_end": 288733,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 53506,
+      "original_ordered_CSR_start": 288883,
+      "original_ordered_CSR_end": 288884,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 53508,
+      "original_ordered_CSR_start": 288885,
+      "original_ordered_CSR_end": 288886,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 53656,
+      "original_ordered_CSR_start": 289033,
+      "original_ordered_CSR_end": 289034,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 53803,
+      "original_ordered_CSR_start": 289180,
+      "original_ordered_CSR_end": 289181,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 55421,
+      "original_ordered_CSR_start": 290798,
+      "original_ordered_CSR_end": 290799,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 55548,
+      "original_ordered_CSR_start": 290925,
+      "original_ordered_CSR_end": 290926,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 55553,
+      "original_ordered_CSR_start": 290930,
+      "original_ordered_CSR_end": 290931,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 55800,
+      "original_ordered_CSR_start": 291177,
+      "original_ordered_CSR_end": 291178,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 55809,
+      "original_ordered_CSR_start": 291186,
+      "original_ordered_CSR_end": 291187,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62654,
+      "original_ordered_CSR_start": 302930,
+      "original_ordered_CSR_end": 302931,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62655,
+      "original_ordered_CSR_start": 302931,
+      "original_ordered_CSR_end": 302932,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62658,
+      "original_ordered_CSR_start": 302934,
+      "original_ordered_CSR_end": 302935,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62757,
+      "original_ordered_CSR_start": 303119,
+      "original_ordered_CSR_end": 303120,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62758,
+      "original_ordered_CSR_start": 303120,
+      "original_ordered_CSR_end": 303121,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62759,
+      "original_ordered_CSR_start": 303121,
+      "original_ordered_CSR_end": 303122,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62855,
+      "original_ordered_CSR_start": 303294,
+      "original_ordered_CSR_end": 303295,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62856,
+      "original_ordered_CSR_start": 303295,
+      "original_ordered_CSR_end": 303296,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62874,
+      "original_ordered_CSR_start": 303329,
+      "original_ordered_CSR_end": 303330,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 62945,
+      "original_ordered_CSR_start": 303458,
+      "original_ordered_CSR_end": 303459,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 63025,
+      "original_ordered_CSR_start": 303605,
+      "original_ordered_CSR_end": 303606,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 63042,
+      "original_ordered_CSR_start": 303636,
+      "original_ordered_CSR_end": 303638,
+      "entries": 2,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    },
+    {
+      "source_vertex": 63103,
+      "original_ordered_CSR_start": 303750,
+      "original_ordered_CSR_end": 303751,
+      "entries": 1,
+      "zero_weight_entries": 0,
+      "original_mapping_recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+    }
+  ],
+  "focused_targets_overlap_existing_R7_five_vertices": [],
+  "original_parallel_edge_endpoint_duplicate_rows": 0,
+  "earliest_proven_divergence": "Actual final SOURCE_LOCAL position inputs already differ from Blender reference before normal/tessellation. Initial ear convex/concave signs differ at trace0. Exact first upstream comparative modifier stage unproved: actual consumer seven-stage arrays not present.",
+  "normal_same_local_evidence": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 1,
+      "actual_source_error_deg": 0.09236614707589239,
+      "same_local_CSharp_vs_independent_deg": 2.367488270007388e-06
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "actual_source_error_deg": 0.04288375144810433,
+      "same_local_CSharp_vs_independent_deg": 2.7678572500950718e-06
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "actual_source_error_deg": 0.05136325154572324,
+      "same_local_CSharp_vs_independent_deg": 4.1508172676292195e-06
+    }
+  ],
+  "missing_evidence": [
+    "Full actual 27 wrong triangle rows plus corner-normal error IDs/readback: only 20 first rows available in PM four-frame receipt",
+    "Consumer DiagnosticStageObserver local/rendered outputs stage0..6 for Startle11/Strong6; existing source stage world arrays must use explicit instance/P mapping",
+    "Source-local f32 stage0..6 native intermediate coordinates unavailable; inverting already-rounded WORLD f32 loses local ULP provenance",
+    "Native corner-tris cache dirty/with-normals branch and actual projection/ear-sweep trace not captured",
+    "Exact native normalization/compiler operation trace before claiming remaining same-input differences explained",
+    "Normal max-error CORNER/fan IDs for all four samples, complete original-edge adjacency/fan traversal and any source-local face/corner outputs"
+  ],
+  "operator_contract": {
+    "geometry": "Original63561 basis + exact57 rest/pose + full ordered304799CSR -> source-local DQ(stage0) -> cached-original masked LBS(stage1) -> original-edge ORCO corrective(stage2) -> four Smooth(stage3..6); never canonical rest fit/prune/normalize influences",
+    "normal": "Source-local current positions + original polygon/corner/edge topology + sharp attrs + signed CORNER short2 -> true Newell face normals -> ordered original-edge smooth fans -> fan space + signed averaged short2 decode -> local CORNER normals -> inverse-transpose world once; no triangle normal recalculation",
+    "tessellation": "Same source-local current positions + original polygon/corner indices -> exact native dirty/with-face-normals cache route -> triangle/quad/ngon projection + float32 sign/ear sweep -> original CORNER triangles -> material slot partition + P winding reversal once",
+    "static_native_terms_not_recorded_by_current_portable_tess": "Cached mesh runtime can use corner_tris_calc_with_normals(face_normals()) instead of recomputing Newell projection; short2 Face normals may average decoded CORNER values; actual cached branch pending, not asserted cause",
+    "acceptance": "unchanged normal0.001deg, exact topology/CSR order/triangle identities, actual renderer readback, no source substitution/epsilon/approx normals"
+  },
+  "source_R5_identity_accepted_scope_only": true,
+  "native_numeric_acceptance": false,
+  "visual_PBR_PRIMARY_promotion": false,
+  "Blender_render_build_trace_download_jobs_in_this_analysis": 0
+}
