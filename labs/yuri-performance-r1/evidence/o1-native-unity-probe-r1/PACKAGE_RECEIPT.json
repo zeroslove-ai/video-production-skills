@@ -1,0 +1,19 @@
+{
+  "archive": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_NATIVE_UNITY_PROBE_20261003_R1_4ec5c10ce90d.zip",
+  "sha256": "4ec5c10ce90d7d25c06721b7dcd3832be4b7672190c975d42912be876a5a0843",
+  "bytes": 175204266,
+  "members": 64,
+  "CRC_and_member_hashes_verified": true,
+  "model": {
+    "file": "YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx",
+    "bytes": 23536956,
+    "sha256": "a1e3dfa2320148d027bfba7a68ff9526ea006133109d1f4a81c25df3ffc8fad8"
+  },
+  "animation": {
+    "file": "YURI_O1_R4_NATIVE_ANIMATION_ONLY_20261003_R1.fbx",
+    "bytes": 7039580,
+    "sha256": "2b464141e7727856448351e5c09747842fb0f317535208e3e3d1a6ddc78da579"
+  },
+  "disposition": "PROBE_COMPLETE / PROMOTION_HOLD / NOT_CANONICAL",
+  "Unity_PASS": false
+}

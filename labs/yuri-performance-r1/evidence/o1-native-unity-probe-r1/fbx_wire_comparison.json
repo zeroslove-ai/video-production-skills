@@ -1,0 +1,4811 @@
+{
+  "model_global_settings": {
+    "UpAxis": [
+      1
+    ],
+    "UpAxisSign": [
+      1
+    ],
+    "FrontAxis": [
+      2
+    ],
+    "FrontAxisSign": [
+      1
+    ],
+    "CoordAxis": [
+      0
+    ],
+    "CoordAxisSign": [
+      1
+    ],
+    "OriginalUpAxis": [
+      -1
+    ],
+    "OriginalUpAxisSign": [
+      1
+    ],
+    "UnitScaleFactor": [
+      100.0
+    ],
+    "OriginalUnitScaleFactor": [
+      100.0
+    ],
+    "AmbientColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "DefaultCamera": [
+      "Producer Perspective"
+    ],
+    "TimeMode": [
+      11
+    ],
+    "TimeSpanStart": [
+      0
+    ],
+    "TimeSpanStop": [
+      46186158000
+    ],
+    "CustomFrameRate": [
+      24.0
+    ]
+  },
+  "animation_global_settings": {
+    "UpAxis": [
+      1
+    ],
+    "UpAxisSign": [
+      1
+    ],
+    "FrontAxis": [
+      2
+    ],
+    "FrontAxisSign": [
+      1
+    ],
+    "CoordAxis": [
+      0
+    ],
+    "CoordAxisSign": [
+      1
+    ],
+    "OriginalUpAxis": [
+      -1
+    ],
+    "OriginalUpAxisSign": [
+      1
+    ],
+    "UnitScaleFactor": [
+      100.0
+    ],
+    "OriginalUnitScaleFactor": [
+      100.0
+    ],
+    "AmbientColor": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "DefaultCamera": [
+      "Producer Perspective"
+    ],
+    "TimeMode": [
+      11
+    ],
+    "TimeSpanStart": [
+      0
+    ],
+    "TimeSpanStop": [
+      46186158000
+    ],
+    "CustomFrameRate": [
+      24.0
+    ]
+  },
+  "globals_identical": true,
+  "shared_object_defaults": [
+    {
+      "name": "AVATAR_BoardRoot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "AVATAR_FaceBoard",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Rotation": {
+          "model": null,
+          "animation": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Armature",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Assembly_Root",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": null,
+          "animation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Rig_R4",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": null,
+          "animation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Meshy_Fitted_Rig",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Rotation": {
+          "model": null,
+          "animation": [
+            0.0,
+            -0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "JawOpen",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Smile.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Smile.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Blink.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Blink.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "BrowRaise.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "BrowRaise.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "BrowKnit.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "BrowKnit.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "CheekLift.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "CheekLift.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "LipPucker",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "MouthWide",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Root",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Hips",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Spine",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_Chest",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_C_UpperChest",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.0877556633204222e-08,
+            0.06259141862392426,
+            1.280568540096283e-09
+          ],
+          "animation": [
+            -2.637534635141492e-08,
+            0.06259142607450485,
+            -1.0477378964424133e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.33930701597799934,
+            5.438956902596139,
+            5.380458039902273
+          ],
+          "animation": [
+            -0.33930784307121914,
+            5.4389564757093165,
+            5.380471273393789
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999998807907104,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            0.9999997615814209,
+            0.9999998807907104,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_C_Neck",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.001049625687301159,
+            0.0815902054309845,
+            0.0001662259455770254
+          ],
+          "animation": [
+            0.0010496489703655243,
+            0.08159015327692032,
+            0.0001662293216213584
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.192274489905446,
+            -22.107227182803374,
+            -26.96131797497908
+          ],
+          "animation": [
+            4.192277478113208,
+            -22.107227182803374,
+            -26.961338465546593
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_C_Head",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            7.284688763320446e-08,
+            0.040861401706933975,
+            -4.819594323635101e-08
+          ],
+          "animation": [
+            7.104245014488697e-08,
+            0.04086139798164368,
+            -5.878973752260208e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -13.79979445381651,
+            -27.480400399069005,
+            -15.967220090683949
+          ],
+          "animation": [
+            -13.799789331174631,
+            -27.48040381416359,
+            -15.967214968042072
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            0.9999998807907104,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            0.9999997615814209,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Adj_L_FaceEye",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.00452815555036068,
+            0.04253261163830757,
+            -0.005171915516257286
+          ],
+          "animation": [
+            -0.004528148099780083,
+            0.042532533407211304,
+            -0.005171992816030979
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -6.851127114913425,
+            0.3832954619452913,
+            6.0573434470288765
+          ],
+          "animation": [
+            -6.851128395573895,
+            0.3832942880065277,
+            6.057343873915699
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Adj_R_FaceEye",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.013360627926886082,
+            0.03939419984817505,
+            0.01525102462619543
+          ],
+          "animation": [
+            0.013360639102756977,
+            0.039394181221723557,
+            0.015250949189066887
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            20.186152808919953,
+            3.177618725961964,
+            -17.51701733411652
+          ],
+          "animation": [
+            20.18614939382537,
+            3.1776161646410253,
+            -17.517008796380058
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            1.0,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "MOTION5H_HairTip.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.05822308734059334,
+            0.04415220767259598,
+            -0.017220616340637207
+          ],
+          "animation": [
+            -0.05822307989001274,
+            0.04415218159556389,
+            -0.017220664769411087
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -48.70355180136802,
+            48.35339532337815,
+            170.0486379543012
+          ],
+          "animation": [
+            -48.703562046651776,
+            48.35341239885108,
+            170.04862429392284
+          ]
+        }
+      }
+    },
+    {
+      "name": "MOTION5H_HairTip.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.00984862819314003,
+            0.032208871096372604,
+            0.06049421429634094
+          ],
+          "animation": [
+            0.009848637506365776,
+            0.032208848744630814,
+            0.06049416959285736
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            1.0000001192092896,
+            1.0000001192092896
+          ],
+          "animation": [
+            1.0000001192092896,
+            1.0,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Shoulder",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            5.723908543586731e-05,
+            0.06353273242712021,
+            -0.011849958449602127
+          ],
+          "animation": [
+            5.725491791963577e-05,
+            0.06353268027305603,
+            -0.011849958449602127
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -96.14804019151424,
+            -5.101925059983269,
+            -9.267219448893519
+          ],
+          "animation": [
+            -96.14804019151424,
+            -5.101924206209622,
+            -9.26723054795092
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_UpperArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0,
+            0.059212297201156616,
+            1.0760777513496578e-07
+          ],
+          "animation": [
+            -2.3283064365386963e-09,
+            0.05921229347586632,
+            4.691901267506182e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.647378105153035,
+            0.09431107863676418,
+            -2.3217304958320164
+          ],
+          "animation": [
+            4.647379385813505,
+            0.09431110531719061,
+            -2.3217304958320164
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_LowerArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -6.402842700481415e-10,
+            0.1525193750858307,
+            3.515651769703254e-09
+          ],
+          "animation": [
+            -4.656612873077393e-10,
+            0.1525193750858307,
+            -6.464733814937063e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.7201551357663104,
+            0.11359669138746374,
+            -3.8529417273159274
+          ],
+          "animation": [
+            0.7201552958488691,
+            0.11359669138746374,
+            -3.8529417273159274
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Hand",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0,
+            0.12269556522369385,
+            -3.9559381548315287e-08
+          ],
+          "animation": [
+            1.2223608791828156e-09,
+            0.12269555032253265,
+            -5.4880729294382036e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -4.151566135565347,
+            -0.0886141539202314,
+            -0.11675398635194181
+          ],
+          "animation": [
+            -4.15156656245217,
+            -0.08861418060065786,
+            -0.11675423981599305
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            0.9999998211860657,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Thumb1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.012745622545480728,
+            0.025966182351112366,
+            -0.005396051332354546
+          ],
+          "animation": [
+            0.012745622545480728,
+            0.025966180488467216,
+            -0.005396186374127865
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -9.376158404834282,
+            -0.9080197556917756,
+            -26.126812292376094
+          ],
+          "animation": [
+            -9.37615925860793,
+            -0.9080192220832467,
+            -26.126812292376094
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Thumb2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -7.450580596923828e-09,
+            0.023784983903169632,
+            -3.958120942115784e-09
+          ],
+          "animation": [
+            1.4901161193847656e-08,
+            0.023784978315234184,
+            -7.497146725654602e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            7.250011016215816,
+            2.4732479972849943,
+            -2.7726877593665846
+          ],
+          "animation": [
+            7.250012723763109,
+            2.4732482107284057,
+            -2.7726864787061154
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Thumb3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            7.264316082000732e-08,
+            0.019530626013875008,
+            2.2351741790771484e-07
+          ],
+          "animation": [
+            5.960464477539063e-08,
+            0.01953062415122986,
+            2.611195668578148e-07
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.00036034576140575147,
+            0.0006438521030896912,
+            -1.3685034610582706e-05
+          ],
+          "animation": [
+            0.0003606659525781998,
+            0.0006438521030896912,
+            -1.2737877029106348e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Index1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.01655011624097824,
+            0.06792844086885452,
+            -0.0002106844331137836
+          ],
+          "animation": [
+            0.01655011810362339,
+            0.06792843341827393,
+            -0.00021076385746710002
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.1705480850424586,
+            1.015116374825635,
+            -9.969798320130417
+          ],
+          "animation": [
+            4.170547658155636,
+            1.015116374825635,
+            -9.969797466356772
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Index2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.3969838619232178e-09,
+            0.014200338162481785,
+            -6.31698640063405e-08
+          ],
+          "animation": [
+            1.3969838619232178e-09,
+            0.01420036144554615,
+            -2.066371962428093e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.16197757598109538,
+            -0.002659793598625487,
+            -0.9655305888335176
+          ],
+          "animation": [
+            -0.16197752262024248,
+            -0.0026598265322768807,
+            -0.9655305888335176
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Index3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            9.778887033462524e-09,
+            0.013201093301177025,
+            2.5960616767406464e-08
+          ],
+          "animation": [
+            5.820766091346741e-09,
+            0.013201084919273853,
+            7.11152097210288e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.002854142787809265,
+            0.0036115313091186715,
+            -7.810620584833557e-05
+          ],
+          "animation": [
+            0.0028543230891286027,
+            0.0036115713297583396,
+            -7.808952406803123e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Middle1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.004228143487125635,
+            0.06778720766305923,
+            0.0008361894870176911
+          ],
+          "animation": [
+            0.004228142090141773,
+            0.06778720766305923,
+            0.0008360508945770562
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            6.3630136222939875,
+            0.06596938209856816,
+            0.6638729896232302
+          ],
+          "animation": [
+            6.3630136222939875,
+            0.06596938876867477,
+            0.6638727228189658
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0000001192092896,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Middle2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -7.896971965237753e-11,
+            0.01591355726122856,
+            3.48064403965509e-08
+          ],
+          "animation": [
+            9.773586384653754e-10,
+            0.0159135852009058,
+            1.3461125547564734e-07
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -3.6901296542966873,
+            -0.060275212136065875,
+            0.0038898039881271685
+          ],
+          "animation": [
+            -3.6901296542966873,
+            -0.060275212136065875,
+            0.003889779808990702
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Middle3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.7462298274040222e-09,
+            0.015946676954627037,
+            -8.863935363478959e-09
+          ],
+          "animation": [
+            1.1641532182693481e-10,
+            0.015946675091981888,
+            -3.380228008609265e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.00021348129568404256,
+            0.0004438189408688929,
+            6.192145677806716e-06
+          ],
+          "animation": [
+            0.00021306337181667574,
+            0.0004438156058155872,
+            6.4255977807596386e-06
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Ring1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.007071161177009344,
+            0.06780420243740082,
+            0.0008655127021484077
+          ],
+          "animation": [
+            -0.007071157917380333,
+            0.06780419498682022,
+            0.0008653745171613991
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            2.234292975398452,
+            -0.7479374104630133,
+            10.592365794108849
+          ],
+          "animation": [
+            2.234292548511629,
+            -0.7479373571021605,
+            10.592365794108849
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Ring2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -2.6775524020195007e-08,
+            0.014548273757100105,
+            2.4905602913349867e-08
+          ],
+          "animation": [
+            -3.026798367500305e-08,
+            0.014548271894454956,
+            1.1908923625014722e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.29386189876806995,
+            -0.06973932635529785,
+            2.746514901353919
+          ],
+          "animation": [
+            -0.29386227229404016,
+            -0.06973937971615074,
+            2.746515328240742
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Ring3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.0244548320770264e-08,
+            0.013623137027025223,
+            -3.7224162952043116e-07
+          ],
+          "animation": [
+            6.752088665962219e-09,
+            0.013623145408928394,
+            -3.869117790600285e-07
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.0005005481975983446,
+            -5.496330692144326e-06,
+            3.720249682653611e-05
+          ],
+          "animation": [
+            0.0005000946303487734,
+            -5.442967803698606e-06,
+            3.678228011002166e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Little1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.017081717029213905,
+            0.06198033690452576,
+            -0.0018240323988720775
+          ],
+          "animation": [
+            -0.017081717029213905,
+            0.06198033317923546,
+            -0.0018241702346131206
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -3.0185308135876734,
+            -0.6117288709001198,
+            18.598115043871772
+          ],
+          "animation": [
+            -3.018531027031085,
+            -0.611728817539267,
+            18.598115043871772
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Little2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.330649971961975e-08,
+            0.012990211136639118,
+            4.9069058150053024e-08
+          ],
+          "animation": [
+            3.67872416973114e-08,
+            0.01299023162573576,
+            2.7997884899377823e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            3.607783613002544,
+            -0.568634966270688,
+            0.48429776475092756
+          ],
+          "animation": [
+            3.607783613002544,
+            -0.5686349129098351,
+            0.48429765802922176
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_Little3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -4.190951585769653e-08,
+            0.010762226767838001,
+            -3.2741809263825417e-09
+          ],
+          "animation": [
+            -4.563480615615845e-08,
+            0.010762225836515427,
+            -2.468004822731018e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.0003154960427164093,
+            -3.6551203092638226e-06,
+            -3.5621714128528335e-05
+          ],
+          "animation": [
+            0.0003149490939742794,
+            -3.681801142820184e-06,
+            -3.558836359547163e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0000001192092896,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Shoulder",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.003607149003073573,
+            0.06353248655796051,
+            0.011287751607596874
+          ],
+          "animation": [
+            -0.003607141552492976,
+            0.06353243440389633,
+            0.011287752538919449
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            105.52468097845865,
+            -0.48382498759431575,
+            -61.64958797685857
+          ],
+          "animation": [
+            105.52469463883699,
+            -0.48381789060088126,
+            -61.649608467426084
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0000001192092896,
+            0.9999999403953552
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.000000238418579,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_UpperArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.6298145055770874e-07,
+            0.05921229347586632,
+            -5.029141902923584e-08
+          ],
+          "animation": [
+            1.3457611203193665e-07,
+            0.05921226367354393,
+            -4.470348358154297e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -4.647298277317111,
+            0.09398535732061257,
+            2.321731136162251
+          ],
+          "animation": [
+            -4.647299131090757,
+            0.09398803203336373,
+            2.3217319899358975
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_LowerArm",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.7974525690078735e-07,
+            0.15251930058002472,
+            -4.842877388000488e-08
+          ],
+          "animation": [
+            -2.062879502773285e-07,
+            0.1525193154811859,
+            -6.938353180885315e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.033248476120509,
+            153.96790011961164,
+            0.376990983897958
+          ],
+          "animation": [
+            4.033248049233686,
+            153.96790011961164,
+            0.3769906637328406
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999997615814209,
+            0.9999999403953552
+          ],
+          "animation": [
+            0.9999998807907104,
+            0.9999997615814209,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Hand",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.341104507446289e-07,
+            0.12913742661476135,
+            5.8673322200775146e-08
+          ],
+          "animation": [
+            8.032657206058502e-08,
+            0.12913742661476135,
+            7.35744833946228e-08
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Thumb1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.005975073203444481,
+            0.02404448576271534,
+            0.01279815100133419
+          ],
+          "animation": [
+            0.005975125357508659,
+            0.024044498801231384,
+            0.012798182666301727
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            81.3239478810803,
+            66.40667129979988,
+            65.30593850372814
+          ],
+          "animation": [
+            81.32395471126947,
+            66.40666446961072,
+            65.30594533391731
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999998807907104,
+            0.9999998807907104,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Thumb2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            2.6635825634002686e-07,
+            0.022546246647834778,
+            5.960464477539063e-08
+          ],
+          "animation": [
+            1.8067657947540283e-07,
+            0.022546300664544106,
+            7.450580596923828e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            6.798425375277606,
+            21.4473489467101,
+            0.41820978815680976
+          ],
+          "animation": [
+            6.7984249483907835,
+            21.447345531615518,
+            0.4182103751261916
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ],
+          "animation": [
+            0.9999998807907104,
+            1.0000001192092896,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Thumb3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -3.725290298461914e-09,
+            0.019877923652529716,
+            -1.2665987014770508e-07
+          ],
+          "animation": [
+            1.4901161193847656e-08,
+            0.01987793669104576,
+            -3.91155481338501e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.00012166271853574818,
+            2.2838607881629826e-05,
+            0.00015282545662393136
+          ],
+          "animation": [
+            -0.00012294336597757358,
+            2.3478934859430528e-05,
+            0.00015090446591986526
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0000001192092896,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            1.0000001192092896,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Index1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.01277439296245575,
+            0.06538831442594528,
+            0.01066732406616211
+          ],
+          "animation": [
+            0.01277441717684269,
+            0.06538835912942886,
+            0.010667359456419945
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -19.451203963659072,
+            103.3560276150879,
+            -28.30275346759125
+          ],
+          "animation": [
+            -19.451173227807807,
+            103.35604127546624,
+            -28.302717609098103
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999998211860657,
+            0.9999997019767761,
+            0.9999998211860657
+          ],
+          "animation": [
+            1.0,
+            0.9999998211860657,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Index2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.30385160446167e-08,
+            0.014227991923689842,
+            2.7939677238464355e-07
+          ],
+          "animation": [
+            -1.0244548320770264e-07,
+            0.0142279714345932,
+            3.03611159324646e-07
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            2.475719671990893,
+            17.672469024531427,
+            0.8840523550899364
+          ],
+          "animation": [
+            2.475718604773835,
+            17.67246560943684,
+            0.8840516613988488
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            0.9999999403953552,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Index3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -2.086162567138672e-07,
+            0.012703192420303822,
+            -1.6670674085617065e-07
+          ],
+          "animation": [
+            -2.1979212760925293e-07,
+            0.012703237123787403,
+            -2.514570951461792e-07
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            1.173938458262692e-06,
+            -5.1466542613103895e-05,
+            5.869688729092218e-07
+          ],
+          "animation": [
+            1.067216650703493e-06,
+            -5.221359455357404e-05,
+            8.004122844721203e-07
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Middle1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.004063858650624752,
+            0.06574239581823349,
+            0.0018507037311792374
+          ],
+          "animation": [
+            0.004063881933689117,
+            0.06574244052171707,
+            0.0018507353961467743
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -6.593121841658071,
+            49.4221252680938,
+            -7.762584270026715
+          ],
+          "animation": [
+            -6.593121414771248,
+            49.4221252680938,
+            -7.762583416253069
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999998807907104,
+            0.9999998211860657,
+            0.9999999403953552
+          ],
+          "animation": [
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Middle2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.9885192159563303e-08,
+            0.015922043472528458,
+            -8.440110832452774e-10
+          ],
+          "animation": [
+            1.3899807527195662e-08,
+            0.015922067686915398,
+            -6.111804395914078e-10
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -86.79675989695808,
+            -88.1530305604475,
+            88.89493936847263
+          ],
+          "animation": [
+            -86.79675989695808,
+            -88.1530305604475,
+            88.89493253828347
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Middle3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.9174706267222064e-10,
+            0.01491448376327753,
+            6.024302479090693e-08
+          ],
+          "animation": [
+            -1.4312320217868546e-09,
+            0.01491450984030962,
+            6.5976166752079735e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.0006778965356748051,
+            -0.0011304631129236396,
+            3.586297787733443e-05
+          ],
+          "animation": [
+            -0.0006774696488516792,
+            -0.0011304632171440553,
+            3.586297787733443e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Ring1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.004874459467828274,
+            0.06581739336252213,
+            -0.005080605857074261
+          ],
+          "animation": [
+            -0.00487443758174777,
+            0.06581741571426392,
+            -0.005080575589090586
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            9.23027922454115,
+            -166.17721843084627,
+            4.162691659949652
+          ],
+          "animation": [
+            9.230276663220211,
+            -166.1772320912246,
+            4.162691233062828
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0000001192092896,
+            0.9999998211860657
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.000000238418579,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Ring2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.3317912817001343e-07,
+            0.014548329636454582,
+            -3.5460107028484344e-07
+          ],
+          "animation": [
+            1.0244548320770264e-07,
+            0.014548283070325851,
+            -3.4761615097522736e-07
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.47736085387513333,
+            0.004109216728225553,
+            -0.9548853121252296
+          ],
+          "animation": [
+            0.47736101395769204,
+            0.004106735448566135,
+            -0.9548850986818181
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Ring3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            2.9103830456733704e-09,
+            0.013030397705733776,
+            6.332993507385254e-08
+          ],
+          "animation": [
+            2.7474015951156616e-08,
+            0.013030467554926872,
+            -2.2817403078079224e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.0003136550411814714,
+            -1.2540981865440043e-05,
+            0.00043158255212507674
+          ],
+          "animation": [
+            0.0003134415977699085,
+            -1.1633845737853728e-05,
+            0.0004309421958352841
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0000001192092896,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Little1",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.0146180409938097,
+            0.060077033936977386,
+            -0.009060896933078766
+          ],
+          "animation": [
+            -0.014617988839745522,
+            0.06007705628871918,
+            -0.009060868993401527
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            13.0815360295662,
+            -176.0527157442009,
+            15.448380138309563
+          ],
+          "animation": [
+            13.081536883339846,
+            -176.0527157442009,
+            15.448381845856854
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            0.9999998211860657,
+            0.9999998211860657
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Little2",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.9744038581848145e-07,
+            0.01307081338018179,
+            2.561137080192566e-08
+          ],
+          "animation": [
+            -9.406358003616333e-08,
+            0.013070856221020222,
+            4.889443516731262e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            0.20776725755835343,
+            -4.127219926268837,
+            1.3403775603427528
+          ],
+          "animation": [
+            0.20776799127008067,
+            -4.1272173649478985,
+            1.3403763864039893
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            0.9999998211860657,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            0.9999997615814209,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_Little3",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -7.078051567077637e-08,
+            0.010274292901158333,
+            1.9511207938194275e-07
+          ],
+          "animation": [
+            -6.984919309616089e-08,
+            0.010274328291416168,
+            2.1280720829963684e-07
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.00029924766301118365,
+            2.134037182404738e-06,
+            -0.0001519717090327837
+          ],
+          "animation": [
+            -0.00029988799324587236,
+            3.788223622017201e-06,
+            -0.00015165155694299133
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_L_UpperLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_LowerLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_Foot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_L_ToeBase",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "J_Bip_R_UpperLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_LowerLeg",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_Foot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "J_Bip_R_ToeBase",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {}
+    },
+    {
+      "name": "Hair_HeadRoot",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.001952225575223565,
+            -0.025378216058015823,
+            0.8480582237243652
+          ],
+          "animation": [
+            0.001952225575223565,
+            -0.025378182530403137,
+            0.8480582237243652
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999996423721313,
+            1.0
+          ],
+          "animation": [
+            0.9999998807907104,
+            0.9999995231628418,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Pony_Base",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.07182323187589645,
+            0.06412307918071747,
+            0.06713809818029404
+          ],
+          "animation": [
+            -0.07182325422763824,
+            0.06412311643362045,
+            0.06713816523551941
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            42.642605856438784,
+            49.06502590281261,
+            168.8496802077755
+          ],
+          "animation": [
+            42.642605856438784,
+            49.06502931790719,
+            168.8496802077755
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Pony_01",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            5.820766091346741e-11,
+            0.02464020997285843,
+            1.7854517864179797e-08
+          ],
+          "animation": [
+            -1.7462298274040222e-10,
+            0.02464020624756813,
+            1.739181243465282e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -54.11084522763245,
+            -0.5982334843172326,
+            -0.09169503614336995
+          ],
+          "animation": [
+            -54.110852057821624,
+            -0.5982335376780854,
+            -0.09169509617432946
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Pony_02",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.7462298274040222e-09,
+            0.04495839402079582,
+            -7.179914973676205e-08
+          ],
+          "animation": [
+            -1.3969838619232178e-09,
+            0.04495835304260254,
+            -4.198227543383837e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -41.00797083332549,
+            -0.8690922664560515,
+            4.291261433338679
+          ],
+          "animation": [
+            -41.00797766351466,
+            -0.8690918929300813,
+            4.291261860225503
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0,
+            0.9999998807907104
+          ],
+          "animation": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Pony_03",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            3.725290298461914e-09,
+            0.04428710415959358,
+            7.8580342233181e-09
+          ],
+          "animation": [
+            -2.7939677238464355e-09,
+            0.044287096709012985,
+            5.995389074087143e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -17.023809374149902,
+            1.2611932563040908,
+            -0.8669324859352995
+          ],
+          "animation": [
+            -17.023804251508025,
+            1.2611930428606792,
+            -0.8669325392961523
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Pony_04",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            2.270098775625229e-09,
+            0.04519480839371681,
+            1.5854311641305685e-08
+          ],
+          "animation": [
+            -1.0477378964424133e-09,
+            0.04519479349255562,
+            3.8198777474462986e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -14.028521267420958,
+            0.4932803172831406,
+            -0.1768319300849773
+          ],
+          "animation": [
+            -14.028523828741896,
+            0.49328047736569924,
+            -0.17683198344583018
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0,
+            0.9999999403953552
+          ],
+          "animation": [
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Side.L.01",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.036951031535863876,
+            0.07264342159032822,
+            -0.01267661526799202
+          ],
+          "animation": [
+            -0.03695105016231537,
+            0.0726434588432312,
+            -0.012676544487476349
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -29.63751586538431,
+            47.26750111327826,
+            -174.21417908379522
+          ],
+          "animation": [
+            -29.63752269557348,
+            47.26751477365659,
+            -174.21417908379522
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999998211860657,
+            0.9999998807907104,
+            0.9999998807907104
+          ],
+          "animation": [
+            0.9999997615814209,
+            0.9999998807907104,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Side.L.02",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -8.847564458847046e-09,
+            0.030384492129087448,
+            -4.190951585769653e-09
+          ],
+          "animation": [
+            -2.60770320892334e-08,
+            0.030384378507733345,
+            -9.313225746154785e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -10.608452597151521,
+            12.315103427326145,
+            -15.506721906652519
+          ],
+          "animation": [
+            -10.60844832828329,
+            12.315100012231559,
+            -15.506716784010642
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Side.R.01",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.01928282529115677,
+            0.0627770647406578,
+            0.05152327939867973
+          ],
+          "animation": [
+            0.01928279921412468,
+            0.06277704238891602,
+            0.0515233613550663
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999998211860657,
+            0.9999995827674866,
+            0.9999995231628418
+          ],
+          "animation": [
+            0.9999998211860657,
+            0.9999997019767761,
+            0.9999994039535522
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hair_Side.R.02",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -4.190951585769653e-09,
+            0.03041132539510727,
+            0.0
+          ],
+          "animation": [
+            1.3969838619232178e-08,
+            0.030411269515752792,
+            -7.450580596923828e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -10.782070883211368,
+            -12.844210861570351,
+            16.230747571883256
+          ],
+          "animation": [
+            -10.78207002943772,
+            -12.844210007796706,
+            16.23074927943055
+          ]
+        }
+      }
+    },
+    {
+      "name": "root",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": null,
+          "animation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "pelvis",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Rotation": {
+          "model": [
+            3.8140749627307926,
+            -0.0,
+            0.0
+          ],
+          "animation": [
+            3.814061302352453,
+            -0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "spine",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0,
+            0.12039929628372192,
+            0.0019955728203058243
+          ],
+          "animation": [
+            0.0,
+            0.12039929628372192,
+            0.001995573751628399
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.6342453899118603,
+            0.0,
+            0.0
+          ],
+          "animation": [
+            -0.6342349845455466,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "chest",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0,
+            0.1802775114774704,
+            -9.313225746154785e-10
+          ],
+          "animation": [
+            0.0,
+            0.18027763068675995,
+            3.259629011154175e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -2.3204568789952207,
+            0.0,
+            0.0
+          ],
+          "animation": [
+            -2.320466910835564,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "neck",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0,
+            0.2000226229429245,
+            4.656612873077393e-10
+          ],
+          "animation": [
+            0.0,
+            0.20002274215221405,
+            2.3283064365386963e-10
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -2.904781270037104,
+            0.0,
+            0.0
+          ],
+          "animation": [
+            -2.9047571509315975,
+            0.0,
+            0.0
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "head",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0,
+            0.1400892585515976,
+            1.862645149230957e-09
+          ],
+          "animation": [
+            0.0,
+            0.1400892585515976,
+            2.7939677238464355e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            2.0454090031002155,
+            -0.0,
+            0.0
+          ],
+          "animation": [
+            2.0453951292784636,
+            -0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "R3_Head_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.160115622653393e-06,
+            0.005155682563781738,
+            0.0020993994548916817
+          ],
+          "animation": [
+            4.160115622653393e-06,
+            0.005155683029443026,
+            0.0020993994548916817
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -56.18626309373794,
+            -142.00651767524846,
+            33.845288054516516
+          ],
+          "animation": [
+            -56.18627675411628,
+            -142.00651767524846,
+            33.84529829980027
+          ]
+        }
+      }
+    },
+    {
+      "name": "R3_Neck_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.097364126209868e-06,
+            0.0728234350681305,
+            -0.02220918796956539
+          ],
+          "animation": [
+            4.097364126209868e-06,
+            0.07282331585884094,
+            -0.02220918796956539
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -54.381607586710096,
+            -113.23239236246712,
+            52.05881392924508
+          ],
+          "animation": [
+            -54.381604171615514,
+            -113.23239236246712,
+            52.0588105141505
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.8691586256027222,
+            1.8691586256027222,
+            1.8691589832305908
+          ],
+          "animation": [
+            1.8691587448120117,
+            1.8691587448120117,
+            1.8691589832305908
+          ]
+        }
+      }
+    },
+    {
+      "name": "clavicle.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.02500000037252903,
+            0.1980527639389038,
+            0.002029775409027934
+          ],
+          "animation": [
+            0.02500000037252903,
+            0.1980527639389038,
+            0.0020297737792134285
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -1.0801932432987529,
+            -86.6715488690934,
+            -84.73720514519994
+          ],
+          "animation": [
+            -1.0802099986065608,
+            -86.67153520871506,
+            -84.73716416406492
+          ]
+        }
+      }
+    },
+    {
+      "name": "upper_arm.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.4493173589899015e-09,
+            0.12332886457443237,
+            -4.359992900049292e-08
+          ],
+          "animation": [
+            6.619373493776948e-09,
+            0.12332884967327118,
+            -5.1926722477446674e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -87.90680224086854,
+            -19.76795057132383,
+            66.8755296353754
+          ],
+          "animation": [
+            -87.90680224086854,
+            -19.767960816607584,
+            66.8755296353754
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "forearm.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            6.146728992462158e-08,
+            0.26444098353385925,
+            -1.30385160446167e-08
+          ],
+          "animation": [
+            5.122274160385132e-09,
+            0.26444101333618164,
+            -1.3504177331924438e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.4669777390370975,
+            3.2974270741931577,
+            -3.6634389825675697
+          ],
+          "animation": [
+            -0.46697875289330243,
+            3.297436252259855,
+            -3.6634462396435628
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999998211860657,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            0.9999998211860657,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "hand.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.3969838619232178e-08,
+            0.22360020875930786,
+            -4.284083843231201e-08
+          ],
+          "animation": [
+            9.12696123123169e-08,
+            0.22360020875930786,
+            5.587935447692871e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -3.166746345463773,
+            -6.720012669171744,
+            6.012395679648315
+          ],
+          "animation": [
+            -3.1667491202281233,
+            -6.720021633795031,
+            6.012397387195607
+          ]
+        }
+      }
+    },
+    {
+      "name": "index1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.011316034942865372,
+            0.0716094821691513,
+            -0.021107755601406097
+          ],
+          "animation": [
+            0.011316053569316864,
+            0.07160947471857071,
+            -0.021107759326696396
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            2.470913993579554,
+            -3.6965286877753427,
+            4.441593470083837
+          ],
+          "animation": [
+            2.4709103650415574,
+            -3.6965312490962816,
+            4.441598592725715
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "index2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -4.377216100692749e-08,
+            0.029238073155283928,
+            0.0
+          ],
+          "animation": [
+            -3.818422555923462e-08,
+            0.029238158836960793,
+            3.725290298461914e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -2.421962935453674e-05,
+            -8.809875509503437e-05,
+            8.161885725630879e-05
+          ],
+          "animation": [
+            -1.8089350299727606e-05,
+            -8.190888964593433e-05,
+            8.143809345887587e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999998807907104,
+            0.9999998807907104
+          ],
+          "animation": [
+            1.0000001192092896,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "index3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            2.7939677238464355e-09,
+            0.02126402221620083,
+            -2.9802322387695312e-08
+          ],
+          "animation": [
+            2.7939677238464355e-08,
+            0.021264050155878067,
+            2.2351741790771484e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            1.8538007790648082e-05,
+            6.53136969657989e-05,
+            -6.350239824936463e-05
+          ],
+          "animation": [
+            2.2305875455592918e-05,
+            6.275237602704412e-05,
+            -6.491785479903019e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0036753760650753975,
+            0.07461085170507431,
+            -0.004468586295843124
+          ],
+          "animation": [
+            0.0036753956228494644,
+            0.07461089640855789,
+            -0.004468593746423721
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.096657391053968,
+            1.3255582909996464,
+            0.20369230266650035
+          ],
+          "animation": [
+            4.096653122185737,
+            1.3255578641128234,
+            0.20369234268714
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.6566128730773926e-09,
+            0.03290906548500061,
+            -1.1175870895385742e-08
+          ],
+          "animation": [
+            5.587935447692871e-08,
+            0.032909099012613297,
+            -1.6763806343078613e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            5.112828466873189e-06,
+            1.1952831861744312e-05,
+            -1.3223518925862632e-05
+          ],
+          "animation": [
+            1.2385149545599802e-05,
+            1.2379720313314107e-05,
+            -1.8119929221101568e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.862645149230957e-08,
+            0.023934004828333855,
+            7.450580596923828e-09
+          ],
+          "animation": [
+            -5.494803190231323e-08,
+            0.023933978751301765,
+            -3.5390257835388184e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -1.5409019416790696e-05,
+            -4.012735486004892e-05,
+            3.9698351059727144e-05
+          ],
+          "animation": [
+            -2.3652271323793548e-05,
+            -3.9380306176466775e-05,
+            4.386088841176292e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "ring1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.0019137654453516006,
+            0.07047337293624878,
+            0.013994690030813217
+          ],
+          "animation": [
+            -0.0019137444905936718,
+            0.07047335803508759,
+            0.013994678854942322
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.353940371804594,
+            2.1288156447064144,
+            -0.4402035575732062
+          ],
+          "animation": [
+            4.353936956710009,
+            2.128815217819591,
+            -0.440201930067193
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999998807907104
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "ring2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -4.0512531995773315e-08,
+            0.030946239829063416,
+            -2.7939677238464355e-09
+          ],
+          "animation": [
+            1.1641532182693481e-08,
+            0.0309461522847414,
+            -1.5832483768463135e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -4.9878314669142243e-05,
+            -0.00013041387235472306,
+            0.00012160165839964007
+          ],
+          "animation": [
+            -4.907725049818261e-05,
+            -0.00013393568864551088,
+            0.00012397002826608906
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0000001192092896,
+            1.0
+          ],
+          "animation": [
+            0.9999998807907104,
+            1.0000001192092896,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "ring3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -6.752088665962219e-08,
+            0.02250628173351288,
+            2.3283064365386963e-08
+          ],
+          "animation": [
+            4.563480615615845e-08,
+            0.022506268694996834,
+            1.210719347000122e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            3.586451187157952e-05,
+            9.391513365655526e-05,
+            -8.640039874044973e-05
+          ],
+          "animation": [
+            3.5973907482403895e-05,
+            9.733022172778565e-05,
+            -8.687156621273948e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            1.0000001192092896,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "pinky1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.0041796136647462845,
+            0.05945134907960892,
+            0.030763497576117516
+          ],
+          "animation": [
+            -0.004179562907665968,
+            0.05945134907960892,
+            0.030763503164052963
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            2.3192400381059004,
+            -4.158172209153219,
+            4.850250945201693
+          ],
+          "animation": [
+            2.3192434532004857,
+            -4.158170501605927,
+            4.850252652748986
+          ]
+        }
+      }
+    },
+    {
+      "name": "pinky2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.594889909029007e-08,
+            0.02642691880464554,
+            -1.862645149230957e-09
+          ],
+          "animation": [
+            2.468004822731018e-08,
+            0.026426762342453003,
+            -9.778887033462524e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            1.1675730131676233e-05,
+            5.3894464676519854e-05,
+            -5.2098365856352736e-05
+          ],
+          "animation": [
+            5.286408790724744e-06,
+            5.208020219201121e-05,
+            -5.410684634259677e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            1.0,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            0.9999998807907104,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "pinky3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -4.738103598356247e-08,
+            0.019219502806663513,
+            4.190951585769653e-09
+          ],
+          "animation": [
+            5.192123353481293e-08,
+            0.0192195326089859,
+            -2.2817403078079224e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            5.137414714338525e-06,
+            1.9636793863786658e-05,
+            -1.572960792957424e-05
+          ],
+          "animation": [
+            -1.757675887615547e-06,
+            1.7929246571283472e-05,
+            -1.6053073902900323e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "thumb1.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.004394133575260639,
+            0.030827892944216728,
+            -0.019342925399541855
+          ],
+          "animation": [
+            -0.004394114948809147,
+            0.030827941372990608,
+            -0.01934293657541275
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -33.91550581427883,
+            -12.15585671305365,
+            4.8759717300686685
+          ],
+          "animation": [
+            -33.91549556899508,
+            -12.15584988286448,
+            4.8759781333710155
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0000001192092896,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "thumb2.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -7.450580596923828e-09,
+            0.048773057758808136,
+            6.705522537231445e-08
+          ],
+          "animation": [
+            2.1420419216156006e-08,
+            0.04877302423119545,
+            2.2351741790771484e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            26.245894933007975,
+            4.066702315788408,
+            3.066074906626486
+          ],
+          "animation": [
+            26.245896640555266,
+            4.066706157769817,
+            3.066078535164482
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "thumb3.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -2.421438694000244e-08,
+            0.014619076624512672,
+            -1.4901161193847656e-08
+          ],
+          "animation": [
+            -2.421438694000244e-08,
+            0.014618990942835808,
+            7.450580596923828e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -3.628545731678259e-06,
+            3.3670698174047236e-05,
+            -2.614681954489906e-05
+          ],
+          "animation": [
+            -1.3873828265364388e-05,
+            2.9668630950354895e-05,
+            -2.7320759936939e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            1.0000001192092896
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "R3_Shoulder_L_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.02963675931096077,
+            -0.00018879900744650513,
+            0.037870075553655624
+          ],
+          "animation": [
+            -0.02963675744831562,
+            -0.0001888136612251401,
+            0.03787006810307503
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -12.028290977472615,
+            -3.6504338755010424,
+            3.7599367489351563
+          ],
+          "animation": [
+            -12.028290977472615,
+            -3.650433448614219,
+            3.759936322048333
+          ]
+        }
+      }
+    },
+    {
+      "name": "clavicle.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.02500000037252903,
+            0.1980527639389038,
+            0.002029775409027934
+          ],
+          "animation": [
+            -0.02500000037252903,
+            0.1980527639389038,
+            0.0020297737792134285
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -1.0801932432987529,
+            86.6715488690934,
+            84.73720514519994
+          ],
+          "animation": [
+            -1.0802099986065608,
+            86.67153520871506,
+            84.73716416406492
+          ]
+        }
+      }
+    },
+    {
+      "name": "upper_arm.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -4.4493173589899015e-09,
+            0.12332886457443237,
+            -4.359992900049292e-08
+          ],
+          "animation": [
+            -6.619373493776948e-09,
+            0.12332884967327118,
+            -5.1926722477446674e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -87.90680224086854,
+            19.76795057132383,
+            -66.8755296353754
+          ],
+          "animation": [
+            -87.90680224086854,
+            19.767960816607584,
+            -66.8755296353754
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "forearm.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -6.146728992462158e-08,
+            0.26444098353385925,
+            -1.30385160446167e-08
+          ],
+          "animation": [
+            -5.122274160385132e-09,
+            0.26444101333618164,
+            -1.3504177331924438e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -0.4669777390370975,
+            -3.2974270741931577,
+            3.6634389825675697
+          ],
+          "animation": [
+            -0.46697875289330243,
+            -3.297436252259855,
+            3.6634462396435628
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999998211860657,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            0.9999998211860657,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "hand.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.3969838619232178e-08,
+            0.22360020875930786,
+            -4.284083843231201e-08
+          ],
+          "animation": [
+            -9.12696123123169e-08,
+            0.22360020875930786,
+            5.587935447692871e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -3.166746345463773,
+            6.720012669171744,
+            -6.012395679648315
+          ],
+          "animation": [
+            -3.1667491202281233,
+            6.720021633795031,
+            -6.012397387195607
+          ]
+        }
+      }
+    },
+    {
+      "name": "index1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.011316034942865372,
+            0.0716094821691513,
+            -0.021107755601406097
+          ],
+          "animation": [
+            -0.011316053569316864,
+            0.07160947471857071,
+            -0.021107759326696396
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            2.470913993579554,
+            3.6965286877753427,
+            -4.441593470083837
+          ],
+          "animation": [
+            2.470907163390384,
+            3.696530395322635,
+            -4.441596031404775
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            0.9999998807907104,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "index2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.377216100692749e-08,
+            0.029238073155283928,
+            0.0
+          ],
+          "animation": [
+            -2.3283064365386963e-08,
+            0.02923811599612236,
+            1.4901161193847656e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -2.421962935453674e-05,
+            8.809875509503437e-05,
+            -8.161885725630879e-05
+          ],
+          "animation": [
+            -1.6990907828272376e-05,
+            8.372315864421896e-05,
+            -7.705285010582277e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999998807907104,
+            0.9999998807907104
+          ],
+          "animation": [
+            1.0000001192092896,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "index3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -2.7939677238464355e-09,
+            0.02126402221620083,
+            -2.9802322387695312e-08
+          ],
+          "animation": [
+            -2.60770320892334e-08,
+            0.021264031529426575,
+            0.0
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            1.8538007790648082e-05,
+            -6.53136969657989e-05,
+            6.350239824936463e-05
+          ],
+          "animation": [
+            2.455802327398249e-05,
+            -6.718132681697427e-05,
+            6.0174920465167964e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.0036753760650753975,
+            0.07461085170507431,
+            -0.004468586295843124
+          ],
+          "animation": [
+            -0.0036753956228494644,
+            0.07461089640855789,
+            -0.004468593746423721
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.096657391053968,
+            -1.3255582909996464,
+            -0.20369230266650035
+          ],
+          "animation": [
+            4.096653122185737,
+            -1.3255578641128234,
+            -0.20369234268714
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -4.6566128730773926e-09,
+            0.03290906548500061,
+            -1.1175870895385742e-08
+          ],
+          "animation": [
+            -5.587935447692871e-08,
+            0.032909099012613297,
+            -1.6763806343078613e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            5.112828466873189e-06,
+            -1.1952831861744312e-05,
+            1.3223518925862632e-05
+          ],
+          "animation": [
+            8.839671149314887e-06,
+            -1.2806606322217904e-05,
+            1.5168421701579334e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            1.0,
+            1.0,
+            0.9999998807907104
+          ]
+        }
+      }
+    },
+    {
+      "name": "middle3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            1.862645149230957e-08,
+            0.023934004828333855,
+            7.450580596923828e-09
+          ],
+          "animation": [
+            5.494803190231323e-08,
+            0.023933950811624527,
+            3.166496753692627e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -1.5409019416790696e-05,
+            4.012735486004892e-05,
+            -3.9698351059727144e-05
+          ],
+          "animation": [
+            -2.3376639264432677e-05,
+            3.713914384128035e-05,
+            -4.363708809637968e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "ring1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0019137654453516006,
+            0.07047337293624878,
+            0.013994690030813217
+          ],
+          "animation": [
+            0.0019137444905936718,
+            0.07047335803508759,
+            0.013994678854942322
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            4.353940371804594,
+            -2.1288156447064144,
+            0.4402035575732062
+          ],
+          "animation": [
+            4.353933968502247,
+            -2.128812016168418,
+            0.44020083616970873
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999998807907104
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "ring2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.0512531995773315e-08,
+            0.030946239829063416,
+            -2.7939677238464355e-09
+          ],
+          "animation": [
+            1.862645149230957e-08,
+            0.030946198850870132,
+            -1.6763806343078613e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -4.9878314669142243e-05,
+            0.00013041387235472306,
+            -0.00012160165839964007
+          ],
+          "animation": [
+            -4.9916964158964894e-05,
+            0.00012934665529690858,
+            -0.00012397568222364633
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0000001192092896,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "ring3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            6.752088665962219e-08,
+            0.02250628173351288,
+            2.3283064365386963e-08
+          ],
+          "animation": [
+            -4.6566128730773926e-08,
+            0.022506315261125565,
+            2.7939677238464355e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            3.586451187157952e-05,
+            -9.391513365655526e-05,
+            8.640039874044973e-05
+          ],
+          "animation": [
+            3.60547304148585e-05,
+            -9.295463830452223e-05,
+            8.581355963417152e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0000001192092896,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "pinky1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.0041796136647462845,
+            0.05945134907960892,
+            0.030763497576117516
+          ],
+          "animation": [
+            0.004179562907665968,
+            0.05945134907960892,
+            0.030763503164052963
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            2.3192400381059004,
+            4.158172209153219,
+            -4.850250945201693
+          ],
+          "animation": [
+            2.3192434532004857,
+            4.158170501605927,
+            -4.850252652748986
+          ]
+        }
+      }
+    },
+    {
+      "name": "pinky2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -1.594889909029007e-08,
+            0.02642691880464554,
+            -1.862645149230957e-09
+          ],
+          "animation": [
+            -2.468004822731018e-08,
+            0.026426762342453003,
+            -9.778887033462524e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            1.1675730131676233e-05,
+            -5.3894464676519854e-05,
+            5.2098365856352736e-05
+          ],
+          "animation": [
+            8.383355900498943e-06,
+            -4.914535528302135e-05,
+            5.011183028141105e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0000001192092896,
+            1.0,
+            1.0
+          ],
+          "animation": [
+            0.9999998807907104,
+            0.9999998807907104,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "pinky3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.738103598356247e-08,
+            0.019219502806663513,
+            4.190951585769653e-09
+          ],
+          "animation": [
+            2.2817403078079224e-08,
+            0.019219592213630676,
+            1.3969838619232178e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            5.137414714338525e-06,
+            -1.9636793863786658e-05,
+            1.572960792957424e-05
+          ],
+          "animation": [
+            -2.432673455887946e-06,
+            -1.8676298511753618e-05,
+            1.7831507362588973e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0000001192092896,
+            1.0,
+            0.9999999403953552
+          ]
+        }
+      }
+    },
+    {
+      "name": "thumb1.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.004394133575260639,
+            0.030827892944216728,
+            -0.019342925399541855
+          ],
+          "animation": [
+            0.004394114948809147,
+            0.030827941372990608,
+            -0.01934293657541275
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -33.91550581427883,
+            12.15585671305365,
+            -4.8759717300686685
+          ],
+          "animation": [
+            -33.91549556899508,
+            12.15584988286448,
+            -4.8759781333710155
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0000001192092896,
+            0.9999999403953552
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "thumb2.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            7.450580596923828e-09,
+            0.048773057758808136,
+            6.705522537231445e-08
+          ],
+          "animation": [
+            -2.1420419216156006e-08,
+            0.04877302423119545,
+            2.2351741790771484e-08
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            26.245894933007975,
+            -4.066702315788408,
+            -3.066074906626486
+          ],
+          "animation": [
+            26.245896640555266,
+            -4.06670530399617,
+            -3.0660778948342475
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "thumb3.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            2.421438694000244e-08,
+            0.014619076624512672,
+            -1.4901161193847656e-08
+          ],
+          "animation": [
+            2.60770320892334e-08,
+            0.014619050547480583,
+            -7.450580596923828e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -3.628545731678259e-06,
+            -3.3670698174047236e-05,
+            2.614681954489906e-05
+          ],
+          "animation": [
+            -1.3553662333798042e-05,
+            -2.9775352656136344e-05,
+            2.64669879191314e-05
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            1.0000001192092896
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "R3_Shoulder_R_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.029636669903993607,
+            -0.0001969685690710321,
+            0.037870198488235474
+          ],
+          "animation": [
+            0.029636668041348457,
+            -0.00019698322284966707,
+            0.03787019103765488
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            18.092440281122585,
+            132.04291092160065,
+            10.65512498729751
+          ],
+          "animation": [
+            18.092438573575294,
+            132.04291092160065,
+            10.65512498729751
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.8691588640213013,
+            1.8691593408584595,
+            1.8691586256027222
+          ],
+          "animation": [
+            1.8691587448120117,
+            1.8691593408584595,
+            1.8691587448120117
+          ]
+        }
+      }
+    },
+    {
+      "name": "R3_UpperChest_Bind",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            4.087994511792203e-06,
+            0.12103407829999924,
+            -0.0017160587012767792
+          ],
+          "animation": [
+            4.087994511792203e-06,
+            0.12103419750928879,
+            -0.0017160591669380665
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -48.00996658172074,
+            -76.6814546418443,
+            47.23220269564763
+          ],
+          "animation": [
+            -48.01000073266659,
+            -76.68146147203346,
+            47.23223684659348
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.8691585063934326,
+            1.8691586256027222,
+            1.8691586256027222
+          ],
+          "animation": [
+            1.869158387184143,
+            1.8691586256027222,
+            1.8691586256027222
+          ]
+        }
+      }
+    },
+    {
+      "name": "thigh.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            0.09399999678134918,
+            0.06000011786818504,
+            -0.001995578408241272
+          ],
+          "animation": [
+            0.09399999678134918,
+            0.06000012159347534,
+            -0.001995578408241272
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            172.57814387190206,
+            -1.9092722338844599,
+            2.3257869878687694
+          ],
+          "animation": [
+            172.57814387190206,
+            -1.909267324685994,
+            2.3258328782022555
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            1.0000014305114746
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            1.000001311302185
+          ]
+        }
+      }
+    },
+    {
+      "name": "shin.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            6.853952072560787e-09,
+            0.44516968727111816,
+            6.51925802230835e-09
+          ],
+          "animation": [
+            4.48198989033699e-09,
+            0.44516971707344055,
+            2.7939677238464355e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            6.163571244755969,
+            -2.331649851497579,
+            2.1789216990142166
+          ],
+          "animation": [
+            6.1635874664552475,
+            -2.3316511321580484,
+            2.179013266237777
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "foot.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            2.3101165425032377e-09,
+            0.43446171283721924,
+            4.0745362639427185e-10
+          ],
+          "animation": [
+            1.4260876923799515e-09,
+            0.43446171283721924,
+            2.663000486791134e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -55.76884291280178,
+            0.12593746917571486,
+            -0.13187845309315657
+          ],
+          "animation": [
+            -55.768859988274706,
+            0.1259333203694026,
+            -0.13193433524634637
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "toe.L",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            7.431232518229081e-09,
+            0.13499988615512848,
+            5.519567025658034e-09
+          ],
+          "animation": [
+            2.991571990129671e-10,
+            0.13499987125396729,
+            6.550131104177126e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -26.481060053678807,
+            2.0010181479893087e-08,
+            -1.3340865236390855e-08
+          ],
+          "animation": [
+            -26.481061761226098,
+            -5.002874299757874e-06,
+            3.6676332729360737e-06
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "thigh.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -0.09399999678134918,
+            0.06000011786818504,
+            -0.001995578408241272
+          ],
+          "animation": [
+            -0.09399999678134918,
+            0.06000012159347534,
+            -0.001995578408241272
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            172.57814387190206,
+            1.9092722338844599,
+            -2.3257869878687694
+          ],
+          "animation": [
+            172.57814387190206,
+            1.9092747952053988,
+            -2.32583351853249
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            1.0,
+            1.0000014305114746
+          ],
+          "animation": [
+            1.0,
+            0.9999999403953552,
+            1.000001311302185
+          ]
+        }
+      }
+    },
+    {
+      "name": "shin.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -6.853952072560787e-09,
+            0.44516968727111816,
+            6.51925802230835e-09
+          ],
+          "animation": [
+            -5.122274160385132e-09,
+            0.44516971707344055,
+            5.587935447692871e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            6.163571244755969,
+            2.331649851497579,
+            -2.1789216990142166
+          ],
+          "animation": [
+            6.163587893342071,
+            2.331660523668157,
+            -2.179013052794365
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            0.9999999403953552,
+            1.0,
+            1.0000001192092896
+          ]
+        }
+      }
+    },
+    {
+      "name": "foot.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -2.3101165425032377e-09,
+            0.43446171283721924,
+            4.0745362639427185e-10
+          ],
+          "animation": [
+            6.417394615709782e-09,
+            0.43446171283721924,
+            2.270098775625229e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -55.76884291280178,
+            -0.12593746917571486,
+            0.13187845309315657
+          ],
+          "animation": [
+            -55.76884974299095,
+            -0.1259351346384009,
+            0.13193473545274306
+          ]
+        },
+        "Lcl Scaling": {
+          "model": null,
+          "animation": [
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "name": "toe.R",
+      "present_in_both": true,
+      "parents_equal": true,
+      "different_properties": {
+        "Lcl Translation": {
+          "model": [
+            -7.431232518229081e-09,
+            0.13499988615512848,
+            5.519567025658034e-09
+          ],
+          "animation": [
+            7.325149375958517e-09,
+            0.13499988615512848,
+            6.943448482843451e-09
+          ]
+        },
+        "Lcl Rotation": {
+          "model": [
+            -26.481060053678807,
+            -2.0010181479893087e-08,
+            1.3340865236390855e-08
+          ],
+          "animation": [
+            -26.481065176320683,
+            2.2708030692626653e-06,
+            -1.618572471177806e-06
+          ]
+        },
+        "Lcl Scaling": {
+          "model": [
+            1.0,
+            0.9999999403953552,
+            1.0
+          ],
+          "animation": [
+            1.0,
+            1.0000001192092896,
+            1.0000001192092896
+          ]
+        }
+      }
+    }
+  ],
+  "exact_shared_defaults_PASS": false,
+  "importer_rest_gate": "Do not waive the 1e-5 imported local-rest threshold; direct defaults and imported rest are separate gates."
+}

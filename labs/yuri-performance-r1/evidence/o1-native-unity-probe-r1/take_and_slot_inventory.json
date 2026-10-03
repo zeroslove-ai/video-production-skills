@@ -1,0 +1,182 @@
+[
+  {
+    "authored_Action": "YRA_R4_Startle_Short",
+    "logical": "YRA_R1_Startle_Short",
+    "imported_rig_actions": [
+      {
+        "rig": "Armature",
+        "action": "Armature.001|YRA_R4_Startle_Short",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "AVATAR_FaceBoard",
+        "action": "AVATAR_FaceBoard.001|YRA_R4_Startle_Short",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Hair_Rig_R4",
+        "action": "Hair_Rig_R4.001|YRA_R4_Startle_Short",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Meshy_Fitted_Rig",
+        "action": "Meshy_Fitted_Rig.001|YRA_R4_Startle_Short",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      }
+    ]
+  },
+  {
+    "authored_Action": "YRA_R4_Lift_Start",
+    "logical": "YRA_R1_Lift_Start",
+    "imported_rig_actions": [
+      {
+        "rig": "Armature",
+        "action": "Armature.001|YRA_R4_Lift_Start",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "AVATAR_FaceBoard",
+        "action": "AVATAR_FaceBoard.001|YRA_R4_Lift_Start",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Hair_Rig_R4",
+        "action": "Hair_Rig_R4.001|YRA_R4_Lift_Start",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Meshy_Fitted_Rig",
+        "action": "Meshy_Fitted_Rig.001|YRA_R4_Lift_Start",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      }
+    ]
+  },
+  {
+    "authored_Action": "YRA_R4_Struggle_Light_Loop",
+    "logical": "YRA_R1_Struggle_Light_Loop",
+    "imported_rig_actions": [
+      {
+        "rig": "Armature",
+        "action": "Armature.001|YRA_R4_Struggle_Light_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "AVATAR_FaceBoard",
+        "action": "AVATAR_FaceBoard.001|YRA_R4_Struggle_Light_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Hair_Rig_R4",
+        "action": "Hair_Rig_R4.001|YRA_R4_Struggle_Light_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Meshy_Fitted_Rig",
+        "action": "Meshy_Fitted_Rig.001|YRA_R4_Struggle_Light_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      }
+    ]
+  },
+  {
+    "authored_Action": "YRA_R4_Struggle_Strong_Loop",
+    "logical": "YRA_R1_Struggle_Strong_Loop",
+    "imported_rig_actions": [
+      {
+        "rig": "Armature",
+        "action": "Armature.001|YRA_R4_Struggle_Strong_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "AVATAR_FaceBoard",
+        "action": "AVATAR_FaceBoard.001|YRA_R4_Struggle_Strong_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Hair_Rig_R4",
+        "action": "Hair_Rig_R4.001|YRA_R4_Struggle_Strong_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Meshy_Fitted_Rig",
+        "action": "Meshy_Fitted_Rig.001|YRA_R4_Struggle_Strong_Loop",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      }
+    ]
+  },
+  {
+    "authored_Action": "YRA_R4_Land_Soft",
+    "logical": "YRA_R1_Land_Soft",
+    "imported_rig_actions": [
+      {
+        "rig": "Armature",
+        "action": "Armature.001|YRA_R4_Land_Soft",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "AVATAR_FaceBoard",
+        "action": "AVATAR_FaceBoard.001|YRA_R4_Land_Soft",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Hair_Rig_R4",
+        "action": "Hair_Rig_R4.001|YRA_R4_Land_Soft",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Meshy_Fitted_Rig",
+        "action": "Meshy_Fitted_Rig.001|YRA_R4_Land_Soft",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      }
+    ]
+  },
+  {
+    "authored_Action": "YRA_R4_BalanceRecover",
+    "logical": "YRA_R1_BalanceRecover",
+    "imported_rig_actions": [
+      {
+        "rig": "Armature",
+        "action": "Armature.001|YRA_R4_BalanceRecover",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "AVATAR_FaceBoard",
+        "action": "AVATAR_FaceBoard.001|YRA_R4_BalanceRecover",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Hair_Rig_R4",
+        "action": "Hair_Rig_R4.001|YRA_R4_BalanceRecover",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      },
+      {
+        "rig": "Meshy_Fitted_Rig",
+        "action": "Meshy_Fitted_Rig.001|YRA_R4_BalanceRecover",
+        "slot": "OBSlot",
+        "target_id_type": "OBJECT"
+      }
+    ]
+  }
+]

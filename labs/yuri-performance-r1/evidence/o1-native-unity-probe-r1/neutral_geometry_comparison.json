@@ -1,0 +1,149 @@
+[
+  {
+    "mesh": "Character_Body_Head",
+    "vertices": 12928,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 2.0731499907339405e-07,
+    "mean_corresponding_vertex_delta_m": 1.994142723921854e-07
+  },
+  {
+    "mesh": "Globe.L",
+    "vertices": 18242,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 9.094592642585711e-08,
+    "mean_corresponding_vertex_delta_m": 8.684494578549806e-08
+  },
+  {
+    "mesh": "Globe.R",
+    "vertices": 18242,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 9.01989639759306e-08,
+    "mean_corresponding_vertex_delta_m": 8.602949142408227e-08
+  },
+  {
+    "mesh": "Hair_Replacement_R4",
+    "vertices": 10408,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 2.3051691806919846e-07,
+    "mean_corresponding_vertex_delta_m": 1.4282048792862953e-07
+  },
+  {
+    "mesh": "LashRootRepair.L.1",
+    "vertices": 81,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.143906154658885e-08,
+    "mean_corresponding_vertex_delta_m": 6.143906154658885e-08
+  },
+  {
+    "mesh": "LashRootRepair.L.2",
+    "vertices": 69,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.143906154658885e-08,
+    "mean_corresponding_vertex_delta_m": 6.143906154658885e-08
+  },
+  {
+    "mesh": "LashRootRepair.L.3",
+    "vertices": 36,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.143906154658885e-08,
+    "mean_corresponding_vertex_delta_m": 6.143906154658885e-08
+  },
+  {
+    "mesh": "LashRootRepair.L.4",
+    "vertices": 30,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.143906154658885e-08,
+    "mean_corresponding_vertex_delta_m": 6.143906154658885e-08
+  },
+  {
+    "mesh": "LashRootRepair.L.5",
+    "vertices": 26,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.143906154658885e-08,
+    "mean_corresponding_vertex_delta_m": 6.143906154658885e-08
+  },
+  {
+    "mesh": "LashRootRepair.R.1",
+    "vertices": 81,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.064333243705223e-08,
+    "mean_corresponding_vertex_delta_m": 6.064333243705223e-08
+  },
+  {
+    "mesh": "LashRootRepair.R.2",
+    "vertices": 33,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.101406870096623e-08,
+    "mean_corresponding_vertex_delta_m": 6.073320789497078e-08
+  },
+  {
+    "mesh": "LashRootRepair.R.3",
+    "vertices": 30,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.064333243705223e-08,
+    "mean_corresponding_vertex_delta_m": 6.064333243705223e-08
+  },
+  {
+    "mesh": "LashRootRepair.R.4",
+    "vertices": 28,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.12198502925962e-08,
+    "mean_corresponding_vertex_delta_m": 6.076984700729708e-08
+  },
+  {
+    "mesh": "LashRootRepair.R.5",
+    "vertices": 27,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 6.064333243705223e-08,
+    "mean_corresponding_vertex_delta_m": 6.064333243705223e-08
+  },
+  {
+    "mesh": "LowerLashesClean.L",
+    "vertices": 648,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 8.72068100476237e-08,
+    "mean_corresponding_vertex_delta_m": 8.185748285900141e-08
+  },
+  {
+    "mesh": "LowerLashesClean.R",
+    "vertices": 702,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 8.560065398421926e-08,
+    "mean_corresponding_vertex_delta_m": 8.516379884675342e-08
+  },
+  {
+    "mesh": "MedialBacking.L",
+    "vertices": 22,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 8.594447370662784e-08,
+    "mean_corresponding_vertex_delta_m": 8.594447370662784e-08
+  },
+  {
+    "mesh": "MedialBacking.R",
+    "vertices": 22,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 8.544345351545894e-08,
+    "mean_corresponding_vertex_delta_m": 8.541666791762631e-08
+  },
+  {
+    "mesh": "Meshy_Body_NeutralCovered",
+    "vertices": 63561,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 2.8115454709698567e-07,
+    "mean_corresponding_vertex_delta_m": 9.714896328680026e-08
+  },
+  {
+    "mesh": "OriginalMedialLashes.L",
+    "vertices": 397,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 2.0018236599861197e-07,
+    "mean_corresponding_vertex_delta_m": 2.0015443383847505e-07
+  },
+  {
+    "mesh": "OriginalMedialLashes.R",
+    "vertices": 438,
+    "source_import_count_equal": true,
+    "max_corresponding_vertex_delta_m": 2.0377882757522383e-07,
+    "mean_corresponding_vertex_delta_m": 2.0037224807555813e-07
+  }
+]

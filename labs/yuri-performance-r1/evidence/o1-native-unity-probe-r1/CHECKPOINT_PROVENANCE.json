@@ -1,0 +1,92 @@
+{
+  "parent_head": "62f2e6b800e2aac4bda41c5341155c385c0b2f01",
+  "branch": "research/yuri-performance-previs-r1-20261002",
+  "intake_reference": "8a1bba98c60cfbed495d39f46ed1d89221cbc7ca",
+  "consumer_review_reference": "825a7f87",
+  "reporting_reference_read": "037b1f40",
+  "PM_addendum_reporting_reference": "2d828a81",
+  "input_files": [
+    {
+      "name": "CONSUMER_CONTRACT_REVIEW_R1.md",
+      "sha256": "cf4ee77a0ed2e6eebe5b11da361c178e222a14b79e658f55867f95c930deac8d",
+      "bytes": 9009
+    },
+    {
+      "name": "current-model-hierarchy.json",
+      "sha256": "deb3b42b71b481354b17b35fca6b084ca794898aa76297c39bffe875949ed00f",
+      "bytes": 349160
+    },
+    {
+      "name": "current-runtime-body-map.json",
+      "sha256": "8fe6fb5653228ccbda7f9681de034e37c4cdfe445eb32af2375b29b5e648fd29",
+      "bytes": 29028
+    },
+    {
+      "name": "INTAKE_R1.md",
+      "sha256": "1d13802b1421ea77911caaa11c2545bb237375ecd86cc4bb36053eb60f238648",
+      "bytes": 12546
+    },
+    {
+      "name": "PM_ASSET_CONTRACT_R1.md",
+      "sha256": "f138c013757b6e0a53eef4abb9734c419eb428357e36f5a6c5632916fc850189",
+      "bytes": 4837
+    }
+  ],
+  "scripts": [
+    {
+      "path": "r4_o1_native_probe_export.py",
+      "sha256": "78fad536e24a733c9305c6a9784250a10cbef3af3a2a6ac7735b873652c84194"
+    },
+    {
+      "path": "r4_o1_native_probe_matrix_analysis.py",
+      "sha256": "ad4085c71ceceaa228dbdbb41a0f22c2e100ef45e316de45a988ba95b080eb93"
+    },
+    {
+      "path": "r4_o1_native_probe_package.py",
+      "sha256": "2e87fb29449052cb7127fd31ac95957c2f08b95a3ccbc974374aa715a50603b4"
+    },
+    {
+      "path": "r4_o1_native_probe_provenance.py",
+      "sha256": "de3a99ae69eaad5e55bc7cd3561620ce18210cc89090d8780d129bb4fa564cb6"
+    },
+    {
+      "path": "r4_o1_native_probe_roundtrip.py",
+      "sha256": "7f851c1f5680188b21ae9af3f49fcc0ed0a3e1e4599e9caca3edd9c5ec844a93"
+    },
+    {
+      "path": "r4_o1_native_probe_visual.py",
+      "sha256": "113d4fb88d445dd92e5c31f61dc02abcee80f7415645b102bce876089fa03e80"
+    },
+    {
+      "path": "r4_o1_native_probe_wire.py",
+      "sha256": "518b0e96f4459340c359ec31c34cb84c9ca4d09e8aee2743f7f5c477d165f5b3"
+    }
+  ],
+  "archive_receipt": {
+    "archive": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_NATIVE_UNITY_PROBE_20261003_R1_4ec5c10ce90d.zip",
+    "sha256": "4ec5c10ce90d7d25c06721b7dcd3832be4b7672190c975d42912be876a5a0843",
+    "bytes": 175204266,
+    "members": 64,
+    "CRC_and_member_hashes_verified": true,
+    "model": {
+      "file": "YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx",
+      "bytes": 23536956,
+      "sha256": "a1e3dfa2320148d027bfba7a68ff9526ea006133109d1f4a81c25df3ffc8fad8"
+    },
+    "animation": {
+      "file": "YURI_O1_R4_NATIVE_ANIMATION_ONLY_20261003_R1.fbx",
+      "bytes": 7039580,
+      "sha256": "2b464141e7727856448351e5c09747842fb0f317535208e3e3d1a6ddc78da579"
+    },
+    "disposition": "PROBE_COMPLETE / PROMOTION_HOLD / NOT_CANONICAL",
+    "Unity_PASS": false
+  },
+  "artifact_rule": "ZIP immutable; later Git checkpoint sidecar outside ZIP avoids circular self hash",
+  "body_pose_and_slot_policy": "No resetting native helper default pose; source exact OBJECT slot; imported one typed OBSlot assigned by object/take name",
+  "normal_speed_QA": "All-frame skeletal evaluation plus complete 378frame video; supplemental contact sheet visual review; not a Unity playback gate",
+  "failed_trials": [
+    "FBX import generic OBSlot differs from authored slot identifier; corrected explicit name/slot binding in disposable imported data",
+    "Quaternion.angle precision hid small rotation error; double-dot joint rotation gate now fails and remains HOLD",
+    "FFmpeg default font resolution crashed; explicit local font file used, no new install"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "disposition": "PROBE_COMPLETE / PROMOTION_HOLD / NOT_CANONICAL",
+  "source_preservation_PASS": true,
+  "source_components_changed": 0,
+  "native_authority_pixel_PASS": true,
+  "native_OFF_ON_OFF_geometry_delta_m": 0.0,
+  "original_actions_preserved": 78,
+  "body_bones": 57,
+  "total_original_rig_bones": 137,
+  "six_actual_motion_PASS": true,
+  "two_loop_cycles_PASS": true,
+  "pair_static_contract_PASS": false,
+  "position_rotation_combined_fidelity_PASS": false,
+  "max_joint_position_error_m": 1.3645957526141373e-06,
+  "max_rotation_error_deg": 0.0021124810065695494,
+  "rotation_budget_degrees": 0.001,
+  "worst_evaluated_motion_geometry": {
+    "action": "YRA_R4_Struggle_Strong_Loop",
+    "frame": 1,
+    "mesh": "Meshy_Body_NeutralCovered",
+    "count_equal": true,
+    "max_corresponding_vertex_delta_m": 0.0039286543633751635,
+    "mean_corresponding_vertex_delta_m": 0.00015362453647119108
+  },
+  "max_numeric_skin_bone_weight_difference": 0,
+  "carrier_visual_pixel_PASS": false,
+  "Unity_PASS": false,
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "Action_library_SHA256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+  "prior_checkpoints_preserved": [
+    "08caad76e6a279d07698cbfaa33d5c50f2aa097d",
+    "820a23791d17838b101296b50c87fd7564db791f",
+    "62f2e6b800e2aac4bda41c5341155c385c0b2f01"
+  ]
+}

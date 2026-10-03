@@ -1,0 +1,769 @@
+[
+  {
+    "name": "JawOpen",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Smile.L",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Smile.R",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Blink.L",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Blink.R",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "BrowRaise.L",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "BrowRaise.R",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "BrowKnit.L",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "BrowKnit.R",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "CheekLift.L",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "CheekLift.R",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LipPucker",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  },
+  {
+    "name": "MouthWide",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "quaternion_wxyz": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "euler": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "properties": {},
+    "constraints": [
+      [
+        "Slider 0 to 1",
+        {
+          "type": "LIMIT_LOCATION",
+          "is_override_data": false,
+          "owner_space": "LOCAL",
+          "target_space": "WORLD",
+          "space_object": null,
+          "space_subtarget": "",
+          "mute": false,
+          "enabled": true,
+          "show_expanded": true,
+          "is_valid": true,
+          "active": true,
+          "influence": 1.0,
+          "error_location": 0.0,
+          "error_rotation": 0.0,
+          "use_min_x": true,
+          "use_min_y": true,
+          "use_min_z": true,
+          "use_max_x": true,
+          "use_max_y": true,
+          "use_max_z": true,
+          "min_x": 0.0,
+          "min_y": 0.0,
+          "min_z": 0.0,
+          "max_x": 0.0,
+          "max_y": 0.054999999701976776,
+          "max_z": 0.0,
+          "use_transform_limit": true
+        }
+      ]
+    ]
+  }
+]

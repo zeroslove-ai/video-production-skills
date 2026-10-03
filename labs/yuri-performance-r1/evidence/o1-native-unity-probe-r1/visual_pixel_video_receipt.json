@@ -1,0 +1,39 @@
+{
+  "native_vs_frozen_authority": {
+    "dimensions": [
+      960,
+      920
+    ],
+    "unequal_channels": 0,
+    "mean_absolute_8bit_channel_difference": 0.0,
+    "maximum_8bit_channel_difference": 0,
+    "PASS": true
+  },
+  "native_vs_actual_FBX": {
+    "dimensions": [
+      960,
+      920
+    ],
+    "unequal_channels": 1032207,
+    "mean_absolute_8bit_channel_difference": 2.3254885643115943,
+    "maximum_8bit_channel_difference": 220,
+    "PASS": false
+  },
+  "render": "CPU Cycles8 samples/seed0/no denoise; source camera960x920; same original world/lights; no original character shader or modifier copied into FBX side",
+  "video_probes": {
+    "native": {
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "15.750000",
+      "nb_read_frames": "378"
+    },
+    "imported": {
+      "r_frame_rate": "24/1",
+      "avg_frame_rate": "24/1",
+      "duration": "15.750000",
+      "nb_read_frames": "378"
+    }
+  },
+  "full_duration_seconds": 15.75,
+  "normal_speed": "378 consecutive frames at24fps; both loops2cycles; six diagnostic clips separated by cuts, not milestone sequence or Unity state graph PASS"
+}

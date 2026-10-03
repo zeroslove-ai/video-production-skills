@@ -1,0 +1,50 @@
+[
+  {
+    "action": "YRA_R4_Startle_Short",
+    "first_video_frame": 0,
+    "video_frames": 36,
+    "fps": 24,
+    "loop_cycles": 1,
+    "cuts": "separate diagnostic clip; not smooth sequence acceptance"
+  },
+  {
+    "action": "YRA_R4_Lift_Start",
+    "first_video_frame": 36,
+    "video_frames": 30,
+    "fps": 24,
+    "loop_cycles": 1,
+    "cuts": "separate diagnostic clip; not smooth sequence acceptance"
+  },
+  {
+    "action": "YRA_R4_Struggle_Light_Loop",
+    "first_video_frame": 66,
+    "video_frames": 120,
+    "fps": 24,
+    "loop_cycles": 2,
+    "cuts": "separate diagnostic clip; not smooth sequence acceptance"
+  },
+  {
+    "action": "YRA_R4_Struggle_Strong_Loop",
+    "first_video_frame": 186,
+    "video_frames": 96,
+    "fps": 24,
+    "loop_cycles": 2,
+    "cuts": "separate diagnostic clip; not smooth sequence acceptance"
+  },
+  {
+    "action": "YRA_R4_Land_Soft",
+    "first_video_frame": 282,
+    "video_frames": 42,
+    "fps": 24,
+    "loop_cycles": 1,
+    "cuts": "separate diagnostic clip; not smooth sequence acceptance"
+  },
+  {
+    "action": "YRA_R4_BalanceRecover",
+    "first_video_frame": 324,
+    "video_frames": 54,
+    "fps": 24,
+    "loop_cycles": 1,
+    "cuts": "separate diagnostic clip; not smooth sequence acceptance"
+  }
+]

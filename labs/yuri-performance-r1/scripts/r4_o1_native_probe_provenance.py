@@ -1,0 +1,9 @@
+"""External checkpoint provenance after immutable package creation."""
+import json,hashlib,subprocess
+from pathlib import Path
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parent;E=ROOT/'evidence/o1-native-unity-probe-r1';WORK=ROOT/'local/o1-native-unity-probe-r1'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+receipt=json.loads((E/'PACKAGE_RECEIPT.json').read_text(encoding='utf8'))
+provenance={'parent_head':subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip(),'branch':subprocess.check_output(['git','branch','--show-current'],text=True).strip(),'intake_reference':'8a1bba98c60cfbed495d39f46ed1d89221cbc7ca','consumer_review_reference':'825a7f87','reporting_reference_read':'037b1f40','PM_addendum_reporting_reference':'2d828a81','input_files':[{'name':p.name,'sha256':sha(p),'bytes':p.stat().st_size} for p in sorted((WORK/'intake').glob('*')) if p.is_file()],'scripts':[{'path':p.name,'sha256':sha(p)} for p in sorted(HERE.glob('r4_o1_native_probe_*.py'))],'archive_receipt':receipt,'artifact_rule':'ZIP immutable; later Git checkpoint sidecar outside ZIP avoids circular self hash','body_pose_and_slot_policy':'No resetting native helper default pose; source exact OBJECT slot; imported one typed OBSlot assigned by object/take name','normal_speed_QA':'All-frame skeletal evaluation plus complete 378frame video; supplemental contact sheet visual review; not a Unity playback gate','failed_trials':['FBX import generic OBSlot differs from authored slot identifier; corrected explicit name/slot binding in disposable imported data','Quaternion.angle precision hid small rotation error; double-dot joint rotation gate now fails and remains HOLD','FFmpeg default font resolution crashed; explicit local font file used, no new install']}
+(E/'CHECKPOINT_PROVENANCE.json').write_text(json.dumps(provenance,indent=2),encoding='utf8')
+print('PROVENANCE_READY',receipt['sha256'])

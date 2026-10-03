@@ -1,0 +1,1685 @@
+[
+  {
+    "semantic": "Hips",
+    "native_name": "pelvis",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9977851510047913,
+        -0.06651899963617325,
+        0.9399999976158142
+      ],
+      [
+        0.0,
+        0.06651899963617325,
+        0.9977851510047913,
+        -0.02500000037252903
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "Spine",
+    "native_name": "spine",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9999387264251709,
+        0.011069443076848984,
+        0.12039929628372192
+      ],
+      [
+        0.0,
+        -0.011069443076848984,
+        0.9999387860298157,
+        0.0019955728203058243
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "Chest",
+    "native_name": "chest",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9991799592971802,
+        0.04048854112625122,
+        0.1802775114774704
+      ],
+      [
+        0.0,
+        -0.040488533675670624,
+        0.999180018901825,
+        -9.313225746154785e-10
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "Neck",
+    "native_name": "neck",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/neck",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/neck",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9987151026725769,
+        0.05067627131938934,
+        0.2000226229429245
+      ],
+      [
+        0.0,
+        -0.05067627131938934,
+        0.9987151026725769,
+        4.656612873077393e-10
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "Head",
+    "native_name": "head",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/neck/head",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/neck/head",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.9993628263473511,
+        -0.035691533237695694,
+        0.1400892585515976
+      ],
+      [
+        0.0,
+        0.035691533237695694,
+        0.9993628263473511,
+        1.862645149230957e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftShoulder",
+    "native_name": "clavicle.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.005325537174940109,
+        0.9973334670066833,
+        -0.07278157770633698,
+        0.02500000037252903
+      ],
+      [
+        -0.05781501159071922,
+        0.07296794652938843,
+        0.9956570267677307,
+        0.1980527639389038
+      ],
+      [
+        0.9983130097389221,
+        -0.0010945205576717854,
+        0.05804945155978203,
+        0.002029775409027934
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftUpperArm",
+    "native_name": "upper_arm.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.3695865273475647,
+        0.09914667159318924,
+        -0.9238916039466858,
+        4.4493173589899015e-09
+      ],
+      [
+        0.8654586672782898,
+        0.32517459988594055,
+        0.38110727071762085,
+        0.12332886457443237
+      ],
+      [
+        0.33821165561676025,
+        -0.9404420852661133,
+        0.034372858703136444,
+        -4.359992900049292e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftLowerArm",
+    "native_name": "forearm.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.996304452419281,
+        0.06342556327581406,
+        0.05792053043842316,
+        6.146728992462158e-08
+      ],
+      [
+        -0.0637897178530693,
+        0.9979532361030579,
+        0.0044584721326828,
+        0.26444098353385925
+      ],
+      [
+        -0.057519178837537766,
+        -0.008136697113513947,
+        0.9983112812042236,
+        -1.30385160446167e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftHand",
+    "native_name": "hand.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9876669645309448,
+        -0.09815497696399689,
+        -0.12198249250650406,
+        -1.3969838619232178e-08
+      ],
+      [
+        0.1040240004658699,
+        0.9936578869819641,
+        0.04269999638199806,
+        0.22360020875930786
+      ],
+      [
+        0.11701765656471252,
+        -0.05486251413822174,
+        0.9916133284568787,
+        -4.284083843231201e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftUpperLeg",
+    "native_name": "thigh.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9986215829849243,
+        0.035941362380981445,
+        0.03825309872627258,
+        0.09399999678134918
+      ],
+      [
+        0.04055897146463394,
+        -0.990979790687561,
+        -0.12772686779499054,
+        0.06000011786818504
+      ],
+      [
+        0.03331652283668518,
+        0.12910230457782745,
+        -0.9910728931427002,
+        -0.001995578408241272
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftLowerLeg",
+    "native_name": "shin.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9984496235847473,
+        -0.042165353894233704,
+        -0.03633718937635422,
+        6.853952072560787e-09
+      ],
+      [
+        0.03798871114850044,
+        0.9933344721794128,
+        -0.10882748663425446,
+        0.44516968727111816
+      ],
+      [
+        0.04068373143672943,
+        0.10727834701538086,
+        0.9933963418006897,
+        6.51925802230835e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftFoot",
+    "native_name": "foot.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L/foot.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L/foot.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9999949932098389,
+        -0.0005224759224802256,
+        0.0031394532416015863,
+        2.3101165425032377e-09
+      ],
+      [
+        -0.002301706001162529,
+        0.5625357031822205,
+        0.8267697095870972,
+        0.43446171283721924
+      ],
+      [
+        -0.0021980213932693005,
+        -0.8267728090286255,
+        0.5625318288803101,
+        4.0745362639427185e-10
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftToes",
+    "native_name": "toe.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L/foot.L/toe.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.L/shin.L/foot.L/toe.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        5.267300137723474e-11,
+        4.1642467252245297e-10,
+        7.431232518229081e-09
+      ],
+      [
+        -2.32853292203572e-10,
+        0.8950817584991455,
+        0.44590193033218384,
+        0.13499988615512848
+      ],
+      [
+        -3.4924507730238474e-10,
+        -0.44590193033218384,
+        0.8950818181037903,
+        5.519567025658034e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftThumbProximal",
+    "native_name": "thumb1.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9740406274795532,
+        0.04652998596429825,
+        -0.22153979539871216,
+        -0.004394133575260639
+      ],
+      [
+        0.08309325575828552,
+        0.8368449211120605,
+        0.5410972237586975,
+        0.030827892944216728
+      ],
+      [
+        0.21057169139385223,
+        -0.5454592108726501,
+        0.8112545013427734,
+        -0.019342925399541855
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftThumbIntermediate",
+    "native_name": "thumb2.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L/thumb2.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L/thumb2.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9960542917251587,
+        -0.01665653847157955,
+        0.08716893941164017,
+        -7.450580596923828e-09
+      ],
+      [
+        0.053352922201156616,
+        0.8972979784011841,
+        -0.43818920850753784,
+        0.048773057758808136
+      ],
+      [
+        -0.0709177553653717,
+        0.44111090898513794,
+        0.894646167755127,
+        6.705522537231445e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftThumbDistal",
+    "native_name": "thumb3.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L/thumb2.L/thumb3.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/thumb1.L/thumb2.L/thumb3.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        4.4330954551696777e-07,
+        5.532056093215942e-07,
+        -2.421438694000244e-08
+      ],
+      [
+        -4.6938657760620117e-07,
+        1.0,
+        5.960464477539063e-08,
+        0.014619076624512672
+      ],
+      [
+        -6.221234798431396e-07,
+        -6.705522537231445e-08,
+        1.0000001192092896,
+        -1.4901161193847656e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftIndexProximal",
+    "native_name": "index1.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9949226975440979,
+        -0.08014199137687683,
+        -0.06087973713874817,
+        0.011316034942865372
+      ],
+      [
+        0.07728168368339539,
+        0.9958544969558716,
+        -0.047970980405807495,
+        0.0716094821691513
+      ],
+      [
+        0.06447185575962067,
+        0.0430225171148777,
+        0.9969916939735413,
+        -0.021107755601406097
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftIndexIntermediate",
+    "native_name": "index2.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L/index2.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L/index2.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        -1.4290349099610467e-06,
+        -1.5329569578170776e-06,
+        -4.377216100692749e-08
+      ],
+      [
+        1.4199999895936344e-06,
+        0.9999998807907104,
+        4.231693537803949e-07,
+        0.029238073155283928
+      ],
+      [
+        1.5422701835632324e-06,
+        -4.222528673381021e-07,
+        0.9999998807907104,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftIndexDistal",
+    "native_name": "index3.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L/index2.L/index3.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/index1.L/index2.L/index3.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        1.1055572031182237e-06,
+        1.1138617992401123e-06,
+        2.7939677238464355e-09
+      ],
+      [
+        -1.111095116357319e-06,
+        1.0,
+        -3.290365384600591e-07,
+        0.02126402221620083
+      ],
+      [
+        -1.166015863418579e-06,
+        3.1806325750949327e-07,
+        1.0,
+        -2.9802322387695312e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftMiddleProximal",
+    "native_name": "middle1.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9997261166572571,
+        -0.0018934037070721388,
+        0.023328036069869995,
+        0.0036753760650753975
+      ],
+      [
+        0.0035541336983442307,
+        0.9974445104598999,
+        -0.07135676592588425,
+        0.07461085170507431
+      ],
+      [
+        -0.023133274167776108,
+        0.07142013311386108,
+        0.9971780180931091,
+        -0.004468586295843124
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftMiddleIntermediate",
+    "native_name": "middle2.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L/middle2.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L/middle2.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        2.3414432348545233e-07,
+        2.2724270820617676e-07,
+        4.6566128730773926e-09
+      ],
+      [
+        -2.2744359284843085e-07,
+        1.0,
+        -9.292379843373055e-08,
+        0.03290906548500061
+      ],
+      [
+        -1.8998980522155762e-07,
+        8.554762587209552e-08,
+        1.0,
+        -1.1175870895385742e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftMiddleDistal",
+    "native_name": "middle3.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L/middle2.L/middle3.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/middle1.L/middle2.L/middle3.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        -6.893052386658383e-07,
+        -6.891787052154541e-07,
+        -1.862645149230957e-08
+      ],
+      [
+        6.964284011701238e-07,
+        0.9999999403953552,
+        2.647040844294679e-07,
+        0.023934004828333855
+      ],
+      [
+        7.115304470062256e-07,
+        -2.731715937898116e-07,
+        0.9999999403953552,
+        7.450580596923828e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftRingProximal",
+    "native_name": "ring1.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9992803931236267,
+        0.010480714961886406,
+        0.036454785615205765,
+        -0.0019137654453516006
+      ],
+      [
+        -0.007677631452679634,
+        0.9970630407333374,
+        -0.07619979977607727,
+        0.07047337293624878
+      ],
+      [
+        -0.03714623674750328,
+        0.07586508989334106,
+        0.9964258670806885,
+        0.013994690030813217
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftRingIntermediate",
+    "native_name": "ring2.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L/ring2.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L/ring2.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9999999403953552,
+        -2.134293481503846e-06,
+        -2.291053533554077e-06,
+        -4.0512531995773315e-08
+      ],
+      [
+        2.1104033294250257e-06,
+        1.0000001192092896,
+        8.631906212031026e-07,
+        0.030946239829063416
+      ],
+      [
+        2.261251211166382e-06,
+        -8.778863502811873e-07,
+        1.0,
+        -2.7939677238464355e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftRingDistal",
+    "native_name": "ring3.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L/ring2.L/ring3.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/ring1.L/ring2.L/ring3.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9999999403953552,
+        1.5230468761728844e-06,
+        1.6316771507263184e-06,
+        -6.752088665962219e-08
+      ],
+      [
+        -1.4928968994354364e-06,
+        1.0,
+        -6.338377147585561e-07,
+        0.02250628173351288
+      ],
+      [
+        -1.646578311920166e-06,
+        6.180723630677676e-07,
+        1.0,
+        2.3283064365386963e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftLittleProximal",
+    "native_name": "pinky1.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9937962293624878,
+        -0.08740628510713577,
+        -0.06876963376998901,
+        -0.0041796136647462845
+      ],
+      [
+        0.08432920277118683,
+        0.9953547716140747,
+        -0.0464482381939888,
+        0.05945134907960892
+      ],
+      [
+        0.07251015305519104,
+        0.04036079719662666,
+        0.9965506196022034,
+        0.030763497576117516
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftLittleIntermediate",
+    "native_name": "pinky2.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L/pinky2.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L/pinky2.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0000001192092896,
+        8.938041560213605e-07,
+        9.369105100631714e-07,
+        1.594889909029007e-08
+      ],
+      [
+        -9.247722800864722e-07,
+        1.0,
+        -1.9801510120487364e-07,
+        0.02642691880464554
+      ],
+      [
+        -9.443610906600952e-07,
+        2.0954561819053197e-07,
+        1.0,
+        -1.862645149230957e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "LeftLittleDistal",
+    "native_name": "pinky3.L",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L/pinky2.L/pinky3.L",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.L/upper_arm.L/forearm.L/hand.L/pinky1.L/pinky2.L/pinky3.L",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        2.685649747036223e-07,
+        3.520399332046509e-07,
+        -4.738103598356247e-08
+      ],
+      [
+        -2.805019505558448e-07,
+        1.0,
+        -9.857755856046424e-08,
+        0.019219502806663513
+      ],
+      [
+        -3.334134817123413e-07,
+        8.075213742131382e-08,
+        0.9999999403953552,
+        4.190951585769653e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightShoulder",
+    "native_name": "clavicle.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.005325537174940109,
+        -0.9973334670066833,
+        0.07278157770633698,
+        -0.02500000037252903
+      ],
+      [
+        0.05781501159071922,
+        0.07296794652938843,
+        0.9956570267677307,
+        0.1980527639389038
+      ],
+      [
+        -0.9983130097389221,
+        -0.0010945205576717854,
+        0.05804945155978203,
+        0.002029775409027934
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightUpperArm",
+    "native_name": "upper_arm.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.3695865273475647,
+        -0.09914667159318924,
+        0.9238916039466858,
+        -4.4493173589899015e-09
+      ],
+      [
+        -0.8654586672782898,
+        0.32517459988594055,
+        0.38110727071762085,
+        0.12332886457443237
+      ],
+      [
+        -0.33821165561676025,
+        -0.9404420852661133,
+        0.034372858703136444,
+        -4.359992900049292e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightLowerArm",
+    "native_name": "forearm.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.996304452419281,
+        -0.06342556327581406,
+        -0.05792053043842316,
+        -6.146728992462158e-08
+      ],
+      [
+        0.0637897178530693,
+        0.9979532361030579,
+        0.0044584721326828,
+        0.26444098353385925
+      ],
+      [
+        0.057519178837537766,
+        -0.008136697113513947,
+        0.9983112812042236,
+        -1.30385160446167e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightHand",
+    "native_name": "hand.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9876669645309448,
+        0.09815497696399689,
+        0.12198249250650406,
+        1.3969838619232178e-08
+      ],
+      [
+        -0.1040240004658699,
+        0.9936578869819641,
+        0.04269999638199806,
+        0.22360020875930786
+      ],
+      [
+        -0.11701765656471252,
+        -0.05486251413822174,
+        0.9916133284568787,
+        -4.284083843231201e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightUpperLeg",
+    "native_name": "thigh.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9986215829849243,
+        -0.035941362380981445,
+        -0.03825309872627258,
+        -0.09399999678134918
+      ],
+      [
+        -0.04055897146463394,
+        -0.990979790687561,
+        -0.12772686779499054,
+        0.06000011786818504
+      ],
+      [
+        -0.03331652283668518,
+        0.12910230457782745,
+        -0.9910728931427002,
+        -0.001995578408241272
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightLowerLeg",
+    "native_name": "shin.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9984496235847473,
+        0.042165353894233704,
+        0.03633718937635422,
+        -6.853952072560787e-09
+      ],
+      [
+        -0.03798871114850044,
+        0.9933344721794128,
+        -0.10882748663425446,
+        0.44516968727111816
+      ],
+      [
+        -0.04068373143672943,
+        0.10727834701538086,
+        0.9933963418006897,
+        6.51925802230835e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightFoot",
+    "native_name": "foot.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R/foot.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R/foot.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9999949932098389,
+        0.0005224759224802256,
+        -0.0031394532416015863,
+        -2.3101165425032377e-09
+      ],
+      [
+        0.002301706001162529,
+        0.5625357031822205,
+        0.8267697095870972,
+        0.43446171283721924
+      ],
+      [
+        0.0021980213932693005,
+        -0.8267728090286255,
+        0.5625318288803101,
+        4.0745362639427185e-10
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightToes",
+    "native_name": "toe.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R/foot.R/toe.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/thigh.R/shin.R/foot.R/toe.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        -5.267300137723474e-11,
+        -4.1642467252245297e-10,
+        -7.431232518229081e-09
+      ],
+      [
+        2.32853292203572e-10,
+        0.8950817584991455,
+        0.44590193033218384,
+        0.13499988615512848
+      ],
+      [
+        3.4924507730238474e-10,
+        -0.44590193033218384,
+        0.8950818181037903,
+        5.519567025658034e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightThumbProximal",
+    "native_name": "thumb1.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9740406274795532,
+        -0.04652998596429825,
+        0.22153979539871216,
+        0.004394133575260639
+      ],
+      [
+        -0.08309325575828552,
+        0.8368449211120605,
+        0.5410972237586975,
+        0.030827892944216728
+      ],
+      [
+        -0.21057169139385223,
+        -0.5454592108726501,
+        0.8112545013427734,
+        -0.019342925399541855
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightThumbIntermediate",
+    "native_name": "thumb2.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R/thumb2.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R/thumb2.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9960542917251587,
+        0.01665653847157955,
+        -0.08716893941164017,
+        7.450580596923828e-09
+      ],
+      [
+        -0.053352922201156616,
+        0.8972979784011841,
+        -0.43818920850753784,
+        0.048773057758808136
+      ],
+      [
+        0.0709177553653717,
+        0.44111090898513794,
+        0.894646167755127,
+        6.705522537231445e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightThumbDistal",
+    "native_name": "thumb3.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R/thumb2.R/thumb3.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/thumb1.R/thumb2.R/thumb3.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        -4.4330954551696777e-07,
+        -5.532056093215942e-07,
+        2.421438694000244e-08
+      ],
+      [
+        4.6938657760620117e-07,
+        1.0,
+        5.960464477539063e-08,
+        0.014619076624512672
+      ],
+      [
+        6.221234798431396e-07,
+        -6.705522537231445e-08,
+        1.0000001192092896,
+        -1.4901161193847656e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightIndexProximal",
+    "native_name": "index1.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9949226975440979,
+        0.08014199137687683,
+        0.06087973713874817,
+        -0.011316034942865372
+      ],
+      [
+        -0.07728168368339539,
+        0.9958544969558716,
+        -0.047970980405807495,
+        0.0716094821691513
+      ],
+      [
+        -0.06447185575962067,
+        0.0430225171148777,
+        0.9969916939735413,
+        -0.021107755601406097
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightIndexIntermediate",
+    "native_name": "index2.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R/index2.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R/index2.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        1.4290349099610467e-06,
+        1.5329569578170776e-06,
+        4.377216100692749e-08
+      ],
+      [
+        -1.4199999895936344e-06,
+        0.9999998807907104,
+        4.231693537803949e-07,
+        0.029238073155283928
+      ],
+      [
+        -1.5422701835632324e-06,
+        -4.222528673381021e-07,
+        0.9999998807907104,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightIndexDistal",
+    "native_name": "index3.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R/index2.R/index3.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/index1.R/index2.R/index3.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        -1.1055572031182237e-06,
+        -1.1138617992401123e-06,
+        -2.7939677238464355e-09
+      ],
+      [
+        1.111095116357319e-06,
+        1.0,
+        -3.290365384600591e-07,
+        0.02126402221620083
+      ],
+      [
+        1.166015863418579e-06,
+        3.1806325750949327e-07,
+        1.0,
+        -2.9802322387695312e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightMiddleProximal",
+    "native_name": "middle1.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9997261166572571,
+        0.0018934037070721388,
+        -0.023328036069869995,
+        -0.0036753760650753975
+      ],
+      [
+        -0.0035541336983442307,
+        0.9974445104598999,
+        -0.07135676592588425,
+        0.07461085170507431
+      ],
+      [
+        0.023133274167776108,
+        0.07142013311386108,
+        0.9971780180931091,
+        -0.004468586295843124
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightMiddleIntermediate",
+    "native_name": "middle2.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R/middle2.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R/middle2.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        -2.3414432348545233e-07,
+        -2.2724270820617676e-07,
+        -4.6566128730773926e-09
+      ],
+      [
+        2.2744359284843085e-07,
+        1.0,
+        -9.292379843373055e-08,
+        0.03290906548500061
+      ],
+      [
+        1.8998980522155762e-07,
+        8.554762587209552e-08,
+        1.0,
+        -1.1175870895385742e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightMiddleDistal",
+    "native_name": "middle3.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R/middle2.R/middle3.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/middle1.R/middle2.R/middle3.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        6.893052386658383e-07,
+        6.891787052154541e-07,
+        1.862645149230957e-08
+      ],
+      [
+        -6.964284011701238e-07,
+        0.9999999403953552,
+        2.647040844294679e-07,
+        0.023934004828333855
+      ],
+      [
+        -7.115304470062256e-07,
+        -2.731715937898116e-07,
+        0.9999999403953552,
+        7.450580596923828e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightRingProximal",
+    "native_name": "ring1.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9992803931236267,
+        -0.010480714961886406,
+        -0.036454785615205765,
+        0.0019137654453516006
+      ],
+      [
+        0.007677631452679634,
+        0.9970630407333374,
+        -0.07619979977607727,
+        0.07047337293624878
+      ],
+      [
+        0.03714623674750328,
+        0.07586508989334106,
+        0.9964258670806885,
+        0.013994690030813217
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightRingIntermediate",
+    "native_name": "ring2.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R/ring2.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R/ring2.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9999999403953552,
+        2.134293481503846e-06,
+        2.291053533554077e-06,
+        4.0512531995773315e-08
+      ],
+      [
+        -2.1104033294250257e-06,
+        1.0000001192092896,
+        8.631906212031026e-07,
+        0.030946239829063416
+      ],
+      [
+        -2.261251211166382e-06,
+        -8.778863502811873e-07,
+        1.0,
+        -2.7939677238464355e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightRingDistal",
+    "native_name": "ring3.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R/ring2.R/ring3.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/ring1.R/ring2.R/ring3.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9999999403953552,
+        -1.5230468761728844e-06,
+        -1.6316771507263184e-06,
+        6.752088665962219e-08
+      ],
+      [
+        1.4928968994354364e-06,
+        1.0,
+        -6.338377147585561e-07,
+        0.02250628173351288
+      ],
+      [
+        1.646578311920166e-06,
+        6.180723630677676e-07,
+        1.0,
+        2.3283064365386963e-08
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightLittleProximal",
+    "native_name": "pinky1.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        0.9937962293624878,
+        0.08740628510713577,
+        0.06876963376998901,
+        0.0041796136647462845
+      ],
+      [
+        -0.08432920277118683,
+        0.9953547716140747,
+        -0.0464482381939888,
+        0.05945134907960892
+      ],
+      [
+        -0.07251015305519104,
+        0.04036079719662666,
+        0.9965506196022034,
+        0.030763497576117516
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightLittleIntermediate",
+    "native_name": "pinky2.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R/pinky2.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R/pinky2.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0000001192092896,
+        -8.938041560213605e-07,
+        -9.369105100631714e-07,
+        -1.594889909029007e-08
+      ],
+      [
+        9.247722800864722e-07,
+        1.0,
+        -1.9801510120487364e-07,
+        0.02642691880464554
+      ],
+      [
+        9.443610906600952e-07,
+        2.0954561819053197e-07,
+        1.0,
+        -1.862645149230957e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "semantic": "RightLittleDistal",
+    "native_name": "pinky3.R",
+    "original_native_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R/pinky2.R/pinky3.R",
+    "Laptop_control_reference_path": "Assembly_Root/Meshy_Fitted_Rig/root/pelvis/spine/chest/clavicle.R/upper_arm.R/forearm.R/hand.R/pinky1.R/pinky2.R/pinky3.R",
+    "metadata_paths_equal": true,
+    "native_local_rest": [
+      [
+        1.0,
+        -2.685649747036223e-07,
+        -3.520399332046509e-07,
+        4.738103598356247e-08
+      ],
+      [
+        2.805019505558448e-07,
+        1.0,
+        -9.857755856046424e-08,
+        0.019219502806663513
+      ],
+      [
+        3.334134817123413e-07,
+        8.075213742131382e-08,
+        0.9999999403953552,
+        4.190951585769653e-09
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

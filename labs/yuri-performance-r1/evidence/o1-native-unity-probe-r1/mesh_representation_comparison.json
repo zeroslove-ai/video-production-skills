@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Character_Body_Head",
+    "source_vertices": 12928,
+    "imported_vertices": 12928,
+    "source_polygons": 21701,
+    "imported_polygons": 21701,
+    "source_shape_key_count": 72,
+    "imported_shape_key_count": 72,
+    "source_material_slot_names": [
+      "Skin_Clean_R3",
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+      "Neck transition.001",
+      "ContinuousEyeSkin.L",
+      "ContinuousEyeSkin.R",
+      "Face_Iris_Wet_v1",
+      "Face_Lash_Pigment",
+      "Face_LowerLash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Skin_Clean_R3",
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+      "Neck transition.001",
+      "ContinuousEyeSkin.L",
+      "ContinuousEyeSkin.R",
+      "Face_Iris_Wet_v1",
+      "Face_Lash_Pigment",
+      "Face_LowerLash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "Globe.L",
+    "source_vertices": 18242,
+    "imported_vertices": 18242,
+    "source_polygons": 18432,
+    "imported_polygons": 18432,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "Face_Sclera_Wet.L"
+    ],
+    "imported_slot_names": [
+      "Face_Sclera_Wet.L"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "Globe.R",
+    "source_vertices": 18242,
+    "imported_vertices": 18242,
+    "source_polygons": 18432,
+    "imported_polygons": 18432,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "Face_Sclera_Wet.R"
+    ],
+    "imported_slot_names": [
+      "Face_Sclera_Wet.R"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "Hair_Replacement_R4",
+    "source_vertices": 10408,
+    "imported_vertices": 10408,
+    "source_polygons": 8652,
+    "imported_polygons": 8652,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "Hair_Pearl_PBR"
+    ],
+    "imported_slot_names": [
+      "Hair_Pearl_PBR"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.L.1",
+    "source_vertices": 81,
+    "imported_vertices": 81,
+    "source_polygons": 150,
+    "imported_polygons": 150,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.L.2",
+    "source_vertices": 69,
+    "imported_vertices": 69,
+    "source_polygons": 125,
+    "imported_polygons": 125,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.L.3",
+    "source_vertices": 36,
+    "imported_vertices": 36,
+    "source_polygons": 63,
+    "imported_polygons": 63,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.L.4",
+    "source_vertices": 30,
+    "imported_vertices": 30,
+    "source_polygons": 54,
+    "imported_polygons": 54,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.L.5",
+    "source_vertices": 26,
+    "imported_vertices": 26,
+    "source_polygons": 45,
+    "imported_polygons": 45,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.R.1",
+    "source_vertices": 81,
+    "imported_vertices": 81,
+    "source_polygons": 150,
+    "imported_polygons": 150,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.R.2",
+    "source_vertices": 33,
+    "imported_vertices": 33,
+    "source_polygons": 58,
+    "imported_polygons": 58,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.R.3",
+    "source_vertices": 30,
+    "imported_vertices": 30,
+    "source_polygons": 54,
+    "imported_polygons": 54,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.R.4",
+    "source_vertices": 28,
+    "imported_vertices": 28,
+    "source_polygons": 50,
+    "imported_polygons": 50,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LashRootRepair.R.5",
+    "source_vertices": 27,
+    "imported_vertices": 27,
+    "source_polygons": 45,
+    "imported_polygons": 45,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LowerLashesClean.L",
+    "source_vertices": 648,
+    "imported_vertices": 648,
+    "source_polygons": 600,
+    "imported_polygons": 600,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "Face_LowerLash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_LowerLash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "LowerLashesClean.R",
+    "source_vertices": 702,
+    "imported_vertices": 702,
+    "source_polygons": 650,
+    "imported_polygons": 650,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "Face_LowerLash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_LowerLash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "MedialBacking.L",
+    "source_vertices": 22,
+    "imported_vertices": 22,
+    "source_polygons": 29,
+    "imported_polygons": 29,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+    ],
+    "imported_slot_names": [
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "MedialBacking.R",
+    "source_vertices": 22,
+    "imported_vertices": 22,
+    "source_polygons": 29,
+    "imported_polygons": 29,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+    ],
+    "imported_slot_names": [
+      "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "Meshy_Body_NeutralCovered",
+    "source_vertices": 63561,
+    "imported_vertices": 63561,
+    "source_polygons": 63781,
+    "imported_polygons": 63781,
+    "source_shape_key_count": 0,
+    "imported_shape_key_count": 0,
+    "source_material_slot_names": [
+      "R4_Meshy_OriginalDetail_FaceMatched",
+      "R4_Meshy_OriginalDetail_FaceMatched",
+      "R4_Meshy_OriginalDetail_FaceMatched"
+    ],
+    "imported_slot_names": [
+      "R4_Meshy_OriginalDetail_FaceMatched"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "OriginalMedialLashes.L",
+    "source_vertices": 397,
+    "imported_vertices": 397,
+    "source_polygons": 706,
+    "imported_polygons": 706,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  },
+  {
+    "name": "OriginalMedialLashes.R",
+    "source_vertices": 438,
+    "imported_vertices": 438,
+    "source_polygons": 778,
+    "imported_polygons": 778,
+    "source_shape_key_count": 65,
+    "imported_shape_key_count": 65,
+    "source_material_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "imported_slot_names": [
+      "Face_Lash_Pigment"
+    ],
+    "vertex_split_or_reorder_policy": "FBX UV/normal/material loop representation; compare counts/positions explicitly; no source mesh edit"
+  }
+]

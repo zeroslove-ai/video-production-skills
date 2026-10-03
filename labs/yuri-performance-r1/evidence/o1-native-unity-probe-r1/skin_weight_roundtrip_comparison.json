@@ -1,0 +1,174 @@
+[
+  {
+    "mesh": "Character_Body_Head",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": [
+      "J_Bip_C_Head",
+      "J_Bip_C_UpperChest",
+      "J_Bip_L_Shoulder",
+      "J_Bip_R_Shoulder"
+    ]
+  },
+  {
+    "mesh": "Globe.L",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "Globe.R",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "Hair_Replacement_R4",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.L.1",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.L.2",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.L.3",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.L.4",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.L.5",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.R.1",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.R.2",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.R.3",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.R.4",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LashRootRepair.R.5",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LowerLashesClean.L",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "LowerLashesClean.R",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "MedialBacking.L",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "MedialBacking.R",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "Meshy_Body_NeutralCovered",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [
+      "Joint_Smoothing_Mask",
+      "R3_Surface_LinearBlend",
+      "R3_Joint_CorrectiveSmooth",
+      "R3_Shoulder_PoseRelax.L",
+      "R3_Shoulder_PoseRelax.R",
+      "R3_Hip_PoseRelax.L",
+      "R3_Hip_PoseRelax.R"
+    ],
+    "missing_zero_weight_group_entries": [
+      "chest",
+      "clavicle.L",
+      "clavicle.R",
+      "head",
+      "neck",
+      "pelvis",
+      "spine",
+      "thigh.L",
+      "thigh.R",
+      "upper_arm.L",
+      "upper_arm.R"
+    ]
+  },
+  {
+    "mesh": "OriginalMedialLashes.L",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  },
+  {
+    "mesh": "OriginalMedialLashes.R",
+    "max_skin_bone_influence_delta": 0,
+    "missing_influenced_bones": [],
+    "source_nonbone_mask_groups_not_FBX_skin": [],
+    "missing_zero_weight_group_entries": []
+  }
+]
