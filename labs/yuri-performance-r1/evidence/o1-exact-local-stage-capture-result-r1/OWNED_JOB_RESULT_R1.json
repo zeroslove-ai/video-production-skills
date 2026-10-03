@@ -1,0 +1,1409 @@
+{
+  "guard_status": "FAIL",
+  "data_result": "NOT_READ",
+  "scope": "EXACT_TWO_FRAME_SOURCE_LOCAL_STAGE_READ_ONLY",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r1.py"
+  ],
+  "inputs_before": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r1.py": "f8ab4bc7dd77f1ecdeaf843659acd9be6caf290e888f13d59862388b2136d57a",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_adapter.py": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd"
+  },
+  "launcher_sha256": "a861300f4bff07813799958d8c6400a874360a61023b095e72b9917c36926eb8",
+  "config_sha256": "a50e239f2f05061e97beaf8ce42c10cd90b731fb382c27b455347de4e9230ab2",
+  "proposal_sha256": "210cd30d5c85c44317f4e10d03f0c17d486bb3bf84979238230ffac3098bffe2",
+  "approval_receipt_sha256": "cb1acd61177ad0130e29b24876cced75b220f661fe33d2be43e3f6aca0baeed5",
+  "resource_samples": [
+    {
+      "free_RAM_bytes": 31859138560,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.004576200037263334,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 0,
+        "kernel_100ns": 0
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31834140672,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.04050970001844689,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 0,
+        "kernel_100ns": 156250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31827550208,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.07053790002828464,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 156250,
+        "kernel_100ns": 312500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31808421888,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.10147530003450811,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 468750,
+        "kernel_100ns": 312500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31802400768,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.1320137000293471,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 625000,
+        "kernel_100ns": 468750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31795449856,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.1624545000377111,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 937500,
+        "kernel_100ns": 468750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31790661632,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.19397600000957027,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 1250000,
+        "kernel_100ns": 468750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31783997440,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.22454750002361834,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 1562500,
+        "kernel_100ns": 468750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31781703680,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.25503520003985614,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 1875000,
+        "kernel_100ns": 468750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31769591808,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.28609510004753247,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 2031250,
+        "kernel_100ns": 625000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31765135360,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.3170450000325218,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 2343750,
+        "kernel_100ns": 625000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31766372352,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.3480727000278421,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 2656250,
+        "kernel_100ns": 625000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31763353600,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.3786898000398651,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 2812500,
+        "kernel_100ns": 781250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31732989952,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.40933910000603646,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 3125000,
+        "kernel_100ns": 781250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31739281408,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.4399118000292219,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 3437500,
+        "kernel_100ns": 781250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31739072512,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.47031370003242046,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 3593750,
+        "kernel_100ns": 937500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31738814464,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.5023724000202492,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 3906250,
+        "kernel_100ns": 937500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31738650624,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.5338943999959156,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 4218750,
+        "kernel_100ns": 937500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31738335232,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.56528600002639,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 4375000,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31738269696,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.5960371000110172,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 4687500,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31739547648,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.6268776000360958,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 5000000,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31739293696,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.6574178000446409,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 5312500,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31740026880,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.6883830000297166,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 5625000,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31738314752,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.7185289000044577,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 5781250,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31734501376,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.7496552999946289,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 6093750,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31728914432,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.7801603000261821,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 6406250,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31726678016,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.8112489000195637,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 6718750,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31726456832,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.8414132000179961,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 7031250,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31727788032,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.8722942000022158,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 7343750,
+        "kernel_100ns": 1093750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31715434496,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.9026487999944948,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 7500000,
+        "kernel_100ns": 1250000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31712591872,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.9331948999897577,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 7812500,
+        "kernel_100ns": 1250000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31713337344,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.9636606000130996,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 8125000,
+        "kernel_100ns": 1250000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31715823616,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 0.9939326000167057,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 8437500,
+        "kernel_100ns": 1250000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31715663872,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 1.0245289000449702,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 8437500,
+        "kernel_100ns": 1406250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31715426304,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 1.0550195000250824,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 8437500,
+        "kernel_100ns": 1718750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31716184064,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 1.0869437000364996,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 8750000,
+        "kernel_100ns": 1718750
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31715704832,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 1.1175480000092648,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 9062500,
+        "kernel_100ns": 1875000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31692197888,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 1.147524300031364,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 9218750,
+        "kernel_100ns": 2031250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31679250432,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 1.178937799995765,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 9531250,
+        "kernel_100ns": 2031250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31678849024,
+      "free_C_bytes": 264209887232,
+      "elapsed_seconds": 1.209346399991773,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 9531250,
+        "kernel_100ns": 2031250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31660490752,
+      "free_C_bytes": 264209801216,
+      "elapsed_seconds": 1.2397807000088505,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 9843750,
+        "kernel_100ns": 2031250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31635607552,
+      "free_C_bytes": 264209801216,
+      "elapsed_seconds": 1.2708751000463963,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 10156250,
+        "kernel_100ns": 2031250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31606673408,
+      "free_C_bytes": 264209801216,
+      "elapsed_seconds": 1.3008381000254303,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 10468750,
+        "kernel_100ns": 2031250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31516594176,
+      "free_C_bytes": 264209866752,
+      "elapsed_seconds": 1.331395400047768,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 10625000,
+        "kernel_100ns": 2187500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31532527616,
+      "free_C_bytes": 264209866752,
+      "elapsed_seconds": 1.3629132999922149,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 10781250,
+        "kernel_100ns": 2500000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31508578304,
+      "free_C_bytes": 264209866752,
+      "elapsed_seconds": 1.3934513000422157,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 11250000,
+        "kernel_100ns": 2500000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31495249920,
+      "free_C_bytes": 264209866752,
+      "elapsed_seconds": 1.4239519000402652,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 11875000,
+        "kernel_100ns": 2500000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31500136448,
+      "free_C_bytes": 264209801216,
+      "elapsed_seconds": 1.4540338999941014,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 12343750,
+        "kernel_100ns": 2500000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31504564224,
+      "free_C_bytes": 264209866752,
+      "elapsed_seconds": 1.4850255000055768,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 12656250,
+        "kernel_100ns": 2500000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31504867328,
+      "free_C_bytes": 264209866752,
+      "elapsed_seconds": 1.5153992000268772,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 12812500,
+        "kernel_100ns": 2500000
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31504924672,
+      "free_C_bytes": 264209866752,
+      "elapsed_seconds": 1.5463538000476547,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 12968750,
+        "kernel_100ns": 2656250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31504445440,
+      "free_C_bytes": 264209948672,
+      "elapsed_seconds": 1.5769544999930076,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 13281250,
+        "kernel_100ns": 2656250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31499272192,
+      "free_C_bytes": 264209948672,
+      "elapsed_seconds": 1.6074907000293024,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 13593750,
+        "kernel_100ns": 2656250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31484354560,
+      "free_C_bytes": 264209948672,
+      "elapsed_seconds": 1.6380199000122957,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 13906250,
+        "kernel_100ns": 2656250
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31481733120,
+      "free_C_bytes": 264209948672,
+      "elapsed_seconds": 1.6687258000019938,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 14062500,
+        "kernel_100ns": 2812500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31475539968,
+      "free_C_bytes": 264209944576,
+      "elapsed_seconds": 1.6991055000107735,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 14218750,
+        "kernel_100ns": 2812500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31515668480,
+      "free_C_bytes": 264209944576,
+      "elapsed_seconds": 1.7295997000182979,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 14531250,
+        "kernel_100ns": 2812500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31525023744,
+      "free_C_bytes": 264209862656,
+      "elapsed_seconds": 1.7606969000189565,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 14687500,
+        "kernel_100ns": 2812500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31525023744,
+      "free_C_bytes": 264209862656,
+      "elapsed_seconds": 1.7910689000273123,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 14687500,
+        "kernel_100ns": 2812500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 0,
+      "image_query_success": true,
+      "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+      "owned_handle_signaled_after_image": false,
+      "classification": "LIVE_IMAGE_AND_OWNERSHIP_VERIFIED"
+    },
+    {
+      "free_RAM_bytes": 31685345280,
+      "free_C_bytes": 264209862656,
+      "elapsed_seconds": 1.8206593000213616,
+      "accounting": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0,
+        "user_100ns": 14843750,
+        "kernel_100ns": 2812500
+      },
+      "job_pids": [
+        114608
+      ],
+      "owned_handle_signaled_before_image": false,
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 134355104385942216,
+      "image_query_success": false,
+      "image_error": 5,
+      "owned_handle_signaled_after_image": false
+    }
+  ],
+  "R5_whole_guard_status": "FAIL_PRESERVED",
+  "retry_count": 0,
+  "native_job_limit_readback": {
+    "flags": 8984,
+    "active_process_limit": 1,
+    "affinity_mask": 3,
+    "process_memory_bytes": 8589934592,
+    "job_memory_bytes": 8589934592
+  },
+  "pid": 114608,
+  "thread_id": 92124,
+  "guard_parent_pid": 132428,
+  "native_process_handle": 420,
+  "native_job_handle": 416,
+  "creation_FILETIME": 134355104367860485,
+  "exit_FILETIME": 0,
+  "assigned_suspended_before_resume": true,
+  "error": "Traceback (most recent call last):\n  File \"C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_launcher_r1.py\", line 156, in run\n    assert image_ok, 'missing executable image while owned handle genuinely LIVE'\n           ^^^^^^^^\nAssertionError: missing executable image while owned handle genuinely LIVE\n",
+  "cleanup_terminate_owned_job_if_live": true,
+  "cleanup_owned_handle_signaled": true,
+  "cleanup_owned_handle_exit_code": 93,
+  "cleanup_owned_times": {
+    "creation_FILETIME": 134355104367860485,
+    "exit_FILETIME": 134355104385942216
+  },
+  "cleanup_job_accounting_before_close": {
+    "active": 0,
+    "total": 1,
+    "limit_terminated": 0,
+    "user_100ns": 14843750,
+    "kernel_100ns": 2968750
+  },
+  "cleanup_job_pids_before_close": [],
+  "job_close_success": true,
+  "owned_process_signaled_after_job_close": true,
+  "owned_process_handle_close": null,
+  "owned_thread_handle_close": null,
+  "cleanup_errors": [],
+  "inputs_after": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r1.py": "f8ab4bc7dd77f1ecdeaf843659acd9be6caf290e888f13d59862388b2136d57a",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_adapter.py": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd"
+  },
+  "partial_files_retained": [
+    "fixed-capture.log",
+    "PM_APPROVAL_EXACT_LOCAL_CAPTURE_R1.json"
+  ],
+  "wall_seconds": 1.873880100029055
+}

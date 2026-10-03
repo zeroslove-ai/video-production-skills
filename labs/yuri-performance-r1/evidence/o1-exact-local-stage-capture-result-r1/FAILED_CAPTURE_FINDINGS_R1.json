@@ -1,0 +1,88 @@
+{
+  "status": "FAILED_SINGLE_APPROVED_CAPTURE_NO_RETRY",
+  "approved_attempts": 1,
+  "actual_child_launches": 1,
+  "pid": 114608,
+  "creation_FILETIME": 134355104367860485,
+  "guard_parent_pid": 132428,
+  "guard_status": "FAIL",
+  "data_result": "NOT_READ",
+  "collector_failure": "Factory preferences addon collection was nonempty; strict empty-inventory assertion failed before snapshot/recipe identity/Action activation/clone/stage capture.",
+  "addon_ids": "NOT_CAPTURED; cannot infer built-in versus user addons from collection nonempty alone",
+  "addon_log_marker_check": {
+    "BlenderMCP": false,
+    "Higgsfield": false,
+    "MPFB": false,
+    "account-balance": false
+  },
+  "guard_failure": "Missing executable image error5 on exact owned handle that remained unsignaled before/after lookup. Exit FILETIME was populated; it was not used as substitute for handle signaling. Whole guard FAIL preserved.",
+  "terminal_cleanup": {
+    "cleanup_terminate_owned_job_if_live": true,
+    "cleanup_owned_handle_signaled": true,
+    "cleanup_owned_handle_exit_code": 93,
+    "cleanup_owned_times": {
+      "creation_FILETIME": 134355104367860485,
+      "exit_FILETIME": 134355104385942216
+    },
+    "cleanup_job_accounting_before_close": {
+      "active": 0,
+      "total": 1,
+      "limit_terminated": 0,
+      "user_100ns": 14843750,
+      "kernel_100ns": 2968750
+    },
+    "cleanup_job_pids_before_close": [],
+    "job_close_success": true,
+    "owned_process_signaled_after_job_close": true,
+    "cleanup_errors": []
+  },
+  "native_job_limit_readback": {
+    "flags": 8984,
+    "active_process_limit": 1,
+    "affinity_mask": 3,
+    "process_memory_bytes": 8589934592,
+    "job_memory_bytes": 8589934592
+  },
+  "resource_minima_bytes": {
+    "free_RAM_bytes": 31475539968,
+    "free_C_bytes": 264209801216
+  },
+  "source_action_recipe_and_all_dependencies_pre_post_sha_identical": true,
+  "full_scene_signature": "NOT_RUN; failure was earlier. File hash preservation is not scene signature acceptance.",
+  "stage6_reference_comparison": "NOT_RUN",
+  "perarray_metadata": [],
+  "local_world_stage_arrays": 0,
+  "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+  "first_comparative_divergence": "NOT_PROVEN",
+  "raw_files": {
+    "PM_APPROVAL_EXACT_LOCAL_CAPTURE_R1.json": {
+      "bytes": 1653,
+      "sha256": "cb1acd61177ad0130e29b24876cced75b220f661fe33d2be43e3f6aca0baeed5"
+    },
+    "fixed-capture.log": {
+      "bytes": 1055,
+      "sha256": "ba2d0f42f2fa47dcd91f1a4168748feb8c562b0e27231fa7265273792af25253"
+    },
+    "OWNED_JOB_RESULT_R1.json": {
+      "bytes": 49931,
+      "sha256": "4ae4508d00c8538a1ffa5fe0721953d2834a0c2c9d79ed542d9c7fdfb497feb1"
+    }
+  },
+  "source_inputs_current_hashes": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r1.py": "f8ab4bc7dd77f1ecdeaf843659acd9be6caf290e888f13d59862388b2136d57a",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_adapter.py": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd"
+  },
+  "wall_seconds_owned_job": 1.873880100029055,
+  "renders_exports_saves_GPU_download_build": 0,
+  "R5_whole_guard_status": "FAIL_PRESERVED",
+  "gui_observation": "Separate read-only process query before/after saw PID129152 with unchanged start2026-10-02 23:17:57; no attach/kill/control",
+  "GPU_lease": "PRODUCT_EXCLUSIVE/product-observed58248 untouched",
+  "next_bounded_review": "Review the overly strict empty factory-addon assumption from this actual failure; identify bundled factory addon inventory by static files or separately approved diagnostic. No new execution or guard relaxation authorized."
+}

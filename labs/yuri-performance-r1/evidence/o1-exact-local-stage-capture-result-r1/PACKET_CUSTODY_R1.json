@@ -1,0 +1,42 @@
+{
+  "status": "FAILED_SINGLE_APPROVED_CAPTURE_NO_RETRY",
+  "private_transfer_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-exact-source-local-stage-capture-r1\\YURI_O1_EXACT_LOCAL_SINGLE_CAPTURE_FAILED_R1.zip",
+  "bytes": 24903,
+  "sha256": "bee1a145ffa479676aa715d4386a5054d5e0f4a3463f5bbc449e1c915c5e6cef",
+  "contains_motion_arrays": false,
+  "zip_CRC_and_all_member_hashes_verified": true,
+  "members": {
+    "PM_APPROVAL_EXACT_LOCAL_CAPTURE_R1.json": {
+      "bytes": 1653,
+      "sha256": "cb1acd61177ad0130e29b24876cced75b220f661fe33d2be43e3f6aca0baeed5"
+    },
+    "fixed-capture.log": {
+      "bytes": 1055,
+      "sha256": "ba2d0f42f2fa47dcd91f1a4168748feb8c562b0e27231fa7265273792af25253"
+    },
+    "OWNED_JOB_RESULT_R1.json": {
+      "bytes": 49931,
+      "sha256": "4ae4508d00c8538a1ffa5fe0721953d2834a0c2c9d79ed542d9c7fdfb497feb1"
+    },
+    "FAILED_CAPTURE_FINDINGS_R1.json": {
+      "bytes": 5464,
+      "sha256": "12cb4d31978b3f96865d0ce2e33568df711ece88fe3d3db2af4dda4179c6d00b"
+    },
+    "r4_exact_local_stage_launcher_r1.py": {
+      "bytes": 16490,
+      "sha256": "a861300f4bff07813799958d8c6400a874360a61023b095e72b9917c36926eb8"
+    },
+    "r4_exact_local_stage_collector_r1.py": {
+      "bytes": 12365,
+      "sha256": "f8ab4bc7dd77f1ecdeaf843659acd9be6caf290e888f13d59862388b2136d57a"
+    },
+    "CAPTURE_PROPOSAL_R1.json": {
+      "bytes": 10064,
+      "sha256": "210cd30d5c85c44317f4e10d03f0c17d486bb3bf84979238230ffac3098bffe2"
+    },
+    "FIXED_ROUTE_CONFIG_R1.json": {
+      "bytes": 3594,
+      "sha256": "a50e239f2f05061e97beaf8ce42c10cd90b731fb382c27b455347de4e9230ab2"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+00:01.171  blend            | Read blend: "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\local\model-handoff-r4\Character_Master_NeckSkin_R4.blend"
+Traceback (most recent call last):
+  File "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\scripts\r4_exact_local_stage_collector_r1.py", line 180, in <module>
+    if __name__ == '__main__': main()
+                               ~~~~^^
+  File "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\scripts\r4_exact_local_stage_collector_r1.py", line 54, in main
+    assert list(bpy.context.preferences.addons.keys()) == [], 'factory addon inventory must be empty'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: factory addon inventory must be empty
+
+Error: script failed, file: 'C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\scripts\r4_exact_local_stage_collector_r1.py', exiting.
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
