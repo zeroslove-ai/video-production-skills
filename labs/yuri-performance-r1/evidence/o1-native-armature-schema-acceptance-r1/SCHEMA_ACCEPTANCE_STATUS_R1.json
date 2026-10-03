@@ -1,0 +1,64 @@
+{
+  "status": "SCHEMA_AGREEMENT_RESOLVED_SCOPED_ONLY",
+  "decision": "ACCEPT_BRANCH_AWARE_SPARSE_SCHEMA_ONLY",
+  "decision_marker": "YURI_O1_R7_SCHEMA_CONSUMER_ACCEPTED",
+  "provenance": {
+    "kind": "DIRECT_READ_PINNED_PM_ENVELOPE_CONTAINING_LAPTOP_DECISION",
+    "PM_thread_id": "01a0ff8a-5bc8-7541-a876-e39fcc7941bf",
+    "message_marker": "ROOT_PM_CONSUMER_DECISION_DURABLE_LOCATION_FIX_R1",
+    "envelope_URL": "https://github.com/zeroslove-ai/yuri-room-mvp/blob/b6e5fe09/docs/evidence/root-pm-o1/PM_R7_LAPTOP_CONSUMER_ACCEPTANCE_R1.json",
+    "envelope_git_blob_SHA1": "1ec267206ed30cedf92eab1d99b3a3232ab5f2e0",
+    "envelope_SHA256": "0ccce2e60727af8800bf57476e712fe82b162be00f7a9b6f0c370f2f14d8c63a",
+    "envelope_bytes": 4693,
+    "envelope_git_blob_and_content_verified": true,
+    "Laptop_original_file_SHA256_PM_declared": "bc861458f3e10efa70ec4ae021d190d98d0d2105932c7350f3df0bdf47690a9b",
+    "Laptop_original_file_bytes_PM_declared": 4132,
+    "Laptop_original_file_independently_fetched": false,
+    "embedded_decision_text_UTF8_SHA256": "dd84c61147d87c83cb832504678626c98a96ac78004e440dfab84d1b852402e3",
+    "note": "Exact pinned PM envelope read and decision verified. This proves the envelope receipt, not independent original Laptop-file byte custody. Earlier historical-ref404s were expected; original new Laptop source ref pending."
+  },
+  "source_code_commit": "d02ef857e73d8a2b226422a46d9221287f6d686c",
+  "receiver_review_commit": "235690ef548e2162d4808ac7beb6d8000d3177ef",
+  "accepted_scope": {
+    "branch_aware_sparse_helpers_DQ": true,
+    "original_slots": 57,
+    "second_LBS_computed_vertex_rows": 4,
+    "second_LBS_ordered_CSR_rows": 40,
+    "zero_mask_vertices_NOT_COMPUTED": [
+      21485,
+      22227,
+      40817
+    ],
+    "actual_caller_mask_cache_output_retained": true,
+    "separate_second_modifier_transport": true
+  },
+  "mandatory_unchanged_gates": {
+    "vertices": 63561,
+    "ordered_CSR_entries": 304799,
+    "original_helper_flags": "preserve",
+    "zero_helpers_masks": "preserve original order and bits",
+    "source_pose_and_world": "actual native only; no reverse-WORLD reconstruction"
+  },
+  "remaining": {
+    "full_frozen_ZIP_receiver_custody": "PENDING",
+    "full_recipe_actual_file_custody": "PENDING",
+    "acquisition_approved": false,
+    "native_build_and_API": "NOT_RUN",
+    "native_capture_and_numeric": "NOT_AVAILABLE",
+    "installed_compiler_equivalence": "NOT_PROVED",
+    "world_numeric_and_full_original_gates": "PENDING",
+    "shader_Unity_Player_PBR": "PENDING"
+  },
+  "native_numeric_acceptance": false,
+  "product_promotion": false,
+  "R4_appearance_promotion": false,
+  "frozen_hashes_verified_now": {
+    "C:\\YuriTransfer\\outbox\\YURI_O1_ARMATURE_TYPED_DRAFT_R7_20261003_8c3c1970ddf6\\YURI_O1_ARMATURE_TYPED_DRAFT_R7_20261003.zip": "1314692aa05bf2d62c4bb54c8fc794104a395d5adfc68b8e0627dc8cb9b638b0",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-native-armature-instrumentation-draft-r7\\YURI_O1_ARMATURE_R7_RECEIVER_REVIEW.zip": "a9be2416bba43892686aabd56467daf13ce10c2017be0751ac3cce8066b71607",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d"
+  },
+  "acquisition_template_unchanged_sha256": "2c83cab515cb12bc2d408c06a4366d45af5e1ef4eb2352ab6fd748303e0ca778",
+  "artifact_update_policy": "Additive acceptance overlay. Original R6/R7 and receiver schema retain PENDING at their freeze time; none rewritten/replaced.",
+  "next": "Native resource/build/capture work only after actual owner approval and applicable gates; schema agreement alone authorizes none."
+}
