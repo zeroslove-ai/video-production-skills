@@ -1,0 +1,239 @@
+{
+  "capability_delta": "새 Windows 기능 없음; 기존 head 내부 lash BSDF/domain의 exact cached reference 공급",
+  "source": {
+    "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "immutable": true
+  },
+  "existing_private_material_authority": {
+    "Drive_id": "12F0Qz_U-c-8pzfNRvEnt9k6TgyGIhpEs",
+    "ZIP_sha256": "319cc430201df5db3967c49e06de2d9e4bedc9e5b5400732ec961fc3374957e2",
+    "member": "LID_GUIDE_VISIBLE_PIGMENT_INPUTS_PRIVATE_R1.json"
+  },
+  "material": "Face_Lash_Pigment",
+  "active_surface_link": [
+    "Principled BSDF",
+    "BSDF",
+    "Material Output",
+    "Surface"
+  ],
+  "BSDF_properties": {
+    "distribution": "MULTI_GGX",
+    "subsurface_method": "RANDOM_WALK_LEGACY"
+  },
+  "active_scalar_observations": {
+    "Roughness": 0.47999998927116394,
+    "IOR": 1.5,
+    "Specular IOR Level": 0.33000001311302185
+  },
+  "operand_pointers": {
+    "Roughness": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/2/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "IOR": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/3/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Alpha": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/4/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Thin Wall": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/5/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Normal": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/6/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Diffuse Roughness": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/8/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Subsurface Weight": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/9/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Specular IOR Level": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/14/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Specular Tint": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/15/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Anisotropic": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/16/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Anisotropic Rotation": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/17/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Tangent": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/18/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Transmission Weight": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/19/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Coat Weight": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/20/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Coat Roughness": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/21/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Coat IOR": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/22/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Coat Tint": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/23/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Coat Normal": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/24/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Sheen Weight": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/25/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Emission Strength": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/29/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    },
+    "Thin Film Thickness": {
+      "private_member_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/30/1/default_value",
+      "is_linked": false,
+      "enabled": true,
+      "is_unavailable": false
+    }
+  },
+  "disabled_contribution_observations": "Coat/Transmission/Subsurface/Sheen/Emission/Anisotropy/ThinFilm weights or strength/thickness are zero; Alpha=1; ThinWall=false. Exact socket values in pointers. No transparent shader or image/normal/tangent links.",
+  "material_flags": {
+    "surface_render_method": "DITHERED",
+    "blend_method": "HASHED",
+    "alpha_threshold": 0.5,
+    "use_transparency_overlap": true,
+    "show_transparent_back": true,
+    "use_backface_culling": false,
+    "use_backface_culling_shadow": false,
+    "use_transparent_shadow": true,
+    "use_raytrace_refraction": false,
+    "use_screen_refraction": false,
+    "displacement_method": "BUMP"
+  },
+  "viewport_property_caveat": "Material.properties.roughness is a different viewport field from active Principled Roughness; use node socket above. specular_intensity is not Specular IOR Level. HASHED/DITHERED flags do not by themselves prove translucent rendered pixels with Alpha=1.",
+  "head_owner": {
+    "object": "Character_Body_Head",
+    "hierarchy": "Armature/Character_Body_Head",
+    "original_mesh_ID": "tripo_mesh_1d697050.001",
+    "slot_zero_based": 6,
+    "slot_link": "DATA",
+    "assignment_domain": "source POLYGON/FACE material index; triangle descendants must retain source polygon slot",
+    "cached_NPZ": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz",
+      "member_relative_path": "data/Character_Body_Head_original_mesh.npz",
+      "sha256": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473",
+      "bytes": 1655757
+    },
+    "domain_selection": "polygon_material_slot == 6; expand polygon_loop_start/total then loop_vertex_indices; never select all head or separate14lash meshes",
+    "domain": {
+      "polygons": 2634,
+      "source_corners": 7902,
+      "unique_source_vertices": 1410,
+      "smooth_polygons": 2634,
+      "flat_polygons": 0,
+      "polygon_ids_LE_i32_SHA256": "a710b80e8e586b39d548bb5f12ea211dce7a6fa706a7496ca060446c34fa1d58",
+      "corner_ids_LE_i32_SHA256": "92b2fbb6ac6efa8dec80903c40fc64990ed72009b9120369d49472ae3a646c80"
+    },
+    "UV": "UVMap / uv_0, source CORNER domain",
+    "has_custom_normals": true,
+    "normal_authority": {
+      "custom_normal": {
+        "name": "custom_normal",
+        "domain": "CORNER",
+        "data_type": "INT16_2D",
+        "fields": [
+          {
+            "property": "value",
+            "array": "attribute_19_value"
+          }
+        ]
+      },
+      "NPZ_array": "attribute_19_value",
+      "interpretation": "Original encoded corner custom normals are present. No linked Normal does not mean zero shading normal: implicit BSDF shading normal derives from geometry/smoothing/custom-normal pipeline.",
+      "tangent": "No linked Tangent or tangent texture; anisotropy zero. Actual evaluated per-frame corner shading normals/tangents are not witnessed by this operand extraction."
+    }
+  },
+  "raw_domain_authority": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-sampling-r3\\RAW_FINGERPRINT_INPUTS_BEFORE_PRIVATE_R3.json.gz",
+    "sha256": "c501d48954476c3e72ea5b693afb2f3831892d21754f0162a83a9b8c8ab41ec5",
+    "slot_pointer": "/objects/Character_Body_Head/materials/6",
+    "polygon_pointer": "/mesh_attributes/tripo_mesh_1d697050.001/polygons",
+    "polygon_schema": "[*vertex IDs, material_index, use_smooth]; verified against frozen NPZ assignment"
+  },
+  "missing": [
+    "Actual Laptop bright-boundary pixel triangle/source-polygon/material-slot witness",
+    "Same-pose consumer evaluated custom shading normals and bound BSDF/light/view operands; this cache does not witness runtime shader behavior",
+    "No source same-pose Blink~0.962 rendered BSDF A/B or material-node evaluated pixel witness acquired"
+  ],
+  "verification_methods": [
+    "Pixel owner test: same camera/pose/lighting, use Laptop slot-ID diagnostic for head source slot6; preserve fallback/source; separate14lash hide is not headslot6 exclusion.",
+    "BSDF binding test: record actual headslot6 shader materialID and active Roughness/IOR/SpecularIORLevel/Alpha/Coat/Normal binding against exact pointers; do not equate Blender SpecularIORLevel directly with arbitrary Unity smoothness/specular controls.",
+    "Normals/light discrimination: hold geometry/camera/light fixed, verify source-corner custom-normal transport and smooth flags on slot6 domain; a Laptop diagnostic specular-only/off comparison can discriminate highlight hypothesis, but is not a source material edit or appearance PASS."
+  ],
+  "preservation": "Immutable R4/fallback/source and guard FAILED-HOLD/F2/F3 unchanged. No native capture/export/mesh edit/Unity write/upload; 5276592 recipe not rerun.",
+  "validation": {
+    "private_packet_SHA_CRC": true,
+    "NPZ_SHA_bytes": true,
+    "raw_NPZ_material_assignment_equal": true,
+    "operand_pointers": 21,
+    "native_runs": 0
+  }
+}
