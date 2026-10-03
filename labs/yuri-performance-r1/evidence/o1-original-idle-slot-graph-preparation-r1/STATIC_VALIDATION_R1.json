@@ -1,0 +1,11 @@
+{
+  "status": "SAVED_FILE_AST_COMPILE_AND_FIXED_ROUTE_DIFF_ONLY_PASS",
+  "Blender_launcher_probes_executed": 0,
+  "original_source_hash_verified": true,
+  "inspection_AST_compile": true,
+  "guard_native_job_logic_identical_to_reviewed_R2_except_paths_scope_data_schema": true,
+  "BlenderAPI_slot_handle_recursive_NLA_RNA_resolution": "NOT_RUN",
+  "real_target_binding_compatibility": "PENDING_ACTUAL_READ",
+  "original_graph_source_signature_rest_mute_preservation": "MANDATORY_NATIVE_RECEIPT_NOT_REPRODUCED_HERE",
+  "export_or_assignment": false
+}
