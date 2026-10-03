@@ -1,0 +1,5 @@
+00:01.156  blend            | Read blend: "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\local\model-handoff-r4\Character_Master_NeckSkin_R4.blend"
+{"scope": "SOURCE_DATA_IDENTITY_ONLY", "native_numeric_acceptance": false, "render_export_save_action_pose_mutation": false, "blender_version": "5.2.1 LTS", "blender_build_hash": "9e2066aef7ef", "status": "LIVE_ORIGINAL_FULL_RECIPE_BYTE_IDENTICAL", "vertices": 63561, "slots": 57, "CSR_entries": 304799, "groups": 58, "mask_group": 52, "zero_weight_entries": 37310, "source_post_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa", "recipe_post_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

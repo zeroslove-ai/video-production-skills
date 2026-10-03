@@ -1,0 +1,31 @@
+{
+  "scope": "INSTALLED_BLENDER_SOURCE_DATA_READ_ONLY",
+  "PM_reviewed_exact_final_guard_verifier_argv_and_same_guard_probes": true,
+  "human_large_resource_acquisition_approved": false,
+  "custom_native_build_trace_capture_approved": false,
+  "guard_sha256": "c6912b0378d9b1f626de33b4f819efb898d49432e035576e240764559fe8566c",
+  "verifier_sha256": "822e032882b9f4c5f0df012a60083d72abe217679c5f2e881c7a4af241866b9c",
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_recipe_verifier_r5.py"
+  ],
+  "probe_manifest_sha256": "dffbf77a3b1519d17fc46d969b81b069dfbf6bfa2a884e758c946114594c4c17",
+  "factory_help_log_sha256": "4dfeea762466f3b45cf11694ca387ac842ce700430123ad7d7edfa07a6fb8a68",
+  "reviewed_utc": "2026-10-03T13:17:08.767413+00:00",
+  "frozen_zip_sha256": "241ff893ef93c99cd84a070c72f138d6c96534befbb1897db3663264b0c94446",
+  "frozen_payloads_verified": 9,
+  "limits": "2cores8GiB120sec; freeRAM12GiB/freeC100GiB; single ownedPID/killclose",
+  "scope_limit": "One installed source data identity read with factory/offline startup, no native build/capture/render/export/save/pose actions; full startup isolation still pending actual source read result",
+  "promotion": "HOLD"
+}

@@ -1,0 +1,1879 @@
+{
+  "case": "source-read",
+  "status": "FAIL",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_recipe_verifier_r5.py"
+  ],
+  "exe_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "inputs_before": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "small_read_purpose": "PM_REVIEWED_INSTALLED_SOURCE_IDENTITY_ONLY",
+  "human_large_resource_acquisition_approved": false,
+  "native_layout": {
+    "Basic_size": 64,
+    "Extended_size": 144,
+    "Accounting_size": 48,
+    "PidList_ids_offset": 8,
+    "Basic_flags_offset": 16,
+    "Basic_active_offset": 40,
+    "Accounting_active_offset": 40,
+    "ProcessEntry_size": 568,
+    "ProcessEntry_parent_offset": 32
+  },
+  "job_limit_readback_verified": true,
+  "pid": 117560,
+  "thread_id": 123156,
+  "creation_FILETIME": 134355070636712812,
+  "created_suspended": true,
+  "creation_flags": 12,
+  "detached_console": true,
+  "assigned_before_resume": true,
+  "active_before_resume": 1,
+  "native_process_handle": 416,
+  "native_job_handle": 240,
+  "guard_parent_pid": 139020,
+  "error": "AssertionError('missing image on LIVE owned process is failure')",
+  "failure_cleanup_terminated_owned_job": true,
+  "cleanup_owned_handle_terminal": true,
+  "cleanup_owned_handle_exit_code": 0,
+  "cleanup_terminal_job_accounting": {
+    "active": 0,
+    "total": 1,
+    "limit_terminated": 0
+  },
+  "cleanup_final_job_pids": [],
+  "owned_process_signaled_after_job_close": true,
+  "resources_samples": [
+    {
+      "free_RAM_bytes": 32032194560,
+      "free_C_bytes": 264249548800
+    },
+    {
+      "free_RAM_bytes": 32034295808,
+      "free_C_bytes": 264249548800,
+      "monotonic_since_create": 0.0047011999995447695,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32003768320,
+      "free_C_bytes": 264249352192,
+      "monotonic_since_create": 0.06422310002380982,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31973773312,
+      "free_C_bytes": 264249548800,
+      "monotonic_since_create": 0.10951390000991523,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31960371200,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.15567780000856146,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31953416192,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.20074749999912456,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31948226560,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.2451293999911286,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31948423168,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.2901811000192538,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31947567104,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.3356266000191681,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31936000000,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.3806187000009231,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31936688128,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.4261648000101559,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31936331776,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.4723367000115104,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31935901696,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.5183611999964342,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31937273856,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.5648357000318356,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31940149248,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.6110311999800615,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31937912832,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.6570139999967068,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31942189056,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.7031502000172623,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31939305472,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.7480807999963872,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31932801024,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.7944369000033475,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31932383232,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.8406390000018291,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31931666432,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.8863066000049002,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31934791680,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.9320477999863215,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31927885824,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 0.97723620000761,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31927271424,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.0228156999801286,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31927889920,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.0688518999959342,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31918026752,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.1147337000002153,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31915376640,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.1601346000097692,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31912148992,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.2063915000180714,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31878283264,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.2525425999774598,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31771500544,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.299588699999731,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31754809344,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.34521020000102,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31725666304,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.3902853999752551,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31719936000,
+      "free_C_bytes": 264249544704,
+      "monotonic_since_create": 1.4367165000294335,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31711195136,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.4824365000240505,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31710842880,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.5289482999942265,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31710826496,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.5755475999903865,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31714775040,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.6223743000300601,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31712657408,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.668493999983184,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31698448384,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.7146525999996811,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31690240000,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.7594322999939322,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31653122048,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.8047422000090592,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31632867328,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.8523788999882527,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31628292096,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.897961899987422,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31628709888,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.9439608000102453,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31628947456,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 1.9900668999762274,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31628947456,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.0357153000077233,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31635394560,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.081190900004003,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31630979072,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.1274122000322677,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31629234176,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.1726897999760695,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31629533184,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.219080100010615,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31631839232,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.264906600001268,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31695036416,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.3107843000325374,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31696531456,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.3556233000126667,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31689388032,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.40125460003037,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31693983744,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.446836000017356,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31691976704,
+      "free_C_bytes": 264249540608,
+      "monotonic_since_create": 2.4925604999880306,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31760666624,
+      "free_C_bytes": 264249532416,
+      "monotonic_since_create": 2.539421699999366,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31782993920,
+      "free_C_bytes": 264249532416,
+      "monotonic_since_create": 2.5859672999940813,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 0
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 31783096320,
+      "free_C_bytes": 264249532416,
+      "monotonic_since_create": 2.6320020999992266,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        117560
+      ],
+      "PID_identities": [
+        {
+          "pid": 117560,
+          "parent_pid": 139020,
+          "snapshot_exe": "blender.exe",
+          "image_error": 5,
+          "creation_FILETIME": 134355070636712812,
+          "exit_FILETIME": 134355070663055428,
+          "in_this_owned_job": true,
+          "exit_code_query": 0
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_after_missing_image": false
+    }
+  ],
+  "wall_seconds": 2.653640499978792,
+  "limits": {
+    "affinity_mask": 3,
+    "process_and_job_RAM_bytes": 8589934592,
+    "active_process_limit": 1,
+    "watchdog_seconds": 120,
+    "kill_on_close": true
+  },
+  "inputs_after": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "guard_sha256": "c6912b0378d9b1f626de33b4f819efb898d49432e035576e240764559fe8566c"
+}

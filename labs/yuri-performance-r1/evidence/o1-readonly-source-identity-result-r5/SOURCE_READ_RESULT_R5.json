@@ -1,0 +1,103 @@
+{
+  "status": "R5_SOURCE_VERIFIER_PASS_GUARD_FAIL_EXIT_TEARDOWN_IMAGE_QUERY",
+  "scope": "FULL_ORIGINAL_SOURCE_RECIPE_DATA_IDENTITY_ONLY",
+  "source_attempts": 1,
+  "restarted": false,
+  "source_verifier": {
+    "scope": "SOURCE_DATA_IDENTITY_ONLY",
+    "native_numeric_acceptance": false,
+    "render_export_save_action_pose_mutation": false,
+    "blender_version": "5.2.1 LTS",
+    "blender_build_hash": "9e2066aef7ef",
+    "status": "LIVE_ORIGINAL_FULL_RECIPE_BYTE_IDENTICAL",
+    "vertices": 63561,
+    "slots": 57,
+    "CSR_entries": 304799,
+    "groups": 58,
+    "mask_group": 52,
+    "zero_weight_entries": 37310,
+    "source_post_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "recipe_post_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "guard_status": "FAIL",
+  "guard_error": "AssertionError('missing image on LIVE owned process is failure')",
+  "owned_provenance": {
+    "pid": 117560,
+    "creation_FILETIME": 134355070636712812,
+    "native_process_handle": 416,
+    "native_job_handle": 240,
+    "guard_parent_pid": 139020
+  },
+  "last_identity_snapshot": {
+    "pid": 117560,
+    "parent_pid": 139020,
+    "snapshot_exe": "blender.exe",
+    "image_error": 5,
+    "creation_FILETIME": 134355070636712812,
+    "exit_FILETIME": 134355070663055428,
+    "in_this_owned_job": true,
+    "exit_code_query": 0
+  },
+  "last_observation_owned_handle_signaled": false,
+  "actual_terminal_cleanup": {
+    "cleanup_owned_handle_terminal": true,
+    "cleanup_owned_handle_exit_code": 0,
+    "cleanup_terminal_job_accounting": {
+      "active": 0,
+      "total": 1,
+      "limit_terminated": 0
+    },
+    "cleanup_final_job_pids": [],
+    "failure_cleanup_terminated_owned_job": true,
+    "owned_process_signaled_after_job_close": true
+  },
+  "immutable_prepost_input_SHA": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "wall_seconds": 2.653640499978792,
+  "resource_sample_count": 58,
+  "startup_stdout_markers": {
+    "BlenderMCP": false,
+    "MPFB": false,
+    "Higgsfield": false,
+    "account lookup": false,
+    "get_balance": false,
+    "Request failed": false
+  },
+  "startup_scope_limit": "Previous addon/account lookup markers absent in actual source stdout; fixed factory/offline argv used. No packet-level network trace or exhaustive addon inventory; do not claim an OS network sandbox.",
+  "whole_guard_acceptance": false,
+  "native_numeric_acceptance": false,
+  "PBR_Unity_primary_or_appearance_promotion": false,
+  "human_large_resource_acquisition_approved": false,
+  "custom_native_build_trace_capture_approved": false,
+  "approval_receipt_sha256": "f9d7ab8df572869833288c9ab371aad24bf94b3184d84809e96239ee6c6426d4",
+  "next_bounded_review": "PM review exact failed R5 guard and terminal cleanup; no rerun or guard mutation under this approval",
+  "files": {
+    "PM_REVIEW_SOURCE_READ_APPROVED_R5.json": {
+      "bytes": 1749,
+      "sha256": "f9d7ab8df572869833288c9ab371aad24bf94b3184d84809e96239ee6c6426d4"
+    },
+    "r4_readonly_recipe_verifier_r5.py": {
+      "bytes": 3643,
+      "sha256": "822e032882b9f4c5f0df012a60083d72abe217679c5f2e881c7a4af241866b9c"
+    },
+    "r4_readonly_source_job_guard_r5.py": {
+      "bytes": 20054,
+      "sha256": "c6912b0378d9b1f626de33b4f819efb898d49432e035576e240764559fe8566c"
+    },
+    "source-identity.json": {
+      "bytes": 590,
+      "sha256": "05920929ea65dc6cc8d5ca1a85d8897faab67a5d3bca3bd7d7e85499da5b11fb"
+    },
+    "source-read.json": {
+      "bytes": 56806,
+      "sha256": "e6d96fd03feb80a4f9608d4a0154645c00a4550b9642b343b70cd99d144365f4"
+    },
+    "source-read.log": {
+      "bytes": 803,
+      "sha256": "e2a8be95f5baed932ed54804eb3710ecea1653f1df6013e52908c68092f9f73d"
+    }
+  }
+}

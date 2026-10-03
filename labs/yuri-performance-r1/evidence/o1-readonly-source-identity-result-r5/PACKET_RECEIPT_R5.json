@@ -1,0 +1,7 @@
+{
+  "status": "R5_SOURCE_VERIFIER_PASS_GUARD_FAIL_EXIT_TEARDOWN_IMAGE_QUERY",
+  "zip": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-readonly-source-identity-result-r5\\YURI_O1_SOURCE_READ_RESULT_R5.zip",
+  "bytes": 18312,
+  "sha256": "4029dec0672db20f334803900564d3fa83aa2b488a3a35de081d4083766d38b3",
+  "result_manifest_sha256": "d3b5a5d6de52307da53670b533850a0a652adbd975e68d1b9a532194cf982cd5"
+}
