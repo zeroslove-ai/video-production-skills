@@ -1,0 +1,52 @@
+{
+  "task_id": "YURI_O1_EXACT_BIND_TRANSPORT_SOURCE_CONTRACT_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_BIND_TRANSPORT_SOURCE_CONTRACT_20261003_R1_4e680c325767",
+  "manifest_sha256": "4e680c325767bf3655fe7ca97e4b7ee855e66b07cf49d431210f27328a6e82ad",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_BIND_TRANSPORT_SOURCE_CONTRACT_20261003_R1_4e680c325767\\YURI_O1_R4_BIND_TRANSPORT_SOURCE_CONTRACT_20261003_R1.part01-of-01.zip",
+      "sha256": "f1c6c743a3d81cd52b9169b299f9dac87b41bfde75f563e4d7b418ce7a7dbea7",
+      "bytes": 688136,
+      "files": [
+        "R4_Original_All1207_Bind_Transport_Source_Matrices.npz",
+        "metadata/EXACT_BIND_TRANSPORT_SOURCE_CONTRACT.json",
+        "metadata/R_MIDDLE3_DOMAIN_CORRECTION.json",
+        "metadata/YURI_O1_BIND_DOMAIN_CORRECTION_AND_TRANSPORT_R1.md",
+        "scripts/r4_bind_transport_contract.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "R4_Original_All1207_Bind_Transport_Source_Matrices.npz": {
+      "sha256": "34c27b36ba5077ca751fa79aa322d5ac1376699a5a9ffcb4056f7974c4010555",
+      "bytes": 53604
+    },
+    "metadata/EXACT_BIND_TRANSPORT_SOURCE_CONTRACT.json": {
+      "sha256": "4e680c325767bf3655fe7ca97e4b7ee855e66b07cf49d431210f27328a6e82ad",
+      "bytes": 608670
+    },
+    "metadata/R_MIDDLE3_DOMAIN_CORRECTION.json": {
+      "sha256": "5833719711607fa94317f41c3ce8f3d6b12ddd9588480e9b4bc23cec28e98716",
+      "bytes": 6022
+    },
+    "metadata/YURI_O1_BIND_DOMAIN_CORRECTION_AND_TRANSPORT_R1.md": {
+      "sha256": "36884e4e40a42dc23434a39eacb79128a32f7ff4a179d5cb648f09ad4e68260a",
+      "bytes": 4591
+    },
+    "scripts/r4_bind_transport_contract.py": {
+      "sha256": "c398c1a1808d88f8341b8410a4b8eb85212f4c4f45ce569b763a1024d37dbbff",
+      "bytes": 10182
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "1393e9507b5ee2206361d083871020eb0a0a93f84c4fc4d34cc8df6c47b340f4",
+      "bytes": 4019
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 688136,
+  "data_bytes": 53604,
+  "aggregate_file_manifest_sha256": "876998590d13298577fd56403e1e5bc4d235a3779ba5cac3bfd2aae409a0f85f",
+  "source_or_frozen_input_writes": 0
+}

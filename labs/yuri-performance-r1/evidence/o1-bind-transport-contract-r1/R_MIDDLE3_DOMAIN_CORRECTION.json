@@ -1,0 +1,192 @@
+{
+  "task_id": "YURI_O1_R_MIDDLE3_BIND_DOMAIN_CORRECTION_R1",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_expanded_rigs.json": {
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "bytes": 560498
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_renderers_bind.json": {
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a",
+      "bytes": 2017708
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\evidence\\root-pm-o1\\PM_UNITY_R_MIDDLE3_RAW_BIND_CASE_R1.json": {
+      "sha256": "243e246418eda3b329b5cdaecc6fa2d14d90fc178c0b4df85f096d4aaec819c8",
+      "bytes": 4196
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\docs\\evidence\\root-pm-o1\\LAPTOP_ORIGINAL_BIND_bind-rest-summary.json": {
+      "sha256": "5ba6512a6c761714a65ed90d2ecf34fdd459b687cb52eb0f6eccda0f409199d8",
+      "bytes": 18527
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-all-bind-and-weight-diagnostic-r1\\ALL_BIND_AND_WEIGHT_DIAGNOSTIC_RECEIPT.json": {
+      "sha256": "316f76fadfb2e381ba92ff16a25136f2338b1c8bb52e899e369f6e18488b3c77",
+      "bytes": 35568
+    }
+  },
+  "measurements": {
+    "inverse_bind_translation_domain_NOT_world_position": {
+      "translation_vector_distance": 0.010416765160825656,
+      "rotation_polar_deg": 0.6757830959307155,
+      "max_matrix_element_delta": 0.011771328787631992
+    },
+    "recovered_world_bind_bone_vs_source_raw_rest": {
+      "translation_vector_distance": 1.8645224318179626e-07,
+      "rotation_polar_deg": 0.6757831574416868,
+      "max_matrix_element_delta": 0.011771281330502384
+    },
+    "current_Unity_world_bone_vs_source_raw_rest": {
+      "translation_vector_distance": 3.954963644930172e-07,
+      "rotation_polar_deg": 2.9002755812721374e-05,
+      "max_matrix_element_delta": 4.4092288377141475e-07
+    },
+    "actual_renderer_vs_source_declared_geometry_basis": {
+      "translation_vector_distance": 4.467888008844546e-16,
+      "rotation_polar_deg": 3.668379503390374e-06,
+      "max_matrix_element_delta": 1.403953552303605e-07
+    },
+    "offline_actual_renderer_frame_transport_recovered_world": {
+      "translation_vector_distance": 1.2432050435751766e-16,
+      "rotation_polar_deg": 1.091909687885075e-14,
+      "max_matrix_element_delta": 1.1102230246251565e-16
+    },
+    "offline_B_actual_frame_vs_source_H_bind_H": {
+      "translation_vector_distance": 2.2318672062620617e-08,
+      "rotation_polar_deg": 3.668470598857044e-06,
+      "max_matrix_element_delta": 1.0059123189964936e-07
+    }
+  },
+  "original_Unity_bindpose": [
+    [
+      3.83220254e-07,
+      1.0,
+      6.630294e-06,
+      0.0186570939
+    ],
+    [
+      0.998373032,
+      -4.51375559e-09,
+      -0.057023555,
+      -0.401297778
+    ],
+    [
+      -0.05702356,
+      6.641358e-06,
+      -0.998373,
+      0.786747038
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "original_Unity_renderer_world": [
+    [
+      1.0,
+      -4.78479265e-08,
+      1.230381e-09,
+      3.58681218e-09
+    ],
+    [
+      -1.23038824e-09,
+      -1.19209275e-07,
+      0.9999999,
+      -4.43178561e-09
+    ],
+    [
+      -4.78479336e-08,
+      -0.9999998,
+      -1.19209282e-07,
+      -4.656682e-10
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_expected_raw_rest_Unity_world": [
+    [
+      3.792293910009903e-07,
+      0.9976306557655334,
+      -0.06879481673240662,
+      0.4455079138278961
+    ],
+    [
+      6.586581093870336e-06,
+      -0.06879467517137527,
+      -0.9976306557655334,
+      0.7625832557678223
+    ],
+    [
+      -0.9999998807907104,
+      3.0071247714147376e-09,
+      -6.565056537510827e-06,
+      0.018662279471755028
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "proposed_bind_for_THIS_actual_renderer_frame": [
+    [
+      5.024890798413692e-07,
+      0.9999999191651674,
+      6.66850654841557e-06,
+      0.018657085230154725
+    ],
+    [
+      0.9976310126093022,
+      3.5258201714047165e-08,
+      -0.06879483322642284,
+      -0.39199071179684436
+    ],
+    [
+      -0.06879469854200157,
+      6.719284558038441e-06,
+      -0.9976309128021702,
+      0.7914254160207319
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_H_inverse_raw_rest_bind_H": [
+    [
+      4.586318311794457e-07,
+      1.0,
+      6.593008947675116e-06,
+      0.018657084554433823
+    ],
+    [
+      0.9976310133934021,
+      7.98697570303375e-08,
+      -0.06879488378763199,
+      -0.39199069142341614
+    ],
+    [
+      -0.06879465281963348,
+      6.700277936033672e-06,
+      -0.9976310133934021,
+      0.7914254069328308
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "reported_domain_correction": "10.416765mm is inverse-bind translation-coordinate discrepancy, not reconstructed world bone displacement. World recovered bind residual ~0.186um but ~0.675783deg rotation FAIL. Current Unity world bone rest comparison passes separately.",
+  "offline_transport_scope": "Computing inverse(W_source_expected)@M_actual algebraically restores recovered raw bind world only; actual geometry basis/correspondence and all rows/deformation must be validated before applying to isolated cloned Mesh. No consumer write or runtime PASS.",
+  "causal_limit": "Actual imported bindpose rotation differs despite actual bone world pose PASS and exact source FBX bind transport. Empty Cluster is observed; importer zero-cluster causality not proven without code/data evidence.",
+  "rotation_threshold_deg_unchanged": 0.001,
+  "original_bind_rotation_PASS": false
+}
