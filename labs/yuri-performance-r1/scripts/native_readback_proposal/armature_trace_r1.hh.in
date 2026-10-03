@@ -1,0 +1,86 @@
+/* Research instrumentation draft, GPL-2.0-or-later. Default OFF.
+ * Only an owned source build may arm this logger. No installed ABI hooks.
+ */
+#pragma once
+#ifdef WITH_YURI_ARMATURE_TRACE_R1
+#include <atomic>
+#include <cstdint>
+#include <cstdio>
+#include <cstring>
+#include <mutex>
+#include <string>
+namespace blender::yuri_armature_trace_r1 {
+inline constexpr const char *bones[57] = {@BONES@};
+inline constexpr int vertices[5] = {11189,14918,21485,22227,40817};
+inline constexpr int frames[2] = {11,6};
+inline constexpr const char *actions[2] = {"YRA_R1_Startle_Short", "YRA_R1_Struggle_Strong_Loop"};
+struct Context { int row=-1, modifier=-1, bone=-1, vertex=-1, entry=-1; };
+inline thread_local Context context;
+inline std::mutex mutex;
+inline FILE *stream=nullptr;
+inline std::atomic<int> requested{-1};
+inline bool failed=false;
+inline uint64_t bytes=0, records=0;
+inline void u32(uint32_t v) {
+  unsigned char b[4]={static_cast<unsigned char>(v),static_cast<unsigned char>(v>>8),
+    static_cast<unsigned char>(v>>16),static_cast<unsigned char>(v>>24)};
+  if (std::fwrite(b,1,4,stream)!=4) failed=true;
+}
+inline void event(const char *tag, const float *f, int n) {
+  if (context.row<0) return;
+  std::lock_guard<std::mutex> lock(mutex);
+  if (!stream || failed) return;
+  const size_t len=std::strlen(tag);
+  const uint64_t size=32+len+uint64_t(n)*4;
+  if (n<0 || n>64 || len>96 || bytes+size>64*1024*1024 || records>=100000) {failed=true;return;}
+  u32(uint32_t(context.row));u32(uint32_t(context.modifier));u32(uint32_t(context.bone));
+  u32(uint32_t(context.vertex));u32(uint32_t(context.entry));u32(uint32_t(len));u32(uint32_t(n));u32(0);
+  if (std::fwrite(tag,1,len,stream)!=len) failed=true;
+  for (int i=0;i<n;i++) {uint32_t bits;static_assert(sizeof(float)==4);std::memcpy(&bits,f+i,4);u32(bits);}
+  bytes+=size;records++;
+}
+inline void scalar(const char *tag,float f) {event(tag,&f,1);}
+template<typename M> inline void matrix(const char *tag,const M &m,int dim) {
+  float v[16];for(int r=0;r<dim;r++)for(int c=0;c<dim;c++)v[r*dim+c]=m[c][r];
+  event(tag,v,dim*dim); // One explicit column-major -> row-major copy, no arithmetic.
+}
+inline int slot(const char *name) {
+  for(int i=0;i<57;i++)if(std::strcmp(name,bones[i])==0)return i;return -1;
+}
+inline bool selected(int v) {for(int x:vertices)if(x==v)return true;return false;}
+/* Future owned invocation adapter calls begin BEFORE dependency graph evaluation,
+ * after verifying actual active Action/recipe SHA/pose inputs; it MUST disarm
+ * before changing Action. This API does not itself certify that verification.
+ * Exact append-only per-case output. No arbitrary path or overwrite permitted.
+ */
+inline bool begin(int row) {
+  std::lock_guard<std::mutex> lock(mutex);
+  if(row<0 || row>1 || stream || requested.load()!=-1)return false;
+  const char *paths[2]={"C:/YuriTransfer/native-cycles-readback-r1/capture/armature-startle11-r1.bin",
+                       "C:/YuriTransfer/native-cycles-readback-r1/capture/armature-strong6-r1.bin"};
+  stream=std::fopen(paths[row],"wbx");if(!stream)return false;
+  failed=false;bytes=8;records=0;
+  const unsigned char magic[8]={'Y','R','A','1',1,0,0,0};
+  if(std::fwrite(magic,1,8,stream)!=8){std::fclose(stream);stream=nullptr;return false;}
+  requested.store(row);return true;
+}
+inline bool finish() {
+  std::lock_guard<std::mutex> lock(mutex);
+  requested.store(-1);if(!stream)return false;
+  const int flush=std::fflush(stream), close=std::fclose(stream);stream=nullptr;
+  return !failed && flush==0 && close==0 && records>0;
+  // Invoke ONLY after dependency graph/parallel_for worker join; no borrowed pointers persist.
+}
+struct Scope {
+  Context old;
+  Scope(float frame,const char *rig,int modifier,const char *bone=nullptr):old(context) {
+    context=Context{};const int row=requested.load();
+    if(row<0 || frame!=float(frames[row]) || std::strcmp(rig,"OBMeshy_Fitted_Rig")!=0)return;
+    context.row=row;context.modifier=modifier;
+    if(bone) {context.bone=slot(bone);if(context.bone<0)context=Context{};}
+  }
+  explicit Scope(Context c):old(context) {context=c;}
+  ~Scope(){context=old;}
+};
+} // namespace blender::yuri_armature_trace_r1
+#endif

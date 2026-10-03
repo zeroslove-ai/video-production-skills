@@ -1,0 +1,97 @@
+{
+  "status": "TYPED_SOURCE_DRAFT_STATIC_CHECKED_NOT_COMPILED_CAPTURE_PENDING",
+  "files": [
+    {
+      "path": "CMAKE_TEXT_RECEIPT.json",
+      "bytes": 222,
+      "sha256": "0baa536b9bae8f6d187d6adc3e568b0d232eaccc15bd493350c4a2d9004e0bb3"
+    },
+    {
+      "path": "NATIVE_ARITHMETIC_INTERMEDIATE_REQUEST_R1_3b8383a6.md",
+      "bytes": 8298,
+      "sha256": "3dd4bf71a71c4d39a5f2563f49f01e36f7bb420471bcd69ede33c4dacca54992"
+    },
+    {
+      "path": "NATIVE_ARMATURE_TYPED_DRAFT_R3.md",
+      "bytes": 6183,
+      "sha256": "b10311983b4fed7a1c77942359d5fff1a6128a38ce93607de54044e2a4bc1fb8"
+    },
+    {
+      "path": "native_armature_typed_r3.patch",
+      "bytes": 22114,
+      "sha256": "9ef3b21f3e1bca9d953eeacc9ca9d0b11b8cbc75203325e77de39635f6d5e657"
+    },
+    {
+      "path": "PATCH_APPLY_AND_SCOPE.json",
+      "bytes": 8424,
+      "sha256": "947ed7bfd017e27f94e098f18d359e7391430d14364b28b55b5a139e409e3910"
+    },
+    {
+      "path": "STATIC_VALIDATION_R3.json",
+      "bytes": 1246,
+      "sha256": "ed3a6221f95ee25c2c4316c498712624527513bbfede16eb12529ca85b7090a3"
+    },
+    {
+      "path": "TEXT_SOURCE_RECEIPT.json",
+      "bytes": 1287,
+      "sha256": "d4b033ad2a62e0600897e55542e6223209ffa6d0df5025e282255455faefc6d9"
+    },
+    {
+      "path": "upstream/source/blender/blenkernel/intern/armature_deform.cc",
+      "bytes": 28079,
+      "sha256": "aad1cf4d4dd30f8d5f89f556721b7dc628092dd57db4ac8f4c03c741495d38ba"
+    },
+    {
+      "path": "upstream/source/blender/blenkernel/intern/armature_update.cc",
+      "bytes": 37357,
+      "sha256": "420a2b53bde880af686688a4957eb4b692ed6687a67e80bebbdf6b05afdf7bf5"
+    },
+    {
+      "path": "upstream/source/blender/blenlib/intern/math_rotation_c.cc",
+      "bytes": 66548,
+      "sha256": "58fa312f5765ae55a84f9f68d8f809bf7e7ac61e220adb9d93ac7ce16f300260"
+    },
+    {
+      "path": "upstream/source/blender/modifiers/intern/MOD_armature.cc",
+      "bytes": 10070,
+      "sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e"
+    },
+    {
+      "path": "upstream-reference/CMakeLists.txt",
+      "bytes": 93556,
+      "sha256": "3bb656a5a66917e269ac3b25b8292f98b9e4a7aa10ce7918155a12ec9ba0fb16"
+    },
+    {
+      "path": "upstream-reference/DEG_depsgraph_query.hh",
+      "bytes": 14775,
+      "sha256": "5b24676df310fd95478f9c0343666e154c7595c7c0ef88f722cddd784a54e73c"
+    },
+    {
+      "path": "upstream-reference/math_matrix_c.cc",
+      "bytes": 77086,
+      "sha256": "ef68e49a889b67e8628fb8a731ab15cc16b6bb0ecd978d99cfdf179fdfdb4c79"
+    },
+    {
+      "path": "workflow/armature_trace_r1.hh.in",
+      "bytes": 4176,
+      "sha256": "e219007884ca82ad197e4972e7644660eec6fc3f844e9288205317088a738fcf"
+    },
+    {
+      "path": "workflow/armature_trace_unpack_r1.py",
+      "bytes": 4446,
+      "sha256": "d4b2e8e68c02e3b0853fafca26dc454b7e58424b6fdbd340d4ebc702b2f048c0"
+    },
+    {
+      "path": "workflow/r4_armature_draft_finalize_r3.py",
+      "bytes": 4949,
+      "sha256": "997a9f649b063509fa1ea41924521ae1db64d2f8d496f05ec407bb7c5eec3882"
+    },
+    {
+      "path": "workflow/r4_armature_instrumentation_draft_r3.py",
+      "bytes": 16657,
+      "sha256": "04e2a4aa7a1de4be8bb7b2a20a00d80a04821c61348ebccb79c780b1d57c2005"
+    }
+  ],
+  "source_commit": "9e2066aef7ef7e20c142ad7bd3303138a4304c93",
+  "patch_sha256": "9ef3b21f3e1bca9d953eeacc9ca9d0b11b8cbc75203325e77de39635f6d5e657"
+}

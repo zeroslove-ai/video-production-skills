@@ -1,0 +1,25 @@
+{
+  "source/blender/modifiers/intern/MOD_armature.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e"
+  },
+  "source/blender/blenkernel/intern/armature_deform.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "aad1cf4d4dd30f8d5f89f556721b7dc628092dd57db4ac8f4c03c741495d38ba"
+  },
+  "source/blender/blenkernel/intern/armature_update.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "420a2b53bde880af686688a4957eb4b692ed6687a67e80bebbdf6b05afdf7bf5"
+  },
+  "source/blender/blenlib/intern/math_rotation_c.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "58fa312f5765ae55a84f9f68d8f809bf7e7ac61e220adb9d93ac7ce16f300260"
+  },
+  "raw_format_parser": {
+    "test": "synthetic format only; signed-zero/subnormal/nonfinite bits preserved; truncated record rejected",
+    "status": "PASS",
+    "native_capture": false
+  },
+  "DEG_get_ctime": "EXACT_PINNED_DECLARATION_FOUND; full ModifierEvalContext/matrix API compilation pending",
+  "actual_compile_runtime": "NOT_ATTEMPTED"
+}
