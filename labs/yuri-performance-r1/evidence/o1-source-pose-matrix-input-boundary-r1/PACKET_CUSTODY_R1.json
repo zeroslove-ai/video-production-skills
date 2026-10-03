@@ -1,0 +1,34 @@
+{
+  "status": "FILE_ONLY_SOURCE_INPUT_BOUNDARY_METADATA_NO_NEW_CAPTURE",
+  "packet": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-source-pose-matrix-input-boundary-r1\\YURI_O1_SOURCE_POSE_MATRIX_BOUNDARY_HANDOFF_R1.zip",
+  "bytes": 16088,
+  "sha256": "b7f108d2b9d540e3834029524ce66f9285aeca9df66576cd90c648ada18b4176",
+  "input_hashes_and_original57_raw_order_checked": true,
+  "zip_CRC_and_all_member_SHA_verified": true,
+  "raw_numeric_pose_geometry_recipe_in_packet": false,
+  "native_receiver_packet41802754_resent": false,
+  "Laptop_actual_native_custody_SHA": "41798f214f1b5a67c78765c42e9d82d3763157e85da0dca9c81964db10cdbedf",
+  "first_cause": "NOT_ISOLATED",
+  "members": {
+    "SOURCE_POSE_MATRIX_BOUNDARY_ANALYSIS_R1.json": {
+      "bytes": 14065,
+      "sha256": "ca170f8a2ecb7d80a77803f87e653b0cd508ce73caaa9922f8b8f020f74e9ee6"
+    },
+    "LAPTOP_EXISTING_INPUT_AB_CONTRACT_R1.json": {
+      "bytes": 2615,
+      "sha256": "d80df86d07756e79f3987c2db851d15200c1dd7f2d1b4fbb5e0ad4dc707a4d0a"
+    },
+    "SOURCE_POSE_MATRIX_BOUNDARY_HANDOFF_R1.md": {
+      "bytes": 8645,
+      "sha256": "0a440bd4e45f389374c1207fc544afd114112b5f720878d59bbf3081c75651ce"
+    },
+    "r4_source_pose_matrix_boundary_analysis_r1.py": {
+      "bytes": 10395,
+      "sha256": "1ff9ab8c85a096c35aace935c0339b47c494a32b0922e4376821aba2aa814529"
+    },
+    "r4_freeze_pose_boundary_handoff_r1.py": {
+      "bytes": 2377,
+      "sha256": "7c95f81585d4ad03365903b1f55ce4a9093305e9be3ee347bdb89dceb9c7d389"
+    }
+  }
+}

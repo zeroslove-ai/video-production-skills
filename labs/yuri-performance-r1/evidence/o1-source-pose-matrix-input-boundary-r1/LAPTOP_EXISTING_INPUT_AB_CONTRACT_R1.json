@@ -1,0 +1,32 @@
+{
+  "status": "DATA_DOMAIN_REQUIREMENTS_ONLY_NOT_EXECUTED",
+  "inputs": {
+    "raw_quaternion": "NPZ raw_quaternion_wxyz_f32[57,4], original57 names, no implicit sign change/normalization; wxyz order",
+    "evaluated_pose": "NPZ pose_rig_local_f64 is widened native f32. Read direct then f32 row-major slots. Do not inverse poseWorld or decompose/recompose TRS.",
+    "rest": "rest_local_f64 direct57 rest f32; keep helper slots and source inheritance/topology metadata",
+    "object_matrices": "body_world_f64 and rig_world_f64 separate; record consumer both before any matrix products",
+    "geometry_weights": "Full original63561/304799 ordered CSR+zeros and exact mask/group law unchanged"
+  },
+  "comparisons": [
+    {
+      "boundary": "channel import/evaluation",
+      "control": "Compare actual consumer original channel components/time/slot/quaternion semantics with direct native q; source exact q through SAME consumer hierarchy/constraint/inheritance evaluator changes only channel input. Raw q alone is not all LRS/constraints."
+    },
+    {
+      "boundary": "pose construction input",
+      "control": "Keep exact geometry/rest/body+rig worlds/flags/CSR; substitute direct native pose matrix array transiently, bypassing imported-channel pose reconstruction. Compare stage0 local. This is diagnostic, not runtime source-frame pose substitution."
+    },
+    {
+      "boundary": "object transform input",
+      "control": "Hold direct pose/rest/CSR; compare actual versus direct native bodyWorld and rigWorld independently, then both. Consumer rigWorld missing in earlier receipt; do not infer it from bodyWorld or poseWorld."
+    },
+    {
+      "boundary": "operator arithmetic",
+      "control": "Only after all input arrays/source flag/weights/order identity demonstrated: compare native versus consumer inverse-rest/deform/premat/postmat/DQ. R2 does not contain native internal intermediates; do not fabricate them or launch source job absent demonstrated missing datum."
+    }
+  ],
+  "outputs_required": "Frozen input rawbit hashes plus actual local stage0/1/2 arrays and frame/instance/bone identity; direct SOURCE_LOCAL comparison excludes P/world transport confounds. No new Desktop capture.",
+  "driver_warning": "Quaternion sign alignment is orientation diagnostic only; source SINGLE_PROP wxyz-driven factors can change under sign/normalization. Preserve raw component factors as separate controls; factor changes start at source CorrectiveSmooth, not primary stage0.",
+  "native_source_numeric_arrays_already_delivered": true,
+  "product_promotion": "HOLD"
+}
