@@ -1,0 +1,119 @@
+{
+  "phase": "before",
+  "status": "PASS_PINNED_INSTALLED_ORIGINS_ONLY",
+  "factory_startup": true,
+  "preferences_module_names": [
+    "bl_pkg",
+    "cycles",
+    "io_anim_bvh",
+    "io_curve_svg",
+    "io_mesh_uv_layout",
+    "io_scene_fbx",
+    "io_scene_gltf2",
+    "pose_library"
+  ],
+  "loaded_enabled_module_names": [
+    "bl_pkg",
+    "cycles",
+    "io_anim_bvh",
+    "io_curve_svg",
+    "io_mesh_uv_layout",
+    "io_scene_fbx",
+    "io_scene_gltf2",
+    "pose_library"
+  ],
+  "modules": [
+    {
+      "module": "bl_pkg",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\bl_pkg\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\bl_pkg\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\bl_pkg\\__init__.py",
+      "origin_sha256": "1eddeb0efff099c2635c980455a4bf790a771fb9190d8bf6f4887d607308f1f2"
+    },
+    {
+      "module": "cycles",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\cycles\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\cycles\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\cycles\\__init__.py",
+      "origin_sha256": "bb4432bce8f9501139d40b1db3075b6741d7c679b2ce395500bac2ae9eb8da45"
+    },
+    {
+      "module": "io_anim_bvh",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_anim_bvh\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_anim_bvh\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_anim_bvh\\__init__.py",
+      "origin_sha256": "5d66106615715e29196255082317ab2f2b1f4485b29d50b2cf3b167d4c0f891c"
+    },
+    {
+      "module": "io_curve_svg",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_curve_svg\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_curve_svg\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_curve_svg\\__init__.py",
+      "origin_sha256": "e56dc7963f7e63bc0fa360ee7b50781a4baf1db17643396e937dc58ebeea4d3f"
+    },
+    {
+      "module": "io_mesh_uv_layout",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_mesh_uv_layout\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_mesh_uv_layout\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_mesh_uv_layout\\__init__.py",
+      "origin_sha256": "bd2bb5750a68cce3df1b11450a5bbc5356975124fc6424061d36b31e7766d1d0"
+    },
+    {
+      "module": "io_scene_fbx",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_fbx\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_fbx\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_fbx\\__init__.py",
+      "origin_sha256": "b7a2c06c11267ff9baaeb30ebc6add17b044d27f754340f17345dc78d74db336"
+    },
+    {
+      "module": "io_scene_gltf2",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\io_scene_gltf2\\__init__.py",
+      "origin_sha256": "2d7d0b016f750dfd9ddfa3bfceb8cc3f00a955e2611a5fdb53f873e01eb9235e"
+    },
+    {
+      "module": "pose_library",
+      "in_preferences": true,
+      "already_loaded": true,
+      "enabled_flag": true,
+      "origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\pose_library\\__init__.py",
+      "spec_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\pose_library\\__init__.py",
+      "classification": "PINNED_INSTALLED_BUNDLED_MODULE",
+      "resolved_origin": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\5.2\\scripts\\addons_core\\pose_library\\__init__.py",
+      "origin_sha256": "b82dd609bca7e92449747e066adb0f201434eee1f88c051ee76a83b4f70a8cea"
+    }
+  ],
+  "installed_python_files_checked": 315,
+  "errors": [],
+  "factory_enabled_defaults_exact_membership": "UNKNOWN_NOT_CAPTURED_IN_PRIOR_RUN; this is installed-origin trust, not default-membership assertion",
+  "network_side_effects": "NOT_MEASURED; post-startup inspection does not undo startup or establish packet isolation"
+}

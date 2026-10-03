@@ -1,0 +1,59 @@
+{
+  "status": "ACTUAL_COMPLETE_ENUMERATED_IDLE_GRAPH_UNBOUND_UNIQUE_COMPATIBLE_CANDIDATES",
+  "private_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-slot-graph-inspection-r2\\YURI_O1_ORIGINAL_IDLE_GRAPH_ACTUAL_R2.zip",
+  "bytes": 225796,
+  "sha256": "c5817cdb4207121ec885b3116ff77e98c1d8cf4612939f8dcf840309c9f1c5d4",
+  "CRC_and_member_SHA_verified": true,
+  "members": {
+    "ADDON_ORIGIN_INVENTORY_AFTER_R2.json": {
+      "bytes": 6265,
+      "sha256": "49dccbd1174324c4cf246fef5f03e8bedb474e24056dd465075f78b72c71c9ba"
+    },
+    "ADDON_ORIGIN_INVENTORY_BEFORE_R2.json": {
+      "bytes": 6266,
+      "sha256": "8ac9fb2c7fd6b96d966b2e9b8826fd1f244a1a1b1f30673bd0ba71b21e5f0ebd"
+    },
+    "fixed-capture.log": {
+      "bytes": 1338,
+      "sha256": "64732542bc91a65491ff5e5f9d395341dc91e737fb96e5b44745e0bbd8a144e4"
+    },
+    "IDLE_SLOT_GRAPH_RESULT_R1.json": {
+      "bytes": 9035328,
+      "sha256": "19f01e792f2cf05d12dcb4311426d80581ffb5a9dc93d227442e73fac9fd2f75"
+    },
+    "OWNED_JOB_RESULT_R1.json": {
+      "bytes": 411665,
+      "sha256": "a5adec7b6df7421da8282623a43b87222ea4df8b2e7fa20934b221410989e546"
+    },
+    "PM_APPROVAL_ORIGINAL_IDLE_GRAPH_R2.json": {
+      "bytes": 1444,
+      "sha256": "f198062f0bd9c9dff1914f31a036e0f377e4e67dff7e76783e5ec4f8c3a19a9a"
+    },
+    "SCENE_SIGNATURE_BEFORE_AFTER.json": {
+      "bytes": 73142,
+      "sha256": "af7dcf2cdb4cd4965c5083b558b1fec4440b128808f639c7b9024d3360049cdb"
+    },
+    "INDEPENDENT_IDLE_GRAPH_BINDING_SUMMARY_R2.json": {
+      "bytes": 103539,
+      "sha256": "37c80381e5b21a920fed69a43153751db43bcd7ba58d0e473f09c1ebf79a4ef6"
+    },
+    "INSPECTION_PROPOSAL_R2.json": {
+      "bytes": 6283,
+      "sha256": "f4854fa003a2f30b16dbf1eee3c48614e93edd55adccfe9713087e5dcc94d300"
+    },
+    "FIXED_ROUTE_CONFIG_R2.json": {
+      "bytes": 3595,
+      "sha256": "4393f3414b5400825068c98bcaf2c4fa0c950a366268cf9a16b44a65cc049708"
+    },
+    "r4_original_idle_slot_graph_inspect_r2.py": {
+      "bytes": 12456,
+      "sha256": "4841fcf66a849f5ad8403ca4f33a0edca5e67a8c01e22ddcad000d281b514ad2"
+    },
+    "r4_original_idle_slot_graph_launcher_r2.py": {
+      "bytes": 17096,
+      "sha256": "5212f0bf5c3f2ea20112afb0484bd728d78d60ab152f94b50a0048e0c477575a"
+    }
+  },
+  "raw_graph_private_not_geometry": true,
+  "source_model_or_export_in_packet": false
+}

@@ -1,0 +1,2549 @@
+{
+  "status": "ACTUAL_COMPLETE_ENUMERATED_IDLE_GRAPH_UNBOUND_UNIQUE_COMPATIBLE_CANDIDATES",
+  "guard_status": "PASS_OWNED_JOB_EXIT_ZERO_DRAINED",
+  "data_status": "ORIGINAL_IDLE_GRAPH_READ_ONLY_NOT_TARGET_ASSIGNMENT_OR_PLAYBACK_PASS",
+  "pid": 128164,
+  "creation_FILETIME": 134355147878079285,
+  "guard_parent_pid": 111852,
+  "original137bones78Actions13muted": true,
+  "source_scene_before_after_exact": true,
+  "source_and_all_six_input_SHA_prepost_exact": true,
+  "six_inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_installed_addon_origin_gate_r2.py": {
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094",
+      "bytes": 3861
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-exact-local-stage-factory-addon-preparation-r2\\INSTALLED_BUNDLED_ADDON_ORIGIN_MANIFEST_R2.json": {
+      "sha256": "80e5758c227b8431eda502750d79c4660df4c5b8a1be208c424ca1a438576816",
+      "bytes": 77273
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_slot_graph_inspect_r2.py": {
+      "sha256": "4841fcf66a849f5ad8403ca4f33a0edca5e67a8c01e22ddcad000d281b514ad2",
+      "bytes": 12456
+    }
+  },
+  "exact_review_bindings": {
+    "launcher_sha256": "5212f0bf5c3f2ea20112afb0484bd728d78d60ab152f94b50a0048e0c477575a",
+    "collector_sha256": "4841fcf66a849f5ad8403ca4f33a0edca5e67a8c01e22ddcad000d281b514ad2",
+    "config_sha256": "4393f3414b5400825068c98bcaf2c4fa0c950a366268cf9a16b44a65cc049708",
+    "proposal_sha256": "f4854fa003a2f30b16dbf1eee3c48614e93edd55adccfe9713087e5dcc94d300",
+    "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb"
+  },
+  "review_receipt_sha256": "f198062f0bd9c9dff1914f31a036e0f377e4e67dff7e76783e5ec4f8c3a19a9a",
+  "fps": 24,
+  "fps_base": 1,
+  "source_range": [
+    1,
+    73
+  ],
+  "Action_slot_candidate_table": [
+    {
+      "exact_Action": "MESHY_R2_BODY_Idle",
+      "slot_identifier": "OBLegacy Slot",
+      "slot_handle": 929201142,
+      "target_id_type": "OBJECT",
+      "complete_attributed_curves": 364,
+      "complete_channelbags": 1,
+      "unresolved_bags": 0,
+      "existing_owner_references": [],
+      "unique_RNA_compatible_candidate": {
+        "ID_name": "Meshy_Fitted_Rig",
+        "RNA_ID_type": "Object",
+        "library": null
+      },
+      "KEY_mesh_owner_IDs": null,
+      "actual_target_intent": "UNBOUND_NO_ASSIGNMENT; candidate compatibility only",
+      "curve_fingerprint": "673f6973e16fce72f5a7186bd2c3f74bce65744455318de449ec512374c2875c",
+      "source_range": [
+        1,
+        73
+      ],
+      "fps": 24,
+      "fps_base": 1,
+      "endpoint_closure": "NOT_RUN",
+      "RNA_paths": [
+        {
+          "path": "pose.bones[\"root\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"root\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"root\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"root\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"root\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"root\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"root\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pelvis\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"pelvis\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pelvis\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pelvis\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pelvis\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pelvis\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pelvis\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"spine\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "f7910c032ceeba4417cf3e117258f3be454116d4f44078b914a0e6cc7ff3ae1d"
+        },
+        {
+          "path": "pose.bones[\"spine\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "61f397a2975df91616a41ed688344bd596c1b971cdfe3a5d990e404ac94f3775"
+        },
+        {
+          "path": "pose.bones[\"spine\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "79b0399d485457c23bde0061266faba811fa2e5e1df65af11f935edd679381aa"
+        },
+        {
+          "path": "pose.bones[\"spine\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "79b0399d485457c23bde0061266faba811fa2e5e1df65af11f935edd679381aa"
+        },
+        {
+          "path": "pose.bones[\"spine\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"spine\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"spine\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"chest\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "0d3b3eae61735a823bfe5a4c154a0028aff4d71bcbf35b9d3fbab1fb4eab7de9"
+        },
+        {
+          "path": "pose.bones[\"chest\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "da543451d7011d5a8f9845382624ab9b2a740be51bac044e3dc04f4afac686b8"
+        },
+        {
+          "path": "pose.bones[\"chest\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "e63aec77d702a99ea4d8cc321441e194af39c019fb13b44c258934c937467349"
+        },
+        {
+          "path": "pose.bones[\"chest\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "e63aec77d702a99ea4d8cc321441e194af39c019fb13b44c258934c937467349"
+        },
+        {
+          "path": "pose.bones[\"chest\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"chest\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"chest\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"neck\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"neck\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"neck\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"neck\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"neck\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"neck\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"neck\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"head\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "db2d81aa4b052c24b224bd956b26c304ecd8bf4a29f6f0793397c053859f0562"
+        },
+        {
+          "path": "pose.bones[\"head\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3665d9feac476b69d74111ba37dba202b05deec86dac82adb4589204b9f0140c"
+        },
+        {
+          "path": "pose.bones[\"head\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "c11e428e81b1f2ce6ec01cb0fb92d04eedf4df3a35f20471339413ccadfe329a"
+        },
+        {
+          "path": "pose.bones[\"head\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "9f5c103d62ae88868380d81660c8870858897a413740076c4945cc2940fffecd"
+        },
+        {
+          "path": "pose.bones[\"head\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"head\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"head\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"clavicle.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"hand.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"index1.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"index2.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"index3.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"middle1.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"middle2.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"middle3.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"ring1.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"ring2.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"ring3.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"pinky1.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"pinky2.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"pinky3.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thumb1.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thumb2.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thumb3.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"clavicle.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"clavicle.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"upper_arm.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"forearm.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"hand.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"hand.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"index1.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index1.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"index2.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index2.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"index3.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"index3.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"middle1.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle1.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"middle2.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle2.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"middle3.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"middle3.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"ring1.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring1.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"ring2.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring2.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"ring3.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"ring3.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"pinky1.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky1.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"pinky2.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky2.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"pinky3.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"pinky3.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thumb1.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb1.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thumb2.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb2.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thumb3.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thumb3.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"shin.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"foot.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.L\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"toe.L\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.L\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.L\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.L\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.L\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.L\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"thigh.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"shin.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"shin.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"foot.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"foot.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.R\"].rotation_quaternion",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "3efd6e60b68fdcf1ffb81970315f436e69b3ef7c8d82600b8ba2afd6f8a61774"
+        },
+        {
+          "path": "pose.bones[\"toe.R\"].rotation_quaternion",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.R\"].rotation_quaternion",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.R\"].rotation_quaternion",
+          "array_index": 3,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.R\"].location",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.R\"].location",
+          "array_index": 1,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "pose.bones[\"toe.R\"].location",
+          "array_index": 2,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        }
+      ]
+    },
+    {
+      "exact_Action": "MESHY_R2_FACE_Idle",
+      "slot_identifier": "KELegacy Slot",
+      "slot_handle": 929201142,
+      "target_id_type": "KEY",
+      "complete_attributed_curves": 16,
+      "complete_channelbags": 1,
+      "unresolved_bags": 0,
+      "existing_owner_references": [],
+      "unique_RNA_compatible_candidate": {
+        "ID_name": "FaceControls_TEST_Jaw_Smile.001",
+        "RNA_ID_type": "Key",
+        "library": null
+      },
+      "KEY_mesh_owner_IDs": [
+        "Character_Body_Head"
+      ],
+      "actual_target_intent": "UNBOUND_NO_ASSIGNMENT; candidate compatibility only",
+      "curve_fingerprint": "242065862a5423f377b4d2ae9cb0aba29707dc9bb7337c98683d0ed2789ca02e",
+      "source_range": [
+        1,
+        73
+      ],
+      "fps": 24,
+      "fps_base": 1,
+      "endpoint_closure": "NOT_RUN",
+      "RNA_paths": [
+        {
+          "path": "key_blocks[\"JawOpen\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"Smile.L\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "892ff1247181f8300b9bcf39446c292e3e286d7085812697efd732ed51526583"
+        },
+        {
+          "path": "key_blocks[\"Smile.R\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "892ff1247181f8300b9bcf39446c292e3e286d7085812697efd732ed51526583"
+        },
+        {
+          "path": "key_blocks[\"Blink.L\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "c9cd77e54a781fe200c2f44ea1a2a3b1e2458aa43c0e0b067f8f7836e32e9dd4"
+        },
+        {
+          "path": "key_blocks[\"Blink.R\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "c9cd77e54a781fe200c2f44ea1a2a3b1e2458aa43c0e0b067f8f7836e32e9dd4"
+        },
+        {
+          "path": "key_blocks[\"BrowRaise.L\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"BrowRaise.R\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"BrowKnit.L\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"BrowKnit.R\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"CheekLift.L\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"CheekLift.R\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"LipPucker\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"MouthWide\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"ExprSmileCurve\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"ExprMouthDown\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        },
+        {
+          "path": "key_blocks[\"ExprBrowInnerUp\"].value",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "5d00c0a286323efb5861b7c309645bbadf7fad22fe492e812820af97068f1fb3"
+        }
+      ]
+    },
+    {
+      "exact_Action": "MESHY_R2_GAZE_Idle",
+      "slot_identifier": "OBLegacy Slot",
+      "slot_handle": 929201142,
+      "target_id_type": "OBJECT",
+      "complete_attributed_curves": 2,
+      "complete_channelbags": 1,
+      "unresolved_bags": 0,
+      "existing_owner_references": [],
+      "unique_RNA_compatible_candidate": {
+        "ID_name": "Character_Body_Head",
+        "RNA_ID_type": "Object",
+        "library": null
+      },
+      "KEY_mesh_owner_IDs": null,
+      "actual_target_intent": "UNBOUND_NO_ASSIGNMENT; candidate compatibility only",
+      "curve_fingerprint": "4d55c5cdeb44151da7e970f0712ad6084fd3726159ea9c0d9c6959ffcb28c61f",
+      "source_range": [
+        1,
+        73
+      ],
+      "fps": 24,
+      "fps_base": 1,
+      "endpoint_closure": "NOT_RUN",
+      "RNA_paths": [
+        {
+          "path": "[\"Face_GazeYaw\"]",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "c9b98887b6de1805140445857ade4cf4120e9e42bc2ea7f9a65fd5a4ab634f94"
+        },
+        {
+          "path": "[\"Face_GazePitch\"]",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "ba3a978742d38bccd315b1ad37dda0481628393826e3a50a8ebb3f782feb7cd8"
+        }
+      ]
+    },
+    {
+      "exact_Action": "MESHY_R2_HAIR_Idle",
+      "slot_identifier": "OBLegacy Slot",
+      "slot_handle": 929201142,
+      "target_id_type": "OBJECT",
+      "complete_attributed_curves": 4,
+      "complete_channelbags": 1,
+      "unresolved_bags": 0,
+      "existing_owner_references": [],
+      "unique_RNA_compatible_candidate": {
+        "ID_name": "Hair_Rig_R4",
+        "RNA_ID_type": "Object",
+        "library": null
+      },
+      "KEY_mesh_owner_IDs": null,
+      "actual_target_intent": "UNBOUND_NO_ASSIGNMENT; candidate compatibility only",
+      "curve_fingerprint": "b702c229bcbbc58a2d428684c1af281d469dc132dc608aca41c83df69843c2d0",
+      "source_range": [
+        1,
+        73
+      ],
+      "fps": 24,
+      "fps_base": 1,
+      "endpoint_closure": "NOT_RUN",
+      "RNA_paths": [
+        {
+          "path": "[\"Pony_Sway\"]",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "8e4a6728ad03d905521c1291dca0293747f48651a1a09ade922f9edb857910f7"
+        },
+        {
+          "path": "[\"Pony_Lift\"]",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "0acd9efb9523688c671c77eae808ec239e07e5c97d45b8540f84c10643b3e806"
+        },
+        {
+          "path": "[\"Tip_Curl\"]",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "e3f9d45ce3ffc6764e8abacf1939bd96ffbbac37f8ef377132ef672be86e2e46"
+        },
+        {
+          "path": "[\"Side_Sway\"]",
+          "array_index": 0,
+          "keyframe_count": 73,
+          "curve_fingerprint": "f5483ac19fe8a70f5b7e66ff2371e3ca16a08b1deda3392ae083f7e5cf9c4b99"
+        }
+      ]
+    }
+  ],
+  "target_assignment": "NONE",
+  "original_KEY_vs_pose": "FACE remains native Key curves on actual Key ID; no face rig pose substitute",
+  "playback_export_loop_visual_quality": "NOT_RUN_NOT_ACCEPTED",
+  "whole_guard_terminal": {
+    "terminal_owned_handle_exit_code": 0,
+    "terminal_job_accounting": {
+      "active": 0,
+      "total": 1,
+      "limit_terminated": 0,
+      "user_100ns": 167500000,
+      "kernel_100ns": 8750000
+    },
+    "terminal_job_pids": [],
+    "cleanup_owned_handle_signaled": true,
+    "cleanup_owned_handle_exit_code": 0,
+    "cleanup_job_accounting_before_close": {
+      "active": 0,
+      "total": 1,
+      "limit_terminated": 0,
+      "user_100ns": 167500000,
+      "kernel_100ns": 8750000
+    },
+    "cleanup_job_pids_before_close": [],
+    "job_close_success": true,
+    "owned_process_signaled_after_job_close": true,
+    "cleanup_errors": []
+  },
+  "resource_minima_bytes": {
+    "free_RAM_bytes": 31188840448,
+    "free_C_bytes": 263650484224
+  },
+  "native_job_limit_readback": {
+    "flags": 8984,
+    "active_process_limit": 1,
+    "affinity_mask": 3,
+    "process_memory_bytes": 8589934592,
+    "job_memory_bytes": 8589934592
+  },
+  "wall_seconds": 17.62960899999598,
+  "raw_file_custody": {
+    "ADDON_ORIGIN_INVENTORY_AFTER_R2.json": {
+      "bytes": 6265,
+      "sha256": "49dccbd1174324c4cf246fef5f03e8bedb474e24056dd465075f78b72c71c9ba"
+    },
+    "ADDON_ORIGIN_INVENTORY_BEFORE_R2.json": {
+      "bytes": 6266,
+      "sha256": "8ac9fb2c7fd6b96d966b2e9b8826fd1f244a1a1b1f30673bd0ba71b21e5f0ebd"
+    },
+    "fixed-capture.log": {
+      "bytes": 1338,
+      "sha256": "64732542bc91a65491ff5e5f9d395341dc91e737fb96e5b44745e0bbd8a144e4"
+    },
+    "IDLE_SLOT_GRAPH_RESULT_R1.json": {
+      "bytes": 9035328,
+      "sha256": "19f01e792f2cf05d12dcb4311426d80581ffb5a9dc93d227442e73fac9fd2f75"
+    },
+    "OWNED_JOB_RESULT_R1.json": {
+      "bytes": 411665,
+      "sha256": "a5adec7b6df7421da8282623a43b87222ea4df8b2e7fa20934b221410989e546"
+    },
+    "PM_APPROVAL_ORIGINAL_IDLE_GRAPH_R2.json": {
+      "bytes": 1444,
+      "sha256": "f198062f0bd9c9dff1914f31a036e0f377e4e67dff7e76783e5ec4f8c3a19a9a"
+    },
+    "SCENE_SIGNATURE_BEFORE_AFTER.json": {
+      "bytes": 73142,
+      "sha256": "af7dcf2cdb4cd4965c5083b558b1fec4440b128808f639c7b9024d3360049cdb"
+    }
+  },
+  "next_bounded_prep": "Exact-target original four Idle activation/sampling approval using these candidates and real slot handles, preserving13mutes; first native endpoint2cycle/actual Key-gaze-hair output receipts, then separate compatible transport/export review. No activation authorized by this result."
+}
