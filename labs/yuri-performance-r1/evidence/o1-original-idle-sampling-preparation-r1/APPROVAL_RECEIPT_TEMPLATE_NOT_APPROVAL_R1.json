@@ -1,0 +1,28 @@
+{
+  "scope": "ORIGINAL_IDLE_EXPLICIT_FOUR_QA_BINDING_145_FRAME_SAMPLING",
+  "approved": false,
+  "reviewed_owned_job_terminal_behavior": false,
+  "launcher_sha256": "eca41b95d66dfa175a566f27934a7b6e901aa41f64d3dd7b319eca13f8590279",
+  "config_sha256": "a1bade5a014c0af50e89a5429a444a582715464b323924fddfe8ac43f8128a49",
+  "proposal_sha256": "6c9a9a5417a64dd3b8e4d6e7fc0e4eed2b860a02260f8e07d4edf4291f39aa3a",
+  "collector_sha256": "1aa569ddb12bc7111daf819a8955b5f77d364a43bab744fc4b5f6b4216bec21f",
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_sample_r1.py"
+  ],
+  "max_attempts": 1,
+  "custom_native_build_trace_capture_approved": false,
+  "large_resource_acquisition_approved": false,
+  "note": "Template only; not installed in runtime output"
+}

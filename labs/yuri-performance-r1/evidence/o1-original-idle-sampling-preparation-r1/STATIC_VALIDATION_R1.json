@@ -1,0 +1,10 @@
+{
+  "status": "AST_COMPILE_INPUT_HASH_AND_LAUNCHER_REVERSE_DIFF_PASS",
+  "native_runs": 0,
+  "guard_logic_unchanged": true,
+  "guard_reference_sha256": "5212f0bf5c3f2ea20112afb0484bd728d78d60ab152f94b50a0048e0c477575a",
+  "changes_only": "Fixed paths/scope/result schema; no Job/LIVE/resource/cleanup change",
+  "original_r4_source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "rollback_native_validation": "NOT_RUN",
+  "independent_auditor": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_audit_original_idle_sample_r1.py"
+}

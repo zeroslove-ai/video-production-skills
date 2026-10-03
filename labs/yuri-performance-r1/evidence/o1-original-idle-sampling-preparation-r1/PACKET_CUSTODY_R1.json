@@ -1,0 +1,54 @@
+{
+  "status": "PREPARATION_ONLY_NOT_NATIVE_APPROVAL",
+  "packet": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-original-idle-sampling-preparation-r1\\YURI_ORIGINAL_IDLE_SAMPLING_PREPARATION_R1.zip",
+  "bytes": 27735,
+  "sha256": "51b29af08a39162cc97d25f683f63dd1c77af2a3bdd2c1c841f9c62bced67a8f",
+  "members": {
+    "r4_original_idle_sample_r1.py": {
+      "bytes": 16725,
+      "sha256": "1aa569ddb12bc7111daf819a8955b5f77d364a43bab744fc4b5f6b4216bec21f"
+    },
+    "r4_original_idle_sample_launcher_r1.py": {
+      "bytes": 16840,
+      "sha256": "eca41b95d66dfa175a566f27934a7b6e901aa41f64d3dd7b319eca13f8590279"
+    },
+    "r4_audit_original_idle_sample_r1.py": {
+      "bytes": 3165,
+      "sha256": "711e401365518a88888d9574c382bb1fee2756b1238847f9aa5c92881ba51227"
+    },
+    "r4_prepare_original_idle_sampling_r1.py": {
+      "bytes": 8689,
+      "sha256": "cf7f531540b69d631c5c9861a537230051cddc913dbe3fc47c875c432490ddf4"
+    },
+    "r4_appearance_signature.py": {
+      "bytes": 6092,
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba"
+    },
+    "native_preservation.py": {
+      "bytes": 1334,
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3"
+    },
+    "r4_installed_addon_origin_gate_r2.py": {
+      "bytes": 3861,
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094"
+    },
+    "APPROVAL_RECEIPT_TEMPLATE_NOT_APPROVAL_R1.json": {
+      "bytes": 1318,
+      "sha256": "5fa0c600f7ab89e112da04290c7551005ba2fa2a7a13a22b9af0821f9ebf848c"
+    },
+    "FIXED_ROUTE_CONFIG_R1.json": {
+      "bytes": 3525,
+      "sha256": "a1bade5a014c0af50e89a5429a444a582715464b323924fddfe8ac43f8128a49"
+    },
+    "SAMPLING_PROPOSAL_R1.json": {
+      "bytes": 6479,
+      "sha256": "6c9a9a5417a64dd3b8e4d6e7fc0e4eed2b860a02260f8e07d4edf4291f39aa3a"
+    },
+    "STATIC_VALIDATION_R1.json": {
+      "bytes": 617,
+      "sha256": "688742ee465e77a2476ec3c40dd3f4299af9709beca352e0b454199efb67b911"
+    }
+  },
+  "CRC_all_member_SHA_verified": true,
+  "model_geometry_original_key_values_in_packet": false
+}
