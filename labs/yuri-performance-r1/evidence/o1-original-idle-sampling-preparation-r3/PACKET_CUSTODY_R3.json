@@ -1,0 +1,58 @@
+{
+  "status": "PREPARATION_ONLY_NEW_R3_REVIEW_PENDING",
+  "packet": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-original-idle-sampling-preparation-r3\\YURI_ORIGINAL_IDLE_SAMPLING_PREPARATION_R3.zip",
+  "bytes": 33551,
+  "sha256": "a09d5bd8f52a04e15910fe49fbda5cf74b2323d8ca396cbd1ecf9de648cbfae5",
+  "members": {
+    "r4_original_idle_sample_r3.py": {
+      "bytes": 17483,
+      "sha256": "67a676d523db98b51a590989b48c28c7851c077cb90a2db218a7f21fe1198019"
+    },
+    "r4_original_idle_sample_launcher_r3.py": {
+      "bytes": 18207,
+      "sha256": "053ebe5d65dd4f0819095f23f865ca661aa893c1c24cdb24b9d67cbfd7111729"
+    },
+    "r4_audit_original_idle_sample_r3.py": {
+      "bytes": 4950,
+      "sha256": "8e88c9d424f08720ca19ffd8faa649293fcf8cf6c99e6ba11065e4986a75c9cd"
+    },
+    "r4_idle_raw_forensics_r3.py": {
+      "bytes": 7881,
+      "sha256": "92ba526b57560cfa76a7789e73a0ed0bec729b90f8882baa8168d5dad5bd72ca"
+    },
+    "r4_prepare_original_idle_sampling_r3.py": {
+      "bytes": 12172,
+      "sha256": "69166b05dbd64ebcf7a1e614c6d870892663e32a523e3a8a89df4e75c5d4c7fe"
+    },
+    "r4_appearance_signature.py": {
+      "bytes": 6092,
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba"
+    },
+    "native_preservation.py": {
+      "bytes": 1334,
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3"
+    },
+    "r4_installed_addon_origin_gate_r2.py": {
+      "bytes": 3861,
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094"
+    },
+    "APPROVAL_RECEIPT_TEMPLATE_NOT_APPROVAL_R3.json": {
+      "bytes": 1334,
+      "sha256": "ce0f667d7f0eef9ce88274a61307004f2d6b50354aee976459337f3adade13ed"
+    },
+    "FIXED_ROUTE_CONFIG_R3.json": {
+      "bytes": 3552,
+      "sha256": "6546133b24df93ff012d3fdfa89eec0d5cc9bbfd19cb08791d1554291e2f1f0a"
+    },
+    "SAMPLING_PROPOSAL_R3.json": {
+      "bytes": 8006,
+      "sha256": "ae934972e206f57f257916a17a879367c9b28bca1c6b3fd8251875c1f12aa995"
+    },
+    "STATIC_VALIDATION_R3.json": {
+      "bytes": 386,
+      "sha256": "bfdd98e179ed1735e0891d6f39c0565f0a61f05d019642d1836c9dfc06809081"
+    }
+  },
+  "CRC_all_member_SHA_verified": true,
+  "original_numeric_private_data_in_packet": false
+}

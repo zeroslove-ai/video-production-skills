@@ -1,0 +1,137 @@
+{
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_sample_r3.py"
+  ],
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_installed_addon_origin_gate_r2.py": {
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094",
+      "bytes": 3861
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-exact-local-stage-factory-addon-preparation-r2\\INSTALLED_BUNDLED_ADDON_ORIGIN_MANIFEST_R2.json": {
+      "sha256": "80e5758c227b8431eda502750d79c4660df4c5b8a1be208c424ca1a438576816",
+      "bytes": 77273
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_sample_r3.py": {
+      "bytes": 17483,
+      "sha256": "67a676d523db98b51a590989b48c28c7851c077cb90a2db218a7f21fe1198019"
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_idle_raw_forensics_r3.py": {
+      "bytes": 7881,
+      "sha256": "92ba526b57560cfa76a7789e73a0ed0bec729b90f8882baa8168d5dad5bd72ca"
+    }
+  },
+  "status": "ADDITIVE_R3_EXACT_RAW_FORENSICS_RESTORATION_PREPARATION_ONLY",
+  "scope": "ORIGINAL_IDLE_EXPLICIT_FOUR_QA_BINDING_145_FRAME_SAMPLING",
+  "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "new_output_directory": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-sampling-r3",
+  "bindings": [
+    {
+      "exact_Action": "MESHY_R2_BODY_Idle",
+      "target_name": "Meshy_Fitted_Rig",
+      "target_id_type": "OBJECT",
+      "slot_identifier": "OBLegacy Slot",
+      "slot_handle": 929201142,
+      "curve_count": 364,
+      "curve_fingerprint": "673f6973e16fce72f5a7186bd2c3f74bce65744455318de449ec512374c2875c"
+    },
+    {
+      "exact_Action": "MESHY_R2_FACE_Idle",
+      "target_name": "FaceControls_TEST_Jaw_Smile.001",
+      "target_id_type": "KEY",
+      "slot_identifier": "KELegacy Slot",
+      "slot_handle": 929201142,
+      "curve_count": 16,
+      "curve_fingerprint": "242065862a5423f377b4d2ae9cb0aba29707dc9bb7337c98683d0ed2789ca02e"
+    },
+    {
+      "exact_Action": "MESHY_R2_GAZE_Idle",
+      "target_name": "Character_Body_Head",
+      "target_id_type": "OBJECT",
+      "slot_identifier": "OBLegacy Slot",
+      "slot_handle": 929201142,
+      "curve_count": 2,
+      "curve_fingerprint": "4d55c5cdeb44151da7e970f0712ad6084fd3726159ea9c0d9c6959ffcb28c61f"
+    },
+    {
+      "exact_Action": "MESHY_R2_HAIR_Idle",
+      "target_name": "Hair_Rig_R4",
+      "target_id_type": "OBJECT",
+      "slot_identifier": "OBLegacy Slot",
+      "slot_handle": 929201142,
+      "curve_count": 4,
+      "curve_fingerprint": "b702c229bcbbc58a2d428684c1af281d469dc132dc608aca41c83df69843c2d0"
+    }
+  ],
+  "mapping_authority": "ROOT_PM_TECHNICAL_QA_CHOICE; ORIGINAL_AUTHOR_INTENT_UNKNOWN",
+  "evaluation": {
+    "frames": [
+      1,
+      145
+    ],
+    "samples": 145,
+    "fps": 24,
+    "fps_base": 1,
+    "continuous_original_modifiers": true,
+    "manual_modulo_clamp_normalize": false
+  },
+  "readback": "All386 native curve values vs original/evaluated RNA; all137 native bones/57BODY including5unanimated helpers, all Key outputs/all original drivers incl13mutes, GAZE/HAIR UI ranges/default metadata and driver variable dependencies,10hair bones14drivers; all scene object transforms and all native evaluated meshes lossless f32 eachframe",
+  "rollback": "Original Action/slot and full captured AnimData props ledger, explicit slot_handle and last_slot_identifier if writable; readonly mismatch fails and records; all original transform/Key/custom values/frame restored; no existing AnimData reconstruction; exact post-frame readback; full Object/Key raw equality and complete original signature equality required",
+  "exports_saves_aliases_unmutes": 0,
+  "resource_estimate": {
+    "source_mesh_vertices": 190726,
+    "geometry_raw_bytes_estimate": 331863240,
+    "geometry_estimate_excludes_evaluated_vertex_growth": true,
+    "private_output_upper_target_bytes": 1073741824,
+    "wall_seconds_estimate_unmeasured": [
+      45,
+      120
+    ],
+    "runtime_fit_status": "UNMEASURED; full145may exceed120s and must fail retained partial, no automatic subset/retry",
+    "memory_strategy": "Stream native f32 geometry to gzip1, stream perframe JSONL; keep only386channel+137head vectors for measurements. No full-scene snapshots perframe.",
+    "sparse_semantics": "None; allframes/allchannels/fullnativegeometry retained. Any later sparse alternative needs explicit separate scope.",
+    "R3_extra_raw_phases": "Three private full Object/mesh/Key raw phase files and in-memory field diff; additional time/output/RAM unmeasured. Fixed8GiB/120s unchanged; budget failure legitimate, no reduction/retry."
+  },
+  "budget": {
+    "affinity_mask": 3,
+    "process_memory_bytes": 8589934592,
+    "job_memory_bytes": 8589934592,
+    "active_process_limit": 1,
+    "watchdog_seconds": 120,
+    "kill_on_close": true,
+    "creation_flags": 12
+  },
+  "gpu_render_network_build_download": false,
+  "max_attempts": 1,
+  "approval_pending": true,
+  "source_eye_attribution": "Cached mesh inventory has no separately named eye meshes. Record all native evaluated meshes and transforms plus topology/material metadata, actual driver dependencies; do not invent an eye-only subset or claim eyeball attribution from names.",
+  "actual_native_validation": "NOT_RUN; ID evaluated_get/driver API, modifier metadata and restoration require actual approved execution; errors fail and retain partial outputs",
+  "log_custody": "Collector manifest excludes live stdout log and external Job receipt. Launcher final custody records closed log after exact child signal/Job drain+close and closed Job receipt; neither manifest self-hashes.",
+  "prior_frozen_packet_sha256": "5f4562b1bcf14aee3e9f83e43fefea4ff119e76266abe2446e25805e47cf7f1b",
+  "forensics": "Complete original Object/mesh hash input expressions AST-identical; all native Object/Key raw props/custom/anim before/ON/after; exact hash recomputation; private raw field diff without omissions/epsilon; UI and readonly schema separately captured; original sampling error and restoration ledger durable before assert",
+  "runtime_API_status": "NOT_RUN: writability/order of original no-action slot metadata must be proven, no guarantee of R2 root cause or fix",
+  "scope_and_resources": "Full145/four domains/all137/allKeys+drivers/allnativegeometry unchanged; guard gates unchanged; no native launch/probe"
+}

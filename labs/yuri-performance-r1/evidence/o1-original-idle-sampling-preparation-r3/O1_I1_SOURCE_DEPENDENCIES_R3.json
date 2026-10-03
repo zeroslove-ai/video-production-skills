@@ -1,0 +1,19 @@
+{
+  "user_capability": "새 사용자 기능 없음; original Idle 전체 OFF 복원 실패가 직접 blocker",
+  "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "immutable_authority": "Character_Master_NeckSkin_R4.blend",
+  "technical_QA_binding_authority": "Root PM choice; original author intent UNKNOWN",
+  "original_curve_metadata": "evidence/o1-original-idle-slot-graph-result-r2/INDEPENDENT_IDLE_GRAPH_BINDING_SUMMARY_R2.json Action_slot_candidate_table.RNA_paths",
+  "BODY": {"Action": "MESHY_R2_BODY_Idle", "target": "Object Meshy_Fitted_Rig", "curve_count": 364, "animated_bones": 52, "preserved_bones": 57, "unanimated_helpers": ["R3_Head_Bind", "R3_Neck_Bind", "R3_Shoulder_L_Bind", "R3_Shoulder_R_Bind", "R3_UpperChest_Bind"], "force_scale_one": false},
+  "FACE": {"Action": "MESHY_R2_FACE_Idle", "target": "Key FaceControls_TEST_Jaw_Smile.001", "mesh_owner": "Character_Body_Head", "original_channels": ["JawOpen", "Smile.L", "Smile.R", "Blink.L", "Blink.R", "BrowRaise.L", "BrowRaise.R", "BrowKnit.L", "BrowKnit.R", "CheekLift.L", "CheekLift.R", "LipPucker", "MouthWide", "ExprSmileCurve", "ExprMouthDown", "ExprBrowInnerUp"], "head_Key_outputs": 72, "dependencies": "All native dependent Key/driver outputs and original muted FACE NLA; no 7-channel adapter or 805-output semantic equivalence assumed"},
+  "GAZE": {"Action": "MESHY_R2_GAZE_Idle", "target": "Object Character_Body_Head", "original_properties": ["Face_GazeYaw", "Face_GazePitch"], "units_and_ranges": "Actual private native UI metadata is captured; authored units/default/ranges UNKNOWN unless explicitly present. No [-1,1] normalization/clamp assumption.", "dependencies": "Original driver variable targets/expressions plus every native evaluated mesh and Object transform; no guessed eye subset"},
+  "HAIR": {"Action": "MESHY_R2_HAIR_Idle", "target": "Object Hair_Rig_R4", "original_properties": ["Pony_Sway", "Pony_Lift", "Tip_Curl", "Side_Sway"], "bones": 10, "drivers": 14, "dependencies": "Original source UI values/default/ranges, retained driver destinations and native rig/rest/parent/local attachment matrices; no clamp/substitute"},
+  "slot_key": "Exact Action ID plus original slot929201142; not global slot ownership",
+  "loop_semantics": "Original native CYCLES modes/offsets preserved. Source1..73, actual full continuous1..145/fps24/base1 recorded in failed R2; period/endpoint/velocity/orientation/geometry/visual closure NOT_ACCEPTED.",
+  "whole_graph": "4rig137bones,78Actions/existing66,all fullweights/rest/materials/ShapeKeys/drivers,13mutes unchanged authority",
+  "available_custody": {"status": "FAILED_CAPTURE_ONLY_NOT_PRODUCT_TRANSPORT", "private_packet_sha256": "214b046b547c41ffc83cd0fa72bc783cf2b6cc98fbde51561147b3aab5e64c4b", "bytes": 334371579, "actual_frames": 145, "native_geometry_bytes": 331863240, "PM_independently_verified": true, "duplicate_delivery": false},
+  "scene_causal_missing_inputs": ["Exact in-memory full OFF restoration", "Accepted full source BODY/Key/Blink/GAZE/HAIR driver fidelity and loop semantics", "Separately verified product runtime adapter/OS mouse coordination owned by Laptop"],
+  "separate_final_research": ["Normals/tessellation/native precision/PBR final promotion"],
+  "Desktop_scope": "Source supply and additive forensic packet only; no Unity product implementation/export/canonical source change",
+  "next": "PM exact R3 byte review; no native launch before new receipt"
+}

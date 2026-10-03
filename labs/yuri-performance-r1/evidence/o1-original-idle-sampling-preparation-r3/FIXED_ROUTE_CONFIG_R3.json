@@ -1,0 +1,57 @@
+{
+  "status": "R3_FORENSIC_PREPARATION_ONLY_NEW_EXACT_REVIEW_REQUIRED",
+  "scope": "ORIGINAL_IDLE_EXPLICIT_FOUR_QA_BINDING_145_FRAME_SAMPLING",
+  "launcher_sha256": "053ebe5d65dd4f0819095f23f865ca661aa893c1c24cdb24b9d67cbfd7111729",
+  "collector_sha256": "67a676d523db98b51a590989b48c28c7851c077cb90a2db218a7f21fe1198019",
+  "proposal_sha256": "ae934972e206f57f257916a17a879367c9b28bca1c6b3fd8251875c1f12aa995",
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_sample_r3.py"
+  ],
+  "output_directory": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-sampling-r3",
+  "limits": {
+    "affinity_mask": 3,
+    "process_memory_bytes": 8589934592,
+    "job_memory_bytes": 8589934592,
+    "active_process_limit": 1,
+    "watchdog_seconds": 120,
+    "kill_on_close": true,
+    "creation_flags": 12
+  },
+  "launch_command_argv": [
+    "C:/Program Files/Python313/python.exe",
+    "-I",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_sample_launcher_r3.py",
+    "--run-approved-fixed-capture"
+  ],
+  "python_sha256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+  "R5_logic_reference": {
+    "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_source_job_guard_r5.py",
+    "sha256": "c6912b0378d9b1f626de33b4f819efb898d49432e035576e240764559fe8566c",
+    "actual_whole_guard_status": "FAIL_PRESERVED",
+    "reuse": "Native ctypes ABI/layout, detached suspended owned Job assignment, limit flags/readback, affinity/memory/active1/resource floors and owned-only cleanup; no probe/help routes"
+  },
+  "receipt_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-sampling-r3\\PM_APPROVAL_ORIGINAL_IDLE_SAMPLE_R3.json",
+  "receipt_exists_or_created_by_preparation": false,
+  "terminal_contract": {
+    "before_image": "If exact owned handle signaled, classify terminal by exit code then drain Job",
+    "after_image": "If same owned handle became signaled, classify terminal independent of image availability; raw image error retained",
+    "LIVE_missing_image": "FAIL even if GetProcessTimes exit FILETIME or exit-code query looks terminal",
+    "normal_terminal": "exit0, total1, limit_terminated0, Active0, PIDs[] before close",
+    "failure": "No retry; terminate only assigned owned Job or own unassigned suspended child; independent cleanup queries, close guaranteed by cleanup path, retain raw receipts/partial files",
+    "separate_statuses": "guard_status separate from data_result and file hashes; neither certifies native/PBR/Unity"
+  },
+  "network": "Exact factory/offline CLI, pinned installed addon origin gate. No network/account operations; no packet isolation claim.",
+  "remaining_review": "R3 full raw forensic packet needs exact review; consumed R2 receipt cannot authorize R3"
+}

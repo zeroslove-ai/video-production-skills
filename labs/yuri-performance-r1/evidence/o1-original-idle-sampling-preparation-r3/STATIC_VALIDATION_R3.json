@@ -1,0 +1,10 @@
+{
+  "status": "AST_COMPILE_EXACT_OBJECT_MESH_HASH_EXPRESSION_AND_REVERSE_DIFF_PASS",
+  "native_runs": 0,
+  "raw_input_expressions_AST_identical": true,
+  "launcher_guard_terminal_custody_unchanged": true,
+  "collector_full145_loop_unchanged": true,
+  "R2_scripts_SHA_unchanged": true,
+  "rollback_native_writability_and_readbacks": "NOT_RUN",
+  "prior_root_cause": "UNPROVEN"
+}
