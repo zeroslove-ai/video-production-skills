@@ -1,0 +1,419 @@
+{
+  "case": "probe-success",
+  "status": "PASS",
+  "argv": [
+    "C:\\Program Files\\Python313\\python.exe",
+    "-I",
+    "-S",
+    "-c",
+    "import time;print('FIXED_READONLY_GUARD_PROBE',flush=True);time.sleep(0.5)"
+  ],
+  "exe_sha256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+  "inputs_before": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "small_read_purpose": "PM_AUTHORIZED_FINAL_GUARD_FIXED_PROBES_AND_CLI_HELP_ONLY",
+  "human_large_resource_acquisition_approved": false,
+  "native_layout": {
+    "Basic_size": 64,
+    "Extended_size": 144,
+    "Accounting_size": 48,
+    "PidList_ids_offset": 8,
+    "Basic_flags_offset": 16,
+    "Basic_active_offset": 40,
+    "Accounting_active_offset": 40,
+    "ProcessEntry_size": 568,
+    "ProcessEntry_parent_offset": 32
+  },
+  "job_limit_readback_verified": true,
+  "pid": 87744,
+  "thread_id": 134640,
+  "creation_FILETIME": 134355067401400368,
+  "created_suspended": true,
+  "creation_flags": 12,
+  "detached_console": true,
+  "assigned_before_resume": true,
+  "active_before_resume": 1,
+  "native_process_handle": 416,
+  "native_job_handle": 404,
+  "guard_parent_pid": 126592,
+  "exit_code": 0,
+  "termination_reason": null,
+  "active_after_exit": 0,
+  "total_job_processes": 1,
+  "limit_terminated_processes": 0,
+  "final_job_pids": [],
+  "extra_associations": "NONE_OBSERVED_WITH_DETACHED_PROCESS",
+  "cleanup_owned_handle_terminal": true,
+  "cleanup_owned_handle_exit_code": 0,
+  "cleanup_terminal_job_accounting": {
+    "active": 0,
+    "total": 1,
+    "limit_terminated": 0
+  },
+  "cleanup_final_job_pids": [],
+  "owned_process_signaled_after_job_close": true,
+  "resources_samples": [
+    {
+      "free_RAM_bytes": 32253325312,
+      "free_C_bytes": 264255356928
+    },
+    {
+      "free_RAM_bytes": 32253292544,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.0033853999921120703,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32253263872,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.05903950001811609,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32253317120,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.10526630003005266,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32253313024,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.15145170001778752,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32253300736,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.19750990002648905,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32249999360,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.2432801999966614,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32248532992,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.2889168999972753,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32248549376,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.3359760000021197,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32248598528,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.38181759999133646,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32249602048,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.4288971000351012,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32236179456,
+      "free_C_bytes": 264255356928,
+      "monotonic_since_create": 0.4754600999876857,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        87744
+      ],
+      "PID_identities": [
+        {
+          "pid": 87744,
+          "parent_pid": 126592,
+          "snapshot_exe": "python.exe",
+          "executable": "C:\\Program Files\\Python313\\python.exe",
+          "creation_FILETIME": 134355067401400368,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    }
+  ],
+  "wall_seconds": 0.5204078000388108,
+  "limits": {
+    "affinity_mask": 3,
+    "process_and_job_RAM_bytes": 8589934592,
+    "active_process_limit": 1,
+    "watchdog_seconds": 3,
+    "kill_on_close": true
+  },
+  "inputs_after": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "guard_sha256": "8fa3407f4ffbcd00635d81755143c101e6c0aa904171d7d5e5d79af2e4b7c6dc"
+}

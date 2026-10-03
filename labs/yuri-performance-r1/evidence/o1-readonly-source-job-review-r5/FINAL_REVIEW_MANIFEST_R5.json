@@ -1,0 +1,144 @@
+{
+  "status": "R5_FACTORY_OFFLINE_TERMINAL_HANDLE_SAFE_PREPARED_NOT_APPROVED",
+  "guard_sha256": "c6912b0378d9b1f626de33b4f819efb898d49432e035576e240764559fe8566c",
+  "verifier_sha256": "822e032882b9f4c5f0df012a60083d72abe217679c5f2e881c7a4af241866b9c",
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "python_sha256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+  "same_R5_guard_probe_manifest_sha256": "dffbf77a3b1519d17fc46d969b81b069dfbf6bfa2a884e758c946114594c4c17",
+  "factory_help_log_sha256": "4dfeea762466f3b45cf11694ca387ac842ce700430123ad7d7edfa07a6fb8a68",
+  "source_argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_recipe_verifier_r5.py"
+  ],
+  "matching_source_and_verifier_output_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-readonly-source-job-r5-final\\source-identity.json",
+  "approval_receipt_required_but_absent": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-readonly-source-job-r5-final\\PM_REVIEW_SOURCE_READ_APPROVED_R5.json",
+  "run_AFTER_exact_PM_review_only": [
+    "C:\\Program Files\\Python313\\python.exe",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_source_job_guard_r5.py",
+    "--run-reviewed-source-read"
+  ],
+  "PM_reviewed_exact_final_guard_verifier_argv_and_same_guard_probes": false,
+  "human_large_resource_acquisition_approved": false,
+  "custom_native_build_trace_capture_approved": false,
+  "source_reads_R5": 0,
+  "CLI_help_jobs_R5": 1,
+  "source_startup_addon_isolation": "NOT_RUN; help confirms supported flags and no addon marker in help job; no claim yet about full source-open startup",
+  "terminal_race_rule": "Poll actual owned process handle before querying identity and after unavailable image result. Missing image accepted only if same owned handle terminal; wrong PID/creation/executable always fails. Always collect terminal exit, Job accounting and PID drain before Job close.",
+  "strict_limits": {
+    "affinity": 3,
+    "process_job_RAM_bytes": 8589934592,
+    "active_process_limit": 1,
+    "source_watchdog_seconds": 120,
+    "min_free_RAM_bytes": 12884901888,
+    "min_free_C_bytes": 107374182400,
+    "kill_on_close": true
+  },
+  "probes": [
+    {
+      "case": "probe-success",
+      "pid": 84552,
+      "native_process_handle": 416,
+      "guard_parent_pid": 135340,
+      "exit_code": 0,
+      "total": 1,
+      "final_active": 0,
+      "cleanup_terminal": true,
+      "cleanup_exit": 0,
+      "cleanup_accounting": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "cleanup_pids": []
+    },
+    {
+      "case": "probe-timeout",
+      "pid": 69252,
+      "native_process_handle": 408,
+      "guard_parent_pid": 135340,
+      "exit_code": 88,
+      "total": 1,
+      "final_active": 0,
+      "cleanup_terminal": true,
+      "cleanup_exit": 88,
+      "cleanup_accounting": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "cleanup_pids": []
+    },
+    {
+      "case": "factory-help",
+      "pid": 121600,
+      "native_process_handle": 448,
+      "guard_parent_pid": 135340,
+      "exit_code": 0,
+      "total": 1,
+      "final_active": 0,
+      "cleanup_terminal": true,
+      "cleanup_exit": 0,
+      "cleanup_accounting": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "cleanup_pids": []
+    }
+  ],
+  "source_action_recipe_hashes": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "native_numeric_acceptance": false,
+  "network_boundary": "Supported --offline-mode plus factory startup; no claim of OS-enforced network sandbox",
+  "frozen_files": {
+    "factory-help.json": {
+      "bytes": 6310,
+      "sha256": "b5d5e2c559a0043559d04f1a2bd2dff013b608c6b1c4149a72d6ee3d01c360e2"
+    },
+    "factory-help.log": {
+      "bytes": 16974,
+      "sha256": "4dfeea762466f3b45cf11694ca387ac842ce700430123ad7d7edfa07a6fb8a68"
+    },
+    "probe-success.json": {
+      "bytes": 13329,
+      "sha256": "d9e2b702a807b38837ff0851435500b7dcd2d81a2dece4d7b9a2a89359457fea"
+    },
+    "probe-success.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "probe-timeout.json": {
+      "bytes": 19552,
+      "sha256": "ea12d849170609727b7bc523db3beb23707fd5bc9bfeef82ea9a45bea271f60a"
+    },
+    "probe-timeout.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "PROBE_MANIFEST.json": {
+      "bytes": 44192,
+      "sha256": "dffbf77a3b1519d17fc46d969b81b069dfbf6bfa2a884e758c946114594c4c17"
+    },
+    "r4_readonly_recipe_verifier_r5.py": {
+      "bytes": 3643,
+      "sha256": "822e032882b9f4c5f0df012a60083d72abe217679c5f2e881c7a4af241866b9c"
+    },
+    "r4_readonly_source_job_guard_r5.py": {
+      "bytes": 20054,
+      "sha256": "c6912b0378d9b1f626de33b4f819efb898d49432e035576e240764559fe8566c"
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "case": "factory-help",
+  "status": "PASS",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--help"
+  ],
+  "exe_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "inputs_before": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "small_read_purpose": "PM_AUTHORIZED_FINAL_GUARD_FIXED_PROBES_AND_CLI_HELP_ONLY",
+  "human_large_resource_acquisition_approved": false,
+  "native_layout": {
+    "Basic_size": 64,
+    "Extended_size": 144,
+    "Accounting_size": 48,
+    "PidList_ids_offset": 8,
+    "Basic_flags_offset": 16,
+    "Basic_active_offset": 40,
+    "Accounting_active_offset": 40,
+    "ProcessEntry_size": 568,
+    "ProcessEntry_parent_offset": 32
+  },
+  "job_limit_readback_verified": true,
+  "pid": 134660,
+  "thread_id": 48764,
+  "creation_FILETIME": 134355067417352023,
+  "created_suspended": true,
+  "creation_flags": 12,
+  "detached_console": true,
+  "assigned_before_resume": true,
+  "active_before_resume": 1,
+  "native_process_handle": 412,
+  "native_job_handle": 424,
+  "guard_parent_pid": 126592,
+  "terminal_image_query_race_tolerated_with_owned_handle": true,
+  "exit_code": 0,
+  "termination_reason": null,
+  "active_after_exit": 0,
+  "total_job_processes": 1,
+  "limit_terminated_processes": 0,
+  "final_job_pids": [],
+  "extra_associations": "NONE_OBSERVED_WITH_DETACHED_PROCESS",
+  "cleanup_owned_handle_terminal": true,
+  "cleanup_owned_handle_exit_code": 0,
+  "cleanup_terminal_job_accounting": {
+    "active": 0,
+    "total": 1,
+    "limit_terminated": 0
+  },
+  "cleanup_final_job_pids": [],
+  "owned_process_signaled_after_job_close": true,
+  "resources_samples": [
+    {
+      "free_RAM_bytes": 32261099520,
+      "free_C_bytes": 264255315968
+    },
+    {
+      "free_RAM_bytes": 32262447104,
+      "free_C_bytes": 264255315968,
+      "monotonic_since_create": 0.004713499976787716,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        134660
+      ],
+      "PID_identities": [
+        {
+          "pid": 134660,
+          "parent_pid": 126592,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355067417352023,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 259
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32243634176,
+      "free_C_bytes": 264255283200,
+      "monotonic_since_create": 0.05735479999566451,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        134660
+      ],
+      "PID_identities": [
+        {
+          "pid": 134660,
+          "parent_pid": 126592,
+          "snapshot_exe": "blender.exe",
+          "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+          "creation_FILETIME": 134355067417352023,
+          "exit_FILETIME": 0,
+          "in_this_owned_job": true,
+          "exit_code_query": 0
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      }
+    },
+    {
+      "free_RAM_bytes": 32243363840,
+      "free_C_bytes": 264255283200,
+      "monotonic_since_create": 0.10332210001070052,
+      "accounting_before_PID_query": {
+        "active": 1,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_before_identity": false,
+      "associated_job_pids": [
+        134660
+      ],
+      "PID_identities": [
+        {
+          "pid": 134660,
+          "image_error": 31,
+          "creation_FILETIME": 134355067417352023,
+          "exit_FILETIME": 134355067418385684,
+          "in_this_owned_job": true,
+          "exit_code_query": 0
+        }
+      ],
+      "accounting_after_identity_query": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0
+      },
+      "owned_handle_terminal_after_missing_image": true
+    }
+  ],
+  "wall_seconds": 0.20297380001284182,
+  "limits": {
+    "affinity_mask": 3,
+    "process_and_job_RAM_bytes": 8589934592,
+    "active_process_limit": 1,
+    "watchdog_seconds": 10,
+    "kill_on_close": true
+  },
+  "inputs_after": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "guard_sha256": "8fa3407f4ffbcd00635d81755143c101e6c0aa904171d7d5e5d79af2e4b7c6dc"
+}
