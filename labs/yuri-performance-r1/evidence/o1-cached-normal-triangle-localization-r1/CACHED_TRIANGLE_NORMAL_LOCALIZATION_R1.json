@@ -1,0 +1,186 @@
+{
+  "capability_delta": "새 Windows 기능 없음; existing2input cached triangle/normal localization only",
+  "status": "READY_SUPPORT_WAIT",
+  "reuse": "5440445 native custody + ARMATURE_NORMAL_SCOPE_ADDENDUM_R1 reused; no new baseline/native/ZIP/transport",
+  "original_source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "cached_inputs_SHA": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-source-fidelity-recovery-r1\\mesh_slot_UV_attributes_shape_deltas.json": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\WORST_SHAPE_ONLY_PRIVATE_R1.npz": "33517b301b7f459c0d898f327ef9b5817d53541190ecaf004e5fceb91559d3d6",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\WORST_SHAPE_GN_PRIVATE_R1.npz": "294805176bf49f6cbcdebefb5da51c0f11578fb9a5ec857b445067a83ba2e81f",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\WORST_FULL_SOURCE_PRIVATE_R1.npz": "8c28b0fe87691a458f8534badb39a6c4684de1ad48af83e9999c85233a26a687",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\NEUTRAL_SHAPE_ONLY_PRIVATE_R1.npz": "fb19599f0e09a28c7448125788c85418e9e4ab84f27f79d8fb6b96e0a5f9e123",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\NEUTRAL_SHAPE_GN_PRIVATE_R1.npz": "61d17c7219aaf62d64aa5298e4b9e7d88d0647baa7fff87659b761b874dddbd0",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\NEUTRAL_FULL_SOURCE_PRIVATE_R1.npz": "adc8055e53099a49d23f0f0f829265a2368608b687dbf8c0700849ed82bdb154",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\OFF_before_PRIVATE_R1.npz": "93e7de92e33401408ef69c385888449cbac631e2805f716416b9d19295e53df0",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-morph67-two-input-native-compare-r1\\OFF_after_PRIVATE_R1.npz": "93e7de92e33401408ef69c385888449cbac631e2805f716416b9d19295e53df0"
+  },
+  "summary": {
+    "changed_triangle_rows": 34,
+    "changed_source_quad_polygons": 17,
+    "slot3_polygons": 16,
+    "slot4_polygons": 1,
+    "source_Upper_corrective_support_polygons": 17,
+    "max_GN_to_FULL_angle_on_changed_polygon_CORNERs_deg": 0.5483679043236176,
+    "global_peak_polygon_or_vertex_direct_overlap": false,
+    "global_peak_to_changed_vertex_min_distance_m": 0.0022534276358783245,
+    "global_peak_to_changed_vertex_edge_hops": 4,
+    "GN_to_FULL_triangle_source_CORNER_arrays_exact": true,
+    "GN_to_FULL_object_world_matrices_exact": true,
+    "global_original_adjacency": {
+      "sharp_edges": 0,
+      "sharp_face_attribute": "absent/defaultfalse",
+      "boundary_edges": 715,
+      "nonmanifold_or_unused_edges": 2298,
+      "opposite_winding_fail_edges": 0
+    },
+    "normal_change_distribution_WORST": [
+      {
+        "slot": 1,
+        "material": "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+        "CORNERs": 50430,
+        "max_angle_deg": 0.7501570027987847,
+        "CORNERs_over_0_1deg": 23,
+        "CORNERs_over_1deg": 0
+      },
+      {
+        "slot": 2,
+        "material": "Neck transition.001",
+        "CORNERs": 903,
+        "max_angle_deg": 0.0029233923911068153,
+        "CORNERs_over_0_1deg": 0,
+        "CORNERs_over_1deg": 0
+      },
+      {
+        "slot": 3,
+        "material": "ContinuousEyeSkin.L",
+        "CORNERs": 3528,
+        "max_angle_deg": 5.034670202909315,
+        "CORNERs_over_0_1deg": 190,
+        "CORNERs_over_1deg": 58
+      },
+      {
+        "slot": 4,
+        "material": "ContinuousEyeSkin.R",
+        "CORNERs": 3312,
+        "max_angle_deg": 4.220317834141365,
+        "CORNERs_over_0_1deg": 98,
+        "CORNERs_over_1deg": 32
+      },
+      {
+        "slot": 5,
+        "material": "Face_Iris_Wet_v1",
+        "CORNERs": 786,
+        "max_angle_deg": 0.003901493709129018,
+        "CORNERs_over_0_1deg": 0,
+        "CORNERs_over_1deg": 0
+      },
+      {
+        "slot": 6,
+        "material": "Face_Lash_Pigment",
+        "CORNERs": 7902,
+        "max_angle_deg": 1.2085412795022688,
+        "CORNERs_over_0_1deg": 74,
+        "CORNERs_over_1deg": 7
+      }
+    ]
+  },
+  "top3_consumer_checks": [
+    {
+      "priority": 1,
+      "source_CORNER": 58781,
+      "source_vertex": 11616,
+      "source_polygon": 19153,
+      "source_slot_zero_based": 3,
+      "material": "ContinuousEyeSkin.L",
+      "GN_to_FULL_normal_angle_deg": 5.034670202909315,
+      "is_changed_quad": false,
+      "peak_fan_intersects_changed_polygons": false,
+      "fan_CORNERs": 4,
+      "fan_source_polygons": 4,
+      "fan_boundary_edges": 0,
+      "fan_nonmanifold_edges": 0,
+      "fan_sharp_edges": 0,
+      "fan_alpha_zero_CORNERs": 4,
+      "shape_support_names": [],
+      "region_caveat": "Slot/shape names are source semantic hints, not confirmed bright pixel or exact anatomical patch segmentation."
+    },
+    {
+      "priority": 2,
+      "source_CORNER": 60494,
+      "source_vertex": 11286,
+      "source_polygon": 19614,
+      "source_slot_zero_based": 3,
+      "material": "ContinuousEyeSkin.L",
+      "GN_to_FULL_normal_angle_deg": 0.5483679043236176,
+      "is_changed_quad": true,
+      "peak_fan_intersects_changed_polygons": true,
+      "fan_CORNERs": 4,
+      "fan_source_polygons": 4,
+      "fan_boundary_edges": 0,
+      "fan_nonmanifold_edges": 0,
+      "fan_sharp_edges": 0,
+      "fan_alpha_zero_CORNERs": 4,
+      "shape_support_names": [
+        "Blink.L",
+        "CORR_UpperSurface.L.2",
+        "CORR_UpperSurface.L.3",
+        "CORR_UpperSurface.L.4",
+        "CORR_UpperSurface.L.5",
+        "CORR_UpperSurface.L.6",
+        "CORR_UpperSurface.L.7",
+        "CORR_UpperSurface.L.8"
+      ],
+      "region_caveat": "Slot/shape names are source semantic hints, not confirmed bright pixel or exact anatomical patch segmentation."
+    },
+    {
+      "priority": 3,
+      "source_CORNER": 46052,
+      "source_vertex": 7980,
+      "source_polygon": 15344,
+      "source_slot_zero_based": 6,
+      "material": "Face_Lash_Pigment",
+      "GN_to_FULL_normal_angle_deg": 1.2085412795022688,
+      "is_changed_quad": false,
+      "peak_fan_intersects_changed_polygons": false,
+      "fan_CORNERs": 4,
+      "fan_source_polygons": 4,
+      "fan_boundary_edges": 0,
+      "fan_nonmanifold_edges": 0,
+      "fan_sharp_edges": 0,
+      "fan_alpha_zero_CORNERs": 4,
+      "shape_support_names": [
+        "Blink.R",
+        "EyePath.R.1",
+        "EyePath.R.2",
+        "EyePath.R.3",
+        "EyePath.R.4",
+        "EyePath.R.5",
+        "EyePath.R.6",
+        "EyePath.R.7",
+        "CORR_UpperSurface.R.1",
+        "CORR_UpperSurface.R.2",
+        "CORR_UpperSurface.R.3",
+        "CORR_UpperSurface.R.4",
+        "CORR_UpperSurface.R.5",
+        "CORR_UpperSurface.R.6",
+        "CORR_UpperSurface.R.7",
+        "CORR_UpperSurface.R.8"
+      ],
+      "region_caveat": "Slot/shape names are source semantic hints, not confirmed bright pixel or exact anatomical patch segmentation."
+    }
+  ],
+  "exact_private_index": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-cached-normal-triangle-localization-r1\\CHANGED_TRIANGLE_FAN_INDEX_PRIVATE_R1.json",
+    "bytes": 21302,
+    "sha256": "752103a1ec42e71e3f3bcd8fa855dce70d67fe971126574266f7ac8db7fa9a33",
+    "reconstructable_from_receiver_bundle": "ce5c1cb7d61b27072ebfd55de450d86b06ada318b368eddb45733d4010bdb766"
+  },
+  "causal_discrimination": "34diagonals occur already at SHAPE_ONLY vsOFF and remain identical through GN/FULL. Global WORST GN→FULL normal peak is a different polygon/vertex/topological fan; same left eyelid material region and2.25mm proximity do not prove coincidence. Local CORNER comparison and exactly equal object matrices exclude an extra exporter object-local/world conversion here. Intrinsic evaluated modifier output difference is observed; Armature internal normal handling vs fan recomputation needs BKE trace to establish cause.",
+  "only_missing_actionable_mapping": "For one actual bright pixel from existing writer: actor renderer/material/submesh+triangle and its3original source CORNER IDs (or verified split-vertex→source-loop mapping), with sameinput/pre-vs-postskin normal scope. Current PM pixel counts/screens lack these IDs; cannot assert the known bright triangles equal these17source quads or normal peak fans.",
+  "next_minimum_checks": "Compare the3listed native locations in same consumer pre-skin/source-GN local scope: global normal peak, changed upper-lid quad, internal lash peak. Preserve actual per-stage triangles, original polygon/fan adjacency, smooth/material/UV; no vertex averaging/static diagonal substitute.",
+  "normal_policy_PBR_F2_F3_PRIMARY": "HOLD preserved",
+  "Blender_launches_Unity_writes": 0,
+  "neutral_peak_reuse": "Existing ARMATURE_NORMAL_SCOPE_ADDENDUM_R1.json: CORNER23318/vertex4082/polygon7766/slot1/max6.9352016deg. Distinct from17changed lid polygons/slots3-4; no duplicate native measurement requested."
+}
