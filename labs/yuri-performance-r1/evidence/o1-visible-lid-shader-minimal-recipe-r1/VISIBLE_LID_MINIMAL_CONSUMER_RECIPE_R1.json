@@ -1,0 +1,245 @@
+{
+  "capability_delta": "새 Windows 기능 없음; 기존 원본 visible eyelid 연결식의 consumer mapping만 추가",
+  "scope": "cached-only RGB BaseColor recipe; no new capture, export, source edit, upload or Unity write",
+  "private_constant_authority": {
+    "existing_Drive_id": "12F0Qz_U-c-8pzfNRvEnt9k6TgyGIhpEs",
+    "ZIP_sha256": "319cc430201df5db3967c49e06de2d9e4bedc9e5b5400732ec961fc3374957e2",
+    "member": "LID_GUIDE_VISIBLE_PIGMENT_INPUTS_PRIVATE_R1.json"
+  },
+  "formula_order": [
+    "b = min(1, Blink*4); d = b*0.60 (original expressions; do not add lower clamp)",
+    "N = sample neutral image at source UV in scene-linear color; D = sample closed image likewise",
+    "closed = mix(D, Cskin, p)",
+    "corrective = mix(N, closed, b)",
+    "t = clamp((z-a)/(c-a),0,1); s = t*t*t*(t*(t*6-15)+10)",
+    "m = ToMin + s*(ToMax-ToMin); neck = mix(corrective,Cneck,m)",
+    "f = q*d; BaseColor_RGB = neck * (1 + f*(Cwarm-1))"
+  ],
+  "formula_domain": "mix(A,B,f)=(1-f)*A+f*B for nominal factors 0..1; output clamp disabled. Out-of-domain native factor behavior not established by this cache-only algebra.",
+  "color_transport": "Image sRGB is decoded into scene-linear before color mixing; constant socket values are scene-linear, not sRGB swatches. Display/view transform is separate. Reproduce POINT attribute interpolation on original source corners; do not use animated world Z for rest-position attribute.",
+  "fixed_input_expected": [
+    {
+      "Blink": 0,
+      "b": 0,
+      "d": 0,
+      "result": "mix(N,Cneck,m); fold contribution zero"
+    },
+    {
+      "Blink": 0.25,
+      "b": 1,
+      "d": 0.6,
+      "result": "closed-corrective saturated"
+    },
+    {
+      "Blink": 1,
+      "b": 1,
+      "d": 0.6,
+      "result": "mix(mix(D,Cskin,p),Cneck,m)*(1+0.6*q*(Cwarm-1))"
+    }
+  ],
+  "sides": [
+    {
+      "side": "L",
+      "material": "ContinuousEyeSkin.L",
+      "Blink_owner": "Key FaceControls_TEST_Jaw_Smile.001",
+      "Blink_path": "key_blocks[\"Blink.L\"].value",
+      "driver_targets": [
+        "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+        "nodes[\"Math\"].inputs[1].default_value"
+      ],
+      "mapping": "Texture Coordinate.UV -> Mapping(TEXTURE, identity) -> both images; no invented UV flip",
+      "textures": [
+        {
+          "node": "Image Texture",
+          "image": "Face_Clean_LidNeutral.L",
+          "file": "textures/Face_Clean_LidNeutral.L.png",
+          "sha256": "b5ff2b659daf09162b5938807a17e09dcfdca57e7229a9a7d51345d496d3e997",
+          "colorspace": "sRGB",
+          "sampling": {
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "extension": "EXTEND"
+          }
+        },
+        {
+          "node": "Image Texture.001",
+          "image": "Face_Debanded_LidClosed.L",
+          "file": "textures/Face_Debanded_LidClosed.L.png",
+          "sha256": "16c918cd0d06fb197031b7a7f9c8aea94a6b955e4e2ccf04cd90465fe1f70847",
+          "colorspace": "sRGB",
+          "sampling": {
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "extension": "EXTEND"
+          }
+        }
+      ],
+      "POINT_attributes": {
+        "p": "R3_LidPigmentMask.L",
+        "q": "R3_AnatomicalFold.L",
+        "z": "neck_rest_position.Z"
+      },
+      "constants": {
+        "Cskin": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.L/node_graph/nodes/19/5/2/1/default_value"
+        },
+        "Cneck": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.L/node_graph/nodes/13/5/2/1/default_value"
+        },
+        "Cwarm": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.L/node_graph/nodes/22/5/2/1/default_value"
+        },
+        "a": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.L/node_graph/nodes/12/5/1/1/default_value"
+        },
+        "c": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.L/node_graph/nodes/12/5/2/1/default_value"
+        },
+        "ToMin": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.L/node_graph/nodes/12/5/3/1/default_value"
+        },
+        "ToMax": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.L/node_graph/nodes/12/5/4/1/default_value"
+        }
+      },
+      "active_BaseColor_edges": [
+        "Texture Coordinate.UV -> Mapping.Vector",
+        "Mapping.Vector -> Image Texture.Vector",
+        "Mapping.Vector -> Image Texture.001.Vector",
+        "R3 broad upper-lid pigment mask.Fac -> R3 smooth closed skin field.Fac",
+        "Image Texture.001.Color -> R3 smooth closed skin field.Color1",
+        "Image Texture.Color -> Blink texture corrective.Color1",
+        "R3 smooth closed skin field.Color -> Blink texture corrective.Color2",
+        "Neck Rest Position.Vector -> Separate XYZ.001.Vector",
+        "Separate XYZ.001.Z -> Map Range.001.Value",
+        "Map Range.001.Result -> Mix (Legacy).001.Fac",
+        "Blink texture corrective.Color -> Mix (Legacy).001.Color1",
+        "R3 anatomical fold only.Fac -> Math.Value",
+        "Math.Value -> R3 soft warm fold.Fac",
+        "Mix (Legacy).001.Color -> R3 soft warm fold.Color1",
+        "R3 soft warm fold.Color -> Principled BSDF.Base Color"
+      ],
+      "excluded_dead_branch": "Unnumbered Separate XYZ -> Map Range -> Mix (Legacy) does not feed BSDF BaseColor"
+    },
+    {
+      "side": "R",
+      "material": "ContinuousEyeSkin.R",
+      "Blink_owner": "Key FaceControls_TEST_Jaw_Smile.001",
+      "Blink_path": "key_blocks[\"Blink.R\"].value",
+      "driver_targets": [
+        "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+        "nodes[\"Math\"].inputs[1].default_value"
+      ],
+      "mapping": "Texture Coordinate.UV -> Mapping(TEXTURE, identity) -> both images; no invented UV flip",
+      "textures": [
+        {
+          "node": "Image Texture",
+          "image": "Face_Clean_LidNeutral.R",
+          "file": "textures/Face_Clean_LidNeutral.R.png",
+          "sha256": "df730a2ca42e116dd55ff8c11b93a854052cb4e07113c9ef082e0430c7136fb8",
+          "colorspace": "sRGB",
+          "sampling": {
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "extension": "EXTEND"
+          }
+        },
+        {
+          "node": "Image Texture.001",
+          "image": "Face_Debanded_LidClosed.R",
+          "file": "textures/Face_Debanded_LidClosed.R.png",
+          "sha256": "f6c929d054af155bb452a1ad62df360a2a4b18e60dccc0bd52a03807edb2e890",
+          "colorspace": "sRGB",
+          "sampling": {
+            "projection": "FLAT",
+            "interpolation": "Linear",
+            "extension": "EXTEND"
+          }
+        }
+      ],
+      "POINT_attributes": {
+        "p": "R3_LidPigmentMask.R",
+        "q": "R3_AnatomicalFold.R",
+        "z": "neck_rest_position.Z"
+      },
+      "constants": {
+        "Cskin": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.R/node_graph/nodes/19/5/2/1/default_value"
+        },
+        "Cneck": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.R/node_graph/nodes/13/5/2/1/default_value"
+        },
+        "Cwarm": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.R/node_graph/nodes/22/5/2/1/default_value"
+        },
+        "a": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.R/node_graph/nodes/12/5/1/1/default_value"
+        },
+        "c": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.R/node_graph/nodes/12/5/2/1/default_value"
+        },
+        "ToMin": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.R/node_graph/nodes/12/5/3/1/default_value"
+        },
+        "ToMax": {
+          "private_JSON_pointer": "/visible_material_graphs/ContinuousEyeSkin.R/node_graph/nodes/12/5/4/1/default_value"
+        }
+      },
+      "active_BaseColor_edges": [
+        "Texture Coordinate.UV -> Mapping.Vector",
+        "Mapping.Vector -> Image Texture.Vector",
+        "Mapping.Vector -> Image Texture.001.Vector",
+        "R3 broad upper-lid pigment mask.Fac -> R3 smooth closed skin field.Fac",
+        "Image Texture.001.Color -> R3 smooth closed skin field.Color1",
+        "Image Texture.Color -> Blink texture corrective.Color1",
+        "R3 smooth closed skin field.Color -> Blink texture corrective.Color2",
+        "Neck Rest Position.Vector -> Separate XYZ.001.Vector",
+        "Separate XYZ.001.Z -> Map Range.001.Value",
+        "Map Range.001.Result -> Mix (Legacy).001.Fac",
+        "Blink texture corrective.Color -> Mix (Legacy).001.Color1",
+        "R3 anatomical fold only.Fac -> Math.Value",
+        "Math.Value -> R3 soft warm fold.Fac",
+        "Mix (Legacy).001.Color -> R3 soft warm fold.Color1",
+        "R3 soft warm fold.Color -> Principled BSDF.Base Color"
+      ],
+      "excluded_dead_branch": "Unnumbered Separate XYZ -> Map Range -> Mix (Legacy) does not feed BSDF BaseColor"
+    }
+  ],
+  "dark_lash_uniform_pointers": {
+    "Face_Lash_Pigment": {
+      "Base Color": {
+        "private_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/0/1/default_value"
+      },
+      "Metallic": {
+        "private_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/1/1/default_value"
+      },
+      "Roughness": {
+        "private_JSON_pointer": "/visible_material_graphs/Face_Lash_Pigment/node_graph/nodes/0/5/2/1/default_value"
+      }
+    },
+    "Face_LowerLash_Pigment": {
+      "Base Color": {
+        "private_JSON_pointer": "/visible_material_graphs/Face_LowerLash_Pigment/node_graph/nodes/0/5/0/1/default_value"
+      },
+      "Metallic": {
+        "private_JSON_pointer": "/visible_material_graphs/Face_LowerLash_Pigment/node_graph/nodes/0/5/1/1/default_value"
+      },
+      "Roughness": {
+        "private_JSON_pointer": "/visible_material_graphs/Face_LowerLash_Pigment/node_graph/nodes/0/5/2/1/default_value"
+      }
+    }
+  },
+  "consumer_comparison": "Identify actual white boundary renderer/material-slot first. For eyelid compare N,D,p,q,z,b,d,neck and final scene-linear RGB at same source corner; for lashes compare exact original dark uniform pointers. Preserve hidden guides hide_render=true.",
+  "unknowns": [
+    "No chosen fragment UV, interpolated mask/rest values or sampled texture RGB supplied; final pixel RGB is not invented.",
+    "Existing145 sample does not witness material node-tree driver outputs; fixed-input algebra is not native evaluated readback.",
+    "Runtime consumer actual slot/color-space/attribute binding and closed-eye visual comparison remain unverified."
+  ],
+  "guard_F2_F3_visual_status": "FAILED-HOLD unchanged; no canonical appearance promotion",
+  "validation": {
+    "both_side_active_edges": 30,
+    "driver_expressions_checked": 4,
+    "existing_packet_CRC_SHA": true,
+    "native_executions": 0
+  }
+}
