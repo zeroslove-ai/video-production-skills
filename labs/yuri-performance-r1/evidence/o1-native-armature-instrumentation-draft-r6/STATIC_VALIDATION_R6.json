@@ -1,0 +1,275 @@
+{
+  "source/blender/modifiers/intern/MOD_armature.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e"
+  },
+  "source/blender/blenkernel/intern/armature_deform.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "aad1cf4d4dd30f8d5f89f556721b7dc628092dd57db4ac8f4c03c741495d38ba"
+  },
+  "source/blender/blenkernel/intern/armature_update.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "420a2b53bde880af686688a4957eb4b692ed6687a67e80bebbdf6b05afdf7bf5"
+  },
+  "source/blender/blenlib/intern/math_rotation_c.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "58fa312f5765ae55a84f9f68d8f809bf7e7ac61e220adb9d93ac7ce16f300260"
+  },
+  "source/blender/python/intern/bpy_interface.cc": {
+    "default_off_original_nonwhitespace_bytes": "IDENTICAL",
+    "cached_source_sha256": "f8f1f47b6c6a5b7369a4ef48d68d3ec6070cda98ab15e66a0349302d6d04fdce"
+  },
+  "raw_format_parser": {
+    "test": "synthetic format only; signed-zero/subnormal/nonfinite bits preserved; truncated record rejected",
+    "status": "PASS",
+    "native_capture": false
+  },
+  "DEG_get_ctime": "EXACT_PINNED_DECLARATION_FOUND; full ModifierEvalContext/matrix API compilation pending",
+  "actual_compile_runtime": "NOT_ATTEMPTED",
+  "complete_synthetic_fixture_and_single_defect_tests": {
+    "classification": "SYNTHETIC_CONTROL_FLOW_ONLY_NOT_NATIVE_NUMERIC_PASS",
+    "complete_fixture": {
+      "status": "PASS_CONTEXT_BRANCH_CLASSIFIED_NOT_NUMERIC_EQUIVALENCE",
+      "branch_classification": [
+        {
+          "row": 0,
+          "bone": 0,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 0,
+          "bone": 6,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 0,
+          "bone": 7,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 0,
+          "bone": 27,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 0,
+          "bone": 47,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 0,
+          "bone": 48,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 0,
+          "modifier": 1,
+          "vertex": 21485,
+          "intermediates": "NOT_COMPUTED_NATIVE_PREVIOUS_MASK_ONE",
+          "mask_weight": 0.0,
+          "stage_local_world": "ACTUAL_CALLER_UNCHANGED"
+        },
+        {
+          "row": 0,
+          "modifier": 1,
+          "vertex": 22227,
+          "intermediates": "NOT_COMPUTED_NATIVE_PREVIOUS_MASK_ONE",
+          "mask_weight": 0.0,
+          "stage_local_world": "ACTUAL_CALLER_UNCHANGED"
+        },
+        {
+          "row": 0,
+          "modifier": 1,
+          "vertex": 40817,
+          "intermediates": "NOT_COMPUTED_NATIVE_PREVIOUS_MASK_ONE",
+          "mask_weight": 0.0,
+          "stage_local_world": "ACTUAL_CALLER_UNCHANGED"
+        },
+        {
+          "row": 1,
+          "bone": 0,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 1,
+          "bone": 6,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 1,
+          "bone": 7,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 1,
+          "bone": 27,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 1,
+          "bone": 47,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 1,
+          "bone": 48,
+          "DQ": "NOT_COMPUTED_NATIVE_BONE_NO_DEFORM"
+        },
+        {
+          "row": 1,
+          "modifier": 1,
+          "vertex": 21485,
+          "intermediates": "NOT_COMPUTED_NATIVE_PREVIOUS_MASK_ONE",
+          "mask_weight": 0.0,
+          "stage_local_world": "ACTUAL_CALLER_UNCHANGED"
+        },
+        {
+          "row": 1,
+          "modifier": 1,
+          "vertex": 22227,
+          "intermediates": "NOT_COMPUTED_NATIVE_PREVIOUS_MASK_ONE",
+          "mask_weight": 0.0,
+          "stage_local_world": "ACTUAL_CALLER_UNCHANGED"
+        },
+        {
+          "row": 1,
+          "modifier": 1,
+          "vertex": 40817,
+          "intermediates": "NOT_COMPUTED_NATIVE_PREVIOUS_MASK_ONE",
+          "mask_weight": 0.0,
+          "stage_local_world": "ACTUAL_CALLER_UNCHANGED"
+        }
+      ],
+      "rows": 2,
+      "source_slots": 57,
+      "ordinary_modifiers": 2,
+      "vertices": 5,
+      "pending": [
+        "canonical numeric NPZ assembly/validity mask agreement",
+        "forward WORLD arithmetic QA and full63561/all304799 gates",
+        "compiled/backend/installed custody",
+        "actual runtime native/source restore proof"
+      ]
+    },
+    "one_defect_tests": [
+      {
+        "name": "late_row_missing_CSR",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "missing/duplicate csr_original_group_weight (1, 1, -1, 40817, 1)"
+      },
+      {
+        "name": "duplicate_late_event",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "duplicate/depsgraph evaluation ambiguity: inverse_rest"
+      },
+      {
+        "name": "duplicate_normalized_columns",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "ambiguous native quaternion conversion occurrences"
+      },
+      {
+        "name": "nonfinite",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "nonfinite real native event: caller_output_local"
+      },
+      {
+        "name": "wrong_shape",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "wrong cardinality inverse_rest"
+      },
+      {
+        "name": "mixed_context",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "invalid caller context"
+      },
+      {
+        "name": "full_deform_caller",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "not ordinary nullopt caller"
+      },
+      {
+        "name": "wrong_DQ_LBS_flag",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "DQ-first/LBS-second actual deformflag drift"
+      },
+      {
+        "name": "fabricated_helper_DQ",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "fabricated/nonexecuted helper DQ"
+      },
+      {
+        "name": "wrong_rest_bits",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "original rest bytes mismatch"
+      },
+      {
+        "name": "wrong_pose_bits",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "actual source pose mismatch; A is not accepted"
+      },
+      {
+        "name": "wrong_mask",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "actual mask weight mismatch"
+      },
+      {
+        "name": "stage01_link",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "stage01input != stage00output"
+      },
+      {
+        "name": "fake_computation_on_skip",
+        "status": "REJECTED_AT_INTENDED_GATE",
+        "reason": "fabricated computation on native skip branch"
+      }
+    ],
+    "records": 2102,
+    "native_data_PASS": false
+  },
+  "invocation_default_dry": "DRY_ONLY: no bpy import/Blender launch; native bridge, recipe and actual build/capture approval required",
+  "actual_Action_identity": {
+    "source_action_inventory_sha256": "482216986daf7956bc9dc2ed0611c31dd7a38128c52ebcfb7f073e030161c69b",
+    "request_input_sha256": "a46c693c28e09a93729bbe433a522d47c7a452c740a6af6ceb8868ddec370b17",
+    "cases": [
+      [
+        "YRA_R4_Startle_Short",
+        11
+      ],
+      [
+        "YRA_R4_Struggle_Strong_Loop",
+        6
+      ]
+    ],
+    "runtime_live_gate": "UNEXECUTED; native reads adt->action->id.name in pose/modifier scopes; adapter validates actual slot/pose/files before begin"
+  },
+  "DNA_anim_types.h": {
+    "sha256": "3f861788385b6bfbeab940c7f9a0ce1030b16ccecf6b195a35945ed3c4e753bf",
+    "static_type_checks_only": true
+  },
+  "DNA_object_types.h": {
+    "sha256": "2f5ac201f03efe8abca4b8e9f340a97ac114370e1373ba760ea597956bae54b2",
+    "static_type_checks_only": true
+  },
+  "DNA_action_types.h": {
+    "sha256": "79d644982dc05fe763bd2da8912cf63a5b527b04841d7b525232d1dd9ab86b5d",
+    "static_type_checks_only": true
+  },
+  "DNA_armature_types.h": {
+    "sha256": "6748dd426402defdd09a5e90134b9ccaa9d1b6a8cc63e7d62ad875f997acee7a",
+    "static_type_checks_only": true
+  },
+  "full_recipe_gate": "Missing actual full recipe file: arming verification denies; no fabricated consent/token/data",
+  "sparse_canonical_pack": {
+    "classification": "SYNTHETIC_SCHEMA_ONLY_NOT_NATIVE_DATA",
+    "arrays": 41,
+    "array_bit_hashes_and_npz_CRC": "PASS",
+    "helper_DQ": "sparse values, no dense invented helper values",
+    "computed_valid_masks": [
+      "dq_computed_valid",
+      "csr_eligible",
+      "stage01_intermediates_computed_valid"
+    ]
+  },
+  "source_native_binding": "Implemented source built-in _yuri_armature_trace_r5 in patched bpy_interface inittab; unavailable until compile. Exact source/header types still compilation pending.",
+  "joined_RNA_route": "Fixed sync view_layer.update -> pinned rna_ViewLayer_update_tagged -> BKE_scene_graph_update_tagged; actual worker-join/runtime execution NOT TESTED"
+}

@@ -1,0 +1,715 @@
+--- a/source/blender/modifiers/intern/MOD_armature.cc
++++ b/source/blender/modifiers/intern/MOD_armature.cc
+@@ -7,13 +7,26 @@
+  */
+ 
+ #include <cstring>
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "BLI_yuri_armature_trace_r1.hh"
++#endif
++
+ 
+ #include "BLI_listbase.h"
+ #include "BLI_utildefines.h"
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "BLI_math_matrix.hh"
++#endif
++
+ 
+ #include "BLT_translation.hh"
+ 
+ #include "DNA_armature_types.h"
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "DNA_anim_types.h"
++#include "DNA_action_types.h"
++#endif
++
+ #include "DNA_mesh_types.h"
+ #include "DNA_object_types.h"
+ #include "DNA_screen_types.h"
+@@ -24,6 +37,10 @@
+ #include "BKE_lib_query.hh"
+ #include "BKE_mesh.hh"
+ #include "BKE_modifier.hh"
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "DEG_depsgraph_query.hh"
++#endif
++
+ 
+ #include "UI_interface_layout.hh"
+ #include "UI_resources.hh"
+@@ -125,6 +142,26 @@
+ 
+   /* if next modifier needs original vertices */
+   MOD_previous_vcos_store(md, reinterpret_cast<float (*)[3]>(positions.data()));
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  const int trace_modifier = std::strcmp(md->name,"Armature")==0 ? 0 :
++    (std::strcmp(md->name,"R3 neck and joints - local linear blend")==0 ? 1 : -1);
++  yuri_armature_trace_r1::Scope trace_scope(DEG_get_ctime(ctx->depsgraph), amd->object->id.name, trace_modifier, nullptr,
++    amd->object->adt && amd->object->adt->action ? amd->object->adt->action->id.name : nullptr);
++  if(trace_modifier<0 || std::strcmp(ctx->object->id.name,"OBMeshy_Body_NeutralCovered")!=0 || positions.size()!=63561)
++    yuri_armature_trace_r1::context = {};
++  yuri_armature_trace_r1::matrix("object_world",ctx->object->object_to_world(),4);
++  yuri_armature_trace_r1::matrix("rig_world",amd->object->object_to_world(),4);
++  yuri_armature_trace_r1::scalar("deformflag",float(amd->deformflag));
++  for(int v:yuri_armature_trace_r1::vertices) {
++    if(v>=positions.size())continue;
++    yuri_armature_trace_r1::context.vertex=v;
++    yuri_armature_trace_r1::event("caller_input_local",&positions[v][0],3);
++    const float3 world=math::transform_point(ctx->object->object_to_world(),positions[v]);
++    yuri_armature_trace_r1::event("caller_input_world",&world[0],3);
++  }
++  yuri_armature_trace_r1::context.vertex=-1;
++#endif
++
+ 
+   BKE_armature_deform_coords_with_mesh(*amd->object,
+                                        *ctx->object,
+@@ -135,6 +172,17 @@
+                                        amd->defgrp_name,
+                                        mesh);
+ 
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  for(int v:yuri_armature_trace_r1::vertices) {
++    if(v>=positions.size())continue;
++    yuri_armature_trace_r1::context.vertex=v;
++    yuri_armature_trace_r1::event("caller_output_local",&positions[v][0],3);
++    const float3 world=math::transform_point(ctx->object->object_to_world(),positions[v]);
++    yuri_armature_trace_r1::event("caller_output_world",&world[0],3);
++  }
++  yuri_armature_trace_r1::context.vertex=-1;
++#endif
+   /* free cache */
+   MEM_SAFE_DELETE(amd->vert_coords_prev);
+ }
+--- a/source/blender/blenkernel/intern/armature_deform.cc
++++ b/source/blender/blenkernel/intern/armature_deform.cc
+@@ -13,6 +13,10 @@
+ #include <cmath>
+ #include <cstdlib>
+ #include <cstring>
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "BLI_yuri_armature_trace_r1.hh"
++#endif
++
+ 
+ #include "BLI_listbase.h"
+ #include "BLI_listbase_wrapper.hh"
+@@ -115,6 +119,10 @@
+ 
+   float3 position_delta = float3(0.0f);
+   float3x3 deform = float3x3::zero();
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  void trace_state(){yuri_armature_trace_r1::event("running_lbs_delta",&position_delta[0],3);}
++#endif
++
+ 
+   void accumulate(const bPoseChannel &pchan, const float3 &co, const float weight)
+   {
+@@ -160,6 +168,13 @@
+  */
+ template<bool full_deform> struct BoneDeformDualQuaternionMixer {
+   DualQuat dq = {};
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  void trace_state(){
++    yuri_armature_trace_r1::event("running_real_q",dq.quat,4);
++    yuri_armature_trace_r1::event("running_dual_q",dq.trans,4);
++  }
++#endif
++
+ 
+   void accumulate(const bPoseChannel &pchan, const float3 &co, const float weight)
+   {
+@@ -187,9 +202,18 @@
+                 float3x3 &r_deform_mat)
+   {
+     normalize_dq(&dq, total);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::event("normalized_real_q",dq.quat,4);
++    yuri_armature_trace_r1::event("normalized_dual_q",dq.trans,4);
++#endif
++
+     float3 dco = co;
+     float3x3 dmat;
+     mul_v3m3_dq(dco, dmat.ptr(), &dq);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::event("dq_transformed_armature_co",&dco[0],3);
++#endif
++
+     r_delta_co = (dco - co) * armature_weight;
+     /* Quaternion already is scale corrected. */
+     r_deform_mat = dmat;
+@@ -299,6 +323,10 @@
+   Array<bke::PChanBone> pose_channel_by_vertex_group;
+ 
+   float4x4 target_to_armature;
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  yuri_armature_trace_r1::Context trace_context;
++#endif
++
+   float4x4 armature_to_target;
+ };
+ 
+@@ -365,6 +393,14 @@
+   deform_params.target_to_armature = math::invert(deform_params.armature_to_target);
+ #endif
+ 
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  deform_params.trace_context=yuri_armature_trace_r1::context;
++  yuri_armature_trace_r1::matrix("premat",deform_params.target_to_armature,4);
++  yuri_armature_trace_r1::matrix("postmat",deform_params.armature_to_target,4);
++  yuri_armature_trace_r1::scalar("full_deform",float(vert_deform_mats.has_value()));
++  yuri_armature_trace_r1::scalar("armature_mask_group",float(deform_params.armature_def_nr));
++#endif
+   return deform_params;
+ }
+ 
+@@ -376,22 +412,47 @@
+                                           MixerT &mixer)
+ {
+   const bool full_deform = params.vert_deform_mats.has_value();
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  auto trace_context=params.trace_context;
++  if(!yuri_armature_trace_r1::selected(i) || full_deform)trace_context={};
++  trace_context.vertex=i;
++  yuri_armature_trace_r1::Scope trace_vertex(trace_context);
++  yuri_armature_trace_r1::event("vertex_input_local",&params.vert_coords[i][0],3);
++  if(params.vert_coords_prev)yuri_armature_trace_r1::event("previous_cached_local",&(*params.vert_coords_prev)[i][0],3);
++  if(dvert) {int n=0;for(const auto &dw:Span<MDeformWeight>(dvert->dw,dvert->totweight)) {
++    yuri_armature_trace_r1::context.entry=n++;
++    const float entry[2]={float(dw.def_nr),dw.weight};
++    yuri_armature_trace_r1::event("csr_original_group_weight",entry,2);
++  }}
++  yuri_armature_trace_r1::context.entry=-1;
++#endif
++
+ 
+   /* Overall influence, can change by masking with a vertex group. */
+   float armature_weight = 1.0f;
+   float prevco_weight = 0.0f; /* weight for optional cached vertexcos */
+   if (params.armature_def_nr != -1 && dvert) {
+     const float mask_weight = BKE_defvert_find_weight(dvert, params.armature_def_nr);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::scalar("mask_weight",mask_weight);
++#endif
++
+     /* On multi-modifier the mask is used to blend with previous coordinates. */
+     if (params.vert_coords_prev) {
+       prevco_weight = params.invert_vgroup ? mask_weight : 1.0f - mask_weight;
+       if (prevco_weight == 1.0f) {
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++        yuri_armature_trace_r1::scalar("skip_previous_mask",prevco_weight);
++#endif
+         return;
+       }
+     }
+     else {
+       armature_weight = params.invert_vgroup ? 1.0f - mask_weight : mask_weight;
+       if (armature_weight == 0.0f) {
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++        yuri_armature_trace_r1::scalar("skip_zero_mask",armature_weight);
++#endif
+         return;
+       }
+     }
+@@ -401,6 +462,12 @@
+   float3 co = params.vert_coords_prev ? (*params.vert_coords_prev)[i] : params.vert_coords[i];
+   /* Transform to armature space. */
+   co = math::transform_point(params.target_to_armature, co);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  yuri_armature_trace_r1::event("co_armature",&co[0],3);
++  yuri_armature_trace_r1::scalar("armature_weight",armature_weight);
++  yuri_armature_trace_r1::scalar("previous_co_weight",prevco_weight);
++#endif
++
+ 
+   float contrib = 0.0f;
+   bool deformed = false;
+@@ -409,16 +476,36 @@
+     /* Range of valid def_nr in MDeformWeight. */
+     const IndexRange def_nr_range = params.pose_channel_by_vertex_group.index_range();
+     const Span<MDeformWeight> dweights(dvert->dw, dvert->totweight);
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    int trace_entry=0;
++#endif
+     for (const auto &dw : dweights) {
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++      yuri_armature_trace_r1::context.entry=trace_entry++;
++#endif
++
+       const PChanBone pchanbone = def_nr_range.contains(dw.def_nr) ?
+                                       params.pose_channel_by_vertex_group[dw.def_nr] :
+                                       PChanBone(nullptr, nullptr);
+       const bPoseChannel *pchan = pchanbone.pchan;
+       if (pchan == nullptr) {
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++        yuri_armature_trace_r1::scalar("eligibility",0.0f);
++        yuri_armature_trace_r1::scalar("mapped_bone",-1.0f);
++        yuri_armature_trace_r1::scalar("running_total",contrib);
++        mixer.trace_state();
++#endif
+         continue;
+       }
+ 
+       float weight = dw.weight;
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++      yuri_armature_trace_r1::scalar("mapped_bone",float(yuri_armature_trace_r1::slot(pchan->name)));
++      yuri_armature_trace_r1::scalar("eligibility",float(weight!=0.0f));
++      yuri_armature_trace_r1::scalar("bone_segments",float(pchanbone.bone->segments));
++#endif
++
+ 
+       /* Bone option to mix with envelope weight. */
+       const Bone *bone = pchanbone.bone;
+@@ -432,11 +519,21 @@
+       }
+ 
+       contrib += pchan_bone_deform(pchanbone, weight, co, mixer);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++      yuri_armature_trace_r1::scalar("effective_weight",weight);
++      yuri_armature_trace_r1::scalar("running_total",contrib);
++      mixer.trace_state();
++#endif
++
+       deformed = true;
+     }
+   }
+   /* Use envelope if enabled and no bone deformed the vertex yet. */
+   if (!deformed && params.use_envelope) {
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::scalar("unexpected_envelope_fallback",1.0f);
++#endif
++
+     for (const bPoseChannel *pchan : params.pose_channels) {
+       const Bone *bone = pchan->bone_get(*params.armature);
+       if (!(bone->flag & BONE_NO_DEFORM)) {
+@@ -446,13 +543,26 @@
+   }
+ 
+   /* TODO Actually should be EPSILON? Weight values and contrib can be like 10e-39 small. */
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  yuri_armature_trace_r1::context.entry=-1;
++#endif
+   constexpr float contrib_threshold = 0.0001f;
+   if (contrib > contrib_threshold) {
+     float3 delta_co;
+     float3x3 local_deform_mat;
+     mixer.finalize(co, contrib, armature_weight, delta_co, local_deform_mat);
+ 
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::event("finalize_delta",&delta_co[0],3);
++    yuri_armature_trace_r1::event("transformed_co_before_update",&co[0],3);
++#endif
+     co += delta_co;
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::event("co_after_update",&co[0],3);
++#endif
++
+     if (full_deform) {
+       float3x3 &deform_mat = (*params.vert_deform_mats)[i];
+       const float3x3 armature_to_target = params.armature_to_target.view<3, 3>();
+@@ -463,6 +573,10 @@
+ 
+   /* Transform back to target object space. */
+   co = math::transform_point(params.armature_to_target, co);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::event("pre_mask_local",&co[0],3);
++#endif
++
+ 
+   /* Multi-modifier: Interpolate with previous modifier position using the vertex group mask. */
+   if (params.vert_coords_prev) {
+@@ -471,6 +585,10 @@
+   else {
+     copy_v3_v3(params.vert_coords[i], co);
+   }
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  yuri_armature_trace_r1::event("vertex_output_local",&params.vert_coords[i][0],3);
++#endif
++
+ }
+ 
+ /* Accumulate bone deformations for a vertex. */
+--- a/source/blender/blenkernel/intern/armature_update.cc
++++ b/source/blender/blenkernel/intern/armature_update.cc
+@@ -13,10 +13,19 @@
+ #include "BLI_listbase.h"
+ #include "BLI_math_matrix.h"
+ #include "BLI_math_rotation.h"
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "BLI_yuri_armature_trace_r1.hh"
++#endif
++
+ #include "BLI_math_vector.h"
+ #include "BLI_utildefines.h"
+ 
+ #include "DNA_armature_types.h"
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "DNA_anim_types.h"
++#include "DNA_action_types.h"
++#endif
++
+ #include "DNA_constraint_types.h"
+ #include "DNA_curve_types.h"
+ #include "DNA_object_types.h"
+@@ -27,6 +36,10 @@
+ #include "BKE_curve.hh"
+ #include "BKE_object_types.hh"
+ #include "BKE_scene.hh"
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "DEG_depsgraph_query.hh"
++#endif
++
+ 
+ #include "BIK_api.h"
+ 
+@@ -965,8 +978,23 @@
+       depsgraph, __func__, object->id.name, object, "pchan", pchan->name, pchan);
+   const Bone *bone = pchan->bone_get(*armature);
+   if (bone) {
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::Scope trace_bone(DEG_get_ctime(depsgraph),object->id.name,-1,pchan->name,
++      object->adt && object->adt->action ? object->adt->action->id.name : nullptr);
++    yuri_armature_trace_r1::matrix("rest",bone->arm_mat,4);
++    yuri_armature_trace_r1::matrix("evaluated_pose",pchan->pose_mat,4);
++    yuri_armature_trace_r1::scalar("bone_no_deform",float(bool(bone->flag & BONE_NO_DEFORM)));
++#endif
+     invert_m4_m4(imat, bone->arm_mat);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::matrix("inverse_rest",imat,4);
++#endif
++
+     mul_m4_m4m4(pchan->chan_mat, pchan->pose_mat, imat);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    yuri_armature_trace_r1::matrix("deform_matrix",pchan->chan_mat,4);
++#endif
++
+     if (!(bone->flag & BONE_NO_DEFORM)) {
+       mat4_to_dquat(&pchan->runtime.deform_dual_quat, bone->arm_mat, pchan->chan_mat);
+     }
+--- a/source/blender/blenlib/intern/math_rotation_c.cc
++++ b/source/blender/blenlib/intern/math_rotation_c.cc
+@@ -7,6 +7,10 @@
+  */
+ 
+ #include "BLI_math_rotation.h"
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "BLI_yuri_armature_trace_r1.hh"
++#endif
++
+ 
+ #include "BLI_math_base_safe.h"
+ #include "BLI_math_geom.h"
+@@ -419,6 +423,9 @@
+   float unit_mat_abs[3][3];
+   copy_m3_m4(unit_mat_abs, mat);
+   normalize_m3(unit_mat_abs);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  blender::yuri_armature_trace_r1::matrix("normalized_rotation_columns",unit_mat_abs,3);
++#endif
+   mat3_normalized_to_quat_with_checks(q, unit_mat_abs);
+ }
+ 
+@@ -2039,16 +2046,26 @@
+     /* set scaling part */
+     mul_m4_series(dq->scale, basemat, S, baseinv);
+     dq->scale_weight = 1.0f;
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    blender::yuri_armature_trace_r1::scalar("no_scale_branch",0.0f);
++#endif
+   }
+   else {
+     /* matrix does not contain scaling */
+     copy_m4_m4(R, mat);
+     dq->scale_weight = 0.0f;
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    blender::yuri_armature_trace_r1::scalar("no_scale_branch",1.0f);
++#endif
+   }
+ 
+   /* non-dual part */
+   mat4_to_quat(dq->quat, R);
+ 
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  blender::yuri_armature_trace_r1::matrix("quat_conversion_R",R,4);
++#endif
+   /* dual part */
+   const float *t = R[3];
+   const float *q = dq->quat;
+@@ -2056,6 +2073,11 @@
+   dq->trans[1] = 0.5f * (t[0] * q[0] + t[1] * q[3] - t[2] * q[2]);
+   dq->trans[2] = 0.5f * (-t[0] * q[3] + t[1] * q[0] + t[2] * q[1]);
+   dq->trans[3] = 0.5f * (t[0] * q[2] - t[1] * q[1] + t[2] * q[0]);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  blender::yuri_armature_trace_r1::event("real_q",dq->quat,4);
++  blender::yuri_armature_trace_r1::event("dual_q",dq->trans,4);
++#endif
++
+ }
+ 
+ void dquat_to_mat4(float R[4][4], const DualQuat *dq)
+@@ -2098,6 +2120,10 @@
+     weight = -weight;
+   }
+ 
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  blender::yuri_armature_trace_r1::scalar("hemisphere_sign",flipped?-1.0f:1.0f);
++#endif
+   /* interpolate rotation and translation */
+   dq_sum->quat[0] += weight * dq->quat[0];
+   dq_sum->quat[1] += weight * dq->quat[1];
+@@ -2215,15 +2241,28 @@
+   M[2][2] = w * w + z * z - x * x - y * y;
+ 
+   len2 = dot_qtqt(dq->quat, dq->quat);
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  blender::yuri_armature_trace_r1::scalar("quaternion_length_squared",len2);
++#endif
++
+   if (len2 > 0.0f) {
+     len2 = 1.0f / len2;
+   }
+ 
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  blender::yuri_armature_trace_r1::scalar("reciprocal_length_squared",len2);
++#endif
+   /* translation */
+   t[0] = 2 * (-t0 * x + w * t1 - t2 * z + y * t3);
+   t[1] = 2 * (-t0 * y + t1 * z - x * t3 + w * t2);
+   t[2] = 2 * (-t0 * z + x * t2 + w * t3 - t1 * y);
+ 
++
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++  blender::yuri_armature_trace_r1::matrix("dq_rotation_matrix",M,3);
++  blender::yuri_armature_trace_r1::event("dq_translation",t,3);
++#endif
+   /* apply scaling */
+   if (dq->scale_weight) {
+     mul_m4_v3(dq->scale, r);
+--- /dev/null
++++ b/source/blender/blenlib/BLI_yuri_armature_trace_r1.hh
+@@ -0,0 +1,103 @@
++/* Research instrumentation draft, GPL-2.0-or-later. Default OFF.
++ * Only an owned source build may arm this logger. No installed ABI hooks.
++ */
++#pragma once
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include <atomic>
++#include <cstdint>
++#include <cstdio>
++#include <cstring>
++#include <mutex>
++#include <string>
++namespace blender::yuri_armature_trace_r1 {
++inline constexpr const char *bones[57] = {"root","pelvis","spine","chest","neck","head","R3_Head_Bind","R3_Neck_Bind","clavicle.L","upper_arm.L","forearm.L","hand.L","index1.L","index2.L","index3.L","middle1.L","middle2.L","middle3.L","ring1.L","ring2.L","ring3.L","pinky1.L","pinky2.L","pinky3.L","thumb1.L","thumb2.L","thumb3.L","R3_Shoulder_L_Bind","clavicle.R","upper_arm.R","forearm.R","hand.R","index1.R","index2.R","index3.R","middle1.R","middle2.R","middle3.R","ring1.R","ring2.R","ring3.R","pinky1.R","pinky2.R","pinky3.R","thumb1.R","thumb2.R","thumb3.R","R3_Shoulder_R_Bind","R3_UpperChest_Bind","thigh.L","shin.L","foot.L","toe.L","thigh.R","shin.R","foot.R","toe.R"};
++inline constexpr int vertices[5] = {11189,14918,21485,22227,40817};
++inline constexpr int frames[2] = {11,6};
++inline constexpr const char *actions[2] = {"YRA_R4_Startle_Short", "YRA_R4_Struggle_Strong_Loop"};
++struct Context { int row=-1, modifier=-1, bone=-1, vertex=-1, entry=-1; };
++inline thread_local Context context;
++inline std::mutex mutex;
++inline FILE *stream=nullptr;
++inline std::atomic<int> requested{-1};
++inline bool failed=false;
++inline uint64_t bytes=0, records=0;
++inline void u32(uint32_t v) {
++  unsigned char b[4]={static_cast<unsigned char>(v),static_cast<unsigned char>(v>>8),
++    static_cast<unsigned char>(v>>16),static_cast<unsigned char>(v>>24)};
++  if (std::fwrite(b,1,4,stream)!=4) failed=true;
++}
++inline void event(const char *tag, const float *f, int n) {
++  if (context.row<0) return;
++  std::lock_guard<std::mutex> lock(mutex);
++  if (!stream || failed) return;
++  const size_t len=std::strlen(tag);
++  const uint64_t size=32+len+uint64_t(n)*4;
++  if (n<0 || n>64 || len>96 || bytes+size>64*1024*1024 || records>=100000) {failed=true;return;}
++  u32(uint32_t(context.row));u32(uint32_t(context.modifier));u32(uint32_t(context.bone));
++  u32(uint32_t(context.vertex));u32(uint32_t(context.entry));u32(uint32_t(len));u32(uint32_t(n));u32(0);
++  if (std::fwrite(tag,1,len,stream)!=len) failed=true;
++  for (int i=0;i<n;i++) {uint32_t bits;static_assert(sizeof(float)==4);std::memcpy(&bits,f+i,4);u32(bits);}
++  bytes+=size;records++;
++}
++inline void scalar(const char *tag,float f) {event(tag,&f,1);}
++template<typename M> inline void matrix(const char *tag,const M &m,int dim) {
++  float v[16];for(int r=0;r<dim;r++)for(int c=0;c<dim;c++)v[r*dim+c]=m[c][r];
++  event(tag,v,dim*dim); // One explicit column-major -> row-major copy, no arithmetic.
++}
++inline int slot(const char *name) {
++  for(int i=0;i<57;i++)if(std::strcmp(name,bones[i])==0)return i;return -1;
++}
++inline bool selected(int v) {for(int x:vertices)if(x==v)return true;return false;}
++/* Future owned invocation adapter calls begin BEFORE dependency graph evaluation,
++ * after verifying actual active Action/recipe SHA/pose inputs; it MUST disarm
++ * before changing Action. This API does not itself certify that verification.
++ * Exact append-only per-case output. No arbitrary path or overwrite permitted.
++ */
++inline bool begin(int row, const char *actual_action, float actual_frame,
++                  const char *actual_rig, const char *actual_body,
++                  const char *verified_source_sha, const char *verified_actions_sha,
++                  const char *verified_pose_sha, const char *verified_recipe_sha,
++                  const char *verified_request_sha) {
++  std::lock_guard<std::mutex> lock(mutex);
++  if(row<0 || row>1 || stream || requested.load()!=-1)return false;
++  // Real file/live state verification is required in the owned adapter.
++  if(!actual_action || !actual_rig || !actual_body || !verified_source_sha ||
++     !verified_actions_sha || !verified_pose_sha || !verified_recipe_sha || !verified_request_sha)return false;
++  if(std::strcmp(actual_action,actions[row]) || actual_frame!=float(frames[row]) ||
++     std::strcmp(actual_rig,"Meshy_Fitted_Rig") || std::strcmp(actual_body,"Meshy_Body_NeutralCovered") ||
++     std::strcmp(verified_source_sha,"a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa") ||
++     std::strcmp(verified_actions_sha,"6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d") ||
++     std::strcmp(verified_pose_sha,"03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3") ||
++     std::strcmp(verified_recipe_sha,"0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0") ||
++     std::strcmp(verified_request_sha,"a46c693c28e09a93729bbe433a522d47c7a452c740a6af6ceb8868ddec370b17"))return false;
++  const char *paths[2]={"C:/YuriTransfer/native-cycles-readback-r1/capture/armature-startle11-r1.bin",
++                       "C:/YuriTransfer/native-cycles-readback-r1/capture/armature-strong6-r1.bin"};
++  stream=std::fopen(paths[row],"wbx");if(!stream)return false;
++  failed=false;bytes=8;records=0;
++  const unsigned char magic[8]={'Y','R','A','1',1,0,0,0};
++  if(std::fwrite(magic,1,8,stream)!=8){std::fclose(stream);stream=nullptr;return false;}
++  requested.store(row);return true;
++}
++inline bool finish() {
++  std::lock_guard<std::mutex> lock(mutex);
++  requested.store(-1);if(!stream)return false;
++  const int flush=std::fflush(stream), close=std::fclose(stream);stream=nullptr;
++  return !failed && flush==0 && close==0 && records>0;
++  // Invoke ONLY after dependency graph/parallel_for worker join; no borrowed pointers persist.
++}
++struct Scope {
++  Context old;
++  Scope(float frame,const char *rig,int modifier,const char *bone=nullptr,
++        const char *actual_action_id=nullptr):old(context) {
++    context=Context{};const int row=requested.load();
++    if(row<0 || frame!=float(frames[row]) || std::strcmp(rig,"OBMeshy_Fitted_Rig")!=0)return;
++    if(!actual_action_id || std::strlen(actual_action_id)<2 ||
++       std::strcmp(actual_action_id+2,actions[row])!=0)return;
++    context.row=row;context.modifier=modifier;
++    if(bone) {context.bone=slot(bone);if(context.bone<0)context=Context{};}
++  }
++  explicit Scope(Context c):old(context) {context=c;}
++  ~Scope(){context=old;}
++};
++} // namespace blender::yuri_armature_trace_r1
++#endif
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -27,6 +27,12 @@
+ endif()
+ 
+ cmake_minimum_required(VERSION 3.21)
++
++option(WITH_YURI_ARMATURE_TRACE_R1 "Owned research armature trace (never installed ABI hooks)" OFF)
++if(WITH_YURI_ARMATURE_TRACE_R1)
++  add_compile_definitions(WITH_YURI_ARMATURE_TRACE_R1)
++endif()
++
+ 
+ if(NOT EXECUTABLE_OUTPUT_PATH)
+   set(FIRST_RUN TRUE)
+--- /dev/null
++++ b/source/blender/python/intern/bpy_yuri_armature_trace_r5.hh
+@@ -0,0 +1,71 @@
++/* GPL-2.0-or-later. Included by bpy_interface.cc only in owned debug builds. */
++#pragma once
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include <Python.h>
++#include "BLI_yuri_armature_trace_r1.hh"
++namespace blender {
++namespace yuri_armature_bridge_r5 {
++inline std::atomic<bool> evaluating{false}, evaluated{false};
++static PyObject *begin(PyObject *,PyObject *args) {
++  int row;float frame;const char *action,*rig,*body,*source,*actions,*pose,*recipe,*request;
++  if(!PyArg_ParseTuple(args,"isfsssssss:begin",&row,&action,&frame,&rig,&body,&source,&actions,&pose,&recipe,&request))return nullptr;
++  if(evaluating || yuri_armature_trace_r1::requested.load()!=-1)Py_RETURN_FALSE;
++  evaluated=false;
++  if(yuri_armature_trace_r1::begin(row,action,frame,rig,body,source,actions,pose,recipe,request))Py_RETURN_TRUE;
++  Py_RETURN_FALSE; // Native begin never retains stream/request ownership on false.
++}
++static PyObject *evaluate_and_join(PyObject *,PyObject *args) {
++  int row;if(!PyArg_ParseTuple(args,"i:evaluate_and_join",&row))return nullptr;
++  if(row<0 || row>1 || evaluating || evaluated || yuri_armature_trace_r1::requested.load()!=row) {
++    PyErr_SetString(PyExc_RuntimeError,"unarmed, repeated or concurrent owned evaluation");return nullptr;
++  }
++  PyObject *main=PyImport_AddModule("__main__");if(!main)return nullptr;
++  PyObject *globals=PyModule_GetDict(main); // Borrowed, Python owned process context.
++  evaluating=true;
++  // Fixed code calls actual RNA update synchronously; no user callback or async task.
++  // Source RNA_view_layer_update -> BKE_scene_graph_update_tagged -> depsgraph
++  // evaluation waits for worker completion before returning. Force complete
++  // intended rig and ordinary mesh re-evaluation without changing Action/frame.
++  PyObject *result=PyRun_String(
++    "import bpy\n"
++    "bpy.data.objects['Meshy_Fitted_Rig'].data.update_tag()\n"
++    "bpy.data.objects['Meshy_Fitted_Rig'].update_tag(refresh={'OBJECT','DATA','TIME'})\n"
++    "bpy.data.objects['Meshy_Body_NeutralCovered'].update_tag(refresh={'OBJECT','DATA'})\n"
++    "bpy.context.view_layer.update()\n",Py_file_input,globals,globals);
++  evaluating=false;
++  if(!result)return nullptr; // The synchronous call returned; adapter can close safely.
++  Py_DECREF(result);evaluated=true;Py_RETURN_TRUE;
++}
++static PyObject *cancel_and_join(PyObject *,PyObject *) {
++  // No bridge-launched background work exists. GIL-held synchronous evaluation
++  // must have returned/raised before Python finally can invoke this method.
++  if(evaluating) {PyErr_SetString(PyExc_RuntimeError,"evaluation still active");return nullptr;}
++  Py_RETURN_TRUE;
++}
++static PyObject *finish(PyObject *,PyObject *) {
++  if(evaluating) {PyErr_SetString(PyExc_RuntimeError,"finish before synchronous worker join");return nullptr;}
++  const bool closed=yuri_armature_trace_r1::finish();const bool complete=evaluated;
++  evaluated=false;if(closed && complete)Py_RETURN_TRUE;Py_RETURN_FALSE;
++}
++static PyObject *build_info(PyObject *,PyObject *) {
++#ifdef _MSC_VER
++  const int msvc=_MSC_VER;
++#else
++  const int msvc=0;
++#endif
++  return Py_BuildValue("{s:s,s:s,s:i,s:s}","binding","YURI_ARMATURE_TRACE_R5",
++    "pinned_source_commit","9e2066aef7ef7e20c142ad7bd3303138a4304c93",
++    "MSVC_compat_version",msvc,"scope","owned default-OFF; per-TU flags/backend require external compiled custody");
++}
++inline PyMethodDef methods[]={
++ {"begin",begin,METH_VARARGS,"Verified-input, atomic exclusive owned arming."},
++ {"evaluate_and_join",evaluate_and_join,METH_VARARGS,"Fixed synchronous RNA evaluation, no async/user callback."},
++ {"cancel_and_join",cancel_and_join,METH_NOARGS,"Confirm synchronous evaluation has returned."},
++ {"finish",finish,METH_NOARGS,"Close only after returned evaluation; reject incomplete/failed output."},
++ {"build_info",build_info,METH_NOARGS,"Source/binding marker; not installed compiler equivalence."},
++ {nullptr,nullptr,0,nullptr}};
++inline PyModuleDef module={PyModuleDef_HEAD_INIT,"_yuri_armature_trace_r5",nullptr,-1,methods,nullptr,nullptr,nullptr,nullptr};
++} // namespace yuri_armature_bridge_r5
++static PyObject *BPyInit_yuri_armature_trace_r5() {return PyModule_Create(&yuri_armature_bridge_r5::module);}
++} // namespace blender
++#endif
+--- a/source/blender/python/intern/bpy_interface.cc
++++ b/source/blender/python/intern/bpy_interface.cc
+@@ -13,6 +13,10 @@
+ #include <Python.h>
+ #include <frameobject.h>
+ #include <optional>
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++#include "bpy_yuri_armature_trace_r5.hh"
++#endif
++
+ 
+ #ifdef WITH_PYTHON_MODULE
+ #  include "pylifecycle.h" /* For `Py_Version`. */
+@@ -318,6 +322,10 @@
+ #endif
+ 
+ static _inittab bpy_internal_modules[] = {
++#ifdef WITH_YURI_ARMATURE_TRACE_R1
++    {"_yuri_armature_trace_r5", BPyInit_yuri_armature_trace_r5},
++#endif
++
+     {"mathutils", PyInit_mathutils},
+ #if 0
+     {"mathutils.geometry", PyInit_mathutils_geometry},

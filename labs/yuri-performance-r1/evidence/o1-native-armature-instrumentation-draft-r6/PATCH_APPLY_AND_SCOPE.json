@@ -1,0 +1,354 @@
+{
+  "status": "SOURCE_APPLY_CHECK_PASS_NOT_COMPILED_OR_EXECUTED",
+  "source_commit": "9e2066aef7ef7e20c142ad7bd3303138a4304c93",
+  "patch_SHA256": "dbc76c3756b8c71c63a20d8ad1182dff327c465b257a6c2176c309d446b27d50",
+  "sources": {
+    "source/blender/modifiers/intern/MOD_armature.cc": {
+      "cached_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-body-modifier-source-contract-r1\\upstream\\MOD_armature.cc",
+      "sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e"
+    },
+    "source/blender/blenkernel/intern/armature_deform.cc": {
+      "cached_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-body-modifier-source-contract-r1\\upstream\\armature_deform.cc",
+      "sha256": "aad1cf4d4dd30f8d5f89f556721b7dc628092dd57db4ac8f4c03c741495d38ba"
+    },
+    "source/blender/blenkernel/intern/armature_update.cc": {
+      "cached_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-instrumentation-draft-r1\\upstream\\armature_update.cc",
+      "sha256": "420a2b53bde880af686688a4957eb4b692ed6687a67e80bebbdf6b05afdf7bf5"
+    },
+    "source/blender/blenlib/intern/math_rotation_c.cc": {
+      "cached_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-instrumentation-draft-r1\\upstream\\math_rotation_c.cc",
+      "sha256": "58fa312f5765ae55a84f9f68d8f809bf7e7ac61e220adb9d93ac7ce16f300260"
+    },
+    "source/blender/python/intern/bpy_interface.cc": {
+      "cached_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-binding-r5\\bpy_interface.cc",
+      "sha256": "f8f1f47b6c6a5b7369a4ef48d68d3ec6070cda98ab15e66a0349302d6d04fdce"
+    }
+  },
+  "bone_slots": [
+    {
+      "slot": 0,
+      "name": "root",
+      "deform": false
+    },
+    {
+      "slot": 1,
+      "name": "pelvis",
+      "deform": true
+    },
+    {
+      "slot": 2,
+      "name": "spine",
+      "deform": true
+    },
+    {
+      "slot": 3,
+      "name": "chest",
+      "deform": true
+    },
+    {
+      "slot": 4,
+      "name": "neck",
+      "deform": true
+    },
+    {
+      "slot": 5,
+      "name": "head",
+      "deform": true
+    },
+    {
+      "slot": 6,
+      "name": "R3_Head_Bind",
+      "deform": false
+    },
+    {
+      "slot": 7,
+      "name": "R3_Neck_Bind",
+      "deform": false
+    },
+    {
+      "slot": 8,
+      "name": "clavicle.L",
+      "deform": true
+    },
+    {
+      "slot": 9,
+      "name": "upper_arm.L",
+      "deform": true
+    },
+    {
+      "slot": 10,
+      "name": "forearm.L",
+      "deform": true
+    },
+    {
+      "slot": 11,
+      "name": "hand.L",
+      "deform": true
+    },
+    {
+      "slot": 12,
+      "name": "index1.L",
+      "deform": true
+    },
+    {
+      "slot": 13,
+      "name": "index2.L",
+      "deform": true
+    },
+    {
+      "slot": 14,
+      "name": "index3.L",
+      "deform": true
+    },
+    {
+      "slot": 15,
+      "name": "middle1.L",
+      "deform": true
+    },
+    {
+      "slot": 16,
+      "name": "middle2.L",
+      "deform": true
+    },
+    {
+      "slot": 17,
+      "name": "middle3.L",
+      "deform": true
+    },
+    {
+      "slot": 18,
+      "name": "ring1.L",
+      "deform": true
+    },
+    {
+      "slot": 19,
+      "name": "ring2.L",
+      "deform": true
+    },
+    {
+      "slot": 20,
+      "name": "ring3.L",
+      "deform": true
+    },
+    {
+      "slot": 21,
+      "name": "pinky1.L",
+      "deform": true
+    },
+    {
+      "slot": 22,
+      "name": "pinky2.L",
+      "deform": true
+    },
+    {
+      "slot": 23,
+      "name": "pinky3.L",
+      "deform": true
+    },
+    {
+      "slot": 24,
+      "name": "thumb1.L",
+      "deform": true
+    },
+    {
+      "slot": 25,
+      "name": "thumb2.L",
+      "deform": true
+    },
+    {
+      "slot": 26,
+      "name": "thumb3.L",
+      "deform": true
+    },
+    {
+      "slot": 27,
+      "name": "R3_Shoulder_L_Bind",
+      "deform": false
+    },
+    {
+      "slot": 28,
+      "name": "clavicle.R",
+      "deform": true
+    },
+    {
+      "slot": 29,
+      "name": "upper_arm.R",
+      "deform": true
+    },
+    {
+      "slot": 30,
+      "name": "forearm.R",
+      "deform": true
+    },
+    {
+      "slot": 31,
+      "name": "hand.R",
+      "deform": true
+    },
+    {
+      "slot": 32,
+      "name": "index1.R",
+      "deform": true
+    },
+    {
+      "slot": 33,
+      "name": "index2.R",
+      "deform": true
+    },
+    {
+      "slot": 34,
+      "name": "index3.R",
+      "deform": true
+    },
+    {
+      "slot": 35,
+      "name": "middle1.R",
+      "deform": true
+    },
+    {
+      "slot": 36,
+      "name": "middle2.R",
+      "deform": true
+    },
+    {
+      "slot": 37,
+      "name": "middle3.R",
+      "deform": true
+    },
+    {
+      "slot": 38,
+      "name": "ring1.R",
+      "deform": true
+    },
+    {
+      "slot": 39,
+      "name": "ring2.R",
+      "deform": true
+    },
+    {
+      "slot": 40,
+      "name": "ring3.R",
+      "deform": true
+    },
+    {
+      "slot": 41,
+      "name": "pinky1.R",
+      "deform": true
+    },
+    {
+      "slot": 42,
+      "name": "pinky2.R",
+      "deform": true
+    },
+    {
+      "slot": 43,
+      "name": "pinky3.R",
+      "deform": true
+    },
+    {
+      "slot": 44,
+      "name": "thumb1.R",
+      "deform": true
+    },
+    {
+      "slot": 45,
+      "name": "thumb2.R",
+      "deform": true
+    },
+    {
+      "slot": 46,
+      "name": "thumb3.R",
+      "deform": true
+    },
+    {
+      "slot": 47,
+      "name": "R3_Shoulder_R_Bind",
+      "deform": false
+    },
+    {
+      "slot": 48,
+      "name": "R3_UpperChest_Bind",
+      "deform": false
+    },
+    {
+      "slot": 49,
+      "name": "thigh.L",
+      "deform": true
+    },
+    {
+      "slot": 50,
+      "name": "shin.L",
+      "deform": true
+    },
+    {
+      "slot": 51,
+      "name": "foot.L",
+      "deform": true
+    },
+    {
+      "slot": 52,
+      "name": "toe.L",
+      "deform": true
+    },
+    {
+      "slot": 53,
+      "name": "thigh.R",
+      "deform": true
+    },
+    {
+      "slot": 54,
+      "name": "shin.R",
+      "deform": true
+    },
+    {
+      "slot": 55,
+      "name": "foot.R",
+      "deform": true
+    },
+    {
+      "slot": 56,
+      "name": "toe.R",
+      "deform": true
+    }
+  ],
+  "vertices": [
+    11189,
+    14918,
+    21485,
+    22227,
+    40817
+  ],
+  "ordinary_nullopt_caller": true,
+  "apply_check": {
+    "exit_code": 0,
+    "stderr": "",
+    "fixture": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-instrumentation-draft-r1\\apply-check-r6"
+  },
+  "pending": [
+    "Owned adapter verifies actual active Action and pose recipe then arms BEFORE pose dependency graph evaluation; begin/finish API has no RNA binding yet",
+    "Default-OFF macro build wiring and compiler/API validation",
+    "Full request NPZ packing and complete per-event cardinality checks",
+    "Non-deforming bone helper quaternion branch never executed; mark missing/not-applicable rather than fabricate",
+    "Normalized conversion matrix multiple events on scale branch require quat_conversion_R selection; matrix inverse backend/FP flags to be recorded",
+    "Actual runtime sampling, capture process guard closure, original 63561/all304799 gates and source/Unity PBR acceptance"
+  ],
+  "logging": {
+    "format": "YRA1 binary events, 8-byte magic/version then 8 little-endian uint32 context/header fields and UTF8 tag plus float32 raw payload",
+    "context_fields": [
+      "row",
+      "modifier",
+      "bone",
+      "vertex",
+      "entry",
+      "tag_bytes",
+      "float_count",
+      "reserved"
+    ],
+    "float32_signed_zero": "memcpy IEEE bits; no decimal serialization",
+    "matrix_layout": "row-major copied once from native column-major",
+    "limits": "64MiB/100000records/count<=64/tag<=96; mutex; fail-latched; exclusive new file per case",
+    "cleanup": "finish only after workers joined; flush+close; no dangling pointers retained",
+    "world": "forward transform actual caller LOCAL only; never inverse WORLD",
+    "CSR": "original order logged including unmapped/zero/masks; post entry running state unchanged for noncontributing entries; integer group/slot emitted as exact small float diagnostic values, offline int32 schema conversion pending"
+  }
+}
