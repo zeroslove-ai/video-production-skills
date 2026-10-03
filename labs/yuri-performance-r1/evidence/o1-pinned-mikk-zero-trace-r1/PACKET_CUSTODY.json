@@ -1,0 +1,92 @@
+{
+  "task_id": "ROOT_PM_PINNED_MIKK_ZERO_TRACE_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_PINNED_MIKK_ZERO_TRACE_20261003_R1_c9338a2c48d5",
+  "manifest_sha256": "c9338a2c48d5968dc355eebfa309ab38fdb4aa0ada04e5f885a544f1d794c169",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_PINNED_MIKK_ZERO_TRACE_20261003_R1_c9338a2c48d5\\YURI_O1_R4_PINNED_MIKK_ZERO_TRACE_20261003_R1.part01-of-01.zip",
+      "sha256": "e0c0050aed83b499fb72ee3d1f73e7bbc586e8feb96e73ae8e01b0faae1f3d11",
+      "bytes": 238280,
+      "files": [
+        "upstream/Apache-2.0.txt",
+        "upstream/convert.h",
+        "upstream/mikk_atomic_hash_set.hh",
+        "upstream/mikk_float3.hh",
+        "upstream/mikk_util.hh",
+        "upstream/mikktspace.hh",
+        "upstream/normal.h",
+        "upstream/pinned_wrapper.inc",
+        "upstream/svm.h",
+        "upstream/tex_coord.h",
+        "metadata/PINNED_MIKK_ZERO_TRACE.json",
+        "metadata/ROOT_PM_PINNED_MIKK_ZERO_TRACE_R1.md",
+        "scripts/r4_pinned_mikk_zero_trace.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "upstream/Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "upstream/convert.h": {
+      "sha256": "7d102a9914c1561aad0f535d9a9011eb6350656fe77b196c040624261d6b222c",
+      "bytes": 2305
+    },
+    "upstream/mikk_atomic_hash_set.hh": {
+      "sha256": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b",
+      "bytes": 5702
+    },
+    "upstream/mikk_float3.hh": {
+      "sha256": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a",
+      "bytes": 2315
+    },
+    "upstream/mikk_util.hh": {
+      "sha256": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585",
+      "bytes": 4384
+    },
+    "upstream/mikktspace.hh": {
+      "sha256": "6a196ad4b95b358bbd35add358a81a0ff1aab9828b38469072f0f6409e31d907",
+      "bytes": 26301
+    },
+    "upstream/normal.h": {
+      "sha256": "26e7daa1c532479aa0b70da367a98fe970e7460a6e85f752103e7a43d2a6423a",
+      "bytes": 830
+    },
+    "upstream/pinned_wrapper.inc": {
+      "sha256": "900bad00fc16bb90f815e916efdffe2b79f28bf7204b57441bfc5b3912cadb12",
+      "bytes": 3227
+    },
+    "upstream/svm.h": {
+      "sha256": "1432bcb1ecd378446eb77ecdcf38687090a084d299682f7fa598c110923c84e7",
+      "bytes": 23328
+    },
+    "upstream/tex_coord.h": {
+      "sha256": "52c145fea4b0631787355b525ad0279299d3d638f9f8bac0c6639648bef3ec13",
+      "bytes": 13503
+    },
+    "metadata/PINNED_MIKK_ZERO_TRACE.json": {
+      "sha256": "c9338a2c48d5968dc355eebfa309ab38fdb4aa0ada04e5f885a544f1d794c169",
+      "bytes": 126958
+    },
+    "metadata/ROOT_PM_PINNED_MIKK_ZERO_TRACE_R1.md": {
+      "sha256": "3dbb5a27a067041c1630ce587b305250e749ee8676b90c53b2d5b9a6c85a32a0",
+      "bytes": 4289
+    },
+    "scripts/r4_pinned_mikk_zero_trace.py": {
+      "sha256": "637e3a05f11d5b76420abf654dc006478d0394ff9dfb9bf72836fbc0f36d15c8",
+      "bytes": 4607
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "f2a52ecd25a887a779c69d7b69b1927a0008861960558f02132ba90ae9bb3ee5",
+      "bytes": 7331
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 238280,
+  "data_bytes": 93253,
+  "aggregate_file_manifest_sha256": "6d892e53cb4cf308db135b8f8c946df865df7b12c8774ba7079e4137c37545d8",
+  "source_or_frozen_input_writes": 0
+}

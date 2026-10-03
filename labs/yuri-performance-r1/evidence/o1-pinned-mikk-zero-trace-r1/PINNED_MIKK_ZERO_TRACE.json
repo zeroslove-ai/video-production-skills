@@ -1,0 +1,5211 @@
+{
+  "task_id": "ROOT_PM_PINNED_MIKK_ZERO_TRACE_R1",
+  "classification": "METADATA_ONLY_ON_PINNED_ALGORITHM_REFERENCE",
+  "Blender_render_GPU_native_execution_source_writes": 0,
+  "all_tangent_unit_gate": "FAIL_NO_EXCLUSION_OR_FILL",
+  "actual_Cycles_buffer": "HOLD",
+  "original_CORNER_normal_0_001_degree_gate": "UNCHANGED_NO_PACKING_WAIVER",
+  "algorithm_manifest_sha256": "0275bf127cc81633f311a84042e734e367e79abb83f717c0c0bba5ed2e00dd68",
+  "counts": [
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "zero_count": 8
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "zero_count": 9
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "rest",
+      "zero_count": 6
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "canonical",
+      "zero_count": 4
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "raw",
+      "zero_count": 5
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "zero_count": 9
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "canonical",
+      "zero_count": 5
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "raw",
+      "zero_count": 4
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "rest",
+      "zero_count": 5
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "zero_count": 7
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "zero_count": 12
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "rest",
+      "zero_count": 5
+    }
+  ],
+  "zero_records": [
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126403,
+      "local_corner": 0,
+      "source_corner": 253213,
+      "source_vertex": 49249,
+      "source_polygon": 63405,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253213,
+        253214,
+        253215
+      ],
+      "triangle_source_vertices": [
+        49249,
+        49528,
+        49517
+      ],
+      "triangle_UV": [
+        [
+          0.28085198998451233,
+          0.6016020178794861
+        ],
+        [
+          0.2791759967803955,
+          0.6019179821014404
+        ],
+        [
+          0.2775000035762787,
+          0.6022340059280396
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 5.3564818358609045e-08,
+        "UV_signed_double_area": -9.981704351957887e-11
+      },
+      "float64": {
+        "geom_cross_length": 5.356463456408587e-08,
+        "UV_signed_double_area": -9.989697957735189e-11
+      },
+      "source_raw_corner_normal": [
+        0.3934937119483948,
+        0.3860892653465271,
+        0.8343247771263123
+      ],
+      "Cycles_packed_normal_uint32": 2661195573,
+      "Cycles_decoded_corner_normal": [
+        0.3935089409351349,
+        0.3860718011856079,
+        0.8343256711959839
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126403,
+      "local_corner": 2,
+      "source_corner": 253215,
+      "source_vertex": 49517,
+      "source_polygon": 63405,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253213,
+        253214,
+        253215
+      ],
+      "triangle_source_vertices": [
+        49249,
+        49528,
+        49517
+      ],
+      "triangle_UV": [
+        [
+          0.28085198998451233,
+          0.6016020178794861
+        ],
+        [
+          0.2791759967803955,
+          0.6019179821014404
+        ],
+        [
+          0.2775000035762787,
+          0.6022340059280396
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 5.3564818358609045e-08,
+        "UV_signed_double_area": -9.981704351957887e-11
+      },
+      "float64": {
+        "geom_cross_length": 5.356463456408587e-08,
+        "UV_signed_double_area": -9.989697957735189e-11
+      },
+      "source_raw_corner_normal": [
+        0.29570260643959045,
+        0.44487887620925903,
+        0.8453654050827026
+      ],
+      "Cycles_packed_normal_uint32": 2749863901,
+      "Cycles_decoded_corner_normal": [
+        0.2956981360912323,
+        0.4448660910129547,
+        0.8453737497329712
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126476,
+      "local_corner": 0,
+      "source_corner": 253376,
+      "source_vertex": 53506,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 9.581858223528528e-11,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 9.500372605258606e-11,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8943595290184021,
+        0.39849063754081726,
+        0.20328865945339203
+      ],
+      "Cycles_packed_normal_uint32": 2719429500,
+      "Cycles_decoded_corner_normal": [
+        -0.8943558931350708,
+        0.3984934687614441,
+        0.20329904556274414
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126476,
+      "local_corner": 2,
+      "source_corner": 253378,
+      "source_vertex": 53803,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 9.581858223528528e-11,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 9.500372605258606e-11,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8934437036514282,
+        0.4120464324951172,
+        0.17881852388381958
+      ],
+      "Cycles_packed_normal_uint32": 2743612148,
+      "Cycles_decoded_corner_normal": [
+        -0.8934401869773865,
+        0.41205570101737976,
+        0.17881479859352112
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4362557244094205e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.436209621007949e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.1161358430981636,
+        -0.9689247012138367,
+        -0.21839763224124908
+      ],
+      "Cycles_packed_normal_uint32": 191406297,
+      "Cycles_decoded_corner_normal": [
+        0.11615383625030518,
+        -0.9689297080039978,
+        -0.21836522221565247
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126527,
+      "local_corner": 2,
+      "source_corner": 253495,
+      "source_vertex": 55800,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4362557244094205e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.436209621007949e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.10870471596717834,
+        -0.968830943107605,
+        -0.2225980907678604
+      ],
+      "Cycles_packed_normal_uint32": 179609757,
+      "Cycles_decoded_corner_normal": [
+        0.10871534049510956,
+        -0.9688364267349243,
+        -0.22256901860237122
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126773,
+      "local_corner": 2,
+      "source_corner": 254069,
+      "source_vertex": 62162,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.358607392200952e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.3587340642538486e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9593384861946106,
+        -0.2606295049190521,
+        0.10836070775985718
+      ],
+      "Cycles_packed_normal_uint32": 1726096270,
+      "Cycles_decoded_corner_normal": [
+        -0.9593394994735718,
+        -0.260635644197464,
+        0.10833639651536942
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "canonical",
+      "triangle_row": 126828,
+      "local_corner": 0,
+      "source_corner": 254184,
+      "source_vertex": 62945,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.7113477301933244e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 1.7069222554455796e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        0.2636758089065552,
+        0.16210120916366577,
+        -0.9508934020996094
+      ],
+      "Cycles_packed_normal_uint32": 3883659501,
+      "Cycles_decoded_corner_normal": [
+        0.26367253065109253,
+        0.16208544373512268,
+        -0.9508970379829407
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126403,
+      "local_corner": 0,
+      "source_corner": 253213,
+      "source_vertex": 49249,
+      "source_polygon": 63405,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253213,
+        253214,
+        253215
+      ],
+      "triangle_source_vertices": [
+        49249,
+        49528,
+        49517
+      ],
+      "triangle_UV": [
+        [
+          0.28085198998451233,
+          0.6016020178794861
+        ],
+        [
+          0.2791759967803955,
+          0.6019179821014404
+        ],
+        [
+          0.2775000035762787,
+          0.6022340059280396
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 5.3564818358609045e-08,
+        "UV_signed_double_area": -9.981704351957887e-11
+      },
+      "float64": {
+        "geom_cross_length": 5.356463456408587e-08,
+        "UV_signed_double_area": -9.989697957735189e-11
+      },
+      "source_raw_corner_normal": [
+        0.3934937119483948,
+        0.3860892653465271,
+        0.8343247771263123
+      ],
+      "Cycles_packed_normal_uint32": 2661195573,
+      "Cycles_decoded_corner_normal": [
+        0.3935089409351349,
+        0.3860718011856079,
+        0.8343256711959839
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126403,
+      "local_corner": 2,
+      "source_corner": 253215,
+      "source_vertex": 49517,
+      "source_polygon": 63405,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253213,
+        253214,
+        253215
+      ],
+      "triangle_source_vertices": [
+        49249,
+        49528,
+        49517
+      ],
+      "triangle_UV": [
+        [
+          0.28085198998451233,
+          0.6016020178794861
+        ],
+        [
+          0.2791759967803955,
+          0.6019179821014404
+        ],
+        [
+          0.2775000035762787,
+          0.6022340059280396
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 5.3564818358609045e-08,
+        "UV_signed_double_area": -9.981704351957887e-11
+      },
+      "float64": {
+        "geom_cross_length": 5.356463456408587e-08,
+        "UV_signed_double_area": -9.989697957735189e-11
+      },
+      "source_raw_corner_normal": [
+        0.29570260643959045,
+        0.44487887620925903,
+        0.8453654050827026
+      ],
+      "Cycles_packed_normal_uint32": 2749863901,
+      "Cycles_decoded_corner_normal": [
+        0.2956981360912323,
+        0.4448660910129547,
+        0.8453737497329712
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126476,
+      "local_corner": 0,
+      "source_corner": 253376,
+      "source_vertex": 53506,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 9.581858223528528e-11,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 9.500372605258606e-11,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8943595290184021,
+        0.39849063754081726,
+        0.20328865945339203
+      ],
+      "Cycles_packed_normal_uint32": 2719429500,
+      "Cycles_decoded_corner_normal": [
+        -0.8943558931350708,
+        0.3984934687614441,
+        0.20329904556274414
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4362557244094205e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.436209621007949e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.1161358430981636,
+        -0.9689247012138367,
+        -0.21839763224124908
+      ],
+      "Cycles_packed_normal_uint32": 191406297,
+      "Cycles_decoded_corner_normal": [
+        0.11615383625030518,
+        -0.9689297080039978,
+        -0.21836522221565247
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126527,
+      "local_corner": 2,
+      "source_corner": 253495,
+      "source_vertex": 55800,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4362557244094205e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.436209621007949e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.10870471596717834,
+        -0.968830943107605,
+        -0.2225980907678604
+      ],
+      "Cycles_packed_normal_uint32": 179609757,
+      "Cycles_decoded_corner_normal": [
+        0.10871534049510956,
+        -0.9688364267349243,
+        -0.22256901860237122
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.358607392200952e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.3587340642538486e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9605029225349426,
+        -0.19606123864650726,
+        0.19746939837932587
+      ],
+      "Cycles_packed_normal_uint32": 1836524851,
+      "Cycles_decoded_corner_normal": [
+        -0.9605073928833008,
+        -0.19605185091495514,
+        0.19745677709579468
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126773,
+      "local_corner": 2,
+      "source_corner": 254069,
+      "source_vertex": 62162,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.358607392200952e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.3587340642538486e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9593384861946106,
+        -0.2606295049190521,
+        0.10836070775985718
+      ],
+      "Cycles_packed_normal_uint32": 1726096270,
+      "Cycles_decoded_corner_normal": [
+        -0.9593394994735718,
+        -0.260635644197464,
+        0.10833639651536942
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126828,
+      "local_corner": 0,
+      "source_corner": 254184,
+      "source_vertex": 62945,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.7113477301933244e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 1.7069222554455796e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        0.2636758089065552,
+        0.16210120916366577,
+        -0.9508934020996094
+      ],
+      "Cycles_packed_normal_uint32": 3883659501,
+      "Cycles_decoded_corner_normal": [
+        0.26367253065109253,
+        0.16208544373512268,
+        -0.9508970379829407
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "raw",
+      "triangle_row": 126828,
+      "local_corner": 2,
+      "source_corner": 254186,
+      "source_vertex": 62856,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.7113477301933244e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 1.7069222554455796e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        -0.008433899842202663,
+        0.37090063095092773,
+        -0.9286342859268188
+      ],
+      "Cycles_packed_normal_uint32": 4281082956,
+      "Cycles_decoded_corner_normal": [
+        -0.008422373794019222,
+        0.37090253829956055,
+        -0.9286335706710815
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "rest",
+      "triangle_row": 126476,
+      "local_corner": 0,
+      "source_corner": 253376,
+      "source_vertex": 53506,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 9.581858223528528e-11,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 9.500372605258606e-11,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8943595290184021,
+        0.39849063754081726,
+        0.20328865945339203
+      ],
+      "Cycles_packed_normal_uint32": 2719429500,
+      "Cycles_decoded_corner_normal": [
+        -0.8943558931350708,
+        0.3984934687614441,
+        0.20329904556274414
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "rest",
+      "triangle_row": 126476,
+      "local_corner": 2,
+      "source_corner": 253378,
+      "source_vertex": 53803,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 9.581858223528528e-11,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 9.500372605258606e-11,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8934437036514282,
+        0.4120464324951172,
+        0.17881852388381958
+      ],
+      "Cycles_packed_normal_uint32": 2743612148,
+      "Cycles_decoded_corner_normal": [
+        -0.8934401869773865,
+        0.41205570101737976,
+        0.17881479859352112
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "rest",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4362557244094205e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.436209621007949e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.1161358430981636,
+        -0.9689247012138367,
+        -0.21839763224124908
+      ],
+      "Cycles_packed_normal_uint32": 191406297,
+      "Cycles_decoded_corner_normal": [
+        0.11615383625030518,
+        -0.9689297080039978,
+        -0.21836522221565247
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "rest",
+      "triangle_row": 126527,
+      "local_corner": 2,
+      "source_corner": 253495,
+      "source_vertex": 55800,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4362557244094205e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.436209621007949e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.10870471596717834,
+        -0.968830943107605,
+        -0.2225980907678604
+      ],
+      "Cycles_packed_normal_uint32": 179609757,
+      "Cycles_decoded_corner_normal": [
+        0.10871534049510956,
+        -0.9688364267349243,
+        -0.22256901860237122
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "rest",
+      "triangle_row": 126773,
+      "local_corner": 2,
+      "source_corner": 254069,
+      "source_vertex": 62162,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.358607392200952e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.3587340642538486e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9593384861946106,
+        -0.2606295049190521,
+        0.10836070775985718
+      ],
+      "Cycles_packed_normal_uint32": 1726096270,
+      "Cycles_decoded_corner_normal": [
+        -0.9593394994735718,
+        -0.260635644197464,
+        0.10833639651536942
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "variant": "rest",
+      "triangle_row": 126828,
+      "local_corner": 0,
+      "source_corner": 254184,
+      "source_vertex": 62945,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.7113477301933244e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 1.7069222554455796e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        0.2636758089065552,
+        0.16210120916366577,
+        -0.9508934020996094
+      ],
+      "Cycles_packed_normal_uint32": 3883659501,
+      "Cycles_decoded_corner_normal": [
+        0.26367253065109253,
+        0.16208544373512268,
+        -0.9508970379829407
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "canonical",
+      "triangle_row": 126323,
+      "local_corner": 0,
+      "source_corner": 253045,
+      "source_vertex": 44574,
+      "source_polygon": 63361,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253045,
+        253046,
+        253047
+      ],
+      "triangle_source_vertices": [
+        44574,
+        44740,
+        44907
+      ],
+      "triangle_UV": [
+        [
+          0.40807899832725525,
+          0.3686400055885315
+        ],
+        [
+          0.4081119894981384,
+          0.37026798725128174
+        ],
+        [
+          0.4081459939479828,
+          0.37189599871635437
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.644523876606854e-09,
+        "UV_signed_double_area": -1.6486154663652997e-09
+      },
+      "float64": {
+        "geom_cross_length": 4.64451089280244e-09,
+        "UV_signed_double_area": -1.6486163545437194e-09
+      },
+      "source_raw_corner_normal": [
+        -0.27578026056289673,
+        -0.9210063219070435,
+        -0.27512291073799133
+      ],
+      "Cycles_packed_normal_uint32": 402346007,
+      "Cycles_decoded_corner_normal": [
+        -0.27576541900634766,
+        -0.9209998846054077,
+        -0.27515900135040283
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "canonical",
+      "triangle_row": 126625,
+      "local_corner": 0,
+      "source_corner": 253723,
+      "source_vertex": 58504,
+      "source_polygon": 63549,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253723,
+        253724,
+        253725
+      ],
+      "triangle_source_vertices": [
+        58504,
+        58678,
+        58674
+      ],
+      "triangle_UV": [
+        [
+          0.08336599916219711,
+          0.45390599966049194
+        ],
+        [
+          0.08528999984264374,
+          0.4538719952106476
+        ],
+        [
+          0.08721400052309036,
+          0.45383700728416443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4413791816234607e-09,
+        "UV_signed_double_area": -1.892203727038577e-09
+      },
+      "float64": {
+        "geom_cross_length": 3.4412474010213293e-09,
+        "UV_signed_double_area": -1.89220972224291e-09
+      },
+      "source_raw_corner_normal": [
+        0.8946191668510437,
+        -0.20679530501365662,
+        0.39609622955322266
+      ],
+      "Cycles_packed_normal_uint32": 1850985591,
+      "Cycles_decoded_corner_normal": [
+        0.8946171402931213,
+        -0.2067735195159912,
+        0.396112322807312
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "canonical",
+      "triangle_row": 126625,
+      "local_corner": 2,
+      "source_corner": 253725,
+      "source_vertex": 58674,
+      "source_polygon": 63549,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253723,
+        253724,
+        253725
+      ],
+      "triangle_source_vertices": [
+        58504,
+        58678,
+        58674
+      ],
+      "triangle_UV": [
+        [
+          0.08336599916219711,
+          0.45390599966049194
+        ],
+        [
+          0.08528999984264374,
+          0.4538719952106476
+        ],
+        [
+          0.08721400052309036,
+          0.45383700728416443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4413791816234607e-09,
+        "UV_signed_double_area": -1.892203727038577e-09
+      },
+      "float64": {
+        "geom_cross_length": 3.4412474010213293e-09,
+        "UV_signed_double_area": -1.89220972224291e-09
+      },
+      "source_raw_corner_normal": [
+        0.9181535243988037,
+        0.11306168884038925,
+        0.37975162267684937
+      ],
+      "Cycles_packed_normal_uint32": 2319569738,
+      "Cycles_decoded_corner_normal": [
+        0.9181475639343262,
+        0.11305408179759979,
+        0.3797680735588074
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "canonical",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.271824811079682e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.271636426194897e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9444860816001892,
+        -0.1427665799856186,
+        0.29591161012649536
+      ],
+      "Cycles_packed_normal_uint32": 1925785752,
+      "Cycles_decoded_corner_normal": [
+        -0.9444944858551025,
+        -0.14277900755405426,
+        0.29587873816490173
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "raw",
+      "triangle_row": 125004,
+      "local_corner": 0,
+      "source_corner": 250036,
+      "source_vertex": 1884,
+      "source_polygon": 62516,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        250036,
+        250037,
+        250038
+      ],
+      "triangle_source_vertices": [
+        1884,
+        2164,
+        2024
+      ],
+      "triangle_UV": [
+        [
+          0.4627020061016083,
+          0.6432499885559082
+        ],
+        [
+          0.46391698718070984,
+          0.6419870257377625
+        ],
+        [
+          0.4651319980621338,
+          0.6407219767570496
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.3139676902085284e-08,
+        "UV_signed_double_area": -2.4967903300421312e-09
+      },
+      "float64": {
+        "geom_cross_length": 1.3140414301044946e-08,
+        "UV_signed_double_area": -2.4970088219333775e-09
+      },
+      "source_raw_corner_normal": [
+        -0.07144395262002945,
+        -0.43574708700180054,
+        0.8972291946411133
+      ],
+      "Cycles_packed_normal_uint32": 1481210237,
+      "Cycles_decoded_corner_normal": [
+        -0.07142511755228043,
+        -0.43572962284088135,
+        0.8972392082214355
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "raw",
+      "triangle_row": 126323,
+      "local_corner": 0,
+      "source_corner": 253045,
+      "source_vertex": 44574,
+      "source_polygon": 63361,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253045,
+        253046,
+        253047
+      ],
+      "triangle_source_vertices": [
+        44574,
+        44740,
+        44907
+      ],
+      "triangle_UV": [
+        [
+          0.40807899832725525,
+          0.3686400055885315
+        ],
+        [
+          0.4081119894981384,
+          0.37026798725128174
+        ],
+        [
+          0.4081459939479828,
+          0.37189599871635437
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.644523876606854e-09,
+        "UV_signed_double_area": -1.6486154663652997e-09
+      },
+      "float64": {
+        "geom_cross_length": 4.64451089280244e-09,
+        "UV_signed_double_area": -1.6486163545437194e-09
+      },
+      "source_raw_corner_normal": [
+        -0.27578026056289673,
+        -0.9210063219070435,
+        -0.27512291073799133
+      ],
+      "Cycles_packed_normal_uint32": 402346007,
+      "Cycles_decoded_corner_normal": [
+        -0.27576541900634766,
+        -0.9209998846054077,
+        -0.27515900135040283
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "raw",
+      "triangle_row": 126398,
+      "local_corner": 0,
+      "source_corner": 253202,
+      "source_vertex": 48962,
+      "source_polygon": 63402,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253202,
+        253203,
+        253204
+      ],
+      "triangle_source_vertices": [
+        48962,
+        49239,
+        49241
+      ],
+      "triangle_UV": [
+        [
+          0.2734610140323639,
+          0.5925570130348206
+        ],
+        [
+          0.27156299352645874,
+          0.5928490161895752
+        ],
+        [
+          0.2696639895439148,
+          0.5931419730186462
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.189166791235266e-09,
+        "UV_signed_double_area": -1.5228351912810467e-09
+      },
+      "float64": {
+        "geom_cross_length": 4.1891100051304536e-09,
+        "UV_signed_double_area": -1.5229151273388197e-09
+      },
+      "source_raw_corner_normal": [
+        0.23636995255947113,
+        0.8977639079093933,
+        0.3716842830181122
+      ],
+      "Cycles_packed_normal_uint32": 3427767319,
+      "Cycles_decoded_corner_normal": [
+        0.23636969923973083,
+        0.8977544903755188,
+        0.37170735001564026
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "raw",
+      "triangle_row": 126398,
+      "local_corner": 2,
+      "source_corner": 253204,
+      "source_vertex": 49241,
+      "source_polygon": 63402,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253202,
+        253203,
+        253204
+      ],
+      "triangle_source_vertices": [
+        48962,
+        49239,
+        49241
+      ],
+      "triangle_UV": [
+        [
+          0.2734610140323639,
+          0.5925570130348206
+        ],
+        [
+          0.27156299352645874,
+          0.5928490161895752
+        ],
+        [
+          0.2696639895439148,
+          0.5931419730186462
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.189166791235266e-09,
+        "UV_signed_double_area": -1.5228351912810467e-09
+      },
+      "float64": {
+        "geom_cross_length": 4.1891100051304536e-09,
+        "UV_signed_double_area": -1.5229151273388197e-09
+      },
+      "source_raw_corner_normal": [
+        0.09924288094043732,
+        0.9245477318763733,
+        0.36791619658470154
+      ],
+      "Cycles_packed_normal_uint32": 3574106400,
+      "Cycles_decoded_corner_normal": [
+        0.09923560172319412,
+        0.9245498180389404,
+        0.3679129481315613
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "raw",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.271824811079682e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.271636426194897e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9444860816001892,
+        -0.1427665799856186,
+        0.29591161012649536
+      ],
+      "Cycles_packed_normal_uint32": 1925785752,
+      "Cycles_decoded_corner_normal": [
+        -0.9444944858551025,
+        -0.14277900755405426,
+        0.29587873816490173
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126323,
+      "local_corner": 0,
+      "source_corner": 253045,
+      "source_vertex": 44574,
+      "source_polygon": 63361,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253045,
+        253046,
+        253047
+      ],
+      "triangle_source_vertices": [
+        44574,
+        44740,
+        44907
+      ],
+      "triangle_UV": [
+        [
+          0.40807899832725525,
+          0.3686400055885315
+        ],
+        [
+          0.4081119894981384,
+          0.37026798725128174
+        ],
+        [
+          0.4081459939479828,
+          0.37189599871635437
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.644523876606854e-09,
+        "UV_signed_double_area": -1.6486154663652997e-09
+      },
+      "float64": {
+        "geom_cross_length": 4.64451089280244e-09,
+        "UV_signed_double_area": -1.6486163545437194e-09
+      },
+      "source_raw_corner_normal": [
+        -0.27578026056289673,
+        -0.9210063219070435,
+        -0.27512291073799133
+      ],
+      "Cycles_packed_normal_uint32": 402346007,
+      "Cycles_decoded_corner_normal": [
+        -0.27576541900634766,
+        -0.9209998846054077,
+        -0.27515900135040283
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126476,
+      "local_corner": 0,
+      "source_corner": 253376,
+      "source_vertex": 53506,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 2.4627570816004862e-11,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 2.4644836384042405e-11,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.9199791550636292,
+        0.3919057548046112,
+        -0.006945427041500807
+      ],
+      "Cycles_packed_normal_uint32": 2796889609,
+      "Cycles_decoded_corner_normal": [
+        -0.9199846386909485,
+        0.39189302921295166,
+        -0.006942800246179104
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.5696837152876526e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.569913402052074e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.06526719778776169,
+        -0.9928877949714661,
+        -0.09956980496644974
+      ],
+      "Cycles_packed_normal_uint32": 121082425,
+      "Cycles_decoded_corner_normal": [
+        0.06525733321905136,
+        -0.9928871393203735,
+        -0.09958196431398392
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126527,
+      "local_corner": 2,
+      "source_corner": 253495,
+      "source_vertex": 55800,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.5696837152876526e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.569913402052074e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.05785089731216431,
+        -0.9929145574569702,
+        -0.10379821062088013
+      ],
+      "Cycles_packed_normal_uint32": 107647467,
+      "Cycles_decoded_corner_normal": [
+        0.05785549804568291,
+        -0.992915689945221,
+        -0.1037840023636818
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126625,
+      "local_corner": 0,
+      "source_corner": 253723,
+      "source_vertex": 58504,
+      "source_polygon": 63549,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253723,
+        253724,
+        253725
+      ],
+      "triangle_source_vertices": [
+        58504,
+        58678,
+        58674
+      ],
+      "triangle_UV": [
+        [
+          0.08336599916219711,
+          0.45390599966049194
+        ],
+        [
+          0.08528999984264374,
+          0.4538719952106476
+        ],
+        [
+          0.08721400052309036,
+          0.45383700728416443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4413791816234607e-09,
+        "UV_signed_double_area": -1.892203727038577e-09
+      },
+      "float64": {
+        "geom_cross_length": 3.4412474010213293e-09,
+        "UV_signed_double_area": -1.89220972224291e-09
+      },
+      "source_raw_corner_normal": [
+        0.8946191668510437,
+        -0.20679530501365662,
+        0.39609622955322266
+      ],
+      "Cycles_packed_normal_uint32": 1850985591,
+      "Cycles_decoded_corner_normal": [
+        0.8946171402931213,
+        -0.2067735195159912,
+        0.396112322807312
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126625,
+      "local_corner": 2,
+      "source_corner": 253725,
+      "source_vertex": 58674,
+      "source_polygon": 63549,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253723,
+        253724,
+        253725
+      ],
+      "triangle_source_vertices": [
+        58504,
+        58678,
+        58674
+      ],
+      "triangle_UV": [
+        [
+          0.08336599916219711,
+          0.45390599966049194
+        ],
+        [
+          0.08528999984264374,
+          0.4538719952106476
+        ],
+        [
+          0.08721400052309036,
+          0.45383700728416443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4413791816234607e-09,
+        "UV_signed_double_area": -1.892203727038577e-09
+      },
+      "float64": {
+        "geom_cross_length": 3.4412474010213293e-09,
+        "UV_signed_double_area": -1.89220972224291e-09
+      },
+      "source_raw_corner_normal": [
+        0.9181535243988037,
+        0.11306168884038925,
+        0.37975162267684937
+      ],
+      "Cycles_packed_normal_uint32": 2319569738,
+      "Cycles_decoded_corner_normal": [
+        0.9181475639343262,
+        0.11305408179759979,
+        0.3797680735588074
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.271824811079682e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.271636426194897e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9444860816001892,
+        -0.1427665799856186,
+        0.29591161012649536
+      ],
+      "Cycles_packed_normal_uint32": 1925785752,
+      "Cycles_decoded_corner_normal": [
+        -0.9444944858551025,
+        -0.14277900755405426,
+        0.29587873816490173
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126828,
+      "local_corner": 0,
+      "source_corner": 254184,
+      "source_vertex": 62945,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 2.4645385732213754e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 2.4715323342069214e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        0.2517244219779968,
+        -0.276098370552063,
+        -0.927579939365387
+      ],
+      "Cycles_packed_normal_uint32": 371451831,
+      "Cycles_decoded_corner_normal": [
+        0.25170114636421204,
+        -0.27608510851860046,
+        -0.9275901913642883
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "variant": "rest",
+      "triangle_row": 126828,
+      "local_corner": 2,
+      "source_corner": 254186,
+      "source_vertex": 62856,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 2.4645385732213754e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 2.4715323342069214e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        -0.034285929054021835,
+        -0.09766798466444016,
+        -0.9946283102035522
+      ],
+      "Cycles_packed_normal_uint32": 65342233,
+      "Cycles_decoded_corner_normal": [
+        -0.034277960658073425,
+        -0.09767666459083557,
+        -0.9946277737617493
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "canonical",
+      "triangle_row": 126133,
+      "local_corner": 2,
+      "source_corner": 252601,
+      "source_vertex": 36651,
+      "source_polygon": 63233,
+      "source_material_slot": 2,
+      "triangle_source_corners": [
+        252599,
+        252600,
+        252601
+      ],
+      "triangle_source_vertices": [
+        36344,
+        36965,
+        36651
+      ],
+      "triangle_UV": [
+        [
+          0.8992249965667725,
+          0.4611720144748688
+        ],
+        [
+          0.9005470275878906,
+          0.4610610008239746
+        ],
+        [
+          0.901868999004364,
+          0.46094900369644165
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 8.262789918944691e-08,
+        "UV_signed_double_area": -1.3068017779005459e-09
+      },
+      "float64": {
+        "geom_cross_length": 8.262816650189271e-08,
+        "UV_signed_double_area": -1.3068035542573853e-09
+      },
+      "source_raw_corner_normal": [
+        -0.7151035070419312,
+        -0.6325428485870361,
+        0.2975173592567444
+      ],
+      "Cycles_packed_normal_uint32": 1321814108,
+      "Cycles_decoded_corner_normal": [
+        -0.7151210308074951,
+        -0.6325308084487915,
+        0.2975006699562073
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "canonical",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.767886835870371e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.7700196217520634e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.06208318471908569,
+        -0.9813458919525146,
+        -0.1819504201412201
+      ],
+      "Cycles_packed_normal_uint32": 108829053,
+      "Cycles_decoded_corner_normal": [
+        0.06207738444209099,
+        -0.9813462495803833,
+        -0.18195022642612457
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "canonical",
+      "triangle_row": 126527,
+      "local_corner": 2,
+      "source_corner": 253495,
+      "source_vertex": 55800,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.767886835870371e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.7700196217520634e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.054655492305755615,
+        -0.981001079082489,
+        -0.1861441433429718
+      ],
+      "Cycles_packed_normal_uint32": 96115002,
+      "Cycles_decoded_corner_normal": [
+        0.05466350540518761,
+        -0.9809979796409607,
+        -0.18615806102752686
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "canonical",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2851217302010127e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2853201046296695e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9444862604141235,
+        -0.14276587963104248,
+        0.29591143131256104
+      ],
+      "Cycles_packed_normal_uint32": 1925785752,
+      "Cycles_decoded_corner_normal": [
+        -0.9444944858551025,
+        -0.14277900755405426,
+        0.29587873816490173
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "canonical",
+      "triangle_row": 126815,
+      "local_corner": 0,
+      "source_corner": 254163,
+      "source_vertex": 62655,
+      "source_polygon": 63672,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254163,
+        254159,
+        254160
+      ],
+      "triangle_source_vertices": [
+        62655,
+        62654,
+        62757
+      ],
+      "triangle_UV": [
+        [
+          0.13110299408435822,
+          0.960515022277832
+        ],
+        [
+          0.131522998213768,
+          0.958745002746582
+        ],
+        [
+          0.1319420039653778,
+          0.956974983215332
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 5.538824607298487e-11,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "float64": {
+        "geom_cross_length": 5.5762958785799724e-11,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "source_raw_corner_normal": [
+        0.5611931681632996,
+        -0.8239853382110596,
+        0.07816851884126663
+      ],
+      "Cycles_packed_normal_uint32": 938324246,
+      "Cycles_decoded_corner_normal": [
+        0.5612046122550964,
+        -0.8239769339561462,
+        0.07817523181438446
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "raw",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.767886835870371e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.7700196217520634e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.06208318471908569,
+        -0.9813458919525146,
+        -0.1819504201412201
+      ],
+      "Cycles_packed_normal_uint32": 108829053,
+      "Cycles_decoded_corner_normal": [
+        0.06207738444209099,
+        -0.9813462495803833,
+        -0.18195022642612457
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "raw",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2851217302010127e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2853201046296695e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9444862604141235,
+        -0.14276587963104248,
+        0.29591143131256104
+      ],
+      "Cycles_packed_normal_uint32": 1925785752,
+      "Cycles_decoded_corner_normal": [
+        -0.9444944858551025,
+        -0.14277900755405426,
+        0.29587873816490173
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "raw",
+      "triangle_row": 126773,
+      "local_corner": 2,
+      "source_corner": 254069,
+      "source_vertex": 62162,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2851217302010127e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2853201046296695e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9388206005096436,
+        -0.2407991886138916,
+        0.2462347149848938
+      ],
+      "Cycles_packed_normal_uint32": 1784818617,
+      "Cycles_decoded_corner_normal": [
+        -0.9388129711151123,
+        -0.24078989028930664,
+        0.24627286195755005
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "raw",
+      "triangle_row": 126815,
+      "local_corner": 2,
+      "source_corner": 254160,
+      "source_vertex": 62757,
+      "source_polygon": 63672,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254163,
+        254159,
+        254160
+      ],
+      "triangle_source_vertices": [
+        62655,
+        62654,
+        62757
+      ],
+      "triangle_UV": [
+        [
+          0.13110299408435822,
+          0.960515022277832
+        ],
+        [
+          0.131522998213768,
+          0.958745002746582
+        ],
+        [
+          0.1319420039653778,
+          0.956974983215332
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 5.538824607298487e-11,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "float64": {
+        "geom_cross_length": 5.5762958785799724e-11,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "source_raw_corner_normal": [
+        -0.009513643570244312,
+        -0.9911921620368958,
+        0.13208919763565063
+      ],
+      "Cycles_packed_normal_uint32": 268467948,
+      "Cycles_decoded_corner_normal": [
+        -0.009524215944111347,
+        -0.9911936521530151,
+        0.13207735121250153
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "rest",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.767886835870371e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.7700196217520634e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.06208318471908569,
+        -0.9813458919525146,
+        -0.1819504201412201
+      ],
+      "Cycles_packed_normal_uint32": 108829053,
+      "Cycles_decoded_corner_normal": [
+        0.06207738444209099,
+        -0.9813462495803833,
+        -0.18195022642612457
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "rest",
+      "triangle_row": 126527,
+      "local_corner": 2,
+      "source_corner": 253495,
+      "source_vertex": 55800,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.767886835870371e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.7700196217520634e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.054655492305755615,
+        -0.981001079082489,
+        -0.1861441433429718
+      ],
+      "Cycles_packed_normal_uint32": 96115002,
+      "Cycles_decoded_corner_normal": [
+        0.05466350540518761,
+        -0.9809979796409607,
+        -0.18615806102752686
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "rest",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2851217302010127e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2853201046296695e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9444862604141235,
+        -0.14276587963104248,
+        0.29591143131256104
+      ],
+      "Cycles_packed_normal_uint32": 1925785752,
+      "Cycles_decoded_corner_normal": [
+        -0.9444944858551025,
+        -0.14277900755405426,
+        0.29587873816490173
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "rest",
+      "triangle_row": 126828,
+      "local_corner": 0,
+      "source_corner": 254184,
+      "source_vertex": 62945,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 2.439380364371857e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 2.4419239434055505e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        0.2517244219779968,
+        -0.2760981023311615,
+        -0.927579939365387
+      ],
+      "Cycles_packed_normal_uint32": 371451831,
+      "Cycles_decoded_corner_normal": [
+        0.25170114636421204,
+        -0.27608510851860046,
+        -0.9275901913642883
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "variant": "rest",
+      "triangle_row": 126828,
+      "local_corner": 2,
+      "source_corner": 254186,
+      "source_vertex": 62856,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 2.439380364371857e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 2.4419239434055505e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        -0.03428592532873154,
+        -0.09766737371683121,
+        -0.994628369808197
+      ],
+      "Cycles_packed_normal_uint32": 65342233,
+      "Cycles_decoded_corner_normal": [
+        -0.034277960658073425,
+        -0.09767666459083557,
+        -0.9946277737617493
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "triangle_row": 125806,
+      "local_corner": 0,
+      "source_corner": 251870,
+      "source_vertex": 27595,
+      "source_polygon": 63032,
+      "source_material_slot": 2,
+      "triangle_source_corners": [
+        251870,
+        251871,
+        251872
+      ],
+      "triangle_source_vertices": [
+        27595,
+        28130,
+        28131
+      ],
+      "triangle_UV": [
+        [
+          0.3134700059890747,
+          0.4868119955062866
+        ],
+        [
+          0.3148069977760315,
+          0.48689699172973633
+        ],
+        [
+          0.31614500284194946,
+          0.48698198795318604
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.4504334400200491e-09,
+        "UV_signed_double_area": -8.613199042883934e-11
+      },
+      "float64": {
+        "geom_cross_length": 1.45054218160775e-09,
+        "UV_signed_double_area": -8.612488500148174e-11
+      },
+      "source_raw_corner_normal": [
+        -0.5962279438972473,
+        -0.42132291197776794,
+        0.6833734512329102
+      ],
+      "Cycles_packed_normal_uint32": 1615549217,
+      "Cycles_decoded_corner_normal": [
+        -0.5962518453598022,
+        -0.42131873965263367,
+        0.6833550333976746
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "triangle_row": 126476,
+      "local_corner": 2,
+      "source_corner": 253378,
+      "source_vertex": 53803,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.0948703749180666e-10,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 1.0914205603456376e-10,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8940902948379517,
+        0.4028126299381256,
+        0.19581784307956696
+      ],
+      "Cycles_packed_normal_uint32": 2726966101,
+      "Cycles_decoded_corner_normal": [
+        -0.8940865397453308,
+        0.40282073616981506,
+        0.19581830501556396
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4511327129393976e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.453178335716452e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.11653789132833481,
+        -0.9765959978103638,
+        -0.18077389895915985
+      ],
+      "Cycles_packed_normal_uint32": 196517343,
+      "Cycles_decoded_corner_normal": [
+        0.11655397713184357,
+        -0.9765966534614563,
+        -0.18075984716415405
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2432960761497043e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2428977673325276e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9596900939941406,
+        -0.18444634974002838,
+        0.2120717614889145
+      ],
+      "Cycles_packed_normal_uint32": 1855399276,
+      "Cycles_decoded_corner_normal": [
+        -0.9596938490867615,
+        -0.1844474822282791,
+        0.2120535522699356
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "triangle_row": 126773,
+      "local_corner": 2,
+      "source_corner": 254069,
+      "source_vertex": 62162,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2432960761497043e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2428977673325276e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9588716626167297,
+        -0.25396114587783813,
+        0.1267630010843277
+      ],
+      "Cycles_packed_normal_uint32": 1740317793,
+      "Cycles_decoded_corner_normal": [
+        -0.9588677883148193,
+        -0.25397971272468567,
+        0.1267547458410263
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "triangle_row": 126815,
+      "local_corner": 2,
+      "source_corner": 254160,
+      "source_vertex": 62757,
+      "source_polygon": 63672,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254163,
+        254159,
+        254160
+      ],
+      "triangle_source_vertices": [
+        62655,
+        62654,
+        62757
+      ],
+      "triangle_UV": [
+        [
+          0.13110299408435822,
+          0.960515022277832
+        ],
+        [
+          0.131522998213768,
+          0.958745002746582
+        ],
+        [
+          0.1319420039653778,
+          0.956974983215332
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 2.3964630280204346e-10,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "float64": {
+        "geom_cross_length": 2.39865535661814e-10,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "source_raw_corner_normal": [
+        -0.07638883590698242,
+        -0.9560110569000244,
+        -0.2832094430923462
+      ],
+      "Cycles_packed_normal_uint32": 124738819,
+      "Cycles_decoded_corner_normal": [
+        -0.07640557736158371,
+        -0.9560130834579468,
+        -0.28319844603538513
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "canonical",
+      "triangle_row": 126828,
+      "local_corner": 2,
+      "source_corner": 254186,
+      "source_vertex": 62856,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.745377979453735e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 4.747028589757129e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        -0.012157176621258259,
+        0.3176656663417816,
+        -0.9481248259544373
+      ],
+      "Cycles_packed_normal_uint32": 4274462673,
+      "Cycles_decoded_corner_normal": [
+        -0.01216818392276764,
+        0.31766068935394287,
+        -0.9481264352798462
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 125806,
+      "local_corner": 0,
+      "source_corner": 251870,
+      "source_vertex": 27595,
+      "source_polygon": 63032,
+      "source_material_slot": 2,
+      "triangle_source_corners": [
+        251870,
+        251871,
+        251872
+      ],
+      "triangle_source_vertices": [
+        27595,
+        28130,
+        28131
+      ],
+      "triangle_UV": [
+        [
+          0.3134700059890747,
+          0.4868119955062866
+        ],
+        [
+          0.3148069977760315,
+          0.48689699172973633
+        ],
+        [
+          0.31614500284194946,
+          0.48698198795318604
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.4504334400200491e-09,
+        "UV_signed_double_area": -8.613199042883934e-11
+      },
+      "float64": {
+        "geom_cross_length": 1.45054218160775e-09,
+        "UV_signed_double_area": -8.612488500148174e-11
+      },
+      "source_raw_corner_normal": [
+        -0.5962279438972473,
+        -0.42132291197776794,
+        0.6833734512329102
+      ],
+      "Cycles_packed_normal_uint32": 1615549217,
+      "Cycles_decoded_corner_normal": [
+        -0.5962518453598022,
+        -0.42131873965263367,
+        0.6833550333976746
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 125806,
+      "local_corner": 2,
+      "source_corner": 251872,
+      "source_vertex": 28131,
+      "source_polygon": 63032,
+      "source_material_slot": 2,
+      "triangle_source_corners": [
+        251870,
+        251871,
+        251872
+      ],
+      "triangle_source_vertices": [
+        27595,
+        28130,
+        28131
+      ],
+      "triangle_UV": [
+        [
+          0.3134700059890747,
+          0.4868119955062866
+        ],
+        [
+          0.3148069977760315,
+          0.48689699172973633
+        ],
+        [
+          0.31614500284194946,
+          0.48698198795318604
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.4504334400200491e-09,
+        "UV_signed_double_area": -8.613199042883934e-11
+      },
+      "float64": {
+        "geom_cross_length": 1.45054218160775e-09,
+        "UV_signed_double_area": -8.612488500148174e-11
+      },
+      "source_raw_corner_normal": [
+        -0.37580302357673645,
+        -0.5408656597137451,
+        0.7524868249893188
+      ],
+      "Cycles_packed_normal_uint32": 1451647790,
+      "Cycles_decoded_corner_normal": [
+        -0.3758041262626648,
+        -0.5408471822738647,
+        0.7524995803833008
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126403,
+      "local_corner": 2,
+      "source_corner": 253215,
+      "source_vertex": 49517,
+      "source_polygon": 63405,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253213,
+        253214,
+        253215
+      ],
+      "triangle_source_vertices": [
+        49249,
+        49528,
+        49517
+      ],
+      "triangle_UV": [
+        [
+          0.28085198998451233,
+          0.6016020178794861
+        ],
+        [
+          0.2791759967803955,
+          0.6019179821014404
+        ],
+        [
+          0.2775000035762787,
+          0.6022340059280396
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.8772814292542535e-08,
+        "UV_signed_double_area": -9.981704351957887e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.877268169019893e-08,
+        "UV_signed_double_area": -9.989697957735189e-11
+      },
+      "source_raw_corner_normal": [
+        0.3115829825401306,
+        0.42145195603370667,
+        0.8516421318054199
+      ],
+      "Cycles_packed_normal_uint32": 2718603562,
+      "Cycles_decoded_corner_normal": [
+        0.3115635812282562,
+        0.4214390516281128,
+        0.8516556024551392
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126476,
+      "local_corner": 0,
+      "source_corner": 253376,
+      "source_vertex": 53506,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.0948703749180666e-10,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 1.0914205603456376e-10,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8950885534286499,
+        0.38806837797164917,
+        0.2195892333984375
+      ],
+      "Cycles_packed_normal_uint32": 2701996994,
+      "Cycles_decoded_corner_normal": [
+        -0.8950914740562439,
+        0.3880526125431061,
+        0.21960532665252686
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126476,
+      "local_corner": 2,
+      "source_corner": 253378,
+      "source_vertex": 53803,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.0948703749180666e-10,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 1.0914205603456376e-10,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8940902948379517,
+        0.4028126299381256,
+        0.19581784307956696
+      ],
+      "Cycles_packed_normal_uint32": 2726966101,
+      "Cycles_decoded_corner_normal": [
+        -0.8940865397453308,
+        0.40282073616981506,
+        0.19581830501556396
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4511327129393976e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.453178335716452e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.11653789132833481,
+        -0.9765959978103638,
+        -0.18077389895915985
+      ],
+      "Cycles_packed_normal_uint32": 196517343,
+      "Cycles_decoded_corner_normal": [
+        0.11655397713184357,
+        -0.9765966534614563,
+        -0.18075984716415405
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126527,
+      "local_corner": 2,
+      "source_corner": 253495,
+      "source_vertex": 55800,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4511327129393976e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.453178335716452e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.10911571979522705,
+        -0.9766637682914734,
+        -0.18499095737934113
+      ],
+      "Cycles_packed_normal_uint32": 184458655,
+      "Cycles_decoded_corner_normal": [
+        0.10913040488958359,
+        -0.9766666293144226,
+        -0.18496716022491455
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2432960761497043e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2428977673325276e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9596900939941406,
+        -0.18444634974002838,
+        0.2120717614889145
+      ],
+      "Cycles_packed_normal_uint32": 1855399276,
+      "Cycles_decoded_corner_normal": [
+        -0.9596938490867615,
+        -0.1844474822282791,
+        0.2120535522699356
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126773,
+      "local_corner": 2,
+      "source_corner": 254069,
+      "source_vertex": 62162,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2432960761497043e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2428977673325276e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9588716626167297,
+        -0.25396114587783813,
+        0.1267630010843277
+      ],
+      "Cycles_packed_normal_uint32": 1740317793,
+      "Cycles_decoded_corner_normal": [
+        -0.9588677883148193,
+        -0.25397971272468567,
+        0.1267547458410263
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126815,
+      "local_corner": 0,
+      "source_corner": 254163,
+      "source_vertex": 62655,
+      "source_polygon": 63672,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254163,
+        254159,
+        254160
+      ],
+      "triangle_source_vertices": [
+        62655,
+        62654,
+        62757
+      ],
+      "triangle_UV": [
+        [
+          0.13110299408435822,
+          0.960515022277832
+        ],
+        [
+          0.131522998213768,
+          0.958745002746582
+        ],
+        [
+          0.1319420039653778,
+          0.956974983215332
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 2.3964630280204346e-10,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "float64": {
+        "geom_cross_length": 2.39865535661814e-10,
+        "UV_signed_double_area": -1.7671482055447996e-09
+      },
+      "source_raw_corner_normal": [
+        0.5051125884056091,
+        -0.8215784430503845,
+        -0.2643296420574188
+      ],
+      "Cycles_packed_normal_uint32": 681819622,
+      "Cycles_decoded_corner_normal": [
+        0.5051106214523315,
+        -0.8215875029563904,
+        -0.26430535316467285
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126828,
+      "local_corner": 0,
+      "source_corner": 254184,
+      "source_vertex": 62945,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.745377979453735e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 4.747028589757129e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        0.2598845064640045,
+        0.10791114717721939,
+        -0.9595912098884583
+      ],
+      "Cycles_packed_normal_uint32": 3874551191,
+      "Cycles_decoded_corner_normal": [
+        0.25986483693122864,
+        0.10791574418544769,
+        -0.9595960378646851
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "raw",
+      "triangle_row": 126828,
+      "local_corner": 2,
+      "source_corner": 254186,
+      "source_vertex": 62856,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.745377979453735e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 4.747028589757129e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        -0.012157176621258259,
+        0.3176656663417816,
+        -0.9481248259544373
+      ],
+      "Cycles_packed_normal_uint32": 4274462673,
+      "Cycles_decoded_corner_normal": [
+        -0.01216818392276764,
+        0.31766068935394287,
+        -0.9481264352798462
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "rest",
+      "triangle_row": 126476,
+      "local_corner": 2,
+      "source_corner": 253378,
+      "source_vertex": 53803,
+      "source_polygon": 63450,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253376,
+        253377,
+        253378
+      ],
+      "triangle_source_vertices": [
+        53506,
+        53656,
+        53803
+      ],
+      "triangle_UV": [
+        [
+          0.1283089965581894,
+          0.5894520282745361
+        ],
+        [
+          0.12811699509620667,
+          0.5875830054283142
+        ],
+        [
+          0.12792399525642395,
+          0.5857139825820923
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 1.0948703749180666e-10,
+        "UV_signed_double_area": -1.8659989109437447e-09
+      },
+      "float64": {
+        "geom_cross_length": 1.0914205603456376e-10,
+        "UV_signed_double_area": -1.8659909173379674e-09
+      },
+      "source_raw_corner_normal": [
+        -0.8940902948379517,
+        0.4028126299381256,
+        0.19581784307956696
+      ],
+      "Cycles_packed_normal_uint32": 2726966101,
+      "Cycles_decoded_corner_normal": [
+        -0.8940865397453308,
+        0.40282073616981506,
+        0.19581830501556396
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "rest",
+      "triangle_row": 126527,
+      "local_corner": 0,
+      "source_corner": 253493,
+      "source_vertex": 55553,
+      "source_polygon": 63483,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        253493,
+        253494,
+        253495
+      ],
+      "triangle_source_vertices": [
+        55553,
+        55809,
+        55800
+      ],
+      "triangle_UV": [
+        [
+          0.49422600865364075,
+          0.5355920195579529
+        ],
+        [
+          0.49424898624420166,
+          0.5372400283813477
+        ],
+        [
+          0.49427199363708496,
+          0.5388889908790588
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.4511327129393976e-10,
+        "UV_signed_double_area": -2.7199575924896635e-11
+      },
+      "float64": {
+        "geom_cross_length": 3.453178335716452e-10,
+        "UV_signed_double_area": -2.7201352281736035e-11
+      },
+      "source_raw_corner_normal": [
+        0.11653789132833481,
+        -0.9765959978103638,
+        -0.18077389895915985
+      ],
+      "Cycles_packed_normal_uint32": 196517343,
+      "Cycles_decoded_corner_normal": [
+        0.11655397713184357,
+        -0.9765966534614563,
+        -0.18075984716415405
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "rest",
+      "triangle_row": 126773,
+      "local_corner": 0,
+      "source_corner": 254067,
+      "source_vertex": 62021,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2432960761497043e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2428977673325276e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9596900939941406,
+        -0.18444634974002838,
+        0.2120717614889145
+      ],
+      "Cycles_packed_normal_uint32": 1855399276,
+      "Cycles_decoded_corner_normal": [
+        -0.9596938490867615,
+        -0.1844474822282791,
+        0.2120535522699356
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "rest",
+      "triangle_row": 126773,
+      "local_corner": 2,
+      "source_corner": 254069,
+      "source_vertex": 62162,
+      "source_polygon": 63647,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254067,
+        254068,
+        254069
+      ],
+      "triangle_source_vertices": [
+        62021,
+        62291,
+        62162
+      ],
+      "triangle_UV": [
+        [
+          0.20219899713993073,
+          0.41001299023628235
+        ],
+        [
+          0.203916996717453,
+          0.4093419909477234
+        ],
+        [
+          0.2056339979171753,
+          0.40867099165916443
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 3.2432960761497043e-09,
+        "UV_signed_double_area": -6.698428478557616e-10
+      },
+      "float64": {
+        "geom_cross_length": 3.2428977673325276e-09,
+        "UV_signed_double_area": -6.699107935048687e-10
+      },
+      "source_raw_corner_normal": [
+        -0.9588716626167297,
+        -0.25396114587783813,
+        0.1267630010843277
+      ],
+      "Cycles_packed_normal_uint32": 1740317793,
+      "Cycles_decoded_corner_normal": [
+        -0.9588677883148193,
+        -0.25397971272468567,
+        0.1267547458410263
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "variant": "rest",
+      "triangle_row": 126828,
+      "local_corner": 2,
+      "source_corner": 254186,
+      "source_vertex": 62856,
+      "source_polygon": 63678,
+      "source_material_slot": 0,
+      "triangle_source_corners": [
+        254184,
+        254185,
+        254186
+      ],
+      "triangle_source_vertices": [
+        62945,
+        63025,
+        62856
+      ],
+      "triangle_UV": [
+        [
+          0.822380006313324,
+          0.7318869829177856
+        ],
+        [
+          0.8230590224266052,
+          0.7336670160293579
+        ],
+        [
+          0.8237379789352417,
+          0.7354459762573242
+        ]
+      ],
+      "float32": {
+        "geom_cross_length": 4.745377979453735e-10,
+        "UV_signed_double_area": -6.223217496881261e-10
+      },
+      "float64": {
+        "geom_cross_length": 4.747028589757129e-10,
+        "UV_signed_double_area": -6.224070148164174e-10
+      },
+      "source_raw_corner_normal": [
+        -0.012157176621258259,
+        0.3176656663417816,
+        -0.9481248259544373
+      ],
+      "Cycles_packed_normal_uint32": 4274462673,
+      "Cycles_decoded_corner_normal": [
+        -0.01216818392276764,
+        0.31766068935394287,
+        -0.9481264352798462
+      ],
+      "source_fan_custom_normal_short2": [
+        0,
+        0
+      ],
+      "tangent": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sign": -1.0
+    }
+  ],
+  "files": [
+    {
+      "path": "upstream/Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "upstream/convert.h",
+      "bytes": 2305,
+      "sha256": "7d102a9914c1561aad0f535d9a9011eb6350656fe77b196c040624261d6b222c"
+    },
+    {
+      "path": "upstream/mikk_atomic_hash_set.hh",
+      "bytes": 5702,
+      "sha256": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b"
+    },
+    {
+      "path": "upstream/mikk_float3.hh",
+      "bytes": 2315,
+      "sha256": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a"
+    },
+    {
+      "path": "upstream/mikk_util.hh",
+      "bytes": 4384,
+      "sha256": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585"
+    },
+    {
+      "path": "upstream/mikktspace.hh",
+      "bytes": 26301,
+      "sha256": "6a196ad4b95b358bbd35add358a81a0ff1aab9828b38469072f0f6409e31d907"
+    },
+    {
+      "path": "upstream/normal.h",
+      "bytes": 830,
+      "sha256": "26e7daa1c532479aa0b70da367a98fe970e7460a6e85f752103e7a43d2a6423a"
+    },
+    {
+      "path": "upstream/pinned_wrapper.inc",
+      "bytes": 3227,
+      "sha256": "900bad00fc16bb90f815e916efdffe2b79f28bf7204b57441bfc5b3912cadb12"
+    },
+    {
+      "path": "upstream/svm.h",
+      "bytes": 23328,
+      "sha256": "1432bcb1ecd378446eb77ecdcf38687090a084d299682f7fa598c110923c84e7"
+    },
+    {
+      "path": "upstream/tex_coord.h",
+      "bytes": 13503,
+      "sha256": "52c145fea4b0631787355b525ad0279299d3d638f9f8bac0c6639648bef3ec13"
+    }
+  ],
+  "source_build": "9e2066aef7ef",
+  "source_provenance": {
+    "convert.h": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/kernel/svm/convert.h",
+    "normal.h": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/kernel/svm/normal.h",
+    "svm.h": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/kernel/svm/svm.h",
+    "tex_coord.h": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/kernel/svm/tex_coord.h"
+  },
+  "reference_inputs": {
+    "algorithm_manifest": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\PINNED_CYCLES_TRIANGLE_MIKK_CPU_MANIFEST.json",
+      "sha256": "0275bf127cc81633f311a84042e734e367e79abb83f717c0c0bba5ed2e00dd68"
+    },
+    "input_manifest": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\DYNAMIC_BODY_CYCLES_INPUT_MANIFEST.json",
+      "sha256": "78bebe4a6117a0407241e8c19b724d944f53ec9d299e0820294071040365ccdd"
+    }
+  },
+  "metadata_failure_correction": "First plain-Python attempt used polygon_material_index; actual source archive key is polygon_material_slot. Fixed key and reran metadata only; no NPZ/native/source writes."
+}
