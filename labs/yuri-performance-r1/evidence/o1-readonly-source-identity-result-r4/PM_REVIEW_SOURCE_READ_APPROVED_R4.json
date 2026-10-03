@@ -1,0 +1,39 @@
+{
+  "scope": "INSTALLED_BLENDER_SOURCE_DATA_READ_ONLY",
+  "PM_reviewed_exact_final_guard_verifier_argv_and_same_guard_probes": true,
+  "human_large_resource_acquisition_approved": false,
+  "custom_native_build_trace_capture_approved": false,
+  "guard_sha256": "121f4cadf7eeac0f7508d2f253da3b8533a0b6422b075fb6e249596ef315d4f6",
+  "verifier_sha256": "65f06067bfc117e4290cc9520d45db0df2952dd03da9dd063e6a48c1704f54ec",
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--disable-autoexec",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "-t",
+    "2",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_recipe_verifier_r4.py"
+  ],
+  "probe_manifest_sha256": "5e21911994d473d76eec7915924a905fa13de29c3dae98786fdbbe9b393e9ce3",
+  "reviewed_utc": "2026-10-03T13:05:30.596663+00:00",
+  "review_basis": "full final guard source, read-only verifier equivalent except output directory, actual same-guard normal and timeout raw receipts independently read",
+  "limits": {
+    "cpu_affinity_mask": 3,
+    "job_and_process_bytes": 8589934592,
+    "timeout_seconds": 120,
+    "minimum_free_RAM_bytes": 12884901888,
+    "minimum_free_C_bytes": 107374182400
+  },
+  "excluded": [
+    "render/export/save/pose/action writes",
+    "native numerical capture/build",
+    "network acquisition",
+    "GUI Blender attachment",
+    "canonical promotion"
+  ],
+  "result_pending": "Live source original recipe data identity NOT_RUN at approval time"
+}

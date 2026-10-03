@@ -1,0 +1,27 @@
+00:09.969  blend            | Read blend: "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\local\model-handoff-r4\Character_Master_NeckSkin_R4.blend"
+BlenderMCP addon registered
+[INFO ] services.locationservice ...............: Not adding link to MakeHuman user data, since neither explicit path nor auto-discovery is set in preferences.
+[INFO ] mpfb.init ..............................: Build info 20260722
+[INFO ] mpfb.init ..............................: Online access preference is not enabled. Not checking if MakeHuman is online.
+[INFO ] mpfb.init ..............................: MPFB initialization has finished.
+{"scope": "SOURCE_DATA_IDENTITY_ONLY", "native_numeric_acceptance": false, "render_export_save_action_pose_mutation": false, "blender_version": "5.2.1 LTS", "blender_build_hash": "9e2066aef7ef", "status": "LIVE_ORIGINAL_FULL_RECIPE_BYTE_IDENTICAL", "vertices": 63561, "slots": 57, "CSR_entries": 304799, "groups": 58, "mask_group": 52, "zero_weight_entries": 37310, "source_post_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa", "recipe_post_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"}
+Higgsfield SDK account lookup failed
+Traceback (most recent call last):
+  File "C:\Users\JAEWAN\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\higgsfield_blender\fnf\account.py", line 553, in _sdk_account_summary
+    balance = get_sdk_client(workspace_id).account.get_balance(timeout=30)
+  File "C:\Users\JAEWAN\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\higgsfield\resources\account.py", line 29, in get_balance
+    return Balance.from_dict(self._get_json("/developer/v2alpha/account/balance", **options))
+                             ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JAEWAN\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\higgsfield\resources\_base.py", line 41, in _get_json
+    return self._request("get", url, params=params, **options).json()
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JAEWAN\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\higgsfield\resources\_base.py", line 30, in _request
+    return self._client._request(method, url, params=params, json=json, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JAEWAN\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\higgsfield\_client.py", line 173, in _request
+    raise HiggsfieldError.from_response(response)
+higgsfield._exceptions.HiggsfieldError: Request failed with status 400
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

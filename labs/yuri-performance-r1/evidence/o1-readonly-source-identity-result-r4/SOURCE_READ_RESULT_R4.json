@@ -1,0 +1,95 @@
+{
+  "status": "SOURCE_DATA_VERIFIER_PASS_GUARD_FAIL_TERMINAL_IMAGE_QUERY_RACE",
+  "scope": "FULL_ORIGINAL_SOURCE_RECIPE_DATA_IDENTITY_ONLY",
+  "actual_attempts": 1,
+  "restarted": false,
+  "repair_or_script_change_for_approval": false,
+  "source_verifier": {
+    "scope": "SOURCE_DATA_IDENTITY_ONLY",
+    "native_numeric_acceptance": false,
+    "render_export_save_action_pose_mutation": false,
+    "blender_version": "5.2.1 LTS",
+    "blender_build_hash": "9e2066aef7ef",
+    "status": "LIVE_ORIGINAL_FULL_RECIPE_BYTE_IDENTICAL",
+    "vertices": 63561,
+    "slots": 57,
+    "CSR_entries": 304799,
+    "groups": 58,
+    "mask_group": 52,
+    "zero_weight_entries": 37310,
+    "source_post_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "recipe_post_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "guard_status": "FAIL",
+  "guard_error": "KeyError('executable')",
+  "owned_child_pid": 132552,
+  "owned_child_creation_FILETIME": 134355063999433514,
+  "live_authoritative_identity": {
+    "pid": 132552,
+    "parent_pid": 132924,
+    "snapshot_exe": "blender.exe",
+    "executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "creation_FILETIME": 134355063999433514,
+    "exit_FILETIME": 0,
+    "in_this_owned_job": true,
+    "exit_code_query": 259
+  },
+  "terminal_identity": {
+    "pid": 132552,
+    "parent_pid": 132924,
+    "snapshot_exe": "blender.exe",
+    "image_error": 31,
+    "creation_FILETIME": 134355063999433514,
+    "exit_FILETIME": 134355064153704726,
+    "in_this_owned_job": true,
+    "exit_code_query": 0
+  },
+  "terminal_accounting_after_identity_query": {
+    "active": 0,
+    "total": 1,
+    "limit_terminated": 0
+  },
+  "final_PID_list_in_guard_receipt": "NOT_CAPTURED_AFTER_ASSERTION; no fabrication",
+  "owned_handle_signaled_after_job_close": true,
+  "wall_seconds": 15.455753399990499,
+  "resource_samples": 330,
+  "immutable_input_hashes_before_after": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "approval_receipt_sha256": "30b853e5cd97cebc0706e0f1b3d4e701fde9a56d6cd6ee7f6d388dc668e457d8",
+  "startup_addon_side_effect": "Existing user preference add-ons loaded despite --disable-autoexec. Log shows BlenderMCP registered/unregistered, MPFB initialization, Higgsfield SDK account balance lookup request failedHTTP400. No generation/render/export requested; unintended account lookup means startup isolation is not accepted.",
+  "whole_guard_or_isolated_job_acceptance": false,
+  "native_numeric_acceptance": false,
+  "PBR_Unity_canonical_appearance_promotion": false,
+  "human_large_resource_acquisition_approved": false,
+  "custom_native_build_trace_capture_approved": false,
+  "next_bounded_review": "PM review failed guard receipt and actual data PASS; separately reviewed shutdown-race-safe, startup-addon-isolated guard required before any new run",
+  "files": {
+    "PM_REVIEW_SOURCE_READ_APPROVED_R4.json": {
+      "bytes": 1818,
+      "sha256": "30b853e5cd97cebc0706e0f1b3d4e701fde9a56d6cd6ee7f6d388dc668e457d8"
+    },
+    "r4_readonly_recipe_verifier_r4.py": {
+      "bytes": 3637,
+      "sha256": "65f06067bfc117e4290cc9520d45db0df2952dd03da9dd063e6a48c1704f54ec"
+    },
+    "r4_readonly_source_job_guard_r4.py": {
+      "bytes": 16601,
+      "sha256": "121f4cadf7eeac0f7508d2f253da3b8533a0b6422b075fb6e249596ef315d4f6"
+    },
+    "source-identity.json": {
+      "bytes": 590,
+      "sha256": "05920929ea65dc6cc8d5ca1a85d8897faab67a5d3bca3bd7d7e85499da5b11fb"
+    },
+    "source-read.json": {
+      "bytes": 286587,
+      "sha256": "2fda3a963b03e944f48eab8bbe55f364a0d9bf0a95c056129b5ab4195ab29aa7"
+    },
+    "source-read.log": {
+      "bytes": 2927,
+      "sha256": "7ebfe451203fffae1a2c2f9b23345519306446163ee126d3a05aa36beb7cf6d1"
+    }
+  }
+}
