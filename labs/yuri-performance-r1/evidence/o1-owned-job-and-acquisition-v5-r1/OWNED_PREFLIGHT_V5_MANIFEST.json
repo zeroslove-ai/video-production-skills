@@ -1,0 +1,149 @@
+{
+  "status": "DONE_SCOPED_ACTUAL_OWNED_CHILD_PREFLIGHT_V5_ACTION_EXECUTION_HOLD",
+  "preflight": {
+    "review_mode": "HARMLESS_OWNED_CHILD_PREFLIGHT_ONLY",
+    "status": "PASS_SUCCESS_AND_TIMEOUT_OWNED_JOB",
+    "cases": [
+      {
+        "case": "success",
+        "status": "PASS",
+        "pid": 131604,
+        "exit_code_observed": 0,
+        "immediate_active_after_wait": 1,
+        "active_after_cleanup_wait": 0,
+        "cleanup_wait_seconds": 0.025210299994796515,
+        "thread_id": 121692,
+        "exe_SHA256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+        "created_suspended": true,
+        "assigned_before_resume": true,
+        "active_before_resume": 1,
+        "exit_code": 0,
+        "active_after_exit": 0,
+        "timeout_forced": false,
+        "timeout_seconds": 3,
+        "wall_seconds": 0.12411499995505437,
+        "RAM_limit_bytes": 268435456,
+        "CPU_affinity_mask": 3,
+        "active_process_limit": 1,
+        "unrelated_process_handles": 0,
+        "large_download_approval_flag_used": false
+      },
+      {
+        "case": "timeout",
+        "status": "PASS",
+        "pid": 49028,
+        "exit_code_observed": 88,
+        "immediate_active_after_wait": 0,
+        "active_after_cleanup_wait": 0,
+        "cleanup_wait_seconds": 1.200009137392044e-06,
+        "thread_id": 112216,
+        "exe_SHA256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+        "created_suspended": true,
+        "assigned_before_resume": true,
+        "active_before_resume": 1,
+        "exit_code": 88,
+        "active_after_exit": 0,
+        "timeout_forced": true,
+        "timeout_seconds": 0.3,
+        "wall_seconds": 0.31810229999246076,
+        "RAM_limit_bytes": 268435456,
+        "CPU_affinity_mask": 3,
+        "active_process_limit": 1,
+        "unrelated_process_handles": 0,
+        "large_download_approval_flag_used": false
+      }
+    ],
+    "source": {
+      "script": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_owned_windows_job_preflight.py",
+      "SHA256": "70d5beae93f0c702596c8c669e619bf4d60e7ffe221f73b093ffdf4a7973a913"
+    },
+    "download_build_Blender_GPU_native_capture_jobs": 0,
+    "actual_acquisition_supervisor_capture_pipeline": "UNRUN; this preflight validates SDK job allocation/assignment/cleanup only",
+    "memory_limit_enforcement_child_spawn_limits_negative_tests": "NOT_RUN_NOT_CLAIMED"
+  },
+  "source_R4_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "Action_library_SHA256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+  "GUI_PID_preserved": 129152,
+  "harmless_child_processes": 2,
+  "failed_initial_harmless_attempts": 1,
+  "large_download_build_Blender_GPU_capture_jobs": 0,
+  "actual_native_Cycles_PBR": "HOLD",
+  "V4_R2_packet_unchanged_SHA256": "4721744a127dba4b92bad0a3fa5f7f2412245641021d617baa6f80ebf070b0a7",
+  "files": [
+    {
+      "path": "ACQUISITION_REVIEW_TEMPLATE_NOT_APPROVED.json",
+      "bytes": 1002,
+      "sha256": "2c83cab515cb12bc2d408c06a4366d45af5e1ef4eb2352ab6fd748303e0ca778"
+    },
+    {
+      "path": "OWNED_JOB_PREFLIGHT_AND_V5_ACTION.md",
+      "bytes": 2230,
+      "sha256": "3ae8d2b5833c8642266ef0fd8b5b8ee960c168d0aeed7246594ed5422e75414e"
+    },
+    {
+      "path": "preflight/actual-attempt-r2/OWNED_WINDOWS_JOB_PREFLIGHT_MANIFEST.json",
+      "bytes": 2309,
+      "sha256": "33a2d0cc4bf68b52a29cd2d42edda8b4c73c00de34bc3ceefc3e76adc37e068c"
+    },
+    {
+      "path": "preflight/actual-attempt-r2/success.json",
+      "bytes": 728,
+      "sha256": "e5751e915dfc0a92c7f04b332eee04b63005e5d7db3237d1568808c1dbafa516"
+    },
+    {
+      "path": "preflight/actual-attempt-r2/success.log",
+      "bytes": 22,
+      "sha256": "13ec7831ab378878d112243dbd39cd25c701e831b62042620679fcb4430617a3"
+    },
+    {
+      "path": "preflight/actual-attempt-r2/timeout.json",
+      "bytes": 731,
+      "sha256": "2b3f0f56d7f75d2a57aba0d055270cabae9fc82a6dcdfe837be04cfefc9083d8"
+    },
+    {
+      "path": "preflight/actual-attempt-r2/timeout.log",
+      "bytes": 22,
+      "sha256": "13ec7831ab378878d112243dbd39cd25c701e831b62042620679fcb4430617a3"
+    },
+    {
+      "path": "preflight/actual-attempt-r2/used_script.py",
+      "bytes": 6593,
+      "sha256": "70d5beae93f0c702596c8c669e619bf4d60e7ffe221f73b093ffdf4a7973a913"
+    },
+    {
+      "path": "preflight/failed-attempt-r1/original_failed_script.py",
+      "bytes": 6090,
+      "sha256": "fb652684c35267ca821938d62ca36439ee5632c9515143461881cc6678639d25"
+    },
+    {
+      "path": "preflight/failed-attempt-r1/success.json",
+      "bytes": 46,
+      "sha256": "33c302bc35c2b2c6bb63101e784f2b95021366df6b95e3921b20b0e24728906a"
+    },
+    {
+      "path": "preflight/failed-attempt-r1/success.log",
+      "bytes": 22,
+      "sha256": "13ec7831ab378878d112243dbd39cd25c701e831b62042620679fcb4430617a3"
+    },
+    {
+      "path": "V5_DRY_SYNTAX_IMPORT.json",
+      "bytes": 1300,
+      "sha256": "8ea9daaf02539ea10d2a4848972997b560c025b2c911070eb4fa6dc27440cf14"
+    },
+    {
+      "path": "workflow/owned_windows_capture_supervisor_v5.py",
+      "bytes": 10498,
+      "sha256": "86d62b17bdbd0b03de7f33c52a2def11688b70a1050110b1f465ea52887143ac"
+    },
+    {
+      "path": "workflow/staged_native_acquisition_v5.py",
+      "bytes": 13382,
+      "sha256": "fd19e8eee90d24b7d0720b8f19e8c76b23cfb33ce3297f6b58814e1dc2a3378c"
+    },
+    {
+      "path": "workflow/validate_owned_native_capture.py",
+      "bytes": 2643,
+      "sha256": "06f3ad61642fe477e277a97d0d1c715fee8793c2cce6df7e51e2b5326a3f4dc1"
+    }
+  ]
+}

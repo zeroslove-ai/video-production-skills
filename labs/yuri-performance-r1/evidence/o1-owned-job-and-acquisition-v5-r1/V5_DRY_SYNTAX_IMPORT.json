@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "path": "owned_windows_capture_supervisor_v5.py",
+      "sha256": "86d62b17bdbd0b03de7f33c52a2def11688b70a1050110b1f465ea52887143ac",
+      "AST": "PASS",
+      "safe_import": "PASS",
+      "dry_exit_code": 0,
+      "dry_stdout": "PLAN_ONLY_UNRUN: requires approved isolated binary, compile/link review, guard tests and owned root; no process launched\n"
+    },
+    {
+      "path": "staged_native_acquisition_v5.py",
+      "sha256": "fd19e8eee90d24b7d0720b8f19e8c76b23cfb33ce3297f6b58814e1dc2a3378c",
+      "AST": "PASS",
+      "safe_import": "PASS",
+      "dry_exit_code": 0,
+      "dry_stdout": "{\"status\": \"DRY_ONLY_NO_ROOT_CREATED_NO_NETWORK_NO_SUBPROCESS\", \"known_payload_bytes\": 7054121984, \"extra\": \"Git pack/protocol unknown\", \"next_command\": \"python staged_native_acquisition.py --execute --approval <owner-reviewed-acquisition-receipt.json>\"}\n"
+    },
+    {
+      "path": "validate_owned_native_capture.py",
+      "sha256": "06f3ad61642fe477e277a97d0d1c715fee8793c2cce6df7e51e2b5326a3f4dc1",
+      "AST": "PASS",
+      "safe_import": "PASS",
+      "dry_exit_code": null,
+      "dry_stdout": null
+    }
+  ],
+  "OS_job_scope": "Only harmless child preflight R2 is actual; V5 acquisition/capture supervisor itself unrun"
+}

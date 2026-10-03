@@ -1,0 +1,15 @@
+{
+  "status": "REQUIRES_REAL_OWNER_APPROVAL_NOT_GRANTED",
+  "human_large_resource_acquisition_approved": false,
+  "approved_known_payload_bytes": 7054121984,
+  "Git_transport_overhead_acknowledged": false,
+  "acquisition_plan_sha256": "6813f5a72a7ff26ccdedaefe1e0d46766601483b072a82919028957456f0a87e",
+  "Windows_deps_manifest_sha256": "980b0ea7c25d6bc8d29805bd9b487e5aabda0317204028cb4db31a7de65dcbc5",
+  "acquisition_script_sha256": "fd19e8eee90d24b7d0720b8f19e8c76b23cfb33ce3297f6b58814e1dc2a3378c",
+  "allowed_tools": {
+    "C:\\Program Files\\Git\\cmd\\git.exe": "7b7971dd13f0c3a284e538601f2f9770b3a87dfaccb5fb52d68141c67ed22364",
+    "C:\\Program Files\\7-Zip\\7z.exe": "e2ca3ec168ae9c0b4115cd4fe220145ea9b2dc4b6fc79d765e91f415b34d00de"
+  },
+  "scope": "isolated download/verify/unpack only; no source/GUI/product/global install/build/capture",
+  "note": "Template is deliberately non-executable until actual human approval is evidenced; no fake approval flag used by preflight."
+}
