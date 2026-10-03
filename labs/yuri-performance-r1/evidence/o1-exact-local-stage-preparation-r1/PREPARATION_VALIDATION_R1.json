@@ -1,0 +1,83 @@
+{
+  "status": "STATIC_AND_EXISTING_FILE_SCHEMA_ONLY_PASS",
+  "collector_ast_compile": true,
+  "existing_final_array_keys": [
+    {
+      "file": "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+      "array": "current_local_position",
+      "shape": [
+        63561,
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+      "array": "current_world_position",
+      "shape": [
+        63561,
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+      "array": "current_local_corner_normal",
+      "shape": [
+        254602,
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+      "array": "current_world_corner_normal",
+      "shape": [
+        254602,
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz",
+      "array": "current_local_position",
+      "shape": [
+        63561,
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz",
+      "array": "current_world_position",
+      "shape": [
+        63561,
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz",
+      "array": "current_local_corner_normal",
+      "shape": [
+        254602,
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz",
+      "array": "current_world_corner_normal",
+      "shape": [
+        254602,
+        3
+      ],
+      "dtype": "float32"
+    }
+  ],
+  "source_action_recipe_blender_hashes_verified": true,
+  "Blender_launched": false,
+  "collector_executed": false,
+  "native_API_clone_driver_restoration_verified_in_this_turn": false,
+  "proposal_sha256": "210cd30d5c85c44317f4e10d03f0c17d486bb3bf84979238230ffac3098bffe2"
+}

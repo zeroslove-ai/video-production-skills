@@ -1,0 +1,200 @@
+{
+  "status": "PREPARED_ONLY_NOT_RUN",
+  "scope": "EXACT_TWO_FRAME_SOURCE_LOCAL_STAGE_READ_ONLY",
+  "approval": {
+    "PM_review_pending": true,
+    "new_Blender_launch_authorized": false,
+    "custom_native_build_trace_capture_approved": false,
+    "large_resource_acquisition_approved": false
+  },
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r1.py"
+  ],
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": {
+      "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+      "bytes": 9318285
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": {
+      "sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+      "bytes": 18390792
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r1.py": {
+      "sha256": "f8ab4bc7dd77f1ecdeaf843659acd9be6caf290e888f13d59862388b2136d57a",
+      "bytes": 12365
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_adapter.py": {
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+      "bytes": 2307
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+      "bytes": 6104160
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd",
+      "bytes": 6103679
+    }
+  },
+  "final_reference_by_clip": {
+    "YRA_R4_Startle_Short": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+    "YRA_R4_Struggle_Strong_Loop": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz"
+  },
+  "cases": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "seconds": 0.4166666666666667
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "seconds": 0.20833333333333334
+    }
+  ],
+  "activation_route": "Existing ReactionLane, exact appended Action, OBMeshy_Fitted_Rig slot, direct scene.frame_set(frame), no bake/retarget/new Actions",
+  "stages": [
+    "0 primary Armature",
+    "1 secondary Armature",
+    "2 Corrective Smooth",
+    "3 original Smooth 1",
+    "4 original Smooth 2",
+    "5 original Smooth 3",
+    "6 original Smooth 4"
+  ],
+  "output_private_directory": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-exact-source-local-stage-capture-r1",
+  "output_schema": {
+    "two_npz_files": {
+      "stages": 7,
+      "each_stage": {
+        "local_position": [
+          "float32",
+          63561,
+          3
+        ],
+        "local_corner_normal": [
+          "float32",
+          254602,
+          3
+        ],
+        "world_position": [
+          "float32",
+          63561,
+          3
+        ],
+        "world_corner_normal": [
+          "float32",
+          254602,
+          3
+        ],
+        "evaluated_body_world": [
+          "float64",
+          4,
+          4
+        ]
+      },
+      "original_corner_vertex_edge_ids": [
+        "int32",
+        254602
+      ],
+      "original_polygon_start_total_material": [
+        "int32",
+        63781
+      ],
+      "rest_local_and_pose_rig_local": [
+        "float64",
+        57,
+        4,
+        4
+      ],
+      "body_world_rig_world": [
+        "float64",
+        4,
+        4
+      ],
+      "raw_quaternion_wxyz": [
+        "float32",
+        57,
+        4
+      ],
+      "driver_factors": [
+        "float32",
+        5
+      ]
+    },
+    "two_all_rig_pose_rest_json": "All original armature rest/pose local and world matrices with fingerprint; private only",
+    "scene_signature_before_after": "Original 78 Actions, all objects/meshes/weights/ShapeKeys/rest/drivers/material/node/image/scene/OFF evaluated signatures; no differences allowed",
+    "result_manifest": "Per-array raw bits SHA256, input pre/post hashes, pose/rest/fullCSR fingerprints, stage flags/settings/factors, native getter provenance, PID/duration and limitations"
+  },
+  "native_data_provenance": "Local arrays directly from evaluated mesh vertices.co and mesh.corner_normals.vector. No inverse-world reconstruction, calc_normals, vertex average or triangle normal substitute.",
+  "world_data_provenance": "Separate derived transform of captured native local f32 using evaluated bodyWorld f64, rounded f32. World normals inverse transpose and normalization. Explicitly not direct native world getters.",
+  "operator_cache_route": "UNKNOWN_NOT_READ; getter can recompute cache. Disposable copy cumulative ablation is not instrumented in-flight original modifier-buffer capture.",
+  "read_only_policy": "Source opened by fixed argv use_scripts disabled by CLI; shared original mesh remains read-only. Later modifier visibility only on disposable object copies. Original rig Action/pose binding restored with ReactionLane; imported Actions removed; full scene before/after compared. Never save source.",
+  "guard_proposal": {
+    "reference_path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_source_job_guard_r5.py",
+    "reference_sha256": "c6912b0378d9b1f626de33b4f819efb898d49432e035576e240764559fe8566c",
+    "reference_whole_guard_status": "FAIL_PRESERVED; source-data and terminal cleanup scoped acceptance only",
+    "existing_R5_route_executable_for_this_collector": false,
+    "pending_review": "R5 fixed verifier/receipt scope cannot run this collector. PM must approve exact collector/argv, activation+copy scope and a separately reviewed minimal fixed-purpose route configuration. No new guard/probes/Blender launch in preparation.",
+    "required_owned_job_limits": {
+      "active_process_limit": 1,
+      "creation": "SUSPENDED|DETACHED_PROCESS 0xC; assign owned Job before resume",
+      "CPU_affinity": 3,
+      "threads": 2,
+      "process_and_job_memory_bytes": 8589934592,
+      "watchdog_seconds": 120,
+      "free_RAM_min_bytes": 12884901888,
+      "free_C_min_bytes": 107374182400,
+      "kill_on_job_close": true
+    },
+    "required_terminal_evidence": "PID/creation/executable same owned handle; native Job limits readback, accounting and PID list. Missing image on LIVE handle fails. On failure terminate only owned Job; finally terminal signaled/exit code and zero active/empty PID list before close. Preserve raw failure; no rerun to green.",
+    "network": "Factory/offline with no addons required; Windows Job is not a network sandbox. Collector contains no account/network/plugin operations."
+  },
+  "budget": {
+    "workers": 1,
+    "frames": 2,
+    "native_evaluations": 14,
+    "primary_uncompressed_stage_array_bytes": 106902768,
+    "total_expected_output_upper_bytes": 268435456,
+    "estimated_peak_memory_upper_bytes": 8589934592,
+    "estimates_not_measured": true,
+    "snapshot_extra_evaluations": "Two OFF full-scene snapshots using existing signature helper, beyond 14 body stage evaluations",
+    "no_render_export_bake_GPU_download_build": true
+  },
+  "pass_requirements": [
+    "Original 63561/254602 topology order and all304799 CSR entries incl37310 zeros exact",
+    "7 native local stages per frame; finite/readback raw bits exact",
+    "stage6 local/world position and CORNER normals equal frozen final reference",
+    "source/action/recipe/dependency SHA unchanged and full scene signature no differences",
+    "Data verifier result and whole owned Job result reported separately"
+  ],
+  "acceptance_exclusions": [
+    "No Unity/runtime/PBR/AlwaysAnimate PASS",
+    "No inferred cache branch",
+    "No first comparative divergence without actual consumer stage arrays"
+  ]
+}
