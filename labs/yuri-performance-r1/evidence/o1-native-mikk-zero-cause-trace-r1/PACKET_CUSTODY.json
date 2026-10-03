@@ -1,0 +1,327 @@
+{
+  "task_id": "ROOT_PM_O1_NATIVE_MIKK_ZERO_CAUSE_TRACE_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_NATIVE_MIKK_ZERO_CAUSE_20261003_R1_b82ce89a3c17",
+  "manifest_sha256": "b82ce89a3c1746e5b964548900baaf57ecefb4ec71e68108cb8555c3a98beb1b",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_NATIVE_MIKK_ZERO_CAUSE_20261003_R1_b82ce89a3c17\\YURI_O1_R4_NATIVE_MIKK_ZERO_CAUSE_20261003_R1.part01-of-01.zip",
+      "sha256": "e1c974ae18bfd17936a41b68e1326ca6bcf44450b71d16caf601d437f096833d",
+      "bytes": 18515724,
+      "files": [
+        "YRA_R4_Struggle_Strong_Loop_frame006_events.jsonl",
+        "YRA_R4_Struggle_Strong_Loop_frame006_source_linked_trace.json",
+        "YRA_R4_Struggle_Strong_Loop_frame006_diagnostic_canonical.npz",
+        "YRA_R4_Startle_Short_frame001_events.jsonl",
+        "YRA_R4_Startle_Short_frame001_source_linked_trace.json",
+        "YRA_R4_Startle_Short_frame001_diagnostic_canonical.npz",
+        "YRA_R4_Startle_Short_frame011_events.jsonl",
+        "YRA_R4_Startle_Short_frame011_source_linked_trace.json",
+        "YRA_R4_Startle_Short_frame011_diagnostic_canonical.npz",
+        "YRA_R4_Struggle_Strong_Loop_frame044_events.jsonl",
+        "YRA_R4_Struggle_Strong_Loop_frame044_source_linked_trace.json",
+        "YRA_R4_Struggle_Strong_Loop_frame044_diagnostic_canonical.npz",
+        "compile.cmd",
+        "compile.log",
+        "diagnostic_hooks.h",
+        "execution_attempt01_access_violation.log",
+        "execution_attempt02_metadata_int64.log",
+        "execution_attempt03_resume_binding.log",
+        "harness.cpp",
+        "harness.dll",
+        "instrumentation.diff",
+        "pinned_wrapper.inc",
+        "upstream/Apache-2.0.txt",
+        "upstream/intern/mikktspace/mikktspace.hh",
+        "upstream/intern/mikktspace/mikk_atomic_hash_set.hh",
+        "upstream/intern/mikktspace/mikk_float3.hh",
+        "upstream/intern/mikktspace/mikk_util.hh",
+        "upstream/intern/cycles/blender/mesh.cpp",
+        "upstream/intern/cycles/scene/mesh.cpp",
+        "upstream/intern/cycles/util/defines.h",
+        "upstream/intern/cycles/util/math_base.h",
+        "upstream/intern/cycles/util/math_float3.h",
+        "upstream/intern/cycles/util/math_float4.h",
+        "upstream/intern/cycles/util/math_int4.h",
+        "upstream/intern/cycles/util/optimization.h",
+        "upstream/intern/cycles/util/simd.h",
+        "upstream/intern/cycles/util/types_base.h",
+        "upstream/intern/cycles/util/types_float2.h",
+        "upstream/intern/cycles/util/types_float3.h",
+        "upstream/intern/cycles/util/types_float4.h",
+        "upstream/intern/cycles/util/types_int2.h",
+        "upstream/intern/cycles/util/types_int3.h",
+        "upstream/intern/cycles/util/types_int4.h",
+        "upstream/intern/cycles/util/types_normal.h",
+        "upstream/intern/cycles/util/types_uint3.h",
+        "upstream/intern/cycles/util/windows.h",
+        "execution.log",
+        "YRA_R4_Struggle_Strong_Loop_frame006_events_attempt01_failed.jsonl",
+        "upstream/COPYING",
+        "upstream/intern/cycles/CMakeLists.txt",
+        "upstream/intern/cycles/blender/CMakeLists.txt",
+        "upstream/intern/cycles/blender/python.cpp",
+        "upstream/intern/cycles/scene/CMakeLists.txt",
+        "upstream/build_files/cmake/platform/platform_win32.cmake",
+        "metadata/ACTUAL_CYCLES_BUFFER_MINIMUM_PATH_R1.md",
+        "metadata/NATIVE_MIKK_ZERO_CAUSE_MANIFEST.json",
+        "metadata/ROOT_PM_O1_NATIVE_MIKK_ZERO_CAUSE_TRACE_R1.md",
+        "scripts/r4_native_mikk_zero_cause_trace.py",
+        "scripts/r4_source_reference_packet_freeze.py",
+        "scripts/r4_native_mikk_zero_cause_setup.py",
+        "scripts/r4_native_mikk_diagnostic_hooks.h"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "YRA_R4_Struggle_Strong_Loop_frame006_events.jsonl": {
+      "sha256": "ceccc68dd4e28407134fab6d0f3c938685190b3e904a3f371f990d1015f359b5",
+      "bytes": 6870
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame006_source_linked_trace.json": {
+      "sha256": "c12b6f246dcc47ccda05c55e9662d251f74b647f6340c5b9b7f3b7dbdd6afd17",
+      "bytes": 48441
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame006_diagnostic_canonical.npz": {
+      "sha256": "233d03a6045245a0246d6f61039ba44293ad68318d4953e202308268af3032a1",
+      "bytes": 4404384
+    },
+    "YRA_R4_Startle_Short_frame001_events.jsonl": {
+      "sha256": "7de4f3c1805630c1d638058acf4f37fb9c0c11b34f1b4c54f36f836d646d8a46",
+      "bytes": 3608
+    },
+    "YRA_R4_Startle_Short_frame001_source_linked_trace.json": {
+      "sha256": "e778459c1727e146b921629523b3c9632009a99bf3445b738a0cffa1ed73a7ff",
+      "bytes": 24704
+    },
+    "YRA_R4_Startle_Short_frame001_diagnostic_canonical.npz": {
+      "sha256": "dad4feb50567733b596c80717616ac300ea7c14f4bf3e148190d3e3812ee7377",
+      "bytes": 4406707
+    },
+    "YRA_R4_Startle_Short_frame011_events.jsonl": {
+      "sha256": "010956d58e557e0f79d18cfae7619a1762a2d004d4d6d9b01aca51107b2773a6",
+      "bytes": 4541
+    },
+    "YRA_R4_Startle_Short_frame011_source_linked_trace.json": {
+      "sha256": "2a7aa39fa902310cb6ab33cf8c4957d255496ed2c522bedb1ab01d67450771d6",
+      "bytes": 30985
+    },
+    "YRA_R4_Startle_Short_frame011_diagnostic_canonical.npz": {
+      "sha256": "8670b57397d76150a41c429acedaab0a34b9de4e76c759e2d8619d4f349f5e5f",
+      "bytes": 4405669
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame044_events.jsonl": {
+      "sha256": "72f7379415a08a155d415dfd1e3ac82f848026ed2d057bef1c790ac762e81125",
+      "bytes": 6568
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame044_source_linked_trace.json": {
+      "sha256": "6565fab0a9469cb2c30f5d174e5a1e6929be8e43074f1bc484f6f1de6992bd43",
+      "bytes": 43837
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame044_diagnostic_canonical.npz": {
+      "sha256": "31166482af60d491739882c9a476a40c4948ff2ab02dd8a825fc5fd022dd11cb",
+      "bytes": 4405007
+    },
+    "compile.cmd": {
+      "sha256": "6825212287dae29b48b299fa253130e3ed3a2ed5655453aac6d57f6a8d845e63",
+      "bytes": 256
+    },
+    "compile.log": {
+      "sha256": "d657cf47678481720cd24d62378c637b4eaf53384b074a2c17016bb5c0086816",
+      "bytes": 397
+    },
+    "diagnostic_hooks.h": {
+      "sha256": "65b717dc438fe9cdebf5ba9558d998b559b34d5f687220f1b151e21516340b9e",
+      "bytes": 2740
+    },
+    "execution_attempt01_access_violation.log": {
+      "sha256": "42bc3c844fd6b7ac1efec347bb10a54fa95b9e4c6c7d975830aad8ab99380c42",
+      "bytes": 557
+    },
+    "execution_attempt02_metadata_int64.log": {
+      "sha256": "f536d91693f7df0fd447e60809de0464b12bd67f4e8feb9a5f99cce2dcc94f06",
+      "bytes": 1095
+    },
+    "execution_attempt03_resume_binding.log": {
+      "sha256": "c93cb2308f03af820ddfbc018528cd823f469749bbb9e75a74a4936b215bf3f8",
+      "bytes": 727
+    },
+    "harness.cpp": {
+      "sha256": "adbb627d3cb93dbee31dae1f9633a15edcc21d0c0c4ad8e11703d604530dd710",
+      "bytes": 3100
+    },
+    "harness.dll": {
+      "sha256": "0e0b70b214218cd748fbc605d7a14c76c327d2f61a39dc3f582da2f5219359f5",
+      "bytes": 224768
+    },
+    "instrumentation.diff": {
+      "sha256": "8dda8dda78d8132e83832b4bb190f35f490ebeac64cbd46026b6525438b33718",
+      "bytes": 1795
+    },
+    "pinned_wrapper.inc": {
+      "sha256": "900bad00fc16bb90f815e916efdffe2b79f28bf7204b57441bfc5b3912cadb12",
+      "bytes": 3227
+    },
+    "upstream/Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "upstream/intern/mikktspace/mikktspace.hh": {
+      "sha256": "7faac833b7806de93a673e57ae8a615d2ee0f662cda8a90af6b3a966f0e8d381",
+      "bytes": 27941
+    },
+    "upstream/intern/mikktspace/mikk_atomic_hash_set.hh": {
+      "sha256": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b",
+      "bytes": 5702
+    },
+    "upstream/intern/mikktspace/mikk_float3.hh": {
+      "sha256": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a",
+      "bytes": 2315
+    },
+    "upstream/intern/mikktspace/mikk_util.hh": {
+      "sha256": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585",
+      "bytes": 4384
+    },
+    "upstream/intern/cycles/blender/mesh.cpp": {
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054
+    },
+    "upstream/intern/cycles/scene/mesh.cpp": {
+      "sha256": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54",
+      "bytes": 30464
+    },
+    "upstream/intern/cycles/util/defines.h": {
+      "sha256": "cbaab6248ddd571de5ce41482d580c769c6b4316566bdc05cb17a38a38962b66",
+      "bytes": 4806
+    },
+    "upstream/intern/cycles/util/math_base.h": {
+      "sha256": "f375b0f91dabdbf3e9fbedaa7bff767988e60d05d7c3ad01dfa486948dbeebd0",
+      "bytes": 22914
+    },
+    "upstream/intern/cycles/util/math_float3.h": {
+      "sha256": "99d667df6ba2de5c42b09cb26497062cf6b0dc047e0c75e2adb4965910a558ff",
+      "bytes": 21547
+    },
+    "upstream/intern/cycles/util/math_float4.h": {
+      "sha256": "1f017e74acbdb065213364d4ac24f5524a4bbfd7d741036924f5c44dd465b3f9",
+      "bytes": 16848
+    },
+    "upstream/intern/cycles/util/math_int4.h": {
+      "sha256": "c91872cdccdd38918ee6274ef633197752b5a899be4d851d99ef33beae5979b8",
+      "bytes": 7229
+    },
+    "upstream/intern/cycles/util/optimization.h": {
+      "sha256": "f93d17eadbfbecf2d6b4b37d5f36e1b9a6486b91418c3062efb4a5fc7a7bbf6e",
+      "bytes": 1108
+    },
+    "upstream/intern/cycles/util/simd.h": {
+      "sha256": "29a3b99af2656c5d25dd5a45d05e58c487b305784fecc5342243a741288052cb",
+      "bytes": 12329
+    },
+    "upstream/intern/cycles/util/types_base.h": {
+      "sha256": "9cf2d881accbde5a11b1f5359a3abcdc8ef4ac2d8bfb829533ce295ec4c2e2a2",
+      "bytes": 2655
+    },
+    "upstream/intern/cycles/util/types_float2.h": {
+      "sha256": "df3ab1124d9fa76e3262684179d2bbc9638d897fef0cf458ab3554829cacb74f",
+      "bytes": 1431
+    },
+    "upstream/intern/cycles/util/types_float3.h": {
+      "sha256": "554f13ec0e60631b8858a1d1cc9bcd7f74d6011fb5f2afa6ea019c7303d6d369",
+      "bytes": 4351
+    },
+    "upstream/intern/cycles/util/types_float4.h": {
+      "sha256": "b0e1167fdd33ba571637cd97d9552c215b068e18938b4e9f89ea4cbbbd06dd7d",
+      "bytes": 3659
+    },
+    "upstream/intern/cycles/util/types_int2.h": {
+      "sha256": "282936350f4380d68749d41c3feb264c8d5d98078a8f791f0c99da8ea92b662c",
+      "bytes": 738
+    },
+    "upstream/intern/cycles/util/types_int3.h": {
+      "sha256": "d6687ff22fa25f3e93c082dbd7799c7023b9d18611dfbab6f0ffc1e5fd421de6",
+      "bytes": 3226
+    },
+    "upstream/intern/cycles/util/types_int4.h": {
+      "sha256": "92be785482e2b76b69d9077e0b0643bd718414f6c60660cee6b8896b013a4f7e",
+      "bytes": 1710
+    },
+    "upstream/intern/cycles/util/types_normal.h": {
+      "sha256": "d6a9dcee0eb501893f93012cf42d9026b207baa9d3fc978ac26693da300eac82",
+      "bytes": 2965
+    },
+    "upstream/intern/cycles/util/types_uint3.h": {
+      "sha256": "9a2d48c882274596565b806d7ddbce3548d127ba4a49ce68ef2af0a4b6ed37d2",
+      "bytes": 1924
+    },
+    "upstream/intern/cycles/util/windows.h": {
+      "sha256": "0b7ad995a9be18057c3d83bf3e9918c90a7d32f109f84e8ceef620dcc924b05e",
+      "bytes": 403
+    },
+    "execution.log": {
+      "sha256": "127d4dcc94bb0b7c83046bd166b837e8263ad1c760e49536c55df447f1af9dd6",
+      "bytes": 381
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame006_events_attempt01_failed.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "upstream/COPYING": {
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302
+    },
+    "upstream/intern/cycles/CMakeLists.txt": {
+      "sha256": "a70959aecfb3ebfb0c2b2b96b93f2bf147723a4210fefbca9f478456fcc2c59f",
+      "bytes": 12830
+    },
+    "upstream/intern/cycles/blender/CMakeLists.txt": {
+      "sha256": "fac65f33041c1d8f08a8370b597696e864c268cf9080c3f12980a26ea0e6cbe9",
+      "bytes": 2080
+    },
+    "upstream/intern/cycles/blender/python.cpp": {
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0",
+      "bytes": 27720
+    },
+    "upstream/intern/cycles/scene/CMakeLists.txt": {
+      "sha256": "275dad99b376961f752bb4da8f5745636a9993282bc798425fa61c233a321888",
+      "bytes": 1891
+    },
+    "upstream/build_files/cmake/platform/platform_win32.cmake": {
+      "sha256": "d5a1c2ee522c1f1ec4de889c0c4706544c571de12a5b61974ba603cea6070a33",
+      "bytes": 45052
+    },
+    "metadata/ACTUAL_CYCLES_BUFFER_MINIMUM_PATH_R1.md": {
+      "sha256": "1d9820fc7d41f4c00fca40bb808477feb98a85ea09d0d8c2b46c4608c6d2ecf7",
+      "bytes": 4808
+    },
+    "metadata/NATIVE_MIKK_ZERO_CAUSE_MANIFEST.json": {
+      "sha256": "b82ce89a3c1746e5b964548900baaf57ecefb4ec71e68108cb8555c3a98beb1b",
+      "bytes": 119757
+    },
+    "metadata/ROOT_PM_O1_NATIVE_MIKK_ZERO_CAUSE_TRACE_R1.md": {
+      "sha256": "e9e65189f1ae9e309a344cee41476d233485f0714de6c321c28366e418175d16",
+      "bytes": 4757
+    },
+    "scripts/r4_native_mikk_zero_cause_trace.py": {
+      "sha256": "253f5f7a5631f497c14b268f77e8ce4e1e7ef401424e497fbce9d30328ed92cf",
+      "bytes": 8100
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "f8190be486f850707598a9e177caaaa5615e89709b4319f0491a8530ba1a49b2",
+      "bytes": 7756
+    },
+    "scripts/r4_native_mikk_zero_cause_setup.py": {
+      "sha256": "79676c2e122f1b98b261dbef17463296dc5d713c631b6f072cad0762633eb5af",
+      "bytes": 2970
+    },
+    "scripts/r4_native_mikk_diagnostic_hooks.h": {
+      "sha256": "65b717dc438fe9cdebf5ba9558d998b559b34d5f687220f1b151e21516340b9e",
+      "bytes": 2740
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 18515724,
+  "data_bytes": 18355300,
+  "aggregate_file_manifest_sha256": "9d63841930ffb1a9ce188d93713883a27f0c25e912a91aee1e493a22a20b216d",
+  "source_or_frozen_input_writes": 0
+}

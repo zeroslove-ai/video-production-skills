@@ -1,0 +1,3523 @@
+{
+  "task_id": "ROOT_PM_O1_NATIVE_MIKK_ZERO_CAUSE_TRACE_R1",
+  "status": "DONE_DIAGNOSTIC_NATIVE_ALGORITHM_TRACE",
+  "classification": "INSTRUMENTED_PINNED_ALGORITHM_NOT_ACTUAL_CYCLES_RENDERER_BUFFER",
+  "all_tangent_unit_gate": "FAIL_UNCHANGED_24_CANONICAL_ZEROS",
+  "runtime_Cycles_PBR": "HOLD",
+  "original_CORNER_normal_0_001_degree_gate": "UNCHANGED",
+  "source_Blender_render_GPU_Unity_save_jobs": 0,
+  "process_pid": 124848,
+  "wall_seconds": 2.18669120001141,
+  "compiler_flags": "Same original /std:c++20 /EHsc /O2 /fp:precise /LD x64 serial Mikk; separate diagnostic header with read-only observers",
+  "original_reference_files_preserved": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\compile.cmd": "6825212287dae29b48b299fa253130e3ed3a2ed5655453aac6d57f6a8d845e63",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\compile_attempt01_missing_namespace.log": "5672d1361afd28a96e8b2309e9fae1437aa2d75923f297fc30b6a2d81b45b80a",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\compile_attempt02.log": "a4dd154ccf30c1698317552130b1dfe90dad6b5bb9b1dd878ffc9f7950fe6799",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\compile_attempt03.log": "d657cf47678481720cd24d62378c637b4eaf53384b074a2c17016bb5c0086816",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\download_receipt.json": "e2d207ca4aec2886482d6a318a68d98a6f2347bbaf532d59dd932c70975f97e6",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\execution.log": "94156880b4742ce4682329d7eb651b180beca099fb22682973f2ec46de24b535",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\execution_completed.log": "fa9379b8712e03bbf6bb5934ad3657262c5dc2321fed1d17d958def2feecc325",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\harness.cpp": "ff1c1a7de07d58d9e3949f6f8db8f9ad46006acb81f543ac3ce4569edb0220d9",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\harness.dll": "f2c2ddea62638590472e4c67dc529e27412d3503528b4b2bfabb29b8dfff89ca",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\harness.exp": "e990c14ff297c354e5427c3791b57122362f1d4a21fd1b57a73e446852ec2100",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\harness.lib": "7d185d8027c35cfbfa4191407c3d9311e91fc3dfccd2946ff1fb07d9c4292071",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\harness.obj": "c0ea5975d768a84c0f5680f2f9fff2425aaa6a727b2812eec97354675bbf5f89",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\PACKET_CUSTODY.json": "01289b657567845c9964b005984c25f66652a272beab48c4a702274031c7b93a",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\PINNED_CYCLES_TRIANGLE_MIKK_CPU_MANIFEST.json": "0275bf127cc81633f311a84042e734e367e79abb83f717c0c0bba5ed2e00dd68",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\pinned_wrapper.inc": "900bad00fc16bb90f815e916efdffe2b79f28bf7204b57441bfc5b3912cadb12",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\ROOT_PM_O1_PINNED_CYCLES_TRIANGLE_MIKK_CPU_REFERENCE_R1.md": "05211c94848ea1d49fa5d66609af27a5e6110f306b3a2ac64c3ed1ec8166ab5e",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\YRA_R4_Startle_Short_frame001_pinned_algorithm_reference.npz": "1e877adf59f67e5588d0d533414cb039bec91dad0cba9c613632ec1628f2e745",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\YRA_R4_Startle_Short_frame011_pinned_algorithm_reference.npz": "087e6587f6c399c4cba8394802e086fa350c5be187cebf738be4e78475a68d15",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_pinned_algorithm_reference.npz": "bde9e72be7ff173ba9892b4df55067c16913ee55a02977b55abc7ca6cc42c978",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame044_pinned_algorithm_reference.npz": "6e4f9563c18156e8ec1a0b41c61b1948b2affbe81186954dedf54d0b16a93896",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\mikktspace\\mikktspace.hh": "6a196ad4b95b358bbd35add358a81a0ff1aab9828b38469072f0f6409e31d907",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\mikktspace\\mikk_atomic_hash_set.hh": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\mikktspace\\mikk_float3.hh": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\mikktspace\\mikk_util.hh": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\blender\\mesh.cpp": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\scene\\mesh.cpp": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\defines.h": "cbaab6248ddd571de5ce41482d580c769c6b4316566bdc05cb17a38a38962b66",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\math_base.h": "f375b0f91dabdbf3e9fbedaa7bff767988e60d05d7c3ad01dfa486948dbeebd0",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\math_float3.h": "99d667df6ba2de5c42b09cb26497062cf6b0dc047e0c75e2adb4965910a558ff",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\math_float4.h": "1f017e74acbdb065213364d4ac24f5524a4bbfd7d741036924f5c44dd465b3f9",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\math_int4.h": "c91872cdccdd38918ee6274ef633197752b5a899be4d851d99ef33beae5979b8",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\optimization.h": "f93d17eadbfbecf2d6b4b37d5f36e1b9a6486b91418c3062efb4a5fc7a7bbf6e",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\simd.h": "29a3b99af2656c5d25dd5a45d05e58c487b305784fecc5342243a741288052cb",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_base.h": "9cf2d881accbde5a11b1f5359a3abcdc8ef4ac2d8bfb829533ce295ec4c2e2a2",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_float2.h": "df3ab1124d9fa76e3262684179d2bbc9638d897fef0cf458ab3554829cacb74f",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_float3.h": "554f13ec0e60631b8858a1d1cc9bcd7f74d6011fb5f2afa6ea019c7303d6d369",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_float4.h": "b0e1167fdd33ba571637cd97d9552c215b068e18938b4e9f89ea4cbbbd06dd7d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_int2.h": "282936350f4380d68749d41c3feb264c8d5d98078a8f791f0c99da8ea92b662c",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_int3.h": "d6687ff22fa25f3e93c082dbd7799c7023b9d18611dfbab6f0ffc1e5fd421de6",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_int4.h": "92be785482e2b76b69d9077e0b0643bd718414f6c60660cee6b8896b013a4f7e",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_normal.h": "d6a9dcee0eb501893f93012cf42d9026b207baa9d3fc978ac26693da300eac82",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\types_uint3.h": "9a2d48c882274596565b806d7ddbce3548d127ba4a49ce68ef2af0a4b6ed37d2",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-pinned-cycles-triangle-mikk-cpu-reference-r1\\upstream\\intern\\cycles\\util\\windows.h": "0b7ad995a9be18057c3d83bf3e9918c90a7d32f109f84e8ceef620dcc924b05e",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\SOURCE_COMPONENT_DIFF.json": "de99320acf7dfd9e489f1aefb8134c416a08b2f5e32c850291d18dd0c0f10041",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\FULL_BODY_DEFORMATION_MANIFEST.json": "d8ec32b42adf4cb2f4a6dea280eb98149789c047af0a4bb498e9a978250afc2e",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_corner_basis.npz": "510dc196bec19df6a378672595692f863db00ef80591aae661053969d946f7e9",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_expanded_rigs.json": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\reference\\native_evaluated_all_frames.json.gz": "03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\RAW_POSE_DRIVER_STAGE_MANIFEST.json": "04f07292fcb0525937b6f709fddd9055d581d929b3328b03b50052ecf9bc8aaf",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\R4_All6_Raw_Pose_Quaternions_And_Five_Driver_Factors.npz": "c2b2534e46eb0b5ef20a6f48a588dc14175156c1f65c7821045c6d0e99eff900",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Startle_Short\\frames_001_004.npz": "74f933e835847c1b929d07cb1f211931450e6829df191fd335ac4e3c67172e51",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Startle_Short\\frames_009_012.npz": "427945069db41714cfd8bc43f6906f25ce24d35543b63bd0e979c4f042f5abd5",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Struggle_Strong_Loop\\frames_005_008.npz": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Struggle_Strong_Loop\\frames_041_044.npz": "4586df2bf40fd5673a6718c86eee1022e68617ffd477b85c90ad47d9c0c14832",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe": "88c8344236a27a6e727e0a8edc49aaa2690bdc7a9464b9d18cc7abe70a9f1c0d"
+  },
+  "files": [
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame006_events.jsonl",
+      "bytes": 6870,
+      "sha256": "ceccc68dd4e28407134fab6d0f3c938685190b3e904a3f371f990d1015f359b5"
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame006_source_linked_trace.json",
+      "bytes": 48441,
+      "sha256": "c12b6f246dcc47ccda05c55e9662d251f74b647f6340c5b9b7f3b7dbdd6afd17"
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame006_diagnostic_canonical.npz",
+      "bytes": 4404384,
+      "sha256": "233d03a6045245a0246d6f61039ba44293ad68318d4953e202308268af3032a1"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame001_events.jsonl",
+      "bytes": 3608,
+      "sha256": "7de4f3c1805630c1d638058acf4f37fb9c0c11b34f1b4c54f36f836d646d8a46"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame001_source_linked_trace.json",
+      "bytes": 24704,
+      "sha256": "e778459c1727e146b921629523b3c9632009a99bf3445b738a0cffa1ed73a7ff"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame001_diagnostic_canonical.npz",
+      "bytes": 4406707,
+      "sha256": "dad4feb50567733b596c80717616ac300ea7c14f4bf3e148190d3e3812ee7377"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame011_events.jsonl",
+      "bytes": 4541,
+      "sha256": "010956d58e557e0f79d18cfae7619a1762a2d004d4d6d9b01aca51107b2773a6"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame011_source_linked_trace.json",
+      "bytes": 30985,
+      "sha256": "2a7aa39fa902310cb6ab33cf8c4957d255496ed2c522bedb1ab01d67450771d6"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame011_diagnostic_canonical.npz",
+      "bytes": 4405669,
+      "sha256": "8670b57397d76150a41c429acedaab0a34b9de4e76c759e2d8619d4f349f5e5f"
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame044_events.jsonl",
+      "bytes": 6568,
+      "sha256": "72f7379415a08a155d415dfd1e3ac82f848026ed2d057bef1c790ac762e81125"
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame044_source_linked_trace.json",
+      "bytes": 43837,
+      "sha256": "6565fab0a9469cb2c30f5d174e5a1e6929be8e43074f1bc484f6f1de6992bd43"
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame044_diagnostic_canonical.npz",
+      "bytes": 4405007,
+      "sha256": "31166482af60d491739882c9a476a40c4948ff2ab02dd8a825fc5fd022dd11cb"
+    },
+    {
+      "path": "compile.cmd",
+      "bytes": 256,
+      "sha256": "6825212287dae29b48b299fa253130e3ed3a2ed5655453aac6d57f6a8d845e63"
+    },
+    {
+      "path": "compile.log",
+      "bytes": 397,
+      "sha256": "d657cf47678481720cd24d62378c637b4eaf53384b074a2c17016bb5c0086816"
+    },
+    {
+      "path": "diagnostic_hooks.h",
+      "bytes": 2740,
+      "sha256": "65b717dc438fe9cdebf5ba9558d998b559b34d5f687220f1b151e21516340b9e"
+    },
+    {
+      "path": "execution_attempt01_access_violation.log",
+      "bytes": 557,
+      "sha256": "42bc3c844fd6b7ac1efec347bb10a54fa95b9e4c6c7d975830aad8ab99380c42"
+    },
+    {
+      "path": "execution_attempt02_metadata_int64.log",
+      "bytes": 1095,
+      "sha256": "f536d91693f7df0fd447e60809de0464b12bd67f4e8feb9a5f99cce2dcc94f06"
+    },
+    {
+      "path": "execution_attempt03_resume_binding.log",
+      "bytes": 727,
+      "sha256": "c93cb2308f03af820ddfbc018528cd823f469749bbb9e75a74a4936b215bf3f8"
+    },
+    {
+      "path": "harness.cpp",
+      "bytes": 3100,
+      "sha256": "adbb627d3cb93dbee31dae1f9633a15edcc21d0c0c4ad8e11703d604530dd710"
+    },
+    {
+      "path": "harness.dll",
+      "bytes": 224768,
+      "sha256": "0e0b70b214218cd748fbc605d7a14c76c327d2f61a39dc3f582da2f5219359f5"
+    },
+    {
+      "path": "instrumentation.diff",
+      "bytes": 1795,
+      "sha256": "8dda8dda78d8132e83832b4bb190f35f490ebeac64cbd46026b6525438b33718"
+    },
+    {
+      "path": "pinned_wrapper.inc",
+      "bytes": 3227,
+      "sha256": "900bad00fc16bb90f815e916efdffe2b79f28bf7204b57441bfc5b3912cadb12"
+    },
+    {
+      "path": "upstream/Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "upstream/intern/mikktspace/mikktspace.hh",
+      "bytes": 27941,
+      "sha256": "7faac833b7806de93a673e57ae8a615d2ee0f662cda8a90af6b3a966f0e8d381"
+    },
+    {
+      "path": "upstream/intern/mikktspace/mikk_atomic_hash_set.hh",
+      "bytes": 5702,
+      "sha256": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b"
+    },
+    {
+      "path": "upstream/intern/mikktspace/mikk_float3.hh",
+      "bytes": 2315,
+      "sha256": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a"
+    },
+    {
+      "path": "upstream/intern/mikktspace/mikk_util.hh",
+      "bytes": 4384,
+      "sha256": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/mesh.cpp",
+      "bytes": 43054,
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/mesh.cpp",
+      "bytes": 30464,
+      "sha256": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54"
+    },
+    {
+      "path": "upstream/intern/cycles/util/defines.h",
+      "bytes": 4806,
+      "sha256": "cbaab6248ddd571de5ce41482d580c769c6b4316566bdc05cb17a38a38962b66"
+    },
+    {
+      "path": "upstream/intern/cycles/util/math_base.h",
+      "bytes": 22914,
+      "sha256": "f375b0f91dabdbf3e9fbedaa7bff767988e60d05d7c3ad01dfa486948dbeebd0"
+    },
+    {
+      "path": "upstream/intern/cycles/util/math_float3.h",
+      "bytes": 21547,
+      "sha256": "99d667df6ba2de5c42b09cb26497062cf6b0dc047e0c75e2adb4965910a558ff"
+    },
+    {
+      "path": "upstream/intern/cycles/util/math_float4.h",
+      "bytes": 16848,
+      "sha256": "1f017e74acbdb065213364d4ac24f5524a4bbfd7d741036924f5c44dd465b3f9"
+    },
+    {
+      "path": "upstream/intern/cycles/util/math_int4.h",
+      "bytes": 7229,
+      "sha256": "c91872cdccdd38918ee6274ef633197752b5a899be4d851d99ef33beae5979b8"
+    },
+    {
+      "path": "upstream/intern/cycles/util/optimization.h",
+      "bytes": 1108,
+      "sha256": "f93d17eadbfbecf2d6b4b37d5f36e1b9a6486b91418c3062efb4a5fc7a7bbf6e"
+    },
+    {
+      "path": "upstream/intern/cycles/util/simd.h",
+      "bytes": 12329,
+      "sha256": "29a3b99af2656c5d25dd5a45d05e58c487b305784fecc5342243a741288052cb"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_base.h",
+      "bytes": 2655,
+      "sha256": "9cf2d881accbde5a11b1f5359a3abcdc8ef4ac2d8bfb829533ce295ec4c2e2a2"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_float2.h",
+      "bytes": 1431,
+      "sha256": "df3ab1124d9fa76e3262684179d2bbc9638d897fef0cf458ab3554829cacb74f"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_float3.h",
+      "bytes": 4351,
+      "sha256": "554f13ec0e60631b8858a1d1cc9bcd7f74d6011fb5f2afa6ea019c7303d6d369"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_float4.h",
+      "bytes": 3659,
+      "sha256": "b0e1167fdd33ba571637cd97d9552c215b068e18938b4e9f89ea4cbbbd06dd7d"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_int2.h",
+      "bytes": 738,
+      "sha256": "282936350f4380d68749d41c3feb264c8d5d98078a8f791f0c99da8ea92b662c"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_int3.h",
+      "bytes": 3226,
+      "sha256": "d6687ff22fa25f3e93c082dbd7799c7023b9d18611dfbab6f0ffc1e5fd421de6"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_int4.h",
+      "bytes": 1710,
+      "sha256": "92be785482e2b76b69d9077e0b0643bd718414f6c60660cee6b8896b013a4f7e"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_normal.h",
+      "bytes": 2965,
+      "sha256": "d6a9dcee0eb501893f93012cf42d9026b207baa9d3fc978ac26693da300eac82"
+    },
+    {
+      "path": "upstream/intern/cycles/util/types_uint3.h",
+      "bytes": 1924,
+      "sha256": "9a2d48c882274596565b806d7ddbce3548d127ba4a49ce68ef2af0a4b6ed37d2"
+    },
+    {
+      "path": "upstream/intern/cycles/util/windows.h",
+      "bytes": 403,
+      "sha256": "0b7ad995a9be18057c3d83bf3e9918c90a7d32f109f84e8ceef620dcc924b05e"
+    },
+    {
+      "path": "execution.log",
+      "bytes": 381,
+      "sha256": "127d4dcc94bb0b7c83046bd166b837e8263ad1c760e49536c55df447f1af9dd6"
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame006_events_attempt01_failed.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "upstream/COPYING",
+      "bytes": 302,
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387"
+    },
+    {
+      "path": "upstream/intern/cycles/CMakeLists.txt",
+      "bytes": 12830,
+      "sha256": "a70959aecfb3ebfb0c2b2b96b93f2bf147723a4210fefbca9f478456fcc2c59f"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/CMakeLists.txt",
+      "bytes": 2080,
+      "sha256": "fac65f33041c1d8f08a8370b597696e864c268cf9080c3f12980a26ea0e6cbe9"
+    },
+    {
+      "path": "upstream/intern/cycles/blender/python.cpp",
+      "bytes": 27720,
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0"
+    },
+    {
+      "path": "upstream/intern/cycles/scene/CMakeLists.txt",
+      "bytes": 1891,
+      "sha256": "275dad99b376961f752bb4da8f5745636a9993282bc798425fa61c233a321888"
+    },
+    {
+      "path": "upstream/build_files/cmake/platform/platform_win32.cmake",
+      "bytes": 45052,
+      "sha256": "d5a1c2ee522c1f1ec4de889c0c4706544c571de12a5b61974ba603cea6070a33"
+    }
+  ],
+  "frames": [
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "canonical_zero_count": 8,
+      "bitwise_output_equivalence": {
+        "packed_normal_uint32": true,
+        "decoded_normal": true,
+        "tangent": true,
+        "sign": true
+      },
+      "cause_counts": {
+        "ALL_CONTRIBUTIONS_ZERO_ANGLE": 8
+      },
+      "target_details": [
+        {
+          "target": {
+            "event": "assign",
+            "face": 126403,
+            "corner": 0,
+            "group": 70558,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.133378372,
+              0.357205153,
+              0.924453616
+            ],
+            "source_polygon": 63405,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253213,
+              253214,
+              253215
+            ],
+            "source_triangle_vertices": [
+              49249,
+              49528,
+              49517
+            ],
+            "source_corner": 253213,
+            "source_vertex": 49249,
+            "packed_normal_uint32": 2661195573,
+            "source_raw_corner_normal": [
+              0.3934937119483948,
+              0.3860892653465271,
+              0.8343247771263123
+            ],
+            "source_decoded_normal": [
+              0.3935089409351349,
+              0.3860718011856079,
+              0.8343256711959839
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126403,
+              "corner": 0,
+              "group": 70558,
+              "fCos": 1.00000012,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.393508941,
+                0.386071801,
+                0.834325671
+              ],
+              "triangle_tangent": [
+                0.133378372,
+                0.357205153,
+                0.924453616
+              ],
+              "projected_tangent": [
+                -0.893880427,
+                -0.0513425767,
+                0.445355654
+              ],
+              "unnormalized_projection": [
+                -0.245054379,
+                -0.0140753984,
+                0.122092783
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63405,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253213,
+                253214,
+                253215
+              ],
+              "source_triangle_vertices": [
+                49249,
+                49528,
+                49517
+              ],
+              "source_corner": 253213,
+              "source_vertex": 49249,
+              "packed_normal_uint32": 2661195573,
+              "source_raw_corner_normal": [
+                0.3934937119483948,
+                0.3860892653465271,
+                0.8343247771263123
+              ],
+              "source_decoded_normal": [
+                0.3935089409351349,
+                0.3860718011856079,
+                0.8343256711959839
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126403,
+            "corner": 2,
+            "group": 70560,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.133378372,
+              0.357205153,
+              0.924453616
+            ],
+            "source_polygon": 63405,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253213,
+              253214,
+              253215
+            ],
+            "source_triangle_vertices": [
+              49249,
+              49528,
+              49517
+            ],
+            "source_corner": 253215,
+            "source_vertex": 49517,
+            "packed_normal_uint32": 2749863901,
+            "source_raw_corner_normal": [
+              0.29570260643959045,
+              0.44487887620925903,
+              0.8453654050827026
+            ],
+            "source_decoded_normal": [
+              0.2956981360912323,
+              0.4448660910129547,
+              0.8453737497329712
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126403,
+              "corner": 2,
+              "group": 70560,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.295698136,
+                0.444866091,
+                0.84537375
+              ],
+              "triangle_tangent": [
+                0.133378372,
+                0.357205153,
+                0.924453616
+              ],
+              "projected_tangent": [
+                -0.782992661,
+                -0.394091338,
+                0.481263578
+              ],
+              "unnormalized_projection": [
+                -0.156363502,
+                -0.0786999762,
+                0.0961082578
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63405,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253213,
+                253214,
+                253215
+              ],
+              "source_triangle_vertices": [
+                49249,
+                49528,
+                49517
+              ],
+              "source_corner": 253215,
+              "source_vertex": 49517,
+              "packed_normal_uint32": 2749863901,
+              "source_raw_corner_normal": [
+                0.29570260643959045,
+                0.44487887620925903,
+                0.8453654050827026
+              ],
+              "source_decoded_normal": [
+                0.2956981360912323,
+                0.4448660910129547,
+                0.8453737497329712
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126476,
+            "corner": 0,
+            "group": 70562,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0,
+              -0.99999994,
+              0
+            ],
+            "source_polygon": 63450,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253376,
+              253377,
+              253378
+            ],
+            "source_triangle_vertices": [
+              53506,
+              53656,
+              53803
+            ],
+            "source_corner": 253376,
+            "source_vertex": 53506,
+            "packed_normal_uint32": 2719429500,
+            "source_raw_corner_normal": [
+              -0.8943595290184021,
+              0.39849063754081726,
+              0.20328865945339203
+            ],
+            "source_decoded_normal": [
+              -0.8943558931350708,
+              0.3984934687614441,
+              0.20329904556274414
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126476,
+              "corner": 0,
+              "group": 70562,
+              "fCos": 1.00000012,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.894355893,
+                0.398493469,
+                0.203299046
+              ],
+              "triangle_tangent": [
+                0,
+                -0.99999994,
+                0
+              ],
+              "projected_tangent": [
+                -0.38858062,
+                -0.917171121,
+                0.0883295685
+              ],
+              "unnormalized_projection": [
+                -0.356394947,
+                -0.841202915,
+                0.0810133368
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63450,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253376,
+                253377,
+                253378
+              ],
+              "source_triangle_vertices": [
+                53506,
+                53656,
+                53803
+              ],
+              "source_corner": 253376,
+              "source_vertex": 53506,
+              "packed_normal_uint32": 2719429500,
+              "source_raw_corner_normal": [
+                -0.8943595290184021,
+                0.39849063754081726,
+                0.20328865945339203
+              ],
+              "source_decoded_normal": [
+                -0.8943558931350708,
+                0.3984934687614441,
+                0.20329904556274414
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126476,
+            "corner": 2,
+            "group": 70564,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0,
+              -0.99999994,
+              0
+            ],
+            "source_polygon": 63450,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253376,
+              253377,
+              253378
+            ],
+            "source_triangle_vertices": [
+              53506,
+              53656,
+              53803
+            ],
+            "source_corner": 253378,
+            "source_vertex": 53803,
+            "packed_normal_uint32": 2743612148,
+            "source_raw_corner_normal": [
+              -0.8934437036514282,
+              0.4120464324951172,
+              0.17881852388381958
+            ],
+            "source_decoded_normal": [
+              -0.8934401869773865,
+              0.41205570101737976,
+              0.17881479859352112
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126476,
+              "corner": 2,
+              "group": 70564,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.893440187,
+                0.412055701,
+                0.178814799
+              ],
+              "triangle_tangent": [
+                0,
+                -0.99999994,
+                0
+              ],
+              "projected_tangent": [
+                -0.40404284,
+                -0.911158621,
+                0.0808658898
+              ],
+              "unnormalized_projection": [
+                -0.368147105,
+                -0.83021003,
+                0.0736816525
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63450,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253376,
+                253377,
+                253378
+              ],
+              "source_triangle_vertices": [
+                53506,
+                53656,
+                53803
+              ],
+              "source_corner": 253378,
+              "source_vertex": 53803,
+              "packed_normal_uint32": 2743612148,
+              "source_raw_corner_normal": [
+                -0.8934437036514282,
+                0.4120464324951172,
+                0.17881852388381958
+              ],
+              "source_decoded_normal": [
+                -0.8934401869773865,
+                0.41205570101737976,
+                0.17881479859352112
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126527,
+            "corner": 0,
+            "group": 70566,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.0555739477,
+              -0.321389765,
+              0.945314825
+            ],
+            "source_polygon": 63483,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253493,
+              253494,
+              253495
+            ],
+            "source_triangle_vertices": [
+              55553,
+              55809,
+              55800
+            ],
+            "source_corner": 253493,
+            "source_vertex": 55553,
+            "packed_normal_uint32": 191406297,
+            "source_raw_corner_normal": [
+              0.1161358430981636,
+              -0.9689247012138367,
+              -0.21839763224124908
+            ],
+            "source_decoded_normal": [
+              0.11615383625030518,
+              -0.9689297080039978,
+              -0.21836522221565247
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126527,
+              "corner": 0,
+              "group": 70566,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.116153836,
+                -0.968929708,
+                -0.218365222
+              ],
+              "triangle_tangent": [
+                0.0555739477,
+                -0.321389765,
+                0.945314825
+              ],
+              "projected_tangent": [
+                0.0428974852,
+                -0.214754313,
+                0.975725532
+              ],
+              "unnormalized_projection": [
+                0.0426303074,
+                -0.21341677,
+                0.969648421
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63483,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253493,
+                253494,
+                253495
+              ],
+              "source_triangle_vertices": [
+                55553,
+                55809,
+                55800
+              ],
+              "source_corner": 253493,
+              "source_vertex": 55553,
+              "packed_normal_uint32": 191406297,
+              "source_raw_corner_normal": [
+                0.1161358430981636,
+                -0.9689247012138367,
+                -0.21839763224124908
+              ],
+              "source_decoded_normal": [
+                0.11615383625030518,
+                -0.9689297080039978,
+                -0.21836522221565247
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126527,
+            "corner": 2,
+            "group": 70568,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.0555739477,
+              -0.321389765,
+              0.945314825
+            ],
+            "source_polygon": 63483,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253493,
+              253494,
+              253495
+            ],
+            "source_triangle_vertices": [
+              55553,
+              55809,
+              55800
+            ],
+            "source_corner": 253495,
+            "source_vertex": 55800,
+            "packed_normal_uint32": 179609757,
+            "source_raw_corner_normal": [
+              0.10870471596717834,
+              -0.968830943107605,
+              -0.2225980907678604
+            ],
+            "source_decoded_normal": [
+              0.10871534049510956,
+              -0.9688364267349243,
+              -0.22256901860237122
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126527,
+              "corner": 2,
+              "group": 70568,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.10871534,
+                -0.968836427,
+                -0.222569019
+              ],
+              "triangle_tangent": [
+                0.0555739477,
+                -0.321389765,
+                0.945314825
+              ],
+              "projected_tangent": [
+                0.0441932455,
+                -0.218964309,
+                0.974731624
+              ],
+              "unnormalized_projection": [
+                0.0439394452,
+                -0.2177068,
+                0.969133735
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63483,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253493,
+                253494,
+                253495
+              ],
+              "source_triangle_vertices": [
+                55553,
+                55809,
+                55800
+              ],
+              "source_corner": 253495,
+              "source_vertex": 55800,
+              "packed_normal_uint32": 179609757,
+              "source_raw_corner_normal": [
+                0.10870471596717834,
+                -0.968830943107605,
+                -0.2225980907678604
+              ],
+              "source_decoded_normal": [
+                0.10871534049510956,
+                -0.9688364267349243,
+                -0.22256901860237122
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126773,
+            "corner": 2,
+            "group": 70581,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.0161522496,
+              0.427667499,
+              -0.903791726
+            ],
+            "source_polygon": 63647,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254067,
+              254068,
+              254069
+            ],
+            "source_triangle_vertices": [
+              62021,
+              62291,
+              62162
+            ],
+            "source_corner": 254069,
+            "source_vertex": 62162,
+            "packed_normal_uint32": 1726096270,
+            "source_raw_corner_normal": [
+              -0.9593384861946106,
+              -0.2606295049190521,
+              0.10836070775985718
+            ],
+            "source_decoded_normal": [
+              -0.9593394994735718,
+              -0.260635644197464,
+              0.10833639651536942
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126773,
+              "corner": 2,
+              "group": 70581,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.959339499,
+                -0.260635644,
+                0.108336397
+              ],
+              "triangle_tangent": [
+                0.0161522496,
+                0.427667499,
+                -0.903791726
+              ],
+              "projected_tangent": [
+                -0.204824716,
+                0.378758073,
+                -0.902545929
+              ],
+              "unnormalized_projection": [
+                -0.199578688,
+                0.369057208,
+                -0.879429638
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63647,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254067,
+                254068,
+                254069
+              ],
+              "source_triangle_vertices": [
+                62021,
+                62291,
+                62162
+              ],
+              "source_corner": 254069,
+              "source_vertex": 62162,
+              "packed_normal_uint32": 1726096270,
+              "source_raw_corner_normal": [
+                -0.9593384861946106,
+                -0.2606295049190521,
+                0.10836070775985718
+              ],
+              "source_decoded_normal": [
+                -0.9593394994735718,
+                -0.260635644197464,
+                0.10833639651536942
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126828,
+            "corner": 0,
+            "group": 70588,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.889171481,
+              0.0333521068,
+              0.456357092
+            ],
+            "source_polygon": 63678,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254184,
+              254185,
+              254186
+            ],
+            "source_triangle_vertices": [
+              62945,
+              63025,
+              62856
+            ],
+            "source_corner": 254184,
+            "source_vertex": 62945,
+            "packed_normal_uint32": 3883659501,
+            "source_raw_corner_normal": [
+              0.2636758089065552,
+              0.16210120916366577,
+              -0.9508934020996094
+            ],
+            "source_decoded_normal": [
+              0.26367253065109253,
+              0.16208544373512268,
+              -0.9508970379829407
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126828,
+              "corner": 0,
+              "group": 70588,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.263672531,
+                0.162085444,
+                -0.950897038
+              ],
+              "triangle_tangent": [
+                0.889171481,
+                0.0333521068,
+                0.456357092
+              ],
+              "projected_tangent": [
+                0.958577335,
+                0.0660680905,
+                0.277063847
+              ],
+              "unnormalized_projection": [
+                0.940348387,
+                0.0648116916,
+                0.271795005
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63678,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254184,
+                254185,
+                254186
+              ],
+              "source_triangle_vertices": [
+                62945,
+                63025,
+                62856
+              ],
+              "source_corner": 254184,
+              "source_vertex": 62945,
+              "packed_normal_uint32": 3883659501,
+              "source_raw_corner_normal": [
+                0.2636758089065552,
+                0.16210120916366577,
+                -0.9508934020996094
+              ],
+              "source_decoded_normal": [
+                0.26367253065109253,
+                0.16208544373512268,
+                -0.9508970379829407
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "canonical_zero_count": 4,
+      "bitwise_output_equivalence": {
+        "packed_normal_uint32": true,
+        "decoded_normal": true,
+        "tangent": true,
+        "sign": true
+      },
+      "cause_counts": {
+        "ALL_CONTRIBUTIONS_ZERO_ANGLE": 4
+      },
+      "target_details": [
+        {
+          "target": {
+            "event": "assign",
+            "face": 126323,
+            "corner": 0,
+            "group": 70559,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.703877211,
+              -0.710321367,
+              -0.000781109382
+            ],
+            "source_polygon": 63361,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253045,
+              253046,
+              253047
+            ],
+            "source_triangle_vertices": [
+              44574,
+              44740,
+              44907
+            ],
+            "source_corner": 253045,
+            "source_vertex": 44574,
+            "packed_normal_uint32": 402346007,
+            "source_raw_corner_normal": [
+              -0.27578026056289673,
+              -0.9210063219070435,
+              -0.27512291073799133
+            ],
+            "source_decoded_normal": [
+              -0.27576541900634766,
+              -0.9209998846054077,
+              -0.27515900135040283
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126323,
+              "corner": 0,
+              "group": 70559,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.275765419,
+                -0.920999885,
+                -0.275159001
+              ],
+              "triangle_tangent": [
+                0.703877211,
+                -0.710321367,
+                -0.000781109382
+              ],
+              "projected_tangent": [
+                0.935861886,
+                -0.322578192,
+                0.141794637
+              ],
+              "unnormalized_projection": [
+                0.830816388,
+                -0.286370516,
+                0.125878945
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63361,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253045,
+                253046,
+                253047
+              ],
+              "source_triangle_vertices": [
+                44574,
+                44740,
+                44907
+              ],
+              "source_corner": 253045,
+              "source_vertex": 44574,
+              "packed_normal_uint32": 402346007,
+              "source_raw_corner_normal": [
+                -0.27578026056289673,
+                -0.9210063219070435,
+                -0.27512291073799133
+              ],
+              "source_decoded_normal": [
+                -0.27576541900634766,
+                -0.9209998846054077,
+                -0.27515900135040283
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126625,
+            "corner": 0,
+            "group": 70575,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.128370658,
+              0.987936795,
+              -0.0866128057
+            ],
+            "source_polygon": 63549,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253723,
+              253724,
+              253725
+            ],
+            "source_triangle_vertices": [
+              58504,
+              58678,
+              58674
+            ],
+            "source_corner": 253723,
+            "source_vertex": 58504,
+            "packed_normal_uint32": 1850985591,
+            "source_raw_corner_normal": [
+              0.8946191668510437,
+              -0.20679530501365662,
+              0.39609622955322266
+            ],
+            "source_decoded_normal": [
+              0.8946171402931213,
+              -0.2067735195159912,
+              0.396112322807312
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126625,
+              "corner": 0,
+              "group": 70575,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.89461714,
+                -0.20677352,
+                0.396112323
+              ],
+              "triangle_tangent": [
+                0.128370658,
+                0.987936795,
+                -0.0866128057
+              ],
+              "projected_tangent": [
+                0.240926787,
+                0.969803452,
+                -0.0378870927
+              ],
+              "unnormalized_projection": [
+                0.239075035,
+                0.962349594,
+                -0.0375958942
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63549,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253723,
+                253724,
+                253725
+              ],
+              "source_triangle_vertices": [
+                58504,
+                58678,
+                58674
+              ],
+              "source_corner": 253723,
+              "source_vertex": 58504,
+              "packed_normal_uint32": 1850985591,
+              "source_raw_corner_normal": [
+                0.8946191668510437,
+                -0.20679530501365662,
+                0.39609622955322266
+              ],
+              "source_decoded_normal": [
+                0.8946171402931213,
+                -0.2067735195159912,
+                0.396112322807312
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126625,
+            "corner": 2,
+            "group": 70577,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.128370658,
+              0.987936795,
+              -0.0866128057
+            ],
+            "source_polygon": 63549,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253723,
+              253724,
+              253725
+            ],
+            "source_triangle_vertices": [
+              58504,
+              58678,
+              58674
+            ],
+            "source_corner": 253725,
+            "source_vertex": 58674,
+            "packed_normal_uint32": 2319569738,
+            "source_raw_corner_normal": [
+              0.9181535243988037,
+              0.11306168884038925,
+              0.37975162267684937
+            ],
+            "source_decoded_normal": [
+              0.9181475639343262,
+              0.11305408179759979,
+              0.3797680735588074
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126625,
+              "corner": 2,
+              "group": 70577,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.918147564,
+                0.113054082,
+                0.379768074
+              ],
+              "triangle_tangent": [
+                0.128370658,
+                0.987936795,
+                -0.0866128057
+              ],
+              "projected_tangent": [
+                -0.0532324426,
+                0.984937787,
+                -0.164510906
+              ],
+              "unnormalized_projection": [
+                -0.0521928966,
+                0.965703487,
+                -0.161298275
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63549,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253723,
+                253724,
+                253725
+              ],
+              "source_triangle_vertices": [
+                58504,
+                58678,
+                58674
+              ],
+              "source_corner": 253725,
+              "source_vertex": 58674,
+              "packed_normal_uint32": 2319569738,
+              "source_raw_corner_normal": [
+                0.9181535243988037,
+                0.11306168884038925,
+                0.37975162267684937
+              ],
+              "source_decoded_normal": [
+                0.9181475639343262,
+                0.11305408179759979,
+                0.3797680735588074
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126773,
+            "corner": 0,
+            "group": 70584,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              -0.00837268494,
+              0,
+              -0.999965012
+            ],
+            "source_polygon": 63647,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254067,
+              254068,
+              254069
+            ],
+            "source_triangle_vertices": [
+              62021,
+              62291,
+              62162
+            ],
+            "source_corner": 254067,
+            "source_vertex": 62021,
+            "packed_normal_uint32": 1925785752,
+            "source_raw_corner_normal": [
+              -0.9444860816001892,
+              -0.1427665799856186,
+              0.29591161012649536
+            ],
+            "source_decoded_normal": [
+              -0.9444944858551025,
+              -0.14277900755405426,
+              0.29587873816490173
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126773,
+              "corner": 0,
+              "group": 70584,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.944494486,
+                -0.142779008,
+                0.295878738
+              ],
+              "triangle_tangent": [
+                -0.00837268494,
+                0,
+                -0.999965012
+              ],
+              "projected_tangent": [
+                -0.292749941,
+                -0.0429332592,
+                -0.955224693
+              ],
+              "unnormalized_projection": [
+                -0.280349731,
+                -0.0411147065,
+                -0.914763629
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63647,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254067,
+                254068,
+                254069
+              ],
+              "source_triangle_vertices": [
+                62021,
+                62291,
+                62162
+              ],
+              "source_corner": 254067,
+              "source_vertex": 62021,
+              "packed_normal_uint32": 1925785752,
+              "source_raw_corner_normal": [
+                -0.9444860816001892,
+                -0.1427665799856186,
+                0.29591161012649536
+              ],
+              "source_decoded_normal": [
+                -0.9444944858551025,
+                -0.14277900755405426,
+                0.29587873816490173
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "canonical_zero_count": 5,
+      "bitwise_output_equivalence": {
+        "packed_normal_uint32": true,
+        "decoded_normal": true,
+        "tangent": true,
+        "sign": true
+      },
+      "cause_counts": {
+        "ALL_CONTRIBUTIONS_ZERO_ANGLE": 5
+      },
+      "target_details": [
+        {
+          "target": {
+            "event": "assign",
+            "face": 126133,
+            "corner": 2,
+            "group": 70522,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              -0.259010375,
+              -0.93412447,
+              0.245611861
+            ],
+            "source_polygon": 63233,
+            "material_slot": 2,
+            "source_triangle_corners": [
+              252599,
+              252600,
+              252601
+            ],
+            "source_triangle_vertices": [
+              36344,
+              36965,
+              36651
+            ],
+            "source_corner": 252601,
+            "source_vertex": 36651,
+            "packed_normal_uint32": 1321814108,
+            "source_raw_corner_normal": [
+              -0.7151035070419312,
+              -0.6325428485870361,
+              0.2975173592567444
+            ],
+            "source_decoded_normal": [
+              -0.7151210308074951,
+              -0.6325308084487915,
+              0.2975006699562073
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126133,
+              "corner": 2,
+              "group": 70522,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.715121031,
+                -0.632530808,
+                0.29750067
+              ],
+              "triangle_tangent": [
+                -0.259010375,
+                -0.93412447,
+                0.245611861
+              ],
+              "projected_tangent": [
+                0.659365714,
+                -0.75170505,
+                -0.0132779023
+              ],
+              "unnormalized_projection": [
+                0.348238885,
+                -0.397007167,
+                -0.00701262057
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63233,
+              "material_slot": 2,
+              "source_triangle_corners": [
+                252599,
+                252600,
+                252601
+              ],
+              "source_triangle_vertices": [
+                36344,
+                36965,
+                36651
+              ],
+              "source_corner": 252601,
+              "source_vertex": 36651,
+              "packed_normal_uint32": 1321814108,
+              "source_raw_corner_normal": [
+                -0.7151035070419312,
+                -0.6325428485870361,
+                0.2975173592567444
+              ],
+              "source_decoded_normal": [
+                -0.7151210308074951,
+                -0.6325308084487915,
+                0.2975006699562073
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126527,
+            "corner": 0,
+            "group": 70564,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.0619973205,
+              -0.296524972,
+              0.953010559
+            ],
+            "source_polygon": 63483,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253493,
+              253494,
+              253495
+            ],
+            "source_triangle_vertices": [
+              55553,
+              55809,
+              55800
+            ],
+            "source_corner": 253493,
+            "source_vertex": 55553,
+            "packed_normal_uint32": 108829053,
+            "source_raw_corner_normal": [
+              0.06208318471908569,
+              -0.9813458919525146,
+              -0.1819504201412201
+            ],
+            "source_decoded_normal": [
+              0.06207738444209099,
+              -0.9813462495803833,
+              -0.18195022642612457
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126527,
+              "corner": 0,
+              "group": 70564,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.0620773844,
+                -0.98134625,
+                -0.181950226
+              ],
+              "triangle_tangent": [
+                0.0619973205,
+                -0.296524972,
+                0.953010559
+              ],
+              "projected_tangent": [
+                0.0548646078,
+                -0.178670928,
+                0.982378006
+              ],
+              "unnormalized_projection": [
+                0.0544585288,
+                -0.177348495,
+                0.975106955
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63483,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253493,
+                253494,
+                253495
+              ],
+              "source_triangle_vertices": [
+                55553,
+                55809,
+                55800
+              ],
+              "source_corner": 253493,
+              "source_vertex": 55553,
+              "packed_normal_uint32": 108829053,
+              "source_raw_corner_normal": [
+                0.06208318471908569,
+                -0.9813458919525146,
+                -0.1819504201412201
+              ],
+              "source_decoded_normal": [
+                0.06207738444209099,
+                -0.9813462495803833,
+                -0.18195022642612457
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126527,
+            "corner": 2,
+            "group": 70566,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.0619973205,
+              -0.296524972,
+              0.953010559
+            ],
+            "source_polygon": 63483,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253493,
+              253494,
+              253495
+            ],
+            "source_triangle_vertices": [
+              55553,
+              55809,
+              55800
+            ],
+            "source_corner": 253495,
+            "source_vertex": 55800,
+            "packed_normal_uint32": 96115002,
+            "source_raw_corner_normal": [
+              0.054655492305755615,
+              -0.981001079082489,
+              -0.1861441433429718
+            ],
+            "source_decoded_normal": [
+              0.05466350540518761,
+              -0.9809979796409607,
+              -0.18615806102752686
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126527,
+              "corner": 2,
+              "group": 70566,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.0546635054,
+                -0.98099798,
+                -0.186158061
+              ],
+              "triangle_tangent": [
+                0.0619973205,
+                -0.296524972,
+                0.953010559
+              ],
+              "projected_tangent": [
+                0.055992566,
+                -0.183131889,
+                0.981492579
+              ],
+              "unnormalized_projection": [
+                0.0556088611,
+                -0.181876928,
+                0.974766612
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63483,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253493,
+                253494,
+                253495
+              ],
+              "source_triangle_vertices": [
+                55553,
+                55809,
+                55800
+              ],
+              "source_corner": 253495,
+              "source_vertex": 55800,
+              "packed_normal_uint32": 96115002,
+              "source_raw_corner_normal": [
+                0.054655492305755615,
+                -0.981001079082489,
+                -0.1861441433429718
+              ],
+              "source_decoded_normal": [
+                0.05466350540518761,
+                -0.9809979796409607,
+                -0.18615806102752686
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126773,
+            "corner": 0,
+            "group": 70577,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              -0.00833778176,
+              0,
+              -0.99996531
+            ],
+            "source_polygon": 63647,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254067,
+              254068,
+              254069
+            ],
+            "source_triangle_vertices": [
+              62021,
+              62291,
+              62162
+            ],
+            "source_corner": 254067,
+            "source_vertex": 62021,
+            "packed_normal_uint32": 1925785752,
+            "source_raw_corner_normal": [
+              -0.9444862604141235,
+              -0.14276587963104248,
+              0.29591143131256104
+            ],
+            "source_decoded_normal": [
+              -0.9444944858551025,
+              -0.14277900755405426,
+              0.29587873816490173
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126773,
+              "corner": 0,
+              "group": 70577,
+              "fCos": 1.00000012,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.944494486,
+                -0.142779008,
+                0.295878738
+              ],
+              "triangle_tangent": [
+                -0.00833778176,
+                0,
+                -0.99996531
+              ],
+              "projected_tangent": [
+                -0.292749137,
+                -0.0429386348,
+                -0.955224752
+              ],
+              "unnormalized_projection": [
+                -0.280346066,
+                -0.0411194265,
+                -0.914754152
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63647,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254067,
+                254068,
+                254069
+              ],
+              "source_triangle_vertices": [
+                62021,
+                62291,
+                62162
+              ],
+              "source_corner": 254067,
+              "source_vertex": 62021,
+              "packed_normal_uint32": 1925785752,
+              "source_raw_corner_normal": [
+                -0.9444862604141235,
+                -0.14276587963104248,
+                0.29591143131256104
+              ],
+              "source_decoded_normal": [
+                -0.9444944858551025,
+                -0.14277900755405426,
+                0.29587873816490173
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126815,
+            "corner": 0,
+            "group": 70584,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0,
+              -0.992795587,
+              0.119820155
+            ],
+            "source_polygon": 63672,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254163,
+              254159,
+              254160
+            ],
+            "source_triangle_vertices": [
+              62655,
+              62654,
+              62757
+            ],
+            "source_corner": 254163,
+            "source_vertex": 62655,
+            "packed_normal_uint32": 938324246,
+            "source_raw_corner_normal": [
+              0.5611931681632996,
+              -0.8239853382110596,
+              0.07816851884126663
+            ],
+            "source_decoded_normal": [
+              0.5612046122550964,
+              -0.8239769339561462,
+              0.07817523181438446
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126815,
+              "corner": 0,
+              "group": 70584,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.561204612,
+                -0.823976934,
+                0.0781752318
+              ],
+              "triangle_tangent": [
+                0,
+                -0.992795587,
+                0.119820155
+              ],
+              "projected_tangent": [
+                -0.826822579,
+                -0.553827941,
+                0.0981787592
+              ],
+              "unnormalized_projection": [
+                -0.464345008,
+                -0.311030746,
+                0.0551373661
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63672,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254163,
+                254159,
+                254160
+              ],
+              "source_triangle_vertices": [
+                62655,
+                62654,
+                62757
+              ],
+              "source_corner": 254163,
+              "source_vertex": 62655,
+              "packed_normal_uint32": 938324246,
+              "source_raw_corner_normal": [
+                0.5611931681632996,
+                -0.8239853382110596,
+                0.07816851884126663
+              ],
+              "source_decoded_normal": [
+                0.5612046122550964,
+                -0.8239769339561462,
+                0.07817523181438446
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "canonical_zero_count": 7,
+      "bitwise_output_equivalence": {
+        "packed_normal_uint32": true,
+        "decoded_normal": true,
+        "tangent": true,
+        "sign": true
+      },
+      "cause_counts": {
+        "ALL_CONTRIBUTIONS_ZERO_ANGLE": 7
+      },
+      "target_details": [
+        {
+          "target": {
+            "event": "assign",
+            "face": 125806,
+            "corner": 0,
+            "group": 70462,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              -0.398275971,
+              -0.113929905,
+              0.910162747
+            ],
+            "source_polygon": 63032,
+            "material_slot": 2,
+            "source_triangle_corners": [
+              251870,
+              251871,
+              251872
+            ],
+            "source_triangle_vertices": [
+              27595,
+              28130,
+              28131
+            ],
+            "source_corner": 251870,
+            "source_vertex": 27595,
+            "packed_normal_uint32": 1615549217,
+            "source_raw_corner_normal": [
+              -0.5962279438972473,
+              -0.42132291197776794,
+              0.6833734512329102
+            ],
+            "source_decoded_normal": [
+              -0.5962518453598022,
+              -0.42131873965263367,
+              0.6833550333976746
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 125806,
+              "corner": 0,
+              "group": 70462,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.596251845,
+                -0.42131874,
+                0.683355033
+              ],
+              "triangle_tangent": [
+                -0.398275971,
+                -0.113929905,
+                0.910162747
+              ],
+              "projected_tangent": [
+                0.339814991,
+                0.638742328,
+                0.690314353
+              ],
+              "unnormalized_projection": [
+                0.142785549,
+                0.268390685,
+                0.29006052
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63032,
+              "material_slot": 2,
+              "source_triangle_corners": [
+                251870,
+                251871,
+                251872
+              ],
+              "source_triangle_vertices": [
+                27595,
+                28130,
+                28131
+              ],
+              "source_corner": 251870,
+              "source_vertex": 27595,
+              "packed_normal_uint32": 1615549217,
+              "source_raw_corner_normal": [
+                -0.5962279438972473,
+                -0.42132291197776794,
+                0.6833734512329102
+              ],
+              "source_decoded_normal": [
+                -0.5962518453598022,
+                -0.42131873965263367,
+                0.6833550333976746
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126476,
+            "corner": 2,
+            "group": 70571,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              -0.0784276128,
+              -0.313710451,
+              0.946274161
+            ],
+            "source_polygon": 63450,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253376,
+              253377,
+              253378
+            ],
+            "source_triangle_vertices": [
+              53506,
+              53656,
+              53803
+            ],
+            "source_corner": 253378,
+            "source_vertex": 53803,
+            "packed_normal_uint32": 2726966101,
+            "source_raw_corner_normal": [
+              -0.8940902948379517,
+              0.4028126299381256,
+              0.19581784307956696
+            ],
+            "source_decoded_normal": [
+              -0.8940865397453308,
+              0.40282073616981506,
+              0.19581830501556396
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126476,
+              "corner": 2,
+              "group": 70571,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.89408654,
+                0.402820736,
+                0.195818305
+              ],
+              "triangle_tangent": [
+                -0.0784276128,
+                -0.313710451,
+                0.946274161
+              ],
+              "projected_tangent": [
+                0.0372656994,
+                -0.368778139,
+                0.928770185
+              ],
+              "unnormalized_projection": [
+                0.0369540825,
+                -0.365694404,
+                0.921003819
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63450,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253376,
+                253377,
+                253378
+              ],
+              "source_triangle_vertices": [
+                53506,
+                53656,
+                53803
+              ],
+              "source_corner": 253378,
+              "source_vertex": 53803,
+              "packed_normal_uint32": 2726966101,
+              "source_raw_corner_normal": [
+                -0.8940902948379517,
+                0.4028126299381256,
+                0.19581784307956696
+              ],
+              "source_decoded_normal": [
+                -0.8940865397453308,
+                0.40282073616981506,
+                0.19581830501556396
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126527,
+            "corner": 0,
+            "group": 70573,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.0690137446,
+              -0.284191638,
+              0.95628047
+            ],
+            "source_polygon": 63483,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              253493,
+              253494,
+              253495
+            ],
+            "source_triangle_vertices": [
+              55553,
+              55809,
+              55800
+            ],
+            "source_corner": 253493,
+            "source_vertex": 55553,
+            "packed_normal_uint32": 196517343,
+            "source_raw_corner_normal": [
+              0.11653789132833481,
+              -0.9765959978103638,
+              -0.18077389895915985
+            ],
+            "source_decoded_normal": [
+              0.11655397713184357,
+              -0.9765966534614563,
+              -0.18075984716415405
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126527,
+              "corner": 0,
+              "group": 70573,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                0.116553977,
+                -0.976596653,
+                -0.180759847
+              ],
+              "triangle_tangent": [
+                0.0690137446,
+                -0.284191638,
+                0.95628047
+              ],
+              "projected_tangent": [
+                0.0562333614,
+                -0.175219357,
+                0.982922196
+              ],
+              "unnormalized_projection": [
+                0.0558749288,
+                -0.174102515,
+                0.976657033
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63483,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                253493,
+                253494,
+                253495
+              ],
+              "source_triangle_vertices": [
+                55553,
+                55809,
+                55800
+              ],
+              "source_corner": 253493,
+              "source_vertex": 55553,
+              "packed_normal_uint32": 196517343,
+              "source_raw_corner_normal": [
+                0.11653789132833481,
+                -0.9765959978103638,
+                -0.18077389895915985
+              ],
+              "source_decoded_normal": [
+                0.11655397713184357,
+                -0.9765966534614563,
+                -0.18075984716415405
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126773,
+            "corner": 0,
+            "group": 70586,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.00834453385,
+              0.385279059,
+              -0.922762394
+            ],
+            "source_polygon": 63647,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254067,
+              254068,
+              254069
+            ],
+            "source_triangle_vertices": [
+              62021,
+              62291,
+              62162
+            ],
+            "source_corner": 254067,
+            "source_vertex": 62021,
+            "packed_normal_uint32": 1855399276,
+            "source_raw_corner_normal": [
+              -0.9596900939941406,
+              -0.18444634974002838,
+              0.2120717614889145
+            ],
+            "source_decoded_normal": [
+              -0.9596938490867615,
+              -0.1844474822282791,
+              0.2120535522699356
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126773,
+              "corner": 0,
+              "group": 70586,
+              "fCos": 1.00000012,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.959693849,
+                -0.184447482,
+                0.212053552
+              ],
+              "triangle_tangent": [
+                0.00834453385,
+                0.385279059,
+                -0.922762394
+              ],
+              "projected_tangent": [
+                -0.265547633,
+                0.347994685,
+                -0.899101853
+              ],
+              "unnormalized_projection": [
+                -0.255328447,
+                0.334602654,
+                -0.864501297
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63647,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254067,
+                254068,
+                254069
+              ],
+              "source_triangle_vertices": [
+                62021,
+                62291,
+                62162
+              ],
+              "source_corner": 254067,
+              "source_vertex": 62021,
+              "packed_normal_uint32": 1855399276,
+              "source_raw_corner_normal": [
+                -0.9596900939941406,
+                -0.18444634974002838,
+                0.2120717614889145
+              ],
+              "source_decoded_normal": [
+                -0.9596938490867615,
+                -0.1844474822282791,
+                0.2120535522699356
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126773,
+            "corner": 2,
+            "group": 70588,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.00834453385,
+              0.385279059,
+              -0.922762394
+            ],
+            "source_polygon": 63647,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254067,
+              254068,
+              254069
+            ],
+            "source_triangle_vertices": [
+              62021,
+              62291,
+              62162
+            ],
+            "source_corner": 254069,
+            "source_vertex": 62162,
+            "packed_normal_uint32": 1740317793,
+            "source_raw_corner_normal": [
+              -0.9588716626167297,
+              -0.25396114587783813,
+              0.1267630010843277
+            ],
+            "source_decoded_normal": [
+              -0.9588677883148193,
+              -0.25397971272468567,
+              0.1267547458410263
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126773,
+              "corner": 2,
+              "group": 70588,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.958867788,
+                -0.253979713,
+                0.126754746
+              ],
+              "triangle_tangent": [
+                0.00834453385,
+                0.385279059,
+                -0.922762394
+              ],
+              "projected_tangent": [
+                -0.210603952,
+                0.337163955,
+                -0.917587399
+              ],
+              "unnormalized_projection": [
+                -0.205309317,
+                0.328687578,
+                -0.894519031
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63647,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254067,
+                254068,
+                254069
+              ],
+              "source_triangle_vertices": [
+                62021,
+                62291,
+                62162
+              ],
+              "source_corner": 254069,
+              "source_vertex": 62162,
+              "packed_normal_uint32": 1740317793,
+              "source_raw_corner_normal": [
+                -0.9588716626167297,
+                -0.25396114587783813,
+                0.1267630010843277
+              ],
+              "source_decoded_normal": [
+                -0.9588677883148193,
+                -0.25397971272468567,
+                0.1267547458410263
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126815,
+            "corner": 2,
+            "group": 70595,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.240771711,
+              -0.963086843,
+              0.120385855
+            ],
+            "source_polygon": 63672,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254163,
+              254159,
+              254160
+            ],
+            "source_triangle_vertices": [
+              62655,
+              62654,
+              62757
+            ],
+            "source_corner": 254160,
+            "source_vertex": 62757,
+            "packed_normal_uint32": 124738819,
+            "source_raw_corner_normal": [
+              -0.07638883590698242,
+              -0.9560110569000244,
+              -0.2832094430923462
+            ],
+            "source_decoded_normal": [
+              -0.07640557736158371,
+              -0.9560130834579468,
+              -0.28319844603538513
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126815,
+              "corner": 2,
+              "group": 70595,
+              "fCos": 1,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.0764055774,
+                -0.956013083,
+                -0.283198446
+              ],
+              "triangle_tangent": [
+                0.240771711,
+                -0.963086843,
+                0.120385855
+              ],
+              "projected_tangent": [
+                0.618979573,
+                -0.268149406,
+                0.738214195
+              ],
+              "unnormalized_projection": [
+                0.307109654,
+                -0.133043587,
+                0.366268456
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63672,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254163,
+                254159,
+                254160
+              ],
+              "source_triangle_vertices": [
+                62655,
+                62654,
+                62757
+              ],
+              "source_corner": 254160,
+              "source_vertex": 62757,
+              "packed_normal_uint32": 124738819,
+              "source_raw_corner_normal": [
+                -0.07638883590698242,
+                -0.9560110569000244,
+                -0.2832094430923462
+              ],
+              "source_decoded_normal": [
+                -0.07640557736158371,
+                -0.9560130834579468,
+                -0.28319844603538513
+              ]
+            }
+          ]
+        },
+        {
+          "target": {
+            "event": "assign",
+            "face": 126828,
+            "corner": 2,
+            "group": 70601,
+            "groupWithAny": false,
+            "markDegenerate": false,
+            "triangle_tangent": [
+              0.895685911,
+              0.010347018,
+              0.444566876
+            ],
+            "source_polygon": 63678,
+            "material_slot": 0,
+            "source_triangle_corners": [
+              254184,
+              254185,
+              254186
+            ],
+            "source_triangle_vertices": [
+              62945,
+              63025,
+              62856
+            ],
+            "source_corner": 254186,
+            "source_vertex": 62856,
+            "packed_normal_uint32": 4274462673,
+            "source_raw_corner_normal": [
+              -0.012157176621258259,
+              0.3176656663417816,
+              -0.9481248259544373
+            ],
+            "source_decoded_normal": [
+              -0.01216818392276764,
+              0.31766068935394287,
+              -0.9481264352798462
+            ]
+          },
+          "group_contribution_count": 1,
+          "nonzero_contribution_count": 0,
+          "zero_angle_count": 1,
+          "zero_projection_count": 0,
+          "group_sum_before_normalize": [
+            0,
+            0,
+            0
+          ],
+          "group_after_normalize": [
+            0,
+            0,
+            0
+          ],
+          "observed_cause": "ALL_CONTRIBUTIONS_ZERO_ANGLE",
+          "contributions": [
+            {
+              "event": "contribution",
+              "face": 126828,
+              "corner": 2,
+              "group": 70601,
+              "fCos": 1.00000012,
+              "fast_acos_angle": 0,
+              "normal": [
+                -0.0121681839,
+                0.317660689,
+                -0.948126435
+              ],
+              "triangle_tangent": [
+                0.895685911,
+                0.010347018,
+                0.444566876
+              ],
+              "projected_tangent": [
+                0.985846281,
+                0.162370384,
+                0.0417483263
+              ],
+              "unnormalized_projection": [
+                0.890464306,
+                0.14666082,
+                0.0377091169
+              ],
+              "contribution": [
+                0,
+                0,
+                0
+              ],
+              "sum_before": [
+                0,
+                0,
+                0
+              ],
+              "source_polygon": 63678,
+              "material_slot": 0,
+              "source_triangle_corners": [
+                254184,
+                254185,
+                254186
+              ],
+              "source_triangle_vertices": [
+                62945,
+                63025,
+                62856
+              ],
+              "source_corner": 254186,
+              "source_vertex": 62856,
+              "packed_normal_uint32": 4274462673,
+              "source_raw_corner_normal": [
+                -0.012157176621258259,
+                0.3176656663417816,
+                -0.9481248259544373
+              ],
+              "source_decoded_normal": [
+                -0.01216818392276764,
+                0.31766068935394287,
+                -0.9481264352798462
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "four_frozen_input_NPZ_post_hashes_verified": true,
+  "diagnostic_failures": [
+    {
+      "log": "execution_attempt01_access_violation.log",
+      "cause": "NPZ bracket access constructed temporary arrays; ctypes pointer list retained only addresses and Python freed arrays before native call. Fixed by explicit position/normal/UV variables keeping storage alive. No valid trace/output produced."
+    },
+    {
+      "log": "execution_attempt02_metadata_int64.log",
+      "cause": "Strong6 native arrays/trace complete and bitwise equal; zero_projection_count NumPy sum not JSON serializable. Fixed Python int cast; recovered metadata using saved native outputs without repeating Strong6."
+    },
+    {
+      "log": "execution_attempt03_resume_binding.log",
+      "cause": "Resume-only metadata branch lacked corners/verts binding. Defined source route arrays outside branch. No native call in this failed resume."
+    }
+  ],
+  "native_execution_accounting": "One failed native attempt (invalid array lifetimes, no evidence), one completed Strong6 native call before JSON failure, then final resume uses saved Strong6 + three other completed native calls. Four completed canonical calls total. Metadata repair did not repeat successful Strong6.",
+  "wall_seconds_scope": "Final resume process only; total all-attempt duration not measured.",
+  "first_zero_observed_stage": "actual original contribution expression: nonzero projected tangent times fast_acosf(clamp(fCos))=0; pre/post group normalization preserves zero.",
+  "cause_summary": "24 distinct target groups, each exactly one contribution; fCos float32 in [1,1.0000001192092896], clamp1, angle0, contribution0, sum0. No nonzero contribution cancellation; no zero projected tangent or normalization underflow observed. Installed native Cycles context remains unproven.",
+  "upstream_provenance": {
+    "upstream/Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/COPYING": {
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "GPL-2.0-or-later"
+    },
+    "upstream/intern/cycles/CMakeLists.txt": {
+      "sha256": "a70959aecfb3ebfb0c2b2b96b93f2bf147723a4210fefbca9f478456fcc2c59f",
+      "bytes": 12830,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/mikktspace/mikktspace.hh": {
+      "sha256": "7faac833b7806de93a673e57ae8a615d2ee0f662cda8a90af6b3a966f0e8d381",
+      "bytes": 27941,
+      "modified": true,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/mikktspace/mikk_atomic_hash_set.hh": {
+      "sha256": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b",
+      "bytes": 5702,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/mikktspace/mikk_float3.hh": {
+      "sha256": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a",
+      "bytes": 2315,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/mikktspace/mikk_util.hh": {
+      "sha256": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585",
+      "bytes": 4384,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/blender/CMakeLists.txt": {
+      "sha256": "fac65f33041c1d8f08a8370b597696e864c268cf9080c3f12980a26ea0e6cbe9",
+      "bytes": 2080,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/blender/mesh.cpp": {
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/blender/python.cpp": {
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0",
+      "bytes": 27720,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/scene/CMakeLists.txt": {
+      "sha256": "275dad99b376961f752bb4da8f5745636a9993282bc798425fa61c233a321888",
+      "bytes": 1891,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/scene/mesh.cpp": {
+      "sha256": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54",
+      "bytes": 30464,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/defines.h": {
+      "sha256": "cbaab6248ddd571de5ce41482d580c769c6b4316566bdc05cb17a38a38962b66",
+      "bytes": 4806,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/math_base.h": {
+      "sha256": "f375b0f91dabdbf3e9fbedaa7bff767988e60d05d7c3ad01dfa486948dbeebd0",
+      "bytes": 22914,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/math_float3.h": {
+      "sha256": "99d667df6ba2de5c42b09cb26497062cf6b0dc047e0c75e2adb4965910a558ff",
+      "bytes": 21547,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/math_float4.h": {
+      "sha256": "1f017e74acbdb065213364d4ac24f5524a4bbfd7d741036924f5c44dd465b3f9",
+      "bytes": 16848,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/math_int4.h": {
+      "sha256": "c91872cdccdd38918ee6274ef633197752b5a899be4d851d99ef33beae5979b8",
+      "bytes": 7229,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/optimization.h": {
+      "sha256": "f93d17eadbfbecf2d6b4b37d5f36e1b9a6486b91418c3062efb4a5fc7a7bbf6e",
+      "bytes": 1108,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/simd.h": {
+      "sha256": "29a3b99af2656c5d25dd5a45d05e58c487b305784fecc5342243a741288052cb",
+      "bytes": 12329,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_base.h": {
+      "sha256": "9cf2d881accbde5a11b1f5359a3abcdc8ef4ac2d8bfb829533ce295ec4c2e2a2",
+      "bytes": 2655,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_float2.h": {
+      "sha256": "df3ab1124d9fa76e3262684179d2bbc9638d897fef0cf458ab3554829cacb74f",
+      "bytes": 1431,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_float3.h": {
+      "sha256": "554f13ec0e60631b8858a1d1cc9bcd7f74d6011fb5f2afa6ea019c7303d6d369",
+      "bytes": 4351,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_float4.h": {
+      "sha256": "b0e1167fdd33ba571637cd97d9552c215b068e18938b4e9f89ea4cbbbd06dd7d",
+      "bytes": 3659,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_int2.h": {
+      "sha256": "282936350f4380d68749d41c3feb264c8d5d98078a8f791f0c99da8ea92b662c",
+      "bytes": 738,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_int3.h": {
+      "sha256": "d6687ff22fa25f3e93c082dbd7799c7023b9d18611dfbab6f0ffc1e5fd421de6",
+      "bytes": 3226,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_int4.h": {
+      "sha256": "92be785482e2b76b69d9077e0b0643bd718414f6c60660cee6b8896b013a4f7e",
+      "bytes": 1710,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_normal.h": {
+      "sha256": "d6a9dcee0eb501893f93012cf42d9026b207baa9d3fc978ac26693da300eac82",
+      "bytes": 2965,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/types_uint3.h": {
+      "sha256": "9a2d48c882274596565b806d7ddbce3548d127ba4a49ce68ef2af0a4b6ed37d2",
+      "bytes": 1924,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/intern/cycles/util/windows.h": {
+      "sha256": "0b7ad995a9be18057c3d83bf3e9918c90a7d32f109f84e8ceef620dcc924b05e",
+      "bytes": 403,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "Apache-2.0"
+    },
+    "upstream/build_files/cmake/platform/platform_win32.cmake": {
+      "sha256": "d5a1c2ee522c1f1ec4de889c0c4706544c571de12a5b61974ba603cea6070a33",
+      "bytes": 45052,
+      "modified": false,
+      "source_pin": "9e2066aef7ef",
+      "license": "GPL-2.0-or-later"
+    }
+  }
+}

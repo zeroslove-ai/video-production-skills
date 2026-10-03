@@ -1,0 +1,8 @@
+{
+  "main_packet_sha256": "e1c974ae18bfd17936a41b68e1326ca6bcf44450b71d16caf601d437f096833d",
+  "supplement_path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_NATIVE_MIKK_ZERO_CAUSE_20261003_R1_b82ce89a3c17\\YURI_O1_R4_NATIVE_MIKK_ZERO_CAUSE_20261003_R1_REPORT_CORRECTION.zip",
+  "supplement_sha256": "8410fe4fa14595bf94a9e235895a1ab90b1504def28462d7204eac5672ff7f3d",
+  "bytes": 813,
+  "purpose": "Prose counting correction only; main manifest and frozen packet unchanged",
+  "CRC_and_bytes_verified": true
+}
