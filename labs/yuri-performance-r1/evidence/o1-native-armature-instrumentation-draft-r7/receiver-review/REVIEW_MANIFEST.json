@@ -1,0 +1,66 @@
+{
+  "classification": "PUBLIC_SCHEMA_CODE_REVIEW_ONLY",
+  "source_git_commit": "d02ef857e73d8a2b226422a46d9221287f6d686c",
+  "files": [
+    {
+      "path": "CANONICAL_CONSUMER_SCHEMA_R7.json",
+      "bytes": 26418,
+      "sha256": "ebfffea26e62b4174af189aae237e54026a37c255e37c9be36e01bb44bdfb2bf"
+    },
+    {
+      "path": "native_armature_typed_r7.patch",
+      "bytes": 29798,
+      "sha256": "b2ba72354e36d96f87ef98f7f7c2b1dba39a95338bff2a91f4cdeb48d64989e2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1299,
+      "sha256": "6780c085a026d2559c41f36b2a22290b11bbc33d176e2a86c59febf46540fff2"
+    },
+    {
+      "path": "SECOND_LBS_CANONICAL_SCHEMA_R7.md",
+      "bytes": 4716,
+      "sha256": "fac3e9669c2916df21fdbb0102918e90b64fb10a77648d15558c83eb0c846828"
+    },
+    {
+      "path": "workflow/armature_canonical_pack_r7.py",
+      "bytes": 13073,
+      "sha256": "48bced4581270e2d336be58e35df2e2d92c803d99fa03c30a4411843f22ec381"
+    },
+    {
+      "path": "workflow/armature_canonical_validate_r7.py",
+      "bytes": 15548,
+      "sha256": "ae9c34b88066bb7903ff55da0656f11af0e2a7b1fdef995ab09672d20aa36574"
+    },
+    {
+      "path": "workflow/armature_live_recipe_r5.py",
+      "bytes": 2392,
+      "sha256": "e4bb90caf3c2ee34a9bb9f508361f0fe83519eefa572f388f4dea8071d427a3c"
+    },
+    {
+      "path": "workflow/armature_owned_invocation_r7.py",
+      "bytes": 6121,
+      "sha256": "4d6bba9a36fb7d1af8a955e63e41adf4ce8a092d19b236d23e2de766d2ead13b"
+    },
+    {
+      "path": "workflow/armature_trace_r4.hh.in",
+      "bytes": 5686,
+      "sha256": "0aaea8f8ac8720d47ae253ead6fc7f4c2facb810f406701a4fc31a20cedf94e2"
+    },
+    {
+      "path": "workflow/armature_trace_unpack_r1.py",
+      "bytes": 4446,
+      "sha256": "d4b2e8e68c02e3b0853fafca26dc454b7e58424b6fdbd340d4ebc702b2f048c0"
+    },
+    {
+      "path": "workflow/armature_validator_fixture_r7.py",
+      "bytes": 7416,
+      "sha256": "869176932d29e5bd021a8800c1c5702304af34d3fd760524f0a2f1469ce5a45c"
+    },
+    {
+      "path": "workflow/bpy_yuri_armature_trace_r5.hh",
+      "bytes": 4191,
+      "sha256": "4331d3e9ca20bb5be850914fd26d297a104691bc50ab32bab71ce3f299236dd9"
+    }
+  ]
+}

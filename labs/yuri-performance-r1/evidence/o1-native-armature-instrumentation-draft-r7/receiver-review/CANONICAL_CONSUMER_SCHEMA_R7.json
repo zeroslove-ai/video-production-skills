@@ -1,0 +1,749 @@
+{
+  "purpose": "LAPTOP CONSUMER SCHEMA REVIEW ONLY; no native numeric/build/capture acceptance",
+  "source_git_commit": "d02ef857e73d8a2b226422a46d9221287f6d686c",
+  "original_frozen_R7_zip_SHA256": "1314692aa05bf2d62c4bb54c8fc794104a395d5adfc68b8e0627dc8cb9b638b0",
+  "source_patch_SHA256": "b2ba72354e36d96f87ef98f7f7c2b1dba39a95338bff2a91f4cdeb48d64989e2",
+  "original_exact_request_input_SHA256": "a46c693c28e09a93729bbe433a522d47c7a452c740a6af6ceb8868ddec370b17",
+  "arrays": {
+    "rest": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        57,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "4a8e1f8cdbe62e1498ced851a2e8a30ec8ef04c19087b042f8bfc6e9b8babd2b",
+      "operation_stage": "actual pose completion, original armature coordinates; native column -> row-major once"
+    },
+    "inverse_rest": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        57,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "399b49385a1b2bbec2af8b33bac5c842b13f229db24453a42c18450f92c3e036",
+      "operation_stage": "actual pose completion, original armature coordinates; native column -> row-major once"
+    },
+    "evaluated_pose": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        57,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "4f6f9c4f41f796a397ab5e9b6d0c237322f34df7fabbc240f32527047c811b89",
+      "operation_stage": "actual pose completion, original armature coordinates; native column -> row-major once"
+    },
+    "deform_matrix": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        57,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "399b49385a1b2bbec2af8b33bac5c842b13f229db24453a42c18450f92c3e036",
+      "operation_stage": "actual pose completion, original armature coordinates; native column -> row-major once"
+    },
+    "deforming_bone_slots": {
+      "dtype": "<i4",
+      "shape": [
+        51
+      ],
+      "uncompressed_array_sha256": "f103987ecdd76a0f8c801aaf591540a8b7261c0580bdb4efecfbeb052bec7737",
+      "operation_stage": "original slot indices; helpers retained in57-slot rest/pose arrays"
+    },
+    "dq_computed_valid": {
+      "dtype": "<i4",
+      "shape": [
+        2,
+        57
+      ],
+      "uncompressed_array_sha256": "a474b90f66c22355047e6aff8c5b8e65ba0a3aae391b9fe9a2a324d665af0edb",
+      "operation_stage": "1 actual native conversion; 0 BONE_NO_DEFORM NOT_COMPUTED"
+    },
+    "real_q_values": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        51,
+        4
+      ],
+      "uncompressed_array_sha256": "94c9ee4688c08d253852843403665135d0081041ccde0040cba9d188c4600fea",
+      "operation_stage": "sparse actual mat4_to_dquat conversion; final normalized rotation event only",
+      "logical_shape": [
+        2,
+        57,
+        4
+      ]
+    },
+    "dual_q_values": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        51,
+        4
+      ],
+      "uncompressed_array_sha256": "235a7f4dd8af8a77a032c72b99f4537ecb4c1e30067f1ef4c5308689279cb137",
+      "operation_stage": "sparse actual mat4_to_dquat conversion; final normalized rotation event only",
+      "logical_shape": [
+        2,
+        57,
+        4
+      ]
+    },
+    "normalized_rotation_columns_values": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        51,
+        3,
+        3
+      ],
+      "uncompressed_array_sha256": "76d1b9e1cb6495bc76acda03cf6049d7dcb3863e020b298089ba02fac703e225",
+      "operation_stage": "sparse actual mat4_to_dquat conversion; final normalized rotation event only",
+      "logical_shape": [
+        2,
+        57,
+        3,
+        3
+      ]
+    },
+    "no_scale_branch_values": {
+      "dtype": "<i4",
+      "shape": [
+        2,
+        51
+      ],
+      "uncompressed_array_sha256": "deadc9c12309d170df1038ece83b8d654412656ea5fc8ebd6b62aabacff1f8c5",
+      "operation_stage": "actual native branch classification; helper fields absent",
+      "logical_shape": [
+        2,
+        57
+      ]
+    },
+    "vertex_ids": {
+      "dtype": "<i4",
+      "shape": [
+        5
+      ],
+      "uncompressed_array_sha256": "5bf3451d3a15e28ddae1eef35780b8de0ba63e80210c9e5a15c5b77aae7f36f8",
+      "operation_stage": "original request metadata, independently validated against actual event CSR; not an extracted native primitive"
+    },
+    "csr_offsets": {
+      "dtype": "<i4",
+      "shape": [
+        6
+      ],
+      "uncompressed_array_sha256": "722b0bbcd27ec307b35136cbfad5f5a87bdc51a3727cb70a46de7cf4ef0029b4",
+      "operation_stage": "original request metadata, independently validated against actual event CSR; not an extracted native primitive"
+    },
+    "csr_group": {
+      "dtype": "<i4",
+      "shape": [
+        26
+      ],
+      "uncompressed_array_sha256": "faca7e490e9820ae3d5676c71d1bbb3d79265c5365a47605f204899ca2128e43",
+      "operation_stage": "original request metadata, independently validated against actual event CSR; not an extracted native primitive"
+    },
+    "csr_bone": {
+      "dtype": "<i4",
+      "shape": [
+        26
+      ],
+      "uncompressed_array_sha256": "123da534442e2a8fe3f232e914ed6e847e055166bdd8722d85044a54865ce3fc",
+      "operation_stage": "original request metadata, independently validated against actual event CSR; not an extracted native primitive"
+    },
+    "csr_weight": {
+      "dtype": "<f4",
+      "shape": [
+        26
+      ],
+      "uncompressed_array_sha256": "d38da19c5289a9d8957188ebd737396fb063a2496fe6bf1255a746d098d951cf",
+      "operation_stage": "original CSR bits, exact equality verified with native caller rows"
+    },
+    "csr_eligible": {
+      "dtype": "<i4",
+      "shape": [
+        2,
+        26
+      ],
+      "uncompressed_array_sha256": "0180ab0ff2efba5f0686d7e8fac2a0a823a9d5e6384da9c9873df8663fecc510",
+      "operation_stage": "actual mapped/weight eligibility; original CSR rows retained"
+    },
+    "hemisphere_sign_indices": {
+      "dtype": "<i4",
+      "shape": [
+        30,
+        2
+      ],
+      "uncompressed_array_sha256": "26b0e9b735057bb894dbd2ec5aa0f8c6b49beeab02351c2a043dff5571951a78",
+      "operation_stage": "[case,original concatenated CSR entry] for actual native sign events"
+    },
+    "hemisphere_sign_values": {
+      "dtype": "<f4",
+      "shape": [
+        30
+      ],
+      "uncompressed_array_sha256": "c52f140690590096a52c47a5433cb2036ba0d085d566e964ad0b8f9fc930a8c5",
+      "operation_stage": "sparse actual sign; noncontributing sign NOT_COMPUTED",
+      "logical_shape": [
+        2,
+        26
+      ]
+    },
+    "running_total": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        26
+      ],
+      "uncompressed_array_sha256": "0c8a4cdbba0ae7545257df189fe541b38a6b4f822aa53cd39b796eca8554f561",
+      "operation_stage": "actual first-DQ ordered post-entry state, unchanged for noncontributing entries"
+    },
+    "running_real_q": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        26,
+        4
+      ],
+      "uncompressed_array_sha256": "c9643281244944370ddfe4af6c1b0885ec51187ef385d98de5473741ac77ab1e",
+      "operation_stage": "actual first-DQ ordered post-entry state, unchanged for noncontributing entries"
+    },
+    "running_dual_q": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        26,
+        4
+      ],
+      "uncompressed_array_sha256": "e0084b66cb4a03e2aba6cc7342eead6a91610ad915d66f9ae2c734f99b772ac7",
+      "operation_stage": "actual first-DQ ordered post-entry state, unchanged for noncontributing entries"
+    },
+    "original_co": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual original body LOCAL/WORLD; stage00 before first DQ; stage01 after second masked LBS; no inverse-WORLD reconstruction"
+    },
+    "transformed_co": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "finalize_delta": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "stage00_local": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual original body LOCAL/WORLD; stage00 before first DQ; stage01 after second masked LBS; no inverse-WORLD reconstruction"
+    },
+    "stage00_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual original body LOCAL/WORLD; stage00 before first DQ; stage01 after second masked LBS; no inverse-WORLD reconstruction"
+    },
+    "dq_output_local": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual original body LOCAL/WORLD; stage00 before first DQ; stage01 after second masked LBS; no inverse-WORLD reconstruction"
+    },
+    "dq_output_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual original body LOCAL/WORLD; stage00 before first DQ; stage01 after second masked LBS; no inverse-WORLD reconstruction"
+    },
+    "stage01_local": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual original body LOCAL/WORLD; stage00 before first DQ; stage01 after second masked LBS; no inverse-WORLD reconstruction"
+    },
+    "stage01_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual original body LOCAL/WORLD; stage00 before first DQ; stage01 after second masked LBS; no inverse-WORLD reconstruction"
+    },
+    "normalized_real_q": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        4
+      ],
+      "uncompressed_array_sha256": "7ab49ac56d354b27d5181d27b7e451de92a5fef1e5d38f92b60015374a73179d",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "normalized_dual_q": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        4
+      ],
+      "uncompressed_array_sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "quaternion_length_squared": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5
+      ],
+      "uncompressed_array_sha256": "00e1a993efd5074e1fc9c7ff6fc46a151ee4ed93935d05ee2ab229ded34975c1",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "reciprocal_length_squared": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5
+      ],
+      "uncompressed_array_sha256": "00e1a993efd5074e1fc9c7ff6fc46a151ee4ed93935d05ee2ab229ded34975c1",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "dq_rotation_matrix": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3,
+        3
+      ],
+      "uncompressed_array_sha256": "38d6d9d225e00d04bdfd29609d26c5298563beffa7f2df6ac9e85780acd75efe",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "dq_translation": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "6edd9f6f9cc92cded36e6c4a580933f9c9f1b90562b46903b806f21902a1a54f",
+      "operation_stage": "actual first DQ ARMATURE primitive (finalize_delta is native armature-space vector, not reconstructed body-local delta)"
+    },
+    "object_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual first-DQ caller transport; original legacy inverse order"
+    },
+    "rig_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual first-DQ caller transport; original legacy inverse order"
+    },
+    "premat": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual first-DQ caller transport; original legacy inverse order"
+    },
+    "postmat": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual first-DQ caller transport; original legacy inverse order"
+    },
+    "stage01_intermediates_computed_valid": {
+      "dtype": "<i4",
+      "shape": [
+        2,
+        5
+      ],
+      "uncompressed_array_sha256": "8b9be87f8f42bcc1d9d513fde8ad467d70ec56e63e2d0a076356121e65be3578",
+      "operation_stage": "0 zero mask/native return; caller coordinates remain actual and unchanged"
+    },
+    "lbs_computed_vertex_indices": {
+      "dtype": "<i4",
+      "shape": [
+        4,
+        2
+      ],
+      "uncompressed_array_sha256": "7e5a37054f4669b3c5b390a19214e7dae7646caa48b67839f384e5ca2c36f31f",
+      "operation_stage": "[case,original sample index] actual LBS computation present; skipped rows absent"
+    },
+    "lbs_co_armature_values": {
+      "dtype": "<f4",
+      "shape": [
+        4,
+        3
+      ],
+      "uncompressed_array_sha256": "7ec0381548ab79ecf9591297f2129726c9f7c95734a7e0aff08e209f9484c158",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5,
+        3
+      ]
+    },
+    "lbs_previous_co_weight_values": {
+      "dtype": "<f4",
+      "shape": [
+        4
+      ],
+      "uncompressed_array_sha256": "42f82e0d2fb6d493236c506d287ca34800dde51857140743d8db282e52d706bf",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5
+      ]
+    },
+    "lbs_armature_weight_values": {
+      "dtype": "<f4",
+      "shape": [
+        4
+      ],
+      "uncompressed_array_sha256": "f6bb1294da2f78cd935b01c7656280df5eaa0439e9d97bc03775825a41a508e4",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5
+      ]
+    },
+    "lbs_finalize_scale_factor_values": {
+      "dtype": "<f4",
+      "shape": [
+        4
+      ],
+      "uncompressed_array_sha256": "f0d9caa9b83d65e96e9570f31585e6a60c895d0f6d069246993a83cc01a8c53b",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5
+      ]
+    },
+    "lbs_finalize_delta_armature_values": {
+      "dtype": "<f4",
+      "shape": [
+        4,
+        3
+      ],
+      "uncompressed_array_sha256": "7ec0381548ab79ecf9591297f2129726c9f7c95734a7e0aff08e209f9484c158",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5,
+        3
+      ]
+    },
+    "lbs_co_before_finalize_update_values": {
+      "dtype": "<f4",
+      "shape": [
+        4,
+        3
+      ],
+      "uncompressed_array_sha256": "7ec0381548ab79ecf9591297f2129726c9f7c95734a7e0aff08e209f9484c158",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5,
+        3
+      ]
+    },
+    "lbs_co_after_finalize_update_values": {
+      "dtype": "<f4",
+      "shape": [
+        4,
+        3
+      ],
+      "uncompressed_array_sha256": "7ec0381548ab79ecf9591297f2129726c9f7c95734a7e0aff08e209f9484c158",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5,
+        3
+      ]
+    },
+    "lbs_pre_mask_local_values": {
+      "dtype": "<f4",
+      "shape": [
+        4,
+        3
+      ],
+      "uncompressed_array_sha256": "7ec0381548ab79ecf9591297f2129726c9f7c95734a7e0aff08e209f9484c158",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5,
+        3
+      ]
+    },
+    "lbs_vertex_output_local_values": {
+      "dtype": "<f4",
+      "shape": [
+        4,
+        3
+      ],
+      "uncompressed_array_sha256": "7ec0381548ab79ecf9591297f2129726c9f7c95734a7e0aff08e209f9484c158",
+      "operation_stage": "actual SECOND masked LBS native primitive; co/delta ARMATURE, pre_mask/output original BODY LOCAL; sparse NOT_COMPUTED skip",
+      "logical_shape": [
+        2,
+        5,
+        3
+      ]
+    },
+    "lbs_mask_weight": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5
+      ],
+      "uncompressed_array_sha256": "3ca9c99c24d5781065ed8e1175cd4a46bf925ed3a3acdfc23f9c0a80d70f282e",
+      "operation_stage": "actual second caller/mask/cache including native skip branch"
+    },
+    "lbs_previous_cached_local": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual second caller/mask/cache including native skip branch"
+    },
+    "lbs_caller_input_local": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual second caller/mask/cache including native skip branch"
+    },
+    "lbs_caller_input_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        5,
+        3
+      ],
+      "uncompressed_array_sha256": "749007b6f396af28108cdae32ccfbef97022f4947edecc861fc2659e75e6372e",
+      "operation_stage": "actual second caller/mask/cache including native skip branch"
+    },
+    "lbs_computed_csr_indices": {
+      "dtype": "<i4",
+      "shape": [
+        40,
+        4
+      ],
+      "uncompressed_array_sha256": "1e4b4af765db6fa453595fe76bcb754b8fae15bc030f63775e77a454662100f3",
+      "operation_stage": "[case,sample index,original local CSR entry,original concatenated CSR entry]; ZERO/helpers/masks retained; only native skipped vertex rows absent"
+    },
+    "lbs_running_delta_values": {
+      "dtype": "<f4",
+      "shape": [
+        40,
+        3
+      ],
+      "uncompressed_array_sha256": "79d09def02f12c14265c767d87e7e71986b424b81f48e63e6dbde62dfacc0e17",
+      "operation_stage": "actual SECOND LBS ordered per-entry post-state; unchanged for noncontributing zero/helpers/mask entries",
+      "logical_shape": [
+        2,
+        26,
+        3
+      ]
+    },
+    "lbs_running_total_values": {
+      "dtype": "<f4",
+      "shape": [
+        40
+      ],
+      "uncompressed_array_sha256": "d31af17d306c44ef7a5dab9b4db4f746da3c50f35282c1cfd8d96e1cd67cfeec",
+      "operation_stage": "actual SECOND LBS ordered per-entry post-state; unchanged for noncontributing zero/helpers/mask entries",
+      "logical_shape": [
+        2,
+        26
+      ]
+    },
+    "lbs_mapped_bone_values": {
+      "dtype": "<f4",
+      "shape": [
+        40
+      ],
+      "uncompressed_array_sha256": "14f8b8db9ff3a8d6e4df001166441c5de6fa28c379a423bc8df193bdb83ce4d7",
+      "operation_stage": "actual SECOND LBS ordered per-entry post-state; unchanged for noncontributing zero/helpers/mask entries",
+      "logical_shape": [
+        2,
+        26
+      ]
+    },
+    "lbs_eligibility_values": {
+      "dtype": "<f4",
+      "shape": [
+        40
+      ],
+      "uncompressed_array_sha256": "7075ecf8198a66bd455996d19e78a7f8b7d6bd7492c62cae79ac6eb409d320d4",
+      "operation_stage": "actual SECOND LBS ordered per-entry post-state; unchanged for noncontributing zero/helpers/mask entries",
+      "logical_shape": [
+        2,
+        26
+      ]
+    },
+    "lbs_finalize_total_values": {
+      "dtype": "<f4",
+      "shape": [
+        4
+      ],
+      "uncompressed_array_sha256": "bd6202f561e3543faa41d676ed500a0789a2d3bf685457f4ff6fb23a7b883369",
+      "operation_stage": "actual native accumulator total passed unchanged to LinearMixer.finalize; copied last native post-entry total",
+      "logical_shape": [
+        2,
+        5
+      ]
+    },
+    "lbs_object_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual SECOND modifier transport matrices; native legacy inverse order; not reused first-modifier matrices"
+    },
+    "lbs_rig_world": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual SECOND modifier transport matrices; native legacy inverse order; not reused first-modifier matrices"
+    },
+    "lbs_premat": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual SECOND modifier transport matrices; native legacy inverse order; not reused first-modifier matrices"
+    },
+    "lbs_postmat": {
+      "dtype": "<f4",
+      "shape": [
+        2,
+        4,
+        4
+      ],
+      "uncompressed_array_sha256": "59160118b6ec92c768dbf108f969dc12d786fa19935201e3a3755ee1a000ff74",
+      "operation_stage": "actual SECOND modifier transport matrices; native legacy inverse order; not reused first-modifier matrices"
+    }
+  },
+  "array_hashes_classification": "SYNTHETIC_EXAMPLE_PAYLOAD_HASHES_NOT_NATIVE; values/NPZ are not embedded in this public schema",
+  "sparse_contract": "Logical [2,57] fields use deforming_bone_slots + dq_computed_valid. No dense native helper DQ/no-scale bytes exist. Sparse hemisphere likewise retains NOT_COMPUTED sign, not0/identity proof.",
+  "second_LBS_contract": {
+    "computed_samples": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "NOT_COMPUTED_sample_indices": [
+      2,
+      3,
+      4
+    ],
+    "per_vertex_index": "lbs_computed_vertex_indices [case,sample]",
+    "per_entry_index": "lbs_computed_csr_indices [case,sample,local original CSR,concatenated original CSR]",
+    "primitive_source": "actual row/modifier1/bone-1/vertex/entry event bytes; no re-normalization or reconstruction",
+    "full_deform_matrix": "NOT_COMPUTED ordinary nullopt path; do not invent unused matrix",
+    "consumer_schema_agreement": "NOT_YET_CONFIRMED_WITH_LAPTOP; acceptance remains pending"
+  },
+  "coordinate_scope": "LOCAL original source body; WORLD source object positive uniform matrix before Unity P; stage01 explicitly second modifier output",
+  "consumer_schema_agreement": "PENDING; PM requested Laptop review; no acceptance reply received",
+  "review_questions": [
+    "Accept deforming_bone_slots + dq_computed_valid and *_values logical [2,57] fields, without invented dense helper DQ?",
+    "Accept sparse actual hemisphere events retaining all original CSR indices and explicit noncomputed sign?",
+    "Accept second-LBS per-vertex/per-entry indices and NOT_COMPUTED skip mask for samples2/3/4?",
+    "Confirm stage00=input before first DQ, dq_output=after first DQ, stage01=after second masked LBS; native finalize/delta primitive stays ARMATURE-space?",
+    "Report precise required field/coordinate/schema amendments; numeric/world/compiler/render acceptance remains separate."
+  ],
+  "no_product_writes": true,
+  "native_numeric_acceptance": false
+}
