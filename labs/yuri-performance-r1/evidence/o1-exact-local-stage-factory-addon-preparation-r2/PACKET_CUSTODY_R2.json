@@ -1,0 +1,11 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-exact-local-stage-factory-addon-preparation-r2\\YURI_O1_FACTORY_ADDON_EXACT_LOCAL_PREPARATION_R2.zip",
+  "bytes": 43242,
+  "sha256": "597afc3192cf720e605c56a0c654e410fda79ab66c5cc48f09a9c7ed07e0d290",
+  "collector_sha256": "f54aa1791dc0f064c4ba7d048703c4a6f1224ad5e88545d62a47ad8d1e4aa39e",
+  "launcher_sha256": "bfd084a8f5ce622783811cb877fbb306d4f8f737d7584924077f4ebc80909b3a",
+  "config_sha256": "5222700c546f946b2c20007e94e7994c06913807b4f5f9b9bc0a88ffa2c4f7c4",
+  "proposal_sha256": "26ab07d2203a9e007126e40fde5a6f24a06219e0c43b7ee1a67298f5ead31c04",
+  "installed_manifest_sha256": "80e5758c227b8431eda502750d79c4660df4c5b8a1be208c424ca1a438576816",
+  "status": "PREPARATION_ONLY_NEW_PM_REVIEW_PENDING"
+}

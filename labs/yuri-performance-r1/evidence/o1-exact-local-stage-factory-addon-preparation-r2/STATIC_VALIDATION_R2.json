@@ -1,0 +1,20 @@
+{
+  "status": "FILE_ONLY_STATIC_REVIEW_PASS_NATIVE_NOT_RUN",
+  "collector_launcher_helper_AST_compile": true,
+  "installed_packages": 13,
+  "installed_Python_files_hashed": 315,
+  "hidden_core_from_installed_AST": [
+    "bl_pkg",
+    "io_anim_bvh",
+    "io_curve_svg",
+    "io_mesh_uv_layout",
+    "io_scene_fbx"
+  ],
+  "launcher_logic_same_as_R1_except_fixed_paths": true,
+  "source_action_recipe_existing_reference_hashes_unchanged": true,
+  "enabled_inventory_actual": "UNKNOWN_NOT_CAPTURED",
+  "addon_origin_gate_runtime": "NOT_RUN",
+  "Blender_or_probe_launches": 0,
+  "global_preferences_edits": 0,
+  "R1_R5_guard_FAIL_preserved": true
+}
