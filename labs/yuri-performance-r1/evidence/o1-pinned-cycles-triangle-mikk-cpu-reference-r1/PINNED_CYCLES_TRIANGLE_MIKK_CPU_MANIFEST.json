@@ -1,0 +1,586 @@
+{
+  "task_id": "ROOT_PM_O1_PINNED_CYCLES_TRIANGLE_MIKK_CPU_REFERENCE_R1",
+  "status": "DONE_PINNED_ALGORITHM_REFERENCE",
+  "classification": "PINNED_ALGORITHM_REFERENCE",
+  "actual_Cycles_renderer_buffer": "HOLD_NOT_CAPTURED",
+  "runtime_PBR_acceptance": "HOLD",
+  "source_saved_render_export_GPU_Blender_jobs": 0,
+  "process_pid": 116972,
+  "wall_seconds": 5.875199800007977,
+  "compiler": "MSVC cl.exe file version 19.44.35228.0 x64 (see actual logs)",
+  "flags": "/std:c++20 /EHsc /O2 /fp:precise /LD; default x64 SSE, no WITH_TBB, no WITH_KERNEL_AVX2; standalone configuration, not claimed identical to installed Blender build flags",
+  "source_build": "9e2066aef7ef",
+  "native_wrapper": "Unmodified MikkMeshWrapper and Triangle::compute_normal blocks extracted verbatim from pinned scene/mesh.cpp; minimal Mesh buffer facade supplies original ordered triangles/positions/smooth and UV/corner normal arrays. No renderer attribute allocator/scene compiled. RawNormalWrapper is explicitly an ablation only.",
+  "smooth_policy": "Body source sharp_face attribute absent => default false => all faces smooth; no flat normal branch reached.",
+  "input_manifest_sha256": "78bebe4a6117a0407241e8c19b724d944f53ec9d299e0820294071040365ccdd",
+  "files": [
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame006_pinned_algorithm_reference.npz",
+      "bytes": 8128344,
+      "sha256": "bde9e72be7ff173ba9892b4df55067c16913ee55a02977b55abc7ca6cc42c978"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame001_pinned_algorithm_reference.npz",
+      "bytes": 8132895,
+      "sha256": "1e877adf59f67e5588d0d533414cb039bec91dad0cba9c613632ec1628f2e745"
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame011_pinned_algorithm_reference.npz",
+      "bytes": 8131752,
+      "sha256": "087e6587f6c399c4cba8394802e086fa350c5be187cebf738be4e78475a68d15"
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame044_pinned_algorithm_reference.npz",
+      "bytes": 8129699,
+      "sha256": "6e4f9563c18156e8ec1a0b41c61b1948b2affbe81186954dedf54d0b16a93896"
+    }
+  ],
+  "frames": [
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "input_sha256": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd",
+      "canonical": {
+        "seconds": 0.09308970003621653,
+        "decoded_normal_unit_max_error": 1.388158590298616e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 8,
+        "nonzero_tangent_unit_max_error": 1.554354467359076e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 2.9619401173519577e-05,
+        "sign_positive": 381015,
+        "sign_negative": 105,
+        "finite": true,
+        "sign_valid": true
+      },
+      "raw_ablation": {
+        "seconds": 0.06788250000681728,
+        "decoded_normal_unit_max_error": 1.388158590298616e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 9,
+        "nonzero_tangent_unit_max_error": 1.57574726378229e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 6.060143774533344e-05,
+        "sign_positive": 381015,
+        "sign_negative": 105,
+        "finite": true,
+        "sign_valid": true
+      },
+      "rest_ablation": {
+        "seconds": 0.09368509997148067,
+        "decoded_normal_unit_max_error": 1.388158590298616e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 6,
+        "nonzero_tangent_unit_max_error": 1.554354467359076e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 2.9397213381798792e-05,
+        "sign_positive": 381006,
+        "sign_negative": 114,
+        "finite": true,
+        "sign_valid": true
+      },
+      "packing_normal_angle_degrees": {
+        "max": 0.003582747014802237,
+        "mean": 0.0012798065900088947,
+        "p99": 0.0029001928704830747,
+        "undefined_zero_vector_count": 0
+      },
+      "raw_vs_packed_tangent_angle_degrees": {
+        "max": 0.5753170876437912,
+        "mean": 0.0007290597345386083,
+        "p99": 0.0022386277031965114,
+        "undefined_zero_vector_count": 10
+      },
+      "raw_vs_packed_tangent_sign_difference_count": 0,
+      "rest_vs_dynamic_identical_triangle_count": 126998,
+      "unmatched_dynamic_triangles": 42,
+      "rest_vs_dynamic_matched_tangent_angle_degrees": {
+        "max": 86.04750755458507,
+        "mean": 0.003308012595172605,
+        "p99": 0.0,
+        "undefined_zero_vector_count": 6
+      },
+      "rest_vs_dynamic_matched_sign_difference_count": 0,
+      "rest_vs_dynamic_matched_tangent_corners_over_0_001_degree": 289,
+      "classification": "PINNED_ALGORITHM_REFERENCE_NOT_ACTUAL_CYCLES_RENDERER_BUFFER",
+      "zero_tangent_source_identity": [
+        {
+          "triangle": 126403,
+          "triangle_corner": 0,
+          "source_corner": 253213,
+          "source_vertex": 49249,
+          "source_polygon": 63405,
+          "geom_cross_length": 5.356463456408587e-08,
+          "UV_signed_double_area": -9.989697957735181e-11
+        },
+        {
+          "triangle": 126403,
+          "triangle_corner": 2,
+          "source_corner": 253215,
+          "source_vertex": 49517,
+          "source_polygon": 63405,
+          "geom_cross_length": 5.356463456408587e-08,
+          "UV_signed_double_area": -9.989697957735181e-11
+        },
+        {
+          "triangle": 126476,
+          "triangle_corner": 0,
+          "source_corner": 253376,
+          "source_vertex": 53506,
+          "source_polygon": 63450,
+          "geom_cross_length": 9.500372605258606e-11,
+          "UV_signed_double_area": -1.8659909173379393e-09
+        },
+        {
+          "triangle": 126476,
+          "triangle_corner": 2,
+          "source_corner": 253378,
+          "source_vertex": 53803,
+          "source_polygon": 63450,
+          "geom_cross_length": 9.500372605258606e-11,
+          "UV_signed_double_area": -1.8659909173379393e-09
+        },
+        {
+          "triangle": 126527,
+          "triangle_corner": 0,
+          "source_corner": 253493,
+          "source_vertex": 55553,
+          "source_polygon": 63483,
+          "geom_cross_length": 3.436209621007949e-10,
+          "UV_signed_double_area": -2.7201352281734827e-11
+        },
+        {
+          "triangle": 126527,
+          "triangle_corner": 2,
+          "source_corner": 253495,
+          "source_vertex": 55800,
+          "source_polygon": 63483,
+          "geom_cross_length": 3.436209621007949e-10,
+          "UV_signed_double_area": -2.7201352281734827e-11
+        },
+        {
+          "triangle": 126773,
+          "triangle_corner": 2,
+          "source_corner": 254069,
+          "source_vertex": 62162,
+          "source_polygon": 63647,
+          "geom_cross_length": 3.3587340642538486e-09,
+          "UV_signed_double_area": -6.699107935051012e-10
+        },
+        {
+          "triangle": 126828,
+          "triangle_corner": 0,
+          "source_corner": 254184,
+          "source_vertex": 62945,
+          "source_polygon": 63678,
+          "geom_cross_length": 1.7069222554455796e-10,
+          "UV_signed_double_area": -6.224070148165298e-10
+        }
+      ]
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "input_sha256": "d4567d1d9035eec012f65c48d02a929f31608de04bca8e651cc67f2a9862ecde",
+      "canonical": {
+        "seconds": 0.09232459997292608,
+        "decoded_normal_unit_max_error": 1.3669133869242955e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 4,
+        "nonzero_tangent_unit_max_error": 1.6358914634029276e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 7.515752811215748e-07,
+        "sign_positive": 381015,
+        "sign_negative": 105,
+        "finite": true,
+        "sign_valid": true
+      },
+      "raw_ablation": {
+        "seconds": 0.06766130001051351,
+        "decoded_normal_unit_max_error": 1.3669133869242955e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 5,
+        "nonzero_tangent_unit_max_error": 1.5982672385561614e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 5.698457050029582e-05,
+        "sign_positive": 381015,
+        "sign_negative": 105,
+        "finite": true,
+        "sign_valid": true
+      },
+      "rest_ablation": {
+        "seconds": 0.09619169996585697,
+        "decoded_normal_unit_max_error": 1.3669133869242955e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 9,
+        "nonzero_tangent_unit_max_error": 1.6358914634029276e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 4.035965108784012e-07,
+        "sign_positive": 381006,
+        "sign_negative": 114,
+        "finite": true,
+        "sign_valid": true
+      },
+      "packing_normal_angle_degrees": {
+        "max": 0.0036511530464949124,
+        "mean": 0.001231867923970243,
+        "p99": 0.0028046379427925966,
+        "undefined_zero_vector_count": 0
+      },
+      "raw_vs_packed_tangent_angle_degrees": {
+        "max": 0.011584217197485558,
+        "mean": 0.0006739850946036896,
+        "p99": 0.0021291762882388477,
+        "undefined_zero_vector_count": 7
+      },
+      "raw_vs_packed_tangent_sign_difference_count": 0,
+      "rest_vs_dynamic_identical_triangle_count": 127029,
+      "unmatched_dynamic_triangles": 11,
+      "rest_vs_dynamic_matched_tangent_angle_degrees": {
+        "max": 69.70074878714773,
+        "mean": 0.0004481839106225472,
+        "p99": 0.0,
+        "undefined_zero_vector_count": 4
+      },
+      "rest_vs_dynamic_matched_sign_difference_count": 0,
+      "rest_vs_dynamic_matched_tangent_corners_over_0_001_degree": 52,
+      "classification": "PINNED_ALGORITHM_REFERENCE_NOT_ACTUAL_CYCLES_RENDERER_BUFFER",
+      "zero_tangent_source_identity": [
+        {
+          "triangle": 126323,
+          "triangle_corner": 0,
+          "source_corner": 253045,
+          "source_vertex": 44574,
+          "source_polygon": 63361,
+          "geom_cross_length": 4.64451089280244e-09,
+          "UV_signed_double_area": -1.6486163545437196e-09
+        },
+        {
+          "triangle": 126625,
+          "triangle_corner": 0,
+          "source_corner": 253723,
+          "source_vertex": 58504,
+          "source_polygon": 63549,
+          "geom_cross_length": 3.4412474010213293e-09,
+          "UV_signed_double_area": -1.8922097222429135e-09
+        },
+        {
+          "triangle": 126625,
+          "triangle_corner": 2,
+          "source_corner": 253725,
+          "source_vertex": 58674,
+          "source_polygon": 63549,
+          "geom_cross_length": 3.4412474010213293e-09,
+          "UV_signed_double_area": -1.8922097222429135e-09
+        },
+        {
+          "triangle": 126773,
+          "triangle_corner": 0,
+          "source_corner": 254067,
+          "source_vertex": 62021,
+          "source_polygon": 63647,
+          "geom_cross_length": 3.271636426194897e-09,
+          "UV_signed_double_area": -6.699107935051012e-10
+        }
+      ]
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "input_sha256": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+      "canonical": {
+        "seconds": 0.09822149999672547,
+        "decoded_normal_unit_max_error": 1.2617728106789627e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 5,
+        "nonzero_tangent_unit_max_error": 1.735519586931744e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 3.2479972931764856e-06,
+        "sign_positive": 381018,
+        "sign_negative": 102,
+        "finite": true,
+        "sign_valid": true
+      },
+      "raw_ablation": {
+        "seconds": 0.07229679997544736,
+        "decoded_normal_unit_max_error": 1.2617728106789627e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 4,
+        "nonzero_tangent_unit_max_error": 1.5960281118942987e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 6.119562517525878e-05,
+        "sign_positive": 381018,
+        "sign_negative": 102,
+        "finite": true,
+        "sign_valid": true
+      },
+      "rest_ablation": {
+        "seconds": 0.09749390004435554,
+        "decoded_normal_unit_max_error": 1.2617728106789627e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 5,
+        "nonzero_tangent_unit_max_error": 1.735519586931744e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 1.5048158821251434e-06,
+        "sign_positive": 381006,
+        "sign_negative": 114,
+        "finite": true,
+        "sign_valid": true
+      },
+      "packing_normal_angle_degrees": {
+        "max": 0.0036149577204206435,
+        "mean": 0.0012564543226151437,
+        "p99": 0.0028253413426602807,
+        "undefined_zero_vector_count": 0
+      },
+      "raw_vs_packed_tangent_angle_degrees": {
+        "max": 0.006663744691818567,
+        "mean": 0.0007043885506953277,
+        "p99": 0.002189202536229032,
+        "undefined_zero_vector_count": 7
+      },
+      "raw_vs_packed_tangent_sign_difference_count": 0,
+      "rest_vs_dynamic_identical_triangle_count": 127015,
+      "unmatched_dynamic_triangles": 25,
+      "rest_vs_dynamic_matched_tangent_angle_degrees": {
+        "max": 49.12071952472789,
+        "mean": 0.0009327726095430441,
+        "p99": 0.0,
+        "undefined_zero_vector_count": 3
+      },
+      "rest_vs_dynamic_matched_sign_difference_count": 0,
+      "rest_vs_dynamic_matched_tangent_corners_over_0_001_degree": 172,
+      "classification": "PINNED_ALGORITHM_REFERENCE_NOT_ACTUAL_CYCLES_RENDERER_BUFFER",
+      "zero_tangent_source_identity": [
+        {
+          "triangle": 126133,
+          "triangle_corner": 2,
+          "source_corner": 252601,
+          "source_vertex": 36651,
+          "source_polygon": 63233,
+          "geom_cross_length": 8.262816650189271e-08,
+          "UV_signed_double_area": -1.3068035542574287e-09
+        },
+        {
+          "triangle": 126527,
+          "triangle_corner": 0,
+          "source_corner": 253493,
+          "source_vertex": 55553,
+          "source_polygon": 63483,
+          "geom_cross_length": 3.7700196217520634e-10,
+          "UV_signed_double_area": -2.7201352281734827e-11
+        },
+        {
+          "triangle": 126527,
+          "triangle_corner": 2,
+          "source_corner": 253495,
+          "source_vertex": 55800,
+          "source_polygon": 63483,
+          "geom_cross_length": 3.7700196217520634e-10,
+          "UV_signed_double_area": -2.7201352281734827e-11
+        },
+        {
+          "triangle": 126773,
+          "triangle_corner": 0,
+          "source_corner": 254067,
+          "source_vertex": 62021,
+          "source_polygon": 63647,
+          "geom_cross_length": 3.2853201046296695e-09,
+          "UV_signed_double_area": -6.699107935051012e-10
+        },
+        {
+          "triangle": 126815,
+          "triangle_corner": 0,
+          "source_corner": 254163,
+          "source_vertex": 62655,
+          "source_polygon": 63672,
+          "geom_cross_length": 5.5762958785799724e-11,
+          "UV_signed_double_area": -1.7671482055447483e-09
+        }
+      ]
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "input_sha256": "6217d38197ea22b79d9f4e96756ab308f7708b7c40b392fa677400e98bd2e119",
+      "canonical": {
+        "seconds": 0.1006446000537835,
+        "decoded_normal_unit_max_error": 1.336258147466296e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 7,
+        "nonzero_tangent_unit_max_error": 1.5610453962811022e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 9.228628314872367e-07,
+        "sign_positive": 381006,
+        "sign_negative": 114,
+        "finite": true,
+        "sign_valid": true
+      },
+      "raw_ablation": {
+        "seconds": 0.07297619996825233,
+        "decoded_normal_unit_max_error": 1.336258147466296e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 12,
+        "nonzero_tangent_unit_max_error": 1.6315139372835574e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 5.826433766031869e-05,
+        "sign_positive": 381006,
+        "sign_negative": 114,
+        "finite": true,
+        "sign_valid": true
+      },
+      "rest_ablation": {
+        "seconds": 0.09785530000226572,
+        "decoded_normal_unit_max_error": 1.336258147466296e-07,
+        "tangent_unit_max_error": 1.0,
+        "zero_tangent_count": 5,
+        "nonzero_tangent_unit_max_error": 1.5610453962811022e-07,
+        "unit_tangent_gate": "FAIL_ZERO_TANGENTS",
+        "decoded_normal_tangent_abs_dot_max": 7.684482525860403e-07,
+        "sign_positive": 381006,
+        "sign_negative": 114,
+        "finite": true,
+        "sign_valid": true
+      },
+      "packing_normal_angle_degrees": {
+        "max": 0.0036093995424828014,
+        "mean": 0.0012750675876233132,
+        "p99": 0.0028733914322944458,
+        "undefined_zero_vector_count": 0
+      },
+      "raw_vs_packed_tangent_angle_degrees": {
+        "max": 0.006514081177060393,
+        "mean": 0.0007217059081121737,
+        "p99": 0.002172765995772332,
+        "undefined_zero_vector_count": 13
+      },
+      "raw_vs_packed_tangent_sign_difference_count": 0,
+      "rest_vs_dynamic_identical_triangle_count": 126999,
+      "unmatched_dynamic_triangles": 41,
+      "rest_vs_dynamic_matched_tangent_angle_degrees": {
+        "max": 48.33803797723645,
+        "mean": 0.002761724029952032,
+        "p99": 0.0,
+        "undefined_zero_vector_count": 5
+      },
+      "rest_vs_dynamic_matched_sign_difference_count": 0,
+      "rest_vs_dynamic_matched_tangent_corners_over_0_001_degree": 287,
+      "classification": "PINNED_ALGORITHM_REFERENCE_NOT_ACTUAL_CYCLES_RENDERER_BUFFER",
+      "zero_tangent_source_identity": [
+        {
+          "triangle": 125806,
+          "triangle_corner": 0,
+          "source_corner": 251870,
+          "source_vertex": 27595,
+          "source_polygon": 63032,
+          "geom_cross_length": 1.45054218160775e-09,
+          "UV_signed_double_area": -8.61248850014866e-11
+        },
+        {
+          "triangle": 126476,
+          "triangle_corner": 2,
+          "source_corner": 253378,
+          "source_vertex": 53803,
+          "source_polygon": 63450,
+          "geom_cross_length": 1.0914205603456376e-10,
+          "UV_signed_double_area": -1.8659909173379393e-09
+        },
+        {
+          "triangle": 126527,
+          "triangle_corner": 0,
+          "source_corner": 253493,
+          "source_vertex": 55553,
+          "source_polygon": 63483,
+          "geom_cross_length": 3.453178335716452e-10,
+          "UV_signed_double_area": -2.7201352281734827e-11
+        },
+        {
+          "triangle": 126773,
+          "triangle_corner": 0,
+          "source_corner": 254067,
+          "source_vertex": 62021,
+          "source_polygon": 63647,
+          "geom_cross_length": 3.2428977673325276e-09,
+          "UV_signed_double_area": -6.699107935051012e-10
+        },
+        {
+          "triangle": 126773,
+          "triangle_corner": 2,
+          "source_corner": 254069,
+          "source_vertex": 62162,
+          "source_polygon": 63647,
+          "geom_cross_length": 3.2428977673325276e-09,
+          "UV_signed_double_area": -6.699107935051012e-10
+        },
+        {
+          "triangle": 126815,
+          "triangle_corner": 2,
+          "source_corner": 254160,
+          "source_vertex": 62757,
+          "source_polygon": 63672,
+          "geom_cross_length": 2.39865535661814e-10,
+          "UV_signed_double_area": -1.7671482055447483e-09
+        },
+        {
+          "triangle": 126828,
+          "triangle_corner": 2,
+          "source_corner": 254186,
+          "source_vertex": 62856,
+          "source_polygon": 63678,
+          "geom_cross_length": 4.747028589757129e-10,
+          "UV_signed_double_area": -6.224070148165298e-10
+        }
+      ]
+    }
+  ],
+  "remaining_gate": "Actual Cycles packed/tangent buffers + Unity actual corner readback/equivalent PBR/physical Player required; no baked runtime or tolerance waiver.",
+  "compile_and_harness_files": {
+    "compile.cmd": {
+      "sha256": "6825212287dae29b48b299fa253130e3ed3a2ed5655453aac6d57f6a8d845e63",
+      "bytes": 256
+    },
+    "compile_attempt01_missing_namespace.log": {
+      "sha256": "5672d1361afd28a96e8b2309e9fae1437aa2d75923f297fc30b6a2d81b45b80a",
+      "bytes": 16589
+    },
+    "compile_attempt02.log": {
+      "sha256": "a4dd154ccf30c1698317552130b1dfe90dad6b5bb9b1dd878ffc9f7950fe6799",
+      "bytes": 1048
+    },
+    "compile_attempt03.log": {
+      "sha256": "d657cf47678481720cd24d62378c637b4eaf53384b074a2c17016bb5c0086816",
+      "bytes": 397
+    },
+    "download_receipt.json": {
+      "sha256": "e2d207ca4aec2886482d6a318a68d98a6f2347bbaf532d59dd932c70975f97e6",
+      "bytes": 5952
+    },
+    "execution.log": {
+      "sha256": "94156880b4742ce4682329d7eb651b180beca099fb22682973f2ec46de24b535",
+      "bytes": 389
+    },
+    "execution_completed.log": {
+      "sha256": "fa9379b8712e03bbf6bb5934ad3657262c5dc2321fed1d17d958def2feecc325",
+      "bytes": 10335
+    },
+    "harness.cpp": {
+      "sha256": "ff1c1a7de07d58d9e3949f6f8db8f9ad46006acb81f543ac3ce4569edb0220d9",
+      "bytes": 3069
+    },
+    "harness.dll": {
+      "sha256": "f2c2ddea62638590472e4c67dc529e27412d3503528b4b2bfabb29b8dfff89ca",
+      "bytes": 202240
+    },
+    "pinned_wrapper.inc": {
+      "sha256": "900bad00fc16bb90f815e916efdffe2b79f28bf7204b57441bfc5b3912cadb12",
+      "bytes": 3227
+    }
+  },
+  "post_execution_all_16_immutable_input_hashes_match": true,
+  "initial_native_execution_failure": {
+    "log": "execution.log",
+    "cause": "Strict all-tangents-unit assertion detected 8 zero tangents at Strong6. No NPZ saved by that failed attempt. A diagnostic rerun recorded nonzero-unit check separately and retained overall unit tangent gate FAIL_ZERO_TANGENTS; zero vectors were not replaced or waived. Second sanity attempt also failed before output; its console record is not a saved logfile."
+  },
+  "all_tangent_unit_gate": "FAIL_ZERO_TANGENTS_IN_ALL_FOUR_CANONICAL_CASES",
+  "post_execution_immutable_master_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa"
+}
