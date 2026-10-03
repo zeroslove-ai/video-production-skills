@@ -1,0 +1,165 @@
+{
+  "task_id": "YURI_O1_RAW_POSE_DRIVER_AND_BOUNDED_STAGE_REFERENCE_R1",
+  "manifest_sha256": "04f07292fcb0525937b6f709fddd9055d581d929b3328b03b50052ecf9bc8aaf",
+  "frozen_inputs_hashes_reverified": 11,
+  "data_files_hashes_reverified": 3,
+  "raw_driver_expression_policy": "AST permits numeric arithmetic and min/max only; original expressions/targets retained, no arbitrary code execution.",
+  "all276_frames_all5_raw_driver_outputs_exact_float32": true,
+  "factor_checks": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "raw_channel_to_driver_float32_exact": true,
+      "max_absolute_delta": 0.0,
+      "factor_min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "factor_max": [
+        0.06439914554357529,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "loop_samples": 37,
+      "actual_second_cycle_rechecks": 0
+    },
+    {
+      "clip": "YRA_R4_Lift_Start",
+      "raw_channel_to_driver_float32_exact": true,
+      "max_absolute_delta": 0.0,
+      "factor_min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "factor_max": [
+        0.45333945751190186,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "loop_samples": 31,
+      "actual_second_cycle_rechecks": 0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Light_Loop",
+      "raw_channel_to_driver_float32_exact": true,
+      "max_absolute_delta": 0.0,
+      "factor_min": [
+        0.02824258990585804,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "factor_max": [
+        0.1552353799343109,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "loop_samples": 121,
+      "actual_second_cycle_rechecks": 60
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "raw_channel_to_driver_float32_exact": true,
+      "max_absolute_delta": 0.0,
+      "factor_min": [
+        0.031952451914548874,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "factor_max": [
+        0.41753116250038147,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "loop_samples": 97,
+      "actual_second_cycle_rechecks": 48
+    },
+    {
+      "clip": "YRA_R4_Land_Soft",
+      "raw_channel_to_driver_float32_exact": true,
+      "max_absolute_delta": 0.0,
+      "factor_min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "factor_max": [
+        0.01036058459430933,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "loop_samples": 43,
+      "actual_second_cycle_rechecks": 0
+    },
+    {
+      "clip": "YRA_R4_BalanceRecover",
+      "raw_channel_to_driver_float32_exact": true,
+      "max_absolute_delta": 0.0,
+      "factor_min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "factor_max": [
+        0.03876027092337608,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "loop_samples": 55,
+      "actual_second_cycle_rechecks": 0
+    }
+  ],
+  "stage_checks": [
+    {
+      "file": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "stage_count": 7,
+      "source_vertices": 63561,
+      "source_corners": 254602
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "stage_count": 7,
+      "source_vertices": 63561,
+      "source_corners": 254602
+    }
+  ],
+  "CPU_memory_observations": {
+    "preflight_free_physical_KiB": 31311632,
+    "total_physical_KiB": 64546164,
+    "job_PID": 85780,
+    "observed_job_peak_working_set_bytes": 1405853696,
+    "in_flight_free_physical_KiB": 31134072,
+    "after_free_physical_KiB": 31976660,
+    "existing_GUI_PID": 129152,
+    "GUI_not_closed": true,
+    "job_count": 1,
+    "Blender_threads": 4,
+    "note": "Windows process snapshot observation; not a continuous peak profiler. PeakWorkingSet64 includes earlier peaks at observation time."
+  },
+  "source_writes": 0,
+  "new_Blender_jobs": 0
+}

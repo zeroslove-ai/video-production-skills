@@ -1,0 +1,4596 @@
+{
+  "task_id": "YURI_O1_RAW_POSE_DRIVER_AND_BOUNDED_STAGE_REFERENCE_R1",
+  "status": "DONE_SOURCE_REFERENCE_RUNTIME_GATE_PENDING",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": {
+      "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+      "bytes": 9318285
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\reference\\native_evaluated_all_frames.json.gz": {
+      "sha256": "03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3",
+      "bytes": 12545560
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\FULL_BODY_DEFORMATION_MANIFEST.json": {
+      "sha256": "d8ec32b42adf4cb2f4a6dea280eb98149789c047af0a4bb498e9a978250afc2e",
+      "bytes": 160772
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz": {
+      "sha256": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f",
+      "bytes": 6179188
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_adapter.py": {
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+      "bytes": 2307
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Startle_Short\\frames_009_012.npz": {
+      "sha256": "427945069db41714cfd8bc43f6906f25ce24d35543b63bd0e979c4f042f5abd5",
+      "bytes": 20198561
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Struggle_Strong_Loop\\frames_005_008.npz": {
+      "sha256": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+      "bytes": 20196590
+    }
+  },
+  "source_input_bytes_unchanged": true,
+  "source_component_diff": {},
+  "original_actions_preserved": 78,
+  "master_saved": false,
+  "source_exports": 0,
+  "renders": 0,
+  "existing_GUI_touched": false,
+  "original_body_bone_order": [
+    "root",
+    "pelvis",
+    "spine",
+    "chest",
+    "neck",
+    "head",
+    "R3_Head_Bind",
+    "R3_Neck_Bind",
+    "clavicle.L",
+    "upper_arm.L",
+    "forearm.L",
+    "hand.L",
+    "index1.L",
+    "index2.L",
+    "index3.L",
+    "middle1.L",
+    "middle2.L",
+    "middle3.L",
+    "ring1.L",
+    "ring2.L",
+    "ring3.L",
+    "pinky1.L",
+    "pinky2.L",
+    "pinky3.L",
+    "thumb1.L",
+    "thumb2.L",
+    "thumb3.L",
+    "R3_Shoulder_L_Bind",
+    "clavicle.R",
+    "upper_arm.R",
+    "forearm.R",
+    "hand.R",
+    "index1.R",
+    "index2.R",
+    "index3.R",
+    "middle1.R",
+    "middle2.R",
+    "middle3.R",
+    "ring1.R",
+    "ring2.R",
+    "ring3.R",
+    "pinky1.R",
+    "pinky2.R",
+    "pinky3.R",
+    "thumb1.R",
+    "thumb2.R",
+    "thumb3.R",
+    "R3_Shoulder_R_Bind",
+    "R3_UpperChest_Bind",
+    "thigh.L",
+    "shin.L",
+    "foot.L",
+    "toe.L",
+    "thigh.R",
+    "shin.R",
+    "foot.R",
+    "toe.R"
+  ],
+  "original_bone_rotation_modes": [
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION",
+    "QUATERNION"
+  ],
+  "raw_channel_policy": "Original pose.bones[name].rotation_quaternion[0..3] SINGLE_PROP wxyz; no world/local TRS conversion or additional normalization.",
+  "five_factor_paths": [
+    "modifiers[\"R3 local joint surface relaxation\"].factor",
+    "modifiers[\"R3 raised shoulder surface L\"].factor",
+    "modifiers[\"R3 raised shoulder surface R\"].factor",
+    "modifiers[\"R3 bent hip surface L\"].factor",
+    "modifiers[\"R3 bent hip surface R\"].factor"
+  ],
+  "original_driver_definitions": [
+    {
+      "output_path": "modifiers[\"R3 local joint surface relaxation\"].factor",
+      "array_index": 0,
+      "expression": "0.65*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15))*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15))*(3-2*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15)))",
+      "type": "SCRIPTED",
+      "use_self": false,
+      "variables": [
+        {
+          "name": "a",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        },
+        {
+          "name": "b",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        },
+        {
+          "name": "c",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        },
+        {
+          "name": "d",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        }
+      ],
+      "fcurve": {
+        "extrapolation": "CONSTANT",
+        "driver": [
+          "Driver",
+          null
+        ],
+        "group": null,
+        "data_path": "modifiers[\"R3 local joint surface relaxation\"].factor",
+        "array_index": 0,
+        "color_mode": "AUTO_RAINBOW",
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "select": true,
+        "lock": false,
+        "mute": false,
+        "hide": false,
+        "auto_smoothing": "CONT_ACCEL",
+        "is_valid": true,
+        "is_empty": false
+      },
+      "keyframes": [],
+      "modifiers": [
+        [
+          "Generator",
+          {
+            "type": "GENERATOR",
+            "show_expanded": true,
+            "mute": false,
+            "is_valid": true,
+            "active": true,
+            "use_restricted_range": false,
+            "frame_start": 0.0,
+            "frame_end": 0.0,
+            "blend_in": 0.0,
+            "blend_out": 0.0,
+            "use_influence": false,
+            "influence": 1.0,
+            "use_additive": false,
+            "mode": "POLYNOMIAL",
+            "poly_order": 1,
+            "coefficients": [
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "output_path": "modifiers[\"R3 raised shoulder surface L\"].factor",
+      "array_index": 0,
+      "expression": "0.75*min(1,max(0,(1-w*w-0.2132)/0.1488))*min(1,max(0,(1-w*w-0.2132)/0.1488))*(3-2*min(1,max(0,(1-w*w-0.2132)/0.1488)))",
+      "type": "SCRIPTED",
+      "use_self": false,
+      "variables": [
+        {
+          "name": "w",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        }
+      ],
+      "fcurve": {
+        "extrapolation": "CONSTANT",
+        "driver": [
+          "Driver",
+          null
+        ],
+        "group": null,
+        "data_path": "modifiers[\"R3 raised shoulder surface L\"].factor",
+        "array_index": 0,
+        "color_mode": "AUTO_RAINBOW",
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "select": true,
+        "lock": false,
+        "mute": false,
+        "hide": false,
+        "auto_smoothing": "CONT_ACCEL",
+        "is_valid": true,
+        "is_empty": false
+      },
+      "keyframes": [],
+      "modifiers": [
+        [
+          "Generator",
+          {
+            "type": "GENERATOR",
+            "show_expanded": true,
+            "mute": false,
+            "is_valid": true,
+            "active": true,
+            "use_restricted_range": false,
+            "frame_start": 0.0,
+            "frame_end": 0.0,
+            "blend_in": 0.0,
+            "blend_out": 0.0,
+            "use_influence": false,
+            "influence": 1.0,
+            "use_additive": false,
+            "mode": "POLYNOMIAL",
+            "poly_order": 1,
+            "coefficients": [
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "output_path": "modifiers[\"R3 raised shoulder surface R\"].factor",
+      "array_index": 0,
+      "expression": "0.75*min(1,max(0,(1-w*w-0.2132)/0.1488))*min(1,max(0,(1-w*w-0.2132)/0.1488))*(3-2*min(1,max(0,(1-w*w-0.2132)/0.1488)))",
+      "type": "SCRIPTED",
+      "use_self": false,
+      "variables": [
+        {
+          "name": "w",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        }
+      ],
+      "fcurve": {
+        "extrapolation": "CONSTANT",
+        "driver": [
+          "Driver",
+          null
+        ],
+        "group": null,
+        "data_path": "modifiers[\"R3 raised shoulder surface R\"].factor",
+        "array_index": 0,
+        "color_mode": "AUTO_RAINBOW",
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "select": true,
+        "lock": false,
+        "mute": false,
+        "hide": false,
+        "auto_smoothing": "CONT_ACCEL",
+        "is_valid": true,
+        "is_empty": false
+      },
+      "keyframes": [],
+      "modifiers": [
+        [
+          "Generator",
+          {
+            "type": "GENERATOR",
+            "show_expanded": true,
+            "mute": false,
+            "is_valid": true,
+            "active": true,
+            "use_restricted_range": false,
+            "frame_start": 0.0,
+            "frame_end": 0.0,
+            "blend_in": 0.0,
+            "blend_out": 0.0,
+            "use_influence": false,
+            "influence": 1.0,
+            "use_additive": false,
+            "mode": "POLYNOMIAL",
+            "poly_order": 1,
+            "coefficients": [
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "output_path": "modifiers[\"R3 bent hip surface L\"].factor",
+      "array_index": 0,
+      "expression": "0.9*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122))*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122))*(3-2*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122)))",
+      "type": "SCRIPTED",
+      "use_self": false,
+      "variables": [
+        {
+          "name": "w",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        },
+        {
+          "name": "az",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[3]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        }
+      ],
+      "fcurve": {
+        "extrapolation": "CONSTANT",
+        "driver": [
+          "Driver",
+          null
+        ],
+        "group": null,
+        "data_path": "modifiers[\"R3 bent hip surface L\"].factor",
+        "array_index": 0,
+        "color_mode": "AUTO_RAINBOW",
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "select": true,
+        "lock": false,
+        "mute": false,
+        "hide": false,
+        "auto_smoothing": "CONT_ACCEL",
+        "is_valid": true,
+        "is_empty": false
+      },
+      "keyframes": [],
+      "modifiers": [
+        [
+          "Generator",
+          {
+            "type": "GENERATOR",
+            "show_expanded": true,
+            "mute": false,
+            "is_valid": true,
+            "active": true,
+            "use_restricted_range": false,
+            "frame_start": 0.0,
+            "frame_end": 0.0,
+            "blend_in": 0.0,
+            "blend_out": 0.0,
+            "use_influence": false,
+            "influence": 1.0,
+            "use_additive": false,
+            "mode": "POLYNOMIAL",
+            "poly_order": 1,
+            "coefficients": [
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "output_path": "modifiers[\"R3 bent hip surface R\"].factor",
+      "array_index": 0,
+      "expression": "0.9*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122))*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122))*(3-2*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122)))",
+      "type": "SCRIPTED",
+      "use_self": false,
+      "variables": [
+        {
+          "name": "w",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[0]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        },
+        {
+          "name": "az",
+          "type": "SINGLE_PROP",
+          "targets": [
+            {
+              "id": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "id_type": "OBJECT",
+              "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[3]",
+              "bone_target": "",
+              "transform_type": "LOC_X",
+              "rotation_mode": "AUTO",
+              "transform_space": "WORLD_SPACE",
+              "context_property": "ACTIVE_SCENE",
+              "use_fallback_value": false,
+              "fallback_value": 0.0,
+              "is_fallback_used": false
+            }
+          ]
+        }
+      ],
+      "fcurve": {
+        "extrapolation": "CONSTANT",
+        "driver": [
+          "Driver",
+          null
+        ],
+        "group": null,
+        "data_path": "modifiers[\"R3 bent hip surface R\"].factor",
+        "array_index": 0,
+        "color_mode": "AUTO_RAINBOW",
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "select": true,
+        "lock": false,
+        "mute": false,
+        "hide": false,
+        "auto_smoothing": "CONT_ACCEL",
+        "is_valid": true,
+        "is_empty": false
+      },
+      "keyframes": [],
+      "modifiers": [
+        [
+          "Generator",
+          {
+            "type": "GENERATOR",
+            "show_expanded": true,
+            "mute": false,
+            "is_valid": true,
+            "active": true,
+            "use_restricted_range": false,
+            "frame_start": 0.0,
+            "frame_end": 0.0,
+            "blend_in": 0.0,
+            "blend_out": 0.0,
+            "use_influence": false,
+            "influence": 1.0,
+            "use_additive": false,
+            "mode": "POLYNOMIAL",
+            "poly_order": 1,
+            "coefficients": [
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      ]
+    }
+  ],
+  "ordered_original_modifiers": [
+    {
+      "order": 0,
+      "name": "Armature",
+      "type": "ARMATURE",
+      "settings": {
+        "type": "ARMATURE",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 312629205,
+        "object": [
+          "Object",
+          "Meshy_Fitted_Rig"
+        ],
+        "use_bone_envelopes": false,
+        "use_vertex_groups": true,
+        "use_deform_preserve_volume": true,
+        "use_multi_modifier": false,
+        "vertex_group": "",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 1,
+      "name": "R3 neck and joints - local linear blend",
+      "type": "ARMATURE",
+      "settings": {
+        "type": "ARMATURE",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 1714171291,
+        "object": [
+          "Object",
+          "Meshy_Fitted_Rig"
+        ],
+        "use_bone_envelopes": false,
+        "use_vertex_groups": true,
+        "use_deform_preserve_volume": false,
+        "use_multi_modifier": true,
+        "vertex_group": "R3_Surface_LinearBlend",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 2,
+      "name": "R3 local joint surface relaxation",
+      "type": "CORRECTIVE_SMOOTH",
+      "settings": {
+        "type": "CORRECTIVE_SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 697597798,
+        "factor": 0.0,
+        "iterations": 24,
+        "scale": 1.0,
+        "rest_source": "ORCO",
+        "smooth_type": "LENGTH_WEIGHTED",
+        "invert_vertex_group": false,
+        "vertex_group": "R3_Joint_CorrectiveSmooth",
+        "is_bind": false,
+        "use_only_smooth": false,
+        "use_pin_boundary": true
+      },
+      "custom": {}
+    },
+    {
+      "order": 3,
+      "name": "R3 raised shoulder surface L",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 486562295,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 60,
+        "vertex_group": "R3_Shoulder_PoseRelax.L",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 4,
+      "name": "R3 raised shoulder surface R",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 686560588,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 60,
+        "vertex_group": "R3_Shoulder_PoseRelax.R",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 5,
+      "name": "R3 bent hip surface L",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": false,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 900884336,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 220,
+        "vertex_group": "R3_Hip_PoseRelax.L",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    },
+    {
+      "order": 6,
+      "name": "R3 bent hip surface R",
+      "type": "SMOOTH",
+      "settings": {
+        "type": "SMOOTH",
+        "show_viewport": true,
+        "show_render": true,
+        "show_in_editmode": false,
+        "show_on_cage": false,
+        "show_expanded": true,
+        "is_active": true,
+        "use_pin_to_last": false,
+        "is_override_data": false,
+        "use_apply_on_spline": false,
+        "execution_time": 0.0,
+        "persistent_uid": 483710664,
+        "use_x": true,
+        "use_y": true,
+        "use_z": true,
+        "factor": 0.0,
+        "iterations": 220,
+        "vertex_group": "R3_Hip_PoseRelax.R",
+        "invert_vertex_group": false
+      },
+      "custom": {}
+    }
+  ],
+  "clips": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "array_prefix": "clip_0",
+      "unique_source_frames": 37,
+      "loop_inclusive_samples": 37,
+      "fps": 24,
+      "time_policy": "source_frame f evaluated directly; authored seconds=(f-1)/24",
+      "Action": "YRA_R4_Startle_Short",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "samples": [
+        {
+          "sample": 1,
+          "source_frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "sample": 2,
+          "source_frame": 2,
+          "time_seconds": 0.041666666666666664
+        },
+        {
+          "sample": 3,
+          "source_frame": 3,
+          "time_seconds": 0.08333333333333333
+        },
+        {
+          "sample": 4,
+          "source_frame": 4,
+          "time_seconds": 0.125
+        },
+        {
+          "sample": 5,
+          "source_frame": 5,
+          "time_seconds": 0.16666666666666666
+        },
+        {
+          "sample": 6,
+          "source_frame": 6,
+          "time_seconds": 0.20833333333333334
+        },
+        {
+          "sample": 7,
+          "source_frame": 7,
+          "time_seconds": 0.25
+        },
+        {
+          "sample": 8,
+          "source_frame": 8,
+          "time_seconds": 0.2916666666666667
+        },
+        {
+          "sample": 9,
+          "source_frame": 9,
+          "time_seconds": 0.3333333333333333
+        },
+        {
+          "sample": 10,
+          "source_frame": 10,
+          "time_seconds": 0.375
+        },
+        {
+          "sample": 11,
+          "source_frame": 11,
+          "time_seconds": 0.4166666666666667
+        },
+        {
+          "sample": 12,
+          "source_frame": 12,
+          "time_seconds": 0.4583333333333333
+        },
+        {
+          "sample": 13,
+          "source_frame": 13,
+          "time_seconds": 0.5
+        },
+        {
+          "sample": 14,
+          "source_frame": 14,
+          "time_seconds": 0.5416666666666666
+        },
+        {
+          "sample": 15,
+          "source_frame": 15,
+          "time_seconds": 0.5833333333333334
+        },
+        {
+          "sample": 16,
+          "source_frame": 16,
+          "time_seconds": 0.625
+        },
+        {
+          "sample": 17,
+          "source_frame": 17,
+          "time_seconds": 0.6666666666666666
+        },
+        {
+          "sample": 18,
+          "source_frame": 18,
+          "time_seconds": 0.7083333333333334
+        },
+        {
+          "sample": 19,
+          "source_frame": 19,
+          "time_seconds": 0.75
+        },
+        {
+          "sample": 20,
+          "source_frame": 20,
+          "time_seconds": 0.7916666666666666
+        },
+        {
+          "sample": 21,
+          "source_frame": 21,
+          "time_seconds": 0.8333333333333334
+        },
+        {
+          "sample": 22,
+          "source_frame": 22,
+          "time_seconds": 0.875
+        },
+        {
+          "sample": 23,
+          "source_frame": 23,
+          "time_seconds": 0.9166666666666666
+        },
+        {
+          "sample": 24,
+          "source_frame": 24,
+          "time_seconds": 0.9583333333333334
+        },
+        {
+          "sample": 25,
+          "source_frame": 25,
+          "time_seconds": 1.0
+        },
+        {
+          "sample": 26,
+          "source_frame": 26,
+          "time_seconds": 1.0416666666666667
+        },
+        {
+          "sample": 27,
+          "source_frame": 27,
+          "time_seconds": 1.0833333333333333
+        },
+        {
+          "sample": 28,
+          "source_frame": 28,
+          "time_seconds": 1.125
+        },
+        {
+          "sample": 29,
+          "source_frame": 29,
+          "time_seconds": 1.1666666666666667
+        },
+        {
+          "sample": 30,
+          "source_frame": 30,
+          "time_seconds": 1.2083333333333333
+        },
+        {
+          "sample": 31,
+          "source_frame": 31,
+          "time_seconds": 1.25
+        },
+        {
+          "sample": 32,
+          "source_frame": 32,
+          "time_seconds": 1.2916666666666667
+        },
+        {
+          "sample": 33,
+          "source_frame": 33,
+          "time_seconds": 1.3333333333333333
+        },
+        {
+          "sample": 34,
+          "source_frame": 34,
+          "time_seconds": 1.375
+        },
+        {
+          "sample": 35,
+          "source_frame": 35,
+          "time_seconds": 1.4166666666666667
+        },
+        {
+          "sample": 36,
+          "source_frame": 36,
+          "time_seconds": 1.4583333333333333
+        },
+        {
+          "sample": 37,
+          "source_frame": 37,
+          "time_seconds": 1.5
+        }
+      ],
+      "second_cycle_actual_rechecks": 0
+    },
+    {
+      "clip": "YRA_R4_Lift_Start",
+      "array_prefix": "clip_1",
+      "unique_source_frames": 31,
+      "loop_inclusive_samples": 31,
+      "fps": 24,
+      "time_policy": "source_frame f evaluated directly; authored seconds=(f-1)/24",
+      "Action": "YRA_R4_Lift_Start",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "samples": [
+        {
+          "sample": 1,
+          "source_frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "sample": 2,
+          "source_frame": 2,
+          "time_seconds": 0.041666666666666664
+        },
+        {
+          "sample": 3,
+          "source_frame": 3,
+          "time_seconds": 0.08333333333333333
+        },
+        {
+          "sample": 4,
+          "source_frame": 4,
+          "time_seconds": 0.125
+        },
+        {
+          "sample": 5,
+          "source_frame": 5,
+          "time_seconds": 0.16666666666666666
+        },
+        {
+          "sample": 6,
+          "source_frame": 6,
+          "time_seconds": 0.20833333333333334
+        },
+        {
+          "sample": 7,
+          "source_frame": 7,
+          "time_seconds": 0.25
+        },
+        {
+          "sample": 8,
+          "source_frame": 8,
+          "time_seconds": 0.2916666666666667
+        },
+        {
+          "sample": 9,
+          "source_frame": 9,
+          "time_seconds": 0.3333333333333333
+        },
+        {
+          "sample": 10,
+          "source_frame": 10,
+          "time_seconds": 0.375
+        },
+        {
+          "sample": 11,
+          "source_frame": 11,
+          "time_seconds": 0.4166666666666667
+        },
+        {
+          "sample": 12,
+          "source_frame": 12,
+          "time_seconds": 0.4583333333333333
+        },
+        {
+          "sample": 13,
+          "source_frame": 13,
+          "time_seconds": 0.5
+        },
+        {
+          "sample": 14,
+          "source_frame": 14,
+          "time_seconds": 0.5416666666666666
+        },
+        {
+          "sample": 15,
+          "source_frame": 15,
+          "time_seconds": 0.5833333333333334
+        },
+        {
+          "sample": 16,
+          "source_frame": 16,
+          "time_seconds": 0.625
+        },
+        {
+          "sample": 17,
+          "source_frame": 17,
+          "time_seconds": 0.6666666666666666
+        },
+        {
+          "sample": 18,
+          "source_frame": 18,
+          "time_seconds": 0.7083333333333334
+        },
+        {
+          "sample": 19,
+          "source_frame": 19,
+          "time_seconds": 0.75
+        },
+        {
+          "sample": 20,
+          "source_frame": 20,
+          "time_seconds": 0.7916666666666666
+        },
+        {
+          "sample": 21,
+          "source_frame": 21,
+          "time_seconds": 0.8333333333333334
+        },
+        {
+          "sample": 22,
+          "source_frame": 22,
+          "time_seconds": 0.875
+        },
+        {
+          "sample": 23,
+          "source_frame": 23,
+          "time_seconds": 0.9166666666666666
+        },
+        {
+          "sample": 24,
+          "source_frame": 24,
+          "time_seconds": 0.9583333333333334
+        },
+        {
+          "sample": 25,
+          "source_frame": 25,
+          "time_seconds": 1.0
+        },
+        {
+          "sample": 26,
+          "source_frame": 26,
+          "time_seconds": 1.0416666666666667
+        },
+        {
+          "sample": 27,
+          "source_frame": 27,
+          "time_seconds": 1.0833333333333333
+        },
+        {
+          "sample": 28,
+          "source_frame": 28,
+          "time_seconds": 1.125
+        },
+        {
+          "sample": 29,
+          "source_frame": 29,
+          "time_seconds": 1.1666666666666667
+        },
+        {
+          "sample": 30,
+          "source_frame": 30,
+          "time_seconds": 1.2083333333333333
+        },
+        {
+          "sample": 31,
+          "source_frame": 31,
+          "time_seconds": 1.25
+        }
+      ],
+      "second_cycle_actual_rechecks": 0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Light_Loop",
+      "array_prefix": "clip_2",
+      "unique_source_frames": 61,
+      "loop_inclusive_samples": 121,
+      "fps": 24,
+      "time_policy": "source_frame f evaluated directly; authored seconds=(f-1)/24",
+      "Action": "YRA_R4_Struggle_Light_Loop",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "samples": [
+        {
+          "sample": 1,
+          "source_frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "sample": 2,
+          "source_frame": 2,
+          "time_seconds": 0.041666666666666664
+        },
+        {
+          "sample": 3,
+          "source_frame": 3,
+          "time_seconds": 0.08333333333333333
+        },
+        {
+          "sample": 4,
+          "source_frame": 4,
+          "time_seconds": 0.125
+        },
+        {
+          "sample": 5,
+          "source_frame": 5,
+          "time_seconds": 0.16666666666666666
+        },
+        {
+          "sample": 6,
+          "source_frame": 6,
+          "time_seconds": 0.20833333333333334
+        },
+        {
+          "sample": 7,
+          "source_frame": 7,
+          "time_seconds": 0.25
+        },
+        {
+          "sample": 8,
+          "source_frame": 8,
+          "time_seconds": 0.2916666666666667
+        },
+        {
+          "sample": 9,
+          "source_frame": 9,
+          "time_seconds": 0.3333333333333333
+        },
+        {
+          "sample": 10,
+          "source_frame": 10,
+          "time_seconds": 0.375
+        },
+        {
+          "sample": 11,
+          "source_frame": 11,
+          "time_seconds": 0.4166666666666667
+        },
+        {
+          "sample": 12,
+          "source_frame": 12,
+          "time_seconds": 0.4583333333333333
+        },
+        {
+          "sample": 13,
+          "source_frame": 13,
+          "time_seconds": 0.5
+        },
+        {
+          "sample": 14,
+          "source_frame": 14,
+          "time_seconds": 0.5416666666666666
+        },
+        {
+          "sample": 15,
+          "source_frame": 15,
+          "time_seconds": 0.5833333333333334
+        },
+        {
+          "sample": 16,
+          "source_frame": 16,
+          "time_seconds": 0.625
+        },
+        {
+          "sample": 17,
+          "source_frame": 17,
+          "time_seconds": 0.6666666666666666
+        },
+        {
+          "sample": 18,
+          "source_frame": 18,
+          "time_seconds": 0.7083333333333334
+        },
+        {
+          "sample": 19,
+          "source_frame": 19,
+          "time_seconds": 0.75
+        },
+        {
+          "sample": 20,
+          "source_frame": 20,
+          "time_seconds": 0.7916666666666666
+        },
+        {
+          "sample": 21,
+          "source_frame": 21,
+          "time_seconds": 0.8333333333333334
+        },
+        {
+          "sample": 22,
+          "source_frame": 22,
+          "time_seconds": 0.875
+        },
+        {
+          "sample": 23,
+          "source_frame": 23,
+          "time_seconds": 0.9166666666666666
+        },
+        {
+          "sample": 24,
+          "source_frame": 24,
+          "time_seconds": 0.9583333333333334
+        },
+        {
+          "sample": 25,
+          "source_frame": 25,
+          "time_seconds": 1.0
+        },
+        {
+          "sample": 26,
+          "source_frame": 26,
+          "time_seconds": 1.0416666666666667
+        },
+        {
+          "sample": 27,
+          "source_frame": 27,
+          "time_seconds": 1.0833333333333333
+        },
+        {
+          "sample": 28,
+          "source_frame": 28,
+          "time_seconds": 1.125
+        },
+        {
+          "sample": 29,
+          "source_frame": 29,
+          "time_seconds": 1.1666666666666667
+        },
+        {
+          "sample": 30,
+          "source_frame": 30,
+          "time_seconds": 1.2083333333333333
+        },
+        {
+          "sample": 31,
+          "source_frame": 31,
+          "time_seconds": 1.25
+        },
+        {
+          "sample": 32,
+          "source_frame": 32,
+          "time_seconds": 1.2916666666666667
+        },
+        {
+          "sample": 33,
+          "source_frame": 33,
+          "time_seconds": 1.3333333333333333
+        },
+        {
+          "sample": 34,
+          "source_frame": 34,
+          "time_seconds": 1.375
+        },
+        {
+          "sample": 35,
+          "source_frame": 35,
+          "time_seconds": 1.4166666666666667
+        },
+        {
+          "sample": 36,
+          "source_frame": 36,
+          "time_seconds": 1.4583333333333333
+        },
+        {
+          "sample": 37,
+          "source_frame": 37,
+          "time_seconds": 1.5
+        },
+        {
+          "sample": 38,
+          "source_frame": 38,
+          "time_seconds": 1.5416666666666667
+        },
+        {
+          "sample": 39,
+          "source_frame": 39,
+          "time_seconds": 1.5833333333333333
+        },
+        {
+          "sample": 40,
+          "source_frame": 40,
+          "time_seconds": 1.625
+        },
+        {
+          "sample": 41,
+          "source_frame": 41,
+          "time_seconds": 1.6666666666666667
+        },
+        {
+          "sample": 42,
+          "source_frame": 42,
+          "time_seconds": 1.7083333333333333
+        },
+        {
+          "sample": 43,
+          "source_frame": 43,
+          "time_seconds": 1.75
+        },
+        {
+          "sample": 44,
+          "source_frame": 44,
+          "time_seconds": 1.7916666666666667
+        },
+        {
+          "sample": 45,
+          "source_frame": 45,
+          "time_seconds": 1.8333333333333333
+        },
+        {
+          "sample": 46,
+          "source_frame": 46,
+          "time_seconds": 1.875
+        },
+        {
+          "sample": 47,
+          "source_frame": 47,
+          "time_seconds": 1.9166666666666667
+        },
+        {
+          "sample": 48,
+          "source_frame": 48,
+          "time_seconds": 1.9583333333333333
+        },
+        {
+          "sample": 49,
+          "source_frame": 49,
+          "time_seconds": 2.0
+        },
+        {
+          "sample": 50,
+          "source_frame": 50,
+          "time_seconds": 2.0416666666666665
+        },
+        {
+          "sample": 51,
+          "source_frame": 51,
+          "time_seconds": 2.0833333333333335
+        },
+        {
+          "sample": 52,
+          "source_frame": 52,
+          "time_seconds": 2.125
+        },
+        {
+          "sample": 53,
+          "source_frame": 53,
+          "time_seconds": 2.1666666666666665
+        },
+        {
+          "sample": 54,
+          "source_frame": 54,
+          "time_seconds": 2.2083333333333335
+        },
+        {
+          "sample": 55,
+          "source_frame": 55,
+          "time_seconds": 2.25
+        },
+        {
+          "sample": 56,
+          "source_frame": 56,
+          "time_seconds": 2.2916666666666665
+        },
+        {
+          "sample": 57,
+          "source_frame": 57,
+          "time_seconds": 2.3333333333333335
+        },
+        {
+          "sample": 58,
+          "source_frame": 58,
+          "time_seconds": 2.375
+        },
+        {
+          "sample": 59,
+          "source_frame": 59,
+          "time_seconds": 2.4166666666666665
+        },
+        {
+          "sample": 60,
+          "source_frame": 60,
+          "time_seconds": 2.4583333333333335
+        },
+        {
+          "sample": 61,
+          "source_frame": 61,
+          "time_seconds": 2.5
+        },
+        {
+          "sample": 62,
+          "source_frame": 2,
+          "time_seconds": 2.5416666666666665
+        },
+        {
+          "sample": 63,
+          "source_frame": 3,
+          "time_seconds": 2.5833333333333335
+        },
+        {
+          "sample": 64,
+          "source_frame": 4,
+          "time_seconds": 2.625
+        },
+        {
+          "sample": 65,
+          "source_frame": 5,
+          "time_seconds": 2.6666666666666665
+        },
+        {
+          "sample": 66,
+          "source_frame": 6,
+          "time_seconds": 2.7083333333333335
+        },
+        {
+          "sample": 67,
+          "source_frame": 7,
+          "time_seconds": 2.75
+        },
+        {
+          "sample": 68,
+          "source_frame": 8,
+          "time_seconds": 2.7916666666666665
+        },
+        {
+          "sample": 69,
+          "source_frame": 9,
+          "time_seconds": 2.8333333333333335
+        },
+        {
+          "sample": 70,
+          "source_frame": 10,
+          "time_seconds": 2.875
+        },
+        {
+          "sample": 71,
+          "source_frame": 11,
+          "time_seconds": 2.9166666666666665
+        },
+        {
+          "sample": 72,
+          "source_frame": 12,
+          "time_seconds": 2.9583333333333335
+        },
+        {
+          "sample": 73,
+          "source_frame": 13,
+          "time_seconds": 3.0
+        },
+        {
+          "sample": 74,
+          "source_frame": 14,
+          "time_seconds": 3.0416666666666665
+        },
+        {
+          "sample": 75,
+          "source_frame": 15,
+          "time_seconds": 3.0833333333333335
+        },
+        {
+          "sample": 76,
+          "source_frame": 16,
+          "time_seconds": 3.125
+        },
+        {
+          "sample": 77,
+          "source_frame": 17,
+          "time_seconds": 3.1666666666666665
+        },
+        {
+          "sample": 78,
+          "source_frame": 18,
+          "time_seconds": 3.2083333333333335
+        },
+        {
+          "sample": 79,
+          "source_frame": 19,
+          "time_seconds": 3.25
+        },
+        {
+          "sample": 80,
+          "source_frame": 20,
+          "time_seconds": 3.2916666666666665
+        },
+        {
+          "sample": 81,
+          "source_frame": 21,
+          "time_seconds": 3.3333333333333335
+        },
+        {
+          "sample": 82,
+          "source_frame": 22,
+          "time_seconds": 3.375
+        },
+        {
+          "sample": 83,
+          "source_frame": 23,
+          "time_seconds": 3.4166666666666665
+        },
+        {
+          "sample": 84,
+          "source_frame": 24,
+          "time_seconds": 3.4583333333333335
+        },
+        {
+          "sample": 85,
+          "source_frame": 25,
+          "time_seconds": 3.5
+        },
+        {
+          "sample": 86,
+          "source_frame": 26,
+          "time_seconds": 3.5416666666666665
+        },
+        {
+          "sample": 87,
+          "source_frame": 27,
+          "time_seconds": 3.5833333333333335
+        },
+        {
+          "sample": 88,
+          "source_frame": 28,
+          "time_seconds": 3.625
+        },
+        {
+          "sample": 89,
+          "source_frame": 29,
+          "time_seconds": 3.6666666666666665
+        },
+        {
+          "sample": 90,
+          "source_frame": 30,
+          "time_seconds": 3.7083333333333335
+        },
+        {
+          "sample": 91,
+          "source_frame": 31,
+          "time_seconds": 3.75
+        },
+        {
+          "sample": 92,
+          "source_frame": 32,
+          "time_seconds": 3.7916666666666665
+        },
+        {
+          "sample": 93,
+          "source_frame": 33,
+          "time_seconds": 3.8333333333333335
+        },
+        {
+          "sample": 94,
+          "source_frame": 34,
+          "time_seconds": 3.875
+        },
+        {
+          "sample": 95,
+          "source_frame": 35,
+          "time_seconds": 3.9166666666666665
+        },
+        {
+          "sample": 96,
+          "source_frame": 36,
+          "time_seconds": 3.9583333333333335
+        },
+        {
+          "sample": 97,
+          "source_frame": 37,
+          "time_seconds": 4.0
+        },
+        {
+          "sample": 98,
+          "source_frame": 38,
+          "time_seconds": 4.041666666666667
+        },
+        {
+          "sample": 99,
+          "source_frame": 39,
+          "time_seconds": 4.083333333333333
+        },
+        {
+          "sample": 100,
+          "source_frame": 40,
+          "time_seconds": 4.125
+        },
+        {
+          "sample": 101,
+          "source_frame": 41,
+          "time_seconds": 4.166666666666667
+        },
+        {
+          "sample": 102,
+          "source_frame": 42,
+          "time_seconds": 4.208333333333333
+        },
+        {
+          "sample": 103,
+          "source_frame": 43,
+          "time_seconds": 4.25
+        },
+        {
+          "sample": 104,
+          "source_frame": 44,
+          "time_seconds": 4.291666666666667
+        },
+        {
+          "sample": 105,
+          "source_frame": 45,
+          "time_seconds": 4.333333333333333
+        },
+        {
+          "sample": 106,
+          "source_frame": 46,
+          "time_seconds": 4.375
+        },
+        {
+          "sample": 107,
+          "source_frame": 47,
+          "time_seconds": 4.416666666666667
+        },
+        {
+          "sample": 108,
+          "source_frame": 48,
+          "time_seconds": 4.458333333333333
+        },
+        {
+          "sample": 109,
+          "source_frame": 49,
+          "time_seconds": 4.5
+        },
+        {
+          "sample": 110,
+          "source_frame": 50,
+          "time_seconds": 4.541666666666667
+        },
+        {
+          "sample": 111,
+          "source_frame": 51,
+          "time_seconds": 4.583333333333333
+        },
+        {
+          "sample": 112,
+          "source_frame": 52,
+          "time_seconds": 4.625
+        },
+        {
+          "sample": 113,
+          "source_frame": 53,
+          "time_seconds": 4.666666666666667
+        },
+        {
+          "sample": 114,
+          "source_frame": 54,
+          "time_seconds": 4.708333333333333
+        },
+        {
+          "sample": 115,
+          "source_frame": 55,
+          "time_seconds": 4.75
+        },
+        {
+          "sample": 116,
+          "source_frame": 56,
+          "time_seconds": 4.791666666666667
+        },
+        {
+          "sample": 117,
+          "source_frame": 57,
+          "time_seconds": 4.833333333333333
+        },
+        {
+          "sample": 118,
+          "source_frame": 58,
+          "time_seconds": 4.875
+        },
+        {
+          "sample": 119,
+          "source_frame": 59,
+          "time_seconds": 4.916666666666667
+        },
+        {
+          "sample": 120,
+          "source_frame": 60,
+          "time_seconds": 4.958333333333333
+        },
+        {
+          "sample": 121,
+          "source_frame": 1,
+          "time_seconds": 5.0
+        }
+      ],
+      "second_cycle_actual_rechecks": 60
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "array_prefix": "clip_3",
+      "unique_source_frames": 49,
+      "loop_inclusive_samples": 97,
+      "fps": 24,
+      "time_policy": "source_frame f evaluated directly; authored seconds=(f-1)/24",
+      "Action": "YRA_R4_Struggle_Strong_Loop",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "samples": [
+        {
+          "sample": 1,
+          "source_frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "sample": 2,
+          "source_frame": 2,
+          "time_seconds": 0.041666666666666664
+        },
+        {
+          "sample": 3,
+          "source_frame": 3,
+          "time_seconds": 0.08333333333333333
+        },
+        {
+          "sample": 4,
+          "source_frame": 4,
+          "time_seconds": 0.125
+        },
+        {
+          "sample": 5,
+          "source_frame": 5,
+          "time_seconds": 0.16666666666666666
+        },
+        {
+          "sample": 6,
+          "source_frame": 6,
+          "time_seconds": 0.20833333333333334
+        },
+        {
+          "sample": 7,
+          "source_frame": 7,
+          "time_seconds": 0.25
+        },
+        {
+          "sample": 8,
+          "source_frame": 8,
+          "time_seconds": 0.2916666666666667
+        },
+        {
+          "sample": 9,
+          "source_frame": 9,
+          "time_seconds": 0.3333333333333333
+        },
+        {
+          "sample": 10,
+          "source_frame": 10,
+          "time_seconds": 0.375
+        },
+        {
+          "sample": 11,
+          "source_frame": 11,
+          "time_seconds": 0.4166666666666667
+        },
+        {
+          "sample": 12,
+          "source_frame": 12,
+          "time_seconds": 0.4583333333333333
+        },
+        {
+          "sample": 13,
+          "source_frame": 13,
+          "time_seconds": 0.5
+        },
+        {
+          "sample": 14,
+          "source_frame": 14,
+          "time_seconds": 0.5416666666666666
+        },
+        {
+          "sample": 15,
+          "source_frame": 15,
+          "time_seconds": 0.5833333333333334
+        },
+        {
+          "sample": 16,
+          "source_frame": 16,
+          "time_seconds": 0.625
+        },
+        {
+          "sample": 17,
+          "source_frame": 17,
+          "time_seconds": 0.6666666666666666
+        },
+        {
+          "sample": 18,
+          "source_frame": 18,
+          "time_seconds": 0.7083333333333334
+        },
+        {
+          "sample": 19,
+          "source_frame": 19,
+          "time_seconds": 0.75
+        },
+        {
+          "sample": 20,
+          "source_frame": 20,
+          "time_seconds": 0.7916666666666666
+        },
+        {
+          "sample": 21,
+          "source_frame": 21,
+          "time_seconds": 0.8333333333333334
+        },
+        {
+          "sample": 22,
+          "source_frame": 22,
+          "time_seconds": 0.875
+        },
+        {
+          "sample": 23,
+          "source_frame": 23,
+          "time_seconds": 0.9166666666666666
+        },
+        {
+          "sample": 24,
+          "source_frame": 24,
+          "time_seconds": 0.9583333333333334
+        },
+        {
+          "sample": 25,
+          "source_frame": 25,
+          "time_seconds": 1.0
+        },
+        {
+          "sample": 26,
+          "source_frame": 26,
+          "time_seconds": 1.0416666666666667
+        },
+        {
+          "sample": 27,
+          "source_frame": 27,
+          "time_seconds": 1.0833333333333333
+        },
+        {
+          "sample": 28,
+          "source_frame": 28,
+          "time_seconds": 1.125
+        },
+        {
+          "sample": 29,
+          "source_frame": 29,
+          "time_seconds": 1.1666666666666667
+        },
+        {
+          "sample": 30,
+          "source_frame": 30,
+          "time_seconds": 1.2083333333333333
+        },
+        {
+          "sample": 31,
+          "source_frame": 31,
+          "time_seconds": 1.25
+        },
+        {
+          "sample": 32,
+          "source_frame": 32,
+          "time_seconds": 1.2916666666666667
+        },
+        {
+          "sample": 33,
+          "source_frame": 33,
+          "time_seconds": 1.3333333333333333
+        },
+        {
+          "sample": 34,
+          "source_frame": 34,
+          "time_seconds": 1.375
+        },
+        {
+          "sample": 35,
+          "source_frame": 35,
+          "time_seconds": 1.4166666666666667
+        },
+        {
+          "sample": 36,
+          "source_frame": 36,
+          "time_seconds": 1.4583333333333333
+        },
+        {
+          "sample": 37,
+          "source_frame": 37,
+          "time_seconds": 1.5
+        },
+        {
+          "sample": 38,
+          "source_frame": 38,
+          "time_seconds": 1.5416666666666667
+        },
+        {
+          "sample": 39,
+          "source_frame": 39,
+          "time_seconds": 1.5833333333333333
+        },
+        {
+          "sample": 40,
+          "source_frame": 40,
+          "time_seconds": 1.625
+        },
+        {
+          "sample": 41,
+          "source_frame": 41,
+          "time_seconds": 1.6666666666666667
+        },
+        {
+          "sample": 42,
+          "source_frame": 42,
+          "time_seconds": 1.7083333333333333
+        },
+        {
+          "sample": 43,
+          "source_frame": 43,
+          "time_seconds": 1.75
+        },
+        {
+          "sample": 44,
+          "source_frame": 44,
+          "time_seconds": 1.7916666666666667
+        },
+        {
+          "sample": 45,
+          "source_frame": 45,
+          "time_seconds": 1.8333333333333333
+        },
+        {
+          "sample": 46,
+          "source_frame": 46,
+          "time_seconds": 1.875
+        },
+        {
+          "sample": 47,
+          "source_frame": 47,
+          "time_seconds": 1.9166666666666667
+        },
+        {
+          "sample": 48,
+          "source_frame": 48,
+          "time_seconds": 1.9583333333333333
+        },
+        {
+          "sample": 49,
+          "source_frame": 49,
+          "time_seconds": 2.0
+        },
+        {
+          "sample": 50,
+          "source_frame": 2,
+          "time_seconds": 2.0416666666666665
+        },
+        {
+          "sample": 51,
+          "source_frame": 3,
+          "time_seconds": 2.0833333333333335
+        },
+        {
+          "sample": 52,
+          "source_frame": 4,
+          "time_seconds": 2.125
+        },
+        {
+          "sample": 53,
+          "source_frame": 5,
+          "time_seconds": 2.1666666666666665
+        },
+        {
+          "sample": 54,
+          "source_frame": 6,
+          "time_seconds": 2.2083333333333335
+        },
+        {
+          "sample": 55,
+          "source_frame": 7,
+          "time_seconds": 2.25
+        },
+        {
+          "sample": 56,
+          "source_frame": 8,
+          "time_seconds": 2.2916666666666665
+        },
+        {
+          "sample": 57,
+          "source_frame": 9,
+          "time_seconds": 2.3333333333333335
+        },
+        {
+          "sample": 58,
+          "source_frame": 10,
+          "time_seconds": 2.375
+        },
+        {
+          "sample": 59,
+          "source_frame": 11,
+          "time_seconds": 2.4166666666666665
+        },
+        {
+          "sample": 60,
+          "source_frame": 12,
+          "time_seconds": 2.4583333333333335
+        },
+        {
+          "sample": 61,
+          "source_frame": 13,
+          "time_seconds": 2.5
+        },
+        {
+          "sample": 62,
+          "source_frame": 14,
+          "time_seconds": 2.5416666666666665
+        },
+        {
+          "sample": 63,
+          "source_frame": 15,
+          "time_seconds": 2.5833333333333335
+        },
+        {
+          "sample": 64,
+          "source_frame": 16,
+          "time_seconds": 2.625
+        },
+        {
+          "sample": 65,
+          "source_frame": 17,
+          "time_seconds": 2.6666666666666665
+        },
+        {
+          "sample": 66,
+          "source_frame": 18,
+          "time_seconds": 2.7083333333333335
+        },
+        {
+          "sample": 67,
+          "source_frame": 19,
+          "time_seconds": 2.75
+        },
+        {
+          "sample": 68,
+          "source_frame": 20,
+          "time_seconds": 2.7916666666666665
+        },
+        {
+          "sample": 69,
+          "source_frame": 21,
+          "time_seconds": 2.8333333333333335
+        },
+        {
+          "sample": 70,
+          "source_frame": 22,
+          "time_seconds": 2.875
+        },
+        {
+          "sample": 71,
+          "source_frame": 23,
+          "time_seconds": 2.9166666666666665
+        },
+        {
+          "sample": 72,
+          "source_frame": 24,
+          "time_seconds": 2.9583333333333335
+        },
+        {
+          "sample": 73,
+          "source_frame": 25,
+          "time_seconds": 3.0
+        },
+        {
+          "sample": 74,
+          "source_frame": 26,
+          "time_seconds": 3.0416666666666665
+        },
+        {
+          "sample": 75,
+          "source_frame": 27,
+          "time_seconds": 3.0833333333333335
+        },
+        {
+          "sample": 76,
+          "source_frame": 28,
+          "time_seconds": 3.125
+        },
+        {
+          "sample": 77,
+          "source_frame": 29,
+          "time_seconds": 3.1666666666666665
+        },
+        {
+          "sample": 78,
+          "source_frame": 30,
+          "time_seconds": 3.2083333333333335
+        },
+        {
+          "sample": 79,
+          "source_frame": 31,
+          "time_seconds": 3.25
+        },
+        {
+          "sample": 80,
+          "source_frame": 32,
+          "time_seconds": 3.2916666666666665
+        },
+        {
+          "sample": 81,
+          "source_frame": 33,
+          "time_seconds": 3.3333333333333335
+        },
+        {
+          "sample": 82,
+          "source_frame": 34,
+          "time_seconds": 3.375
+        },
+        {
+          "sample": 83,
+          "source_frame": 35,
+          "time_seconds": 3.4166666666666665
+        },
+        {
+          "sample": 84,
+          "source_frame": 36,
+          "time_seconds": 3.4583333333333335
+        },
+        {
+          "sample": 85,
+          "source_frame": 37,
+          "time_seconds": 3.5
+        },
+        {
+          "sample": 86,
+          "source_frame": 38,
+          "time_seconds": 3.5416666666666665
+        },
+        {
+          "sample": 87,
+          "source_frame": 39,
+          "time_seconds": 3.5833333333333335
+        },
+        {
+          "sample": 88,
+          "source_frame": 40,
+          "time_seconds": 3.625
+        },
+        {
+          "sample": 89,
+          "source_frame": 41,
+          "time_seconds": 3.6666666666666665
+        },
+        {
+          "sample": 90,
+          "source_frame": 42,
+          "time_seconds": 3.7083333333333335
+        },
+        {
+          "sample": 91,
+          "source_frame": 43,
+          "time_seconds": 3.75
+        },
+        {
+          "sample": 92,
+          "source_frame": 44,
+          "time_seconds": 3.7916666666666665
+        },
+        {
+          "sample": 93,
+          "source_frame": 45,
+          "time_seconds": 3.8333333333333335
+        },
+        {
+          "sample": 94,
+          "source_frame": 46,
+          "time_seconds": 3.875
+        },
+        {
+          "sample": 95,
+          "source_frame": 47,
+          "time_seconds": 3.9166666666666665
+        },
+        {
+          "sample": 96,
+          "source_frame": 48,
+          "time_seconds": 3.9583333333333335
+        },
+        {
+          "sample": 97,
+          "source_frame": 1,
+          "time_seconds": 4.0
+        }
+      ],
+      "second_cycle_actual_rechecks": 48
+    },
+    {
+      "clip": "YRA_R4_Land_Soft",
+      "array_prefix": "clip_4",
+      "unique_source_frames": 43,
+      "loop_inclusive_samples": 43,
+      "fps": 24,
+      "time_policy": "source_frame f evaluated directly; authored seconds=(f-1)/24",
+      "Action": "YRA_R4_Land_Soft",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "samples": [
+        {
+          "sample": 1,
+          "source_frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "sample": 2,
+          "source_frame": 2,
+          "time_seconds": 0.041666666666666664
+        },
+        {
+          "sample": 3,
+          "source_frame": 3,
+          "time_seconds": 0.08333333333333333
+        },
+        {
+          "sample": 4,
+          "source_frame": 4,
+          "time_seconds": 0.125
+        },
+        {
+          "sample": 5,
+          "source_frame": 5,
+          "time_seconds": 0.16666666666666666
+        },
+        {
+          "sample": 6,
+          "source_frame": 6,
+          "time_seconds": 0.20833333333333334
+        },
+        {
+          "sample": 7,
+          "source_frame": 7,
+          "time_seconds": 0.25
+        },
+        {
+          "sample": 8,
+          "source_frame": 8,
+          "time_seconds": 0.2916666666666667
+        },
+        {
+          "sample": 9,
+          "source_frame": 9,
+          "time_seconds": 0.3333333333333333
+        },
+        {
+          "sample": 10,
+          "source_frame": 10,
+          "time_seconds": 0.375
+        },
+        {
+          "sample": 11,
+          "source_frame": 11,
+          "time_seconds": 0.4166666666666667
+        },
+        {
+          "sample": 12,
+          "source_frame": 12,
+          "time_seconds": 0.4583333333333333
+        },
+        {
+          "sample": 13,
+          "source_frame": 13,
+          "time_seconds": 0.5
+        },
+        {
+          "sample": 14,
+          "source_frame": 14,
+          "time_seconds": 0.5416666666666666
+        },
+        {
+          "sample": 15,
+          "source_frame": 15,
+          "time_seconds": 0.5833333333333334
+        },
+        {
+          "sample": 16,
+          "source_frame": 16,
+          "time_seconds": 0.625
+        },
+        {
+          "sample": 17,
+          "source_frame": 17,
+          "time_seconds": 0.6666666666666666
+        },
+        {
+          "sample": 18,
+          "source_frame": 18,
+          "time_seconds": 0.7083333333333334
+        },
+        {
+          "sample": 19,
+          "source_frame": 19,
+          "time_seconds": 0.75
+        },
+        {
+          "sample": 20,
+          "source_frame": 20,
+          "time_seconds": 0.7916666666666666
+        },
+        {
+          "sample": 21,
+          "source_frame": 21,
+          "time_seconds": 0.8333333333333334
+        },
+        {
+          "sample": 22,
+          "source_frame": 22,
+          "time_seconds": 0.875
+        },
+        {
+          "sample": 23,
+          "source_frame": 23,
+          "time_seconds": 0.9166666666666666
+        },
+        {
+          "sample": 24,
+          "source_frame": 24,
+          "time_seconds": 0.9583333333333334
+        },
+        {
+          "sample": 25,
+          "source_frame": 25,
+          "time_seconds": 1.0
+        },
+        {
+          "sample": 26,
+          "source_frame": 26,
+          "time_seconds": 1.0416666666666667
+        },
+        {
+          "sample": 27,
+          "source_frame": 27,
+          "time_seconds": 1.0833333333333333
+        },
+        {
+          "sample": 28,
+          "source_frame": 28,
+          "time_seconds": 1.125
+        },
+        {
+          "sample": 29,
+          "source_frame": 29,
+          "time_seconds": 1.1666666666666667
+        },
+        {
+          "sample": 30,
+          "source_frame": 30,
+          "time_seconds": 1.2083333333333333
+        },
+        {
+          "sample": 31,
+          "source_frame": 31,
+          "time_seconds": 1.25
+        },
+        {
+          "sample": 32,
+          "source_frame": 32,
+          "time_seconds": 1.2916666666666667
+        },
+        {
+          "sample": 33,
+          "source_frame": 33,
+          "time_seconds": 1.3333333333333333
+        },
+        {
+          "sample": 34,
+          "source_frame": 34,
+          "time_seconds": 1.375
+        },
+        {
+          "sample": 35,
+          "source_frame": 35,
+          "time_seconds": 1.4166666666666667
+        },
+        {
+          "sample": 36,
+          "source_frame": 36,
+          "time_seconds": 1.4583333333333333
+        },
+        {
+          "sample": 37,
+          "source_frame": 37,
+          "time_seconds": 1.5
+        },
+        {
+          "sample": 38,
+          "source_frame": 38,
+          "time_seconds": 1.5416666666666667
+        },
+        {
+          "sample": 39,
+          "source_frame": 39,
+          "time_seconds": 1.5833333333333333
+        },
+        {
+          "sample": 40,
+          "source_frame": 40,
+          "time_seconds": 1.625
+        },
+        {
+          "sample": 41,
+          "source_frame": 41,
+          "time_seconds": 1.6666666666666667
+        },
+        {
+          "sample": 42,
+          "source_frame": 42,
+          "time_seconds": 1.7083333333333333
+        },
+        {
+          "sample": 43,
+          "source_frame": 43,
+          "time_seconds": 1.75
+        }
+      ],
+      "second_cycle_actual_rechecks": 0
+    },
+    {
+      "clip": "YRA_R4_BalanceRecover",
+      "array_prefix": "clip_5",
+      "unique_source_frames": 55,
+      "loop_inclusive_samples": 55,
+      "fps": 24,
+      "time_policy": "source_frame f evaluated directly; authored seconds=(f-1)/24",
+      "Action": "YRA_R4_BalanceRecover",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "samples": [
+        {
+          "sample": 1,
+          "source_frame": 1,
+          "time_seconds": 0.0
+        },
+        {
+          "sample": 2,
+          "source_frame": 2,
+          "time_seconds": 0.041666666666666664
+        },
+        {
+          "sample": 3,
+          "source_frame": 3,
+          "time_seconds": 0.08333333333333333
+        },
+        {
+          "sample": 4,
+          "source_frame": 4,
+          "time_seconds": 0.125
+        },
+        {
+          "sample": 5,
+          "source_frame": 5,
+          "time_seconds": 0.16666666666666666
+        },
+        {
+          "sample": 6,
+          "source_frame": 6,
+          "time_seconds": 0.20833333333333334
+        },
+        {
+          "sample": 7,
+          "source_frame": 7,
+          "time_seconds": 0.25
+        },
+        {
+          "sample": 8,
+          "source_frame": 8,
+          "time_seconds": 0.2916666666666667
+        },
+        {
+          "sample": 9,
+          "source_frame": 9,
+          "time_seconds": 0.3333333333333333
+        },
+        {
+          "sample": 10,
+          "source_frame": 10,
+          "time_seconds": 0.375
+        },
+        {
+          "sample": 11,
+          "source_frame": 11,
+          "time_seconds": 0.4166666666666667
+        },
+        {
+          "sample": 12,
+          "source_frame": 12,
+          "time_seconds": 0.4583333333333333
+        },
+        {
+          "sample": 13,
+          "source_frame": 13,
+          "time_seconds": 0.5
+        },
+        {
+          "sample": 14,
+          "source_frame": 14,
+          "time_seconds": 0.5416666666666666
+        },
+        {
+          "sample": 15,
+          "source_frame": 15,
+          "time_seconds": 0.5833333333333334
+        },
+        {
+          "sample": 16,
+          "source_frame": 16,
+          "time_seconds": 0.625
+        },
+        {
+          "sample": 17,
+          "source_frame": 17,
+          "time_seconds": 0.6666666666666666
+        },
+        {
+          "sample": 18,
+          "source_frame": 18,
+          "time_seconds": 0.7083333333333334
+        },
+        {
+          "sample": 19,
+          "source_frame": 19,
+          "time_seconds": 0.75
+        },
+        {
+          "sample": 20,
+          "source_frame": 20,
+          "time_seconds": 0.7916666666666666
+        },
+        {
+          "sample": 21,
+          "source_frame": 21,
+          "time_seconds": 0.8333333333333334
+        },
+        {
+          "sample": 22,
+          "source_frame": 22,
+          "time_seconds": 0.875
+        },
+        {
+          "sample": 23,
+          "source_frame": 23,
+          "time_seconds": 0.9166666666666666
+        },
+        {
+          "sample": 24,
+          "source_frame": 24,
+          "time_seconds": 0.9583333333333334
+        },
+        {
+          "sample": 25,
+          "source_frame": 25,
+          "time_seconds": 1.0
+        },
+        {
+          "sample": 26,
+          "source_frame": 26,
+          "time_seconds": 1.0416666666666667
+        },
+        {
+          "sample": 27,
+          "source_frame": 27,
+          "time_seconds": 1.0833333333333333
+        },
+        {
+          "sample": 28,
+          "source_frame": 28,
+          "time_seconds": 1.125
+        },
+        {
+          "sample": 29,
+          "source_frame": 29,
+          "time_seconds": 1.1666666666666667
+        },
+        {
+          "sample": 30,
+          "source_frame": 30,
+          "time_seconds": 1.2083333333333333
+        },
+        {
+          "sample": 31,
+          "source_frame": 31,
+          "time_seconds": 1.25
+        },
+        {
+          "sample": 32,
+          "source_frame": 32,
+          "time_seconds": 1.2916666666666667
+        },
+        {
+          "sample": 33,
+          "source_frame": 33,
+          "time_seconds": 1.3333333333333333
+        },
+        {
+          "sample": 34,
+          "source_frame": 34,
+          "time_seconds": 1.375
+        },
+        {
+          "sample": 35,
+          "source_frame": 35,
+          "time_seconds": 1.4166666666666667
+        },
+        {
+          "sample": 36,
+          "source_frame": 36,
+          "time_seconds": 1.4583333333333333
+        },
+        {
+          "sample": 37,
+          "source_frame": 37,
+          "time_seconds": 1.5
+        },
+        {
+          "sample": 38,
+          "source_frame": 38,
+          "time_seconds": 1.5416666666666667
+        },
+        {
+          "sample": 39,
+          "source_frame": 39,
+          "time_seconds": 1.5833333333333333
+        },
+        {
+          "sample": 40,
+          "source_frame": 40,
+          "time_seconds": 1.625
+        },
+        {
+          "sample": 41,
+          "source_frame": 41,
+          "time_seconds": 1.6666666666666667
+        },
+        {
+          "sample": 42,
+          "source_frame": 42,
+          "time_seconds": 1.7083333333333333
+        },
+        {
+          "sample": 43,
+          "source_frame": 43,
+          "time_seconds": 1.75
+        },
+        {
+          "sample": 44,
+          "source_frame": 44,
+          "time_seconds": 1.7916666666666667
+        },
+        {
+          "sample": 45,
+          "source_frame": 45,
+          "time_seconds": 1.8333333333333333
+        },
+        {
+          "sample": 46,
+          "source_frame": 46,
+          "time_seconds": 1.875
+        },
+        {
+          "sample": 47,
+          "source_frame": 47,
+          "time_seconds": 1.9166666666666667
+        },
+        {
+          "sample": 48,
+          "source_frame": 48,
+          "time_seconds": 1.9583333333333333
+        },
+        {
+          "sample": 49,
+          "source_frame": 49,
+          "time_seconds": 2.0
+        },
+        {
+          "sample": 50,
+          "source_frame": 50,
+          "time_seconds": 2.0416666666666665
+        },
+        {
+          "sample": 51,
+          "source_frame": 51,
+          "time_seconds": 2.0833333333333335
+        },
+        {
+          "sample": 52,
+          "source_frame": 52,
+          "time_seconds": 2.125
+        },
+        {
+          "sample": 53,
+          "source_frame": 53,
+          "time_seconds": 2.1666666666666665
+        },
+        {
+          "sample": 54,
+          "source_frame": 54,
+          "time_seconds": 2.2083333333333335
+        },
+        {
+          "sample": 55,
+          "source_frame": 55,
+          "time_seconds": 2.25
+        }
+      ],
+      "second_cycle_actual_rechecks": 0
+    }
+  ],
+  "unique_frames": 276,
+  "loop_inclusive_samples": 384,
+  "all137_frozen_world_pose_max_element_delta": 0.0,
+  "stage_references": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "last_enabled_order": 0,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "last_enabled_order": 1,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0007857624208490392,
+        "RMS_m": 8.319809582466667e-05,
+        "p95_m": 0.00017611784537908728,
+        "worst_source_vertex": 7480
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.030597809702157974
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "last_enabled_order": 2,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0002597659032256332,
+        "RMS_m": 4.739279193717636e-06,
+        "p95_m": 3.4655532911048356e-06,
+        "worst_source_vertex": 1889
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.11244236677885056
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "last_enabled_order": 3,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "last_enabled_order": 4,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "last_enabled_order": 5,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "source_frame": 11,
+      "last_enabled_order": 6,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "original_driver_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0,
+      "existing_full_stack_reference_exact_deltas": {
+        "local_position": 0.0,
+        "local_corner_normal": 0.0,
+        "world_position": 0.0,
+        "world_corner_normal": 0.0
+      },
+      "reference_chunk": {
+        "path": "YRA_R4_Startle_Short/frames_009_012.npz",
+        "sha256": "427945069db41714cfd8bc43f6906f25ce24d35543b63bd0e979c4f042f5abd5",
+        "frame_offset": 2
+      }
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "last_enabled_order": 0,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "last_enabled_order": 1,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0016779106268794424,
+        "RMS_m": 0.00017455218809903027,
+        "p95_m": 0.00033635584233022796,
+        "worst_source_vertex": 9917
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.09803394973278046
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "last_enabled_order": 2,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0017728326041221928,
+        "RMS_m": 5.588941071080486e-05,
+        "p95_m": 9.622807551729102e-05,
+        "worst_source_vertex": 1981
+      },
+      "incremental_world_corner_normal_vector_max_delta": 1.6206144094467163
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "last_enabled_order": 3,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "last_enabled_order": 4,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "last_enabled_order": 5,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": false,
+          "show_render": false
+        }
+      ],
+      "original_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "source_frame": 6,
+      "last_enabled_order": 6,
+      "modifier_flags": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true
+        }
+      ],
+      "original_driver_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "world_object_matrix": [
+        [
+          0.5350000262260437,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          0.5350000262260437,
+          0.0,
+          -0.02800000086426735
+        ],
+        [
+          0.0,
+          0.0,
+          0.5350000262260437,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "later_modifiers_disabled_on_disposable_object_only": true,
+      "incremental_world_position_delta": {
+        "max_m": 0.0,
+        "RMS_m": 0.0,
+        "p95_m": 0.0,
+        "worst_source_vertex": 0
+      },
+      "incremental_world_corner_normal_vector_max_delta": 0.0,
+      "existing_full_stack_reference_exact_deltas": {
+        "local_position": 0.0,
+        "local_corner_normal": 0.0,
+        "world_position": 0.0,
+        "world_corner_normal": 0.0
+      },
+      "reference_chunk": {
+        "path": "YRA_R4_Struggle_Strong_Loop/frames_005_008.npz",
+        "sha256": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+        "frame_offset": 1
+      }
+    }
+  ],
+  "stage_normal_policy": "Original polygon CORNER index; world normal = normalize(local normal @ inverse(object linear matrix)) computed float64 then float32. No vertex averaging, UV tangent substitution or Unity axis conversion.",
+  "stage_evaluation_policy": "Cumulative stages0..last on disposable original-body object copy sharing read-only mesh; later modifiers disabled on copy only. Exact原 settings/masks/driver factors kept. Full cumulative stage6 agrees existing frozen full stack arrays bit-for-bit at both frames.",
+  "limitations": "Intermediate corner normals are recomputed by native Blender at each ablation; not the final normals with an isolated last-stage normal delta. Stage contribution deltas are cumulative/nonlinear, not additive correction vectors for general motion.",
+  "CPU_job": {
+    "job_count": 1,
+    "workers": 1,
+    "threads": 4,
+    "pid": 85780,
+    "Blender": "5.2.1 LTS",
+    "build_hash": "9e2066aef7ef",
+    "wall_seconds": 39.32872320001479
+  },
+  "files": [
+    {
+      "path": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "bytes": 12735974,
+      "uncompressed_bytes": 26725692,
+      "arrays": {
+        "stage_00_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_00_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_01_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_01_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_02_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_02_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_03_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_03_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_04_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_04_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_05_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_05_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_06_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_06_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "bytes": 12735520,
+      "uncompressed_bytes": 26725692,
+      "arrays": {
+        "stage_00_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_00_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_01_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_01_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_02_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_02_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_03_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_03_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_04_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_04_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_05_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_05_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_06_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "stage_06_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "R4_All6_Raw_Pose_Quaternions_And_Five_Driver_Factors.npz",
+      "sha256": "c2b2534e46eb0b5ef20a6f48a588dc14175156c1f65c7821045c6d0e99eff900",
+      "bytes": 163626,
+      "arrays": {
+        "clip_0_raw_quaternion_wxyz": {
+          "shape": [
+            37,
+            57,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "clip_0_five_driver_factors": {
+          "shape": [
+            37,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "clip_1_raw_quaternion_wxyz": {
+          "shape": [
+            31,
+            57,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "clip_1_five_driver_factors": {
+          "shape": [
+            31,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "clip_2_raw_quaternion_wxyz": {
+          "shape": [
+            61,
+            57,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "clip_2_five_driver_factors": {
+          "shape": [
+            61,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "clip_3_raw_quaternion_wxyz": {
+          "shape": [
+            49,
+            57,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "clip_3_five_driver_factors": {
+          "shape": [
+            49,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "clip_4_raw_quaternion_wxyz": {
+          "shape": [
+            43,
+            57,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "clip_4_five_driver_factors": {
+          "shape": [
+            43,
+            5
+          ],
+          "dtype": "float32"
+        },
+        "clip_5_raw_quaternion_wxyz": {
+          "shape": [
+            55,
+            57,
+            4
+          ],
+          "dtype": "float32"
+        },
+        "clip_5_five_driver_factors": {
+          "shape": [
+            55,
+            5
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  ],
+  "all_file_readbacks_exact_and_finite": true,
+  "acceptance": "Source reference custody only; no Unity runtime/appearance/AlwaysAnimate PASS."
+}

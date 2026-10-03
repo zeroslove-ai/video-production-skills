@@ -1,0 +1,87 @@
+{
+  "task_id": "YURI_O1_RAW_POSE_DRIVER_AND_BOUNDED_STAGE_REFERENCE_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_RAW_POSE_DRIVER_STAGES_20261003_R1_04f07292fcb0",
+  "manifest_sha256": "04f07292fcb0525937b6f709fddd9055d581d929b3328b03b50052ecf9bc8aaf",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_RAW_POSE_DRIVER_STAGES_20261003_R1_04f07292fcb0\\YURI_O1_R4_RAW_POSE_DRIVER_STAGES_20261003_R1.part01-of-01.zip",
+      "sha256": "dcc55f29f2caed4f4d19260b7ecf0d3ce51447a25841932636172f0b1516e287",
+      "bytes": 25872914,
+      "files": [
+        "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+        "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+        "R4_All6_Raw_Pose_Quaternions_And_Five_Driver_Factors.npz",
+        "metadata/INDEPENDENT_DRIVER_READBACK.json",
+        "metadata/RAW_POSE_DRIVER_STAGE_MANIFEST.json",
+        "metadata/SOURCE_COMPONENT_DIFF.json",
+        "metadata/YURI_O1_RAW_POSE_DRIVER_AND_BOUNDED_STAGE_REFERENCE_R1.md",
+        "scripts/r4_raw_pose_driver_stage_reference.py",
+        "scripts/r4_source_reference_packet_freeze.py",
+        "scripts/r4_raw_pose_driver_stage_verify.py",
+        "scripts/r4_appearance_signature.py",
+        "scripts/r4_appearance_adapter.py",
+        "scripts/native_preservation.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "YRA_R4_Startle_Short_frame011_seven_stages.npz": {
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "bytes": 12735974
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz": {
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "bytes": 12735520
+    },
+    "R4_All6_Raw_Pose_Quaternions_And_Five_Driver_Factors.npz": {
+      "sha256": "c2b2534e46eb0b5ef20a6f48a588dc14175156c1f65c7821045c6d0e99eff900",
+      "bytes": 163626
+    },
+    "metadata/INDEPENDENT_DRIVER_READBACK.json": {
+      "sha256": "40e7b5b162919dc534e15e5755709280d5e2b4676511a34eec3c08a93daad4d3",
+      "bytes": 4067
+    },
+    "metadata/RAW_POSE_DRIVER_STAGE_MANIFEST.json": {
+      "sha256": "04f07292fcb0525937b6f709fddd9055d581d929b3328b03b50052ecf9bc8aaf",
+      "bytes": 118075
+    },
+    "metadata/SOURCE_COMPONENT_DIFF.json": {
+      "sha256": "de99320acf7dfd9e489f1aefb8134c416a08b2f5e32c850291d18dd0c0f10041",
+      "bytes": 73142
+    },
+    "metadata/YURI_O1_RAW_POSE_DRIVER_AND_BOUNDED_STAGE_REFERENCE_R1.md": {
+      "sha256": "c5ad5109615803b8fe1a26b518fa85349ee7c671621db70e5ff207463cb1ba3e",
+      "bytes": 6509
+    },
+    "scripts/r4_raw_pose_driver_stage_reference.py": {
+      "sha256": "3cede587a9e9160ce5c42aab0f2b5e4a394a2c67ce39c3a2400260793c68b438",
+      "bytes": 13886
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "02e993276219632d1a1c28f649784f298aa79a18353bc27277d506c97b7b0557",
+      "bytes": 5232
+    },
+    "scripts/r4_raw_pose_driver_stage_verify.py": {
+      "sha256": "d9b6aae7a7f0d881e1839d91f7c96542a648028a9233a2a114ab2a0a4fcac115",
+      "bytes": 5004
+    },
+    "scripts/r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "scripts/r4_appearance_adapter.py": {
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+      "bytes": 2307
+    },
+    "scripts/native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 25872914,
+  "data_bytes": 25635120,
+  "aggregate_file_manifest_sha256": "9b836a7e062761f6d81bd66f8021f0048f50a9d34cd2de110c842cc557f43ca4",
+  "source_or_frozen_input_writes": 0
+}

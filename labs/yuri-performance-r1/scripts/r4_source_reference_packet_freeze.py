@@ -1,11 +1,11 @@
 """Freeze existing data in independently readable <=100MiB ZIP volumes.
-Usage: python this.py gaze|body|weights|bind|basis|corners|modifiers. No Blender/source access.
+Usage: python this.py gaze|body|weights|bind|basis|corners|modifiers|rawpose. No Blender/source access.
 """
 import sys,json,hashlib,zipfile
 from pathlib import Path
 LAB=Path(__file__).resolve().parent.parent
 BASE=Path(r'C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs')
-mode=sys.argv[-1];assert mode in ('gaze','body','weights','bind','basis','corners','modifiers')
+mode=sys.argv[-1];assert mode in ('gaze','body','weights','bind','basis','corners','modifiers','rawpose')
 slug='o1-gaze-evaluated-corner-reference-r1' if mode=='gaze' else 'o1-full-body-deformation-reference-r1'
 name='GAZE_EVALUATED_CORNER_MANIFEST.json' if mode=='gaze' else 'FULL_BODY_DEFORMATION_MANIFEST.json'
 prefix='YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1' if mode=='gaze' else 'YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1'
@@ -24,6 +24,9 @@ if mode=='corners':
 if mode=='modifiers':
     slug='o1-body-modifier-source-contract-r1';name='BODY_MODIFIER_SOURCE_CONTRACT.json'
     prefix='YURI_O1_R4_BODY_MODIFIER_SOURCE_CONTRACT_20261003_R1'
+if mode=='rawpose':
+    slug='o1-raw-pose-driver-stage-reference-r1';name='RAW_POSE_DRIVER_STAGE_MANIFEST.json'
+    prefix='YURI_O1_R4_RAW_POSE_DRIVER_STAGES_20261003_R1'
 E=LAB/'evidence'/slug;OUT=BASE/slug
 def sha(p):
     h=hashlib.sha256()
@@ -42,7 +45,11 @@ if mode=='bind':script='r4_bind_transport_contract.py'
 if mode=='basis':script='r4_renderer_basis_diagnostic.py'
 if mode=='corners':script='r4_source_corner_identity_support.py'
 if mode=='modifiers':script='r4_body_modifier_source_contract.py'
+if mode=='rawpose':script='r4_raw_pose_driver_stage_reference.py'
 for n in (script,'r4_source_reference_packet_freeze.py'):files['scripts/'+n]=LAB/'scripts'/n
+if mode=='rawpose':
+    for n in ('r4_raw_pose_driver_stage_verify.py','r4_appearance_signature.py','r4_appearance_adapter.py','native_preservation.py'):
+        files['scripts/'+n]=LAB/'scripts'/n
 file_manifest={n:{'sha256':sha(p),'bytes':p.stat().st_size} for n,p in files.items()}
 dest=Path(r'C:/YuriTransfer/outbox')/(prefix+'_'+digest[:12]);dest.mkdir(exist_ok=True)
 groups=[];group=[];size=0
