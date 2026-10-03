@@ -1,0 +1,53 @@
+{
+  "status": "PREPARED_PRIVATE_OWNER_ONLY_TRANSFER; NOT_UPLOAD_RECEIPT",
+  "full_zip_sha256": "935f3b6e300d4c5ace9f44215137a9d82d7654ecd5659337de1ba4b66838b30e",
+  "full_zip_bytes": 365787042,
+  "part_order": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+      "bytes": 67108864,
+      "sha256": "861168cc31f913cd2abe32efa8dc6b5b5c422b10dcc86e639f15e30b99414510"
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+      "bytes": 67108864,
+      "sha256": "9b52f3b5bf14007aadb97062269ac59ef445ef58bb5e114dd9a0d3d5e99e7738"
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+      "bytes": 67108864,
+      "sha256": "86c22b8169f572867d940e88f224def7f443ca06861005a65db553185fea0a39"
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+      "bytes": 67108864,
+      "sha256": "2db1c389cd01651915567cd07b76963550e9d976ca28ddce691cfd5fc7a236b9"
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+      "bytes": 67108864,
+      "sha256": "875cd71c4937d114e3e64af613f8152924e813261029141f063f4c0238166fb2"
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+      "bytes": 30242722,
+      "sha256": "df17ce94dee311cdad9801f858cfb582ee8b6700f110141eaddf3c31c9d106bc"
+    }
+  ],
+  "contract_zip": {
+    "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+    "name": "O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+    "bytes": 15360,
+    "sha256": "429ae91114f9b090cb9b9c75edf9d037d1ae8b781e5c256e4ff8640f5da4d419"
+  },
+  "folder_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+  "source_model_reexport_or_delivery": false,
+  "whole_guard": "FAIL_PRESERVED",
+  "isolated_O1_I1_data_authorization": "PM explicitly authorized independently verified full original data for isolated consumer/comparison; no finalcanonicalproductionacceptance"
+}

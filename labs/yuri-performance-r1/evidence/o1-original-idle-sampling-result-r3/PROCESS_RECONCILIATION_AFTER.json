@@ -1,0 +1,13 @@
+{
+  "blender": [
+    {
+      "ProcessId": 129152,
+      "ParentProcessId": 137352,
+      "CreationDate": "2026-10-02T23:17:57.000664+09:00",
+      "ExecutablePath": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe"
+    }
+  ],
+  "gpu_lease_sha256": "4F1F8F9188A55E0BBF2349034076F74367B1323EDFC98FCF308AD7F90EEB968D",
+  "owned_124580_absent": true,
+  "source_sha256": "A30FC513A6DA3782742C337EE4A50AB3523B82467517D91D84EB0CC0EDE2AAFA"
+}

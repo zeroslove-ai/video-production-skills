@@ -1,0 +1,365 @@
+{
+  "status": "UPLOAD_AND_METADATA_READBACK_VERIFIED_OWNER_ONLY; local SHA preserved, remote checksum unavailable from connector metadata",
+  "folder_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+  "records": [
+    {
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-",
+        "title": "O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+        "file_name": "O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-/view?usp=drivesdk",
+        "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-",
+          "title": "O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+          "file_name": "O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+          "mime_type": "application/zip",
+          "url": "https://drive.google.com/file/d/1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-/view?usp=drivesdk",
+          "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        }
+      },
+      "readback": {
+        "id": "1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-",
+        "title": "O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+        "mime_type": null,
+        "size": "15360",
+        "url": "https://drive.google.com/file/d/1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      }
+    },
+    {
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+        "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+        "mime_type": "application/x-zip",
+        "url": "https://drive.google.com/file/d/1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0/view?usp=drivesdk",
+        "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0",
+          "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+          "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+          "mime_type": "application/x-zip",
+          "url": "https://drive.google.com/file/d/1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0/view?usp=drivesdk",
+          "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        }
+      },
+      "readback": {
+        "id": "1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+        "mime_type": null,
+        "size": "67108864",
+        "url": "https://drive.google.com/file/d/1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      }
+    },
+    {
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+        "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+        "mime_type": "application/octet-stream",
+        "url": "https://drive.google.com/file/d/1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK/view?usp=drivesdk",
+        "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK",
+          "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+          "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+          "mime_type": "application/octet-stream",
+          "url": "https://drive.google.com/file/d/1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK/view?usp=drivesdk",
+          "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        }
+      },
+      "readback": {
+        "id": "1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+        "mime_type": null,
+        "size": "67108864",
+        "url": "https://drive.google.com/file/d/1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      }
+    },
+    {
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "155P7dDQlkfibMFvrNlwzYYuo99kQ34N5",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+        "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+        "mime_type": "application/octet-stream",
+        "url": "https://drive.google.com/file/d/155P7dDQlkfibMFvrNlwzYYuo99kQ34N5/view?usp=drivesdk",
+        "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "155P7dDQlkfibMFvrNlwzYYuo99kQ34N5",
+          "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+          "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+          "mime_type": "application/octet-stream",
+          "url": "https://drive.google.com/file/d/155P7dDQlkfibMFvrNlwzYYuo99kQ34N5/view?usp=drivesdk",
+          "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        }
+      },
+      "readback": {
+        "id": "155P7dDQlkfibMFvrNlwzYYuo99kQ34N5",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+        "mime_type": null,
+        "size": "67108864",
+        "url": "https://drive.google.com/file/d/155P7dDQlkfibMFvrNlwzYYuo99kQ34N5/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/155P7dDQlkfibMFvrNlwzYYuo99kQ34N5/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      }
+    },
+    {
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+        "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+        "mime_type": "application/octet-stream",
+        "url": "https://drive.google.com/file/d/1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM/view?usp=drivesdk",
+        "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM",
+          "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+          "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+          "mime_type": "application/octet-stream",
+          "url": "https://drive.google.com/file/d/1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM/view?usp=drivesdk",
+          "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        }
+      },
+      "readback": {
+        "id": "1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+        "mime_type": null,
+        "size": "67108864",
+        "url": "https://drive.google.com/file/d/1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      }
+    },
+    {
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+        "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+        "mime_type": "application/octet-stream",
+        "url": "https://drive.google.com/file/d/1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1/view?usp=drivesdk",
+        "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1",
+          "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+          "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+          "mime_type": "application/octet-stream",
+          "url": "https://drive.google.com/file/d/1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1/view?usp=drivesdk",
+          "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        }
+      },
+      "readback": {
+        "id": "1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+        "mime_type": null,
+        "size": "67108864",
+        "url": "https://drive.google.com/file/d/1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      }
+    },
+    {
+      "upload": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+        "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+        "mime_type": "application/octet-stream",
+        "url": "https://drive.google.com/file/d/1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0/view?usp=drivesdk",
+        "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0",
+          "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+          "file_name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+          "mime_type": "application/octet-stream",
+          "url": "https://drive.google.com/file/d/1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0/view?usp=drivesdk",
+          "parent_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        }
+      },
+      "readback": {
+        "id": "1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0",
+        "title": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+        "mime_type": null,
+        "size": "30242722",
+        "url": "https://drive.google.com/file/d/1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": null,
+            "domain": null,
+            "displayName": null,
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      }
+    }
+  ],
+  "remote_byte_SHA_status": "NOT_RETURNED_BY_CONNECTOR; receiver must download+concatenate and verify each local part/full ZIP SHA",
+  "sharing_changes": 0
+}

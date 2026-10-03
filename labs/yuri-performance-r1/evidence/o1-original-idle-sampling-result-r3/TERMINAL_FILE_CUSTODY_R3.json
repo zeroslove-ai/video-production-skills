@@ -1,0 +1,20 @@
+{
+  "status": "FINAL_CLOSED_LOG_AND_JOB_RECEIPT",
+  "guard_status_separate": "FAIL",
+  "files": {
+    "OWNED_JOB_RESULT_R1.json": {
+      "bytes": 1505704,
+      "sha256": "bc4d58b0d78d2648aec1c3915a0e1fc962f9fd4db0d87d8071737a4c102b07b6"
+    },
+    "IDLE_SAMPLING_RESULT_R3.json": {
+      "bytes": 6828,
+      "sha256": "a96f3eaaf210cc7eb651324dd5c533b8e46d2922422f7813ef4e973faaf75466"
+    },
+    "fixed-capture.log": {
+      "bytes": 1579,
+      "sha256": "1536be10f215ce462c853f50c492db0a5bb45d99ae00b4f48a3245aadbc8a6e7"
+    }
+  },
+  "self_hash": "NOT_INCLUDED",
+  "ordering": "child signaled; Job drained and closed; log context closed; Job receipt closed; then custody written"
+}

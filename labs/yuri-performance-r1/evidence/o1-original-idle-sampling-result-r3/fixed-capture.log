@@ -1,0 +1,22 @@
+00:01.188  blend            | Read blend: "C:\Users\JAEWAN\projects\yuri-motion-previs-lab-r1\labs\yuri-performance-r1\local\model-handoff-r4\Character_Master_NeckSkin_R4.blend"
+{"event": "READONLY_ADDON_ORIGIN_INVENTORY", "phase": "before", "status": "PASS_PINNED_INSTALLED_ORIGINS_ONLY", "preferences": ["bl_pkg", "cycles", "io_anim_bvh", "io_curve_svg", "io_mesh_uv_layout", "io_scene_fbx", "io_scene_gltf2", "pose_library"], "enabled": ["bl_pkg", "cycles", "io_anim_bvh", "io_curve_svg", "io_mesh_uv_layout", "io_scene_fbx", "io_scene_gltf2", "pose_library"]}
+FINGERPRINT geometry/keys/weights/actions
+FINGERPRINT hierarchy/rest/attributes
+FINGERPRINT shaders/drivers/packed-textures
+FINGERPRINT geometry/keys/weights/actions
+FINGERPRINT hierarchy/rest/attributes
+FINGERPRINT shaders/drivers/packed-textures
+ORIGINAL_IDLE_FRAME 1
+ORIGINAL_IDLE_FRAME 25
+ORIGINAL_IDLE_FRAME 49
+ORIGINAL_IDLE_FRAME 73
+ORIGINAL_IDLE_FRAME 97
+ORIGINAL_IDLE_FRAME 121
+ORIGINAL_IDLE_FRAME 145
+FINGERPRINT geometry/keys/weights/actions
+FINGERPRINT hierarchy/rest/attributes
+FINGERPRINT shaders/drivers/packed-textures
+{"event": "READONLY_ADDON_ORIGIN_INVENTORY", "phase": "after", "status": "PASS_PINNED_INSTALLED_ORIGINS_ONLY", "preferences": ["bl_pkg", "cycles", "io_anim_bvh", "io_curve_svg", "io_mesh_uv_layout", "io_scene_fbx", "io_scene_gltf2", "pose_library"], "enabled": ["bl_pkg", "cycles", "io_anim_bvh", "io_curve_svg", "io_mesh_uv_layout", "io_scene_fbx", "io_scene_gltf2", "pose_library"]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

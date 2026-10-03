@@ -1,0 +1,306 @@
+{
+  "player_visible_delta": "\uc0c8 \uc0ac\uc6a9\uc790 \uae30\ub2a5 \uc5c6\uc74c; strict LIVE image guard \uc2e4\ud328\ub85c \uc804\uccb4 \uacf5\uae09 \uc2b9\uc778 HOLD. \uc6d0\ubcf8 Idle145 \ubc0f \uc815\ud655\ud55c OFF \ubcf5\uc6d0 \ub370\uc774\ud130\ub294 \ub3c5\ub9bd \uac80\uc99d \uc644\ub8cc.",
+  "status": "INDEPENDENT_DATA_AND_RAW_OFF_RESTORE_PASS_WHOLE_GUARD_FAIL_HOLD",
+  "guard_status": "FAIL",
+  "frozen_whole_auditor_actual_status": "FAIL at required guard PASS assertion; prior raw/signature comparisons passed; not weakened",
+  "actual_command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_sample_r3.py"
+  ],
+  "pid": 124580,
+  "creation_FILETIME": 134355182849367819,
+  "guard_parent_pid": 126876,
+  "native_process_handle": 412,
+  "native_job_handle": 236,
+  "terminal_owned_exit_field": "NOT_RECORDED due LIVE assertion; cleanup exact owned exit0",
+  "cleanup_owned_exit_code": 0,
+  "cleanup_accounting": {
+    "active": 0,
+    "total": 1,
+    "limit_terminated": 0,
+    "user_100ns": 667500000,
+    "kernel_100ns": 26250000
+  },
+  "cleanup_pids": [],
+  "cleanup_errors": [],
+  "wall_seconds": 64.43130450003082,
+  "strict_LIVE_failure": {
+    "image_error": 5,
+    "owned_handle_before_signaled": false,
+    "owned_handle_after_signaled": false,
+    "exit_FILETIME_not_terminal_substitute": true
+  },
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "inputs_SHA_unchanged": true,
+  "original_GUI_product_GPU_unchanged": true,
+  "frames": 145,
+  "native_curve_counts": [
+    364,
+    16,
+    2,
+    4
+  ],
+  "all_bones": 137,
+  "head_Key_outputs": 72,
+  "hair_drivers": 14,
+  "muted_drivers_per_frame": 13,
+  "geometry_records_verified": 6525,
+  "geometry_bytes_verified": 331863240,
+  "raw_before_after_exact": true,
+  "raw_original_hash_recomputation_exact": true,
+  "all_original_scene_signatures_exact_OFF_restored": true,
+  "driver_NLA_structure_before_ON_after_exact": true,
+  "restored_slot_field_readbacks": [
+    {
+      "owner": "Meshy_Fitted_Rig",
+      "field": "action_slot_handle",
+      "assignment": "ALREADY_EXACT",
+      "exact": true
+    },
+    {
+      "owner": "Meshy_Fitted_Rig",
+      "field": "last_slot_identifier",
+      "assignment": "RESTORED_EXACT_NATIVE_VALUE",
+      "exact": true
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "field": "action_slot_handle",
+      "assignment": "ALREADY_EXACT",
+      "exact": true
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "field": "last_slot_identifier",
+      "assignment": "RESTORED_EXACT_NATIVE_VALUE",
+      "exact": true
+    },
+    {
+      "owner": "Character_Body_Head",
+      "field": "action_slot_handle",
+      "assignment": "ALREADY_EXACT",
+      "exact": true
+    },
+    {
+      "owner": "Character_Body_Head",
+      "field": "last_slot_identifier",
+      "assignment": "RESTORED_EXACT_NATIVE_VALUE",
+      "exact": true
+    },
+    {
+      "owner": "Hair_Rig_R4",
+      "field": "action_slot_handle",
+      "assignment": "ALREADY_EXACT",
+      "exact": true
+    },
+    {
+      "owner": "Hair_Rig_R4",
+      "field": "last_slot_identifier",
+      "assignment": "RESTORED_EXACT_NATIVE_VALUE",
+      "exact": true
+    },
+    {
+      "owner": "Meshy_Fitted_Rig",
+      "field": "action_slot_handle",
+      "assignment": null,
+      "exact": true
+    },
+    {
+      "owner": "Meshy_Fitted_Rig",
+      "field": "last_slot_identifier",
+      "assignment": null,
+      "exact": true
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "field": "action_slot_handle",
+      "assignment": null,
+      "exact": true
+    },
+    {
+      "owner": "FaceControls_TEST_Jaw_Smile.001",
+      "field": "last_slot_identifier",
+      "assignment": null,
+      "exact": true
+    },
+    {
+      "owner": "Character_Body_Head",
+      "field": "action_slot_handle",
+      "assignment": null,
+      "exact": true
+    },
+    {
+      "owner": "Character_Body_Head",
+      "field": "last_slot_identifier",
+      "assignment": null,
+      "exact": true
+    },
+    {
+      "owner": "Hair_Rig_R4",
+      "field": "action_slot_handle",
+      "assignment": null,
+      "exact": true
+    },
+    {
+      "owner": "Hair_Rig_R4",
+      "field": "last_slot_identifier",
+      "assignment": null,
+      "exact": true
+    }
+  ],
+  "R2_cause": "Not retroactively proven without R2 AFTER raw fields; R3 explicit bookkeeping restoration exact and full raw0 differences demonstrated",
+  "loop_orientation_velocity_geometry_silhouette_visual": "NOT_ACCEPTED; no render; full145 actual raw evidence retained",
+  "retry_count": 0,
+  "private_packet": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-sampling-r3\\YURI_ORIGINAL_IDLE_ACTUAL_R3_GUARD_FAIL_DATA_RESTORED.zip",
+    "bytes": 365787042,
+    "sha256": "935f3b6e300d4c5ace9f44215137a9d82d7654ecd5659337de1ba4b66838b30e",
+    "CRC_all_member_SHA_verified": true,
+    "members": {
+      "ADDON_ORIGIN_INVENTORY_AFTER_R2.json": {
+        "bytes": 6265,
+        "sha256": "49dccbd1174324c4cf246fef5f03e8bedb474e24056dd465075f78b72c71c9ba"
+      },
+      "ADDON_ORIGIN_INVENTORY_BEFORE_R2.json": {
+        "bytes": 6266,
+        "sha256": "8ac9fb2c7fd6b96d966b2e9b8826fd1f244a1a1b1f30673bd0ba71b21e5f0ebd"
+      },
+      "ALL_MESH_NATIVE_LOCAL_F32_PRIVATE_R1.bin.gz": {
+        "bytes": 298297886,
+        "sha256": "e7a16485ded3d8f6085ae5e1734ae563328cbd0f43981572132df6ef488cedf2"
+      },
+      "ENDPOINT_SEAM_MEASUREMENTS_PRIVATE_R1.json": {
+        "bytes": 106308,
+        "sha256": "6ca77c525cf4035af252c5cf01a27e0d8ad290a9830d6f9b2beb1f774b5bc9ab"
+      },
+      "fixed-capture.log": {
+        "bytes": 1579,
+        "sha256": "1536be10f215ce462c853f50c492db0a5bb45d99ae00b4f48a3245aadbc8a6e7"
+      },
+      "FORENSIC_RESTORATION_VERDICT_R3.json": {
+        "bytes": 212,
+        "sha256": "ecd8507910cce36495add4a9e4f748b0dd16f56c6ec3fa9afe85fe70b0ff70e5"
+      },
+      "FRAMES_PRIVATE_R1.jsonl.gz": {
+        "bytes": 7007348,
+        "sha256": "ad95792003b1147862a74895f9c907a504308994d2da116ed6a2dd64e0677d1b"
+      },
+      "IDLE_SAMPLING_RESULT_R3.json": {
+        "bytes": 6828,
+        "sha256": "a96f3eaaf210cc7eb651324dd5c533b8e46d2922422f7813ef4e973faaf75466"
+      },
+      "INDEPENDENT_DOMAIN_MEASUREMENTS_PRIVATE_R3.json": {
+        "bytes": 5807,
+        "sha256": "d1ccf46b488d7dca18ca5b9412733e071a22926321eda749edda067ff0c3bed4"
+      },
+      "MESH_TOPOLOGY_PRIVATE_R1.json": {
+        "bytes": 15627126,
+        "sha256": "0f00d70b372e45c20d08e937c7a2a7010f1fb68610c4878f9dd988e545f6a2a0"
+      },
+      "ON_SOURCE_SIGNATURE_R1.json": {
+        "bytes": 35774,
+        "sha256": "835e625eb9e1d1c2a6672209cee7bbf2cff0cbb521bbc089e79110cf590850b7"
+      },
+      "ORIGINAL_BINDING_KEY_INPUTS_PRIVATE_R1.json": {
+        "bytes": 1507740,
+        "sha256": "e3cdd8a5ddd8e64fbf576c12038f06b0ad11066ac32d617ba0fefc7c69f5cd43"
+      },
+      "ORIGINAL_CURVES_AND_MODIFIERS_PRIVATE_R1.json": {
+        "bytes": 7610028,
+        "sha256": "6a12b25eb5390225f770910271fa10877979a6975769b1f1c403b3df87a02e81"
+      },
+      "ORIGINAL_DRIVER_GRAPH_PRIVATE_R1.json": {
+        "bytes": 870307,
+        "sha256": "4f5ae59acc87f3ff798c6b682b177e659cd5fb8a2d6c5d87efe855986f052036"
+      },
+      "ORIGINAL_PROPERTY_AND_REST_METADATA_PRIVATE_R1.json": {
+        "bytes": 113647,
+        "sha256": "9025f1dc6117ac5b53bafd38bf01da1c11934155f022d74d7e11a9e6a4bb824e"
+      },
+      "OWNED_JOB_RESULT_R1.json": {
+        "bytes": 1505704,
+        "sha256": "bc4d58b0d78d2648aec1c3915a0e1fc962f9fd4db0d87d8071737a4c102b07b6"
+      },
+      "PM_APPROVAL_ORIGINAL_IDLE_SAMPLE_R3.json": {
+        "bytes": 1578,
+        "sha256": "056fba77e3d374adcfab06ca74d4bfb5aa15b20921b4b3c7f2bb09302150dae4"
+      },
+      "PRIMARY_SAMPLING_ERROR_R3.json": {
+        "bytes": 48,
+        "sha256": "de5a44fcb6ad6469034e235ebc2f1787d304dbbafed57575a4b78020115324a0"
+      },
+      "PROCESS_RECONCILIATION_AFTER.json": {
+        "bytes": 464,
+        "sha256": "14e6083968046816935f5cfec0b70d811b07f39b63c64b9ca1450a38e145957d"
+      },
+      "PROCESS_RESOURCE_RECONCILIATION_BEFORE.json": {
+        "bytes": 1056,
+        "sha256": "de870033a414748fad699fe8fefa72446956f6cc5aeb21c69b6e0c6558a6ad60"
+      },
+      "RAW_FIELD_DIFF_PATHS_R3.json": {
+        "bytes": 104,
+        "sha256": "70021c766a82c22cc752482b2edd03a7c0fb8ef55895066c30d7b4d5196e9abb"
+      },
+      "RAW_FIELD_DIFF_PRIVATE_R3.json.gz": {
+        "bytes": 53,
+        "sha256": "91227aaff2e5c7f284bbc8347a300622e0cbce1b908bd07d722d01c7ed5646c1"
+      },
+      "RAW_FINGERPRINT_INPUTS_AFTER_PRIVATE_R3.json.gz": {
+        "bytes": 9961909,
+        "sha256": "e608f1b6c3efbfae372fe1b3f6eb5c0034e93fd17b251ca8bb052bfb768a42af"
+      },
+      "RAW_FINGERPRINT_INPUTS_BEFORE_PRIVATE_R3.json.gz": {
+        "bytes": 9961910,
+        "sha256": "c501d48954476c3e72ea5b693afb2f3831892d21754f0162a83a9b8c8ab41ec5"
+      },
+      "RAW_FINGERPRINT_INPUTS_ON_PRIVATE_R3.json.gz": {
+        "bytes": 9962210,
+        "sha256": "383ad8a6aac12152ff08ef0b4c82eae2bb1600ff5d479d8eebd70050048b3433"
+      },
+      "RAW_RECOMPUTED_HASHES_AFTER_R3.json": {
+        "bytes": 14321,
+        "sha256": "3a094cfcf3fc22fd072be7b7c27b2c9cfe817e3bf659526782dc9597a1af17f1"
+      },
+      "RAW_RECOMPUTED_HASHES_BEFORE_R3.json": {
+        "bytes": 14321,
+        "sha256": "3a094cfcf3fc22fd072be7b7c27b2c9cfe817e3bf659526782dc9597a1af17f1"
+      },
+      "RAW_RECOMPUTED_HASHES_ON_R3.json": {
+        "bytes": 14321,
+        "sha256": "af584f6362ef25a7b5182fe21bb4086668739a587e12f479e841bf48d05f8f52"
+      },
+      "RESTORATION_LEDGER_PRIVATE_R3.json": {
+        "bytes": 129360,
+        "sha256": "c5393766fb61df2142ef75ea5e031b753c886030b4a59710ca7a959ce914e7b7"
+      },
+      "SCENE_SIGNATURE_BEFORE_AFTER.json": {
+        "bytes": 73142,
+        "sha256": "af7dcf2cdb4cd4965c5083b558b1fec4440b128808f639c7b9024d3360049cdb"
+      },
+      "STRUCTURAL_OFF_ON_OFF_R1.json": {
+        "bytes": 1958552,
+        "sha256": "081f1ff73ae8b3a458b0587d594ca109c5db55e5a7a98b660fe505fb28b1e249"
+      },
+      "STRUCTURAL_RESTORED_R1.json": {
+        "bytes": 979295,
+        "sha256": "5da27e7d1a0e1755b00a64d1554706975f64bd2a8aa76b5b512659d578430eb0"
+      },
+      "TERMINAL_FILE_CUSTODY_R3.json": {
+        "bytes": 705,
+        "sha256": "a7dcc691769c0b653122b629912f984716377ea0d73878bef894bc83c8b6e08e"
+      }
+    }
+  },
+  "explicit_alternative_after_repeated_failure": "Separate file-only verified canonical-source/curve/fingerprint/failed-guard native data custody from whole-execution/product acceptance. Continue PM-reviewed O1-I1 adapter/loop/driver analysis using correctly labelled source evidence; no native retry, no weaker guard or transport PASS. Strict FAIL/HOLD remains; product writer owns actual scene.",
+  "next_one_task": "PM independent private custody/domain review for original BODY/FACE/Blink/GAZE/HAIR mapping and loop/driver analysis under guard-FAIL label, without duplicating export or waiting on unrelated normals/tessellation/PBR research."
+}

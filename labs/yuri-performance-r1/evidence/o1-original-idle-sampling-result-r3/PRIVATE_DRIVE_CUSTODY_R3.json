@@ -1,0 +1,85 @@
+{
+  "user_visible_delta": "\uc0c8 \uc0ac\uc6a9\uc790 \uae30\ub2a5 \uc5c6\uc74c; O1-I1 isolated originalIdle \uad6c\ud604/\ube44\uad50\uc6a9 \uc804\uccb4 supplier \ub370\uc774\ud130 \uc804\ub2ec \uc644\ub8cc",
+  "status": "DRIVE_UPLOAD_READBACK_ID_BYTES_PARENT_OWNER_ONLY_VERIFIED_LOCAL_SHA; REMOTE_SHA_RECEIVER_VERIFICATION_REQUIRED",
+  "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "whole_guard": "FAIL_HOLD_UNCHANGED",
+  "PM_scope": "Explicit isolated Laptop originalIdle contract/consumer/comparison authorization; no frozengeometry/pose injection or finalproductionPASS",
+  "full_zip_bytes": 365787042,
+  "full_zip_sha256": "935f3b6e300d4c5ace9f44215137a9d82d7654ecd5659337de1ba4b66838b30e",
+  "folder_id": "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya",
+  "files": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+      "name": "O1_I1_ORIGINAL_IDLE_R3_CONTRACT_935f3b6e300d.zip",
+      "bytes": 15360,
+      "sha256": "429ae91114f9b090cb9b9c75edf9d037d1ae8b781e5c256e4ff8640f5da4d419",
+      "Drive_id": "1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-",
+      "Drive_url": "https://drive.google.com/file/d/1aafZRHjHMkDFx3ibPkdnDxxwChCA3pJ-/view?usp=drivesdk",
+      "readback_bytes": 15360,
+      "readback_owner_only": true
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part01-of-06",
+      "bytes": 67108864,
+      "sha256": "861168cc31f913cd2abe32efa8dc6b5b5c422b10dcc86e639f15e30b99414510",
+      "Drive_id": "1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0",
+      "Drive_url": "https://drive.google.com/file/d/1sj1HnzMMP2pF4ovaJrw6a3yd_epZcHS0/view?usp=drivesdk",
+      "readback_bytes": 67108864,
+      "readback_owner_only": true
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part02-of-06",
+      "bytes": 67108864,
+      "sha256": "9b52f3b5bf14007aadb97062269ac59ef445ef58bb5e114dd9a0d3d5e99e7738",
+      "Drive_id": "1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK",
+      "Drive_url": "https://drive.google.com/file/d/1wjaJJsjKwAmJuUReNk2YPPTe_FdpFIoK/view?usp=drivesdk",
+      "readback_bytes": 67108864,
+      "readback_owner_only": true
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part03-of-06",
+      "bytes": 67108864,
+      "sha256": "86c22b8169f572867d940e88f224def7f443ca06861005a65db553185fea0a39",
+      "Drive_id": "155P7dDQlkfibMFvrNlwzYYuo99kQ34N5",
+      "Drive_url": "https://drive.google.com/file/d/155P7dDQlkfibMFvrNlwzYYuo99kQ34N5/view?usp=drivesdk",
+      "readback_bytes": 67108864,
+      "readback_owner_only": true
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part04-of-06",
+      "bytes": 67108864,
+      "sha256": "2db1c389cd01651915567cd07b76963550e9d976ca28ddce691cfd5fc7a236b9",
+      "Drive_id": "1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM",
+      "Drive_url": "https://drive.google.com/file/d/1dZyHAoYrMSTJs0jh02jb3eud_bw7ftRM/view?usp=drivesdk",
+      "readback_bytes": 67108864,
+      "readback_owner_only": true
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part05-of-06",
+      "bytes": 67108864,
+      "sha256": "875cd71c4937d114e3e64af613f8152924e813261029141f063f4c0238166fb2",
+      "Drive_id": "1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1",
+      "Drive_url": "https://drive.google.com/file/d/1ONObFAJAgcnAT7_zBBjjS_yhRw86tPw1/view?usp=drivesdk",
+      "readback_bytes": 67108864,
+      "readback_owner_only": true
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_IDLE_R3_935f3b6e300d\\YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+      "name": "YURI_ORIGINAL_IDLE_R3_935f3b6e300d.zip.part06-of-06",
+      "bytes": 30242722,
+      "sha256": "df17ce94dee311cdad9801f858cfb582ee8b6700f110141eaddf3c31c9d106bc",
+      "Drive_id": "1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0",
+      "Drive_url": "https://drive.google.com/file/d/1O4zB7lZATl2OIrTN_NN8qpNBEbf7Vrj0/view?usp=drivesdk",
+      "readback_bytes": 30242722,
+      "readback_owner_only": true
+    }
+  ],
+  "recipient_verification": "Download six ordinal parts, verify each SHA, concatenate exact bytes, require365787042bytes/SHA935f3b6e300d4c5ace9f44215137a9d82d7654ecd5659337de1ba4b66838b30e then ZIPCRC/allmemberSHA. Connector did not return remotechecksums; localchecksums+Drivebytes/IDs observed only.",
+  "sharing_changes": 0,
+  "native_retry_export_save": false
+}
