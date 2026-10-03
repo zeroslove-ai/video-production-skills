@@ -1,0 +1,457 @@
+{
+  "task_id": "ROOT_PM_GUARDED_NATIVE_PREPARATION_REVIEW_AND_RESOURCE_SIZING_R2",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_GUARDED_NATIVE_RESOURCE_20261003_R2_4721744a127d",
+  "manifest_sha256": "4721744a127dba4b92bad0a3fa5f7f2412245641021d617baa6f80ebf070b0a7",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_GUARDED_NATIVE_RESOURCE_20261003_R2_4721744a127d\\YURI_O1_R4_GUARDED_NATIVE_RESOURCE_20261003_R2.part01-of-01.zip",
+      "sha256": "65c751a73818ab9909afbecb5421dfbc04522591746e2b2a0b876c359b4becc8",
+      "bytes": 16620668,
+      "files": [
+        "ACQUISITION_PLAN.json",
+        "BUILD_CAPTURE_STAGED_PLAN.json",
+        "dependencies/NATIVE_ARITHMETIC_INTERMEDIATE_REQUEST_R1_3b8383a6.md",
+        "DRY_SYNTAX_IMPORT_RECEIPT.json",
+        "EXISTING_STAGING_TOOLS.json",
+        "expected-Strong6-v3/corner_tris.i32",
+        "expected-Strong6-v3/corner_vertices.i32",
+        "expected-Strong6-v3/EXPECTED_INPUTS.json",
+        "expected-Strong6-v3/material_slots.i32",
+        "expected-Strong6-v3/object_world.f32",
+        "expected-Strong6-v3/packed_normal.u32",
+        "expected-Strong6-v3/position.f32",
+        "expected-Strong6-v3/smooth.u8",
+        "expected-Strong6-v3/triangle_polygons.i32",
+        "expected-Strong6-v3/triangles.i32",
+        "expected-Strong6-v3/uv.f32",
+        "GUARD_TEST_COVERAGE.json",
+        "NATIVE_ARITHMETIC_ROUTE_DECISION.md",
+        "NATIVE_V4_REVIEW_RECEIPT.json",
+        "proposal-v4/__pycache__/owned_windows_capture_supervisor.cpython-313.pyc",
+        "proposal-v4/__pycache__/staged_native_acquisition.cpython-313.pyc",
+        "proposal-v4/__pycache__/validate_owned_native_capture.cpython-313.pyc",
+        "proposal-v4/host_guard_probe.cpp",
+        "proposal-v4/host_readback.cpp",
+        "proposal-v4/host_readback.h",
+        "proposal-v4/host_readback_guard.h",
+        "proposal-v4/host_readback_python.inc",
+        "proposal-v4/owned_capture_invocation_proposal.py",
+        "proposal-v4/owned_windows_capture_supervisor.py",
+        "proposal-v4/run_owned_guard_probe.py",
+        "proposal-v4/staged_native_acquisition.py",
+        "proposal-v4/validate_owned_native_capture.py",
+        "PROPOSED_GUARDED_NATIVE_V4.diff",
+        "ROOT_PM_GUARDED_NATIVE_RESOURCE_SIZING_R2.md",
+        "SMOOTH_EXPECTATION_PROVENANCE.json",
+        "SOURCE_APPLY_CHECK.json",
+        "upstream/build_files/cmake/platform/platform_win32.cmake",
+        "upstream/CMakeLists.txt",
+        "upstream/COPYING",
+        "upstream/intern/cycles/blender/CMakeLists.txt",
+        "upstream/intern/cycles/blender/mesh.cpp",
+        "upstream/intern/cycles/blender/object.cpp",
+        "upstream/intern/cycles/blender/python.cpp",
+        "upstream/intern/cycles/blender/session.cpp",
+        "upstream/intern/cycles/blender/sync.h",
+        "upstream/intern/cycles/bvh/bvh.cpp",
+        "upstream/intern/cycles/device/cpu/device_impl.cpp",
+        "upstream/intern/cycles/device/cpu/device_impl.h",
+        "upstream/intern/cycles/device/device.cpp",
+        "upstream/intern/cycles/device/device.h",
+        "upstream/intern/cycles/scene/mesh.h",
+        "upstream/intern/cycles/scene/scene.cpp",
+        "upstream/intern/cycles/session/session.cpp",
+        "upstream/intern/cycles/util/task.h",
+        "upstream/source/blender/blenkernel/BKE_context.hh",
+        "upstream/source/blender/python/intern/bpy_rna.hh",
+        "upstream/source/blender/render/intern/engine.cc",
+        "upstream/source/blender/render/RE_engine.h",
+        "WINDOWS_DEPS_EXACT_PAYLOAD_MANIFEST.json",
+        "metadata/DRY_SYNTAX_IMPORT_RECEIPT.json",
+        "metadata/EXISTING_STAGING_TOOLS.json",
+        "metadata/GUARDED_NATIVE_RESOURCE_MANIFEST.json",
+        "metadata/GUARD_TEST_COVERAGE.json",
+        "metadata/NATIVE_V4_REVIEW_RECEIPT.json",
+        "metadata/ROOT_PM_GUARDED_NATIVE_RESOURCE_SIZING_R2.md",
+        "metadata/SMOOTH_EXPECTATION_PROVENANCE.json",
+        "metadata/SOURCE_APPLY_CHECK.json",
+        "scripts/r4_native_resource_stage2_finalize.py",
+        "scripts/r4_source_reference_packet_freeze.py",
+        "scripts/r4_guarded_native_proposal_v2.py",
+        "scripts/r4_guarded_native_proposal_v3.py",
+        "scripts/r4_native_resource_text_receipts.py",
+        "scripts/r4_native_strong6_expected_inputs.py",
+        "scripts/r4_freeze_native_drafts.py",
+        "scripts/r4_appearance_signature.py",
+        "scripts/r4_appearance_adapter.py",
+        "scripts/native_preservation.py",
+        "scripts/native_readback_proposal/host_guard_probe.cpp",
+        "scripts/native_readback_proposal/host_readback.cpp",
+        "scripts/native_readback_proposal/host_readback.h",
+        "scripts/native_readback_proposal/host_readback_guard.h",
+        "scripts/native_readback_proposal/host_readback_python.inc",
+        "scripts/native_readback_proposal/owned_capture_invocation_proposal.py",
+        "scripts/native_readback_proposal/owned_windows_capture_supervisor.py",
+        "scripts/native_readback_proposal/run_owned_guard_probe.py",
+        "scripts/native_readback_proposal/staged_native_acquisition.py",
+        "scripts/native_readback_proposal/validate_owned_native_capture.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "ACQUISITION_PLAN.json": {
+      "sha256": "6813f5a72a7ff26ccdedaefe1e0d46766601483b072a82919028957456f0a87e",
+      "bytes": 3099
+    },
+    "BUILD_CAPTURE_STAGED_PLAN.json": {
+      "sha256": "2e4c0d83c09a0ea485bb3349ffa16af698b46c3c79571842481bcbc941f949fe",
+      "bytes": 2499
+    },
+    "dependencies/NATIVE_ARITHMETIC_INTERMEDIATE_REQUEST_R1_3b8383a6.md": {
+      "sha256": "3dd4bf71a71c4d39a5f2563f49f01e36f7bb420471bcd69ede33c4dacca54992",
+      "bytes": 8298
+    },
+    "DRY_SYNTAX_IMPORT_RECEIPT.json": {
+      "sha256": "1273355157f45e6e4edcd50c66c1a5e07f50d78b827f5ec16b08f44fb741707a",
+      "bytes": 1384
+    },
+    "EXISTING_STAGING_TOOLS.json": {
+      "sha256": "305614af6dd9c0a0fd5d54440f900a3b0e4c619abfad0cf1fa23e8ff5cbf534a",
+      "bytes": 308
+    },
+    "expected-Strong6-v3/corner_tris.i32": {
+      "sha256": "93b99ec00e176ed80b2af3512186cc122c2c36f27a9a5dcfceaf4faa1758cf39",
+      "bytes": 1524480
+    },
+    "expected-Strong6-v3/corner_vertices.i32": {
+      "sha256": "a0a5c1586ac5df9fcf273b51e0907a8e1af7ca857e34cc9e738fd7934bf9efb5",
+      "bytes": 1018408
+    },
+    "expected-Strong6-v3/EXPECTED_INPUTS.json": {
+      "sha256": "c388e1238da4b009eab7dbcea5ea7a71d0b99a1581ca505c7364e6919e35de57",
+      "bytes": 3665
+    },
+    "expected-Strong6-v3/material_slots.i32": {
+      "sha256": "06a5367937f7077dc953bca4cf765a943a0f11ece5c39397dc9ede627328e689",
+      "bytes": 508160
+    },
+    "expected-Strong6-v3/object_world.f32": {
+      "sha256": "dab46cda90ba8d63deb55c7649b3a6b118bbfa4e3b6263e3222661b908026574",
+      "bytes": 64
+    },
+    "expected-Strong6-v3/packed_normal.u32": {
+      "sha256": "4bd1ade4429cc13c0746a10eca606c5c3315db0a6d0bcc7626ab2309fcc63285",
+      "bytes": 1524480
+    },
+    "expected-Strong6-v3/position.f32": {
+      "sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec",
+      "bytes": 762732
+    },
+    "expected-Strong6-v3/smooth.u8": {
+      "sha256": "d6e88d18380bbd2616cbe954a0f737fa2ba2488e9547d5a0c59cf70771e93461",
+      "bytes": 127040
+    },
+    "expected-Strong6-v3/triangle_polygons.i32": {
+      "sha256": "4e84e9b891dc4a2124fe43ba7d2eedd888a0f1a0ceb34ab3da8313148edc510e",
+      "bytes": 508160
+    },
+    "expected-Strong6-v3/triangles.i32": {
+      "sha256": "c2e754862c38b0f4fa019e6da0ec6f8b914185550c1bc16f3e1afc7e23ef2622",
+      "bytes": 1524480
+    },
+    "expected-Strong6-v3/uv.f32": {
+      "sha256": "4571f245f882fcb34336b13503d09aefe67ec2e99c034c83d80e300cb63107b9",
+      "bytes": 3048960
+    },
+    "GUARD_TEST_COVERAGE.json": {
+      "sha256": "e47e718e6b5b7a4abc4cf74e2e19297bc6ecd84d01fa80a170016ac75b0f71d8",
+      "bytes": 1014
+    },
+    "NATIVE_ARITHMETIC_ROUTE_DECISION.md": {
+      "sha256": "2be9402d8939adee2dd47aaac90640e26b73f47714c6a2a290297416c74a5661",
+      "bytes": 1787
+    },
+    "NATIVE_V4_REVIEW_RECEIPT.json": {
+      "sha256": "65f45f6d0600c2de1168c6657c5fb08b206159afe1172e3f38d45d908d5e0cf3",
+      "bytes": 9604
+    },
+    "proposal-v4/__pycache__/owned_windows_capture_supervisor.cpython-313.pyc": {
+      "sha256": "d84864b4dfcbb8374716ac6d996a0f60a8e4c2c9abf3570455a3453ac37b1235",
+      "bytes": 17140
+    },
+    "proposal-v4/__pycache__/staged_native_acquisition.cpython-313.pyc": {
+      "sha256": "fec96bf771dc24e33ffbdb2c8caa148b18abf1caea3c4ad20df234f2c7de32e3",
+      "bytes": 23968
+    },
+    "proposal-v4/__pycache__/validate_owned_native_capture.cpython-313.pyc": {
+      "sha256": "dde16ed6410d01795d38ea5e6cd8d0ab64a9786c631973a8af79ee8adb875254",
+      "bytes": 5239
+    },
+    "proposal-v4/host_guard_probe.cpp": {
+      "sha256": "ef72b949ea532284c4cfa346ed8f4804fd8d408f302f0f3a31195dddb3fde407",
+      "bytes": 2070
+    },
+    "proposal-v4/host_readback.cpp": {
+      "sha256": "3b78fd764a6b1f9b44b3b5c96e99ae68b719f2916de501a417fe6fca41551b31",
+      "bytes": 14477
+    },
+    "proposal-v4/host_readback.h": {
+      "sha256": "c38ef3c4bc7a5623a2b8b702df927ad36b4725b946b684e6ede34f8ac3cd7249",
+      "bytes": 1623
+    },
+    "proposal-v4/host_readback_guard.h": {
+      "sha256": "b20e86af27eb2cd9ba60207f56d7f7fa0c0ee6117692db23c2f500323a8f20e1",
+      "bytes": 1701
+    },
+    "proposal-v4/host_readback_python.inc": {
+      "sha256": "b4066b6b97de0e1f817203b661836acd8cf398ab3b63fdd5b3d3430c7dbb48de",
+      "bytes": 3541
+    },
+    "proposal-v4/owned_capture_invocation_proposal.py": {
+      "sha256": "648be7d8b8f939a7fa7f47f2ae19ba403efa2e391eda9c69a6136f7b436d33e2",
+      "bytes": 4065
+    },
+    "proposal-v4/owned_windows_capture_supervisor.py": {
+      "sha256": "84ab30e4b9277932f054d930a5e81b60db439d6babc6ad20f711b999499ef4bc",
+      "bytes": 9659
+    },
+    "proposal-v4/run_owned_guard_probe.py": {
+      "sha256": "19c4e9dd49c6bbf2ca30abe914e452daec721b95243cd5e6a2f3fad0a60589c2",
+      "bytes": 342
+    },
+    "proposal-v4/staged_native_acquisition.py": {
+      "sha256": "b4043293884396a118e4d3fc1f74f1315f7f5a30abe0965650f917a1403f91d8",
+      "bytes": 13235
+    },
+    "proposal-v4/validate_owned_native_capture.py": {
+      "sha256": "06f3ad61642fe477e277a97d0d1c715fee8793c2cce6df7e51e2b5326a3f4dc1",
+      "bytes": 2643
+    },
+    "PROPOSED_GUARDED_NATIVE_V4.diff": {
+      "sha256": "21844040d40916845ef5d763b6f6f82f3d9fc425998fedf59767e4cf38778e4f",
+      "bytes": 37665
+    },
+    "ROOT_PM_GUARDED_NATIVE_RESOURCE_SIZING_R2.md": {
+      "sha256": "8ac8f055237728196bea93c056a64a0feb83cff5a05d05c190bfb12836746e5c",
+      "bytes": 3227
+    },
+    "SMOOTH_EXPECTATION_PROVENANCE.json": {
+      "sha256": "f8f57b85582078b32c367835ea5e9270478219547575050931d8a622ce1f29c1",
+      "bytes": 1225
+    },
+    "SOURCE_APPLY_CHECK.json": {
+      "sha256": "43a89b1a4f0eb4a12e851527ec7c0edae5ffd05e23e2467f50e625ef1d8208a3",
+      "bytes": 2134
+    },
+    "upstream/build_files/cmake/platform/platform_win32.cmake": {
+      "sha256": "d5a1c2ee522c1f1ec4de889c0c4706544c571de12a5b61974ba603cea6070a33",
+      "bytes": 45052
+    },
+    "upstream/CMakeLists.txt": {
+      "sha256": "3bb656a5a66917e269ac3b25b8292f98b9e4a7aa10ce7918155a12ec9ba0fb16",
+      "bytes": 93556
+    },
+    "upstream/COPYING": {
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302
+    },
+    "upstream/intern/cycles/blender/CMakeLists.txt": {
+      "sha256": "fac65f33041c1d8f08a8370b597696e864c268cf9080c3f12980a26ea0e6cbe9",
+      "bytes": 2080
+    },
+    "upstream/intern/cycles/blender/mesh.cpp": {
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054
+    },
+    "upstream/intern/cycles/blender/object.cpp": {
+      "sha256": "28cc0debb606f7fd56fe1362f8bd8e5c3b8f50a50809b1933856253fb7715da9",
+      "bytes": 23609
+    },
+    "upstream/intern/cycles/blender/python.cpp": {
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0",
+      "bytes": 27720
+    },
+    "upstream/intern/cycles/blender/session.cpp": {
+      "sha256": "b0e56332e47577537a976efecd14041db6b20aae197a9a0a5cafe3ddb79a1136",
+      "bytes": 36489
+    },
+    "upstream/intern/cycles/blender/sync.h": {
+      "sha256": "9ac87ba71ae9e6a5781646f3c88250e69adc591e3010d6301b1bdcf409385f23",
+      "bytes": 11402
+    },
+    "upstream/intern/cycles/bvh/bvh.cpp": {
+      "sha256": "2d9f3626150e9b3ad3ef96e7158b48dcc5228b786089a53b16c66b3dfcd46582",
+      "bytes": 4131
+    },
+    "upstream/intern/cycles/device/cpu/device_impl.cpp": {
+      "sha256": "9be1d060fbbaccfb702e5f2b9127345dd61dd7480c3bdb88edee904c8ca3faf3",
+      "bytes": 9913
+    },
+    "upstream/intern/cycles/device/cpu/device_impl.h": {
+      "sha256": "01c991544bb9f89f24321945645df1585151f3f272df29e12af8ebbc1f7334d4",
+      "bytes": 3045
+    },
+    "upstream/intern/cycles/device/device.cpp": {
+      "sha256": "7cba70b17c841bd0872774a88225d00f2993212dcc64b1e0dfa72cf640dbe614",
+      "bytes": 25303
+    },
+    "upstream/intern/cycles/device/device.h": {
+      "sha256": "05c678e658f02759283ee869434ef4e4a19559e93456378b442c0ad50d7a6b6e",
+      "bytes": 15171
+    },
+    "upstream/intern/cycles/scene/mesh.h": {
+      "sha256": "d7891be6a095ee1f94d3bf5930dbf6f364939b34817fae1dd8dd8eb57a81ba8b",
+      "bytes": 5975
+    },
+    "upstream/intern/cycles/scene/scene.cpp": {
+      "sha256": "a2de5da0021ac4ac8e99521fbd443c8eb740e86f26d366978a44d24cb430bc2a",
+      "bytes": 35350
+    },
+    "upstream/intern/cycles/session/session.cpp": {
+      "sha256": "efed5ff97bb0028a1e6cc997e5e84ee7d39807894e66b5cad97ce9345a0bed9c",
+      "bytes": 22906
+    },
+    "upstream/intern/cycles/util/task.h": {
+      "sha256": "916a1882592ae43536247c23a7e2551d7c7ed03fe28a7eec3e2f65bbc02679ab",
+      "bytes": 3093
+    },
+    "upstream/source/blender/blenkernel/BKE_context.hh": {
+      "sha256": "34d2ed81a4375949031404326c2b6172a3cd37c2c628224809a1820826676dde",
+      "bytes": 18490
+    },
+    "upstream/source/blender/python/intern/bpy_rna.hh": {
+      "sha256": "2d4bfc399c350f2032233d7a745975bcb957aa6e5f236c4ed3d2fd7785363de6",
+      "bytes": 10142
+    },
+    "upstream/source/blender/render/intern/engine.cc": {
+      "sha256": "9ce3aa72b66c5682ea53bd5156f0c6bff314658931225400f7e9b141f916835a",
+      "bytes": 43049
+    },
+    "upstream/source/blender/render/RE_engine.h": {
+      "sha256": "c9b5342ffec95e388a4db3dcea7ab57f2ff7db7a6908c7389351653656b9f21b",
+      "bytes": 10380
+    },
+    "WINDOWS_DEPS_EXACT_PAYLOAD_MANIFEST.json": {
+      "sha256": "980b0ea7c25d6bc8d29805bd9b487e5aabda0317204028cb4db31a7de65dcbc5",
+      "bytes": 4837454
+    },
+    "metadata/DRY_SYNTAX_IMPORT_RECEIPT.json": {
+      "sha256": "1273355157f45e6e4edcd50c66c1a5e07f50d78b827f5ec16b08f44fb741707a",
+      "bytes": 1384
+    },
+    "metadata/EXISTING_STAGING_TOOLS.json": {
+      "sha256": "305614af6dd9c0a0fd5d54440f900a3b0e4c619abfad0cf1fa23e8ff5cbf534a",
+      "bytes": 308
+    },
+    "metadata/GUARDED_NATIVE_RESOURCE_MANIFEST.json": {
+      "sha256": "4721744a127dba4b92bad0a3fa5f7f2412245641021d617baa6f80ebf070b0a7",
+      "bytes": 431147
+    },
+    "metadata/GUARD_TEST_COVERAGE.json": {
+      "sha256": "e47e718e6b5b7a4abc4cf74e2e19297bc6ecd84d01fa80a170016ac75b0f71d8",
+      "bytes": 1014
+    },
+    "metadata/NATIVE_V4_REVIEW_RECEIPT.json": {
+      "sha256": "65f45f6d0600c2de1168c6657c5fb08b206159afe1172e3f38d45d908d5e0cf3",
+      "bytes": 9604
+    },
+    "metadata/ROOT_PM_GUARDED_NATIVE_RESOURCE_SIZING_R2.md": {
+      "sha256": "8ac8f055237728196bea93c056a64a0feb83cff5a05d05c190bfb12836746e5c",
+      "bytes": 3227
+    },
+    "metadata/SMOOTH_EXPECTATION_PROVENANCE.json": {
+      "sha256": "f8f57b85582078b32c367835ea5e9270478219547575050931d8a622ce1f29c1",
+      "bytes": 1225
+    },
+    "metadata/SOURCE_APPLY_CHECK.json": {
+      "sha256": "43a89b1a4f0eb4a12e851527ec7c0edae5ffd05e23e2467f50e625ef1d8208a3",
+      "bytes": 2134
+    },
+    "scripts/r4_native_resource_stage2_finalize.py": {
+      "sha256": "2059de58b0497a2751010cf5b257fb81b67501c426543d41a0e1c9ce60f25c96",
+      "bytes": 15068
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "403df927a36d2e3e9ab1064da64dd9538ef96f58cbe981226e27e8665d154c96",
+      "bytes": 9171
+    },
+    "scripts/r4_guarded_native_proposal_v2.py": {
+      "sha256": "36d9b087f7bf24da25ffdf2a76959fd6a03d00a32bc247a2c6db4d7f1bcb42b6",
+      "bytes": 8232
+    },
+    "scripts/r4_guarded_native_proposal_v3.py": {
+      "sha256": "814ef5d95289ec2bf5c25bb8881ae1e6300beb642c07594aaf78cff92bfa78db",
+      "bytes": 3859
+    },
+    "scripts/r4_native_resource_text_receipts.py": {
+      "sha256": "17ba189b9deca0dbffc434e7b9a53cc9d694432a19ffebeff41b9099fd97d66c",
+      "bytes": 2022
+    },
+    "scripts/r4_native_strong6_expected_inputs.py": {
+      "sha256": "065d82cc10739ccaef40a94c9bfb3f4bc0a136eddbd1372bbe119f020571338f",
+      "bytes": 2708
+    },
+    "scripts/r4_freeze_native_drafts.py": {
+      "sha256": "cde1e08030601caa3bc6c59f1b46872111e92753da7ab6803ff943371720332f",
+      "bytes": 2462
+    },
+    "scripts/r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "scripts/r4_appearance_adapter.py": {
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+      "bytes": 2307
+    },
+    "scripts/native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    },
+    "scripts/native_readback_proposal/host_guard_probe.cpp": {
+      "sha256": "ef72b949ea532284c4cfa346ed8f4804fd8d408f302f0f3a31195dddb3fde407",
+      "bytes": 2070
+    },
+    "scripts/native_readback_proposal/host_readback.cpp": {
+      "sha256": "3b78fd764a6b1f9b44b3b5c96e99ae68b719f2916de501a417fe6fca41551b31",
+      "bytes": 14477
+    },
+    "scripts/native_readback_proposal/host_readback.h": {
+      "sha256": "c38ef3c4bc7a5623a2b8b702df927ad36b4725b946b684e6ede34f8ac3cd7249",
+      "bytes": 1623
+    },
+    "scripts/native_readback_proposal/host_readback_guard.h": {
+      "sha256": "b20e86af27eb2cd9ba60207f56d7f7fa0c0ee6117692db23c2f500323a8f20e1",
+      "bytes": 1701
+    },
+    "scripts/native_readback_proposal/host_readback_python.inc": {
+      "sha256": "b4066b6b97de0e1f817203b661836acd8cf398ab3b63fdd5b3d3430c7dbb48de",
+      "bytes": 3541
+    },
+    "scripts/native_readback_proposal/owned_capture_invocation_proposal.py": {
+      "sha256": "648be7d8b8f939a7fa7f47f2ae19ba403efa2e391eda9c69a6136f7b436d33e2",
+      "bytes": 4065
+    },
+    "scripts/native_readback_proposal/owned_windows_capture_supervisor.py": {
+      "sha256": "84ab30e4b9277932f054d930a5e81b60db439d6babc6ad20f711b999499ef4bc",
+      "bytes": 9659
+    },
+    "scripts/native_readback_proposal/run_owned_guard_probe.py": {
+      "sha256": "19c4e9dd49c6bbf2ca30abe914e452daec721b95243cd5e6a2f3fad0a60589c2",
+      "bytes": 342
+    },
+    "scripts/native_readback_proposal/staged_native_acquisition.py": {
+      "sha256": "b4043293884396a118e4d3fc1f74f1315f7f5a30abe0965650f917a1403f91d8",
+      "bytes": 13235
+    },
+    "scripts/native_readback_proposal/validate_owned_native_capture.py": {
+      "sha256": "06f3ad61642fe477e277a97d0d1c715fee8793c2cce6df7e51e2b5326a3f4dc1",
+      "bytes": 2643
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 16620668,
+  "data_bytes": 16050242,
+  "aggregate_file_manifest_sha256": "5ee25009f90f9ffd544e578e8267c71bce3adf50b023bc96ae058f7774081a82",
+  "source_or_frozen_input_writes": 0
+}

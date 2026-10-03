@@ -1,0 +1,39 @@
+{
+  "status": "PLAN_ONLY_UNCONFIGURED_UNCOMPILED_UNRUN",
+  "root": "C:/YuriTransfer/native-cycles-readback-r1",
+  "root_created": false,
+  "compiler": "proposed official LLVM20.1.8 clang-cl; installed exact compiler version unknown",
+  "generator": "Ninja4.4-CMake plan with existing MSVC14.44/SDK10.0.19041 x64 host/link libraries",
+  "source": "v5.2.1 9e2066aef7ef7e20c142ad7bd3303138a4304c93",
+  "libdir": "pinned lib-windows_x64 commit60d6e96b917568278d400a4024c98da0fb777338; full baseline dependency bundle",
+  "CMAKE_BUILD_TYPE": "Release",
+  "YURI_RESEARCH_HOST_READBACK": "ON (custom defaultOFF option)",
+  "CMAKE_C_COMPILER": "owned LLVM20.1.8/bin/clang-cl.exe",
+  "CMAKE_CXX_COMPILER": "same",
+  "CMAKE_C_FLAGS_and_CXX_FLAGS": "/clang:-ffp-contract=off /clang:-march=x86-64-v2; intent matches visible globals, target/perTU optimization equivalence unknown",
+  "proposed_options": {
+    "WITH_CYCLES": "ON",
+    "WITH_CYCLES_DEVICE_CUDA": "OFF",
+    "WITH_CYCLES_DEVICE_OPTIX": "OFF",
+    "WITH_CYCLES_DEVICE_HIP": "OFF",
+    "WITH_CYCLES_DEVICE_ONEAPI": "OFF",
+    "WITH_CYCLES_OSL": "ON",
+    "WITH_CYCLES_EMBREE": "ON",
+    "WITH_CYCLES_NATIVE_ONLY": "OFF",
+    "WITH_CYCLES_PARALLEL_DEVICE_KERNEL_BUILD": "OFF"
+  },
+  "config_acceptance": "Verify every option exists/accepted in configure log, CPU-only backend closure, compiled guard macro for all participating TUs and linker symbol resolution; unused options reject, not silently accepted.",
+  "resources": {
+    "build_parallel_jobs": 2,
+    "build_aggregate_RAM_cap_bytes": 17179869184,
+    "disk_cap_bytes": 85899345920,
+    "minimum_free_RAM_bytes": 12884901888,
+    "minimum_free_C_disk_bytes": 107374182400,
+    "future_capture_processes": 1,
+    "future_capture_TBB_parallelism": 4,
+    "future_capture_RAM_cap_bytes": 8589934592,
+    "future_capture_timeout_seconds": 120
+  },
+  "owned_process_lifecycle": "Future supervisor creates only owned isolated job object/process, logs PID/starttime/exe SHA and child tree, timeout kills only that owned job. Existing GUI129152 never attached/stopped; PRODUCT_EXCLUSIVE GPU lock unchanged. No current process scheduled.",
+  "guard_selftest_before_capture": "Separate isolated test processes must show each20 forbidden entry exits86 before original work and correctly logs attempt; native RNA type rejection, output no-overwrite, failed input/frame cardinality, callback join, scope destruction counters and immutable source checks must pass."
+}

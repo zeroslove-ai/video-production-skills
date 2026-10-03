@@ -1,0 +1,55 @@
+{
+  "status": "OFFICIAL_METADATA_VERIFIED_PAYLOADS_NOT_ACQUIRED",
+  "source_archive": {
+    "url": "https://download.blender.org/source/blender-5.2.1.tar.xz",
+    "published_bytes": 93666248,
+    "published_MD5": "ff0022afc5b8444db46371c6e07b4dd5",
+    "published_SHA256": null,
+    "verification": "official source index and .md5sum; archive not downloaded/extracted; release tag commit matches installed buildhash"
+  },
+  "LLVM_installer": {
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-win64.exe",
+    "published_bytes": 385658654,
+    "published_digest": "sha256:3197846a2b19063687dd56e93e34cd941e3548d907f23a6131571321bdf9fe7b",
+    "verification": "official release API only; installer untransferred/unverified/uninstalled"
+  },
+  "LLVM_detached_signature": {
+    "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-20.1.8/LLVM-20.1.8-win64.exe.sig",
+    "published_bytes": 543,
+    "published_digest": "sha256:71b99180765fd38bd961b69567ce41aedc1ea546e9a856cf337d1976d36fb2c0"
+  },
+  "Windows_deps": {
+    "url": "https://projects.blender.org/blender/lib-windows_x64.git",
+    "commit": "60d6e96b917568278d400a4024c98da0fb777338",
+    "tree": "8f0901fce9c0ed45ad80a60271da98cd09922ad2",
+    "unique_LFS_objects": 1263,
+    "unique_LFS_payload_bytes": 6574796539,
+    "logical_checkout_bytes": 6983719590,
+    "ordinary_git_blob_path_bytes": 303161433,
+    "verification": "20995 tree entries complete;1374 small Git blobs SHA1 rehashed;1263 pointers/1276 paths expose SHA256+exact size. Actual payloads not hashed/transferred.",
+    "includes_clang_cl_compiler": false,
+    "LLVM_library_version": "20.1.8"
+  },
+  "known_acquisition_payload_bytes": 7054121984,
+  "additional_transport_bytes": "Git pack, ordinary compressed objects, protocol, metadata and signature trust setup not predetermined; not a fully exact network-total claim.",
+  "cache_search": {
+    "research_lfs_cache_exists": false,
+    "scope": [
+      "C:\\Users\\JAEWAN\\Downloads",
+      "C:\\Users\\JAEWAN\\dev",
+      "C:\\work",
+      "C:\\workspace",
+      "C:\\YuriTransfer"
+    ],
+    "global_lfs_cache_exists": false,
+    "matching_files": [],
+    "query": "bounded filenames; no whole-machine absence claim"
+  },
+  "licenses": {
+    "Blender": "source/COPYING; whole source GPL; patched Cycles files carry Apache-2.0 notices",
+    "LLVM": "official llvm/LICENSE.TXT Apache-2.0 WITH LLVM exceptions",
+    "deps": "107 notice/license path identities recorded; each dependency retains its own terms, no blanket license claim"
+  },
+  "installed_configuration_obtainable": "NOT_EXACTLY_RECONSTRUCTED: full source commit and some globals available; stripped PDB no type records/exact compiler/perTU flags. Proposed customClang20.1.8+TBB cap4 is explicit divergence.",
+  "approval_boundary": "Human instruction reserves large new downloads for approval. Metadata only done; no archive/LFS payload/toolchain transfer, install, build, capture, GPU or GUI attach authorized by this preparation packet."
+}

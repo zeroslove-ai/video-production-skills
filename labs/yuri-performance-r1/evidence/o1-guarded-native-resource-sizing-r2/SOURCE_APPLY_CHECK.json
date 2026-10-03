@@ -1,0 +1,57 @@
+{
+  "scope": "git apply --check on copied pinned source text only; no patch applied/no compile",
+  "exit_code": 0,
+  "diff_sha256": "21844040d40916845ef5d763b6f6f82f3d9fc425998fedf59767e4cf38778e4f",
+  "base_files": {
+    "intern/cycles/blender/sync.h": {
+      "bytes": 11402,
+      "sha256": "9ac87ba71ae9e6a5781646f3c88250e69adc591e3010d6301b1bdcf409385f23"
+    },
+    "intern/cycles/blender/mesh.cpp": {
+      "bytes": 43054,
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc"
+    },
+    "intern/cycles/blender/object.cpp": {
+      "bytes": 23609,
+      "sha256": "28cc0debb606f7fd56fe1362f8bd8e5c3b8f50a50809b1933856253fb7715da9"
+    },
+    "intern/cycles/scene/scene.cpp": {
+      "bytes": 35350,
+      "sha256": "a2de5da0021ac4ac8e99521fbd443c8eb740e86f26d366978a44d24cb430bc2a"
+    },
+    "intern/cycles/session/session.cpp": {
+      "bytes": 22906,
+      "sha256": "efed5ff97bb0028a1e6cc997e5e84ee7d39807894e66b5cad97ce9345a0bed9c"
+    },
+    "intern/cycles/blender/session.cpp": {
+      "bytes": 36489,
+      "sha256": "b0e56332e47577537a976efecd14041db6b20aae197a9a0a5cafe3ddb79a1136"
+    },
+    "intern/cycles/device/device.cpp": {
+      "bytes": 25303,
+      "sha256": "7cba70b17c841bd0872774a88225d00f2993212dcc64b1e0dfa72cf640dbe614"
+    },
+    "intern/cycles/bvh/bvh.cpp": {
+      "bytes": 4131,
+      "sha256": "2d9f3626150e9b3ad3ef96e7158b48dcc5228b786089a53b16c66b3dfcd46582"
+    },
+    "intern/cycles/device/cpu/device_impl.cpp": {
+      "bytes": 9913,
+      "sha256": "9be1d060fbbaccfb702e5f2b9127345dd61dd7480c3bdb88edee904c8ca3faf3"
+    },
+    "CMakeLists.txt": {
+      "bytes": 93556,
+      "sha256": "3bb656a5a66917e269ac3b25b8292f98b9e4a7aa10ce7918155a12ec9ba0fb16"
+    },
+    "intern/cycles/blender/CMakeLists.txt": {
+      "bytes": 2080,
+      "sha256": "fac65f33041c1d8f08a8370b597696e864c268cf9080c3f12980a26ea0e6cbe9"
+    },
+    "intern/cycles/blender/python.cpp": {
+      "bytes": 27720,
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0"
+    }
+  },
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,5 +1,9 @@
 ## R4 appearance correction — 2026-10-03
 
+### Native readback preparation checkpoint (additive; execution HOLD)
+
+`evidence/o1-guarded-native-resource-sizing-r2/ROOT_PM_GUARDED_NATIVE_RESOURCE_SIZING_R2.md`: pinned source9e2066aef7ef/full commit, Windows deps60d6e96b and1263 LFS identities/size, LLVM20.1.8 installer published SHA, bounded cache/tools/resources inventory. Known acquisition payload7,054,121,984bytes + unknown Git pack/protocol; large acquisition has not run. Immutable V2r1/V2r2/V3 drafts and additive V4 kept separately; V4 source `git apply --check` on copied text PASS, Python syntax/safe imports and dry-default stager/supervisor PASS. Actual configure/compile/link/Windows job/13 guard probes/7 other hook closure/native capture are unrun. Typed RNA/native Mesh/Attribute proposal, exact pre/post input guards, output metadata/routes, owned suspended Windows Job, hash-qualified helpers and resume/quarantine resource stager are reviewable; no launch-readiness or renderer/PBR PASS. Native armature intermediate dependency3b8383a6 read only and a shared owned-build route selected; arithmetic hook/capture not implemented. Source R4/Action library/08caad7/source OFF proof remain unchanged; no GUI129152/GPU/product/Laptop/main changes. Frozen packet custody is in both evidence directories.
+
 [R4_APPEARANCE_PRESERVE_CORRECTION_R1_KO.md](R4_APPEARANCE_PRESERVE_CORRECTION_R1_KO.md): source R4 immutable visual authority. Original 4 rigs/97 objects/19 materials/78 Actions preserved; only 6 existing reactions + 2 QA Actions added. OFF source-camera/full-body pixels identical (0 unequal channels), including ON→OFF restore. Native 24fps sequence11sec + Strong2cycles4sec + Startle1.5sec. Prior 08caad7 and bundle unchanged; GameRig structural/animation experiment ONLY, no appearance promotion. No product/laptop/main edits. Unity AlwaysAnimate runtime/appearance remains owner gate.
 
 ## R4 model handoff checkpoint — 2026-10-02

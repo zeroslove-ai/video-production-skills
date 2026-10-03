@@ -1,0 +1,26 @@
+{
+  "source_inventory_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json",
+  "source_inventory_sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+  "field": "renderer=Meshy_Body_NeutralCovered.attributes[*].name; sharp_face absent",
+  "source_attribute_names": [
+    "R2_Hand_Cuff_RestDistance",
+    "R3_Neck_RestZ",
+    "R4_NonExplicit_TextureMask",
+    "R4_Neck_ToneBlend",
+    "position",
+    ".select_vert",
+    ".edge_verts",
+    ".select_edge",
+    "sharp_edge",
+    "material_index",
+    ".select_poly",
+    ".corner_vert",
+    ".corner_edge",
+    "custom_normal",
+    "UVMap"
+  ],
+  "pinned_policy_source": "intern/cycles/blender/mesh.cpp; absent sharp_faces => smooth true",
+  "expected_smooth_SHA256": "d6e88d18380bbd2616cbe954a0f737fa2ba2488e9547d5a0c59cf70771e93461",
+  "classification": "DERIVED_SOURCE_POLICY_EXPECTATION_NOT_A_CAPTURED_EVALUATED_SMOOTH_BYTE_ARRAY",
+  "actual_evaluated_smooth_authority": "PENDING native routes reads actual sharp_face; exact expected comparison rejects drift; not an actual Cycles buffer claim"
+}

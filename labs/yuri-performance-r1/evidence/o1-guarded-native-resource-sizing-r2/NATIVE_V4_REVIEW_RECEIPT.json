@@ -1,0 +1,178 @@
+{
+  "status": "COMPLETE_TYPED_DRIVER_WRITER_DENIAL_PROPOSAL_UNCOMPILED_UNAPPLIED",
+  "guard_hooks": [
+    {
+      "file": "intern/cycles/scene/scene.cpp",
+      "entry": "void Scene::device_update(",
+      "policy": "hard exit before original body"
+    },
+    {
+      "file": "intern/cycles/scene/scene.cpp",
+      "entry": "bool Scene::load_kernels(",
+      "policy": "hard exit before original body"
+    },
+    {
+      "file": "intern/cycles/session/session.cpp",
+      "entry": "Session::Session(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/session/session.cpp",
+      "entry": "void Session::start(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/session/session.cpp",
+      "entry": "void Session::run_main_render_loop(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/blender/session.cpp",
+      "entry": "void BlenderSession::render(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/blender/session.cpp",
+      "entry": "void BlenderSession::synchronize(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/device.cpp",
+      "entry": "unique_ptr<Device> Device::create(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/bvh/bvh.cpp",
+      "entry": "unique_ptr<BVH> BVH::create(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::mem_alloc(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::mem_copy_to(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::mem_copy_from(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::mem_zero(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "device_ptr CPUDevice::mem_alloc_sub_ptr(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::const_copy_to(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::global_alloc(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::image_alloc(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "void CPUDevice::build_bvh(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "bool CPUDevice::load_kernels(",
+      "policy": "process-wide hard exit86 before original body"
+    },
+    {
+      "file": "intern/cycles/device/cpu/device_impl.cpp",
+      "entry": "vector<ThreadKernelGlobalsCPU> *CPUDevice::acquire_cpu_kernel_thread_globals(",
+      "policy": "process-wide hard exit86 before original body"
+    }
+  ],
+  "original_source": {
+    "intern/cycles/blender/sync.h": {
+      "bytes": 11402,
+      "sha256": "9ac87ba71ae9e6a5781646f3c88250e69adc591e3010d6301b1bdcf409385f23"
+    },
+    "intern/cycles/blender/mesh.cpp": {
+      "bytes": 43054,
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc"
+    },
+    "intern/cycles/blender/object.cpp": {
+      "bytes": 23609,
+      "sha256": "28cc0debb606f7fd56fe1362f8bd8e5c3b8f50a50809b1933856253fb7715da9"
+    },
+    "intern/cycles/scene/scene.cpp": {
+      "bytes": 35350,
+      "sha256": "a2de5da0021ac4ac8e99521fbd443c8eb740e86f26d366978a44d24cb430bc2a"
+    },
+    "intern/cycles/session/session.cpp": {
+      "bytes": 22906,
+      "sha256": "efed5ff97bb0028a1e6cc997e5e84ee7d39807894e66b5cad97ce9345a0bed9c"
+    },
+    "intern/cycles/blender/session.cpp": {
+      "bytes": 36489,
+      "sha256": "b0e56332e47577537a976efecd14041db6b20aae197a9a0a5cafe3ddb79a1136"
+    },
+    "intern/cycles/device/device.cpp": {
+      "bytes": 25303,
+      "sha256": "7cba70b17c841bd0872774a88225d00f2993212dcc64b1e0dfa72cf640dbe614"
+    },
+    "intern/cycles/bvh/bvh.cpp": {
+      "bytes": 4131,
+      "sha256": "2d9f3626150e9b3ad3ef96e7158b48dcc5228b786089a53b16c66b3dfcd46582"
+    },
+    "intern/cycles/device/cpu/device_impl.cpp": {
+      "bytes": 9913,
+      "sha256": "9be1d060fbbaccfb702e5f2b9127345dd61dd7480c3bdb88edee904c8ca3faf3"
+    },
+    "CMakeLists.txt": {
+      "bytes": 93556,
+      "sha256": "3bb656a5a66917e269ac3b25b8292f98b9e4a7aa10ce7918155a12ec9ba0fb16"
+    },
+    "intern/cycles/blender/CMakeLists.txt": {
+      "bytes": 2080,
+      "sha256": "fac65f33041c1d8f08a8370b597696e864c268cf9080c3f12980a26ea0e6cbe9"
+    },
+    "intern/cycles/blender/python.cpp": {
+      "bytes": 27720,
+      "sha256": "15d851880526fbe3933ff5e7410b2349823868e197eea4fac45838c25eab3bd0"
+    }
+  },
+  "diff_sha256": "21844040d40916845ef5d763b6f6f82f3d9fc425998fedf59767e4cf38778e4f",
+  "default_off": true,
+  "actual_native_capture": "HOLD_NOT_RUN",
+  "runtime_PBR": "HOLD",
+  "native_entry": "readback_host_strong6(RenderEngine&,UserDef&,Main&,Scene&,Depsgraph&,expected,out,FILE*,error)",
+  "api_registration": "Guarded _cycles.host_mesh_readback validates typed Context/Preferences/Depsgraph RNA; fresh zero-flag native RenderEngine with no callbacks/depsgraph/GPUcontext; native RE_engine_free after driver returns. No as_pointer/PyLong/ABI addresses/stock Session.",
+  "concurrency": "source corner routes copied under mutex; mesh capture serialized; exact one route/mesh required; existing geom_task_pool.wait_work joins before writer; no worker exception used for cardinality errors",
+  "source_frame_motion_guard": "frame6, same input Scene, no temporal sync, existing evaluated POSITION/packedCN/UV/triangles/routes byte comparison before writing",
+  "type_include_review": "Pinned sync.cpp already directly includes device/device.h and scene/mesh.h; new driver explicitly includes both, plus scene/attribute.h. No ABI offsets guessed.",
+  "scope_limit": "Source diff applicability checked against pinned text only; no compile/link/runtime safety result. Guard self-test and native caller required; not a build/run approval.",
+  "revision": "V4_ADDITIVE_R2_NO_PRIOR_REVIEW_INHERITANCE",
+  "post_tangent_invariance": "Re-acquire POSITION/CN/UV; domain/stride/count/no-motion and copied TypeDesc comparison plus exact original bytes and triangles checked before writing.",
+  "actual_attribute_provenance": "TypeDesc string, std/name/element/stride/count/buffer bytes/motion_steps recorded from actual native objects.",
+  "route_provenance": "original triangle polygon, material slot, smooth IDs, object world transform plus actual registered shader IDs/smooth buffers written.",
+  "cleanup_acceptance": "No marker inside local Scene/Device lifetime; Scope logs post-destruction counters, wrapper frees engine and logs return. Future Python helper verifies all source/action/output hashes, OFF restore and original temporal settings; pending process-exit receipt only. Supervisor exit0/job-tree cleanup still required.",
+  "custom_build_divergence": "Local ccl Scene forced MOTION_NONE; source temporal flags unchanged; hostcenter customsnapshot, not normal shaded installed renderer equivalence.",
+  "must_not_launch_yet": "Configure/compile/link and guards self-tests unrun; owned caller/API must be validated in isolated build before native capture.",
+  "all_vector_sizes_before_reads": "corner_tris381120/corner_vertices254602/triangle_polygons127040/material_slots127040/smooth127040/object_world16/actualtri381120/shader127040/smooth127040; polygon span length/range and material/sharp span sizes guarded",
+  "types": "Native TypePoint/TypeNormal/TypeFloat2/TypeVector/TypeFloat and std/domain/stride/count/no-motion enforced",
+  "probe_coverage": "13 proposed actual native entry calls; remaining7 hooks require compiled source/control-flow/guard coverage review. No fake helper-only test is counted. All probes uncompiled/unrun.",
+  "caller_receipt_alignment": "finally OFF restore even on failure; OFF_restore_exact/source_temporal_settings_unchanged emitted after assertions; standard_name emitted by native provenance writer for external schema",
+  "supervisor": "Concrete Windows suspended creation + owned Job kill-on-close, RAM/CPU/activechildren/wall-time/free-disk guards. Exact allowed exe/helper SHA and review gate; sanitized failure receipt; process exit0/activechildren0/data validator mandatory. UNRUN.",
+  "acquisition": "Executable dry-default stager, per-object published SHA/size checks, Range resume+quarantine, pinned shallow Git checkout and raw blob/LFS validation, owned LLVM7z unpack only, no PATH/registry/compiler install. No payload acquired."
+}

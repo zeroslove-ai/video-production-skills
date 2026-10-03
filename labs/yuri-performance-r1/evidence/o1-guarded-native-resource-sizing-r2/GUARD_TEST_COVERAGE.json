@@ -1,0 +1,28 @@
+{
+  "real_entry_probes": [
+    "factory",
+    "session",
+    "scene-upload",
+    "scene-kernel",
+    "alloc",
+    "upload",
+    "copy-from",
+    "zero",
+    "subptr",
+    "const",
+    "global",
+    "kernel",
+    "kernel-globals"
+  ],
+  "other_hooks": [
+    "Session.start",
+    "Session.run_main_render_loop",
+    "BlenderSession.render",
+    "BlenderSession.synchronize",
+    "BVH.create",
+    "CPUDevice.image_alloc",
+    "CPUDevice.build_bvh"
+  ],
+  "acceptance": "Runtime exit86 + exact expected entry and before_original_body log for13 proposed cases; remaining7 compiled-hook/control-flow closure or expanded valid-context tests must be reviewed before capture. All uncompiled/unrun.",
+  "additional_negative_cases": "wrong RNA type, expired RNA, wrong source frame/scene/input bytes/route counts/type/domain/size, existing output path, source/action hash drift, exception OFF restore, job timeout/RAM/disk abort -> partial rejection; not falsely counted as native-entry probes."
+}

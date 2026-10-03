@@ -1,0 +1,42 @@
+{
+  "scope": "No Blender import, no WinDLL/job execution, no acquisition/build/probe/capture",
+  "files": [
+    {
+      "path": "owned_capture_invocation_proposal.py",
+      "sha256": "648be7d8b8f939a7fa7f47f2ae19ba403efa2e391eda9c69a6136f7b436d33e2",
+      "AST_parse": "PASS"
+    },
+    {
+      "path": "owned_windows_capture_supervisor.py",
+      "sha256": "84ab30e4b9277932f054d930a5e81b60db439d6babc6ad20f711b999499ef4bc",
+      "AST_parse": "PASS"
+    },
+    {
+      "path": "run_owned_guard_probe.py",
+      "sha256": "19c4e9dd49c6bbf2ca30abe914e452daec721b95243cd5e6a2f3fad0a60589c2",
+      "AST_parse": "PASS"
+    },
+    {
+      "path": "staged_native_acquisition.py",
+      "sha256": "b4043293884396a118e4d3fc1f74f1315f7f5a30abe0965650f917a1403f91d8",
+      "AST_parse": "PASS"
+    },
+    {
+      "path": "validate_owned_native_capture.py",
+      "sha256": "06f3ad61642fe477e277a97d0d1c715fee8793c2cce6df7e51e2b5326a3f4dc1",
+      "AST_parse": "PASS"
+    },
+    {
+      "path": "owned_windows_capture_supervisor.py",
+      "import_without_network_process_root_creation": "PASS"
+    },
+    {
+      "path": "staged_native_acquisition.py",
+      "import_without_network_process_root_creation": "PASS"
+    },
+    {
+      "path": "validate_owned_native_capture.py",
+      "import_without_network_process_root_creation": "PASS"
+    }
+  ]
+}
