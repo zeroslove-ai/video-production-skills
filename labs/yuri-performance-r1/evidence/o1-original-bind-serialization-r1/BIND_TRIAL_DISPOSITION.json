@@ -1,0 +1,50 @@
+{
+  "task_id": "YURI_O1_ORIGINAL_BIND_SERIALIZATION_R1",
+  "trial_count": 1,
+  "status": "BIND_TRANSPORT_AND_PAIR_REST_PASS / SOURCE_ROTATION_HOLD",
+  "parent_commit": "ab1409f33e949e053b8abc84ec6aaaef6792d0d4",
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_component_differences": 0,
+  "original_actions_preserved": 78,
+  "new_source_rigs_or_meshes": 0,
+  "raw_model_effective_bind_vs_animation_Pose_exact": true,
+  "original_Cluster_vs_Pose_exact": true,
+  "source_bones": 137,
+  "animation_pose_nodes": 143,
+  "animation_geometry_or_skin": false,
+  "ordered_names_parents_PASS": true,
+  "strict_pair_local_rest_PASS": true,
+  "pair_local_rest_delta_by_rig": {
+    "Meshy_Fitted_Rig": 0.0,
+    "Armature": 0.0,
+    "Hair_Rig_R4": 0.0,
+    "AVATAR_FaceBoard": 2.384185791015625e-07
+  },
+  "source_position_max_error_m": 1.5140681553463275e-06,
+  "source_rotation_max_error_deg": 0.0021210060720103056,
+  "source_position_rotation_combined_PASS": false,
+  "position_threshold_m": 0.0001,
+  "rotation_threshold_deg": 0.001,
+  "rest_threshold": 1e-05,
+  "precise_rotation": "abs(dot(normalized q1,q2)) with Python double; q sign equivalent",
+  "native_unique_frames_checked": 276,
+  "actual_motion_loop_frames_checked": 384,
+  "six_actual_nonroot_motion_PASS": true,
+  "two_loop_cycles_PASS": true,
+  "model": {
+    "file": "YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx",
+    "bytes": 23537068,
+    "sha256": "3b37f3570742617b42215e980a70260490ffe92c7480c33a5de5060dd38c90c1"
+  },
+  "animation": {
+    "file": "YURI_O1_R4_NATIVE_ANIMATION_ONLY_20261003_R1.fbx",
+    "bytes": 7071276,
+    "sha256": "ea3f93f8fe7f59b171a67dd4be5c893bca6cbd238a82d1f68c080e861c30e67c"
+  },
+  "new_performance_video_rendered": false,
+  "Unity_PASS": false,
+  "visual_fidelity": "HOLD / not rerendered",
+  "F2": "NOT_CERTIFIED",
+  "consumer_input_authorized": false,
+  "next": "PM custody/disposition; separately measure consumer importer against exact raw bind/source matrices; no rest rewrite/tolerance relaxation"
+}

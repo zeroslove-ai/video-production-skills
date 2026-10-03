@@ -1,0 +1,25 @@
+{
+  "archive": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_ORIGINAL_BIND_SERIALIZATION_20261003_R1_5a04a57f3b47.zip",
+  "sha256": "5a04a57f3b470248e894fcf2cba0bf479a2f9994a15d2796bdfdb07996c91de6",
+  "bytes": 22607698,
+  "members": 34,
+  "CRC_all_member_hashes_verified": true,
+  "model": {
+    "file": "YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx",
+    "bytes": 23537068,
+    "sha256": "3b37f3570742617b42215e980a70260490ffe92c7480c33a5de5060dd38c90c1"
+  },
+  "animation": {
+    "file": "YURI_O1_R4_NATIVE_ANIMATION_ONLY_20261003_R1.fbx",
+    "bytes": 7071276,
+    "sha256": "ea3f93f8fe7f59b171a67dd4be5c893bca6cbd238a82d1f68c080e861c30e67c"
+  },
+  "trial_count": 1,
+  "source_preservation_PASS": true,
+  "exact_original_bind_transport_PASS": true,
+  "strict_model_animation_rest_PASS": true,
+  "source_position_rotation_combined_PASS": false,
+  "visual_F2_promotion": "HOLD",
+  "Unity_input_authorized": false,
+  "Unity_PASS": false
+}

@@ -1,0 +1,15 @@
+{
+  "source_SHA256_verified": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "old_ZIPs_unchanged": true,
+  "new_ZIP_SHA256_verified": "5a04a57f3b470248e894fcf2cba0bf479a2f9994a15d2796bdfdb07996c91de6",
+  "members": 34,
+  "CRC_all_member_hashes_verified": true,
+  "export_trial_count": 1,
+  "native_unique_frames": 276,
+  "endpoint_inclusive_actual_motion_loop_frames": 384,
+  "exact_bind_and_pair_rest": "PASS",
+  "source_rotation": "FAIL",
+  "Unity_input_authorized": false,
+  "tolerance_changed": false,
+  "code_note": "Read-only actual-wire audit proves Pose matrices equal all model Cluster overrides despite trial callback orientation filter recording0captures; no corrected/repeated export."
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "action": "YRA_R4_Startle_Short",
+    "frames_sampled": 37,
+    "fps": 24,
+    "duration_seconds": 1.5,
+    "loop_cycles": 1,
+    "actual_non_root_motion_m": 0.21374057806348773,
+    "max_body_bone_step_m": 0.06859786546592812,
+    "root_excursion_m": 0.005202641145515299,
+    "loop_seam_position_m": null,
+    "max_source_world_joint_error_m_by_rig": {
+      "Meshy_Fitted_Rig": 1.2014624324620511e-06,
+      "Armature": 7.52227490871184e-07,
+      "Hair_Rig_R4": 2.8603621250010393e-07,
+      "AVATAR_FaceBoard": 1.802055034406159e-07
+    },
+    "max_source_world_rotation_error_deg_by_rig": {
+      "Meshy_Fitted_Rig": 0.0005805485014928815,
+      "Armature": 0.0021210060720103056,
+      "Hair_Rig_R4": 0.00010946963038996536,
+      "AVATAR_FaceBoard": 1.9318692315611754e-05
+    },
+    "actual_motion": "PASS",
+    "source_pose_fidelity": "FAIL",
+    "loops": "PASS",
+    "source_pose_fidelity_criteria": {
+      "position_m": 0.0001,
+      "rotation_deg": 0.001,
+      "rotation_method": "normalized quaternion dot in Python double"
+    }
+  },
+  {
+    "action": "YRA_R4_Lift_Start",
+    "frames_sampled": 31,
+    "fps": 24,
+    "duration_seconds": 1.25,
+    "loop_cycles": 1,
+    "actual_non_root_motion_m": 0.2737180947587073,
+    "max_body_bone_step_m": 0.0508664980530337,
+    "root_excursion_m": 0.0,
+    "loop_seam_position_m": null,
+    "max_source_world_joint_error_m_by_rig": {
+      "Meshy_Fitted_Rig": 1.255328865737161e-06,
+      "Armature": 5.945502701291594e-07,
+      "Hair_Rig_R4": 3.520399332046509e-07,
+      "AVATAR_FaceBoard": 1.802055034406159e-07
+    },
+    "max_source_world_rotation_error_deg_by_rig": {
+      "Meshy_Fitted_Rig": 0.0005603721717759095,
+      "Armature": 0.002114804043054655,
+      "Hair_Rig_R4": 9.834345833404619e-05,
+      "AVATAR_FaceBoard": 1.9318692315611754e-05
+    },
+    "actual_motion": "PASS",
+    "source_pose_fidelity": "FAIL",
+    "loops": "PASS",
+    "source_pose_fidelity_criteria": {
+      "position_m": 0.0001,
+      "rotation_deg": 0.001,
+      "rotation_method": "normalized quaternion dot in Python double"
+    }
+  },
+  {
+    "action": "YRA_R4_Struggle_Light_Loop",
+    "frames_sampled": 121,
+    "fps": 24,
+    "duration_seconds": 2.5,
+    "loop_cycles": 2,
+    "actual_non_root_motion_m": 0.08400386837308287,
+    "max_body_bone_step_m": 0.006932588510512809,
+    "root_excursion_m": 0.0,
+    "loop_seam_position_m": 5.843839511611336e-07,
+    "max_source_world_joint_error_m_by_rig": {
+      "Meshy_Fitted_Rig": 1.3197415963104087e-06,
+      "Armature": 7.30612914093212e-07,
+      "Hair_Rig_R4": 4.074427164694793e-07,
+      "AVATAR_FaceBoard": 1.802055034406159e-07
+    },
+    "max_source_world_rotation_error_deg_by_rig": {
+      "Meshy_Fitted_Rig": 0.0005945109808905748,
+      "Armature": 0.0021158460969002073,
+      "Hair_Rig_R4": 0.00010954950608858278,
+      "AVATAR_FaceBoard": 1.9318692315611754e-05
+    },
+    "actual_motion": "PASS",
+    "source_pose_fidelity": "FAIL",
+    "loops": "PASS",
+    "source_pose_fidelity_criteria": {
+      "position_m": 0.0001,
+      "rotation_deg": 0.001,
+      "rotation_method": "normalized quaternion dot in Python double"
+    }
+  },
+  {
+    "action": "YRA_R4_Struggle_Strong_Loop",
+    "frames_sampled": 97,
+    "fps": 24,
+    "duration_seconds": 2.0,
+    "loop_cycles": 2,
+    "actual_non_root_motion_m": 0.18455740606631008,
+    "max_body_bone_step_m": 0.019790639901214054,
+    "root_excursion_m": 0.0,
+    "loop_seam_position_m": 7.941074725672143e-07,
+    "max_source_world_joint_error_m_by_rig": {
+      "Meshy_Fitted_Rig": 1.351987865235061e-06,
+      "Armature": 7.731750045167107e-07,
+      "Hair_Rig_R4": 3.326425583695758e-07,
+      "AVATAR_FaceBoard": 1.802055034406159e-07
+    },
+    "max_source_world_rotation_error_deg_by_rig": {
+      "Meshy_Fitted_Rig": 0.0005751089245554936,
+      "Armature": 0.0021123871485838573,
+      "Hair_Rig_R4": 0.00012008805112018792,
+      "AVATAR_FaceBoard": 1.9318692315611754e-05
+    },
+    "actual_motion": "PASS",
+    "source_pose_fidelity": "FAIL",
+    "loops": "PASS",
+    "source_pose_fidelity_criteria": {
+      "position_m": 0.0001,
+      "rotation_deg": 0.001,
+      "rotation_method": "normalized quaternion dot in Python double"
+    }
+  },
+  {
+    "action": "YRA_R4_Land_Soft",
+    "frames_sampled": 43,
+    "fps": 24,
+    "duration_seconds": 1.75,
+    "loop_cycles": 1,
+    "actual_non_root_motion_m": 0.11270978882565806,
+    "max_body_bone_step_m": 0.029169839996222018,
+    "root_excursion_m": 0.0329928959901165,
+    "loop_seam_position_m": null,
+    "max_source_world_joint_error_m_by_rig": {
+      "Meshy_Fitted_Rig": 1.5140681553463275e-06,
+      "Armature": 6.539980277010333e-07,
+      "Hair_Rig_R4": 3.624155372834517e-07,
+      "AVATAR_FaceBoard": 1.802055034406159e-07
+    },
+    "max_source_world_rotation_error_deg_by_rig": {
+      "Meshy_Fitted_Rig": 0.0006015706317809062,
+      "Armature": 0.0021180222788907944,
+      "Hair_Rig_R4": 0.0001127757103824301,
+      "AVATAR_FaceBoard": 1.9318692315611754e-05
+    },
+    "actual_motion": "PASS",
+    "source_pose_fidelity": "FAIL",
+    "loops": "PASS",
+    "source_pose_fidelity_criteria": {
+      "position_m": 0.0001,
+      "rotation_deg": 0.001,
+      "rotation_method": "normalized quaternion dot in Python double"
+    }
+  },
+  {
+    "action": "YRA_R4_BalanceRecover",
+    "frames_sampled": 55,
+    "fps": 24,
+    "duration_seconds": 2.25,
+    "loop_cycles": 1,
+    "actual_non_root_motion_m": 0.17085596101679004,
+    "max_body_bone_step_m": 0.03608765712469872,
+    "root_excursion_m": 0.008708156403186913,
+    "loop_seam_position_m": null,
+    "max_source_world_joint_error_m_by_rig": {
+      "Meshy_Fitted_Rig": 1.3332376283229134e-06,
+      "Armature": 6.99695559676213e-07,
+      "Hair_Rig_R4": 2.7790266128716263e-07,
+      "AVATAR_FaceBoard": 1.802055034406159e-07
+    },
+    "max_source_world_rotation_error_deg_by_rig": {
+      "Meshy_Fitted_Rig": 0.000577983949770334,
+      "Armature": 0.002116422038680402,
+      "Hair_Rig_R4": 0.00010410438463174555,
+      "AVATAR_FaceBoard": 1.9318692315611754e-05
+    },
+    "actual_motion": "PASS",
+    "source_pose_fidelity": "FAIL",
+    "loops": "PASS",
+    "source_pose_fidelity_criteria": {
+      "position_m": 0.0001,
+      "rotation_deg": 0.001,
+      "rotation_method": "normalized quaternion dot in Python double"
+    }
+  }
+]

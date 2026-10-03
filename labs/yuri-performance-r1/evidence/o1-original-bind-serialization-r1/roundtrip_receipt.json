@@ -1,0 +1,15 @@
+{
+  "pair_static_contract_PASS": true,
+  "six_actual_clips": 6,
+  "actual_motion_PASS": true,
+  "source_pose_fidelity_PASS": false,
+  "loop_2cycles_PASS": true,
+  "native_source_geometry_visual_PASS": false,
+  "Unity_PASS": false,
+  "status": "COMPATIBILITY PROBE; visual/deformation/driver gates remain HOLD",
+  "source_pose_fidelity_criteria": {
+    "max_world_position_error_m_less_than": 0.0001,
+    "max_world_rotation_error_degrees_less_than": 0.001,
+    "rotation_measurement": "normalized quaternion double dot; absolute sign"
+  }
+}

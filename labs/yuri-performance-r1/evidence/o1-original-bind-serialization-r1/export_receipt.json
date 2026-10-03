@@ -1,0 +1,20 @@
+{
+  "source_OFF_restored": true,
+  "source_component_differences": 0,
+  "source_file_immutable": true,
+  "original_Action_curves_preserved": 78,
+  "new_meshes_or_rigs": 0,
+  "six_existing_clips": true,
+  "model": {
+    "file": "YURI_O1_R4_NATIVE_CARRIER_20261003_R1.fbx",
+    "bytes": 23537068,
+    "sha256": "3b37f3570742617b42215e980a70260490ffe92c7480c33a5de5060dd38c90c1"
+  },
+  "animation": {
+    "file": "YURI_O1_R4_NATIVE_ANIMATION_ONLY_20261003_R1.fbx",
+    "bytes": 7071276,
+    "sha256": "ea3f93f8fe7f59b171a67dd4be5c893bca6cbd238a82d1f68c080e861c30e67c"
+  },
+  "Unity_PASS": false,
+  "visual_gate": "PENDING roundtrip; unsupported native procedures not silently replaced"
+}

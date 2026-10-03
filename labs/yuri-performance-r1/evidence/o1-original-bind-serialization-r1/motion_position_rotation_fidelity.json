@@ -1,0 +1,198 @@
+{
+  "method": "normalized quaternion dot in Python double; q and -q equivalent; Blender matrix/quat storage remains float32; budget fixed before these measurements",
+  "clips": [
+    {
+      "action": "YRA_R4_Startle_Short",
+      "frames": 37,
+      "max_position_error_m": 1.2014624324620511e-06,
+      "max_rotation_error_deg_double_dot": 0.0021210060720103056,
+      "worst_rotation_sample": {
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "frame": 17
+      },
+      "by_rig": {
+        "Meshy_Fitted_Rig": {
+          "position_m": 1.2014624324620511e-06,
+          "rotation_deg": 0.0005805510126624415
+        },
+        "Armature": {
+          "position_m": 7.52227490871184e-07,
+          "rotation_deg": 0.0021210060720103056
+        },
+        "Hair_Rig_R4": {
+          "position_m": 2.8603621250010393e-07,
+          "rotation_deg": 0.00010944299220234868
+        },
+        "AVATAR_FaceBoard": {
+          "position_m": 1.802055034406159e-07,
+          "rotation_deg": 1.9394009140490052e-05
+        }
+      },
+      "position_threshold_m": 0.0001,
+      "rotation_threshold_deg": 0.001,
+      "PASS": false
+    },
+    {
+      "action": "YRA_R4_Lift_Start",
+      "frames": 31,
+      "max_position_error_m": 1.255328865737161e-06,
+      "max_rotation_error_deg_double_dot": 0.002114804043054655,
+      "worst_rotation_sample": {
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "frame": 19
+      },
+      "by_rig": {
+        "Meshy_Fitted_Rig": {
+          "position_m": 1.255328865737161e-06,
+          "rotation_deg": 0.0005603721717759095
+        },
+        "Armature": {
+          "position_m": 5.945502701291594e-07,
+          "rotation_deg": 0.002114804043054655
+        },
+        "Hair_Rig_R4": {
+          "position_m": 3.520399332046509e-07,
+          "rotation_deg": 9.834345833404619e-05
+        },
+        "AVATAR_FaceBoard": {
+          "position_m": 1.802055034406159e-07,
+          "rotation_deg": 1.9394009140490052e-05
+        }
+      },
+      "position_threshold_m": 0.0001,
+      "rotation_threshold_deg": 0.001,
+      "PASS": false
+    },
+    {
+      "action": "YRA_R4_Struggle_Light_Loop",
+      "frames": 61,
+      "max_position_error_m": 1.3197415963104087e-06,
+      "max_rotation_error_deg_double_dot": 0.0021158460969002073,
+      "worst_rotation_sample": {
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "frame": 40
+      },
+      "by_rig": {
+        "Meshy_Fitted_Rig": {
+          "position_m": 1.3197415963104087e-06,
+          "rotation_deg": 0.0005945109808905748
+        },
+        "Armature": {
+          "position_m": 7.30612914093212e-07,
+          "rotation_deg": 0.0021158460969002073
+        },
+        "Hair_Rig_R4": {
+          "position_m": 4.074427164694793e-07,
+          "rotation_deg": 0.00010954950608858278
+        },
+        "AVATAR_FaceBoard": {
+          "position_m": 1.802055034406159e-07,
+          "rotation_deg": 1.9394009140490052e-05
+        }
+      },
+      "position_threshold_m": 0.0001,
+      "rotation_threshold_deg": 0.001,
+      "PASS": false
+    },
+    {
+      "action": "YRA_R4_Struggle_Strong_Loop",
+      "frames": 49,
+      "max_position_error_m": 1.351987865235061e-06,
+      "max_rotation_error_deg_double_dot": 0.002112388528878566,
+      "worst_rotation_sample": {
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "frame": 42
+      },
+      "by_rig": {
+        "Meshy_Fitted_Rig": {
+          "position_m": 1.351987865235061e-06,
+          "rotation_deg": 0.0005751063896233638
+        },
+        "Armature": {
+          "position_m": 7.731750045167107e-07,
+          "rotation_deg": 0.002112388528878566
+        },
+        "Hair_Rig_R4": {
+          "position_m": 3.326425583695758e-07,
+          "rotation_deg": 0.00012008805112018792
+        },
+        "AVATAR_FaceBoard": {
+          "position_m": 1.802055034406159e-07,
+          "rotation_deg": 1.9394009140490052e-05
+        }
+      },
+      "position_threshold_m": 0.0001,
+      "rotation_threshold_deg": 0.001,
+      "PASS": false
+    },
+    {
+      "action": "YRA_R4_Land_Soft",
+      "frames": 43,
+      "max_position_error_m": 1.5140681553463275e-06,
+      "max_rotation_error_deg_double_dot": 0.0021180222788907944,
+      "worst_rotation_sample": {
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "frame": 10
+      },
+      "by_rig": {
+        "Meshy_Fitted_Rig": {
+          "position_m": 1.5140681553463275e-06,
+          "rotation_deg": 0.0006015706317809062
+        },
+        "Armature": {
+          "position_m": 6.539980277010333e-07,
+          "rotation_deg": 0.0021180222788907944
+        },
+        "Hair_Rig_R4": {
+          "position_m": 3.624155372834517e-07,
+          "rotation_deg": 0.00011274985328925925
+        },
+        "AVATAR_FaceBoard": {
+          "position_m": 1.802055034406159e-07,
+          "rotation_deg": 1.9394009140490052e-05
+        }
+      },
+      "position_threshold_m": 0.0001,
+      "rotation_threshold_deg": 0.001,
+      "PASS": false
+    },
+    {
+      "action": "YRA_R4_BalanceRecover",
+      "frames": 55,
+      "max_position_error_m": 1.3332376283229134e-06,
+      "max_rotation_error_deg_double_dot": 0.002116422038680402,
+      "worst_rotation_sample": {
+        "rig": "Armature",
+        "bone": "J_Bip_L_Index3",
+        "frame": 30
+      },
+      "by_rig": {
+        "Meshy_Fitted_Rig": {
+          "position_m": 1.3332376283229134e-06,
+          "rotation_deg": 0.000577983949770334
+        },
+        "Armature": {
+          "position_m": 6.99695559676213e-07,
+          "rotation_deg": 0.002116422038680402
+        },
+        "Hair_Rig_R4": {
+          "position_m": 2.7790266128716263e-07,
+          "rotation_deg": 0.00010410438463174555
+        },
+        "AVATAR_FaceBoard": {
+          "position_m": 1.802055034406159e-07,
+          "rotation_deg": 1.9394009140490052e-05
+        }
+      },
+      "position_threshold_m": 0.0001,
+      "rotation_threshold_deg": 0.001,
+      "PASS": false
+    }
+  ],
+  "PASS": false
+}

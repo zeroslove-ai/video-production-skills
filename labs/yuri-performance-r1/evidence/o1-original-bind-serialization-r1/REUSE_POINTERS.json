@@ -1,0 +1,98 @@
+{
+  "frozen_probe_sha256": "4ec5c10ce90d7d25c06721b7dcd3832be4b7672190c975d42912be876a5a0843",
+  "source_recovery_packet_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+  "prior_files": [
+    {
+      "path": "source/Character_Master_NeckSkin_R4.blend",
+      "bytes": 26553642,
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa"
+    },
+    {
+      "path": "source/YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend",
+      "bytes": 9318285,
+      "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d"
+    },
+    {
+      "path": "reference/native_evaluated_all_frames.json.gz",
+      "bytes": 12545560,
+      "sha256": "03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3"
+    },
+    {
+      "path": "reference/source_original_vertex_weights.json.gz",
+      "bytes": 2577908,
+      "sha256": "4c2cd4f57c80368985ee66fc46c29dab0f992dd28001ca4411fa5b40ca07480e"
+    },
+    {
+      "path": "metadata/source_expanded_rigs.json",
+      "bytes": 560498,
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694"
+    },
+    {
+      "path": "metadata/source_renderers_bind.json",
+      "bytes": 2017708,
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a"
+    },
+    {
+      "path": "metadata/semantic_mapping.json",
+      "bytes": 45218,
+      "sha256": "c31b05097c062dae42b25cd97f247d66ca34e2a3e16b19b9726cae11e064309c"
+    }
+  ],
+  "omitted_identical_metadata": [
+    {
+      "current_path": "metadata/face_board_inputs.json",
+      "prior_frozen_path": "metadata/face_board_inputs.json",
+      "sha256": "606b92c7af601d8a55416fc8106320474f258fc9dbf4e9c56b5a847bff6bb317"
+    },
+    {
+      "current_path": "metadata/imported_model_expanded_rigs.json",
+      "prior_frozen_path": "metadata/imported_model_expanded_rigs.json",
+      "sha256": "44aeebb871fc4284885193b6704cf342c9b1245b8c3d8f88df9d43c78a6c9a0f"
+    },
+    {
+      "current_path": "metadata/neutral_geometry_comparison.json",
+      "prior_frozen_path": "metadata/neutral_geometry_comparison.json",
+      "sha256": "047f78c54187fa79146b5741e0397d2ca1651c5d4fc091ebaaba906b7e30abea"
+    },
+    {
+      "current_path": "metadata/semantic_mapping.json",
+      "prior_frozen_path": "metadata/semantic_mapping.json",
+      "sha256": "c31b05097c062dae42b25cd97f247d66ca34e2a3e16b19b9726cae11e064309c"
+    },
+    {
+      "current_path": "metadata/source_after_components.json",
+      "prior_frozen_path": "metadata/source_after_components.json",
+      "sha256": "aee164c2ec9c444719a3a75ad73f47759548045275ff95e69601e93d32f1e544"
+    },
+    {
+      "current_path": "metadata/source_after_export_diff.json",
+      "prior_frozen_path": "metadata/source_after_export_diff.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "current_path": "metadata/source_before_components.json",
+      "prior_frozen_path": "metadata/source_before_components.json",
+      "sha256": "aee164c2ec9c444719a3a75ad73f47759548045275ff95e69601e93d32f1e544"
+    },
+    {
+      "current_path": "metadata/source_driver_graph.json",
+      "prior_frozen_path": "metadata/source_driver_graph.json",
+      "sha256": "6ab812f8335fc0efb03623e2233f5f4f44976234cbbd300b7890d538e4d344a0"
+    },
+    {
+      "current_path": "metadata/source_expanded_rigs.json",
+      "prior_frozen_path": "metadata/source_expanded_rigs.json",
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694"
+    },
+    {
+      "current_path": "metadata/source_renderers_bind.json",
+      "prior_frozen_path": "metadata/source_renderers_bind.json",
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a"
+    },
+    {
+      "current_path": "metadata/take_and_slot_inventory.json",
+      "prior_frozen_path": "metadata/take_and_slot_inventory.json",
+      "sha256": "5e48e0ac08d7a4d8d6cc71b2d7421a72b632726d954d713f8c65f88cd0a42579"
+    }
+  ]
+}
