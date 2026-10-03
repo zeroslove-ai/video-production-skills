@@ -1,0 +1,82 @@
+{
+  "task_id": "YURI_O1_BODY_MODIFIER_SOURCE_CONTRACT_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_BODY_MODIFIER_SOURCE_CONTRACT_20261003_R1_4bcfc93ee453",
+  "manifest_sha256": "4bcfc93ee453597244575ed3a4be4ef6fee465d621864215aa91896a0a4e0c43",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_BODY_MODIFIER_SOURCE_CONTRACT_20261003_R1_4bcfc93ee453\\YURI_O1_R4_BODY_MODIFIER_SOURCE_CONTRACT_20261003_R1.part01-of-01.zip",
+      "sha256": "4dae415f276cdc90eb966b4a2ef1947cb19d48f0ad17099229160e5882009a9a",
+      "bytes": 2920580,
+      "files": [
+        "R4_Body_Original_Modifier_Support.npz",
+        "upstream/armature_deform.cc",
+        "upstream/COPYING",
+        "upstream/MOD_armature.cc",
+        "upstream/MOD_correctivesmooth.cc",
+        "upstream/MOD_smooth.cc",
+        "upstream/MOD_util.cc",
+        "metadata/BODY_MODIFIER_PARAMETERS_AND_DRIVERS.json",
+        "metadata/BODY_MODIFIER_SOURCE_CONTRACT.json",
+        "metadata/YURI_O1_BODY_MODIFIER_SOURCE_CONTRACT_R1.md",
+        "scripts/r4_body_modifier_source_contract.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "R4_Body_Original_Modifier_Support.npz": {
+      "sha256": "1dfa764be71c9d06c733bba5be80c2eda1a7fe13bc76ba39c793d9c9ab699f7d",
+      "bytes": 2547998
+    },
+    "upstream/armature_deform.cc": {
+      "sha256": "aad1cf4d4dd30f8d5f89f556721b7dc628092dd57db4ac8f4c03c741495d38ba",
+      "bytes": 28079
+    },
+    "upstream/COPYING": {
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302
+    },
+    "upstream/MOD_armature.cc": {
+      "sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e",
+      "bytes": 10070
+    },
+    "upstream/MOD_correctivesmooth.cc": {
+      "sha256": "34064ee367b0b79f2804a48101943630366d5c166b842fa9f439dbf4aa1dad3b",
+      "bytes": 29127
+    },
+    "upstream/MOD_smooth.cc": {
+      "sha256": "33b067daeedfd3f09132ffeca157c9008290468f112102e02eb231cf13ec61e6",
+      "bytes": 7289
+    },
+    "upstream/MOD_util.cc": {
+      "sha256": "ee0ca054d94a11b056f1580f6c2d8f19601d513ff50490e7faf7b6fd141bb8a2",
+      "bytes": 8581
+    },
+    "metadata/BODY_MODIFIER_PARAMETERS_AND_DRIVERS.json": {
+      "sha256": "3a2e563c9330f25c1eaeb1ba04defb02d670da305e63e556b19216cadc8ba7fc",
+      "bytes": 254366
+    },
+    "metadata/BODY_MODIFIER_SOURCE_CONTRACT.json": {
+      "sha256": "4bcfc93ee453597244575ed3a4be4ef6fee465d621864215aa91896a0a4e0c43",
+      "bytes": 12225
+    },
+    "metadata/YURI_O1_BODY_MODIFIER_SOURCE_CONTRACT_R1.md": {
+      "sha256": "ebfe0e2ebcf5f3dd89239a463b0f17faebbfe4e99684ffa51cd6e53a331baec2",
+      "bytes": 7377
+    },
+    "scripts/r4_body_modifier_source_contract.py": {
+      "sha256": "c869583150a7af97fe55c5df1d5a5475a6047d256289e3d5982fba8a409e1904",
+      "bytes": 8633
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "8130c01b9ed135eda2874b2fafcfa752d84f9efeffcecb792462601961b0bc0d",
+      "bytes": 4779
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 2920580,
+  "data_bytes": 2631446,
+  "aggregate_file_manifest_sha256": "54d7932201b706d0a2119046c8afb0cb0a638ea876319c95bc23d64423e5b098",
+  "source_or_frozen_input_writes": 0
+}

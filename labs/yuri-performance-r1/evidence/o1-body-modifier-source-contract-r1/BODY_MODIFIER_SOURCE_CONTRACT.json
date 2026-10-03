@@ -1,0 +1,377 @@
+{
+  "task_id": "YURI_O1_BODY_MODIFIER_SOURCE_CONTRACT_R1",
+  "status": "DONE_SOURCE_SUPPORT_RUNTIME_GATE_PENDING",
+  "lineage": "3b37f357 native original-bind carrier is distinct from earlier rebuilt GameRig; no reset/adapter abandonment from duplicate material-slot serialization.",
+  "vertices": 63561,
+  "source_loops": 254602,
+  "ordered_modifier_types": [
+    "ARMATURE",
+    "ARMATURE",
+    "CORRECTIVE_SMOOTH",
+    "SMOOTH",
+    "SMOOTH",
+    "SMOOTH",
+    "SMOOTH"
+  ],
+  "SurfaceDeform_present": false,
+  "CorrectiveSmooth_binding": "ORCO original mesh positions; is_bind false; no SurfaceDeform cage or bind_coords prerequisite",
+  "installed_Blender_build_hash_and_upstream_ref": "9e2066aef7ef",
+  "source_nonbone_mask_groups": [
+    {
+      "group_index": 51,
+      "name": "Joint_Smoothing_Mask",
+      "array_column": 0,
+      "literal_positive_vertices": 9245,
+      "min": 0.0,
+      "max": 0.8551801443099976,
+      "used_by": []
+    },
+    {
+      "group_index": 52,
+      "name": "R3_Surface_LinearBlend",
+      "array_column": 1,
+      "literal_positive_vertices": 29081,
+      "min": 0.0,
+      "max": 1.0,
+      "used_by": [
+        "R3 neck and joints - local linear blend"
+      ]
+    },
+    {
+      "group_index": 53,
+      "name": "R3_Joint_CorrectiveSmooth",
+      "array_column": 2,
+      "literal_positive_vertices": 28291,
+      "min": 0.0,
+      "max": 1.0,
+      "used_by": [
+        "R3 local joint surface relaxation"
+      ]
+    },
+    {
+      "group_index": 54,
+      "name": "R3_Shoulder_PoseRelax.L",
+      "array_column": 3,
+      "literal_positive_vertices": 6102,
+      "min": 0.0,
+      "max": 0.9999999403953552,
+      "used_by": [
+        "R3 raised shoulder surface L"
+      ]
+    },
+    {
+      "group_index": 55,
+      "name": "R3_Shoulder_PoseRelax.R",
+      "array_column": 4,
+      "literal_positive_vertices": 6117,
+      "min": 0.0,
+      "max": 1.0,
+      "used_by": [
+        "R3 raised shoulder surface R"
+      ]
+    },
+    {
+      "group_index": 56,
+      "name": "R3_Hip_PoseRelax.L",
+      "array_column": 5,
+      "literal_positive_vertices": 8037,
+      "min": 0.0,
+      "max": 1.0,
+      "used_by": [
+        "R3 bent hip surface L"
+      ]
+    },
+    {
+      "group_index": 57,
+      "name": "R3_Hip_PoseRelax.R",
+      "array_column": 6,
+      "literal_positive_vertices": 8025,
+      "min": 0.0,
+      "max": 1.0,
+      "used_by": [
+        "R3 bent hip surface R"
+      ]
+    }
+  ],
+  "boundary_vertices": 84,
+  "unused_mask_policy": "Joint_Smoothing_Mask retained, not used by any of the current seven modifiers; do not add a stage or fold it into bone normalization.",
+  "driver_channel_domain": "SINGLE_PROP raw pose.bones rotation_quaternion components, wxyz, before constraint/world evaluation. Evaluated parent-local TRS is not automatically equivalent.",
+  "driver_evidence_limit": "Existing exact outputs/settings cover neutral + nine selected motion cases. No all-frame raw property/factor capture. Do not call world/local matrix-derived factors source-exact without proof.",
+  "Strong_frame6_reference": {
+    "root": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1",
+    "path": "YRA_R4_Struggle_Strong_Loop/frames_005_008.npz",
+    "sha256": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+    "bytes": 20196590,
+    "clip": "YRA_R4_Struggle_Strong_Loop",
+    "source_frames": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "uncompressed_bytes": 36645520,
+    "arrays": {
+      "local_position": {
+        "shape": [
+          4,
+          63561,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "world_position": {
+        "shape": [
+          4,
+          63561,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "local_vertex_normal": {
+        "shape": [
+          4,
+          63561,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "world_vertex_normal": {
+        "shape": [
+          4,
+          63561,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "local_corner_normal": {
+        "shape": [
+          4,
+          254602,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "world_corner_normal": {
+        "shape": [
+          4,
+          254602,
+          3
+        ],
+        "dtype": "float32"
+      },
+      "source_frames": {
+        "shape": [
+          4
+        ],
+        "dtype": "int32"
+      }
+    }
+  },
+  "Strong_frame6_prototype": "PM reports 1.77mm residual; not runtime PASS and not proven single-stage cause. Compare original ablations and exact full-stack reference.",
+  "ablation_pointer": {
+    "root": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1",
+    "path": "data/Strong_1_49_deformation_layer_ablation.npz",
+    "sha256": "6a9f608c3bbc111fc7192e564de09ba4b7cb3742cb432df0676f08ed4683c71c",
+    "source_frames": [
+      1,
+      49
+    ]
+  },
+  "missing_staged_evidence": "Existing ablation combines all five surface stages; no individual-stage Strong frame6 capture. Under no-new-Blender-load scope, retain this limitation.",
+  "files": [
+    {
+      "path": "R4_Body_Original_Modifier_Support.npz",
+      "sha256": "1dfa764be71c9d06c733bba5be80c2eda1a7fe13bc76ba39c793d9c9ab699f7d",
+      "bytes": 2547998
+    },
+    {
+      "path": "upstream/armature_deform.cc",
+      "sha256": "aad1cf4d4dd30f8d5f89f556721b7dc628092dd57db4ac8f4c03c741495d38ba",
+      "bytes": 28079,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/blenkernel/intern/armature_deform.cc"
+    },
+    {
+      "path": "upstream/COPYING",
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/COPYING"
+    },
+    {
+      "path": "upstream/MOD_armature.cc",
+      "sha256": "f2c3a72cfddddfb7500e61a82e7a8c1c857a93a8dc79c41ee326fc551923a74e",
+      "bytes": 10070,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/modifiers/intern/MOD_armature.cc"
+    },
+    {
+      "path": "upstream/MOD_correctivesmooth.cc",
+      "sha256": "34064ee367b0b79f2804a48101943630366d5c166b842fa9f439dbf4aa1dad3b",
+      "bytes": 29127,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/modifiers/intern/MOD_correctivesmooth.cc"
+    },
+    {
+      "path": "upstream/MOD_smooth.cc",
+      "sha256": "33b067daeedfd3f09132ffeca157c9008290468f112102e02eb231cf13ec61e6",
+      "bytes": 7289,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/modifiers/intern/MOD_smooth.cc"
+    },
+    {
+      "path": "upstream/MOD_util.cc",
+      "sha256": "ee0ca054d94a11b056f1580f6c2d8f19601d513ff50490e7faf7b6fd141bb8a2",
+      "bytes": 8581,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/modifiers/intern/MOD_util.cc"
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_renderers_bind.json": {
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a",
+      "bytes": 2017708
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_expanded_rigs.json": {
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "bytes": 560498
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\reference\\source_original_vertex_weights.json.gz": {
+      "sha256": "4c2cd4f57c80368985ee66fc46c29dab0f992dd28001ca4411fa5b40ca07480e",
+      "bytes": 2577908
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-all-bind-and-weight-diagnostic-r1\\R4_Body_All_Original_Group_Weights_CSR.npz": {
+      "sha256": "5610c3f9d4265b82d34c07ab428159abff96fdd87cb8e921cdb0478c3ea0512f",
+      "bytes": 2579209
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz": {
+      "sha256": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f",
+      "bytes": 6179188
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\evaluated_driver_geometry_references.json": {
+      "sha256": "9389be451c62068f27428b539da5c053f963e50e197a77c95f9de1f82b0e279d",
+      "bytes": 10669508
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\DEFORMATION_LAYER_RECEIPT.json": {
+      "sha256": "2f8cc8cd46e53d0e7ba6ca6443849c5ca9fee508b18bea841939ac0dd8f7c872",
+      "bytes": 50075
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\FULL_BODY_DEFORMATION_MANIFEST.json": {
+      "sha256": "d8ec32b42adf4cb2f4a6dea280eb98149789c047af0a4bb498e9a978250afc2e",
+      "bytes": 160772
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Struggle_Strong_Loop\\frames_005_008.npz": {
+      "sha256": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+      "bytes": 20196590
+    }
+  },
+  "arrays": {
+    "source_vertex_id": {
+      "shape": [
+        63561
+      ],
+      "dtype": "int32"
+    },
+    "ORCO_rest_local_position": {
+      "shape": [
+        63561,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "source_edge_vertices": {
+      "shape": [
+        127343,
+        2
+      ],
+      "dtype": "int32"
+    },
+    "source_loop_vertex": {
+      "shape": [
+        254602
+      ],
+      "dtype": "int32"
+    },
+    "source_corner_edge": {
+      "shape": [
+        254602
+      ],
+      "dtype": "int32"
+    },
+    "source_polygon_start": {
+      "shape": [
+        63781
+      ],
+      "dtype": "int32"
+    },
+    "source_polygon_size": {
+      "shape": [
+        63781
+      ],
+      "dtype": "int32"
+    },
+    "raw_nonbone_group_weights": {
+      "shape": [
+        63561,
+        7
+      ],
+      "dtype": "float32"
+    },
+    "edge_polygon_corner_use_count": {
+      "shape": [
+        127343
+      ],
+      "dtype": "int32"
+    },
+    "corrective_boundary_vertex": {
+      "shape": [
+        63561
+      ],
+      "dtype": "bool"
+    },
+    "derived_corrective_effective_mask": {
+      "shape": [
+        63561
+      ],
+      "dtype": "float32"
+    },
+    "edge_degree": {
+      "shape": [
+        63561
+      ],
+      "dtype": "int32"
+    },
+    "body_object_world": {
+      "shape": [
+        4,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "rig_object_world": {
+      "shape": [
+        4,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "primary_raw_inverse_bind": {
+      "shape": [
+        57,
+        4,
+        4
+      ],
+      "dtype": "float64"
+    },
+    "secondary_raw_inverse_bind": {
+      "shape": [
+        57,
+        4,
+        4
+      ],
+      "dtype": "float64"
+    }
+  },
+  "all_array_readback_exact_and_finite": true,
+  "source_scene_loads": 0,
+  "source_binary_writes": 0,
+  "product_repo_writes": 0
+}
