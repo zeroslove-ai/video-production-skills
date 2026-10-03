@@ -1,0 +1,97 @@
+{
+  "task_id": "YURI_O1_CORNER_NORMAL_TANGENT_SEMANTICS_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_CORNER_NORMAL_TANGENT_SEMANTICS_20261003_R1_80e9173b0443",
+  "manifest_sha256": "80e9173b04438003523d0b8a7b55107a2787cdd2de9cf12d15b31c3d865c5499",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_CORNER_NORMAL_TANGENT_SEMANTICS_20261003_R1_80e9173b0443\\YURI_O1_R4_CORNER_NORMAL_TANGENT_SEMANTICS_20261003_R1.part01-of-01.zip",
+      "sha256": "161583ddc09390d155da66019c7d8cbec4926239aeaa2f82ed233b67c62da747",
+      "bytes": 367925,
+      "files": [
+        "upstream/Apache-2.0.txt",
+        "upstream/COPYING",
+        "upstream/mesh.cc",
+        "upstream/mesh_normals.cc",
+        "upstream/mesh_runtime.cc",
+        "upstream/mesh_tangent.cc",
+        "upstream/mikk_atomic_hash_set.hh",
+        "upstream/mikk_float3.hh",
+        "upstream/mikk_util.hh",
+        "upstream/mikktspace.hh",
+        "upstream/rna_mesh_api.cc",
+        "metadata/CORNER_NORMAL_TANGENT_SEMANTIC_RECEIPT.json",
+        "metadata/YURI_O1_CORNER_NORMAL_TANGENT_SEMANTICS_R1.md",
+        "scripts/r4_corner_normal_tangent_semantics.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "upstream/Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "upstream/COPYING": {
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302
+    },
+    "upstream/mesh.cc": {
+      "sha256": "6a0761a86de72df5425d9c93891cacd1ebf95a3795696f2c3f70ba8a0e5687ce",
+      "bytes": 77679
+    },
+    "upstream/mesh_normals.cc": {
+      "sha256": "50c001bb7e48b425fa9f5c6ed97dbddbd4f7915d9ee8fb445f0d53a7961272ec",
+      "bytes": 70041
+    },
+    "upstream/mesh_runtime.cc": {
+      "sha256": "8c8980950b96da0b5a7e4ac38115b86062739e21b3ad551975090d3c7a3b984d",
+      "bytes": 14364
+    },
+    "upstream/mesh_tangent.cc": {
+      "sha256": "26271c17fa226f60953311af00da17f68f2839245eb5fefe2081302b4cd614de",
+      "bytes": 12488
+    },
+    "upstream/mikk_atomic_hash_set.hh": {
+      "sha256": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b",
+      "bytes": 5702
+    },
+    "upstream/mikk_float3.hh": {
+      "sha256": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a",
+      "bytes": 2315
+    },
+    "upstream/mikk_util.hh": {
+      "sha256": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585",
+      "bytes": 4384
+    },
+    "upstream/mikktspace.hh": {
+      "sha256": "6a196ad4b95b358bbd35add358a81a0ff1aab9828b38469072f0f6409e31d907",
+      "bytes": 26301
+    },
+    "upstream/rna_mesh_api.cc": {
+      "sha256": "44894ffaaa4f4ec5a68fe327f1f7136e5d4b9b5c747e3322449c0a5d9bcaf489",
+      "bytes": 16244
+    },
+    "metadata/CORNER_NORMAL_TANGENT_SEMANTIC_RECEIPT.json": {
+      "sha256": "80e9173b04438003523d0b8a7b55107a2787cdd2de9cf12d15b31c3d865c5499",
+      "bytes": 100465
+    },
+    "metadata/YURI_O1_CORNER_NORMAL_TANGENT_SEMANTICS_R1.md": {
+      "sha256": "4b3e36e695966f4bb063e06c1d024b793fe7b747f30e12a353d472042e99660c",
+      "bytes": 8158
+    },
+    "scripts/r4_corner_normal_tangent_semantics.py": {
+      "sha256": "5073943f4ed3818afa44467f6764331bdc0925bf8920c07d6d82707682b3f9bb",
+      "bytes": 10570
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "eeef7ded1d7bed19a1f6e036a2a07ad19b78780a570ed152a670012e828f59e9",
+      "bytes": 5504
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 367925,
+  "data_bytes": 241178,
+  "aggregate_file_manifest_sha256": "d00913fe5e6fcdfba8c485e8cb440906d07c136c41b8b7c7f50bf53dbfe4b497",
+  "source_or_frozen_input_writes": 0
+}

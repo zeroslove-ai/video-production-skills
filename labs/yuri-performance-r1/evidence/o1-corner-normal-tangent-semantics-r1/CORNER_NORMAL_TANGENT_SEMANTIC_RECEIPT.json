@@ -1,0 +1,2753 @@
+{
+  "task_id": "YURI_O1_CORNER_NORMAL_TANGENT_SEMANTICS_R1",
+  "status": "DONE_SOURCE_SEMANTIC_SUPPORT_CONSUMER_GATE_PENDING",
+  "upstream_build_ref": "9e2066aef7ef",
+  "original_meshes": [
+    {
+      "renderer": "Character_Body_Head",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz",
+      "original_mesh_sha256": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_corner_basis.npz",
+      "original_corner_basis_sha256": "c6a1065172c27ebcbdc1a7b34325cabee3c6420aa44c2a562434f9ea23aea4ad",
+      "vertices": 12928,
+      "corners": 66861,
+      "polygons": 21701,
+      "loose_vertices": 835,
+      "polygon_sizes": {
+        "3": 19943,
+        "4": 1758
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT16_2D",
+          "array": "attribute_19_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            66861,
+            2
+          ],
+          "min": -32360,
+          "max": 32277,
+          "int16_roundtrip_lossless": true,
+          "nonzero_alpha_corners": 1687,
+          "alpha_zero_corners": 65174,
+          "packed_payload_sha256": "08b1fc8e6e4fa00c97728fc90b07adb59393d17995e330c7b7df8b0197028f95"
+        },
+        "sharp_edge": {
+          "present": true,
+          "source_domain": "EDGE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_14_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            36083
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        "sharp_face": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_18_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            66861
+          ],
+          "min": 0,
+          "max": 36082
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 66861,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "Globe.L",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz",
+      "original_mesh_sha256": "3f344df1e67f21fd54cdcd4eff5cb6800b42f84753a41f8132f136aff324024f",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_corner_basis.npz",
+      "original_corner_basis_sha256": "4c1fabffdd7b10747aacd7221a5e9af37a6c75e54ee71eba4605c9d77a9a1799",
+      "vertices": 18242,
+      "corners": 73344,
+      "polygons": 18432,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 384,
+        "4": 18048
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_6_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            18432
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            73344
+          ],
+          "min": 0,
+          "max": 36671
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 73344,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "Globe.R",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz",
+      "original_mesh_sha256": "10dc21ad3da91368ba44f2a7fe40cc960eb2ade2c8515e28147b97d223388c79",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_corner_basis.npz",
+      "original_corner_basis_sha256": "1b9bec4d5da9f44c91a4d20521260cef60b9874f6e2a3442bea11cd72a6a4e11",
+      "vertices": 18242,
+      "corners": 73344,
+      "polygons": 18432,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 384,
+        "4": 18048
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_6_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            18432
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            73344
+          ],
+          "min": 0,
+          "max": 36671
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 73344,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "Hair_Replacement_R4",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Hair_Replacement_R4_original_mesh.npz",
+      "original_mesh_sha256": "4e9436625413c22e2871bc9e7fdf4cd88cdd0af5b34119a318df3f93a9996142",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Hair_Replacement_R4_corner_basis.npz",
+      "original_corner_basis_sha256": "48fa9a090c12816a3874818d8d9bd38c3b49e6f98331accc22cf140c5df674c6",
+      "vertices": 10408,
+      "corners": 32994,
+      "polygons": 8652,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 1614,
+        "4": 7038
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT16_2D",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            32994,
+            2
+          ],
+          "min": -32747,
+          "max": 32753,
+          "int16_roundtrip_lossless": true,
+          "nonzero_alpha_corners": 31578,
+          "alpha_zero_corners": 1416,
+          "packed_payload_sha256": "6756716f4c9538ad4c535f9f184452432bcc3b185053cfcb39878a8f33f3bba9"
+        },
+        "sharp_edge": {
+          "present": true,
+          "source_domain": "EDGE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_4_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            19062
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_6_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            8652
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            32994
+          ],
+          "min": 0,
+          "max": 19061
+        }
+      },
+      "UV_layers": [],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.L.1",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.1_original_mesh.npz",
+      "original_mesh_sha256": "dd45c0b334041cf6cbfd89d44accb677233d0bcc3741491856fd35616dad3492",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.1_corner_basis.npz",
+      "original_corner_basis_sha256": "59446efe04e7c8bb68df5eed7f96a217de0e78a2c6d2668b42fa89c7c2222d35",
+      "vertices": 81,
+      "corners": 450,
+      "polygons": 150,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 150
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            150
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            450
+          ],
+          "min": 0,
+          "max": 229
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 450,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.L.2",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.2_original_mesh.npz",
+      "original_mesh_sha256": "2445d1ed47a9cd8604dc551b89ffdd365cb610de4587efd1b8bb4adaad40308b",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.2_corner_basis.npz",
+      "original_corner_basis_sha256": "c187a746572d7cd3d63d2ccc45c378a6d21b6d24ea57c2717434d6bcbdbf6c15",
+      "vertices": 69,
+      "corners": 375,
+      "polygons": 125,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 125
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            125
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            375
+          ],
+          "min": 0,
+          "max": 192
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 375,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.L.3",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.3_original_mesh.npz",
+      "original_mesh_sha256": "fcc01ca3395b7439fd144742a042710d094089c89c465d2e886900a83d9873c5",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.3_corner_basis.npz",
+      "original_corner_basis_sha256": "614b4e1367c601bb92cf5bfeb355b64027344e03224c9b054e04db0a6f6f2ae8",
+      "vertices": 36,
+      "corners": 189,
+      "polygons": 63,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 63
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            63
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            189
+          ],
+          "min": 0,
+          "max": 97
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 189,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.L.4",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.4_original_mesh.npz",
+      "original_mesh_sha256": "94acf280365bc83ab86bb3e815db775762d89ce7cfd6bde34d5a42ac1c2735d0",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.4_corner_basis.npz",
+      "original_corner_basis_sha256": "168b7d338492e4fbedd3420a07875f0930acc1ac3db630c575c41fa5e5bd6c76",
+      "vertices": 30,
+      "corners": 162,
+      "polygons": 54,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 54
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            54
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            162
+          ],
+          "min": 0,
+          "max": 82
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 162,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.L.5",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.5_original_mesh.npz",
+      "original_mesh_sha256": "4d4fff698ebcc478f966428b0972bb849b5a5fe5f47df25d44672acf5af27dfa",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.5_corner_basis.npz",
+      "original_corner_basis_sha256": "54bab565d9e1c740f5a0ceca2c23e08dbc63e2c953279b8f800f0b6f3fa23846",
+      "vertices": 26,
+      "corners": 135,
+      "polygons": 45,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 45
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            45
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            135
+          ],
+          "min": 0,
+          "max": 68
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 135,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.R.1",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.1_original_mesh.npz",
+      "original_mesh_sha256": "74a7a69a5da46f210a15d2bc2250a4d7d4ad6f59d02515e3dc01043e63126f1b",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.1_corner_basis.npz",
+      "original_corner_basis_sha256": "6b776cfa5cb263f98899c98344fa5f382aabe8a9584d46315c6af0e476feb7c3",
+      "vertices": 81,
+      "corners": 450,
+      "polygons": 150,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 150
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            150
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            450
+          ],
+          "min": 0,
+          "max": 229
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 450,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.R.2",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.2_original_mesh.npz",
+      "original_mesh_sha256": "e18abf406764e32fbfd1beeff368cedda78be358a57461cf3fdc730cccfe0f8d",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.2_corner_basis.npz",
+      "original_corner_basis_sha256": "1f6a311e4750a2a5334c37eb410a231a0fe9d2aa1f6bb2dacb189500feb3246c",
+      "vertices": 33,
+      "corners": 174,
+      "polygons": 58,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 58
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            58
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            174
+          ],
+          "min": 0,
+          "max": 89
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 174,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.R.3",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.3_original_mesh.npz",
+      "original_mesh_sha256": "452c253f43f359d6dfe7267560046be1897c6be443db6ba5b32e45c4cc52e271",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.3_corner_basis.npz",
+      "original_corner_basis_sha256": "094e770c07a0ab016da18514c8916d87961149a84a7bf603ccea66866bbef6f7",
+      "vertices": 30,
+      "corners": 162,
+      "polygons": 54,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 54
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            54
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            162
+          ],
+          "min": 0,
+          "max": 81
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 162,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.R.4",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.4_original_mesh.npz",
+      "original_mesh_sha256": "ad6000cd155bcdb6face12acb83abadd7c04e89f7f186c641c4cc868309f973b",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.4_corner_basis.npz",
+      "original_corner_basis_sha256": "94329496083bce28da86c9a5a136c73a0f142fb54b135cfae4dbeeef9bfc1445",
+      "vertices": 28,
+      "corners": 150,
+      "polygons": 50,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 50
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            50
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            150
+          ],
+          "min": 0,
+          "max": 76
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 150,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LashRootRepair.R.5",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.5_original_mesh.npz",
+      "original_mesh_sha256": "17ebecf61bb422df6ed1602297569c9c7a996a7ee43e56eb8e019b5bc5072c74",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.5_corner_basis.npz",
+      "original_corner_basis_sha256": "fa63ef34586edd8a16748473e3f463d7225e513c643f10246855313e6d3edbcd",
+      "vertices": 27,
+      "corners": 135,
+      "polygons": 45,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 45
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_9_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            45
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_11_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            135
+          ],
+          "min": 0,
+          "max": 70
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 135,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LowerLashesClean.L",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.L_original_mesh.npz",
+      "original_mesh_sha256": "8f71dd36ebffe1de1201b057d2839ea89a2446f6a9fa6ab95f8f22084ed85e9e",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.L_corner_basis.npz",
+      "original_corner_basis_sha256": "7006b2ad8bcc52d15a923d0f789a8ff5f7c0286e4026ba7771ab67b389c6e068",
+      "vertices": 648,
+      "corners": 2448,
+      "polygons": 600,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "4": 576,
+        "6": 24
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_6_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            600
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            2448
+          ],
+          "min": 0,
+          "max": 1223
+        }
+      },
+      "UV_layers": [],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "LowerLashesClean.R",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.R_original_mesh.npz",
+      "original_mesh_sha256": "bfac2108fb153b0c472337a50544134f9624ffaae6c08d03d80f83b116bce00b",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.R_corner_basis.npz",
+      "original_corner_basis_sha256": "40c3e3dd9147c2931f8132759d59d13baf6856abc3b7434ca273331912510959",
+      "vertices": 702,
+      "corners": 2652,
+      "polygons": 650,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "4": 624,
+        "6": 26
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_6_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            650
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            2652
+          ],
+          "min": 0,
+          "max": 1325
+        }
+      },
+      "UV_layers": [],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "MedialBacking.L",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.L_original_mesh.npz",
+      "original_mesh_sha256": "d212c12dd234cd90e87a37843d795b9a368e175cff0a6278d18aba6e86fc0b9b",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.L_corner_basis.npz",
+      "original_corner_basis_sha256": "8db97e44b6abd8c7bd4d08193bda3b16b0ff8cc3e38bc3cd0e737bf40f85e5ab",
+      "vertices": 22,
+      "corners": 98,
+      "polygons": 29,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 18,
+        "4": 11
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_7_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            98
+          ],
+          "min": 0,
+          "max": 48
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 98,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "MedialBacking.R",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.R_original_mesh.npz",
+      "original_mesh_sha256": "10e3ef5a383508ed990b0bdf0b4ebd82afcff63c8f2786cac144f80117017479",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.R_corner_basis.npz",
+      "original_corner_basis_sha256": "9676dd7dbb840edde6b1aa603920648542a68d5cbb7d7b7edf2ce598a6a1b367",
+      "vertices": 22,
+      "corners": 98,
+      "polygons": 29,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 18,
+        "4": 11
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_7_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            98
+          ],
+          "min": 0,
+          "max": 48
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 98,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "Meshy_Body_NeutralCovered",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz",
+      "original_mesh_sha256": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_corner_basis.npz",
+      "original_corner_basis_sha256": "510dc196bec19df6a378672595692f863db00ef80591aae661053969d946f7e9",
+      "vertices": 63561,
+      "corners": 254602,
+      "polygons": 63781,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 924,
+        "4": 62457,
+        "5": 399,
+        "7": 1
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT16_2D",
+          "array": "attribute_13_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            254602,
+            2
+          ],
+          "min": -32402,
+          "max": 32692,
+          "int16_roundtrip_lossless": true,
+          "nonzero_alpha_corners": 3337,
+          "alpha_zero_corners": 251265,
+          "packed_payload_sha256": "624e9f9afbd5b10c01e7230e0e2d249d077d349c5bdaaa69ebe56f71e967fdd1"
+        },
+        "sharp_edge": {
+          "present": true,
+          "source_domain": "EDGE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            127343
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        "sharp_face": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_12_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            254602
+          ],
+          "min": 0,
+          "max": 127342
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 254602,
+          "basis_tangent_array": null,
+          "basis_sign_array": null,
+          "basis_sign_values": null
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "OriginalMedialLashes.L",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.L_original_mesh.npz",
+      "original_mesh_sha256": "d09c8d2b6fb13ea6003f1ff365d644532b6a00d6a6553b441dd28a460ca72792",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.L_corner_basis.npz",
+      "original_corner_basis_sha256": "0d94e36bd4e201e71854295bb95bb66f53da9089891370bb775475a1ff372ad3",
+      "vertices": 397,
+      "corners": 2118,
+      "polygons": 706,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 706
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            706
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_10_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            2118
+          ],
+          "min": 0,
+          "max": 1090
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 2118,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    },
+    {
+      "renderer": "OriginalMedialLashes.R",
+      "original_mesh_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.R_original_mesh.npz",
+      "original_mesh_sha256": "4ce51f34d5a3a203670e88ad016bdeb547155a462abbeb602ae061cdc36dce39",
+      "original_corner_basis_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.R_corner_basis.npz",
+      "original_corner_basis_sha256": "6ed58c491d17b313301e2930eace72f0861ce5354e9d9d408f72d6d27d1cb3d6",
+      "vertices": 438,
+      "corners": 2334,
+      "polygons": 778,
+      "loose_vertices": 0,
+      "polygon_sizes": {
+        "3": 778
+      },
+      "attributes": {
+        "custom_normal": {
+          "present": false,
+          "absent_semantics": "no packed custom normal override"
+        },
+        "sharp_edge": {
+          "present": false,
+          "absent_semantics": "false for all elements"
+        },
+        "sharp_face": {
+          "present": true,
+          "source_domain": "FACE",
+          "source_data_type": "BOOLEAN",
+          "array": "attribute_8_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            778
+          ],
+          "min": 0,
+          "max": 0,
+          "true_elements": 0
+        },
+        ".corner_edge": {
+          "present": true,
+          "source_domain": "CORNER",
+          "source_data_type": "INT",
+          "array": "attribute_10_value",
+          "serialized_dtype": "int32",
+          "shape": [
+            2334
+          ],
+          "min": 0,
+          "max": 1204
+        }
+      },
+      "UV_layers": [
+        {
+          "name": "UVMap",
+          "source_array": "uv_0",
+          "corner_count": 2334,
+          "basis_tangent_array": "tangent_uv0",
+          "basis_sign_array": "bitangent_sign_uv0",
+          "basis_sign_values": [
+            -1.0,
+            1.0
+          ]
+        }
+      ],
+      "corner_edge_endpoint_relation_exact": true,
+      "triangulation_pointers": {
+        "vertices": "loop_triangle_vertices",
+        "corners": "loop_triangle_loops",
+        "polygon": "triangle_polygon_index"
+      },
+      "triangulation_scope": "Frozen original mesh basis, not guaranteed all-frame deformed triangulation or Unity importer diagonals."
+    }
+  ],
+  "all21_original_corner_edge_relations_verified": true,
+  "normal_algorithm": {
+    "entry": "Mesh::corner_normals -> normals_calc_corners for CORNER short2 custom_normal",
+    "geometry": "Current mesh-local deformed positions, original polygon/corner-edge adjacency, sharp_edge and sharp_face. Face normals true, smooth fan angle weights, fan-local frame.",
+    "packed": "Signed short2 alpha/beta semantic data, not xyz. Within each smooth fan, integer-average packed values before decoding in freshly built fan space. Alpha zero/invalid space returns fan normal.",
+    "fan_order": "Retain pinned fan traversal/cyclic first-corner ordering and float normalization/approximate acos/degeneracy handling.",
+    "cache": "Positions changed dirties face/point/CORNER normal caches; no cached rest normal reuse. These original deform-only stages do not intentionally author packed normal data.",
+    "domain": "Absent sharp attributes default false; custom float3 direct attribute path differs from short2 source format. Head/face GN outputs must use existing evaluated gaze authority."
+  },
+  "tangent_algorithm": {
+    "benchmark_entry": "RNA Mesh.calc_tangents -> calc_uv_tangent_tris_quads -> pinned Mikk; frozen original/gaze references used this route.",
+    "inputs": "Final current local position + final source CORNER normal + UVMap per original corner + original tri/quad polygons.",
+    "quad_diagonal": "Mikk chooses shortest UV diagonal; tie chooses shortest geometric diagonal, tie prefers 0-2. Unity triangulation-only input may choose differently.",
+    "general_route": "calc_uv_tangents supports corner-tris with quad reconstruction; do not conflate with the RNA benchmark route or PBR renderer acceptance.",
+    "output": "Corner tangent xyz + orientation sign (+1/-1), B=sign*cross(N,T). Recalculate for deformed normals/geometry; preserve UV seams.",
+    "world_transport": "n=normalize(n_local inverse(A)) row-vector; t=normalize(project(t_local A^T perpendicular to n)); bitangent sign gains sign(det(A)). Further consumer mirror/UV flips need explicit verified transport, no double flip.",
+    "unsupported_original_basis": [
+      {
+        "renderer": "Meshy_Body_NeutralCovered",
+        "UV": {
+          "name": "UVMap",
+          "unsupported": "Error: Tangent space can only be computed for tris/quads, aborting\n"
+        }
+      }
+    ]
+  },
+  "reference_pointers": {
+    "raw_pose_stage_manifest": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\RAW_POSE_DRIVER_STAGE_MANIFEST.json",
+    "full_body_manifest": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\FULL_BODY_DEFORMATION_MANIFEST.json",
+    "gaze_evaluated_manifest": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-gaze-evaluated-corner-reference-r1\\GAZE_EVALUATED_CORNER_MANIFEST.json",
+    "gaze_evaluated_files": [
+      {
+        "path": "neutral_evaluated_corners.npz",
+        "sha256": "52e1079c62ff86eb52b43bb12d911b7f455dcecaa0b72e994625feaf300bc992",
+        "bytes": 5854928,
+        "arrays": {
+          "Character_Body_Head_local_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_world_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Character_Body_Head_uv0_local_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.L_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.R_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          }
+        }
+      },
+      {
+        "path": "gaze_-1_0_evaluated_corners.npz",
+        "sha256": "47b71e34e046c9d74601c4c95faee172f9d34e35f803813a3da53bb286864a1b",
+        "bytes": 5850227,
+        "arrays": {
+          "Character_Body_Head_local_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_world_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Character_Body_Head_uv0_local_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.L_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.R_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          }
+        }
+      },
+      {
+        "path": "gaze_1_0_evaluated_corners.npz",
+        "sha256": "b0ace80e67cfc44e646c49806c2f954019f758c743a4dc50dd41655a6506b2f4",
+        "bytes": 5849329,
+        "arrays": {
+          "Character_Body_Head_local_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_world_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Character_Body_Head_uv0_local_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.L_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.R_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          }
+        }
+      },
+      {
+        "path": "gaze_0_-1_evaluated_corners.npz",
+        "sha256": "0b146cb3be48de8648a9b170129d2a59b558d3392d4639a321b00ac5b0521296",
+        "bytes": 5857975,
+        "arrays": {
+          "Character_Body_Head_local_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_world_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Character_Body_Head_uv0_local_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.L_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.R_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          }
+        }
+      },
+      {
+        "path": "gaze_0_1_evaluated_corners.npz",
+        "sha256": "c285002eff366c5ad04ccb2dbe09771fe5ac85a4dcdf064c7f590e6b62ba483f",
+        "bytes": 5856254,
+        "arrays": {
+          "Character_Body_Head_local_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_world_corner_normal": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_tangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_local_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent": {
+            "shape": [
+              66861,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Character_Body_Head_uv0_local_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Character_Body_Head_uv0_world_bitangent_sign": {
+            "shape": [
+              66861
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.L_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.L_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_local_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_world_corner_normal": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_tangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_local_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent": {
+            "shape": [
+              73344,
+              3
+            ],
+            "dtype": "float64"
+          },
+          "Globe.R_uv0_local_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          },
+          "Globe.R_uv0_world_bitangent_sign": {
+            "shape": [
+              73344
+            ],
+            "dtype": "float32"
+          }
+        }
+      }
+    ]
+  },
+  "stage_normal_diagnostics": [
+    {
+      "file": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "previous_stage": 0,
+      "current_stage": 1,
+      "corner_normal_array": "stage_01_world_corner_normal",
+      "max_normal_angle_degrees": 1.7531937936744,
+      "worst_source_corner": 5897,
+      "worst_source_vertex": 1623,
+      "corners_over_0_001_degrees": 80010
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "previous_stage": 1,
+      "current_stage": 2,
+      "corner_normal_array": "stage_02_world_corner_normal",
+      "max_normal_angle_degrees": 6.445871884775917,
+      "worst_source_corner": 7278,
+      "worst_source_vertex": 1980,
+      "corners_over_0_001_degrees": 68663
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "previous_stage": 2,
+      "current_stage": 3,
+      "corner_normal_array": "stage_03_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "previous_stage": 3,
+      "current_stage": 4,
+      "corner_normal_array": "stage_04_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "previous_stage": 4,
+      "current_stage": 5,
+      "corner_normal_array": "stage_05_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_seven_stages.npz",
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "previous_stage": 5,
+      "current_stage": 6,
+      "corner_normal_array": "stage_06_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "previous_stage": 0,
+      "current_stage": 1,
+      "corner_normal_array": "stage_01_world_corner_normal",
+      "max_normal_angle_degrees": 5.6191834191126055,
+      "worst_source_corner": 8845,
+      "worst_source_vertex": 2393,
+      "corners_over_0_001_degrees": 85016
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "previous_stage": 1,
+      "current_stage": 2,
+      "corner_normal_array": "stage_02_world_corner_normal",
+      "max_normal_angle_degrees": 108.25191761593543,
+      "worst_source_corner": 6757,
+      "worst_source_vertex": 1844,
+      "corners_over_0_001_degrees": 93296
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "previous_stage": 2,
+      "current_stage": 3,
+      "corner_normal_array": "stage_03_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "previous_stage": 3,
+      "current_stage": 4,
+      "corner_normal_array": "stage_04_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "previous_stage": 4,
+      "current_stage": 5,
+      "corner_normal_array": "stage_05_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz",
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "previous_stage": 5,
+      "current_stage": 6,
+      "corner_normal_array": "stage_06_world_corner_normal",
+      "max_normal_angle_degrees": 0.0,
+      "worst_source_corner": 0,
+      "worst_source_vertex": 63481,
+      "corners_over_0_001_degrees": 0
+    }
+  ],
+  "consumer_fields_if_exact_mapping_is_missing": [
+    "Actual cloned mesh normal/tangent4/UV0 buffers and vertex/corner counts, normal/tangent import settings",
+    "Original source controlpoint and loop/corner correspondence plus actual consumer triangle/submesh corner IDs/winding",
+    "Verified geometry basis K, local-to-world matrices, UV V-flip and tangent handedness/sign policy",
+    "Normal texture color-space, green-channel convention and shader negative-scale handling for separate PBR gate"
+  ],
+  "scope": "Specification/evidence only; no competing runtime implementation, no source evaluation/export/render or PM/product writes.",
+  "source_or_consumer_writes": 0,
+  "Blender_jobs": 0,
+  "files": [
+    {
+      "path": "upstream/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "license": "Apache-2.0 license text",
+      "modified": false
+    },
+    {
+      "path": "upstream/COPYING",
+      "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+      "bytes": 302,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/COPYING",
+      "license": "Blender COPYING",
+      "modified": false
+    },
+    {
+      "path": "upstream/mesh.cc",
+      "sha256": "6a0761a86de72df5425d9c93891cacd1ebf95a3795696f2c3f70ba8a0e5687ce",
+      "bytes": 77679,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/blenkernel/intern/mesh.cc",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    },
+    {
+      "path": "upstream/mesh_normals.cc",
+      "sha256": "50c001bb7e48b425fa9f5c6ed97dbddbd4f7915d9ee8fb445f0d53a7961272ec",
+      "bytes": 70041,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/blenkernel/intern/mesh_normals.cc",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    },
+    {
+      "path": "upstream/mesh_runtime.cc",
+      "sha256": "8c8980950b96da0b5a7e4ac38115b86062739e21b3ad551975090d3c7a3b984d",
+      "bytes": 14364,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/blenkernel/intern/mesh_runtime.cc",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    },
+    {
+      "path": "upstream/mesh_tangent.cc",
+      "sha256": "26271c17fa226f60953311af00da17f68f2839245eb5fefe2081302b4cd614de",
+      "bytes": 12488,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/blenkernel/intern/mesh_tangent.cc",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    },
+    {
+      "path": "upstream/mikk_atomic_hash_set.hh",
+      "sha256": "8da952d4433c90160940e77e57f44b2234b66b96f68ceeaa5932b77e9540f18b",
+      "bytes": 5702,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/mikktspace/mikk_atomic_hash_set.hh",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/mikk_float3.hh",
+      "sha256": "2b314080f18abed0ab714b1b868793cfd4b055fb2e970cee8d71289ba76a692a",
+      "bytes": 2315,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/mikktspace/mikk_float3.hh",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/mikk_util.hh",
+      "sha256": "49c6c1a3ea1ab5f1b2ded452dea180a4dbdc030d2210e804106bf1c779a51585",
+      "bytes": 4384,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/mikktspace/mikk_util.hh",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/mikktspace.hh",
+      "sha256": "6a196ad4b95b358bbd35add358a81a0ff1aab9828b38469072f0f6409e31d907",
+      "bytes": 26301,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/mikktspace/mikktspace.hh",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/rna_mesh_api.cc",
+      "sha256": "44894ffaaa4f4ec5a68fe327f1f7136e5d4b9b5c747e3322449c0a5d9bcaf489",
+      "bytes": 16244,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/source/blender/makesrna/intern/rna_mesh_api.cc",
+      "license": "GPL-2.0-or-later",
+      "modified": false
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\CORNER_BASIS_RECEIPT.json": {
+      "sha256": "089f19b0251fdccda226daac7bd81e4743c8dbbd647cbb3c2fb756b7195305fa",
+      "bytes": 14309
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz": {
+      "sha256": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473",
+      "bytes": 1655757
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_corner_basis.npz": {
+      "sha256": "c6a1065172c27ebcbdc1a7b34325cabee3c6420aa44c2a562434f9ea23aea4ad",
+      "bytes": 664990
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz": {
+      "sha256": "3f344df1e67f21fd54cdcd4eff5cb6800b42f84753a41f8132f136aff324024f",
+      "bytes": 1500794
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_corner_basis.npz": {
+      "sha256": "4c1fabffdd7b10747aacd7221a5e9af37a6c75e54ee71eba4605c9d77a9a1799",
+      "bytes": 940120
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz": {
+      "sha256": "10dc21ad3da91368ba44f2a7fe40cc960eb2ade2c8515e28147b97d223388c79",
+      "bytes": 1506327
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_corner_basis.npz": {
+      "sha256": "1b9bec4d5da9f44c91a4d20521260cef60b9874f6e2a3442bea11cd72a6a4e11",
+      "bytes": 941853
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Hair_Replacement_R4_original_mesh.npz": {
+      "sha256": "4e9436625413c22e2871bc9e7fdf4cd88cdd0af5b34119a318df3f93a9996142",
+      "bytes": 696023
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Hair_Replacement_R4_corner_basis.npz": {
+      "sha256": "48fa9a090c12816a3874818d8d9bd38c3b49e6f98331accc22cf140c5df674c6",
+      "bytes": 318758
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.1_original_mesh.npz": {
+      "sha256": "dd45c0b334041cf6cbfd89d44accb677233d0bcc3741491856fd35616dad3492",
+      "bytes": 71876
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.1_corner_basis.npz": {
+      "sha256": "59446efe04e7c8bb68df5eed7f96a217de0e78a2c6d2668b42fa89c7c2222d35",
+      "bytes": 5878
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.2_original_mesh.npz": {
+      "sha256": "2445d1ed47a9cd8604dc551b89ffdd365cb610de4587efd1b8bb4adaad40308b",
+      "bytes": 67870
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.2_corner_basis.npz": {
+      "sha256": "c187a746572d7cd3d63d2ccc45c378a6d21b6d24ea57c2717434d6bcbdbf6c15",
+      "bytes": 5190
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.3_original_mesh.npz": {
+      "sha256": "fcc01ca3395b7439fd144742a042710d094089c89c465d2e886900a83d9873c5",
+      "bytes": 45877
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.3_corner_basis.npz": {
+      "sha256": "614b4e1367c601bb92cf5bfeb355b64027344e03224c9b054e04db0a6f6f2ae8",
+      "bytes": 3379
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.4_original_mesh.npz": {
+      "sha256": "94acf280365bc83ab86bb3e815db775762d89ce7cfd6bde34d5a42ac1c2735d0",
+      "bytes": 42302
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.4_corner_basis.npz": {
+      "sha256": "168b7d338492e4fbedd3420a07875f0930acc1ac3db630c575c41fa5e5bd6c76",
+      "bytes": 3024
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.5_original_mesh.npz": {
+      "sha256": "4d4fff698ebcc478f966428b0972bb849b5a5fe5f47df25d44672acf5af27dfa",
+      "bytes": 38256
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.L.5_corner_basis.npz": {
+      "sha256": "54bab565d9e1c740f5a0ceca2c23e08dbc63e2c953279b8f800f0b6f3fa23846",
+      "bytes": 2916
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.1_original_mesh.npz": {
+      "sha256": "74a7a69a5da46f210a15d2bc2250a4d7d4ad6f59d02515e3dc01043e63126f1b",
+      "bytes": 72841
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.1_corner_basis.npz": {
+      "sha256": "6b776cfa5cb263f98899c98344fa5f382aabe8a9584d46315c6af0e476feb7c3",
+      "bytes": 5871
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.2_original_mesh.npz": {
+      "sha256": "e18abf406764e32fbfd1beeff368cedda78be358a57461cf3fdc730cccfe0f8d",
+      "bytes": 44639
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.2_corner_basis.npz": {
+      "sha256": "1f6a311e4750a2a5334c37eb410a231a0fe9d2aa1f6bb2dacb189500feb3246c",
+      "bytes": 3220
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.3_original_mesh.npz": {
+      "sha256": "452c253f43f359d6dfe7267560046be1897c6be443db6ba5b32e45c4cc52e271",
+      "bytes": 41480
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.3_corner_basis.npz": {
+      "sha256": "094e770c07a0ab016da18514c8916d87961149a84a7bf603ccea66866bbef6f7",
+      "bytes": 3153
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.4_original_mesh.npz": {
+      "sha256": "ad6000cd155bcdb6face12acb83abadd7c04e89f7f186c641c4cc868309f973b",
+      "bytes": 41157
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.4_corner_basis.npz": {
+      "sha256": "94329496083bce28da86c9a5a136c73a0f142fb54b135cfae4dbeeef9bfc1445",
+      "bytes": 2993
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.5_original_mesh.npz": {
+      "sha256": "17ebecf61bb422df6ed1602297569c9c7a996a7ee43e56eb8e019b5bc5072c74",
+      "bytes": 39363
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LashRootRepair.R.5_corner_basis.npz": {
+      "sha256": "fa63ef34586edd8a16748473e3f463d7225e513c643f10246855313e6d3edbcd",
+      "bytes": 2840
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.L_original_mesh.npz": {
+      "sha256": "8f71dd36ebffe1de1201b057d2839ea89a2446f6a9fa6ab95f8f22084ed85e9e",
+      "bytes": 41325
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.L_corner_basis.npz": {
+      "sha256": "7006b2ad8bcc52d15a923d0f789a8ff5f7c0286e4026ba7771ab67b389c6e068",
+      "bytes": 20306
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.R_original_mesh.npz": {
+      "sha256": "bfac2108fb153b0c472337a50544134f9624ffaae6c08d03d80f83b116bce00b",
+      "bytes": 44369
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\LowerLashesClean.R_corner_basis.npz": {
+      "sha256": "40c3e3dd9147c2931f8132759d59d13baf6856abc3b7434ca273331912510959",
+      "bytes": 21910
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.L_original_mesh.npz": {
+      "sha256": "d212c12dd234cd90e87a37843d795b9a368e175cff0a6278d18aba6e86fc0b9b",
+      "bytes": 5283
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.L_corner_basis.npz": {
+      "sha256": "8db97e44b6abd8c7bd4d08193bda3b16b0ff8cc3e38bc3cd0e737bf40f85e5ab",
+      "bytes": 2475
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.R_original_mesh.npz": {
+      "sha256": "10e3ef5a383508ed990b0bdf0b4ebd82afcff63c8f2786cac144f80117017479",
+      "bytes": 5278
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\MedialBacking.R_corner_basis.npz": {
+      "sha256": "9676dd7dbb840edde6b1aa603920648542a68d5cbb7d7b7edf2ce598a6a1b367",
+      "bytes": 2475
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz": {
+      "sha256": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f",
+      "bytes": 6179188
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_corner_basis.npz": {
+      "sha256": "510dc196bec19df6a378672595692f863db00ef80591aae661053969d946f7e9",
+      "bytes": 2215641
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.L_original_mesh.npz": {
+      "sha256": "d09c8d2b6fb13ea6003f1ff365d644532b6a00d6a6553b441dd28a460ca72792",
+      "bytes": 275630
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.L_corner_basis.npz": {
+      "sha256": "0d94e36bd4e201e71854295bb95bb66f53da9089891370bb775475a1ff372ad3",
+      "bytes": 22027
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.R_original_mesh.npz": {
+      "sha256": "4ce51f34d5a3a203670e88ad016bdeb547155a462abbeb602ae061cdc36dce39",
+      "bytes": 301649
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\OriginalMedialLashes.R_corner_basis.npz": {
+      "sha256": "6ed58c491d17b313301e2930eace72f0861ce5354e9d9d408f72d6d27d1cb3d6",
+      "bytes": 24190
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\RAW_POSE_DRIVER_STAGE_MANIFEST.json": {
+      "sha256": "04f07292fcb0525937b6f709fddd9055d581d929b3328b03b50052ecf9bc8aaf",
+      "bytes": 118075
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\YRA_R4_Startle_Short_frame011_seven_stages.npz": {
+      "sha256": "6dd787b15e809fd36bb6f1275c2a66f6665a0b0b524d0ca455d73e7ff58c4c7c",
+      "bytes": 12735974
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_seven_stages.npz": {
+      "sha256": "4b984a84170c548bc09d7d96bd39d8977b7d3069bec9b11d613bd979b7b4717f",
+      "bytes": 12735520
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-gaze-evaluated-corner-reference-r1\\GAZE_EVALUATED_CORNER_MANIFEST.json": {
+      "sha256": "10873587139fd04873ea703d512ebe3eef8ce0b142162df8931f084e6854a86e",
+      "bytes": 56900
+    }
+  }
+}
