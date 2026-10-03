@@ -1,0 +1,16 @@
+{
+  "status": "FILE_ONLY_AST_COMPILE_AND_HASH_BINDINGS_PASS",
+  "launcher_ast_compile": true,
+  "fixed_CreateProcess_call_count": 1,
+  "probes_or_native_jobs_executed": 0,
+  "Blender_launched": false,
+  "launcher_executed": false,
+  "collector_executed": false,
+  "runtime_owned_handle_image_race": "NOT_RUN",
+  "runtime_native_ABI_limit_readback": "NOT_RUN",
+  "input_dependency_hashes_verified": true,
+  "source_proposal_unchanged": true,
+  "R5_file_unchanged": true,
+  "config_sha256": "a50e239f2f05061e97beaf8ce42c10cd90b731fb382c27b455347de4e9230ab2",
+  "launcher_sha256": "a861300f4bff07813799958d8c6400a874360a61023b095e72b9917c36926eb8"
+}
