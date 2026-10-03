@@ -1,0 +1,77 @@
+{
+  "case": "probe-success",
+  "status": "FAIL",
+  "argv": [
+    "C:\\Program Files\\Python313\\python.exe",
+    "-I",
+    "-S",
+    "-c",
+    "import time;print('FIXED_READONLY_GUARD_PROBE',flush=True);time.sleep(0.05)"
+  ],
+  "exe_sha256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+  "inputs_before": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "small_read_purpose": "PM_AUTHORIZED_PREPARE_AND_FIXED_PROBES_ONLY",
+  "human_large_resource_acquisition_approved": false,
+  "job_limit_readback_verified": true,
+  "pid": 132348,
+  "thread_id": 56912,
+  "creation_FILETIME": 134355056196448568,
+  "created_suspended": true,
+  "assigned_before_resume": true,
+  "active_before_resume": 1,
+  "exit_code": 0,
+  "termination_reason": null,
+  "active_after_exit": 0,
+  "total_job_processes": 2,
+  "limit_terminated_processes": 0,
+  "final_job_pids": [],
+  "error": "AssertionError()",
+  "owned_process_signaled_after_job_close": true,
+  "resources_samples": [
+    {
+      "free_RAM_bytes": 32543760384,
+      "free_C_bytes": 264264093696
+    },
+    {
+      "free_RAM_bytes": 32543698944,
+      "free_C_bytes": 264264093696,
+      "associated_job_pids": [
+        132348
+      ]
+    },
+    {
+      "free_RAM_bytes": 32543150080,
+      "free_C_bytes": 264264093696,
+      "associated_job_pids": [
+        132348,
+        14228
+      ]
+    },
+    {
+      "free_RAM_bytes": 32543068160,
+      "free_C_bytes": 264264093696,
+      "associated_job_pids": [
+        132348,
+        14228
+      ]
+    }
+  ],
+  "wall_seconds": 0.10586999997030944,
+  "limits": {
+    "affinity_mask": 3,
+    "process_and_job_RAM_bytes": 8589934592,
+    "active_process_limit": 1,
+    "watchdog_seconds": 3,
+    "kill_on_close": true
+  },
+  "inputs_after": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "guard_sha256": "0576aafca1e87cdd3ef8c7c6c37dd85e91ff9a4fd07a77653ae7f9096fff2ac5"
+}

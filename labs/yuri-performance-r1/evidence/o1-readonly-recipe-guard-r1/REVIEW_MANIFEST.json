@@ -1,0 +1,98 @@
+{
+  "status": "PREPARED_NOT_APPROVED_BLENDER_NOT_RUN",
+  "scope": "INSTALLED_BLENDER_SOURCE_DATA_READ_ONLY",
+  "guard_sha256": "35d7c08503759c0be1f6e3e99b78e45309d84061659aab5f590cb0d01c7c21eb",
+  "verifier_sha256": "4c84215c6a61addf220b1a8cf408ae8e675cbb8aceca35158452d8869a8cd763",
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "python_sha256": "d87063e5597f257004c731b66c59c56c91038861c6877b1a3dca6b8c4e919125",
+  "probe_manifest_sha256": "2c33e8c04dbfb8f61f9d45fb8e8d9b281832d8551b08ae168a8fb2a385224b77",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--disable-autoexec",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "-t",
+    "2",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_readonly_recipe_verifier_r1.py"
+  ],
+  "output_root": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-readonly-recipe-guard-r1-review-candidate",
+  "source_identity_output": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-readonly-recipe-guard-r1-review-candidate\\source-identity.json",
+  "approval_receipt_required_but_absent": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-readonly-recipe-guard-r1-review-candidate\\PM_REVIEW_SOURCE_READ_APPROVED.json",
+  "PM_reviewed_frozen_guard_verifier_argv_and_actual_probe_receipts": false,
+  "PM_reviewed_raw_job_accounting_and_PID_list_anomaly": false,
+  "human_large_resource_acquisition_approved": false,
+  "custom_native_build_trace_capture_approved": false,
+  "source_action_recipe_current_sha256": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "limits": {
+    "CPU_affinity": 3,
+    "Blender_threads": 2,
+    "process_and_job_RAM_bytes": 8589934592,
+    "active_process_limit": 1,
+    "source_watchdog_seconds": 120,
+    "min_free_RAM_bytes": 12884901888,
+    "min_free_C_bytes": 107374182400,
+    "kill_on_close": true
+  },
+  "probes": [
+    {
+      "case": "probe-success",
+      "pid": 134120,
+      "exit_code": 0,
+      "active_after": 0,
+      "final_job_pids": [],
+      "total_processes": 2,
+      "limit_terminated": 0
+    },
+    {
+      "case": "probe-timeout",
+      "pid": 121188,
+      "exit_code": 88,
+      "active_after": 0,
+      "final_job_pids": [],
+      "total_processes": 2,
+      "limit_terminated": 0
+    }
+  ],
+  "accounting_caveat": "Raw total association count and transient additional PID observations retained. Cause/admission status unresolved. Readback verifies configured limit1; no claim of identified extra executable. PM must review before source route.",
+  "no_network_routes": "Fixed scripts have no network/download code. Job object is not a network security sandbox.",
+  "Blender_launches": 0,
+  "live_source_identity": "NOT_RUN",
+  "native_numeric_acceptance": false,
+  "frozen_files": {
+    "probe-success.json": {
+      "bytes": 3388,
+      "sha256": "643fed9a72e7060ecc864d96b850e99f7c96b9522c01c12b7b6dc1492215d864"
+    },
+    "probe-success.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "probe-timeout.json": {
+      "bytes": 4533,
+      "sha256": "03a65bb02bf5b3294d8819ef69260c0b8aeba8e26b95f472d2731d5a4626aaf4"
+    },
+    "probe-timeout.log": {
+      "bytes": 28,
+      "sha256": "75b25c7dd383af342ee2018c747d19045254848db990f590b3fffb3ef5870e64"
+    },
+    "PROBE_MANIFEST.json": {
+      "bytes": 9042,
+      "sha256": "2c33e8c04dbfb8f61f9d45fb8e8d9b281832d8551b08ae168a8fb2a385224b77"
+    },
+    "r4_readonly_owned_job_guard_r1.py": {
+      "bytes": 11403,
+      "sha256": "35d7c08503759c0be1f6e3e99b78e45309d84061659aab5f590cb0d01c7c21eb"
+    },
+    "r4_readonly_recipe_verifier_r1.py": {
+      "bytes": 3656,
+      "sha256": "4c84215c6a61addf220b1a8cf408ae8e675cbb8aceca35158452d8869a8cd763"
+    }
+  }
+}
