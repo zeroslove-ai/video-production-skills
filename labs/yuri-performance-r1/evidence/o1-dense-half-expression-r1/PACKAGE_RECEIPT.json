@@ -1,0 +1,21 @@
+{
+  "archive": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_DENSE_HALF_EXPRESSION_20261003_R1_b262bd4d62d8.zip",
+  "bytes": 4959867,
+  "sha256": "b262bd4d62d83823c5febe9f9c3f2903943123ef02df293542b30c7d35b7cc87",
+  "members": 8,
+  "CRC_all_member_SHA_verified": true,
+  "dense_NPZ": {
+    "path": "R4_Existing_DirectMorph_Half_Dense_20261003_R1.npz",
+    "bytes": 4923861,
+    "sha256": "e1ef053db04440e29d945330a87138a8e8cf05baaa16e5d710174b0882fcc83f",
+    "arrays": 105
+  },
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_component_diff": {},
+  "head_all_indices": 12928,
+  "head_loose_indices": 835,
+  "prior_half_summary_exact_match": true,
+  "OFF_return_geometry_max_m": 0,
+  "data_only": true,
+  "next": "PM REVIEW"
+}

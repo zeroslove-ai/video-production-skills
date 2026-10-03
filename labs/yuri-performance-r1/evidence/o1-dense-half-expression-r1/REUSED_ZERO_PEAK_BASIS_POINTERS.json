@@ -1,0 +1,50 @@
+[
+  {
+    "frozen_ZIP_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+    "path": "data/neutral.npz",
+    "bytes": 5241717,
+    "sha256": "0cf58035a3892ed28d1888790fb45850d895bf55a0911ed45c8a104bc32200be",
+    "zero_array": "<renderer>_world_position",
+    "peak_array": null
+  },
+  {
+    "frozen_ZIP_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+    "path": "data/manual_morph_peak_geometry.npz",
+    "bytes": 4919055,
+    "sha256": "96914e07caf95566692762ec99f30bc6a5cbb4c655057462bb0896ed77f85b9f",
+    "zero_array": null,
+    "peak_array": "<group>_<renderer>"
+  },
+  {
+    "frozen_ZIP_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+    "path": "metadata/MANUAL_MORPH_RECEIPT.json",
+    "bytes": 230279,
+    "sha256": "3a8fd2289cf7f3d300087c402e61d469403c0d971fc0270beb266700a59aeaa7",
+    "zero_array": null,
+    "peak_array": null
+  },
+  {
+    "frozen_ZIP_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+    "path": "metadata/mesh_slot_UV_attributes_shape_deltas.json",
+    "bytes": 2489830,
+    "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+    "zero_array": null,
+    "peak_array": null
+  },
+  {
+    "frozen_ZIP_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+    "path": "metadata/executable_geometry_node_graphs.json",
+    "bytes": 440833,
+    "sha256": "4bd6793dbd7767ed351e1b57159335ceef72996fcf29a0ee78c088ce1da8e5f0",
+    "zero_array": null,
+    "peak_array": null
+  },
+  {
+    "frozen_ZIP_sha256": "080352e24adb9db33e76e92d8aca9836aeaf444ed75818c29e2970a32dae47df",
+    "path": "metadata/MATERIAL_SHADER_DRIVER_RECEIPT.json",
+    "bytes": 42746,
+    "sha256": "e83ffb132cea2ebd1a4a4c8e556b53c23add2ea175a27212c4a6c0d530b21c77",
+    "zero_array": null,
+    "peak_array": null
+  }
+]
