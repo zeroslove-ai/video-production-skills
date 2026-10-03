@@ -1,11 +1,11 @@
 """Freeze existing data in independently readable <=100MiB ZIP volumes.
-Usage: python this.py gaze|body|weights|bind|basis|corners|modifiers|rawpose|normals|renderdeps. No Blender/source access.
+Usage: python this.py gaze|body|weights|bind|basis|corners|modifiers|rawpose|normals|renderdeps|cyclesinputs. No Blender/source access.
 """
 import sys,json,hashlib,zipfile
 from pathlib import Path
 LAB=Path(__file__).resolve().parent.parent
 BASE=Path(r'C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs')
-mode=sys.argv[-1];assert mode in ('gaze','body','weights','bind','basis','corners','modifiers','rawpose','normals','renderdeps')
+mode=sys.argv[-1];assert mode in ('gaze','body','weights','bind','basis','corners','modifiers','rawpose','normals','renderdeps','cyclesinputs')
 slug='o1-gaze-evaluated-corner-reference-r1' if mode=='gaze' else 'o1-full-body-deformation-reference-r1'
 name='GAZE_EVALUATED_CORNER_MANIFEST.json' if mode=='gaze' else 'FULL_BODY_DEFORMATION_MANIFEST.json'
 prefix='YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1' if mode=='gaze' else 'YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1'
@@ -33,6 +33,9 @@ if mode=='normals':
 if mode=='renderdeps':
     slug='o1-body-render-tangent-dependency-r1';name='BODY_RENDER_TANGENT_DEPENDENCY_RECEIPT.json'
     prefix='YURI_O1_R4_BODY_RENDER_TANGENT_DEPENDENCY_20261003_R1'
+if mode=='cyclesinputs':
+    slug='o1-dynamic-body-cycles-input-reference-r1';name='DYNAMIC_BODY_CYCLES_INPUT_MANIFEST.json'
+    prefix='YURI_O1_R4_DYNAMIC_BODY_CYCLES_INPUTS_20261003_R1'
 E=LAB/'evidence'/slug;OUT=BASE/slug
 def sha(p):
     h=hashlib.sha256()
@@ -54,9 +57,13 @@ if mode=='modifiers':script='r4_body_modifier_source_contract.py'
 if mode=='rawpose':script='r4_raw_pose_driver_stage_reference.py'
 if mode=='normals':script='r4_corner_normal_tangent_semantics.py'
 if mode=='renderdeps':script='r4_body_render_tangent_dependency.py'
+if mode=='cyclesinputs':script='r4_dynamic_body_cycles_input_reference.py'
 for n in (script,'r4_source_reference_packet_freeze.py'):files['scripts/'+n]=LAB/'scripts'/n
 if mode=='rawpose':
     for n in ('r4_raw_pose_driver_stage_verify.py','r4_appearance_signature.py','r4_appearance_adapter.py','native_preservation.py'):
+        files['scripts/'+n]=LAB/'scripts'/n
+if mode=='cyclesinputs':
+    for n in ('r4_dynamic_body_cycles_input_recover.py','r4_appearance_signature.py','r4_appearance_adapter.py','native_preservation.py'):
         files['scripts/'+n]=LAB/'scripts'/n
 file_manifest={n:{'sha256':sha(p),'bytes':p.stat().st_size} for n,p in files.items()}
 dest=Path(r'C:/YuriTransfer/outbox')/(prefix+'_'+digest[:12]);dest.mkdir(exist_ok=True)

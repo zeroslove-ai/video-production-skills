@@ -1,0 +1,2474 @@
+{
+  "task_id": "ROOT_PM_O1_DYNAMIC_BODY_CYCLES_INPUT_REFERENCE_R1",
+  "status": "DONE_EVALUATED_INPUT_REFERENCE_JSON_RECOVERED_ACTUAL_CYCLES_BUFFER_HOLD",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": {
+      "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+      "bytes": 9318285
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\SOURCE_COMPONENT_DIFF.json": {
+      "sha256": "de99320acf7dfd9e489f1aefb8134c416a08b2f5e32c850291d18dd0c0f10041",
+      "bytes": 73142
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\FULL_BODY_DEFORMATION_MANIFEST.json": {
+      "sha256": "d8ec32b42adf4cb2f4a6dea280eb98149789c047af0a4bb498e9a978250afc2e",
+      "bytes": 160772
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_original_mesh.npz": {
+      "sha256": "e1de4ce96f09d91ae93b7292ab2d67a12d40f8f6f56e9c040d589d8b5ff08c3f",
+      "bytes": 6179188
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Meshy_Body_NeutralCovered_corner_basis.npz": {
+      "sha256": "510dc196bec19df6a378672595692f863db00ef80591aae661053969d946f7e9",
+      "bytes": 2215641
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\metadata\\source_expanded_rigs.json": {
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694",
+      "bytes": 560498
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-unity-probe-r1\\reference\\native_evaluated_all_frames.json.gz": {
+      "sha256": "03fdaaad90211f411910024b94ea27a6e3d6f0728578513a5c1825d33d1d71a3",
+      "bytes": 12545560
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\RAW_POSE_DRIVER_STAGE_MANIFEST.json": {
+      "sha256": "04f07292fcb0525937b6f709fddd9055d581d929b3328b03b50052ecf9bc8aaf",
+      "bytes": 118075
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-raw-pose-driver-stage-reference-r1\\R4_All6_Raw_Pose_Quaternions_And_Five_Driver_Factors.npz": {
+      "sha256": "c2b2534e46eb0b5ef20a6f48a588dc14175156c1f65c7821045c6d0e99eff900",
+      "bytes": 163626
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Startle_Short\\frames_001_004.npz": {
+      "sha256": "74f933e835847c1b929d07cb1f211931450e6829df191fd335ac4e3c67172e51",
+      "bytes": 20211444
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Startle_Short\\frames_009_012.npz": {
+      "sha256": "427945069db41714cfd8bc43f6906f25ce24d35543b63bd0e979c4f042f5abd5",
+      "bytes": 20198561
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Struggle_Strong_Loop\\frames_005_008.npz": {
+      "sha256": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+      "bytes": 20196590
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-full-body-deformation-reference-r1\\YRA_R4_Struggle_Strong_Loop\\frames_041_044.npz": {
+      "sha256": "4586df2bf40fd5673a6718c86eee1022e68617ffd477b85c90ad47d9c0c14832",
+      "bytes": 20182111
+    },
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe": {
+      "sha256": "88c8344236a27a6e727e0a8edc49aaa2690bdc7a9464b9d18cc7abe70a9f1c0d",
+      "bytes": 677736
+    }
+  },
+  "source_component_diff": {},
+  "source_input_bytes_unchanged": true,
+  "preservation_evidence": "Original one-job code reached SOURCE_COMPONENT_DIFF={} and all frozen SHA checks before the final manifest JSON int64 exception. Recovery independently rehashes master/library, validates persisted arrays and identical before/after fingerprints.",
+  "original_Actions_preserved": 78,
+  "original137_rest_and_hierarchy_preserved": true,
+  "muted13_bridge_contract": "Original job explicitly asserted13 source bridge mute flags before load of two reaction Actions and again before manifest write; source object/driver fingerprints match on OFF return.",
+  "all137_world_pose_validation": "Original four-frame job asserted zero element delta against native_evaluated_all_frames at every frame before each NPZ write; raw current-job matrix rows were not persisted.",
+  "source_saved": false,
+  "export_render_GPU_tasks": 0,
+  "existing_GUI_touched": false,
+  "coordinate_policy": "Actual evaluated local geometry and Blender world meters Z-up; row normal normalized with inverse object linear; original source corner/polygon/control-point IDs, no Unity basis conversion.",
+  "frames": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 1,
+      "authored_seconds": 0.0,
+      "Action": "YRA_R4_Startle_Short",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "file": {
+        "path": "YRA_R4_Startle_Short_frame001_actual_evaluated_cycles_inputs.npz",
+        "sha256": "d4567d1d9035eec012f65c48d02a929f31608de04bca8e651cc67f2a9862ecde",
+        "bytes": 6105837,
+        "uncompressed_bytes": 16029196,
+        "arrays": {
+          "current_local_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_local_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_corner_UVMap": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "float32"
+          },
+          "current_triangle_source_corners": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_vertices": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_polygon": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_material_slot": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "body_object_world": {
+            "shape": [
+              4,
+              4
+            ],
+            "dtype": "float64"
+          },
+          "source_vertex_id": {
+            "shape": [
+              63561
+            ],
+            "dtype": "int32"
+          },
+          "original_corner_to_source_vertex": {
+            "shape": [
+              254602
+            ],
+            "dtype": "int32"
+          },
+          "original_custom_normal_short2": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "int16"
+          }
+        }
+      },
+      "triangles": 127040,
+      "full_body_reference_exact_deltas": {
+        "local_position": 0.0,
+        "world_position": 0.0,
+        "local_corner_normal": 0.0,
+        "world_corner_normal": 0.0
+      },
+      "reference_chunk": "YRA_R4_Startle_Short/frames_001_004.npz",
+      "reference_chunk_sha256": "74f933e835847c1b929d07cb1f211931450e6829df191fd335ac4e3c67172e51",
+      "rest_triangulation_comparison": {
+        "triangle_rows_different_from_rest": 11,
+        "polygons_with_different_rows": 5,
+        "corner_set_topology_changed_polygons": 5,
+        "triangle_order_or_winding_only_polygons": 0,
+        "quad_diagonal_changed_polygons": 0,
+        "ngon_triangulation_changed_polygons": 5,
+        "changed_source_polygon_ids": [
+          62555,
+          63450,
+          63483,
+          63514,
+          63678
+        ],
+        "order_only_source_polygon_ids": []
+      },
+      "original_packed_custom_normal_unchanged": true,
+      "original_UV_and_source_corner_route_exact": true,
+      "prior_frozen_raw_quaternion_wxyz": [
+        [
+          1.0000001192092896,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0000001192092896,
+          -1.1920928955078125e-07,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999998807907104,
+          8.940696716308594e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999998807907104,
+          -8.940696716308594e-08,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          2.086162567138672e-07,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          -1.1920928955078125e-07,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          -1.7763568394002505e-15,
+          1.9930302741499872e-08,
+          -3.1888486518028e-08
+        ],
+        [
+          1.0,
+          -2.092681405940766e-08,
+          -2.491288508821299e-09,
+          -5.1818787483171036e-08
+        ],
+        [
+          1.0,
+          2.0961756774795504e-09,
+          9.313225746154785e-08,
+          -3.390215219667425e-09
+        ],
+        [
+          1.0,
+          -9.299858660938298e-09,
+          -4.470348358154297e-08,
+          -4.790480900851435e-08
+        ],
+        [
+          1.0,
+          -4.818464294231717e-09,
+          7.450580596923828e-08,
+          -4.987037272030648e-08
+        ],
+        [
+          0.9999998211860657,
+          -2.3787954717136017e-08,
+          -5.960464477539063e-08,
+          1.3162589240778289e-08
+        ],
+        [
+          0.9999999403953552,
+          -2.8876680602252236e-08,
+          -2.9802322387695312e-08,
+          1.1753991557839072e-08
+        ],
+        [
+          1.0000001192092896,
+          5.5034242052443005e-08,
+          4.470348358154297e-08,
+          6.382343542554736e-10
+        ],
+        [
+          1.0,
+          3.398221437578286e-08,
+          -1.4901161193847656e-08,
+          -1.4211602561431391e-08
+        ],
+        [
+          1.0000001192092896,
+          -3.084181798840291e-08,
+          -1.4901161193847656e-08,
+          2.685368372112862e-09
+        ],
+        [
+          0.9999998807907104,
+          6.9548526937524e-08,
+          1.4901161193847656e-08,
+          -4.058949087948349e-08
+        ],
+        [
+          1.0,
+          -6.918322270621502e-08,
+          0.0,
+          3.964584749382993e-08
+        ],
+        [
+          1.0,
+          -3.397280323724772e-08,
+          0.0,
+          -4.534570052783238e-09
+        ],
+        [
+          1.0,
+          -8.72626415571176e-11,
+          -1.4901161193847656e-08,
+          1.511807390386366e-08
+        ],
+        [
+          1.0,
+          -4.553314170152589e-09,
+          2.9802322387695312e-08,
+          -3.5829401667797356e-09
+        ],
+        [
+          0.9999998807907104,
+          2.9215218688705136e-08,
+          1.4901161193847656e-08,
+          2.0548629464656187e-09
+        ],
+        [
+          1.0000001192092896,
+          -5.99171769977147e-08,
+          -1.4901161193847656e-08,
+          1.0938521199932438e-09
+        ],
+        [
+          0.9999998807907104,
+          -5.895768495634002e-08,
+          0.0,
+          -2.264346932179251e-09
+        ],
+        [
+          1.0000001192092896,
+          7.95823993371414e-08,
+          0.0,
+          8.656655836603022e-08
+        ],
+        [
+          1.0,
+          2.3856820519085886e-08,
+          4.470348358154297e-08,
+          2.916625163607023e-09
+        ],
+        [
+          0.9999999403953552,
+          -9.027326086652465e-08,
+          -2.9802322387695312e-08,
+          3.681712712477747e-09
+        ],
+        [
+          1.0,
+          -1.554563624495131e-07,
+          -5.854527529436382e-09,
+          -7.084598685480614e-09
+        ],
+        [
+          1.0,
+          2.0961756774795504e-09,
+          -9.313225746154785e-08,
+          3.390215219667425e-09
+        ],
+        [
+          1.0,
+          -9.299858660938298e-09,
+          4.470348358154297e-08,
+          4.790480900851435e-08
+        ],
+        [
+          1.0,
+          -4.818464294231717e-09,
+          -7.450580596923828e-08,
+          4.987037272030648e-08
+        ],
+        [
+          0.9999998211860657,
+          -2.3787954717136017e-08,
+          5.960464477539063e-08,
+          -1.3162589240778289e-08
+        ],
+        [
+          1.0000001192092896,
+          -6.069588209811627e-08,
+          1.4901161193847656e-08,
+          -3.7102108052522453e-09
+        ],
+        [
+          1.0000001192092896,
+          6.436643928964259e-08,
+          -2.9802322387695312e-08,
+          4.599247560577169e-08
+        ],
+        [
+          1.0,
+          5.646917600188317e-08,
+          -1.4901161193847656e-08,
+          -2.556172873369178e-08
+        ],
+        [
+          1.0000001192092896,
+          -3.084181798840291e-08,
+          1.4901161193847656e-08,
+          -2.685368372112862e-09
+        ],
+        [
+          0.9999999403953552,
+          3.4366966161769597e-08,
+          -1.4901161193847656e-08,
+          1.1791986054277004e-08
+        ],
+        [
+          1.0,
+          -6.882049063960949e-08,
+          -2.9802322387695312e-08,
+          -8.906472004355237e-09
+        ],
+        [
+          0.9999998211860657,
+          -5.8867506425031024e-08,
+          2.9802322387695312e-08,
+          -1.3068852666719977e-08
+        ],
+        [
+          1.0,
+          -4.490743776841555e-09,
+          -1.4901161193847656e-08,
+          -1.1162745394699414e-08
+        ],
+        [
+          1.0,
+          2.8830058340645337e-09,
+          1.4901161193847656e-08,
+          7.166317317341964e-09
+        ],
+        [
+          0.9999998807907104,
+          2.9215218688705136e-08,
+          -1.4901161193847656e-08,
+          -2.0548629464656187e-09
+        ],
+        [
+          1.0000001192092896,
+          -2.909143326235153e-08,
+          4.470348358154297e-08,
+          -2.7314220218954688e-08
+        ],
+        [
+          1.0,
+          -5.998110452765104e-08,
+          0.0,
+          1.3583555613649878e-08
+        ],
+        [
+          1.0000001192092896,
+          7.923908640350419e-08,
+          0.0,
+          -8.855016631059698e-08
+        ],
+        [
+          1.0,
+          2.69085873583208e-08,
+          -2.9802322387695312e-08,
+          2.6027926480765018e-09
+        ],
+        [
+          1.0,
+          -9.02732537610973e-08,
+          2.9802322387695312e-08,
+          -3.6817020543367107e-09
+        ],
+        [
+          1.0,
+          1.8535183698986657e-07,
+          -7.972121807142685e-08,
+          -1.8535180856815714e-07
+        ],
+        [
+          1.0,
+          -2.7404173152945077e-08,
+          5.723735796436813e-08,
+          7.97212429404226e-09
+        ],
+        [
+          -1.0000001192092896,
+          -6.71876421165507e-08,
+          -5.587935447692871e-09,
+          4.0041962279246945e-07
+        ],
+        [
+          0.9999998807907104,
+          1.7977525601509114e-07,
+          7.275957614183426e-08,
+          7.979322163009783e-07
+        ],
+        [
+          1.0,
+          -8.94070737444963e-08,
+          3.825161627446505e-07,
+          -3.0428864761233854e-07
+        ],
+        [
+          1.0,
+          1.2181877922579683e-14,
+          -5.355757437541797e-08,
+          9.207127504851087e-09
+        ],
+        [
+          -1.0000001192092896,
+          -6.601300128750154e-08,
+          6.705522537231445e-08,
+          -3.9762568349033245e-07
+        ],
+        [
+          0.9999998807907104,
+          1.796934157027863e-07,
+          5.238689482212067e-09,
+          -8.05267291070777e-07
+        ],
+        [
+          1.0,
+          -8.940706663906894e-08,
+          -3.945910691527388e-07,
+          2.930972868853132e-07
+        ],
+        [
+          1.0,
+          -5.215405707303944e-08,
+          2.424383538368602e-08,
+          -3.832923312074854e-09
+        ]
+      ],
+      "prior_frozen_five_factors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_property_provenance": "Reused actual prior 424517b raw capture, not recovered from current triangles or presented as newly persisted current-job raw pose rows.",
+      "not_actual_Cycles_renderer_buffer": true
+    },
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "authored_seconds": 0.4166666666666667,
+      "Action": "YRA_R4_Startle_Short",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "file": {
+        "path": "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+        "sha256": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+        "bytes": 6104160,
+        "uncompressed_bytes": 16029196,
+        "arrays": {
+          "current_local_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_local_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_corner_UVMap": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "float32"
+          },
+          "current_triangle_source_corners": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_vertices": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_polygon": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_material_slot": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "body_object_world": {
+            "shape": [
+              4,
+              4
+            ],
+            "dtype": "float64"
+          },
+          "source_vertex_id": {
+            "shape": [
+              63561
+            ],
+            "dtype": "int32"
+          },
+          "original_corner_to_source_vertex": {
+            "shape": [
+              254602
+            ],
+            "dtype": "int32"
+          },
+          "original_custom_normal_short2": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "int16"
+          }
+        }
+      },
+      "triangles": 127040,
+      "full_body_reference_exact_deltas": {
+        "local_position": 0.0,
+        "world_position": 0.0,
+        "local_corner_normal": 0.0,
+        "world_corner_normal": 0.0
+      },
+      "reference_chunk": "YRA_R4_Startle_Short/frames_009_012.npz",
+      "reference_chunk_sha256": "427945069db41714cfd8bc43f6906f25ce24d35543b63bd0e979c4f042f5abd5",
+      "rest_triangulation_comparison": {
+        "triangle_rows_different_from_rest": 25,
+        "polygons_with_different_rows": 12,
+        "corner_set_topology_changed_polygons": 12,
+        "triangle_order_or_winding_only_polygons": 0,
+        "quad_diagonal_changed_polygons": 0,
+        "ngon_triangulation_changed_polygons": 12,
+        "changed_source_polygon_ids": [
+          62516,
+          63037,
+          63118,
+          63121,
+          63147,
+          63233,
+          63361,
+          63402,
+          63422,
+          63450,
+          63672,
+          63678
+        ],
+        "order_only_source_polygon_ids": []
+      },
+      "original_packed_custom_normal_unchanged": true,
+      "original_UV_and_source_corner_route_exact": true,
+      "prior_frozen_raw_quaternion_wxyz": [
+        [
+          1.0000001192092896,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0000001192092896,
+          -1.1920928955078125e-07,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999998807907104,
+          8.940696716308594e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.9989029169082642,
+          -0.04502236843109131,
+          0.012862683273851871,
+          0.0003866031765937805
+        ],
+        [
+          1.0000001192092896,
+          8.988718036562204e-08,
+          7.683411240577698e-08,
+          -2.6542693376541138e-08
+        ],
+        [
+          0.9975121021270752,
+          0.06599820405244827,
+          -0.024718480184674263,
+          0.0016355342231690884
+        ],
+        [
+          1.0,
+          -1.7763568394002505e-15,
+          1.9930302741499872e-08,
+          -3.1888486518028e-08
+        ],
+        [
+          1.0,
+          -2.092681405940766e-08,
+          -2.491288508821299e-09,
+          -5.1818787483171036e-08
+        ],
+        [
+          0.9996230006217957,
+          0.0012344066053628922,
+          -0.016853533685207367,
+          -0.021638553589582443
+        ],
+        [
+          0.9768952131271362,
+          -0.030250176787376404,
+          0.00712171196937561,
+          -0.21144695580005646
+        ],
+        [
+          0.9585177302360535,
+          -0.1902577131986618,
+          0.19641122221946716,
+          -0.08042887598276138
+        ],
+        [
+          0.9999999403953552,
+          5.587935447692871e-08,
+          0.0,
+          -1.3969838619232178e-08
+        ],
+        [
+          0.9962440133094788,
+          -0.02773061953485012,
+          0.01833394169807434,
+          0.07995305955410004
+        ],
+        [
+          0.9981592893600464,
+          -0.019182227551937103,
+          0.013823658227920532,
+          0.05585230886936188
+        ],
+        [
+          0.9981590509414673,
+          -0.01917925477027893,
+          0.013821899890899658,
+          0.055853717029094696
+        ],
+        [
+          0.996243953704834,
+          -0.03196650370955467,
+          0.0026813745498657227,
+          0.08042743057012558
+        ],
+        [
+          0.9981588125228882,
+          -0.022449947893619537,
+          0.0018828213214874268,
+          0.05631142854690552
+        ],
+        [
+          0.9981592893600464,
+          -0.02244962751865387,
+          0.0018826127052307129,
+          0.05631169676780701
+        ],
+        [
+          0.9962438344955444,
+          -0.028311841189861298,
+          -0.011560559272766113,
+          0.08100876212120056
+        ],
+        [
+          0.9981591701507568,
+          -0.019886143505573273,
+          -0.010961264371871948,
+          0.05623982474207878
+        ],
+        [
+          0.9981588125228882,
+          -0.019886083900928497,
+          -0.01096123456954956,
+          0.05623992532491684
+        ],
+        [
+          0.9962440133094788,
+          -0.01665034517645836,
+          -0.023136287927627563,
+          0.08176253736019135
+        ],
+        [
+          0.9981590509414673,
+          -0.012253038585186005,
+          -0.01666545867919922,
+          0.05701456218957901
+        ],
+        [
+          0.9981590509414673,
+          -0.012252934277057648,
+          -0.01666519045829773,
+          0.05701451003551483
+        ],
+        [
+          1.0,
+          8.940696716308594e-08,
+          8.940696716308594e-08,
+          0.0
+        ],
+        [
+          0.9999999403953552,
+          -3.725290298461914e-09,
+          -5.960464477539063e-08,
+          -4.0978193283081055e-08
+        ],
+        [
+          0.9999998807907104,
+          -1.862645149230957e-08,
+          -2.9802322387695312e-08,
+          1.1175870895385742e-07
+        ],
+        [
+          1.0,
+          -1.554563624495131e-07,
+          -5.854527529436382e-09,
+          -7.084598685480614e-09
+        ],
+        [
+          0.9998188018798828,
+          0.0008741430938243866,
+          0.012503338046371937,
+          0.014330602250993252
+        ],
+        [
+          0.9868889451026917,
+          -0.030177544802427292,
+          -0.03394654393196106,
+          0.15487708151340485
+        ],
+        [
+          0.9733844995498657,
+          -0.15297462046146393,
+          -0.15792226791381836,
+          0.06466788053512573
+        ],
+        [
+          0.9999998807907104,
+          -0.0,
+          2.9802322387695312e-08,
+          -9.313225746154785e-08
+        ],
+        [
+          0.9962440729141235,
+          0.025699280202388763,
+          -0.02849036455154419,
+          -0.07762381434440613
+        ],
+        [
+          0.9981591105461121,
+          0.00016401708126068115,
+          -0.025373846292495728,
+          -0.05508774518966675
+        ],
+        [
+          0.998158872127533,
+          0.00016394257545471191,
+          -0.025373846292495728,
+          -0.05508790165185928
+        ],
+        [
+          0.9962441921234131,
+          0.07681328058242798,
+          -0.026768893003463745,
+          -0.02967747487127781
+        ],
+        [
+          0.9981589317321777,
+          0.027117334306240082,
+          0.023459404706954956,
+          0.04891668260097504
+        ],
+        [
+          0.9981589317321777,
+          0.027116335928440094,
+          0.02346000075340271,
+          0.048916883766651154
+        ],
+        [
+          0.996243953704834,
+          -0.07686974108219147,
+          0.03171458840370178,
+          -0.024141930043697357
+        ],
+        [
+          0.9981590509414673,
+          -0.05359062924981117,
+          0.023107916116714478,
+          -0.016510657966136932
+        ],
+        [
+          0.9981589317321777,
+          -0.05359067767858505,
+          0.023107558488845825,
+          -0.01651088148355484
+        ],
+        [
+          0.9962440133094788,
+          -0.0639415979385376,
+          0.037193477153778076,
+          -0.045007817447185516
+        ],
+        [
+          0.9981591105461121,
+          -0.04190683737397194,
+          0.026282280683517456,
+          -0.03509414196014404
+        ],
+        [
+          0.9981590509414673,
+          -0.04190676286816597,
+          0.02628210186958313,
+          -0.035094089806079865
+        ],
+        [
+          1.0,
+          2.9802322387695312e-08,
+          -1.7881393432617188e-07,
+          -2.9802322387695312e-08
+        ],
+        [
+          0.9999999403953552,
+          1.4901161193847656e-08,
+          0.0,
+          -5.960464477539063e-08
+        ],
+        [
+          0.9999999403953552,
+          -1.0058283805847168e-07,
+          5.960464477539063e-08,
+          -1.564621925354004e-07
+        ],
+        [
+          1.0,
+          1.8535183698986657e-07,
+          -7.972121807142685e-08,
+          -1.8535180856815714e-07
+        ],
+        [
+          1.0,
+          -2.7404173152945077e-08,
+          5.723735796436813e-08,
+          7.97212429404226e-09
+        ],
+        [
+          -0.9991058111190796,
+          0.042277101427316666,
+          0.00012837722897529602,
+          0.00037906982470303774
+        ],
+        [
+          0.9964783787727356,
+          0.08374985307455063,
+          -0.0031628571450710297,
+          -0.0026523303240537643
+        ],
+        [
+          0.9991324543952942,
+          -0.04159766435623169,
+          -0.00032318761805072427,
+          0.001996984239667654
+        ],
+        [
+          1.0000001192092896,
+          7.450591255064865e-09,
+          -5.0870468726316176e-08,
+          2.3864018316999136e-08
+        ],
+        [
+          -0.9991058111190796,
+          0.042277075350284576,
+          -0.0001283828169107437,
+          -0.0003787415334954858
+        ],
+        [
+          0.9964781999588013,
+          0.08374982327222824,
+          0.0031629689037799835,
+          0.002652989001944661
+        ],
+        [
+          0.9991323947906494,
+          -0.04159769415855408,
+          0.00032341526821255684,
+          -0.001997241983190179
+        ],
+        [
+          1.0,
+          -8.195637946073475e-08,
+          2.021319289724488e-08,
+          -2.581825242486957e-08
+        ]
+      ],
+      "prior_frozen_five_factors": [
+        0.019812777638435364,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_property_provenance": "Reused actual prior 424517b raw capture, not recovered from current triangles or presented as newly persisted current-job raw pose rows.",
+      "not_actual_Cycles_renderer_buffer": true
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "authored_seconds": 0.20833333333333334,
+      "Action": "YRA_R4_Struggle_Strong_Loop",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "file": {
+        "path": "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz",
+        "sha256": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd",
+        "bytes": 6103679,
+        "uncompressed_bytes": 16029196,
+        "arrays": {
+          "current_local_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_local_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_corner_UVMap": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "float32"
+          },
+          "current_triangle_source_corners": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_vertices": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_polygon": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_material_slot": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "body_object_world": {
+            "shape": [
+              4,
+              4
+            ],
+            "dtype": "float64"
+          },
+          "source_vertex_id": {
+            "shape": [
+              63561
+            ],
+            "dtype": "int32"
+          },
+          "original_corner_to_source_vertex": {
+            "shape": [
+              254602
+            ],
+            "dtype": "int32"
+          },
+          "original_custom_normal_short2": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "int16"
+          }
+        }
+      },
+      "triangles": 127040,
+      "full_body_reference_exact_deltas": {
+        "local_position": 0.0,
+        "world_position": 0.0,
+        "local_corner_normal": 0.0,
+        "world_corner_normal": 0.0
+      },
+      "reference_chunk": "YRA_R4_Struggle_Strong_Loop/frames_005_008.npz",
+      "reference_chunk_sha256": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+      "rest_triangulation_comparison": {
+        "triangle_rows_different_from_rest": 42,
+        "polygons_with_different_rows": 21,
+        "corner_set_topology_changed_polygons": 21,
+        "triangle_order_or_winding_only_polygons": 0,
+        "quad_diagonal_changed_polygons": 9,
+        "ngon_triangulation_changed_polygons": 12,
+        "changed_source_polygon_ids": [
+          1483,
+          1488,
+          1490,
+          1607,
+          1609,
+          1734,
+          1954,
+          2059,
+          29551,
+          62516,
+          62654,
+          63037,
+          63066,
+          63118,
+          63121,
+          63131,
+          63361,
+          63402,
+          63405,
+          63422,
+          63683
+        ],
+        "order_only_source_polygon_ids": []
+      },
+      "original_packed_custom_normal_unchanged": true,
+      "original_UV_and_source_corner_route_exact": true,
+      "prior_frozen_raw_quaternion_wxyz": [
+        [
+          1.0000001192092896,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0000001192092896,
+          -1.1920928955078125e-07,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999998807907104,
+          8.940696716308594e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.997642457485199,
+          -3.5762786865234375e-06,
+          0.06861433386802673,
+          -0.0010292641818523407
+        ],
+        [
+          1.0000003576278687,
+          1.7578713595867157e-07,
+          -2.2351741790771484e-08,
+          5.21540641784668e-08
+        ],
+        [
+          0.9967726469039917,
+          0.05213683843612671,
+          -0.06095712631940842,
+          0.003188498318195343
+        ],
+        [
+          1.0,
+          -1.7763568394002505e-15,
+          1.9930302741499872e-08,
+          -3.1888486518028e-08
+        ],
+        [
+          1.0,
+          -2.092681405940766e-08,
+          -2.491288508821299e-09,
+          -5.1818787483171036e-08
+        ],
+        [
+          1.000000238418579,
+          4.0978193283081055e-08,
+          7.450580596923828e-08,
+          -2.1043524611741304e-07
+        ],
+        [
+          0.9934821128845215,
+          0.015987806022167206,
+          0.0030525028705596924,
+          -0.11281808465719223
+        ],
+        [
+          0.8703651428222656,
+          -0.3286776840686798,
+          0.3393077552318573,
+          -0.13894402980804443
+        ],
+        [
+          0.9980322122573853,
+          0.05784454196691513,
+          0.006517499685287476,
+          0.023317746818065643
+        ],
+        [
+          0.9990532994270325,
+          0.013931185007095337,
+          -0.009210675954818726,
+          -0.0401671901345253
+        ],
+        [
+          0.9995361566543579,
+          0.009632300585508347,
+          -0.006941497325897217,
+          -0.028045780956745148
+        ],
+        [
+          0.9995360970497131,
+          0.009630918502807617,
+          -0.006940633058547974,
+          -0.028046458959579468
+        ],
+        [
+          0.9990532994270325,
+          0.01605924963951111,
+          -0.0013471245765686035,
+          -0.04040548950433731
+        ],
+        [
+          0.9995357990264893,
+          0.011273209005594254,
+          -0.0009453296661376953,
+          -0.02827642858028412
+        ],
+        [
+          0.9995364546775818,
+          0.011272940784692764,
+          -0.000945359468460083,
+          -0.02827635407447815
+        ],
+        [
+          0.9990532398223877,
+          0.014223344624042511,
+          0.0058075785636901855,
+          -0.04069742560386658
+        ],
+        [
+          0.9995361566543579,
+          0.009985599666833878,
+          0.005504131317138672,
+          -0.02824050560593605
+        ],
+        [
+          0.9995361566543579,
+          0.009985778480768204,
+          0.005504190921783447,
+          -0.028240352869033813
+        ],
+        [
+          0.9990532398223877,
+          0.008364863693714142,
+          0.011623114347457886,
+          -0.04107607901096344
+        ],
+        [
+          0.9995360374450684,
+          0.006152629852294922,
+          0.008368372917175293,
+          -0.028629422187805176
+        ],
+        [
+          0.9995361566543579,
+          0.006152752786874771,
+          0.008368432521820068,
+          -0.02862945944070816
+        ],
+        [
+          1.0,
+          -7.450580596923828e-08,
+          0.0,
+          -1.4901161193847656e-08
+        ],
+        [
+          -1.0,
+          -6.705522537231445e-08,
+          2.9802322387695312e-08,
+          4.470348358154297e-08
+        ],
+        [
+          1.0,
+          0.0,
+          8.940696716308594e-08,
+          4.470348358154297e-08
+        ],
+        [
+          1.0,
+          -1.554563624495131e-07,
+          -5.854527529436382e-09,
+          -7.084598685480614e-09
+        ],
+        [
+          1.000000238418579,
+          -8.847564458847046e-09,
+          5.21540641784668e-08,
+          5.8265868574380875e-08
+        ],
+        [
+          0.9450389742851257,
+          -0.018025178462266922,
+          0.014117568731307983,
+          0.32615557312965393
+        ],
+        [
+          -0.9758862853050232,
+          0.14570003747940063,
+          0.15041226148605347,
+          -0.06159275025129318
+        ],
+        [
+          -0.9982879757881165,
+          -0.01406019739806652,
+          -0.0567745566368103,
+          -0.000497547909617424
+        ],
+        [
+          0.9990532398223877,
+          -0.012910999357700348,
+          0.014312952756881714,
+          0.03899697586894035
+        ],
+        [
+          0.9995359182357788,
+          -8.243322372436523e-05,
+          0.012741237878799438,
+          0.027662090957164764
+        ],
+        [
+          0.9995362758636475,
+          -8.224695920944214e-05,
+          0.012741267681121826,
+          0.027661964297294617
+        ],
+        [
+          -0.9990531206130981,
+          0.03858976811170578,
+          -0.013448178768157959,
+          -0.014909692108631134
+        ],
+        [
+          -0.9995360374450684,
+          0.013616779819130898,
+          0.011779755353927612,
+          0.024563055485486984
+        ],
+        [
+          0.9995361566543579,
+          -0.013616262003779411,
+          -0.011780112981796265,
+          -0.024563295766711235
+        ],
+        [
+          0.9990530610084534,
+          0.03861800581216812,
+          -0.015933096408843994,
+          0.012128524482250214
+        ],
+        [
+          0.9995361566543579,
+          0.026910200715065002,
+          -0.011603355407714844,
+          0.008290700614452362
+        ],
+        [
+          0.9995361566543579,
+          0.026910237967967987,
+          -0.011603355407714844,
+          0.008290871977806091
+        ],
+        [
+          0.9990530014038086,
+          0.032123222947120667,
+          -0.01868566870689392,
+          0.022611211985349655
+        ],
+        [
+          0.9995360970497131,
+          0.021043118089437485,
+          -0.013197124004364014,
+          0.017622292041778564
+        ],
+        [
+          0.9995361566543579,
+          0.02104330062866211,
+          -0.013197213411331177,
+          0.017622314393520355
+        ],
+        [
+          -0.9999998211860657,
+          -2.60770320892334e-08,
+          1.1920928955078125e-07,
+          6.705522537231445e-08
+        ],
+        [
+          0.9999997615814209,
+          -2.421438694000244e-08,
+          -0.0,
+          3.5390257835388184e-08
+        ],
+        [
+          1.0,
+          -4.0046870708465576e-08,
+          2.9802322387695312e-08,
+          -1.7508864402770996e-07
+        ],
+        [
+          1.0,
+          1.8535183698986657e-07,
+          -7.972121807142685e-08,
+          -1.8535180856815714e-07
+        ],
+        [
+          1.0,
+          -2.7404173152945077e-08,
+          5.723735796436813e-08,
+          7.97212429404226e-09
+        ],
+        [
+          -0.9761902093887329,
+          0.21536558866500854,
+          -0.025834890082478523,
+          -0.00136338931042701
+        ],
+        [
+          0.8788360357284546,
+          0.47712242603302,
+          -0.001097341999411583,
+          -0.0010485723614692688
+        ],
+        [
+          0.999065101146698,
+          -0.04323089122772217,
+          -8.754432201385498e-08,
+          1.5273690223693848e-07
+        ],
+        [
+          1.000000238418579,
+          -1.5069963410496712e-07,
+          -5.681067705154419e-08,
+          -3.725290298461914e-09
+        ],
+        [
+          -0.9990220069885254,
+          0.036617349833250046,
+          0.024752145633101463,
+          0.00117663131095469
+        ],
+        [
+          0.9953949451446533,
+          0.0958549827337265,
+          0.00022054463624954224,
+          0.00021053198724985123
+        ],
+        [
+          0.9969180822372437,
+          -0.07844918221235275,
+          -1.1082738637924194e-07,
+          -5.960464477539063e-08
+        ],
+        [
+          0.9999999403953552,
+          -6.693881005048752e-10,
+          2.3399479687213898e-08,
+          -1.862645149230957e-08
+        ]
+      ],
+      "prior_frozen_five_factors": [
+        0.3373560309410095,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_property_provenance": "Reused actual prior 424517b raw capture, not recovered from current triangles or presented as newly persisted current-job raw pose rows.",
+      "not_actual_Cycles_renderer_buffer": true
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 44,
+      "authored_seconds": 1.7916666666666667,
+      "Action": "YRA_R4_Struggle_Strong_Loop",
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "file": {
+        "path": "YRA_R4_Struggle_Strong_Loop_frame044_actual_evaluated_cycles_inputs.npz",
+        "sha256": "6217d38197ea22b79d9f4e96756ab308f7708b7c40b392fa677400e98bd2e119",
+        "bytes": 6099338,
+        "uncompressed_bytes": 16029196,
+        "arrays": {
+          "current_local_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_position": {
+            "shape": [
+              63561,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_local_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_world_corner_normal": {
+            "shape": [
+              254602,
+              3
+            ],
+            "dtype": "float32"
+          },
+          "current_corner_UVMap": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "float32"
+          },
+          "current_triangle_source_corners": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_vertices": {
+            "shape": [
+              127040,
+              3
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_source_polygon": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "current_triangle_material_slot": {
+            "shape": [
+              127040
+            ],
+            "dtype": "int32"
+          },
+          "body_object_world": {
+            "shape": [
+              4,
+              4
+            ],
+            "dtype": "float64"
+          },
+          "source_vertex_id": {
+            "shape": [
+              63561
+            ],
+            "dtype": "int32"
+          },
+          "original_corner_to_source_vertex": {
+            "shape": [
+              254602
+            ],
+            "dtype": "int32"
+          },
+          "original_custom_normal_short2": {
+            "shape": [
+              254602,
+              2
+            ],
+            "dtype": "int16"
+          }
+        }
+      },
+      "triangles": 127040,
+      "full_body_reference_exact_deltas": {
+        "local_position": 0.0,
+        "world_position": 0.0,
+        "local_corner_normal": 0.0,
+        "world_corner_normal": 0.0
+      },
+      "reference_chunk": "YRA_R4_Struggle_Strong_Loop/frames_041_044.npz",
+      "reference_chunk_sha256": "4586df2bf40fd5673a6718c86eee1022e68617ffd477b85c90ad47d9c0c14832",
+      "rest_triangulation_comparison": {
+        "triangle_rows_different_from_rest": 41,
+        "polygons_with_different_rows": 20,
+        "corner_set_topology_changed_polygons": 20,
+        "triangle_order_or_winding_only_polygons": 0,
+        "quad_diagonal_changed_polygons": 7,
+        "ngon_triangulation_changed_polygons": 13,
+        "changed_source_polygon_ids": [
+          1483,
+          1490,
+          1609,
+          1734,
+          1954,
+          3368,
+          29551,
+          62516,
+          62654,
+          63032,
+          63037,
+          63118,
+          63121,
+          63131,
+          63147,
+          63361,
+          63402,
+          63405,
+          63422,
+          63672
+        ],
+        "order_only_source_polygon_ids": []
+      },
+      "original_packed_custom_normal_unchanged": true,
+      "original_UV_and_source_corner_route_exact": true,
+      "prior_frozen_raw_quaternion_wxyz": [
+        [
+          1.0000001192092896,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0000001192092896,
+          -1.1920928955078125e-07,
+          0.0,
+          0.0
+        ],
+        [
+          0.9999998807907104,
+          8.940696716308594e-08,
+          0.0,
+          0.0
+        ],
+        [
+          0.9991506338119507,
+          -0.0197923481464386,
+          -0.03613227605819702,
+          -0.0004260316491127014
+        ],
+        [
+          1.0000001192092896,
+          2.9761577025055885e-07,
+          8.195638656616211e-08,
+          -1.6763806343078613e-08
+        ],
+        [
+          0.999878466129303,
+          0.004747906234115362,
+          -0.014846039935946465,
+          7.053837180137634e-05
+        ],
+        [
+          1.0,
+          -1.7763568394002505e-15,
+          1.9930302741499872e-08,
+          -3.1888486518028e-08
+        ],
+        [
+          1.0,
+          -2.092681405940766e-08,
+          -2.491288508821299e-09,
+          -5.1818787483171036e-08
+        ],
+        [
+          1.000000238418579,
+          -2.7939677238464355e-09,
+          2.123415470123291e-07,
+          -1.2718373909592628e-07
+        ],
+        [
+          0.9579620361328125,
+          -0.0775059163570404,
+          0.06978842616081238,
+          -0.26726505160331726
+        ],
+        [
+          0.920055091381073,
+          -0.2615163326263428,
+          0.2699744403362274,
+          -0.1105523556470871
+        ],
+        [
+          0.999045729637146,
+          -0.024909816682338715,
+          -0.03387099504470825,
+          -0.011839538812637329
+        ],
+        [
+          0.9999288320541382,
+          -0.00381537526845932,
+          0.002522408962249756,
+          0.01099986582994461
+        ],
+        [
+          0.9999653100967407,
+          -0.0026373863220214844,
+          0.001900792121887207,
+          0.007679365575313568
+        ],
+        [
+          0.9999650716781616,
+          -0.0026369765400886536,
+          0.0019004642963409424,
+          0.0076796263456344604
+        ],
+        [
+          0.9999290704727173,
+          -0.004398040473461151,
+          0.0003688633441925049,
+          0.011065162718296051
+        ],
+        [
+          0.9999650716781616,
+          -0.003086678683757782,
+          0.0002589225769042969,
+          0.007742486894130707
+        ],
+        [
+          0.9999655485153198,
+          -0.0030867084860801697,
+          0.0002587437629699707,
+          0.007742680609226227
+        ],
+        [
+          0.9999288320541382,
+          -0.003895208239555359,
+          -0.0015905797481536865,
+          0.01114518940448761
+        ],
+        [
+          0.9999653100967407,
+          -0.002734251320362091,
+          -0.0015070438385009766,
+          0.007732592523097992
+        ],
+        [
+          0.9999650716781616,
+          -0.002734147012233734,
+          -0.0015072226524353027,
+          0.007732763886451721
+        ],
+        [
+          0.9999289512634277,
+          -0.0022908151149749756,
+          -0.003183215856552124,
+          0.011248871684074402
+        ],
+        [
+          0.9999651312828064,
+          -0.0016847401857376099,
+          -0.002291440963745117,
+          0.007839277386665344
+        ],
+        [
+          0.9999653100967407,
+          -0.0016846731305122375,
+          -0.0022913217544555664,
+          0.007839120924472809
+        ],
+        [
+          1.0,
+          1.4901161193847656e-08,
+          5.960464477539063e-08,
+          -2.9802322387695312e-08
+        ],
+        [
+          -0.9999999403953552,
+          -4.470348358154297e-08,
+          -2.9802322387695312e-08,
+          4.470348358154297e-08
+        ],
+        [
+          0.9999998807907104,
+          -1.4901161193847656e-08,
+          5.960464477539063e-08,
+          1.4901161193847656e-08
+        ],
+        [
+          1.0,
+          -1.554563624495131e-07,
+          -5.854527529436382e-09,
+          -7.084598685480614e-09
+        ],
+        [
+          1.0000001192092896,
+          2.9802322387695312e-08,
+          -9.872019290924072e-08,
+          1.225271262228489e-07
+        ],
+        [
+          0.9620354175567627,
+          -0.05783149600028992,
+          -0.13462181389331818,
+          0.23026148974895477
+        ],
+        [
+          -0.9033950567245483,
+          0.2862268388271332,
+          0.2954840660095215,
+          -0.12099842727184296
+        ],
+        [
+          -0.9987292289733887,
+          0.007437020540237427,
+          0.04984745383262634,
+          -0.00029737502336502075
+        ],
+        [
+          0.9999290704727173,
+          0.003535628318786621,
+          -0.003919839859008789,
+          -0.010679490864276886
+        ],
+        [
+          0.9999651908874512,
+          2.2590160369873047e-05,
+          -0.0034888386726379395,
+          -0.0075743794441223145
+        ],
+        [
+          0.9999653100967407,
+          2.256035804748535e-05,
+          -0.003488689661026001,
+          -0.007574230432510376
+        ],
+        [
+          -0.9999290704727173,
+          -0.010567829012870789,
+          0.0036830008029937744,
+          0.004083059728145599
+        ],
+        [
+          -0.9999651908874512,
+          -0.0037285685539245605,
+          -0.0032257139682769775,
+          -0.0067259445786476135
+        ],
+        [
+          0.9999651908874512,
+          0.0037285536527633667,
+          0.003225862979888916,
+          0.00672563910484314
+        ],
+        [
+          0.9999287724494934,
+          -0.010575756430625916,
+          0.004363268613815308,
+          -0.0033214017748832703
+        ],
+        [
+          0.9999651908874512,
+          -0.007368430495262146,
+          0.0031773746013641357,
+          -0.0022701099514961243
+        ],
+        [
+          0.9999654293060303,
+          -0.007368415594100952,
+          0.003177046775817871,
+          -0.002270124852657318
+        ],
+        [
+          0.9999289512634277,
+          -0.00879707932472229,
+          0.005117148160934448,
+          -0.006192147731781006
+        ],
+        [
+          0.9999651312828064,
+          -0.005761921405792236,
+          0.003613680601119995,
+          -0.00482526421546936
+        ],
+        [
+          0.9999653100967407,
+          -0.005762115120887756,
+          0.0036135315895080566,
+          -0.0048252493143081665
+        ],
+        [
+          -1.0,
+          2.9802322387695312e-08,
+          1.1920928955078125e-07,
+          1.1920928955078125e-07
+        ],
+        [
+          1.0,
+          -4.470348358154297e-08,
+          8.940696716308594e-08,
+          -5.960464477539063e-08
+        ],
+        [
+          0.9999998807907104,
+          2.9802322387695312e-08,
+          -8.940696716308594e-08,
+          -1.043081283569336e-07
+        ],
+        [
+          1.0,
+          1.8535183698986657e-07,
+          -7.972121807142685e-08,
+          -1.8535180856815714e-07
+        ],
+        [
+          1.0,
+          -2.7404173152945077e-08,
+          5.723735796436813e-08,
+          7.97212429404226e-09
+        ],
+        [
+          -0.9983383417129517,
+          0.04717731103301048,
+          -0.033022440969944,
+          -0.0019874563440680504
+        ],
+        [
+          0.9386575222015381,
+          0.34484925866127014,
+          -0.0007933024317026138,
+          -0.0007581654936075211
+        ],
+        [
+          0.9953603744506836,
+          -0.09621979296207428,
+          -1.1455267667770386e-07,
+          1.564621925354004e-07
+        ],
+        [
+          0.9999998807907104,
+          2.5582266971468925e-08,
+          -1.2759119272232056e-07,
+          2.2351741790771484e-08
+        ],
+        [
+          -0.9846012592315674,
+          0.173753559589386,
+          0.019217943772673607,
+          -0.0005120135610923171
+        ],
+        [
+          0.9770011305809021,
+          0.21323341131210327,
+          0.0004903599619865417,
+          0.0004681916907429695
+        ],
+        [
+          0.9986426830291748,
+          -0.05208806321024895,
+          -1.2246891856193542e-07,
+          1.564621925354004e-07
+        ],
+        [
+          1.0,
+          -6.772461347281933e-08,
+          1.6763806343078613e-08,
+          -4.6566128730773926e-08
+        ]
+      ],
+      "prior_frozen_five_factors": [
+        0.18200713396072388,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_property_provenance": "Reused actual prior 424517b raw capture, not recovered from current triangles or presented as newly persisted current-job raw pose rows.",
+      "not_actual_Cycles_renderer_buffer": true
+    }
+  ],
+  "files": [
+    {
+      "path": "YRA_R4_Startle_Short_frame001_actual_evaluated_cycles_inputs.npz",
+      "sha256": "d4567d1d9035eec012f65c48d02a929f31608de04bca8e651cc67f2a9862ecde",
+      "bytes": 6105837,
+      "uncompressed_bytes": 16029196,
+      "arrays": {
+        "current_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_corner_UVMap": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "float32"
+        },
+        "current_triangle_source_corners": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_vertices": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_polygon": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_material_slot": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "body_object_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "source_vertex_id": {
+          "shape": [
+            63561
+          ],
+          "dtype": "int32"
+        },
+        "original_corner_to_source_vertex": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32"
+        },
+        "original_custom_normal_short2": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "int16"
+        }
+      }
+    },
+    {
+      "path": "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+      "sha256": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+      "bytes": 6104160,
+      "uncompressed_bytes": 16029196,
+      "arrays": {
+        "current_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_corner_UVMap": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "float32"
+        },
+        "current_triangle_source_corners": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_vertices": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_polygon": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_material_slot": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "body_object_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "source_vertex_id": {
+          "shape": [
+            63561
+          ],
+          "dtype": "int32"
+        },
+        "original_corner_to_source_vertex": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32"
+        },
+        "original_custom_normal_short2": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "int16"
+        }
+      }
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz",
+      "sha256": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd",
+      "bytes": 6103679,
+      "uncompressed_bytes": 16029196,
+      "arrays": {
+        "current_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_corner_UVMap": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "float32"
+        },
+        "current_triangle_source_corners": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_vertices": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_polygon": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_material_slot": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "body_object_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "source_vertex_id": {
+          "shape": [
+            63561
+          ],
+          "dtype": "int32"
+        },
+        "original_corner_to_source_vertex": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32"
+        },
+        "original_custom_normal_short2": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "int16"
+        }
+      }
+    },
+    {
+      "path": "YRA_R4_Struggle_Strong_Loop_frame044_actual_evaluated_cycles_inputs.npz",
+      "sha256": "6217d38197ea22b79d9f4e96756ab308f7708b7c40b392fa677400e98bd2e119",
+      "bytes": 6099338,
+      "uncompressed_bytes": 16029196,
+      "arrays": {
+        "current_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "current_corner_UVMap": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "float32"
+        },
+        "current_triangle_source_corners": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_vertices": {
+          "shape": [
+            127040,
+            3
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_source_polygon": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "current_triangle_material_slot": {
+          "shape": [
+            127040
+          ],
+          "dtype": "int32"
+        },
+        "body_object_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64"
+        },
+        "source_vertex_id": {
+          "shape": [
+            63561
+          ],
+          "dtype": "int32"
+        },
+        "original_corner_to_source_vertex": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32"
+        },
+        "original_custom_normal_short2": {
+          "shape": [
+            254602,
+            2
+          ],
+          "dtype": "int16"
+        }
+      }
+    }
+  ],
+  "job_log": {
+    "exec_session_id": 12455,
+    "job_count": 1,
+    "threads": 4,
+    "Blender": "5.2.1 LTS",
+    "build_hash": "9e2066aef7ef",
+    "pid": 135608,
+    "wall_seconds": null,
+    "missing_metadata_reason": "Original wall time was held in final manifest object which failed serialization; not recoverable from saved stdout. No duration fabricated and no second Blender job launched.",
+    "preflight_free_physical_KiB": 32017120,
+    "total_physical_KiB": 64546164,
+    "after_free_physical_KiB": 31780916,
+    "GUI_PID_before_after": 129152,
+    "source_process_cleanup": "Blender quit; subsequent process inventory contains existing GUI only.",
+    "pid_provenance": "Root PM message ROOT_PM_DYNAMIC_INPUT_OBSERVATION independently observed CPU PID135608, then process absent; supplied in this task after metadata recovery. Original job script did not persist PID before its final JSON failure."
+  },
+  "failure_correction": {
+    "error": "TypeError: Object of type int64 is not JSON serializable at final manifest write",
+    "cause": "sum over NumPy boolean polygon-size comparisons yielded np.int64",
+    "script_fix": "Cast quad/ngon counts to Python int; no source job repeated.",
+    "recovery": "This plain-Python validator reconstructs metadata from intact four actual NPZ + completed source fingerprint receipt; validates hashes/mappings/references."
+  },
+  "Cycles_reference_feasibility": {
+    "compiler": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+    "compiler_on_initial_PATH": false,
+    "found_by": "vswhere VC.Tools.x86.x64",
+    "unmodified_Mikk_headers": [
+      "mikktspace.hh",
+      "mikk_atomic_hash_set.hh",
+      "mikk_float3.hh",
+      "mikk_util.hh"
+    ],
+    "normal_packing_source": "Pinned Cycles util/types_normal.h, packed_normal uint32 encode/decode before triangle Mikk input",
+    "remaining_native_compile_dependencies": [
+      "Pinned util/defines.h, util/math_float3.h, util/math_int4.h and their exact transitive type/math headers",
+      "MSVC vcvars64/Windows SDK compiler environment and matching CPU/FP build definitions",
+      "Exact Cycles triangle/smooth/corner-normal packed attribute wrapper and optimization configuration"
+    ],
+    "assessment": "A separately compiled pinned algorithm reference is feasible with discovered MSVC, but full exact dependency/configuration assembly was not performed. No handport or substitute normal/tangent output generated.",
+    "native_API_gap": "No inspected Blender Python API exposes current Cycles Mesh::update_tangents packed-normal/tangent attribute buffers; actual renderer proof needs separately authorized native Cycles buffer instrumentation/export hook, not RNA calc_tangents."
+  },
+  "scope_limit": "Four actual Blender-evaluated inputs only; full-body chunks used as identity/position/normal QA references, not triangle runtime input. No Cycles packed normal/tangent or shader result captured.",
+  "runtime_tangent_PBR_verdict": "HOLD"
+}

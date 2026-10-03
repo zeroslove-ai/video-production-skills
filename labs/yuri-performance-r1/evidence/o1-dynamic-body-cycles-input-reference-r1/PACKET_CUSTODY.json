@@ -1,0 +1,87 @@
+{
+  "task_id": "ROOT_PM_O1_DYNAMIC_BODY_CYCLES_INPUT_REFERENCE_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_DYNAMIC_BODY_CYCLES_INPUTS_20261003_R1_78bebe4a6117",
+  "manifest_sha256": "78bebe4a6117a0407241e8c19b724d944f53ec9d299e0820294071040365ccdd",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_DYNAMIC_BODY_CYCLES_INPUTS_20261003_R1_78bebe4a6117\\YURI_O1_R4_DYNAMIC_BODY_CYCLES_INPUTS_20261003_R1.part01-of-01.zip",
+      "sha256": "a2c523465a2b93ea01dd6edb150e287f58333ab282a874f178fd456463e706ab",
+      "bytes": 24600730,
+      "files": [
+        "YRA_R4_Startle_Short_frame001_actual_evaluated_cycles_inputs.npz",
+        "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz",
+        "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz",
+        "YRA_R4_Struggle_Strong_Loop_frame044_actual_evaluated_cycles_inputs.npz",
+        "metadata/DYNAMIC_BODY_CYCLES_INPUT_MANIFEST.json",
+        "metadata/ROOT_PM_O1_DYNAMIC_BODY_CYCLES_INPUT_REFERENCE_R1.md",
+        "metadata/SOURCE_COMPONENT_DIFF.json",
+        "scripts/r4_dynamic_body_cycles_input_reference.py",
+        "scripts/r4_source_reference_packet_freeze.py",
+        "scripts/r4_dynamic_body_cycles_input_recover.py",
+        "scripts/r4_appearance_signature.py",
+        "scripts/r4_appearance_adapter.py",
+        "scripts/native_preservation.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "YRA_R4_Startle_Short_frame001_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "d4567d1d9035eec012f65c48d02a929f31608de04bca8e651cc67f2a9862ecde",
+      "bytes": 6105837
+    },
+    "YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+      "bytes": 6104160
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd",
+      "bytes": 6103679
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame044_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "6217d38197ea22b79d9f4e96756ab308f7708b7c40b392fa677400e98bd2e119",
+      "bytes": 6099338
+    },
+    "metadata/DYNAMIC_BODY_CYCLES_INPUT_MANIFEST.json": {
+      "sha256": "78bebe4a6117a0407241e8c19b724d944f53ec9d299e0820294071040365ccdd",
+      "bytes": 68600
+    },
+    "metadata/ROOT_PM_O1_DYNAMIC_BODY_CYCLES_INPUT_REFERENCE_R1.md": {
+      "sha256": "56c478aeccac28d2768b1a24c2d12eccc23c76cc7715135a655724014f756c8e",
+      "bytes": 4541
+    },
+    "metadata/SOURCE_COMPONENT_DIFF.json": {
+      "sha256": "de99320acf7dfd9e489f1aefb8134c416a08b2f5e32c850291d18dd0c0f10041",
+      "bytes": 73142
+    },
+    "scripts/r4_dynamic_body_cycles_input_reference.py": {
+      "sha256": "11db466110f9eca339525f96a489d9f6a5f9159a6dd5906ee616b1537570f853",
+      "bytes": 11944
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "cbf9b57cdc5a540b4ebf1ac8809b819ca670b2aa84c1f410e24f4df4ef0dccb1",
+      "bytes": 6379
+    },
+    "scripts/r4_dynamic_body_cycles_input_recover.py": {
+      "sha256": "a88606bcc8353385abccda4e128c887a5a43f10142626cd4fe2bfa3613ffcca0",
+      "bytes": 11067
+    },
+    "scripts/r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "scripts/r4_appearance_adapter.py": {
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+      "bytes": 2307
+    },
+    "scripts/native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 24600730,
+  "data_bytes": 24413014,
+  "aggregate_file_manifest_sha256": "e7734507ecbc21462084bea784f8acd63764f0d9c342b1513043938f67bbd949",
+  "source_or_frozen_input_writes": 0
+}
