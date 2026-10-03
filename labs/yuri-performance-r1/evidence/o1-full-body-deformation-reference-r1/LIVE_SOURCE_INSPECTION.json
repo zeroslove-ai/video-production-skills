@@ -1,0 +1,83 @@
+{
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "frame": 1,
+  "body_Action": null,
+  "vertices": 63561,
+  "loops": 254602,
+  "polygons": 63781,
+  "modifiers": [
+    [
+      "Armature",
+      "ARMATURE",
+      true,
+      true
+    ],
+    [
+      "R3 neck and joints - local linear blend",
+      "ARMATURE",
+      true,
+      true
+    ],
+    [
+      "R3 local joint surface relaxation",
+      "CORRECTIVE_SMOOTH",
+      true,
+      true
+    ],
+    [
+      "R3 raised shoulder surface L",
+      "SMOOTH",
+      true,
+      true
+    ],
+    [
+      "R3 raised shoulder surface R",
+      "SMOOTH",
+      true,
+      true
+    ],
+    [
+      "R3 bent hip surface L",
+      "SMOOTH",
+      true,
+      true
+    ],
+    [
+      "R3 bent hip surface R",
+      "SMOOTH",
+      true,
+      true
+    ]
+  ],
+  "body_object_world": [
+    [
+      0.5350000262260437,
+      0.0,
+      0.0,
+      0.0019499999471008778
+    ],
+    [
+      0.0,
+      0.5350000262260437,
+      0.0,
+      -0.02800000086426735
+    ],
+    [
+      0.0,
+      0.0,
+      0.5350000262260437,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_expanded_bones": 137,
+  "OFF_matches_frozen_position_exact": true,
+  "original_mesh_has_custom_normals": true,
+  "CPU_factory_only": true,
+  "pid": 129348
+}

@@ -1,0 +1,531 @@
+{
+  "task_id": "YURI_O1_FULL_BODY_DEFORMATION_REFERENCE_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf",
+  "manifest_sha256": "d8ec32b42adf4cb2f4a6dea280eb98149789c047af0a4bb498e9a978250afc2e",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part01-of-18.zip",
+      "sha256": "da2c8472071362d9f90dc458d1f7fef0e4c4e47f0908f8c0f05b20028585b352",
+      "bytes": 80804370,
+      "files": [
+        "YRA_R4_Startle_Short/frames_001_004.npz",
+        "YRA_R4_Startle_Short/frames_005_008.npz",
+        "YRA_R4_Startle_Short/frames_009_012.npz",
+        "YRA_R4_Startle_Short/frames_013_016.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part02-of-18.zip",
+      "sha256": "84d309da1f8df35bb3d688b8a379ee5946d22cdf19ec4c90070eeec559baa037",
+      "bytes": 80824861,
+      "files": [
+        "YRA_R4_Startle_Short/frames_017_020.npz",
+        "YRA_R4_Startle_Short/frames_021_024.npz",
+        "YRA_R4_Startle_Short/frames_025_028.npz",
+        "YRA_R4_Startle_Short/frames_029_032.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part03-of-18.zip",
+      "sha256": "e89456885e574c39a9f20830e49c9ee175c5f65a22a1f60cd34a5f03d520cbc2",
+      "bytes": 85895187,
+      "files": [
+        "YRA_R4_Startle_Short/frames_033_036.npz",
+        "YRA_R4_Startle_Short/frames_037_037.npz",
+        "YRA_R4_Lift_Start/frames_001_004.npz",
+        "YRA_R4_Lift_Start/frames_005_008.npz",
+        "YRA_R4_Lift_Start/frames_009_012.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part04-of-18.zip",
+      "sha256": "b05db238973fee0c3b319387733a31ea85091703877dde65cbdcd53e02946495",
+      "bytes": 80759687,
+      "files": [
+        "YRA_R4_Lift_Start/frames_013_016.npz",
+        "YRA_R4_Lift_Start/frames_017_020.npz",
+        "YRA_R4_Lift_Start/frames_021_024.npz",
+        "YRA_R4_Lift_Start/frames_025_028.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part05-of-18.zip",
+      "sha256": "dc8104593968ec6081bdf9a4e04d234020093b4e215d1858b642c9b36a991569",
+      "bytes": 75706693,
+      "files": [
+        "YRA_R4_Lift_Start/frames_029_031.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_001_004.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_005_008.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_009_012.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part06-of-18.zip",
+      "sha256": "490bb63bff3a73ecd4bd4eda3ddcdd35e4849f5578b45cc2484e1fbcdb6a2ca3",
+      "bytes": 80742247,
+      "files": [
+        "YRA_R4_Struggle_Light_Loop/frames_013_016.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_017_020.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_021_024.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_025_028.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part07-of-18.zip",
+      "sha256": "5ce5a349ffe21fcedc368e5f6e0eed85b2a3ab85c520b4b2777b7397332acb61",
+      "bytes": 80763924,
+      "files": [
+        "YRA_R4_Struggle_Light_Loop/frames_029_032.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_033_036.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_037_040.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_041_044.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part08-of-18.zip",
+      "sha256": "a5d04b70b686d8f6b4a13113ec6677256918cd917a0a89339879db912d14cdca",
+      "bytes": 85796070,
+      "files": [
+        "YRA_R4_Struggle_Light_Loop/frames_045_048.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_049_052.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_053_056.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_057_060.npz",
+        "YRA_R4_Struggle_Light_Loop/frames_061_061.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part09-of-18.zip",
+      "sha256": "910222a954ca8473dea2fe6d428163ef4227aeb68811a52fc6dd6a07b1563bbb",
+      "bytes": 80764252,
+      "files": [
+        "YRA_R4_Struggle_Strong_Loop/frames_001_004.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_005_008.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_009_012.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_013_016.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part10-of-18.zip",
+      "sha256": "3a26906b6fd89d001eb0ca2dc288760c64094a5ee17a56024a7e84950e6ee40d",
+      "bytes": 80748449,
+      "files": [
+        "YRA_R4_Struggle_Strong_Loop/frames_017_020.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_021_024.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_025_028.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_029_032.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part11-of-18.zip",
+      "sha256": "a8b3ae8ca0fe0d5e6bd36d1217a00326d855a99f4176f6c6f87c4903f4405997",
+      "bytes": 85797358,
+      "files": [
+        "YRA_R4_Struggle_Strong_Loop/frames_033_036.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_037_040.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_041_044.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_045_048.npz",
+        "YRA_R4_Struggle_Strong_Loop/frames_049_049.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part12-of-18.zip",
+      "sha256": "b86ff4891501c7d3d6a14764d84e2e10edd75ad530e6f50b3f0d2b05cb762ec3",
+      "bytes": 80762602,
+      "files": [
+        "YRA_R4_Land_Soft/frames_001_004.npz",
+        "YRA_R4_Land_Soft/frames_005_008.npz",
+        "YRA_R4_Land_Soft/frames_009_012.npz",
+        "YRA_R4_Land_Soft/frames_013_016.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part13-of-18.zip",
+      "sha256": "2ff90757af38fd84dad5d7a2db89357b60143ad391adb14022709562f0688787",
+      "bytes": 80789265,
+      "files": [
+        "YRA_R4_Land_Soft/frames_017_020.npz",
+        "YRA_R4_Land_Soft/frames_021_024.npz",
+        "YRA_R4_Land_Soft/frames_025_028.npz",
+        "YRA_R4_Land_Soft/frames_029_032.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part14-of-18.zip",
+      "sha256": "2f9d8a007fd9a278dcdf014adf9c28112d4a6fa500a3ba79837cecaf5b5077bb",
+      "bytes": 75796622,
+      "files": [
+        "YRA_R4_Land_Soft/frames_033_036.npz",
+        "YRA_R4_Land_Soft/frames_037_040.npz",
+        "YRA_R4_Land_Soft/frames_041_043.npz",
+        "YRA_R4_BalanceRecover/frames_001_004.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part15-of-18.zip",
+      "sha256": "6091bfa9f019f7c37ab3dbbb5bc776ba9bce4cd1503274709417a728ea70285c",
+      "bytes": 80782573,
+      "files": [
+        "YRA_R4_BalanceRecover/frames_005_008.npz",
+        "YRA_R4_BalanceRecover/frames_009_012.npz",
+        "YRA_R4_BalanceRecover/frames_013_016.npz",
+        "YRA_R4_BalanceRecover/frames_017_020.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part16-of-18.zip",
+      "sha256": "14ef21ed88cb1b0b3ad8e66fcc06e4e5912d96f63291a432e003085241793098",
+      "bytes": 80833074,
+      "files": [
+        "YRA_R4_BalanceRecover/frames_021_024.npz",
+        "YRA_R4_BalanceRecover/frames_025_028.npz",
+        "YRA_R4_BalanceRecover/frames_029_032.npz",
+        "YRA_R4_BalanceRecover/frames_033_036.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part17-of-18.zip",
+      "sha256": "8f7c010e2f73d4a8fc7d17083aeec2243eab73f83556f5bbcbcddeac19366ddb",
+      "bytes": 80843032,
+      "files": [
+        "YRA_R4_BalanceRecover/frames_037_040.npz",
+        "YRA_R4_BalanceRecover/frames_041_044.npz",
+        "YRA_R4_BalanceRecover/frames_045_048.npz",
+        "YRA_R4_BalanceRecover/frames_049_052.npz"
+      ]
+    },
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1_d8ec32b42adf\\YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1.part18-of-18.zip",
+      "sha256": "816479facf16f19eff4f11093b10c8ceb2b4a9225a7edc83e5e5c624149d52b8",
+      "bytes": 15418726,
+      "files": [
+        "YRA_R4_BalanceRecover/frames_053_055.npz",
+        "metadata/FULL_BODY_DEFORMATION_MANIFEST.json",
+        "metadata/LIVE_SOURCE_INSPECTION.json",
+        "metadata/SOURCE_COMPONENT_DIFF.json",
+        "metadata/YURI_O1_FULL_BODY_DEFORMATION_REFERENCE_R1.md",
+        "scripts/r4_full_body_deformation_reference.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "YRA_R4_Startle_Short/frames_001_004.npz": {
+      "sha256": "74f933e835847c1b929d07cb1f211931450e6829df191fd335ac4e3c67172e51",
+      "bytes": 20211444
+    },
+    "YRA_R4_Startle_Short/frames_005_008.npz": {
+      "sha256": "6c2fee02fce5a314b11d99d7683ceb601622cc069690a774555a715a12853eb2",
+      "bytes": 20195647
+    },
+    "YRA_R4_Startle_Short/frames_009_012.npz": {
+      "sha256": "427945069db41714cfd8bc43f6906f25ce24d35543b63bd0e979c4f042f5abd5",
+      "bytes": 20198561
+    },
+    "YRA_R4_Startle_Short/frames_013_016.npz": {
+      "sha256": "1140f57fe1097af05b54d2d82da6a7194d4f3466092a6079af6941b01bcac57a",
+      "bytes": 20198080
+    },
+    "YRA_R4_Startle_Short/frames_017_020.npz": {
+      "sha256": "92bdba09f26f1586bac85fc560ce89608a8db622d1480d637f0c3faef20a730e",
+      "bytes": 20200133
+    },
+    "YRA_R4_Startle_Short/frames_021_024.npz": {
+      "sha256": "b10879dcbeec603b623d4da6d536bcdcebe007298830a2bc0a9c7fcf8906175c",
+      "bytes": 20203609
+    },
+    "YRA_R4_Startle_Short/frames_025_028.npz": {
+      "sha256": "67691b46102666d872c799b4c21955713831dd98d612328dba89cd6ebdee19c2",
+      "bytes": 20208905
+    },
+    "YRA_R4_Startle_Short/frames_029_032.npz": {
+      "sha256": "1ed916c39b92b16041a4ae99df1630eb4a43c282351b8ab750c745394d3efec5",
+      "bytes": 20211576
+    },
+    "YRA_R4_Startle_Short/frames_033_036.npz": {
+      "sha256": "37fe74212f6cf7aecca47985c08cf63b38ec2fc1b90d29350f4fba99790b529e",
+      "bytes": 20212535
+    },
+    "YRA_R4_Startle_Short/frames_037_037.npz": {
+      "sha256": "49afcae997cfba50ee9acd5b8ef47a07b8c5e093d30ea5fc939e387bb2eafc23",
+      "bytes": 5055362
+    },
+    "YRA_R4_Lift_Start/frames_001_004.npz": {
+      "sha256": "a39853645f479c301de82169bc8062bbd770c776eb2d9d71c51d09ef8dedcb46",
+      "bytes": 20210697
+    },
+    "YRA_R4_Lift_Start/frames_005_008.npz": {
+      "sha256": "3dff1298c18a81df506f1fc0885c6dd7164b2463a4916452ce6fa636e6a545ee",
+      "bytes": 20207843
+    },
+    "YRA_R4_Lift_Start/frames_009_012.npz": {
+      "sha256": "9583cc2a284af48f505e0af1ba427346d63fa8c240bf57de3333dcb33392d0c2",
+      "bytes": 20207976
+    },
+    "YRA_R4_Lift_Start/frames_013_016.npz": {
+      "sha256": "0473662cdd0eae3eef837be427493a681282ec67b3153f79d5e7c977ba832781",
+      "bytes": 20197224
+    },
+    "YRA_R4_Lift_Start/frames_017_020.npz": {
+      "sha256": "b7b5dad80bb991da427eb9452c71ad58d1555ce4441b3fbd31777d43a49fa3cd",
+      "bytes": 20188895
+    },
+    "YRA_R4_Lift_Start/frames_021_024.npz": {
+      "sha256": "90512d386d7bf5b2b3c6980ea9b77e2f3f4a8a10c1d79ced6c544fddb74f3e52",
+      "bytes": 20188142
+    },
+    "YRA_R4_Lift_Start/frames_025_028.npz": {
+      "sha256": "3006584678a234be4e39ed839a9b40dd53d1f06af5c7d78c13a8a5b3dd29fd0a",
+      "bytes": 20184812
+    },
+    "YRA_R4_Lift_Start/frames_029_031.npz": {
+      "sha256": "4a607b9ba83ed456a780ba2ae7a00ff4310fe8d2f6bd1d1e69801181e8f3e1e3",
+      "bytes": 15140544
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_001_004.npz": {
+      "sha256": "0b75a6a98c7a528cd6a90c2424034a2d1f2068b70f07d2aba06ae7db0a15d674",
+      "bytes": 20187535
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_005_008.npz": {
+      "sha256": "277b1e09fc135b71ec11dcf8562dbc5fd4dfbbcd87a1043a057cffe62852df91",
+      "bytes": 20189354
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_009_012.npz": {
+      "sha256": "318c4d2c0aef73c371a67c2cd56e65349912f3f24d2f1956cb1ccb657ac69b4d",
+      "bytes": 20188592
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_013_016.npz": {
+      "sha256": "b3ec5f3cbc1b2f1f05405ff38b06daaa1a2b8f9f3d6c2711c3ba1541b3206681",
+      "bytes": 20188471
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_017_020.npz": {
+      "sha256": "361df4797d15a4f02a113b6faae7e5e9eb26accf5f2faa00ba2935f854e43372",
+      "bytes": 20186618
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_021_024.npz": {
+      "sha256": "c198e776f2237b9c47734d89d7caf519849475cbeeab85f8d316466994817762",
+      "bytes": 20182529
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_025_028.npz": {
+      "sha256": "b115e2e35e3ff63ab5a4fe1a332ef4742977f85f81902034b3bed26ecc2f4061",
+      "bytes": 20183943
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_029_032.npz": {
+      "sha256": "812670c4bdc52b91263e1368fc9619fe6075f8d387b652be0fb66d8506302804",
+      "bytes": 20187561
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_033_036.npz": {
+      "sha256": "cf631ef12f3d8e04c739791e7712527419361bcdab19ed21d6871fbdd8b2734a",
+      "bytes": 20190901
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_037_040.npz": {
+      "sha256": "8b7e8bd5aabd7e35d79ae7bf7b96519f4b3dcc7f98bcd0aa5dd1872d4b67b57f",
+      "bytes": 20192870
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_041_044.npz": {
+      "sha256": "4939c06fdaf542c785cfb4a018d7ec869a2488ce7f2ab09206ebf8fecbe5ad9d",
+      "bytes": 20191906
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_045_048.npz": {
+      "sha256": "8590ef22fa24670405c1f5ae296c5523714b7850e466ffd8231b5aca95d0b483",
+      "bytes": 20190183
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_049_052.npz": {
+      "sha256": "2f140b300b2ab1c09d7265d81584de9b7d0b90b802fad291cab14011e8092884",
+      "bytes": 20186595
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_053_056.npz": {
+      "sha256": "a41f20ce66efbcdbed92c18da83bcb957e155231c98bc424675bfcd06ab90631",
+      "bytes": 20184822
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_057_060.npz": {
+      "sha256": "5888395d4c9ee583168916bb6fb535d12086ef3fb3efbb09fe85fe12623b0398",
+      "bytes": 20185685
+    },
+    "YRA_R4_Struggle_Light_Loop/frames_061_061.npz": {
+      "sha256": "8d93199f34dbf04141461e895ca0824112cacc0f7e9171d3adba572b80d0f788",
+      "bytes": 5047933
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_001_004.npz": {
+      "sha256": "a4eb1e0288962ac28ebfc98b4af850e51187be333bd3470083a9a3886ff36333",
+      "bytes": 20189321
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_005_008.npz": {
+      "sha256": "a33cd9fdadae1c225b46110f35a6641162d1fc85623ad45c6dc4f269ed9370c5",
+      "bytes": 20196590
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_009_012.npz": {
+      "sha256": "eb2122724a3bb4450911f0d39e3df9e42063652a2d15b1675ff9a3e9126609a1",
+      "bytes": 20192533
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_013_016.npz": {
+      "sha256": "bdafce8fa7489706a1613a2ac1ae278031fd3bce1cf75c021d7e5e9c9b5ff68d",
+      "bytes": 20185114
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_017_020.npz": {
+      "sha256": "b76ca7df64a312e39600681e3f1a62698aafd5aebff095eb5e1376802e9d2093",
+      "bytes": 20179148
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_021_024.npz": {
+      "sha256": "a8f79d6a1accf2ecaf0c1a502eab9d26f7896226a57ea76307891b92247a3545",
+      "bytes": 20180482
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_025_028.npz": {
+      "sha256": "e6cbb40ae1266e1ff9a310f721adc13938211f6f35e1dec1f61502527450c2c7",
+      "bytes": 20188014
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_029_032.npz": {
+      "sha256": "6080e1000bc5edfcb911a1d1bba385fd01dd3872afad9c73bbca4fed1e44671d",
+      "bytes": 20200111
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_033_036.npz": {
+      "sha256": "0474b103eb871b3c6aaf1d7cbde9add28c04c1ab4954cdb0f1589be413c95243",
+      "bytes": 20199837
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_037_040.npz": {
+      "sha256": "acb9ed106aca2db58894f3e92e26f00d72a5c33ce718c6bc348856f2e9821e63",
+      "bytes": 20188605
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_041_044.npz": {
+      "sha256": "4586df2bf40fd5673a6718c86eee1022e68617ffd477b85c90ad47d9c0c14832",
+      "bytes": 20182111
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_045_048.npz": {
+      "sha256": "24357ef149f153299eb5808d417c868a3d6f722f6e990a2968090a9dd0fec5aa",
+      "bytes": 20178425
+    },
+    "YRA_R4_Struggle_Strong_Loop/frames_049_049.npz": {
+      "sha256": "3b991730eabf14067bd9bfde42e4d3567dbd88bfdf84fcc8f567d7fa07e5fe5d",
+      "bytes": 5047518
+    },
+    "YRA_R4_Land_Soft/frames_001_004.npz": {
+      "sha256": "47d4c9b42b9274d2bb292b61e062347de2eb3634239cb4ecc87e8d834ad3c389",
+      "bytes": 20204705
+    },
+    "YRA_R4_Land_Soft/frames_005_008.npz": {
+      "sha256": "1363c28fdc21f6ef3ccd3fb7957ce99c33485a18b989e0c3ac6bb5f756288131",
+      "bytes": 20188238
+    },
+    "YRA_R4_Land_Soft/frames_009_012.npz": {
+      "sha256": "39f202fbb3fac3b90f2d61f5d04ef9f249f54d5723bb27e68c4b439db2a48041",
+      "bytes": 20183734
+    },
+    "YRA_R4_Land_Soft/frames_013_016.npz": {
+      "sha256": "06de7c1ff369a016282cd828500ae6251352e76e23f77b6af195cb894297d73d",
+      "bytes": 20185319
+    },
+    "YRA_R4_Land_Soft/frames_017_020.npz": {
+      "sha256": "7891d9c1bd639ea83b0c6b3008a999695114d3cfb89bdba22d65512bdb6800ed",
+      "bytes": 20190783
+    },
+    "YRA_R4_Land_Soft/frames_021_024.npz": {
+      "sha256": "1efb68b4fdd7b56a013373fdc5ec348e8c2f06cfe580c66a7dc155773078a301",
+      "bytes": 20197379
+    },
+    "YRA_R4_Land_Soft/frames_025_028.npz": {
+      "sha256": "37c85e97ba6c14385b274c388d7e13fc2567a30fa205dcd0fba2d68d876ba3e2",
+      "bytes": 20198791
+    },
+    "YRA_R4_Land_Soft/frames_029_032.npz": {
+      "sha256": "5ad0918c3cb8668bbdef170ea6d6f5de74f1ce34776046d89b9c3ca5ed8e5c37",
+      "bytes": 20201706
+    },
+    "YRA_R4_Land_Soft/frames_033_036.npz": {
+      "sha256": "2dc39e20edecd58e3ec363353c033fee5a64c8732c921c06425f9dd1dc4965e0",
+      "bytes": 20208448
+    },
+    "YRA_R4_Land_Soft/frames_037_040.npz": {
+      "sha256": "ae61754a146a4155d916203cc31d310a1f7688360ccdbef83d339f6e2dd2b245",
+      "bytes": 20215156
+    },
+    "YRA_R4_Land_Soft/frames_041_043.npz": {
+      "sha256": "1f09dd79b499aef8a9d677c0dbf4740e203b8be71d8ae0fb2d0863de7d15b80c",
+      "bytes": 15159589
+    },
+    "YRA_R4_BalanceRecover/frames_001_004.npz": {
+      "sha256": "5b50d075457d40ada1b76314d693f57c4103044f6718fb9acd5786f97d405d4d",
+      "bytes": 20212813
+    },
+    "YRA_R4_BalanceRecover/frames_005_008.npz": {
+      "sha256": "405aaa604b8c475411db46aa81b6047523a42901db80fb1a9f952732b3413963",
+      "bytes": 20198582
+    },
+    "YRA_R4_BalanceRecover/frames_009_012.npz": {
+      "sha256": "d897b258874abfd8faf37b56c84ff69a60c81cf5ac5096cc3716eb9617bb7735",
+      "bytes": 20193747
+    },
+    "YRA_R4_BalanceRecover/frames_013_016.npz": {
+      "sha256": "5228587c8d8f58b7a175162dff460f1f0ad83cde895632982b3a957938806826",
+      "bytes": 20193788
+    },
+    "YRA_R4_BalanceRecover/frames_017_020.npz": {
+      "sha256": "412b4b0c88278847e20b914ee0e34f6455319122ef21ed4f21c378cf3ac040a5",
+      "bytes": 20195810
+    },
+    "YRA_R4_BalanceRecover/frames_021_024.npz": {
+      "sha256": "d88dbf27e7a03465ce884e0898a76d31f31bb3fbabfe9fa67a9655892d1a672e",
+      "bytes": 20198857
+    },
+    "YRA_R4_BalanceRecover/frames_025_028.npz": {
+      "sha256": "46ed8fdc007ebe53846ce32b6c094f2a4eaaa42f8010041ea998cb5bf18054fa",
+      "bytes": 20211817
+    },
+    "YRA_R4_BalanceRecover/frames_029_032.npz": {
+      "sha256": "59f8ab8b0c9f00880ab7a7226909c22b587c84f4d26975f8d3faa4ba4ac4acf3",
+      "bytes": 20209818
+    },
+    "YRA_R4_BalanceRecover/frames_033_036.npz": {
+      "sha256": "1facdd9d4e32f0ee80f01fa318ee921ff2b15312ba9efeaa16fde8bb25ebab31",
+      "bytes": 20211936
+    },
+    "YRA_R4_BalanceRecover/frames_037_040.npz": {
+      "sha256": "fbac80e4124c3e85281d269ce8e1db150ce62a885e5f4d1f77fcd8040668498b",
+      "bytes": 20213701
+    },
+    "YRA_R4_BalanceRecover/frames_041_044.npz": {
+      "sha256": "1e7f74492b0e2e831b76d6d6b3cbcc8768a85d5eb9a787a7cccdf0d4c0cfddc0",
+      "bytes": 20206226
+    },
+    "YRA_R4_BalanceRecover/frames_045_048.npz": {
+      "sha256": "87764bdb2b27dd6879c598bd67214d76314473087d8c005b98e41384be632232",
+      "bytes": 20209012
+    },
+    "YRA_R4_BalanceRecover/frames_049_052.npz": {
+      "sha256": "5219e9ac304f77eec450c6b3af2f047fca5c0eb2b06469b433004435e6c0613b",
+      "bytes": 20213447
+    },
+    "YRA_R4_BalanceRecover/frames_053_055.npz": {
+      "sha256": "2a749153f296ce7730d48d26978740371e1e2db7839ef350934eac5f91ae04fb",
+      "bytes": 15162813
+    },
+    "metadata/FULL_BODY_DEFORMATION_MANIFEST.json": {
+      "sha256": "d8ec32b42adf4cb2f4a6dea280eb98149789c047af0a4bb498e9a978250afc2e",
+      "bytes": 160772
+    },
+    "metadata/LIVE_SOURCE_INSPECTION.json": {
+      "sha256": "14bc38da7e07fcfd9422d0bbc84bb3c48ff455c80e1c081feca5174fbe71b373",
+      "bytes": 1416
+    },
+    "metadata/SOURCE_COMPONENT_DIFF.json": {
+      "sha256": "de99320acf7dfd9e489f1aefb8134c416a08b2f5e32c850291d18dd0c0f10041",
+      "bytes": 73142
+    },
+    "metadata/YURI_O1_FULL_BODY_DEFORMATION_REFERENCE_R1.md": {
+      "sha256": "a1102b3b440ea42d46209e64b20b887b8cca805c0ef49c57d7c0415db0378374",
+      "bytes": 3431
+    },
+    "scripts/r4_full_body_deformation_reference.py": {
+      "sha256": "b3ec087995b6b2fcaf3e674693f17377b7e66e457962db58384b55bc97a668c8",
+      "bytes": 12489
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "9e88481ad9cba5051bda0d200eadd57da57c0e5b0febe3462fb3467704d9e8c9",
+      "bytes": 3513
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 85895187,
+  "data_bytes": 1393561507,
+  "aggregate_file_manifest_sha256": "c0927b858eaa0a21cb371673a9327d95ccf032fc24c0927576d23913f09f7998",
+  "source_or_frozen_input_writes": 0
+}
