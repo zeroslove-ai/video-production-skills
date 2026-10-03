@@ -1,0 +1,72 @@
+{
+  "task_id": "ROOT_PM_O1_BODY_RENDER_TANGENT_DEPENDENCY_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_BODY_RENDER_TANGENT_DEPENDENCY_20261003_R1_440a1487c3b5",
+  "manifest_sha256": "440a1487c3b506b01a195010bb451e1fa3d3186aed6141cc1f6022372e68c512",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_BODY_RENDER_TANGENT_DEPENDENCY_20261003_R1_440a1487c3b5\\YURI_O1_R4_BODY_RENDER_TANGENT_DEPENDENCY_20261003_R1.part01-of-01.zip",
+      "sha256": "b9fd2a1194e86bf01d4ce7c468eccf7cef089c72950e232e64ccd8ba12bfe06a",
+      "bytes": 579964,
+      "files": [
+        "upstream/mesh.cpp",
+        "upstream/shader_nodes.cpp",
+        "upstream/cycles_scene_mesh.cpp",
+        "upstream/cycles_scene_geometry.cpp",
+        "upstream/types_normal.h",
+        "upstream/Apache-2.0.txt",
+        "metadata/BODY_RENDER_TANGENT_DEPENDENCY_RECEIPT.json",
+        "metadata/ROOT_PM_O1_BODY_RENDER_TANGENT_DEPENDENCY_R1.md",
+        "scripts/r4_body_render_tangent_dependency.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "upstream/mesh.cpp": {
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054
+    },
+    "upstream/shader_nodes.cpp": {
+      "sha256": "43f3efdca933083fa8ace71499da3886721cbc0591ae430959e2b84f0e983184",
+      "bytes": 272591
+    },
+    "upstream/cycles_scene_mesh.cpp": {
+      "sha256": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54",
+      "bytes": 30464
+    },
+    "upstream/cycles_scene_geometry.cpp": {
+      "sha256": "1ba91093ca1a983e7e5c743b27955d9da20cb8fcac9168338e695c68088edea7",
+      "bytes": 39767
+    },
+    "upstream/types_normal.h": {
+      "sha256": "d6a9dcee0eb501893f93012cf42d9026b207baa9d3fc978ac26693da300eac82",
+      "bytes": 2965
+    },
+    "upstream/Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    "metadata/BODY_RENDER_TANGENT_DEPENDENCY_RECEIPT.json": {
+      "sha256": "440a1487c3b506b01a195010bb451e1fa3d3186aed6141cc1f6022372e68c512",
+      "bytes": 156554
+    },
+    "metadata/ROOT_PM_O1_BODY_RENDER_TANGENT_DEPENDENCY_R1.md": {
+      "sha256": "3849fb9b3bba76ed1739e2819f01ce9fe26b73db4d7964746018682fcc88bb8c",
+      "bytes": 6711
+    },
+    "scripts/r4_body_render_tangent_dependency.py": {
+      "sha256": "4217d7d56b1a06f06e3b10b800fbbc233431548912a5d454ced374a4efbc66a4",
+      "bytes": 9237
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "3ee967fa71fb386c179e85a8942f643596765f00418f3fcabf7dd37e61d80c44",
+      "bytes": 5785
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 579964,
+  "data_bytes": 400199,
+  "aggregate_file_manifest_sha256": "2c3fcd8c76fd5228541ef0a15e01a986638ee0115b87b5111eaf4e55d6241f92",
+  "source_or_frozen_input_writes": 0
+}

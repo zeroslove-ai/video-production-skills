@@ -1,0 +1,5354 @@
+{
+  "task_id": "ROOT_PM_O1_BODY_RENDER_TANGENT_DEPENDENCY_R1",
+  "status": "DONE_SOURCE_DEPENDENCY_RUNTIME_TANGENT_PROOF_HOLD",
+  "source_render_engine": "CYCLES",
+  "source_build_ref": "9e2066aef7ef",
+  "materials": {
+    "Skin_Clean_R3": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Clean 2K skin bake",
+        "Material Output",
+        "Principled BSDF"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Clean 2K skin bake",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ],
+      "NormalMap": [],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Clean 2K skin bake",
+          "image": [
+            "Image",
+            "Skin_Clean_R3_BaseColor_2K"
+          ],
+          "vector_linked": false,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "Skin_Clean_R3_BaseColor_2K",
+            "properties": {
+              "name_full": "Skin_Clean_R3_BaseColor_2K",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "Skin_Clean_R3_BaseColor_2K"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": null,
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "//..\\..\\avatar_clean_base_r3\\textures\\Skin_Clean_R3_BaseColor_2K.png",
+              "filepath_raw": "//..\\..\\avatar_clean_base_r3\\textures\\Skin_Clean_R3_BaseColor_2K.png",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "UV_GRID",
+              "generated_width": 1024,
+              "generated_height": 1024,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                2048,
+                2048
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              2048,
+              2048
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/10_00.png",
+                "bytes": 163037,
+                "sha256": "2e5f04e8584f3ab22aa708299642b0a6fd012e2281b5c02df37de176d7a73b34",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_clean_base_r3/textures/Skin_Clean_R3_BaseColor_2K.png"
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "Skin_Clean_R3",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Skin_Clean_R3"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          0.6100000143051147,
+          0.44600000977516174,
+          0.4020000100135803,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.4000000059604645,
+        "specular_intensity": 0.5,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "ca0dabf2501396b9f08f0a3f9b4c14b25857f381201b02c8e8e39625ee82dad8"
+    },
+    "Face_Sclera_Wet.R": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Image Texture",
+        "Map Range.001",
+        "Mapping",
+        "Material Output",
+        "Mix (Legacy).001",
+        "Neck Rest Position",
+        "Normal Map",
+        "Principled BSDF",
+        "Separate XYZ.001",
+        "Texture Coordinate"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ]
+      ],
+      "NormalMap": [
+        {
+          "name": "Normal Map",
+          "space": "TANGENT",
+          "uv_map": "",
+          "convention": "OPENGL",
+          "base": "DISPLACED",
+          "mute": false,
+          "Strength": {
+            "label": "Strength",
+            "identifier": "Strength",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "VALUE",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketFloat",
+            "bl_label": "Float",
+            "bl_subtype_label": "None",
+            "default_value": 1.0
+          },
+          "Color": {
+            "label": "Color",
+            "identifier": "Color",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "RGBA",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketColor",
+            "bl_label": "Color",
+            "bl_subtype_label": "None",
+            "default_value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "incoming_links": [],
+          "outgoing_links": [
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ]
+          ]
+        }
+      ],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Image Texture",
+          "image": [
+            "Image",
+            "bald_anime_head_3d_model_basecolor.002"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "bald_anime_head_3d_model_basecolor.002",
+            "properties": {
+              "name_full": "bald_anime_head_3d_model_basecolor.002",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "bald_anime_head_3d_model_basecolor.002"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": [
+                "LibraryWeakReference",
+                null
+              ],
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "filepath_raw": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "file_format": "JPEG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "UV_GRID",
+              "generated_width": 1024,
+              "generated_height": 1024,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                4096,
+                4096
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              4096,
+              4096
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/00_00.jpg",
+                "bytes": 1367400,
+                "sha256": "bed3aecd8c0640eb3581bb4e1039279103f3d33d6aff3bc0aaff5ef5c4b3b362",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/bald anime head 3d model/bald+anime+head+3d+model.fbm/bald+anime+head+3d+model_basecolor.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "Face_Sclera_Wet.R",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Face_Sclera_Wet.R"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.5,
+        "specular_intensity": 1.0,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "15f3f9394f5715e6b03d739eaf1c399c5695f4026d015e978d6788d207b65cd8"
+    },
+    "Face_Sclera_Wet.L": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Image Texture",
+        "Map Range.001",
+        "Mapping",
+        "Material Output",
+        "Mix (Legacy).001",
+        "Neck Rest Position",
+        "Normal Map",
+        "Principled BSDF",
+        "Separate XYZ.001",
+        "Texture Coordinate"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ]
+      ],
+      "NormalMap": [
+        {
+          "name": "Normal Map",
+          "space": "TANGENT",
+          "uv_map": "",
+          "convention": "OPENGL",
+          "base": "DISPLACED",
+          "mute": false,
+          "Strength": {
+            "label": "Strength",
+            "identifier": "Strength",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "VALUE",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketFloat",
+            "bl_label": "Float",
+            "bl_subtype_label": "None",
+            "default_value": 1.0
+          },
+          "Color": {
+            "label": "Color",
+            "identifier": "Color",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "RGBA",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketColor",
+            "bl_label": "Color",
+            "bl_subtype_label": "None",
+            "default_value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "incoming_links": [],
+          "outgoing_links": [
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ]
+          ]
+        }
+      ],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Image Texture",
+          "image": [
+            "Image",
+            "bald_anime_head_3d_model_basecolor.002"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "bald_anime_head_3d_model_basecolor.002",
+            "properties": {
+              "name_full": "bald_anime_head_3d_model_basecolor.002",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "bald_anime_head_3d_model_basecolor.002"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": [
+                "LibraryWeakReference",
+                null
+              ],
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "filepath_raw": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "file_format": "JPEG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "UV_GRID",
+              "generated_width": 1024,
+              "generated_height": 1024,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                4096,
+                4096
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              4096,
+              4096
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/00_00.jpg",
+                "bytes": 1367400,
+                "sha256": "bed3aecd8c0640eb3581bb4e1039279103f3d33d6aff3bc0aaff5ef5c4b3b362",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/bald anime head 3d model/bald+anime+head+3d+model.fbm/bald+anime+head+3d+model_basecolor.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "Face_Sclera_Wet.L",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Face_Sclera_Wet.L"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.5,
+        "specular_intensity": 1.0,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "15f3f9394f5715e6b03d739eaf1c399c5695f4026d015e978d6788d207b65cd8"
+    },
+    "ContinuousEyeSkin.R": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Blink texture corrective",
+        "Image Texture",
+        "Image Texture.001",
+        "Map Range.001",
+        "Map Range.002",
+        "Mapping",
+        "Material Output",
+        "Math",
+        "Mix (Legacy).001",
+        "Neck Rest Position",
+        "Normal Map",
+        "Principled BSDF",
+        "R3 anatomical fold only",
+        "R3 broad upper-lid pigment mask",
+        "R3 smooth closed skin field",
+        "R3 soft warm fold",
+        "Separate XYZ.001",
+        "Texture Coordinate"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Blink texture corrective",
+          "Color1"
+        ],
+        [
+          "R3 broad upper-lid pigment mask",
+          "Fac",
+          "R3 smooth closed skin field",
+          "Fac"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "R3 smooth closed skin field",
+          "Color1"
+        ],
+        [
+          "R3 smooth closed skin field",
+          "Color",
+          "Blink texture corrective",
+          "Color2"
+        ],
+        [
+          "R3 anatomical fold only",
+          "Fac",
+          "Math",
+          "Value"
+        ],
+        [
+          "Math",
+          "Value",
+          "R3 soft warm fold",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "R3 soft warm fold",
+          "Color1"
+        ],
+        [
+          "R3 soft warm fold",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ],
+      "NormalMap": [
+        {
+          "name": "Normal Map",
+          "space": "TANGENT",
+          "uv_map": "",
+          "convention": "OPENGL",
+          "base": "DISPLACED",
+          "mute": false,
+          "Strength": {
+            "label": "Strength",
+            "identifier": "Strength",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "VALUE",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketFloat",
+            "bl_label": "Float",
+            "bl_subtype_label": "None",
+            "default_value": 1.0
+          },
+          "Color": {
+            "label": "Color",
+            "identifier": "Color",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "RGBA",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketColor",
+            "bl_label": "Color",
+            "bl_subtype_label": "None",
+            "default_value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "incoming_links": [],
+          "outgoing_links": [
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ]
+          ]
+        }
+      ],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Image Texture.001",
+          "image": [
+            "Image",
+            "Face_Debanded_LidClosed.R"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "EXTEND",
+          "image_receipt": {
+            "image": "Face_Debanded_LidClosed.R",
+            "properties": {
+              "name_full": "Face_Debanded_LidClosed.R",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "Face_Debanded_LidClosed.R"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": [
+                "LibraryWeakReference",
+                null
+              ],
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "",
+              "filepath_raw": "",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "BLANK",
+              "generated_width": 512,
+              "generated_height": 128,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 32,
+              "size": [
+                512,
+                128
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              512,
+              128
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/06_00.png",
+                "bytes": 36061,
+                "sha256": "f6c929d054af155bb452a1ad62df360a2a4b18e60dccc0bd52a03807edb2e890",
+                "original_packed_filepath": ""
+              }
+            ]
+          }
+        },
+        {
+          "node": "Image Texture",
+          "image": [
+            "Image",
+            "Face_Clean_LidNeutral.R"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "EXTEND",
+          "image_receipt": {
+            "image": "Face_Clean_LidNeutral.R",
+            "properties": {
+              "name_full": "Face_Clean_LidNeutral.R",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "Face_Clean_LidNeutral.R"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": null,
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "",
+              "filepath_raw": "",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "BLANK",
+              "generated_width": 512,
+              "generated_height": 128,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 32,
+              "size": [
+                512,
+                128
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              512,
+              128
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/04_00.png",
+                "bytes": 76499,
+                "sha256": "df730a2ca42e116dd55ff8c11b93a854052cb4e07113c9ef082e0430c7136fb8",
+                "original_packed_filepath": ""
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "ContinuousEyeSkin.R",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "ContinuousEyeSkin.R"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": [
+          "LibraryWeakReference",
+          null
+        ],
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.5,
+        "specular_intensity": 1.0,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": {
+        "binding": {
+          "action": null,
+          "action_extrapolation": "HOLD",
+          "action_blend_type": "REPLACE",
+          "action_influence": 1.0,
+          "action_tweak_storage": null,
+          "action_slot_handle_tweak_storage": 0,
+          "use_nla": true,
+          "use_tweak_mode": false,
+          "use_pin": false,
+          "action_slot_handle": 0,
+          "last_slot_identifier": "",
+          "action_slot": null
+        },
+        "drivers": [
+          [
+            "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "min(1,blink*4)",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Key",
+                      "FaceControls_TEST_Jaw_Smile.001"
+                    ],
+                    "id_type": "KEY",
+                    "data_path": "key_blocks[\"Blink.R\"].value",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "nodes[\"Math\"].inputs[1].default_value",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "nodes[\"Math\"].inputs[1].default_value",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "min(1,blink*4)*0.60",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Key",
+                      "FaceControls_TEST_Jaw_Smile.001"
+                    ],
+                    "id_type": "KEY",
+                    "data_path": "key_blocks[\"Blink.R\"].value",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ]
+        ],
+        "nla": []
+      },
+      "graph_sha256": "893fa48ce33940fb624c136ff33c065a753b34c6b78f759cde89bee8c47117f6"
+    },
+    "Hair_Pearl_PBR": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Hair_Color",
+        "Material Output"
+      ],
+      "surface_links": [
+        [
+          "Hair_Color",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "NormalMap": [],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [],
+      "material_properties": {
+        "name_full": "Hair_Pearl_PBR",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Hair_Pearl_PBR"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": [
+          "LibraryWeakReference",
+          null
+        ],
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          0.5600000023841858,
+          0.5350000262260437,
+          0.4950000047683716,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.4000000059604645,
+        "specular_intensity": 0.5,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "f6acbc8084bfcdb809cc77fc8a6c8fda292ae7ee89d93d06f8f8ebda56af8960"
+    },
+    "Face_LowerLash_Pigment": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Material Output",
+        "Principled BSDF"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "NormalMap": [],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [],
+      "material_properties": {
+        "name_full": "Face_LowerLash_Pigment",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Face_LowerLash_Pigment"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          0.05000000074505806,
+          0.02500000037252903,
+          0.023000000044703484,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.4000000059604645,
+        "specular_intensity": 0.5,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "4da6f3e70422301e4309244b1a82cd629fccf585f252caa6bd583678d7c4e181"
+    },
+    "R4_Meshy_OriginalDetail_FaceMatched": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Material Output",
+        "Normal Map",
+        "Original Meshy Color - safe derived 4K",
+        "Original Meshy Normal - safe derived 4K",
+        "Original Meshy Roughness - safe derived 4K",
+        "Principled BSDF"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Original Meshy Color - safe derived 4K",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Original Meshy Normal - safe derived 4K",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Original Meshy Roughness - safe derived 4K",
+          "Color",
+          "Principled BSDF",
+          "Roughness"
+        ]
+      ],
+      "NormalMap": [
+        {
+          "name": "Normal Map",
+          "space": "TANGENT",
+          "uv_map": "",
+          "convention": "OPENGL",
+          "base": "DISPLACED",
+          "mute": false,
+          "Strength": {
+            "label": "Strength",
+            "identifier": "Strength",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "VALUE",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketFloat",
+            "bl_label": "Float",
+            "bl_subtype_label": "None",
+            "default_value": 0.3499999940395355
+          },
+          "Color": {
+            "label": "Color",
+            "identifier": "Color",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": true,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "RGBA",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketColor",
+            "bl_label": "Color",
+            "bl_subtype_label": "None",
+            "default_value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "incoming_links": [
+            [
+              "Original Meshy Normal - safe derived 4K",
+              "Color",
+              "Normal Map",
+              "Color"
+            ]
+          ],
+          "outgoing_links": [
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ]
+          ]
+        }
+      ],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Original Meshy Color - safe derived 4K",
+          "image": [
+            "Image",
+            "R4_Meshy_Color_Safe_4K"
+          ],
+          "vector_linked": false,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "R4_Meshy_Color_Safe_4K",
+            "properties": {
+              "name_full": "R4_Meshy_Color_Safe_4K",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "R4_Meshy_Color_Safe_4K"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": null,
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Color_Safe_4K.png",
+              "filepath_raw": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Color_Safe_4K.png",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "BLANK",
+              "generated_width": 4096,
+              "generated_height": 4096,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                4096,
+                4096
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              4096,
+              4096
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/07_00.png",
+                "bytes": 4239106,
+                "sha256": "9529c4a3b8b45ab1a1e7c1ec88c7583a5ef140224a6edfffce64ca946bbe1f4a",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/neck_skin_R4/textures/R4_Meshy_Color_Safe_4K.png"
+              }
+            ]
+          }
+        },
+        {
+          "node": "Original Meshy Normal - safe derived 4K",
+          "image": [
+            "Image",
+            "R4_Meshy_Normal_Safe_4K"
+          ],
+          "vector_linked": false,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "R4_Meshy_Normal_Safe_4K",
+            "properties": {
+              "name_full": "R4_Meshy_Normal_Safe_4K",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "R4_Meshy_Normal_Safe_4K"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": null,
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Normal_Safe_4K.png",
+              "filepath_raw": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Normal_Safe_4K.png",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "BLANK",
+              "generated_width": 4096,
+              "generated_height": 4096,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                4096,
+                4096
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "Non-Color"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              4096,
+              4096
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": true
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/08_00.png",
+                "bytes": 3808709,
+                "sha256": "aa1ca76133eb9774fad2add96e72504821488e95dd51bd2544eddfa8221f6430",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/neck_skin_R4/textures/R4_Meshy_Normal_Safe_4K.png"
+              }
+            ]
+          }
+        },
+        {
+          "node": "Original Meshy Roughness - safe derived 4K",
+          "image": [
+            "Image",
+            "R4_Meshy_Roughness_Safe_4K"
+          ],
+          "vector_linked": false,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "R4_Meshy_Roughness_Safe_4K",
+            "properties": {
+              "name_full": "R4_Meshy_Roughness_Safe_4K",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "R4_Meshy_Roughness_Safe_4K"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": null,
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Roughness_Safe_4K.png",
+              "filepath_raw": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Roughness_Safe_4K.png",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "BLANK",
+              "generated_width": 4096,
+              "generated_height": 4096,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                4096,
+                4096
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "Non-Color"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              4096,
+              4096
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": true
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/09_00.png",
+                "bytes": 2328391,
+                "sha256": "d88761449405dd6e71046248ce4e38adf4ad6e2ee0080c678ee68466c4c677dc",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/neck_skin_R4/textures/R4_Meshy_Roughness_Safe_4K.png"
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "R4_Meshy_OriginalDetail_FaceMatched",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "R4_Meshy_OriginalDetail_FaceMatched"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          0.9046612977981567,
+          0.5520114898681641,
+          0.5028864741325378,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.4000000059604645,
+        "specular_intensity": 0.5,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "b8dab68a44b32e55ec58dd3c1569f7219cc669186c886fb7f9cd55033a079fd2"
+    },
+    "Neck transition.001": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Material Output",
+        "Principled BSDF"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "NormalMap": [],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [],
+      "material_properties": {
+        "name_full": "Neck transition.001",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Neck transition.001"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": [
+          "LibraryWeakReference",
+          null
+        ],
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          0.9046612977981567,
+          0.5520114898681641,
+          0.5028864741325378,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.4000000059604645,
+        "specular_intensity": 0.5,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "09244182d0a6603e013c0133abc4f07a49ed2910fa37e87defdf9434eb27e682"
+    },
+    "ContinuousEyeSkin.L": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Blink texture corrective",
+        "Image Texture",
+        "Image Texture.001",
+        "Map Range.001",
+        "Map Range.002",
+        "Mapping",
+        "Material Output",
+        "Math",
+        "Mix (Legacy).001",
+        "Neck Rest Position",
+        "Normal Map",
+        "Principled BSDF",
+        "R3 anatomical fold only",
+        "R3 broad upper-lid pigment mask",
+        "R3 smooth closed skin field",
+        "R3 soft warm fold",
+        "Separate XYZ.001",
+        "Texture Coordinate"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Blink texture corrective",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Blink texture corrective",
+          "Color1"
+        ],
+        [
+          "R3 broad upper-lid pigment mask",
+          "Fac",
+          "R3 smooth closed skin field",
+          "Fac"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "R3 smooth closed skin field",
+          "Color1"
+        ],
+        [
+          "R3 smooth closed skin field",
+          "Color",
+          "Blink texture corrective",
+          "Color2"
+        ],
+        [
+          "R3 anatomical fold only",
+          "Fac",
+          "Math",
+          "Value"
+        ],
+        [
+          "Math",
+          "Value",
+          "R3 soft warm fold",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "R3 soft warm fold",
+          "Color1"
+        ],
+        [
+          "R3 soft warm fold",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ],
+      "NormalMap": [
+        {
+          "name": "Normal Map",
+          "space": "TANGENT",
+          "uv_map": "",
+          "convention": "OPENGL",
+          "base": "DISPLACED",
+          "mute": false,
+          "Strength": {
+            "label": "Strength",
+            "identifier": "Strength",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "VALUE",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketFloat",
+            "bl_label": "Float",
+            "bl_subtype_label": "None",
+            "default_value": 1.0
+          },
+          "Color": {
+            "label": "Color",
+            "identifier": "Color",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "RGBA",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketColor",
+            "bl_label": "Color",
+            "bl_subtype_label": "None",
+            "default_value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "incoming_links": [],
+          "outgoing_links": [
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ]
+          ]
+        }
+      ],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Image Texture.001",
+          "image": [
+            "Image",
+            "Face_Debanded_LidClosed.L"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "EXTEND",
+          "image_receipt": {
+            "image": "Face_Debanded_LidClosed.L",
+            "properties": {
+              "name_full": "Face_Debanded_LidClosed.L",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "Face_Debanded_LidClosed.L"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": [
+                "LibraryWeakReference",
+                null
+              ],
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "",
+              "filepath_raw": "",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "BLANK",
+              "generated_width": 512,
+              "generated_height": 128,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 32,
+              "size": [
+                512,
+                128
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              512,
+              128
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/05_00.png",
+                "bytes": 35785,
+                "sha256": "16c918cd0d06fb197031b7a7f9c8aea94a6b955e4e2ccf04cd90465fe1f70847",
+                "original_packed_filepath": ""
+              }
+            ]
+          }
+        },
+        {
+          "node": "Image Texture",
+          "image": [
+            "Image",
+            "Face_Clean_LidNeutral.L"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "EXTEND",
+          "image_receipt": {
+            "image": "Face_Clean_LidNeutral.L",
+            "properties": {
+              "name_full": "Face_Clean_LidNeutral.L",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "Face_Clean_LidNeutral.L"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": null,
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "",
+              "filepath_raw": "",
+              "file_format": "PNG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "BLANK",
+              "generated_width": 512,
+              "generated_height": 128,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 32,
+              "size": [
+                512,
+                128
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              512,
+              128
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/03_00.png",
+                "bytes": 76646,
+                "sha256": "b5ff2b659daf09162b5938807a17e09dcfdca57e7229a9a7d51345d496d3e997",
+                "original_packed_filepath": ""
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "ContinuousEyeSkin.L",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "ContinuousEyeSkin.L"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": [
+          "LibraryWeakReference",
+          null
+        ],
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.5,
+        "specular_intensity": 1.0,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": {
+        "binding": {
+          "action": null,
+          "action_extrapolation": "HOLD",
+          "action_blend_type": "REPLACE",
+          "action_influence": 1.0,
+          "action_tweak_storage": null,
+          "action_slot_handle_tweak_storage": 0,
+          "use_nla": true,
+          "use_tweak_mode": false,
+          "use_pin": false,
+          "action_slot_handle": 0,
+          "last_slot_identifier": "",
+          "action_slot": null
+        },
+        "drivers": [
+          [
+            "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "nodes[\"Blink texture corrective\"].inputs[0].default_value",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "min(1,blink*4)",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Key",
+                      "FaceControls_TEST_Jaw_Smile.001"
+                    ],
+                    "id_type": "KEY",
+                    "data_path": "key_blocks[\"Blink.L\"].value",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "nodes[\"Math\"].inputs[1].default_value",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "nodes[\"Math\"].inputs[1].default_value",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "min(1,blink*4)*0.60",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Key",
+                      "FaceControls_TEST_Jaw_Smile.001"
+                    ],
+                    "id_type": "KEY",
+                    "data_path": "key_blocks[\"Blink.L\"].value",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ]
+        ],
+        "nla": []
+      },
+      "graph_sha256": "4d9ed43375f9286f8406d00bb284e8484e35fd06421540c7daecb3146d895632"
+    },
+    "Face_Lash_Pigment": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Material Output",
+        "Principled BSDF"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "NormalMap": [],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [],
+      "material_properties": {
+        "name_full": "Face_Lash_Pigment",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Face_Lash_Pigment"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          0.024000000208616257,
+          0.012000000104308128,
+          0.012000000104308128,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.4000000059604645,
+        "specular_intensity": 0.5,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "dac1f8f5d683c2b25efb2fd6312342458993e2918f501fb1a454a349cd73e92e"
+    },
+    "Face_Iris_Wet_v1": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Image Texture",
+        "Map Range.001",
+        "Mapping",
+        "Material Output",
+        "Mix (Legacy).001",
+        "Neck Rest Position",
+        "Normal Map",
+        "Principled BSDF",
+        "Separate XYZ.001",
+        "Texture Coordinate"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ]
+      ],
+      "NormalMap": [
+        {
+          "name": "Normal Map",
+          "space": "TANGENT",
+          "uv_map": "",
+          "convention": "OPENGL",
+          "base": "DISPLACED",
+          "mute": false,
+          "Strength": {
+            "label": "Strength",
+            "identifier": "Strength",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "VALUE",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketFloat",
+            "bl_label": "Float",
+            "bl_subtype_label": "None",
+            "default_value": 1.0
+          },
+          "Color": {
+            "label": "Color",
+            "identifier": "Color",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "RGBA",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketColor",
+            "bl_label": "Color",
+            "bl_subtype_label": "None",
+            "default_value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "incoming_links": [],
+          "outgoing_links": [
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ]
+          ]
+        }
+      ],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Image Texture",
+          "image": [
+            "Image",
+            "bald_anime_head_3d_model_basecolor.002"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "bald_anime_head_3d_model_basecolor.002",
+            "properties": {
+              "name_full": "bald_anime_head_3d_model_basecolor.002",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "bald_anime_head_3d_model_basecolor.002"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": [
+                "LibraryWeakReference",
+                null
+              ],
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "filepath_raw": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "file_format": "JPEG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "UV_GRID",
+              "generated_width": 1024,
+              "generated_height": 1024,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                4096,
+                4096
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              4096,
+              4096
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/00_00.jpg",
+                "bytes": 1367400,
+                "sha256": "bed3aecd8c0640eb3581bb4e1039279103f3d33d6aff3bc0aaff5ef5c4b3b362",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/bald anime head 3d model/bald+anime+head+3d+model.fbm/bald+anime+head+3d+model_basecolor.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "Face_Iris_Wet_v1",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Face_Iris_Wet_v1"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.5,
+        "specular_intensity": 1.0,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": null,
+      "graph_sha256": "89e921a1c2caaafab483bb2874d4a88b2ca36bb6c4b52e0130fbc237dd40943b"
+    },
+    "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001": {
+      "active_output_nodes": [
+        "Material Output"
+      ],
+      "reachable_node_names": [
+        "Image Texture",
+        "Map Range.001",
+        "Map Range.002",
+        "Mapping",
+        "Material Output",
+        "Mix (Legacy).001",
+        "Neck Rest Position",
+        "Normal Map",
+        "Principled BSDF",
+        "R3 blink halo L",
+        "R3 blink halo R",
+        "R3 broad lid halo L",
+        "R3 broad lid halo R",
+        "R3 feathered skin halo L",
+        "R3 feathered skin halo R",
+        "Separate XYZ.001",
+        "Texture Coordinate"
+      ],
+      "surface_links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Mapping",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Texture Coordinate",
+          "UV",
+          "Mapping",
+          "Vector"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy)",
+          "Color1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Neck Rest Position",
+          "Vector",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "R3 broad lid halo L",
+          "Fac",
+          "R3 blink halo L",
+          "Value"
+        ],
+        [
+          "R3 blink halo L",
+          "Value",
+          "R3 feathered skin halo L",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "R3 feathered skin halo L",
+          "Color1"
+        ],
+        [
+          "R3 broad lid halo R",
+          "Fac",
+          "R3 blink halo R",
+          "Value"
+        ],
+        [
+          "R3 blink halo R",
+          "Value",
+          "R3 feathered skin halo R",
+          "Fac"
+        ],
+        [
+          "R3 feathered skin halo L",
+          "Color",
+          "R3 feathered skin halo R",
+          "Color1"
+        ],
+        [
+          "R3 feathered skin halo R",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ]
+      ],
+      "NormalMap": [
+        {
+          "name": "Normal Map",
+          "space": "TANGENT",
+          "uv_map": "",
+          "convention": "OPENGL",
+          "base": "DISPLACED",
+          "mute": false,
+          "Strength": {
+            "label": "Strength",
+            "identifier": "Strength",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "VALUE",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketFloat",
+            "bl_label": "Float",
+            "bl_subtype_label": "None",
+            "default_value": 1.0
+          },
+          "Color": {
+            "label": "Color",
+            "identifier": "Color",
+            "description": "",
+            "is_output": false,
+            "select": false,
+            "hide": false,
+            "enabled": true,
+            "link_limit": 1,
+            "is_linked": false,
+            "is_unavailable": false,
+            "is_multi_input": false,
+            "show_expanded": false,
+            "is_inactive": false,
+            "is_icon_visible": true,
+            "hide_value": false,
+            "pin_gizmo": false,
+            "node": [
+              "ShaderNodeNormalMap",
+              "Normal Map"
+            ],
+            "type": "RGBA",
+            "display_shape": "CIRCLE",
+            "inferred_structure_type": "DYNAMIC",
+            "bl_idname": "NodeSocketColor",
+            "bl_label": "Color",
+            "bl_subtype_label": "None",
+            "default_value": [
+              0.5,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          "incoming_links": [],
+          "outgoing_links": [
+            [
+              "Normal Map",
+              "Normal",
+              "Principled BSDF",
+              "Normal"
+            ]
+          ]
+        }
+      ],
+      "Bump": [],
+      "Tangent": [],
+      "textures": [
+        {
+          "node": "Image Texture",
+          "image": [
+            "Image",
+            "bald_anime_head_3d_model_basecolor.002"
+          ],
+          "vector_linked": true,
+          "interpolation": "Linear",
+          "projection": "FLAT",
+          "extension": "REPEAT",
+          "image_receipt": {
+            "image": "bald_anime_head_3d_model_basecolor.002",
+            "properties": {
+              "name_full": "bald_anime_head_3d_model_basecolor.002",
+              "id_type": "IMAGE",
+              "is_evaluated": false,
+              "original": [
+                "Image",
+                "bald_anime_head_3d_model_basecolor.002"
+              ],
+              "use_extra_user": false,
+              "is_embedded_data": false,
+              "is_linked_packed": false,
+              "is_missing": false,
+              "is_editable": true,
+              "tag": false,
+              "is_library_indirect": false,
+              "library": null,
+              "library_weak_reference": [
+                "LibraryWeakReference",
+                null
+              ],
+              "asset_data": null,
+              "override_library": null,
+              "preview": null,
+              "filepath": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "filepath_raw": "//..\\..\\avatar_originals\\bald anime head 3d model\\bald+anime+head+3d+model.fbm\\bald+anime+head+3d+model_basecolor.jpg",
+              "file_format": "JPEG",
+              "source": "FILE",
+              "type": "IMAGE",
+              "packed_file": [
+                "PackedFile",
+                null
+              ],
+              "use_view_as_render": false,
+              "use_deinterlace": false,
+              "use_multiview": false,
+              "is_stereo_3d": false,
+              "is_multiview": false,
+              "is_dirty": false,
+              "generated_type": "UV_GRID",
+              "generated_width": 1024,
+              "generated_height": 1024,
+              "use_generated_float": false,
+              "generated_color": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "display_aspect": [
+                1.0,
+                1.0
+              ],
+              "has_data": true,
+              "depth": 24,
+              "size": [
+                4096,
+                4096
+              ],
+              "resolution": [
+                2834.645751953125,
+                2834.645751953125
+              ],
+              "frame_duration": 1,
+              "channels": 4,
+              "is_float": false,
+              "colorspace_settings": [
+                "ColorManagedInputColorspaceSettings",
+                "sRGB"
+              ],
+              "alpha_mode": "STRAIGHT",
+              "use_half_precision": true,
+              "seam_margin": 8,
+              "views_format": "INDIVIDUAL",
+              "stereo_3d_format": [
+                "Stereo3dFormat",
+                null
+              ]
+            },
+            "dimensions": [
+              4096,
+              4096
+            ],
+            "channels": 4,
+            "colorspace": {
+              "is_data": false
+            },
+            "alpha_mode": "STRAIGHT",
+            "packed": [
+              {
+                "path": "textures/00_00.jpg",
+                "bytes": 1367400,
+                "sha256": "bed3aecd8c0640eb3581bb4e1039279103f3d33d6aff3bc0aaff5ef5c4b3b362",
+                "original_packed_filepath": "/workspace/scratch/6c41b4c12811/avatar_originals/bald anime head 3d model/bald+anime+head+3d+model.fbm/bald+anime+head+3d+model_basecolor.jpg"
+              }
+            ]
+          }
+        }
+      ],
+      "material_properties": {
+        "name_full": "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+        "id_type": "MATERIAL",
+        "is_evaluated": false,
+        "original": [
+          "Material",
+          "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": [
+          "LibraryWeakReference",
+          null
+        ],
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "surface_render_method": "DITHERED",
+        "displacement_method": "BUMP",
+        "blend_method": "HASHED",
+        "alpha_threshold": 0.5,
+        "use_transparency_overlap": true,
+        "show_transparent_back": true,
+        "use_backface_culling": false,
+        "use_backface_culling_shadow": false,
+        "use_backface_culling_lightprobe_volume": false,
+        "use_transparent_shadow": true,
+        "use_raytrace_refraction": false,
+        "use_screen_refraction": false,
+        "use_sss_translucency": false,
+        "refraction_depth": 0.0,
+        "thickness_mode": "SPHERE",
+        "use_thickness_from_shadow": false,
+        "volume_intersection_method": "FAST",
+        "max_vertex_displacement": 0.0,
+        "preview_render_type": "SPHERE",
+        "use_preview_world": false,
+        "pass_index": 0,
+        "node_tree": [
+          "ShaderNodeTree",
+          "Shader Nodetree"
+        ],
+        "use_nodes": true,
+        "animation_data": null,
+        "paint_active_slot": 0,
+        "paint_clone_slot": 0,
+        "diffuse_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "specular_color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "roughness": 0.5,
+        "specular_intensity": 1.0,
+        "metallic": 0.0,
+        "line_color": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "line_priority": 0,
+        "grease_pencil": null,
+        "is_grease_pencil": false,
+        "lineart": [
+          "MaterialLineArt",
+          null
+        ],
+        "cycles": [
+          "CyclesMaterialSettings",
+          ""
+        ]
+      },
+      "material_driver_binding": {
+        "binding": {
+          "action": null,
+          "action_extrapolation": "HOLD",
+          "action_blend_type": "REPLACE",
+          "action_influence": 1.0,
+          "action_tweak_storage": null,
+          "action_slot_handle_tweak_storage": 0,
+          "use_nla": true,
+          "use_tweak_mode": false,
+          "use_pin": false,
+          "action_slot_handle": 0,
+          "last_slot_identifier": "",
+          "action_slot": null
+        },
+        "drivers": [
+          [
+            "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "nodes[\"R3 blink halo L\"].inputs[1].default_value",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "min(1,blink*4)",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Key",
+                      "FaceControls_TEST_Jaw_Smile.001"
+                    ],
+                    "id_type": "KEY",
+                    "data_path": "key_blocks[\"Blink.L\"].value",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "nodes[\"R3 blink halo R\"].inputs[1].default_value",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "min(1,blink*4)",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Key",
+                      "FaceControls_TEST_Jaw_Smile.001"
+                    ],
+                    "id_type": "KEY",
+                    "data_path": "key_blocks[\"Blink.R\"].value",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ]
+        ],
+        "nla": []
+      },
+      "graph_sha256": "d318b39f84b1f0d43e9c3444fa04374ed76d35ebf6ed883b4e5b1320600ae034"
+    }
+  },
+  "all21_mesh_dependencies": [
+    {
+      "renderer": "Character_Body_Head",
+      "original_material_slots": [
+        "Skin_Clean_R3",
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+        "Neck transition.001",
+        "ContinuousEyeSkin.L",
+        "ContinuousEyeSkin.R",
+        "Face_Iris_Wet_v1",
+        "Face_Lash_Pigment",
+        "Face_LowerLash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Skin_Clean_R3",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        },
+        {
+          "material": "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        },
+        {
+          "material": "Neck transition.001",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        },
+        {
+          "material": "ContinuousEyeSkin.L",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        },
+        {
+          "material": "ContinuousEyeSkin.R",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        },
+        {
+          "material": "Face_Iris_Wet_v1",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        },
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        },
+        {
+          "material": "Face_LowerLash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 19943,
+        "4": 1758
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "NODES",
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "Globe.L",
+      "original_material_slots": [
+        "Face_Sclera_Wet.L"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Sclera_Wet.L",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 384,
+        "4": 18048
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "NODES",
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "Globe.R",
+      "original_material_slots": [
+        "Face_Sclera_Wet.R"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Sclera_Wet.R",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 384,
+        "4": 18048
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "NODES",
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "Hair_Replacement_R4",
+      "original_material_slots": [
+        "Hair_Pearl_PBR"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Hair_Pearl_PBR",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [],
+      "polygon_sizes": {
+        "3": 1614,
+        "4": 7038
+      },
+      "RNA_original_tangent_arrays": [],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.1",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 150
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.2",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 125
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.3",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 63
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.4",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 54
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.L.5",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 45
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.1",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 150
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.2",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 58
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.3",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 54
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.4",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 50
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LashRootRepair.R.5",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 45
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LowerLashesClean.L",
+      "original_material_slots": [
+        "Face_LowerLash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_LowerLash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [],
+      "polygon_sizes": {
+        "4": 576,
+        "6": 24
+      },
+      "RNA_original_tangent_arrays": [],
+      "has_ngons": true,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "LowerLashesClean.R",
+      "original_material_slots": [
+        "Face_LowerLash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_LowerLash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [],
+      "polygon_sizes": {
+        "4": 624,
+        "6": 26
+      },
+      "RNA_original_tangent_arrays": [],
+      "has_ngons": true,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "MedialBacking.L",
+      "original_material_slots": [
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 18,
+        "4": 11
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "MedialBacking.R",
+      "original_material_slots": [
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 18,
+        "4": 11
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "Meshy_Body_NeutralCovered",
+      "original_material_slots": [
+        "R4_Meshy_OriginalDetail_FaceMatched",
+        "R4_Meshy_OriginalDetail_FaceMatched",
+        "R4_Meshy_OriginalDetail_FaceMatched"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "R4_Meshy_OriginalDetail_FaceMatched",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        },
+        {
+          "material": "R4_Meshy_OriginalDetail_FaceMatched",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        },
+        {
+          "material": "R4_Meshy_OriginalDetail_FaceMatched",
+          "connected_NormalMap_count": 1,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": [
+            "TANGENT"
+          ]
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 924,
+        "4": 62457,
+        "5": 399,
+        "7": 1
+      },
+      "RNA_original_tangent_arrays": [
+        null
+      ],
+      "has_ngons": true,
+      "original_modifier_types": [
+        "ARMATURE",
+        "ARMATURE",
+        "CORRECTIVE_SMOOTH",
+        "SMOOTH",
+        "SMOOTH",
+        "SMOOTH",
+        "SMOOTH"
+      ]
+    },
+    {
+      "renderer": "OriginalMedialLashes.L",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 706
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    },
+    {
+      "renderer": "OriginalMedialLashes.R",
+      "original_material_slots": [
+        "Face_Lash_Pigment"
+      ],
+      "slot_dependencies": [
+        {
+          "material": "Face_Lash_Pigment",
+          "connected_NormalMap_count": 0,
+          "connected_Bump_count": 0,
+          "connected_Tangent_node_count": 0,
+          "NormalMap_spaces": []
+        }
+      ],
+      "UV": [
+        {
+          "name": "UVMap",
+          "array": "uv_0",
+          "active_render": true,
+          "active": true
+        }
+      ],
+      "polygon_sizes": {
+        "3": 778
+      },
+      "RNA_original_tangent_arrays": [
+        "tangent_uv0"
+      ],
+      "has_ngons": false,
+      "original_modifier_types": [
+        "ARMATURE"
+      ]
+    }
+  ],
+  "Body_dependency": {
+    "NormalMap_material": "R4_Meshy_OriginalDetail_FaceMatched",
+    "normal_node": {
+      "name": "Normal Map",
+      "space": "TANGENT",
+      "uv_map": "",
+      "convention": "OPENGL",
+      "base": "DISPLACED",
+      "mute": false,
+      "Strength": {
+        "label": "Strength",
+        "identifier": "Strength",
+        "description": "",
+        "is_output": false,
+        "select": false,
+        "hide": false,
+        "enabled": true,
+        "link_limit": 1,
+        "is_linked": false,
+        "is_unavailable": false,
+        "is_multi_input": false,
+        "show_expanded": false,
+        "is_inactive": false,
+        "is_icon_visible": true,
+        "hide_value": false,
+        "pin_gizmo": false,
+        "node": [
+          "ShaderNodeNormalMap",
+          "Normal Map"
+        ],
+        "type": "VALUE",
+        "display_shape": "CIRCLE",
+        "inferred_structure_type": "DYNAMIC",
+        "bl_idname": "NodeSocketFloat",
+        "bl_label": "Float",
+        "bl_subtype_label": "None",
+        "default_value": 0.3499999940395355
+      },
+      "Color": {
+        "label": "Color",
+        "identifier": "Color",
+        "description": "",
+        "is_output": false,
+        "select": false,
+        "hide": false,
+        "enabled": true,
+        "link_limit": 1,
+        "is_linked": true,
+        "is_unavailable": false,
+        "is_multi_input": false,
+        "show_expanded": false,
+        "is_inactive": false,
+        "is_icon_visible": true,
+        "hide_value": false,
+        "pin_gizmo": false,
+        "node": [
+          "ShaderNodeNormalMap",
+          "Normal Map"
+        ],
+        "type": "RGBA",
+        "display_shape": "CIRCLE",
+        "inferred_structure_type": "DYNAMIC",
+        "bl_idname": "NodeSocketColor",
+        "bl_label": "Color",
+        "bl_subtype_label": "None",
+        "default_value": [
+          0.5,
+          0.5,
+          1.0,
+          1.0
+        ]
+      },
+      "incoming_links": [
+        [
+          "Original Meshy Normal - safe derived 4K",
+          "Color",
+          "Normal Map",
+          "Color"
+        ]
+      ],
+      "outgoing_links": [
+        [
+          "Normal Map",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ]
+      ]
+    },
+    "effective_default_UV": "UVMap",
+    "normal_image": {
+      "image": "R4_Meshy_Normal_Safe_4K",
+      "properties": {
+        "name_full": "R4_Meshy_Normal_Safe_4K",
+        "id_type": "IMAGE",
+        "is_evaluated": false,
+        "original": [
+          "Image",
+          "R4_Meshy_Normal_Safe_4K"
+        ],
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_linked_packed": false,
+        "is_missing": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "filepath": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Normal_Safe_4K.png",
+        "filepath_raw": "/workspace\\scratch\\6c41b4c12811\\neck_skin_R4\\textures\\R4_Meshy_Normal_Safe_4K.png",
+        "file_format": "PNG",
+        "source": "FILE",
+        "type": "IMAGE",
+        "packed_file": [
+          "PackedFile",
+          null
+        ],
+        "use_view_as_render": false,
+        "use_deinterlace": false,
+        "use_multiview": false,
+        "is_stereo_3d": false,
+        "is_multiview": false,
+        "is_dirty": false,
+        "generated_type": "BLANK",
+        "generated_width": 4096,
+        "generated_height": 4096,
+        "use_generated_float": false,
+        "generated_color": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "display_aspect": [
+          1.0,
+          1.0
+        ],
+        "has_data": true,
+        "depth": 24,
+        "size": [
+          4096,
+          4096
+        ],
+        "resolution": [
+          2834.645751953125,
+          2834.645751953125
+        ],
+        "frame_duration": 1,
+        "channels": 4,
+        "is_float": false,
+        "colorspace_settings": [
+          "ColorManagedInputColorspaceSettings",
+          "Non-Color"
+        ],
+        "alpha_mode": "STRAIGHT",
+        "use_half_precision": true,
+        "seam_margin": 8,
+        "views_format": "INDIVIDUAL",
+        "stereo_3d_format": [
+          "Stereo3dFormat",
+          null
+        ]
+      },
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "channels": 4,
+      "colorspace": {
+        "is_data": true
+      },
+      "alpha_mode": "STRAIGHT",
+      "packed": [
+        {
+          "path": "textures/08_00.png",
+          "bytes": 3808709,
+          "sha256": "aa1ca76133eb9774fad2add96e72504821488e95dd51bd2544eddfa8221f6430",
+          "original_packed_filepath": "/workspace/scratch/6c41b4c12811/neck_skin_R4/textures/R4_Meshy_Normal_Safe_4K.png"
+        }
+      ]
+    },
+    "material_displacement_connected": false,
+    "shader_Bump_nodes": 0,
+    "original_slots": "Three source slots refer to same material; do not collapse canonical slots.",
+    "normal_map_dependency_active": true
+  },
+  "render_route_correction": {
+    "actual_Cycles_nonsubdivision": "Blender corner_tris/current CORNER normals/UV -> Cycles triangles/packed_normal attributes -> Mesh::update_tangents -> Cycles MikkMeshWrapper (three vertices per face).",
+    "BKE_general": "BKE calc_uv_tangents corner-tris with quad reconstruction is a separate path. Do not assert it was the canonical Cycles renderer tangent route.",
+    "RNA": "RNA calc_tangents remains tri/quad only; Body400 ngons unsupported; LowerLashes have no UV and no connected NormalMap/Bump, no attempted failed UV call.",
+    "normal_packing": "Cycles encodes normals octahedrally into uint32 (two16-bit components) and decodes before Mikk; distinct from original fan-space short2 custom_normal and raw float32 reference.",
+    "shader_attribute": "Body empty UV name and DISPLACED base request standard UV tangent/sign; OPENGL compile invert_green=0. Material output Displacement is not linked.",
+    "proof_limit": "Static graph and pinned-source path verified; actual Cycles packed normal/tangent buffers and dynamic triangle tessellation have not been captured."
+  },
+  "consumer_minimum_inputs": [
+    "Actual clone/evaluated normal and tangent4 buffers plus vertex/source-loop/triangle-corner identity",
+    "Dynamic rendered triangle corner list and winding/source polygon map at QA frames, UV0 values and V-flip convention",
+    "Source-local positions/CORNER normals with coordinate basis K and object-world matrices, mirror/negative-scale sign handling",
+    "Imported normal image SHA/color-space/OpenGL convention/normal-strength0.349999994 and actual applied shader normal result",
+    "If exact Cycles equivalence is required: actual packed_normal attribute/tangent input and renderer normal-map output, obtained only by separately authorized probe"
+  ],
+  "failure_log": [
+    "Initial guessed mesh_tangent.cpp and normal_map.h upstream paths were404; actual tangent implementation was found in Cycles scene/mesh.cpp. No render/probe was substituted."
+  ],
+  "source_geometry_or_material_changes": 0,
+  "Blender_jobs": 0,
+  "runtime_tangent_or_PBR_verdict": "HOLD",
+  "files": [
+    {
+      "path": "upstream/mesh.cpp",
+      "sha256": "40b4bf42db8d911311b90f59d5d91dd465aef4f91d6ccfbd62c214723dae5edc",
+      "bytes": 43054,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/blender/mesh.cpp",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/shader_nodes.cpp",
+      "sha256": "43f3efdca933083fa8ace71499da3886721cbc0591ae430959e2b84f0e983184",
+      "bytes": 272591,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/scene/shader_nodes.cpp",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/cycles_scene_mesh.cpp",
+      "sha256": "7abc195289bb9f745a4ab014aeae593c430e13d0a22959b1487316275300ad54",
+      "bytes": 30464,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/scene/mesh.cpp",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/cycles_scene_geometry.cpp",
+      "sha256": "1ba91093ca1a983e7e5c743b27955d9da20cb8fcac9168338e695c68088edea7",
+      "bytes": 39767,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/scene/geometry.cpp",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/types_normal.h",
+      "sha256": "d6a9dcee0eb501893f93012cf42d9026b207baa9d3fc978ac26693da300eac82",
+      "bytes": 2965,
+      "url": "https://raw.githubusercontent.com/blender/blender/9e2066aef7ef/intern/cycles/util/types_normal.h",
+      "license": "Apache-2.0",
+      "modified": false
+    },
+    {
+      "path": "upstream/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "license": "Apache-2.0",
+      "modified": false
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\executable_material_graphs.json": {
+      "sha256": "d5b8c60ff96a55749bda51f690f8ea3ace9193213abacc15e4d2fa6745bdd01e",
+      "bytes": 2144045
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\exact_texture_receipt.json": {
+      "sha256": "85fe51d29da7d477b732105285fbbf012ec975129488e0dd3fa605befd4e9731",
+      "bytes": 37991
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\neutral_camera_light_color_driver_state.json": {
+      "sha256": "8b3def32f4fe1b591267cdff63e77bb9ea40fad6a9e85bead4dee9a5d99afe91",
+      "bytes": 32179
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-corner-normal-tangent-semantics-r1\\CORNER_NORMAL_TANGENT_SEMANTIC_RECEIPT.json": {
+      "sha256": "80e9173b04438003523d0b8a7b55107a2787cdd2de9cf12d15b31c3d865c5499",
+      "bytes": 100465
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\textures\\08_00.png": {
+      "sha256": "aa1ca76133eb9774fad2add96e72504821488e95dd51bd2544eddfa8221f6430",
+      "bytes": 3808709
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-corner-normal-tangent-semantics-r1\\upstream\\Apache-2.0.txt": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    }
+  }
+}
