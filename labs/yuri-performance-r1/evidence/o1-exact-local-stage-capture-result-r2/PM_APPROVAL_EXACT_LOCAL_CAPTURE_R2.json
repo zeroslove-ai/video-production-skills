@@ -1,0 +1,30 @@
+{
+  "scope": "EXACT_TWO_FRAME_SOURCE_LOCAL_STAGE_READ_ONLY",
+  "approved": true,
+  "reviewed_owned_job_terminal_behavior": true,
+  "launcher_sha256": "bfd084a8f5ce622783811cb877fbb306d4f8f737d7584924077f4ebc80909b3a",
+  "config_sha256": "5222700c546f946b2c20007e94e7994c06913807b4f5f9b9bc0a88ffa2c4f7c4",
+  "proposal_sha256": "26ab07d2203a9e007126e40fde5a6f24a06219e0c43b7ee1a67298f5ead31c04",
+  "collector_sha256": "f54aa1791dc0f064c4ba7d048703c4a6f1224ad5e88545d62a47ad8d1e4aa39e",
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r2.py"
+  ],
+  "custom_native_build_trace_capture_approved": false,
+  "large_resource_acquisition_approved": false,
+  "note": "Single exact R2 data capture approved after installed origin gate static review; all 13 pinned installed bundle entries are permissible installed origins, not claimed actual factory enabled inventory. Strict LIVE guard failures preserved; no auto retry; no canonical promotion.",
+  "reviewed_at_utc": "2026-10-03T14:26:16.288870+00:00",
+  "max_attempts": 1,
+  "research_commit": "87fce9ae711417c4ba83ac9269929bcccf013064"
+}

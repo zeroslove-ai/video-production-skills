@@ -1,0 +1,4963 @@
+{
+  "status": "SOURCE_LOCAL_DATA_ONLY_GUARD_ACCEPTANCE_SEPARATE",
+  "rows": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "fps": 24,
+      "seconds": 0.4166666666666667,
+      "modifiers": [
+        {
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 312629205,
+          "object": [
+            "Object",
+            "Meshy_Fitted_Rig"
+          ],
+          "use_bone_envelopes": false,
+          "use_vertex_groups": true,
+          "use_deform_preserve_volume": true,
+          "use_multi_modifier": false,
+          "vertex_group": "",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 1714171291,
+          "object": [
+            "Object",
+            "Meshy_Fitted_Rig"
+          ],
+          "use_bone_envelopes": false,
+          "use_vertex_groups": true,
+          "use_deform_preserve_volume": false,
+          "use_multi_modifier": true,
+          "vertex_group": "R3_Surface_LinearBlend",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 697597798,
+          "factor": 0.019812777638435364,
+          "iterations": 24,
+          "scale": 1.0,
+          "rest_source": "ORCO",
+          "smooth_type": "LENGTH_WEIGHTED",
+          "invert_vertex_group": false,
+          "vertex_group": "R3_Joint_CorrectiveSmooth",
+          "is_bind": false,
+          "use_only_smooth": false,
+          "use_pin_boundary": true
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 486562295,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 60,
+          "vertex_group": "R3_Shoulder_PoseRelax.L",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 686560588,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 60,
+          "vertex_group": "R3_Shoulder_PoseRelax.R",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 900884336,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 220,
+          "vertex_group": "R3_Hip_PoseRelax.L",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": true,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 483710664,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 220,
+          "vertex_group": "R3_Hip_PoseRelax.R",
+          "invert_vertex_group": false
+        }
+      ],
+      "body_drivers": {
+        "binding": {
+          "action": null,
+          "action_extrapolation": "HOLD",
+          "action_blend_type": "REPLACE",
+          "action_influence": 1.0,
+          "action_tweak_storage": null,
+          "action_slot_handle_tweak_storage": 0,
+          "use_nla": true,
+          "use_tweak_mode": false,
+          "use_pin": false,
+          "action_slot_handle": 0,
+          "last_slot_identifier": "",
+          "action_slot": null
+        },
+        "drivers": [
+          [
+            "modifiers[\"R3 local joint surface relaxation\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 local joint surface relaxation\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.65*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15))*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15))*(3-2*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 raised shoulder surface L\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 raised shoulder surface L\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.75*min(1,max(0,(1-w*w-0.2132)/0.1488))*min(1,max(0,(1-w*w-0.2132)/0.1488))*(3-2*min(1,max(0,(1-w*w-0.2132)/0.1488)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 raised shoulder surface R\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 raised shoulder surface R\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.75*min(1,max(0,(1-w*w-0.2132)/0.1488))*min(1,max(0,(1-w*w-0.2132)/0.1488))*(3-2*min(1,max(0,(1-w*w-0.2132)/0.1488)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 bent hip surface L\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 bent hip surface L\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.9*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122))*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122))*(3-2*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[3]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 bent hip surface R\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 bent hip surface R\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.9*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122))*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122))*(3-2*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[3]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ]
+        ],
+        "nla": []
+      },
+      "bone_names": [
+        "root",
+        "pelvis",
+        "spine",
+        "chest",
+        "neck",
+        "head",
+        "R3_Head_Bind",
+        "R3_Neck_Bind",
+        "clavicle.L",
+        "upper_arm.L",
+        "forearm.L",
+        "hand.L",
+        "index1.L",
+        "index2.L",
+        "index3.L",
+        "middle1.L",
+        "middle2.L",
+        "middle3.L",
+        "ring1.L",
+        "ring2.L",
+        "ring3.L",
+        "pinky1.L",
+        "pinky2.L",
+        "pinky3.L",
+        "thumb1.L",
+        "thumb2.L",
+        "thumb3.L",
+        "R3_Shoulder_L_Bind",
+        "clavicle.R",
+        "upper_arm.R",
+        "forearm.R",
+        "hand.R",
+        "index1.R",
+        "index2.R",
+        "index3.R",
+        "middle1.R",
+        "middle2.R",
+        "middle3.R",
+        "ring1.R",
+        "ring2.R",
+        "ring3.R",
+        "pinky1.R",
+        "pinky2.R",
+        "pinky3.R",
+        "thumb1.R",
+        "thumb2.R",
+        "thumb3.R",
+        "R3_Shoulder_R_Bind",
+        "R3_UpperChest_Bind",
+        "thigh.L",
+        "shin.L",
+        "foot.L",
+        "toe.L",
+        "thigh.R",
+        "shin.R",
+        "foot.R",
+        "toe.R"
+      ],
+      "all_rig_pose_rest_fingerprint": "c31f88a76251c027604f42dce67f8c180e0d80fdb0911b751dae8db0fe0222d4",
+      "final_frozen_reference_bit_identical": true,
+      "stages": [
+        {
+          "stage": 0,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              false,
+              false
+            ],
+            [
+              "R3 local joint surface relaxation",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface L",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.019812777638435364,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "68914a95d278bc0ced2c16c4aabd1a4d4b8e7207caed832d8a4345e7582835bc",
+          "local_corner_normal_bits_sha256": "20959e42e029fdf25b243a1b8a51cd3a8ae83e118220b6a35b50d3400a0d8108"
+        },
+        {
+          "stage": 1,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface L",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.019812777638435364,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "a301a17c5a7607cbb7e9ca24926cff4e3db3d4d1dbb46b47222c2867090a8784",
+          "local_corner_normal_bits_sha256": "501a9225cfc79390e585e53cb3ed6d5a54966f8d0917cdfa3f44afa3393de983"
+        },
+        {
+          "stage": 2,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.019812777638435364,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b",
+          "local_corner_normal_bits_sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        {
+          "stage": 3,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.019812777638435364,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b",
+          "local_corner_normal_bits_sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        {
+          "stage": 4,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.019812777638435364,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b",
+          "local_corner_normal_bits_sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        {
+          "stage": 5,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface L",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.019812777638435364,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b",
+          "local_corner_normal_bits_sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        {
+          "stage": 6,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface L",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface R",
+              true,
+              true
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.019812777638435364,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b",
+          "local_corner_normal_bits_sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        }
+      ],
+      "file": "YRA_R4_Startle_Short_frame011_native_local_seven_stages.npz",
+      "sha256": "78ffc7c9f0522c596e8ae0a4ddbda01e1aa75bba069e3dcbd7535e1a3d989dd8",
+      "bytes": 26474118,
+      "arrays": {
+        "original_corner_vertex": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32",
+          "sha256": "a0a5c1586ac5df9fcf273b51e0907a8e1af7ca857e34cc9e738fd7934bf9efb5"
+        },
+        "original_corner_edge": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32",
+          "sha256": "6a44a01467948be621ec18b50ccfd9f998e19ec573bc7782b905943adb92fd3d"
+        },
+        "original_polygon_start": {
+          "shape": [
+            63781
+          ],
+          "dtype": "int32",
+          "sha256": "add93fd7d4460ce210e1d1d37cd7ea5076809231ff26d0d62cd6b08fe71d9606"
+        },
+        "original_polygon_total": {
+          "shape": [
+            63781
+          ],
+          "dtype": "int32",
+          "sha256": "7a52ffc3acf68b48261426bd195d112cb8468a127d5695405c045210649b8b54"
+        },
+        "original_polygon_material": {
+          "shape": [
+            63781
+          ],
+          "dtype": "int32",
+          "sha256": "b6c13e3035722851dfd0862b4a5fa1d8e8783431a5cc157ef87adfa6732ca251"
+        },
+        "rest_local_f64": {
+          "shape": [
+            57,
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "5c9cee85a7d5b916f3c2eb97b7df9ba6234cc588a7f2331344bb2a8c3f7f8692"
+        },
+        "pose_rig_local_f64": {
+          "shape": [
+            57,
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "7a6025286953a4a65aae1e638313f6670e5f33dd80ce28553720e678d048c3fb"
+        },
+        "raw_quaternion_wxyz_f32": {
+          "shape": [
+            57,
+            4
+          ],
+          "dtype": "float32",
+          "sha256": "f4fe9aa8d3712b12eb483cf142d0d66fba56b906cb31366b6a2050fb82f82d95"
+        },
+        "rig_world_f64": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "body_world_f64": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "driver_factors_f32": {
+          "shape": [
+            5
+          ],
+          "dtype": "float32",
+          "sha256": "44ecd68d5fe5d368b97ce0f6ac7374bdb97a2529a04e0f9eea7213485c3b208a"
+        },
+        "stage_00_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "68914a95d278bc0ced2c16c4aabd1a4d4b8e7207caed832d8a4345e7582835bc"
+        },
+        "stage_00_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "20959e42e029fdf25b243a1b8a51cd3a8ae83e118220b6a35b50d3400a0d8108"
+        },
+        "stage_00_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "bf07eef03062a6ee746257b043c9608f879323dbc475c7554975deff540baa36"
+        },
+        "stage_00_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "d34dc043d1cb91049fa33afb0ab38a514123c35a4c7f89ca1a2990368469ec70"
+        },
+        "stage_00_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_01_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "a301a17c5a7607cbb7e9ca24926cff4e3db3d4d1dbb46b47222c2867090a8784"
+        },
+        "stage_01_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "501a9225cfc79390e585e53cb3ed6d5a54966f8d0917cdfa3f44afa3393de983"
+        },
+        "stage_01_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "6c36cd4dd2f48e6164f67d5fbd88c425eae54583e1305868aaf07cf1e41f1e3e"
+        },
+        "stage_01_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "e541a09e7aeb72c4c3f05eb43a01ddc7986d4487fa387880252e0af1ede4f70a"
+        },
+        "stage_01_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_02_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b"
+        },
+        "stage_02_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        "stage_02_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "42d0da860f9c92dc9613a8197e63c95d33d037429cad5a9028eade311747334a"
+        },
+        "stage_02_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "b1e1b2406dadc4093da151d969f1de9fc8107748441846216590c64dc4bfb18c"
+        },
+        "stage_02_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_03_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b"
+        },
+        "stage_03_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        "stage_03_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "42d0da860f9c92dc9613a8197e63c95d33d037429cad5a9028eade311747334a"
+        },
+        "stage_03_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "b1e1b2406dadc4093da151d969f1de9fc8107748441846216590c64dc4bfb18c"
+        },
+        "stage_03_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_04_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b"
+        },
+        "stage_04_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        "stage_04_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "42d0da860f9c92dc9613a8197e63c95d33d037429cad5a9028eade311747334a"
+        },
+        "stage_04_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "b1e1b2406dadc4093da151d969f1de9fc8107748441846216590c64dc4bfb18c"
+        },
+        "stage_04_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_05_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b"
+        },
+        "stage_05_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        "stage_05_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "42d0da860f9c92dc9613a8197e63c95d33d037429cad5a9028eade311747334a"
+        },
+        "stage_05_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "b1e1b2406dadc4093da151d969f1de9fc8107748441846216590c64dc4bfb18c"
+        },
+        "stage_05_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_06_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "cbe4de64367f09d8e3dfc85c0658ce6469862088ee44935025ca5381b248725b"
+        },
+        "stage_06_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "ab075f1e8b59e58321a90d41eb4d265c317ad1bdada491cd005a50a040521c9d"
+        },
+        "stage_06_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "42d0da860f9c92dc9613a8197e63c95d33d037429cad5a9028eade311747334a"
+        },
+        "stage_06_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "b1e1b2406dadc4093da151d969f1de9fc8107748441846216590c64dc4bfb18c"
+        },
+        "stage_06_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        }
+      }
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "action_slot": "OBMeshy_Fitted_Rig",
+      "fps": 24,
+      "seconds": 0.20833333333333334,
+      "modifiers": [
+        {
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 312629205,
+          "object": [
+            "Object",
+            "Meshy_Fitted_Rig"
+          ],
+          "use_bone_envelopes": false,
+          "use_vertex_groups": true,
+          "use_deform_preserve_volume": true,
+          "use_multi_modifier": false,
+          "vertex_group": "",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "ARMATURE",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 1714171291,
+          "object": [
+            "Object",
+            "Meshy_Fitted_Rig"
+          ],
+          "use_bone_envelopes": false,
+          "use_vertex_groups": true,
+          "use_deform_preserve_volume": false,
+          "use_multi_modifier": true,
+          "vertex_group": "R3_Surface_LinearBlend",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "CORRECTIVE_SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 697597798,
+          "factor": 0.3373560309410095,
+          "iterations": 24,
+          "scale": 1.0,
+          "rest_source": "ORCO",
+          "smooth_type": "LENGTH_WEIGHTED",
+          "invert_vertex_group": false,
+          "vertex_group": "R3_Joint_CorrectiveSmooth",
+          "is_bind": false,
+          "use_only_smooth": false,
+          "use_pin_boundary": true
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 486562295,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 60,
+          "vertex_group": "R3_Shoulder_PoseRelax.L",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 686560588,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 60,
+          "vertex_group": "R3_Shoulder_PoseRelax.R",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": false,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 900884336,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 220,
+          "vertex_group": "R3_Hip_PoseRelax.L",
+          "invert_vertex_group": false
+        },
+        {
+          "type": "SMOOTH",
+          "show_viewport": true,
+          "show_render": true,
+          "show_in_editmode": false,
+          "show_on_cage": false,
+          "show_expanded": true,
+          "is_active": true,
+          "use_pin_to_last": false,
+          "is_override_data": false,
+          "use_apply_on_spline": false,
+          "execution_time": 0.0,
+          "persistent_uid": 483710664,
+          "use_x": true,
+          "use_y": true,
+          "use_z": true,
+          "factor": 0.0,
+          "iterations": 220,
+          "vertex_group": "R3_Hip_PoseRelax.R",
+          "invert_vertex_group": false
+        }
+      ],
+      "body_drivers": {
+        "binding": {
+          "action": null,
+          "action_extrapolation": "HOLD",
+          "action_blend_type": "REPLACE",
+          "action_influence": 1.0,
+          "action_tweak_storage": null,
+          "action_slot_handle_tweak_storage": 0,
+          "use_nla": true,
+          "use_tweak_mode": false,
+          "use_pin": false,
+          "action_slot_handle": 0,
+          "last_slot_identifier": "",
+          "action_slot": null
+        },
+        "drivers": [
+          [
+            "modifiers[\"R3 local joint surface relaxation\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 local joint surface relaxation\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.65*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15))*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15))*(3-2*min(1,max(0,(max(1-a*a,1-b*b,1-c*c,1-d*d)-0.03)/0.15)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 raised shoulder surface L\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 raised shoulder surface L\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.75*min(1,max(0,(1-w*w-0.2132)/0.1488))*min(1,max(0,(1-w*w-0.2132)/0.1488))*(3-2*min(1,max(0,(1-w*w-0.2132)/0.1488)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 raised shoulder surface R\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 raised shoulder surface R\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.75*min(1,max(0,(1-w*w-0.2132)/0.1488))*min(1,max(0,(1-w*w-0.2132)/0.1488))*(3-2*min(1,max(0,(1-w*w-0.2132)/0.1488)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"upper_arm.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 bent hip surface L\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 bent hip surface L\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.9*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122))*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122))*(3-2*min(1,max(0,(max(0,-1*az*w)*max(0,-1*az*w)-0.003)/0.122)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.L\"].rotation_quaternion[3]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ],
+          [
+            "modifiers[\"R3 bent hip surface R\"].factor",
+            0,
+            {
+              "extrapolation": "CONSTANT",
+              "driver": [
+                "Driver",
+                null
+              ],
+              "group": null,
+              "data_path": "modifiers[\"R3 bent hip surface R\"].factor",
+              "array_index": 0,
+              "color_mode": "AUTO_RAINBOW",
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "select": true,
+              "lock": false,
+              "mute": false,
+              "hide": false,
+              "auto_smoothing": "CONT_ACCEL",
+              "is_valid": true,
+              "is_empty": false
+            },
+            {
+              "type": "SCRIPTED",
+              "expression": "0.9*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122))*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122))*(3-2*min(1,max(0,(max(0,1*az*w)*max(0,1*az*w)-0.003)/0.122)))",
+              "use_self": false,
+              "is_valid": true,
+              "is_simple_expression": true
+            },
+            [
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[0]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ],
+              [
+                {
+                  "type": "SINGLE_PROP",
+                  "is_name_valid": true
+                },
+                [
+                  {
+                    "id": [
+                      "Object",
+                      "Meshy_Fitted_Rig"
+                    ],
+                    "id_type": "OBJECT",
+                    "data_path": "pose.bones[\"thigh.R\"].rotation_quaternion[3]",
+                    "bone_target": "",
+                    "transform_type": "LOC_X",
+                    "rotation_mode": "AUTO",
+                    "transform_space": "WORLD_SPACE",
+                    "context_property": "ACTIVE_SCENE",
+                    "use_fallback_value": false,
+                    "fallback_value": 0.0,
+                    "is_fallback_used": false
+                  }
+                ]
+              ]
+            ]
+          ]
+        ],
+        "nla": []
+      },
+      "bone_names": [
+        "root",
+        "pelvis",
+        "spine",
+        "chest",
+        "neck",
+        "head",
+        "R3_Head_Bind",
+        "R3_Neck_Bind",
+        "clavicle.L",
+        "upper_arm.L",
+        "forearm.L",
+        "hand.L",
+        "index1.L",
+        "index2.L",
+        "index3.L",
+        "middle1.L",
+        "middle2.L",
+        "middle3.L",
+        "ring1.L",
+        "ring2.L",
+        "ring3.L",
+        "pinky1.L",
+        "pinky2.L",
+        "pinky3.L",
+        "thumb1.L",
+        "thumb2.L",
+        "thumb3.L",
+        "R3_Shoulder_L_Bind",
+        "clavicle.R",
+        "upper_arm.R",
+        "forearm.R",
+        "hand.R",
+        "index1.R",
+        "index2.R",
+        "index3.R",
+        "middle1.R",
+        "middle2.R",
+        "middle3.R",
+        "ring1.R",
+        "ring2.R",
+        "ring3.R",
+        "pinky1.R",
+        "pinky2.R",
+        "pinky3.R",
+        "thumb1.R",
+        "thumb2.R",
+        "thumb3.R",
+        "R3_Shoulder_R_Bind",
+        "R3_UpperChest_Bind",
+        "thigh.L",
+        "shin.L",
+        "foot.L",
+        "toe.L",
+        "thigh.R",
+        "shin.R",
+        "foot.R",
+        "toe.R"
+      ],
+      "all_rig_pose_rest_fingerprint": "fc319435c79e53f4341528cead43b256c8a93419feb8e584533df6a17a5eba39",
+      "final_frozen_reference_bit_identical": true,
+      "stages": [
+        {
+          "stage": 0,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              false,
+              false
+            ],
+            [
+              "R3 local joint surface relaxation",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface L",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.3373560309410095,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "5b7aa3c38299e4c965ecf468e7ba090f50b7167476115662f54b2ab7d98507eb",
+          "local_corner_normal_bits_sha256": "f2e5d8a5449d57320866ee9a664f82410b3bdd067eab3dbd16b028a6755a9d69"
+        },
+        {
+          "stage": 1,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface L",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.3373560309410095,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "2d621438475ab72650ee4624fbff37bc43a0b936c25b24a8d551f6b30cf20fd6",
+          "local_corner_normal_bits_sha256": "f51b75983dc38a1d21eb26f959aecaeeaa3226312f857d26b48b9eca00805790"
+        },
+        {
+          "stage": 2,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              false,
+              false
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.3373560309410095,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec",
+          "local_corner_normal_bits_sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        {
+          "stage": 3,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.3373560309410095,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec",
+          "local_corner_normal_bits_sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        {
+          "stage": 4,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface L",
+              false,
+              false
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.3373560309410095,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec",
+          "local_corner_normal_bits_sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        {
+          "stage": 5,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface L",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface R",
+              false,
+              false
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.3373560309410095,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": false,
+              "show_render": false,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec",
+          "local_corner_normal_bits_sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        {
+          "stage": 6,
+          "flags": [
+            [
+              "Armature",
+              true,
+              true
+            ],
+            [
+              "R3 neck and joints - local linear blend",
+              true,
+              true
+            ],
+            [
+              "R3 local joint surface relaxation",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface L",
+              true,
+              true
+            ],
+            [
+              "R3 raised shoulder surface R",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface L",
+              true,
+              true
+            ],
+            [
+              "R3 bent hip surface R",
+              true,
+              true
+            ]
+          ],
+          "settings": [
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 312629205,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": true,
+              "use_multi_modifier": false,
+              "vertex_group": "",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "ARMATURE",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 1714171291,
+              "object": [
+                "Object",
+                "Meshy_Fitted_Rig"
+              ],
+              "use_bone_envelopes": false,
+              "use_vertex_groups": true,
+              "use_deform_preserve_volume": false,
+              "use_multi_modifier": true,
+              "vertex_group": "R3_Surface_LinearBlend",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "CORRECTIVE_SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 697597798,
+              "factor": 0.3373560309410095,
+              "iterations": 24,
+              "scale": 1.0,
+              "rest_source": "ORCO",
+              "smooth_type": "LENGTH_WEIGHTED",
+              "invert_vertex_group": false,
+              "vertex_group": "R3_Joint_CorrectiveSmooth",
+              "is_bind": false,
+              "use_only_smooth": false,
+              "use_pin_boundary": true
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 486562295,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 686560588,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 60,
+              "vertex_group": "R3_Shoulder_PoseRelax.R",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": false,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 900884336,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.L",
+              "invert_vertex_group": false
+            },
+            {
+              "type": "SMOOTH",
+              "show_viewport": true,
+              "show_render": true,
+              "show_in_editmode": false,
+              "show_on_cage": false,
+              "show_expanded": true,
+              "is_active": true,
+              "use_pin_to_last": false,
+              "is_override_data": false,
+              "use_apply_on_spline": false,
+              "execution_time": 0.0,
+              "persistent_uid": 483710664,
+              "use_x": true,
+              "use_y": true,
+              "use_z": true,
+              "factor": 0.0,
+              "iterations": 220,
+              "vertex_group": "R3_Hip_PoseRelax.R",
+              "invert_vertex_group": false
+            }
+          ],
+          "native_normal_route": "evaluated mesh.corner_normals RNA getter",
+          "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+          "local_position_bits_sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec",
+          "local_corner_normal_bits_sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        }
+      ],
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_native_local_seven_stages.npz",
+      "sha256": "5a5425c0703b386f7fa1e70641e89ce15dbfb53209801de3e65e56d959a3283d",
+      "bytes": 26470968,
+      "arrays": {
+        "original_corner_vertex": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32",
+          "sha256": "a0a5c1586ac5df9fcf273b51e0907a8e1af7ca857e34cc9e738fd7934bf9efb5"
+        },
+        "original_corner_edge": {
+          "shape": [
+            254602
+          ],
+          "dtype": "int32",
+          "sha256": "6a44a01467948be621ec18b50ccfd9f998e19ec573bc7782b905943adb92fd3d"
+        },
+        "original_polygon_start": {
+          "shape": [
+            63781
+          ],
+          "dtype": "int32",
+          "sha256": "add93fd7d4460ce210e1d1d37cd7ea5076809231ff26d0d62cd6b08fe71d9606"
+        },
+        "original_polygon_total": {
+          "shape": [
+            63781
+          ],
+          "dtype": "int32",
+          "sha256": "7a52ffc3acf68b48261426bd195d112cb8468a127d5695405c045210649b8b54"
+        },
+        "original_polygon_material": {
+          "shape": [
+            63781
+          ],
+          "dtype": "int32",
+          "sha256": "b6c13e3035722851dfd0862b4a5fa1d8e8783431a5cc157ef87adfa6732ca251"
+        },
+        "rest_local_f64": {
+          "shape": [
+            57,
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "5c9cee85a7d5b916f3c2eb97b7df9ba6234cc588a7f2331344bb2a8c3f7f8692"
+        },
+        "pose_rig_local_f64": {
+          "shape": [
+            57,
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "dd3d8040bdb852029791e5076e9b200c2b8dca23a2453bf1f5fcc528906d1724"
+        },
+        "raw_quaternion_wxyz_f32": {
+          "shape": [
+            57,
+            4
+          ],
+          "dtype": "float32",
+          "sha256": "594e356a38450e30519e30d5d805127860db18ac37a945dfa01ce1d6ee3066c7"
+        },
+        "rig_world_f64": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "body_world_f64": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "driver_factors_f32": {
+          "shape": [
+            5
+          ],
+          "dtype": "float32",
+          "sha256": "e6e8149da2643722f9eec0657a952115fa4c71963a19713d3a1c0bb55d8d6154"
+        },
+        "stage_00_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "5b7aa3c38299e4c965ecf468e7ba090f50b7167476115662f54b2ab7d98507eb"
+        },
+        "stage_00_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "f2e5d8a5449d57320866ee9a664f82410b3bdd067eab3dbd16b028a6755a9d69"
+        },
+        "stage_00_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "d8594524b12d59eff3062fe15758bf8b63a987c2680caf778b3ca11a4a0aa97e"
+        },
+        "stage_00_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "b44fccab0e145a3fbe63985de3716196dedcdf280c62662a9050f72215fff587"
+        },
+        "stage_00_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_01_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "2d621438475ab72650ee4624fbff37bc43a0b936c25b24a8d551f6b30cf20fd6"
+        },
+        "stage_01_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "f51b75983dc38a1d21eb26f959aecaeeaa3226312f857d26b48b9eca00805790"
+        },
+        "stage_01_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "183d882ba5d1366d544d1a9c30e6927ac4bcf2ba9ff163f9772ee894b38be6a8"
+        },
+        "stage_01_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "26b1a87311acdcaef248c750f878f97187e4ac3d75f9c9c4ae3632dba4f7bdf1"
+        },
+        "stage_01_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_02_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec"
+        },
+        "stage_02_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        "stage_02_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "f00900c663a70c176def2617da30cdd529dd9c7292eee64cfa04d71cecb65795"
+        },
+        "stage_02_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "d78f2f82d512fc0c5287777cc8bb036761331e4b38384543f75fb84fd36494ea"
+        },
+        "stage_02_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_03_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec"
+        },
+        "stage_03_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        "stage_03_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "f00900c663a70c176def2617da30cdd529dd9c7292eee64cfa04d71cecb65795"
+        },
+        "stage_03_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "d78f2f82d512fc0c5287777cc8bb036761331e4b38384543f75fb84fd36494ea"
+        },
+        "stage_03_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_04_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec"
+        },
+        "stage_04_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        "stage_04_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "f00900c663a70c176def2617da30cdd529dd9c7292eee64cfa04d71cecb65795"
+        },
+        "stage_04_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "d78f2f82d512fc0c5287777cc8bb036761331e4b38384543f75fb84fd36494ea"
+        },
+        "stage_04_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_05_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec"
+        },
+        "stage_05_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        "stage_05_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "f00900c663a70c176def2617da30cdd529dd9c7292eee64cfa04d71cecb65795"
+        },
+        "stage_05_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "d78f2f82d512fc0c5287777cc8bb036761331e4b38384543f75fb84fd36494ea"
+        },
+        "stage_05_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        },
+        "stage_06_local_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "bbecf00f7fa1c8fa066eb2b78c9afca3257122750301a1665fbebb00db316aec"
+        },
+        "stage_06_local_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "95ef474a60b105bdca481bf42713334830692826ca2298f15a92123642927df7"
+        },
+        "stage_06_world_position": {
+          "shape": [
+            63561,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "f00900c663a70c176def2617da30cdd529dd9c7292eee64cfa04d71cecb65795"
+        },
+        "stage_06_world_corner_normal": {
+          "shape": [
+            254602,
+            3
+          ],
+          "dtype": "float32",
+          "sha256": "d78f2f82d512fc0c5287777cc8bb036761331e4b38384543f75fb84fd36494ea"
+        },
+        "stage_06_evaluated_body_world": {
+          "shape": [
+            4,
+            4
+          ],
+          "dtype": "float64",
+          "sha256": "99b81edd41e96643905b52ffd95f63662382683128f18164409c88f69c4d2b47"
+        }
+      }
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\YURI_REACTION_R4_ACTIONS_ONLY_20261003.blend": {
+      "sha256": "6874ec69d5721f385d31edaa06ef0d58c89a543b98bacd961f8f575ff57eef4d",
+      "bytes": 9318285
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-armature-full-recipe-custody-r1\\SourceBodyArmatureInput_0cd0bdd7_EXACT.json": {
+      "sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0",
+      "bytes": 18390792
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_adapter.py": {
+      "sha256": "e319b652557a2929f67fe970c0e8ab2df17bb84a6627f13deb55446e949007ae",
+      "bytes": 2307
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Startle_Short_frame011_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "d9b8089f6dcce6a7430955a94f91cdb1909a8789659c0a07357d1d66eb94c9b8",
+      "bytes": 6104160
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dynamic-body-cycles-input-reference-r1\\YRA_R4_Struggle_Strong_Loop_frame006_actual_evaluated_cycles_inputs.npz": {
+      "sha256": "156a7c2880bfeedb523196a1572d50943dd53e6780cc5789eced5e5b4ca8cbbd",
+      "bytes": 6103679
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_exact_local_stage_collector_r2.py": {
+      "sha256": "f54aa1791dc0f064c4ba7d048703c4a6f1224ad5e88545d62a47ad8d1e4aa39e",
+      "bytes": 12820
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_installed_addon_origin_gate_r2.py": {
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094",
+      "bytes": 3861
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-exact-local-stage-factory-addon-preparation-r2\\INSTALLED_BUNDLED_ADDON_ORIGIN_MANIFEST_R2.json": {
+      "sha256": "80e5758c227b8431eda502750d79c4660df4c5b8a1be208c424ca1a438576816",
+      "bytes": 77273
+    }
+  },
+  "source_pre_post_identical": true,
+  "full_CSR_original_identity": {
+    "entries": 304799,
+    "zero_entries": 37310,
+    "recipe_sha256": "0cd0bdd70e5a6c0670846dab74e295b0a637a79f1c6d57d503611d5cf50aafe0"
+  },
+  "pid": 48516,
+  "seconds": 22.808414299972355,
+  "renders_exports_saves": 0,
+  "native_cache_operator_branch": "UNKNOWN_NOT_READ",
+  "world_data_policy": "Derived separately from native local f32 via evaluated matrix float64 then f32; world normal inverse transpose then normalization. World values are not direct native getters.",
+  "limitation": "Cumulative disposable-copy ablation; normal getter may compute caches. Not instrumented in-flight modifier buffers or cache-branch proof; native numeric/PBR acceptance pending."
+}

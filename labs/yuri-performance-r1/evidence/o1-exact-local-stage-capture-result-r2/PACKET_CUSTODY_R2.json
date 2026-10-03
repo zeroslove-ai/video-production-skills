@@ -1,0 +1,83 @@
+{
+  "status": "ACTUAL_NATIVE_SOURCE_LOCAL_TWO_FRAME_DATA_VALIDATED_GUARD_PASS_SEPARATE",
+  "private_transfer_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-exact-source-local-stage-capture-r2\\YURI_O1_EXACT_SOURCE_LOCAL_TWO_FRAME_R2.zip",
+  "bytes": 52425251,
+  "sha256": "e37bd95aa5327a9734d7c90170d68b4371e712231a09dfc7441fc8e2db042e8f",
+  "ZIP_CRC_and_member_SHA_verified": true,
+  "source_model_Action_library_full_recipe_in_packet": false,
+  "private_native_stage_arrays_and_pose_rest_in_packet": true,
+  "members": {
+    "ADDON_ORIGIN_INVENTORY_AFTER_R2.json": {
+      "bytes": 6265,
+      "sha256": "49dccbd1174324c4cf246fef5f03e8bedb474e24056dd465075f78b72c71c9ba"
+    },
+    "ADDON_ORIGIN_INVENTORY_BEFORE_R2.json": {
+      "bytes": 6266,
+      "sha256": "8ac9fb2c7fd6b96d966b2e9b8826fd1f244a1a1b1f30673bd0ba71b21e5f0ebd"
+    },
+    "CAPTURE_RESULT_R1.json": {
+      "bytes": 168758,
+      "sha256": "ef9ceb36e6a170355dce1e8f02857c073ac852c950a942c4fc81b2ad26e99c1c"
+    },
+    "fixed-capture.log": {
+      "bytes": 2025,
+      "sha256": "df9a08915635dc668315a69cd89bf093f2d54ecd8a058f901c91431303c36986"
+    },
+    "OWNED_JOB_RESULT_R1.json": {
+      "bytes": 594260,
+      "sha256": "20f974c37ad7aa343b4e7763cf62d26a82c39b4af0d739f3a839bcd2bd0a9899"
+    },
+    "PM_APPROVAL_EXACT_LOCAL_CAPTURE_R2.json": {
+      "bytes": 1667,
+      "sha256": "97680145bec890e2b79cd875559e6758358f34e125dc1693047d405f3b64dfd3"
+    },
+    "SCENE_SIGNATURE_BEFORE_AFTER.json": {
+      "bytes": 73142,
+      "sha256": "af7dcf2cdb4cd4965c5083b558b1fec4440b128808f639c7b9024d3360049cdb"
+    },
+    "YRA_R4_Startle_Short_frame011_all_rig_pose_rest.json": {
+      "bytes": 277898,
+      "sha256": "cfb1a706e926ab153ab2f4c518e4737afed1d80a9c2de23d101ad444d22c1069"
+    },
+    "YRA_R4_Startle_Short_frame011_native_local_seven_stages.npz": {
+      "bytes": 26474118,
+      "sha256": "78ffc7c9f0522c596e8ae0a4ddbda01e1aa75bba069e3dcbd7535e1a3d989dd8"
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame006_all_rig_pose_rest.json": {
+      "bytes": 277810,
+      "sha256": "2f27be7cbeecc8efe77600ce6d608ea268282b905f47dad0e3509d3f41730cbe"
+    },
+    "YRA_R4_Struggle_Strong_Loop_frame006_native_local_seven_stages.npz": {
+      "bytes": 26470968,
+      "sha256": "5a5425c0703b386f7fa1e70641e89ce15dbfb53209801de3e65e56d959a3283d"
+    },
+    "INDEPENDENT_SOURCE_LOCAL_VALIDATION_R2.json": {
+      "bytes": 35472,
+      "sha256": "6f0b91ad1c33b45e75e3dc0636c3783c9a47f4e51d6b25a98e5b03fb179e2d59"
+    },
+    "CAPTURE_PROPOSAL_R2.json": {
+      "bytes": 11970,
+      "sha256": "26ab07d2203a9e007126e40fde5a6f24a06219e0c43b7ee1a67298f5ead31c04"
+    },
+    "FIXED_ROUTE_CONFIG_R2.json": {
+      "bytes": 3549,
+      "sha256": "5222700c546f946b2c20007e94e7994c06913807b4f5f9b9bc0a88ffa2c4f7c4"
+    },
+    "INSTALLED_BUNDLED_ADDON_ORIGIN_MANIFEST_R2.json": {
+      "bytes": 77273,
+      "sha256": "80e5758c227b8431eda502750d79c4660df4c5b8a1be208c424ca1a438576816"
+    },
+    "r4_exact_local_stage_collector_r2.py": {
+      "bytes": 12820,
+      "sha256": "f54aa1791dc0f064c4ba7d048703c4a6f1224ad5e88545d62a47ad8d1e4aa39e"
+    },
+    "r4_exact_local_stage_launcher_r2.py": {
+      "bytes": 16509,
+      "sha256": "bfd084a8f5ce622783811cb877fbb306d4f8f737d7584924077f4ebc80909b3a"
+    },
+    "r4_installed_addon_origin_gate_r2.py": {
+      "bytes": 3861,
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094"
+    }
+  }
+}

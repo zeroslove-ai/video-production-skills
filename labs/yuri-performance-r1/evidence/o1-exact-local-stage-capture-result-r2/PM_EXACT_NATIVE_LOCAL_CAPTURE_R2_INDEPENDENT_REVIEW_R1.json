@@ -1,0 +1,119 @@
+{
+  "time_utc": "2026-10-03T14:30:53.893172+00:00",
+  "scope": "EXACT_NATIVE_LOCAL_CUMULATIVE_COPY_CAPTURE_DATA_AND_OWNED_JOB_ONLY",
+  "PM_verification": "Independent saved NPZ perarray SHA/dtype/shape/readback, exact final frozen reference bits, inputprepost actual hashes, raw scene differences and raw terminal checks",
+  "pid": 48516,
+  "creation_FILETIME": 134355112332756338,
+  "guard": "PASS_OWNED_JOB_EXIT_ZERO_DRAINED",
+  "exit": 0,
+  "Active": 0,
+  "PIDs": [],
+  "inputs_prepost_identical": true,
+  "scene_differences": {},
+  "addon_preferences": [
+    "bl_pkg",
+    "cycles",
+    "io_anim_bvh",
+    "io_curve_svg",
+    "io_mesh_uv_layout",
+    "io_scene_fbx",
+    "io_scene_gltf2",
+    "pose_library"
+  ],
+  "addon_enabled": [
+    "bl_pkg",
+    "cycles",
+    "io_anim_bvh",
+    "io_curve_svg",
+    "io_mesh_uv_layout",
+    "io_scene_fbx",
+    "io_scene_gltf2",
+    "pose_library"
+  ],
+  "addon_source_files_checked": 315,
+  "rows": [
+    {
+      "clip": "YRA_R4_Startle_Short",
+      "frame": 11,
+      "file": "YRA_R4_Startle_Short_frame011_native_local_seven_stages.npz",
+      "bytes": 26474118,
+      "sha256": "78ffc7c9f0522c596e8ae0a4ddbda01e1aa75bba069e3dcbd7535e1a3d989dd8",
+      "arrays_checked": 46,
+      "stage6_local_world_position_corner_normal_bit_exact": true
+    },
+    {
+      "clip": "YRA_R4_Struggle_Strong_Loop",
+      "frame": 6,
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_native_local_seven_stages.npz",
+      "bytes": 26470968,
+      "sha256": "5a5425c0703b386f7fa1e70641e89ce15dbfb53209801de3e65e56d959a3283d",
+      "arrays_checked": 46,
+      "stage6_local_world_position_corner_normal_bit_exact": true
+    }
+  ],
+  "files": [
+    {
+      "file": "ADDON_ORIGIN_INVENTORY_AFTER_R2.json",
+      "bytes": 6265,
+      "sha256": "49dccbd1174324c4cf246fef5f03e8bedb474e24056dd465075f78b72c71c9ba"
+    },
+    {
+      "file": "ADDON_ORIGIN_INVENTORY_BEFORE_R2.json",
+      "bytes": 6266,
+      "sha256": "8ac9fb2c7fd6b96d966b2e9b8826fd1f244a1a1b1f30673bd0ba71b21e5f0ebd"
+    },
+    {
+      "file": "CAPTURE_RESULT_R1.json",
+      "bytes": 168758,
+      "sha256": "ef9ceb36e6a170355dce1e8f02857c073ac852c950a942c4fc81b2ad26e99c1c"
+    },
+    {
+      "file": "fixed-capture.log",
+      "bytes": 2025,
+      "sha256": "df9a08915635dc668315a69cd89bf093f2d54ecd8a058f901c91431303c36986"
+    },
+    {
+      "file": "OWNED_JOB_RESULT_R1.json",
+      "bytes": 594260,
+      "sha256": "20f974c37ad7aa343b4e7763cf62d26a82c39b4af0d739f3a839bcd2bd0a9899"
+    },
+    {
+      "file": "PM_APPROVAL_EXACT_LOCAL_CAPTURE_R2.json",
+      "bytes": 1667,
+      "sha256": "97680145bec890e2b79cd875559e6758358f34e125dc1693047d405f3b64dfd3"
+    },
+    {
+      "file": "SCENE_SIGNATURE_BEFORE_AFTER.json",
+      "bytes": 73142,
+      "sha256": "af7dcf2cdb4cd4965c5083b558b1fec4440b128808f639c7b9024d3360049cdb"
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_all_rig_pose_rest.json",
+      "bytes": 277898,
+      "sha256": "cfb1a706e926ab153ab2f4c518e4737afed1d80a9c2de23d101ad444d22c1069"
+    },
+    {
+      "file": "YRA_R4_Startle_Short_frame011_native_local_seven_stages.npz",
+      "bytes": 26474118,
+      "sha256": "78ffc7c9f0522c596e8ae0a4ddbda01e1aa75bba069e3dcbd7535e1a3d989dd8"
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_all_rig_pose_rest.json",
+      "bytes": 277810,
+      "sha256": "2f27be7cbeecc8efe77600ce6d608ea268282b905f47dad0e3509d3f41730cbe"
+    },
+    {
+      "file": "YRA_R4_Struggle_Strong_Loop_frame006_native_local_seven_stages.npz",
+      "bytes": 26470968,
+      "sha256": "5a5425c0703b386f7fa1e70641e89ce15dbfb53209801de3e65e56d959a3283d"
+    }
+  ],
+  "limitations": [
+    "Disposable cumulative object-copy evaluation; not internal in-flight modifier/cache operator trace",
+    "Local getters direct native f32; world derived separately matrixf64 thenf32",
+    "Consumer comparison and root cause pending",
+    "No PBR/full motion quality/Unity Player promotion"
+  ],
+  "promotion": "HOLD",
+  "R2_fallback": "PRESERVED"
+}
