@@ -1,0 +1,1878 @@
+{
+  "task_id": "YURI_O1_GAZE_CORNER_NORMAL_PRIORITY_ADDENDUM_R1",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\executable_geometry_node_graphs.json": {
+      "sha256": "4bd6793dbd7767ed351e1b57159335ceef72996fcf29a0ee78c088ce1da8e5f0",
+      "bytes": 440833
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\evaluated_driver_geometry_references.json": {
+      "sha256": "9389be451c62068f27428b539da5c053f963e50e197a77c95f9de1f82b0e279d",
+      "bytes": 10669508
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\mesh_slot_UV_attributes_shape_deltas.json": {
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c",
+      "bytes": 2489830
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\metadata\\CORNER_BASIS_RECEIPT.json": {
+      "sha256": "089f19b0251fdccda226daac7bd81e4743c8dbbd647cbb3c2fb756b7195305fa",
+      "bytes": 14309
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_recovery_source_data.py": {
+      "sha256": "c9f012fd6c554ac4bfc059e2cb55d5273d4a2f4b3cd7181124e7b06d4c427dae",
+      "bytes": 11827
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz": {
+      "sha256": "1a48cf823cb6cf0c95c7eee6d4b7e7e8a952cbaadd50d1d9ad18d909be34f473",
+      "bytes": 1655757
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz": {
+      "sha256": "3f344df1e67f21fd54cdcd4eff5cb6800b42f84753a41f8132f136aff324024f",
+      "bytes": 1500794
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz": {
+      "sha256": "10dc21ad3da91368ba44f2a7fe40cc960eb2ade2c8515e28147b97d223388c79",
+      "bytes": 1506327
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_corner_basis.npz": {
+      "sha256": "c6a1065172c27ebcbdc1a7b34325cabee3c6420aa44c2a562434f9ea23aea4ad",
+      "bytes": 664990
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_corner_basis.npz": {
+      "sha256": "4c1fabffdd7b10747aacd7221a5e9af37a6c75e54ee71eba4605c9d77a9a1799",
+      "bytes": 940120
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_corner_basis.npz": {
+      "sha256": "1b9bec4d5da9f44c91a4d20521260cef60b9874f6e2a3442bea11cd72a6a4e11",
+      "bytes": 941853
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\neutral.npz": {
+      "sha256": "0cf58035a3892ed28d1888790fb45850d895bf55a0911ed45c8a104bc32200be",
+      "bytes": 5241717
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\gaze_-1_0.npz": {
+      "sha256": "5e3f103c5e83e698c24097a7e356285dbb9ade717f5e18b90a287fadb6aaa809",
+      "bytes": 1957461
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\gaze_1_0.npz": {
+      "sha256": "3dd182c10ab579e76ade0428edeaeb4cc05126b92ecd80a1f1eb35c5a57e1d3e",
+      "bytes": 1959156
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\gaze_0_-1.npz": {
+      "sha256": "5cbf6b2f7d62e8f2a01a6bb8b821b4e7ab058dc476fe291926f910bb9ad8918c",
+      "bytes": 1951074
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\gaze_0_1.npz": {
+      "sha256": "5f9dc364c48e56785a05c32c6a0b30dd6153fbef1047cbd543c1239b8414be97",
+      "bytes": 1949882
+    }
+  },
+  "cases": [
+    {
+      "case": "neutral",
+      "frame": 1,
+      "controls": {
+        "Face_GazeYaw": 0,
+        "Face_GazePitch": 0
+      },
+      "meshes": [
+        {
+          "mesh": "Character_Body_Head",
+          "vertices": 12928,
+          "loops": 66861,
+          "polygons": 21701,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": true,
+          "original_has_custom_normals": true,
+          "original_polygon_use_smooth_true_count": 21701,
+          "evaluated_polygon_use_smooth_true_count": 21701,
+          "split_corner_vs_vertex_normal_max_vector_delta": 1.9313820600509644,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 26,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.0,
+          "object_world": [
+            [
+              1.0,
+              2.0344828044471797e-09,
+              4.2626567164916196e-08,
+              -3.5868121806004183e-09
+            ],
+            [
+              -3.990973773682072e-09,
+              0.9999999403953552,
+              4.371138828673793e-08,
+              4.656682817127944e-10
+            ],
+            [
+              4.704383727016648e-08,
+              -1.033160259567012e-07,
+              1.0,
+              -4.431786049252651e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 66861,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.L",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.0,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.R",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.0,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz"
+        }
+      ]
+    },
+    {
+      "case": "gaze_-1_0",
+      "frame": 1,
+      "controls": {
+        "Face_GazeYaw": -1,
+        "Face_GazePitch": 0
+      },
+      "meshes": [
+        {
+          "mesh": "Character_Body_Head",
+          "vertices": 12928,
+          "loops": 66861,
+          "polygons": 21701,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": true,
+          "original_has_custom_normals": true,
+          "original_polygon_use_smooth_true_count": 21701,
+          "evaluated_polygon_use_smooth_true_count": 21701,
+          "split_corner_vs_vertex_normal_max_vector_delta": 1.9313820600509644,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 26,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.10463441163301468,
+          "object_world": [
+            [
+              1.0,
+              2.0344828044471797e-09,
+              4.2626567164916196e-08,
+              -3.5868121806004183e-09
+            ],
+            [
+              -3.990973773682072e-09,
+              0.9999999403953552,
+              4.371138828673793e-08,
+              4.656682817127944e-10
+            ],
+            [
+              4.704383727016648e-08,
+              -1.033160259567012e-07,
+              1.0,
+              -4.431786049252651e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 66861,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.L",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.10589446127414703,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.R",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.10605498403310776,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz"
+        }
+      ]
+    },
+    {
+      "case": "gaze_1_0",
+      "frame": 1,
+      "controls": {
+        "Face_GazeYaw": 1,
+        "Face_GazePitch": 0
+      },
+      "meshes": [
+        {
+          "mesh": "Character_Body_Head",
+          "vertices": 12928,
+          "loops": 66861,
+          "polygons": 21701,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": true,
+          "original_has_custom_normals": true,
+          "original_polygon_use_smooth_true_count": 21701,
+          "evaluated_polygon_use_smooth_true_count": 21701,
+          "split_corner_vs_vertex_normal_max_vector_delta": 1.9313820600509644,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 26,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.10463161766529083,
+          "object_world": [
+            [
+              1.0,
+              2.0344828044471797e-09,
+              4.2626567164916196e-08,
+              -3.5868121806004183e-09
+            ],
+            [
+              -3.990973773682072e-09,
+              0.9999999403953552,
+              4.371138828673793e-08,
+              4.656682817127944e-10
+            ],
+            [
+              4.704383727016648e-08,
+              -1.033160259567012e-07,
+              1.0,
+              -4.431786049252651e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 66861,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.L",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.10604790598154068,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.R",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.10589063912630081,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz"
+        }
+      ]
+    },
+    {
+      "case": "gaze_0_-1",
+      "frame": 1,
+      "controls": {
+        "Face_GazeYaw": 0,
+        "Face_GazePitch": -1
+      },
+      "meshes": [
+        {
+          "mesh": "Character_Body_Head",
+          "vertices": 12928,
+          "loops": 66861,
+          "polygons": 21701,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": true,
+          "original_has_custom_normals": true,
+          "original_polygon_use_smooth_true_count": 21701,
+          "evaluated_polygon_use_smooth_true_count": 21701,
+          "split_corner_vs_vertex_normal_max_vector_delta": 1.9313820600509644,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 26,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.06969837844371796,
+          "object_world": [
+            [
+              1.0,
+              2.0344828044471797e-09,
+              4.2626567164916196e-08,
+              -3.5868121806004183e-09
+            ],
+            [
+              -3.990973773682072e-09,
+              0.9999999403953552,
+              4.371138828673793e-08,
+              4.656682817127944e-10
+            ],
+            [
+              4.704383727016648e-08,
+              -1.033160259567012e-07,
+              1.0,
+              -4.431786049252651e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 66861,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.L",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.07055545598268509,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.R",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.0705535039305687,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz"
+        }
+      ]
+    },
+    {
+      "case": "gaze_0_1",
+      "frame": 1,
+      "controls": {
+        "Face_GazeYaw": 0,
+        "Face_GazePitch": 1
+      },
+      "meshes": [
+        {
+          "mesh": "Character_Body_Head",
+          "vertices": 12928,
+          "loops": 66861,
+          "polygons": 21701,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": true,
+          "original_has_custom_normals": true,
+          "original_polygon_use_smooth_true_count": 21701,
+          "evaluated_polygon_use_smooth_true_count": 21701,
+          "split_corner_vs_vertex_normal_max_vector_delta": 1.9313820600509644,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 26,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.06965132057666779,
+          "object_world": [
+            [
+              1.0,
+              2.0344828044471797e-09,
+              4.2626567164916196e-08,
+              -3.5868121806004183e-09
+            ],
+            [
+              -3.990973773682072e-09,
+              0.9999999403953552,
+              4.371138828673793e-08,
+              4.656682817127944e-10
+            ],
+            [
+              4.704383727016648e-08,
+              -1.033160259567012e-07,
+              1.0,
+              -4.431786049252651e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 66861,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Character_Body_Head_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.L",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.07046055793762207,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.L_original_mesh.npz"
+        },
+        {
+          "mesh": "Globe.R",
+          "vertices": 18242,
+          "loops": 73344,
+          "polygons": 18432,
+          "frozen_local_position_max_element_delta": 0.0,
+          "frozen_world_position_max_element_delta": 0.0,
+          "topology_indices_and_UV_identical": true,
+          "evaluated_has_custom_normals": false,
+          "original_has_custom_normals": false,
+          "original_polygon_use_smooth_true_count": 18432,
+          "evaluated_polygon_use_smooth_true_count": 18432,
+          "split_corner_vs_vertex_normal_max_vector_delta": 0.0,
+          "split_corner_vs_vertex_normal_differing_count_over1e-6": 0,
+          "actual_world_corner_normal_motion_max_vector_delta_from_neutral": 0.0704113095998764,
+          "object_world": [
+            [
+              1.0,
+              3.0127287331538355e-09,
+              -2.2086386053388196e-09,
+              -3.703227502427353e-09
+            ],
+            [
+              -3.0127285111092306e-09,
+              1.0,
+              7.35137177798606e-08,
+              4.656683372239456e-10
+            ],
+            [
+              2.2086386053388196e-09,
+              -7.351371067443324e-08,
+              1.0000001192092896,
+              -4.4317864933418605e-09
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "UV_tangents": [
+            {
+              "UV": "UVMap",
+              "index": 0,
+              "corners": 73344,
+              "sign_values": [
+                -1.0,
+                1.0
+              ]
+            }
+          ],
+          "original_mesh_NPZ_pointer": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-source-fidelity-recovery-r1\\data\\Globe.R_original_mesh.npz"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "neutral_evaluated_corners.npz",
+      "sha256": "52e1079c62ff86eb52b43bb12d911b7f455dcecaa0b72e994625feaf300bc992",
+      "bytes": 5854928,
+      "arrays": {
+        "Character_Body_Head_local_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_world_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Character_Body_Head_uv0_local_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.L_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.R_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "gaze_-1_0_evaluated_corners.npz",
+      "sha256": "47b71e34e046c9d74601c4c95faee172f9d34e35f803813a3da53bb286864a1b",
+      "bytes": 5850227,
+      "arrays": {
+        "Character_Body_Head_local_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_world_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Character_Body_Head_uv0_local_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.L_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.R_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "gaze_1_0_evaluated_corners.npz",
+      "sha256": "b0ace80e67cfc44e646c49806c2f954019f758c743a4dc50dd41655a6506b2f4",
+      "bytes": 5849329,
+      "arrays": {
+        "Character_Body_Head_local_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_world_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Character_Body_Head_uv0_local_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.L_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.R_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "gaze_0_-1_evaluated_corners.npz",
+      "sha256": "0b146cb3be48de8648a9b170129d2a59b558d3392d4639a321b00ac5b0521296",
+      "bytes": 5857975,
+      "arrays": {
+        "Character_Body_Head_local_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_world_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Character_Body_Head_uv0_local_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.L_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.R_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        }
+      }
+    },
+    {
+      "path": "gaze_0_1_evaluated_corners.npz",
+      "sha256": "c285002eff366c5ad04ccb2dbe09771fe5ac85a4dcdf064c7f590e6b62ba483f",
+      "bytes": 5856254,
+      "arrays": {
+        "Character_Body_Head_local_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_world_corner_normal": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_tangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_local_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent": {
+          "shape": [
+            66861,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Character_Body_Head_uv0_local_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Character_Body_Head_uv0_world_bitangent_sign": {
+          "shape": [
+            66861
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.L_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.L_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_local_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_world_corner_normal": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_tangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_local_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent": {
+          "shape": [
+            73344,
+            3
+          ],
+          "dtype": "float64"
+        },
+        "Globe.R_uv0_local_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        },
+        "Globe.R_uv0_world_bitangent_sign": {
+          "shape": [
+            73344
+          ],
+          "dtype": "float32"
+        }
+      }
+    }
+  ],
+  "source_component_diff": {},
+  "source_preserved": true,
+  "source_actions_preserved": 78,
+  "source_saved": false,
+  "muted13_bridge_drivers": [
+    {
+      "path": "key_blocks[\"JawOpen\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"Smile.L\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"Smile.R\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"Blink.L\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"Blink.R\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"BrowRaise.L\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"BrowRaise.R\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"BrowKnit.L\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"BrowKnit.R\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"CheekLift.L\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"CheekLift.R\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"LipPucker\"].value",
+      "mute": true,
+      "valid": true
+    },
+    {
+      "path": "key_blocks[\"MouthWide\"].value",
+      "mute": true,
+      "valid": true
+    }
+  ],
+  "OFF_restore": [
+    {
+      "mesh": "Character_Body_Head",
+      "world_corner_normal_OFF_return_max_delta": 0.0
+    },
+    {
+      "mesh": "Globe.L",
+      "world_corner_normal_OFF_return_max_delta": 0.0
+    },
+    {
+      "mesh": "Globe.R",
+      "world_corner_normal_OFF_return_max_delta": 0.0
+    }
+  ],
+  "CPU_job": {
+    "workers": 1,
+    "Blender_threads": 4,
+    "Blender": "5.2.1 LTS",
+    "wall_seconds": 19.820241799985524,
+    "no_render_export_bake_GUI": true
+  },
+  "normal_domain": "ACTUAL evaluated modifier/GN mesh CORNER per original loop, separately retained local/world; not POINT averaged normals and not unevaluated original corner basis.",
+  "coordinate_policy": "World meters Blender Z-up. Position p_local A^T+t once. Normal row n_local inverse(A), normalized float64 then float32. Tangent row t_local A^T projected orthogonal to world normal, normalized. Bitangent=sign cross(normal,tangent); world sign=local sign*determinant parity of A. Exact evaluated UV tangent basis per original UV, no Y flip.",
+  "topology_policy": "Every case loop_vertex_indices/polygon loop start/total/material slots/UV equality exact vs frozen original mesh NPZ. Correspondence original stable loops; no corner collapse or new remap.",
+  "quality": "Source reference only. Prior POINT-vs-splitCORNER149deg comparison is domain mismatch, not measured CORNER FAIL or waived gate. Actual Unity corner/gaze/PBR/F2/Player acceptance remains independent."
+}

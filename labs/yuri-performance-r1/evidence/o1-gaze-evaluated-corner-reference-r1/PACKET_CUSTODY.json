@@ -1,0 +1,72 @@
+{
+  "task_id": "YURI_O1_GAZE_CORNER_NORMAL_PRIORITY_ADDENDUM_R1",
+  "packet_directory": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1_10873587139f",
+  "manifest_sha256": "10873587139fd04873ea703d512ebe3eef8ce0b142162df8931f084e6854a86e",
+  "volumes": [
+    {
+      "path": "C:\\YuriTransfer\\outbox\\YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1_10873587139f\\YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1.part01-of-01.zip",
+      "sha256": "e54aaa270fb1208ef5cd4b74d3ce49774fbadfc6b929439ce2d68517e2646073",
+      "bytes": 29415851,
+      "files": [
+        "neutral_evaluated_corners.npz",
+        "gaze_-1_0_evaluated_corners.npz",
+        "gaze_1_0_evaluated_corners.npz",
+        "gaze_0_-1_evaluated_corners.npz",
+        "gaze_0_1_evaluated_corners.npz",
+        "metadata/GAZE_EVALUATED_CORNER_MANIFEST.json",
+        "metadata/SOURCE_COMPONENT_DIFF.json",
+        "metadata/YURI_O1_GAZE_EVALUATED_CORNER_REFERENCE_R1.md",
+        "scripts/r4_gaze_evaluated_corner_reference.py",
+        "scripts/r4_source_reference_packet_freeze.py"
+      ]
+    }
+  ],
+  "file_manifest": {
+    "neutral_evaluated_corners.npz": {
+      "sha256": "52e1079c62ff86eb52b43bb12d911b7f455dcecaa0b72e994625feaf300bc992",
+      "bytes": 5854928
+    },
+    "gaze_-1_0_evaluated_corners.npz": {
+      "sha256": "47b71e34e046c9d74601c4c95faee172f9d34e35f803813a3da53bb286864a1b",
+      "bytes": 5850227
+    },
+    "gaze_1_0_evaluated_corners.npz": {
+      "sha256": "b0ace80e67cfc44e646c49806c2f954019f758c743a4dc50dd41655a6506b2f4",
+      "bytes": 5849329
+    },
+    "gaze_0_-1_evaluated_corners.npz": {
+      "sha256": "0b146cb3be48de8648a9b170129d2a59b558d3392d4639a321b00ac5b0521296",
+      "bytes": 5857975
+    },
+    "gaze_0_1_evaluated_corners.npz": {
+      "sha256": "c285002eff366c5ad04ccb2dbe09771fe5ac85a4dcdf064c7f590e6b62ba483f",
+      "bytes": 5856254
+    },
+    "metadata/GAZE_EVALUATED_CORNER_MANIFEST.json": {
+      "sha256": "10873587139fd04873ea703d512ebe3eef8ce0b142162df8931f084e6854a86e",
+      "bytes": 56900
+    },
+    "metadata/SOURCE_COMPONENT_DIFF.json": {
+      "sha256": "de99320acf7dfd9e489f1aefb8134c416a08b2f5e32c850291d18dd0c0f10041",
+      "bytes": 73142
+    },
+    "metadata/YURI_O1_GAZE_EVALUATED_CORNER_REFERENCE_R1.md": {
+      "sha256": "358447906ef2fba812c51a2536af155504978a67abcb9d56ae965931f47dac1b",
+      "bytes": 2363
+    },
+    "scripts/r4_gaze_evaluated_corner_reference.py": {
+      "sha256": "e727f0b23e45c83339dac91a8fb188027621c91ec2ea184e0eba2965d40b0122",
+      "bytes": 9692
+    },
+    "scripts/r4_source_reference_packet_freeze.py": {
+      "sha256": "9e88481ad9cba5051bda0d200eadd57da57c0e5b0febe3462fb3467704d9e8c9",
+      "bytes": 3513
+    }
+  },
+  "all_file_hashes_and_CRC_verified": true,
+  "zip_policy": "Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.",
+  "max_volume_bytes": 29415851,
+  "data_bytes": 29268713,
+  "aggregate_file_manifest_sha256": "39227e9c7dc5b096315672e44b8a3f916865a576207da13d3ca54c6be19d9983",
+  "source_or_frozen_input_writes": 0
+}

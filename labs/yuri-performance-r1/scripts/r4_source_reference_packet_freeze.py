@@ -1,0 +1,53 @@
+"""Freeze existing data in independently readable <=100MiB ZIP volumes.
+Usage: python this.py gaze|body. No Blender/source access.
+"""
+import sys,json,hashlib,zipfile
+from pathlib import Path
+LAB=Path(__file__).resolve().parent.parent
+BASE=Path(r'C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs')
+mode=sys.argv[-1];assert mode in ('gaze','body')
+slug='o1-gaze-evaluated-corner-reference-r1' if mode=='gaze' else 'o1-full-body-deformation-reference-r1'
+name='GAZE_EVALUATED_CORNER_MANIFEST.json' if mode=='gaze' else 'FULL_BODY_DEFORMATION_MANIFEST.json'
+prefix='YURI_O1_R4_GAZE_EVALUATED_CORNERS_20261003_R1' if mode=='gaze' else 'YURI_O1_R4_FULL_BODY_DEFORMATION_20261003_R1'
+E=LAB/'evidence'/slug;OUT=BASE/slug
+def sha(p):
+    h=hashlib.sha256()
+    with p.open('rb') as f:
+        for block in iter(lambda:f.read(1024*1024),b''):h.update(block)
+    return h.hexdigest()
+manifest=json.loads((E/name).read_text(encoding='utf8'));digest=sha(E/name)
+data=manifest['files' if mode=='gaze' else 'chunks']
+files={v['path']:OUT/v['path'] for v in data}
+for v in data:assert sha(files[v['path']])==v['sha256'] and files[v['path']].stat().st_size==v['bytes']
+for p in E.iterdir():
+    if p.suffix in ('.md','.json') and p.name!='PACKET_CUSTODY.json':files['metadata/'+p.name]=p
+script='r4_gaze_evaluated_corner_reference.py' if mode=='gaze' else 'r4_full_body_deformation_reference.py'
+for n in (script,'r4_source_reference_packet_freeze.py'):files['scripts/'+n]=LAB/'scripts'/n
+file_manifest={n:{'sha256':sha(p),'bytes':p.stat().st_size} for n,p in files.items()}
+dest=Path(r'C:/YuriTransfer/outbox')/(prefix+'_'+digest[:12]);dest.mkdir(exist_ok=True)
+groups=[];group=[];size=0
+for n,p in files.items():
+    if group and size+p.stat().st_size>90*1024**2:groups.append(group);group=[];size=0
+    assert p.stat().st_size<100*1024**2
+    group.append((n,p));size+=p.stat().st_size
+if group:groups.append(group)
+parts=[]
+for index,items in enumerate(groups,1):
+    target=dest/f'{prefix}.part{index:02d}-of-{len(groups):02d}.zip'
+    assert not target.exists(),('do not overwrite frozen volume',target)
+    with zipfile.ZipFile(target,'w',zipfile.ZIP_STORED) as z:
+        for n,p in items:z.write(p,n)
+    assert target.stat().st_size<100*1024**2
+    with zipfile.ZipFile(target) as z:
+        assert z.testzip() is None
+        for n,_ in items:assert hashlib.sha256(z.read(n)).hexdigest()==file_manifest[n]['sha256']
+    parts.append({'path':str(target),'sha256':sha(target),'bytes':target.stat().st_size,'files':[n for n,_ in items]})
+    print('VOLUME_VERIFIED',index,len(groups),target.stat().st_size,flush=True)
+custody={'task_id':manifest['task_id'],'packet_directory':str(dest),'manifest_sha256':digest,
+    'volumes':parts,'file_manifest':file_manifest,'all_file_hashes_and_CRC_verified':True,
+    'zip_policy':'Independent ZIP volumes, not raw split bytes. Extract ALL volumes into same directory; exact original relative paths. No concatenate step.',
+    'max_volume_bytes':max(v['bytes'] for v in parts),'data_bytes':sum(v['bytes'] for v in data),
+    'aggregate_file_manifest_sha256':hashlib.sha256(json.dumps(file_manifest,sort_keys=True,separators=(',',':')).encode()).hexdigest(),
+    'source_or_frozen_input_writes':0}
+for p in (E/'PACKET_CUSTODY.json',OUT/'PACKET_CUSTODY.json',dest/'PACKET_CUSTODY.json'):p.write_text(json.dumps(custody,indent=2),encoding='utf8')
+print('PACKET_FREEZE_COMPLETE',str(dest),len(parts),custody['aggregate_file_manifest_sha256'],flush=True)
