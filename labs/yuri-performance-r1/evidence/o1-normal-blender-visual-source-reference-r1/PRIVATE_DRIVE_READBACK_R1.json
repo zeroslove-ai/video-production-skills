@@ -1,0 +1,36 @@
+{
+  "status": "UPLOAD_ID_SIZE_PARENT_OWNER_ONLY_READBACK_VERIFIED; remote byte checksum not supplied",
+  "readback": {
+    "id": "1ZbqV8UbAI266sXx4947B18SKeVnV4Yg9",
+    "title": "YURI_EXISTING_BLENDER_VISUAL_SOURCE_REFERENCE_R1.zip",
+    "mime_type": null,
+    "size": "5189128",
+    "url": "https://drive.google.com/file/d/1ZbqV8UbAI266sXx4947B18SKeVnV4Yg9/view?usp=drivesdk",
+    "display_url": "https://drive.google.com/file/d/1ZbqV8UbAI266sXx4947B18SKeVnV4Yg9/view?usp=drivesdk",
+    "file_or_folder": null,
+    "created_time": null,
+    "modified_time": null,
+    "parent_ids": [
+      "1sazEEOoVOdK7F8Ld6ZNcxwVTNyZbH0Ya"
+    ],
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": false,
+    "permissions": [
+      {
+        "type": "user",
+        "role": "owner",
+        "emailAddress": null,
+        "domain": null,
+        "displayName": null,
+        "allowFileDiscovery": null
+      }
+    ],
+    "source_visibility_status": "permission_metadata_available"
+  },
+  "local_bytes": 5189128,
+  "local_sha256": "d64fc25251e36285c8dbf93d8cc846599d9aff1cef5b6b5056c6a2d6c5039f17",
+  "source_export_render_native_launches": 0,
+  "recipient_SHA_verification_required": true
+}

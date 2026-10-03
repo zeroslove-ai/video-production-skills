@@ -1,0 +1,494 @@
+{
+  "user_visible_delta": "\uc0c8 Windows \uae30\ub2a5 \uc5c6\uc74c; \uc2e4\uc81c \uae30\uc874 Blender neutral \uc774\ubbf8\uc9c0\uc640 source \ube44\uad50 \uc870\uac74\uc744 \uc81c\uacf5\ud574 neck/material/face defect stage \uc9c4\ub2e8 \uc900\ube44",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "actual_images_inspected": true,
+  "visual_observation": "Source-camera actual PNG shows original face/hair/neck/shoulders; no gross neck detachment visible in this frame. 8sample CPU noise and single view do not certify subtle seam or Windows appearance. Fullbody256x384 provides framing/silhouette reference only.",
+  "images": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\neutral\\authority_source_camera_before.png",
+      "bytes": 1535113,
+      "sha256": "6fa3a53dbc65cada3ea7c9d402cc007a49f9af6bc52fe3de901df2c68255c7b9",
+      "member_in_existing_private_packet": "neutral/authority_source_camera_before.png"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\neutral\\authority_source_camera_after_OFF.png",
+      "bytes": 1535139,
+      "sha256": "52367b5e7714a0bf0599a66c654d64468530346fb2cc176fa690d66529b302ee",
+      "member_in_existing_private_packet": "neutral/authority_source_camera_after_OFF.png"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\neutral\\authority_source_camera_after_ON_then_OFF.png",
+      "bytes": 1535139,
+      "sha256": "5142ff0a8bafdb10ec9e5a38fe82bc3707b780738b663f2c1543f204e0eee630",
+      "member_in_existing_private_packet": "neutral/authority_source_camera_after_ON_then_OFF.png"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\neutral\\full_body_QA_before.png",
+      "bytes": 188983,
+      "sha256": "cce5eae2de4308e86cb3a8ffaf9eb6ca885a4bdd9de4185a649ab1359cc0e890",
+      "member_in_existing_private_packet": "neutral/full_body_QA_before.png"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\neutral\\full_body_QA_after_OFF.png",
+      "bytes": 189009,
+      "sha256": "ee436ac12dd86f6f695dc5468c11442a76f999090a51b6561c1f9d2d3c7656e7",
+      "member_in_existing_private_packet": "neutral/full_body_QA_after_OFF.png"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-appearance-preserve-correction-r1\\neutral\\full_body_QA_after_ON_then_OFF.png",
+      "bytes": 189009,
+      "sha256": "10ab896b27f05bbea87796b4078b9bd7ac62eca75f6aafe578811a1a905cfa69",
+      "member_in_existing_private_packet": "neutral/full_body_QA_after_ON_then_OFF.png"
+    }
+  ],
+  "source_action_state": "Original source loaded with use_scripts=False, original frame1/pose/bindings; no new Action assigned for BEFORE neutral. Explicit ON_then_OFF is old corrective Reaction trial, not original Idle145 render.",
+  "provenance_workflow": {
+    "path": "scripts/r4_appearance_qa.py",
+    "sha256": "f2fc3045e4bf54618c78dc83a1987e2c6107760ea9061583c5b2055e09a23062",
+    "render_overrides": {
+      "device": "CPU",
+      "samples": 8,
+      "threads": 4,
+      "seed": 0,
+      "animated_seed": false,
+      "denoising": false,
+      "PNG": "RGBA8"
+    },
+    "source_camera": {
+      "name": "Assembly_Review_Camera",
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0019499999471008778
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -3.0269999504089355
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          0.8560000061988831
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "type": "ORTHO",
+      "ortho_scale": 0.23999999463558197,
+      "lens": 50.0
+    },
+    "source_resolution": [
+      960,
+      920,
+      100
+    ],
+    "fullbody_override": {
+      "resolution": [
+        256,
+        384
+      ],
+      "camera_location": [
+        1.8,
+        -3,
+        0.62
+      ],
+      "target": [
+        0.002,
+        -0.025,
+        0.49
+      ],
+      "ortho_scale": 1.18
+    },
+    "world": "Assembly Soft Studio",
+    "lights_exact_metadata_pointer": "neutral_authority_manifest.json",
+    "color_management": {
+      "view": {
+        "look": "AgX - Medium High Contrast",
+        "view_transform": "AgX",
+        "exposure": 0.25,
+        "gamma": 1.0,
+        "curve_mapping": [
+          "CurveMapping",
+          null
+        ],
+        "use_curve_mapping": false,
+        "use_white_balance": false,
+        "white_balance_temperature": 6500.0,
+        "white_balance_tint": 10.0,
+        "white_balance_whitepoint": [
+          0.9993047714233398,
+          1.0003489255905151,
+          0.9985780119895935
+        ],
+        "is_hdr": false,
+        "support_emulation": true
+      },
+      "display": {
+        "display_device": "sRGB",
+        "emulation": "AUTO"
+      },
+      "sequencer": {}
+    },
+    "color_capture_scope": "Later same-source neutral native metadata; renderer setup leaves color state unchanged. Historical PNG does not itself contain a full color-state readback; no invented render-time receipt."
+  },
+  "pixel_comparison": {
+    "before_after_OFF": {
+      "size": [
+        960,
+        920
+      ],
+      "unequal_channels": 0,
+      "max_abs_pixel_channel_difference": 0.0,
+      "pixel_float_sha256_before": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+      "pixel_float_sha256_after": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+      "PASS": true
+    },
+    "before_after_ON_then_OFF": {
+      "size": [
+        960,
+        920
+      ],
+      "unequal_channels": 0,
+      "max_abs_pixel_channel_difference": 0.0,
+      "pixel_float_sha256_before": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+      "pixel_float_sha256_after": "315f18f50bc0d39123b3962843132fa38eecbc853b29b169ce2542aad03b6d56",
+      "PASS": true
+    }
+  },
+  "existing_owner_only_Drive_packet": {
+    "id": "1eCbLylN5wYoM7WPwzbjBP_wLp0IGRRZK",
+    "bytes": 62446950,
+    "sha256": "407cda9db7b45053f8fbb3e83467fa4888db456f31ebec376e1701c70d4f2d64",
+    "metadata_readback_owner_only": true,
+    "duplicate_source_export_upload": false
+  },
+  "mixed_lineage": "Owner-described Tripo head/hair versus Meshy body retained in immutable original source; measured Object/rig/material/attribute domains listed individually. Provider label is not a defect cause conclusion.",
+  "renderer_source_metadata": [
+    {
+      "object": "Character_Body_Head",
+      "source_vertices": 12928,
+      "source_polygons": 21701,
+      "parent": "Armature",
+      "material_slots": [
+        "Skin_Clean_R3",
+        "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001",
+        "Neck transition.001",
+        "ContinuousEyeSkin.L",
+        "ContinuousEyeSkin.R",
+        "Face_Iris_Wet_v1",
+        "Face_Lash_Pigment",
+        "Face_LowerLash_Pigment"
+      ],
+      "UV_layers": [
+        "UVMap"
+      ],
+      "geometry_SHA": "8ce156e61ef8266a7bc229db53429277d42be6f54e1586bc611daad7892f6b8a",
+      "weights_SHA": "46568e1029e81a6b94b10aa5ff4452f929ff9d789478cf9ec6e1bbf850f62271",
+      "ShapeKey_names": [
+        "Basis",
+        "JawOpen",
+        "Smile.L",
+        "Smile.R",
+        "Blink.L",
+        "EyePath.L.1",
+        "EyePath.L.2",
+        "EyePath.L.3",
+        "EyePath.L.4",
+        "EyePath.L.5",
+        "EyePath.L.6",
+        "EyePath.L.7",
+        "Blink.R",
+        "EyePath.R.1",
+        "EyePath.R.2",
+        "EyePath.R.3",
+        "EyePath.R.4",
+        "EyePath.R.5",
+        "EyePath.R.6",
+        "EyePath.R.7",
+        "BrowRaise.L",
+        "BrowKnit.L",
+        "CheekLift.L",
+        "CORR_Face_SmileCheek.L",
+        "BrowRaise.R",
+        "BrowKnit.R",
+        "CheekLift.R",
+        "CORR_Face_SmileCheek.R",
+        "LipPucker",
+        "MouthWide",
+        "CORR_Face_JawCheek",
+        "CORR_UpperLidUntangle.L",
+        "CORR_UpperLidUntangle.R",
+        "CORR_UpperMedialUntangle.L",
+        "CORR_UpperMedialUntangle.R",
+        "CORR_UpperSurface.L.1",
+        "CORR_UpperSurface.L.2",
+        "CORR_UpperSurface.L.3",
+        "CORR_UpperSurface.L.4",
+        "CORR_UpperSurface.L.5",
+        "CORR_UpperSurface.L.6",
+        "CORR_UpperSurface.L.7",
+        "CORR_UpperSurface.L.8",
+        "CORR_UpperSurface.R.1",
+        "CORR_UpperSurface.R.2",
+        "CORR_UpperSurface.R.3",
+        "CORR_UpperSurface.R.4",
+        "CORR_UpperSurface.R.5",
+        "CORR_UpperSurface.R.6",
+        "CORR_UpperSurface.R.7",
+        "CORR_UpperSurface.R.8",
+        "SEC_Chest.L.X",
+        "SEC_Chest.L.Y",
+        "SEC_Chest.L.Z",
+        "SEC_Chest.R.X",
+        "SEC_Chest.R.Y",
+        "SEC_Chest.R.Z",
+        "SEC_Hip.L.X",
+        "SEC_Hip.L.Y",
+        "SEC_Hip.L.Z",
+        "SEC_Hip.R.X",
+        "SEC_Hip.R.Y",
+        "SEC_Hip.R.Z",
+        "CORR_Elbow.L.Volume",
+        "CORR_BicepsFlex.L",
+        "CORR_Elbow.R.Volume",
+        "CORR_BicepsFlex.R",
+        "CORR_Knee.L.Volume",
+        "CORR_Knee.R.Volume",
+        "ExprSmileCurve",
+        "ExprMouthDown",
+        "ExprBrowInnerUp"
+      ],
+      "modifier_order": [
+        {
+          "order": 0,
+          "name": "Face true gaze before head deformation",
+          "type": "NODES",
+          "armature_target": null,
+          "preserve_volume": null,
+          "mask": null
+        },
+        {
+          "order": 1,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "armature_target": [
+            "Object",
+            "Armature"
+          ],
+          "preserve_volume": false,
+          "mask": ""
+        }
+      ],
+      "attribute_names": [
+        "R3_LidPigmentMask.L",
+        "R3_AnatomicalFold.L",
+        "R3_LidPigmentMask.R",
+        "R3_AnatomicalFold.R",
+        "R3_SourceVertex",
+        "Assembly_R3_Vertex",
+        "Skin_BaseColor_R3",
+        "neck_rest_position",
+        "position",
+        "FaceIris.L",
+        "FaceIris.R",
+        ".select_vert",
+        ".edge_verts",
+        ".select_edge",
+        "sharp_edge",
+        "material_index",
+        ".select_poly",
+        ".corner_vert",
+        ".corner_edge",
+        "custom_normal",
+        "UVMap"
+      ],
+      "native_coordinates_scale_rest_bind_fullvalues": "Existing private source/bind/slotUV/bodymodifier/CSR packets; no matrix decomposition or provider-label substitution"
+    },
+    {
+      "object": "Meshy_Body_NeutralCovered",
+      "source_vertices": 63561,
+      "source_polygons": 63781,
+      "parent": "Assembly_Root",
+      "material_slots": [
+        "R4_Meshy_OriginalDetail_FaceMatched",
+        "R4_Meshy_OriginalDetail_FaceMatched",
+        "R4_Meshy_OriginalDetail_FaceMatched"
+      ],
+      "UV_layers": [
+        "UVMap"
+      ],
+      "geometry_SHA": "2b73901f649f375fe142401711d160150045fb6f2f1d6594965772b768bc79bd",
+      "weights_SHA": "1a0292547df8f1cb81cbbc58b7c2f40718345706afd4ff0a8baaea4068fbdf1f",
+      "ShapeKey_names": [],
+      "modifier_order": [
+        {
+          "order": 0,
+          "name": "Armature",
+          "type": "ARMATURE",
+          "armature_target": [
+            "Object",
+            "Meshy_Fitted_Rig"
+          ],
+          "preserve_volume": true,
+          "mask": ""
+        },
+        {
+          "order": 1,
+          "name": "R3 neck and joints - local linear blend",
+          "type": "ARMATURE",
+          "armature_target": [
+            "Object",
+            "Meshy_Fitted_Rig"
+          ],
+          "preserve_volume": false,
+          "mask": "R3_Surface_LinearBlend"
+        },
+        {
+          "order": 2,
+          "name": "R3 local joint surface relaxation",
+          "type": "CORRECTIVE_SMOOTH",
+          "armature_target": null,
+          "preserve_volume": null,
+          "mask": "R3_Joint_CorrectiveSmooth"
+        },
+        {
+          "order": 3,
+          "name": "R3 raised shoulder surface L",
+          "type": "SMOOTH",
+          "armature_target": null,
+          "preserve_volume": null,
+          "mask": "R3_Shoulder_PoseRelax.L"
+        },
+        {
+          "order": 4,
+          "name": "R3 raised shoulder surface R",
+          "type": "SMOOTH",
+          "armature_target": null,
+          "preserve_volume": null,
+          "mask": "R3_Shoulder_PoseRelax.R"
+        },
+        {
+          "order": 5,
+          "name": "R3 bent hip surface L",
+          "type": "SMOOTH",
+          "armature_target": null,
+          "preserve_volume": null,
+          "mask": "R3_Hip_PoseRelax.L"
+        },
+        {
+          "order": 6,
+          "name": "R3 bent hip surface R",
+          "type": "SMOOTH",
+          "armature_target": null,
+          "preserve_volume": null,
+          "mask": "R3_Hip_PoseRelax.R"
+        }
+      ],
+      "attribute_names": [
+        "R2_Hand_Cuff_RestDistance",
+        "R3_Neck_RestZ",
+        "R4_NonExplicit_TextureMask",
+        "R4_Neck_ToneBlend",
+        "position",
+        ".select_vert",
+        ".edge_verts",
+        ".select_edge",
+        "sharp_edge",
+        "material_index",
+        ".select_poly",
+        ".corner_vert",
+        ".corner_edge",
+        "custom_normal",
+        "UVMap"
+      ],
+      "native_coordinates_scale_rest_bind_fullvalues": "Existing private source/bind/slotUV/bodymodifier/CSR packets; no matrix decomposition or provider-label substitution"
+    },
+    {
+      "object": "Hair_Replacement_R4",
+      "source_vertices": 10408,
+      "source_polygons": 8652,
+      "parent": "Assembly_Root",
+      "material_slots": [
+        "Hair_Pearl_PBR"
+      ],
+      "UV_layers": [],
+      "geometry_SHA": "f419c8eba155800a16b45b0f7ecb51ac1829c7e5a0cf00461bee59935bdd0932",
+      "weights_SHA": "bcc2fd1637cff052e72000f95dd3392a3bebd2f2feb0764bb18933737568e607",
+      "ShapeKey_names": [],
+      "modifier_order": [
+        {
+          "order": 0,
+          "name": "Hair strand deformation",
+          "type": "ARMATURE",
+          "armature_target": [
+            "Object",
+            "Hair_Rig_R4"
+          ],
+          "preserve_volume": false,
+          "mask": ""
+        }
+      ],
+      "attribute_names": [
+        "position",
+        ".select_vert",
+        ".edge_verts",
+        ".select_edge",
+        "sharp_edge",
+        ".select_poly",
+        "sharp_face",
+        ".corner_vert",
+        ".corner_edge",
+        "custom_normal"
+      ],
+      "native_coordinates_scale_rest_bind_fullvalues": "Existing private source/bind/slotUV/bodymodifier/CSR packets; no matrix decomposition or provider-label substitution"
+    }
+  ],
+  "exact_private_receipt_pointers": [
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-native-unity-probe-r1\\source_renderers_bind.json",
+      "bytes": 2017708,
+      "sha256": "24819e51a769bb275e208b3d1ff5188869d7af74db1c3722bfc0c1227d79532a"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-native-unity-probe-r1\\source_expanded_rigs.json",
+      "bytes": 560498,
+      "sha256": "d3b556a0c7adbedaccb6c55c0914ea9b92dc8b3cc2f3e84594725d50dbb89694"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-native-unity-probe-r1\\source_driver_graph.json",
+      "bytes": 1498500,
+      "sha256": "6ab812f8335fc0efb03623e2233f5f4f44976234cbbd300b7890d538e4d344a0"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-source-fidelity-recovery-r1\\mesh_slot_UV_attributes_shape_deltas.json",
+      "bytes": 2489830,
+      "sha256": "e76524048e1168a84b7a98aead4404f6b5cea76fe33f317234dcc21facc8de0c"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-source-fidelity-recovery-r1\\neutral_camera_light_color_driver_state.json",
+      "bytes": 32179,
+      "sha256": "8b3def32f4fe1b591267cdff63e77bb9ea40fad6a9e85bead4dee9a5d99afe91"
+    }
+  ],
+  "comparison_stages": [
+    "Same neutral source frame1/bindings and source properties; actualPNG plus native evaluated world geometry",
+    "Importer rest hierarchy/scale/world transforms/source vertex+corner identity+allweights; detect positional/neck boundary mismatch first",
+    "Runtime source rest/bone/mask/modifier order; body/head/hair native outputs versus consumer before shader",
+    "Slot/UV/vertexattribute/texture/node dependency and native normal/tangent conventions at neck transition; compare material-constant test only in product-owned adapter",
+    "Matched source-camera ORTHO0.24/viewAgX/MediumHighContrast/exposure0.25/lights/world; final WindowsPlayer actual frame"
+  ],
+  "neck_boundary_policy": "Use original neck_rest_position/source vertex attributes, original Neck transition.001 material slot and independent head/body mesh topology/bind/weights. Existing receipts are available; no newly measured exact seam vertex set is claimed; no welding/body replacement to hide mismatch.",
+  "next_one_task": "Laptop matched neutral source-camera Windows capture plus source world-position/slot/UV/rest/skin pipeline checkpoint to locate neck/material/face divergence, preserving source hierarchy; no Desktop Unity implementation.",
+  "native_render_export_launches_this_step": 0,
+  "WindowsPlayer_visual_PASS": false,
+  "guard_fullsampler": "R3 strictFAIL research separated; independent original data restoration available for PM-authorized isolated comparison"
+}
