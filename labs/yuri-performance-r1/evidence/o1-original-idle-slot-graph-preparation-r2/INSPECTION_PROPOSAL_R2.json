@@ -1,0 +1,99 @@
+{
+  "status": "CORRECTED_R2_PREPARATION_ONLY_NEW_REVIEW_REQUIRED",
+  "scope": "ORIGINAL_LIVING_IDLE_SLOT_GRAPH_READ_ONLY",
+  "argv": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--offline-mode",
+    "--disable-autoexec",
+    "-t",
+    "2",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend",
+    "--python-exit-code",
+    "93",
+    "--python",
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_slot_graph_inspect_r2.py"
+  ],
+  "blender_sha256": "284f4041f98e113f3dc10654a7193ffaaa9bfdfec8b87fa116620a48b5f6d4cb",
+  "inputs": {
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\local\\model-handoff-r4\\Character_Master_NeckSkin_R4.blend": {
+      "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "bytes": 26553642
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_appearance_signature.py": {
+      "sha256": "31847e32cc0e769a30199735972589dcf4a81f7cf79300a4b7df7359cf4fd0ba",
+      "bytes": 6092
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\native_preservation.py": {
+      "sha256": "751ba38075beffee781e7f91073dd984c4304eb4f7c97c1ab0af09a2ea77dff3",
+      "bytes": 1334
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_installed_addon_origin_gate_r2.py": {
+      "sha256": "de7e16dc1bb41c4f16cd9ced1409004de893b0b3e2f2467b2c41678213b97094",
+      "bytes": 3861
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-exact-local-stage-factory-addon-preparation-r2\\INSTALLED_BUNDLED_ADDON_ORIGIN_MANIFEST_R2.json": {
+      "sha256": "80e5758c227b8431eda502750d79c4660df4c5b8a1be208c424ca1a438576816",
+      "bytes": 77273
+    },
+    "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\scripts\\r4_original_idle_slot_graph_inspect_r2.py": {
+      "sha256": "4841fcf66a849f5ad8403ca4f33a0edca5e67a8c01e22ddcad000d281b514ad2",
+      "bytes": 12456
+    }
+  },
+  "new_output_directory": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-original-idle-slot-graph-inspection-r2",
+  "exact_Actions": [
+    "MESHY_R2_BODY_Idle",
+    "MESHY_R2_FACE_Idle",
+    "MESHY_R2_GAZE_Idle",
+    "MESHY_R2_HAIR_Idle"
+  ],
+  "reads": [
+    "Real slot identifier+handle+targetIDtype and channelbags mapped by handle, all original fcurve RNA paths/array component availability/keyframe fingerprints/modifiers",
+    "All corresponding Object and Key IDs, direct Action/slot bindings and recursively referenced NLA strips, actual Key mesh owner Object IDs",
+    "Read-only RNA-path compatibility for candidate IDs; ambiguous/unbound intent not selected",
+    "Actual fps/fps_base/effectivefps/current frame, original4rig137bone graph/rest fingerprints,13muted bridge expressions and unchanged full scene/source hashes",
+    "Pinned installed origin before/after and315Python file SHA"
+  ],
+  "mutations": "NONE_TO_SOURCE; no Action assignment/activation, no new NLA, no curve changes, no bridge unmute, no sampling to other frame, no export/save/model rewrite",
+  "snapshot_note": "Existing full-scene signature helper reevaluates current source frame for OFF signature; no frame value change or different-action playback. Evaluated mesh caches read only; no GPU/render.",
+  "output_schema": {
+    "IDLE_SLOT_GRAPH_RESULT_R1.json": "Exact Action/slot/channelbag/RNA records, candidate compatibility and existing binding references separately, Key mesh-owner IDs, four rig metadata, actual fps/base and original13mutes; explicit slot/Action/overall completeness, UNKNOWN_INCOMPLETE_GRAPH propagates",
+    "SCENE_SIGNATURE_BEFORE_AFTER.json": "All original source components/hashes and differences{} required",
+    "ADDON_ORIGIN_INVENTORY_BEFORE_AFTER_R2.json": "Existing pinned installed-origin gate files; no preferences edit",
+    "OWNED_JOB_RESULT_R1.json": "Strict whole guard result separate from graph inspection status and target/playback acceptance"
+  },
+  "unknown_API_policy": "Missing channelbag slot_handle is explicitly reported UNKNOWN_API_FIELD and unassigned curves; empty/unattributed channels do not produce compatible target or owner proof",
+  "acceptance": "Read-only graph custody only, not target authoring intent/playback/export/KEY transport/PBR acceptance",
+  "later_sampling_export": "Separate review after targets resolved; never use generic firstOBJECT fallback or substitute sampled rig pose for original KEY curves",
+  "budget": {
+    "active_processes": 1,
+    "threads": 2,
+    "affinity": 3,
+    "job_process_memory_bytes": 8589934592,
+    "watchdog_seconds": 120,
+    "free_RAM_min": 12884901888,
+    "free_C_min": 107374182400,
+    "original_frames_read": 1,
+    "different_frames_sampled": 0,
+    "output_expected_upper_bytes": 16777216,
+    "estimates_not_measured": true
+  },
+  "approval_pending": true,
+  "native_build_download_GPU_network_render": false,
+  "completeness_policy": {
+    "per_slot_fields": [
+      "matched_channelbag_count",
+      "attributed_curve_count",
+      "unresolved_bag_count",
+      "missing_API_records",
+      "complete_original_curve_attribution",
+      "graph_completeness_status",
+      "incomplete_reasons"
+    ],
+    "unknown_conditions": "Missing channelbags/fcurves API, UNKNOWN/orphan handle, no matched bags or no attributed curves => UNKNOWN_INCOMPLETE_GRAPH for slot/Action/overall graph. No compatibility fallback.",
+    "candidate_relation": "compatible_all_recorded_RNA_paths only the known subset; compatible_all_original_curves is null unless complete attribution. Both are not target intent/playback proof.",
+    "complete_definition": "All available strip channelbags enumerated, slot handle attributable, matching bag has curves, no API/handle uncertainty. Not permission to select a candidate or change source."
+  }
+}

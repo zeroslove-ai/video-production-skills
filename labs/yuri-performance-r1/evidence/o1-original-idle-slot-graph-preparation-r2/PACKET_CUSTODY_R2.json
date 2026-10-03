@@ -1,0 +1,12 @@
+{
+  "status": "CORRECTED_R2_PREPARATION_ONLY_FINAL_REVIEW_PENDING",
+  "packet": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\o1-original-idle-slot-graph-preparation-r2\\YURI_O1_ORIGINAL_IDLE_SLOT_GRAPH_PREPARATION_R2.zip",
+  "bytes": 24869,
+  "sha256": "2848fcabb2065bc53b9ef0dd662cb131fd4f57c080e1a2d698e2e11ec8c3568a",
+  "inspection_sha256": "4841fcf66a849f5ad8403ca4f33a0edca5e67a8c01e22ddcad000d281b514ad2",
+  "launcher_sha256": "5212f0bf5c3f2ea20112afb0484bd728d78d60ab152f94b50a0048e0c477575a",
+  "config_sha256": "4393f3414b5400825068c98bcaf2c4fa0c950a366268cf9a16b44a65cc049708",
+  "proposal_sha256": "f4854fa003a2f30b16dbf1eee3c48614e93edd55adccfe9713087e5dcc94d300",
+  "ZIP_CRC_all_member_SHA_verified": true,
+  "geometry_model_in_packet": false
+}

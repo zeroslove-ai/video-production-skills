@@ -1,0 +1,11 @@
+{
+  "status": "FILE_ONLY_AST_COMPILE_AND_INPUT_HASH_REVERSE_DIFF_PASS",
+  "native_job_control_identity_resource_terminal_changes": false,
+  "launcher_changes": "Fixed paths and explicit graph completeness data fields only",
+  "per_slot_incomplete_cases_explicit": true,
+  "partial_compatibility_not_exhaustive": true,
+  "actual_API_curve_completeness_target_resolution": "NOT_RUN",
+  "native_launches_probes_exports": 0,
+  "frozen_R1_source_packet_SHA": "c706fc8e7849c556747919a6eaf934718df986088ba457442b49c938b6aa4a3d",
+  "frozen_R1_scripts_unchanged": true
+}
