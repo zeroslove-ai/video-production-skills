@@ -1,0 +1,31 @@
+{
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_bytes": 26553642,
+  "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-candidate-r3\\Character_R4_Walk_AttentionTurn_Stop_BODY_CANDIDATE_OFF_R3_20261004.blend",
+  "candidate_bytes": 27040460,
+  "candidate_sha256": "35c5a9d00bdef2ca2b82e35645bf9da87e6f050ae6ead0ce0a9f9bd859bbf026",
+  "donors": [
+    {
+      "file": "C:/Users/JAEWAN/scratch/YURI_COMMON_MOTION_CURATION_R1/UnityQA/Assets/Motions/Native/5a5f5de6f18e9c91.fbx",
+      "license": "CC0 Quaternius",
+      "expected_sha256": "5a5f5de6f18e9c91cdbc40eb26319ec85cc45070bc00965bc2737beb4b2984ea",
+      "actual_sha256": "5a5f5de6f18e9c91cdbc40eb26319ec85cc45070bc00965bc2737beb4b2984ea",
+      "bytes": 23767852
+    },
+    {
+      "file": "C:/Users/JAEWAN/scratch/YURI_COMMON_MOTION_CURATION_R1/UnityQA/Assets/Motions/BVH/bc5e6bd9a98755f6.fbx",
+      "license": "MIT StayStill",
+      "expected_sha256": "417f3257f323815c13dc89ca5bfe4349ef58f762a990b093bbc5acf2eaed45da",
+      "actual_sha256": "417f3257f323815c13dc89ca5bfe4349ef58f762a990b093bbc5acf2eaed45da",
+      "bytes": 365932
+    }
+  ],
+  "TierC_count": 44,
+  "TierP_count": 0,
+  "first4_checkpoint_preserved": "f5211f1",
+  "historical_experiment_preserved": "08caad7",
+  "six_Reaction_rebuilt": false,
+  "Laptop_Unity_product_change": false,
+  "GPU_paid_provider_download": false
+}

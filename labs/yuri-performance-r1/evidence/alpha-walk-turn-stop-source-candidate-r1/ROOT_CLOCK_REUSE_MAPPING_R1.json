@@ -1,0 +1,45 @@
+{
+  "source_fps": 30,
+  "source_scene_fps": 24,
+  "turn_original_BVH_fps": 30.0003,
+  "frames": [
+    1,
+    293
+  ],
+  "key_interval_sec": 9.733333333333333,
+  "movie_duration_sec": 9.766666666666667,
+  "segments": {
+    "walk_RM": [
+      1,
+      81
+    ],
+    "walk_to_attention_proxy_deceleration": [
+      82,
+      97
+    ],
+    "attention_turn_proxy": [
+      98,
+      243
+    ],
+    "stop_to_idle_placeholder": [
+      244,
+      263
+    ],
+    "idle_stop_hold": [
+      264,
+      293
+    ]
+  },
+  "additive_body_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_WALK_TURN_STOP_BODY_R3",
+    "Armature": "YURI_R4_WALK_TURN_STOP_BODY_HEAD_TRANSPORT_R3",
+    "Hair_Rig_R4": "YURI_R4_WALK_TURN_STOP_BODY_HAIR_TRANSPORT_R3",
+    "Assembly_Root": "YURI_R4_WALK_TURN_STOP_ROOT_PATH_R3"
+  },
+  "walk": "CC0 UAL1 RM actual Walk_Loop1..41,40-key period,two cycles1..81; unwrapped world root; hip height ratio .5485982342668642;180deg yaw rotation, not mirror.",
+  "turn": "MIT StayStill lb_lef_2_08 Action~2..148; attention-turn proxy, not dedicated locomotion turn. Hip height ratio .548901349870254.",
+  "stop": "Procedural Hermite deceleration/settle + existing CC0 Idle_Loop start; dedicated stop missing.",
+  "clock_policy": "Saved OFF original scene24fps; Actions source_fps=30. Native293 samples encoded30fps. Do not play keys at24 without time conversion.",
+  "root": "Existing Assembly_Root carries actual world path; bind all four Actions together. Local body root constant is not world-root lock.",
+  "transport": "Armature.Root and Hair_HeadRoot rigid body/head transport only; original face/gaze drivers remain unchanged."
+}

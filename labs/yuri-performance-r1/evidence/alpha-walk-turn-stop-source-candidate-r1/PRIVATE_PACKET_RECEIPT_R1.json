@@ -1,0 +1,15 @@
+{
+  "bundle": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_WALK_TURN_STOP_SOURCE_ONLY_R1_20261004.zip",
+  "bytes": 70575977,
+  "sha256": "f5704796544bd345397f950aa4aa133105f24e70b125e08f172f8a15b0cb6ec9",
+  "members": 192,
+  "CRC_all_members": "PASS",
+  "SHA_bytes_all_indexed_members": "PASS",
+  "index_sha256": "6a8d48a26a31725558438fd2102d2ff3200843d7d08db20d7d5a1843b943b65b",
+  "contains_original_R4_source": true,
+  "contains_licensed_donors": true,
+  "public_Git_private_binary_motion": false,
+  "candidate_sha256": "35c5a9d00bdef2ca2b82e35645bf9da87e6f050ae6ead0ce0a9f9bd859bbf026",
+  "action_only_sha256": "4fc491058fbd11afce8512c258f38409e79fc638d4c0d39af6f5da4acb1370fd",
+  "stage_visual_Unity_promotion": false
+}

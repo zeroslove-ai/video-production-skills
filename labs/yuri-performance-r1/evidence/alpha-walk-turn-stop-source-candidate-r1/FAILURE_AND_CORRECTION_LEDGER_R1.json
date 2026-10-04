@@ -1,0 +1,26 @@
+[
+  {
+    "run": "candidate-r1",
+    "result": "FAIL",
+    "cause": "Empty layered Action slot caused existing ReactionLane StopIteration. No candidate saved.",
+    "fix": "Explicit OBJECT slot in additive Actions only."
+  },
+  {
+    "run": "candidate-r2",
+    "result": "FAIL",
+    "cause": "Version rename changed pinned inspection input to absent R2 filename; FileNotFound before source load.",
+    "fix": "R3 reads actual pinned R1 inspection."
+  },
+  {
+    "run": "probe-r3",
+    "result": "SIZING_ONLY, not final output-containment acceptance",
+    "cause": "Small three-view images outside shared capture_root; PNG full293 forecast exceeds64MiB.",
+    "fix": "No fullR3PNG render. R4 same512x384 JPEG92 nested scoped capture root, all final three guards PASS."
+  },
+  {
+    "run": "package-script-preparation",
+    "result": "FAIL before file creation",
+    "cause": "Nested triple-quote source generator syntax error.",
+    "fix": "Write literal UTF8 script without nested quoting; no character mutation."
+  }
+]

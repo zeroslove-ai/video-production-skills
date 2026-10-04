@@ -1,0 +1,23 @@
+{
+  "immutable_source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_sha256": "35c5a9d00bdef2ca2b82e35645bf9da87e6f050ae6ead0ce0a9f9bd859bbf026",
+  "geometry_material_slots_nodes_ShapeKeys_weights_rest_drivers_original_78_Actions_exact": true,
+  "packed_texture_bytes_colorspace_resolved_properties_exact": true,
+  "raw_texture_locator_strings_remapped_by_Blender_SaveAs": true,
+  "neutral_pixels": {
+    "existing_source_witness": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-contact-qa-r3\\CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png",
+    "all_channels_exact": true,
+    "max_absolute_RGBA_difference": 0,
+    "changed_components": 0,
+    "size": [
+      920,
+      960,
+      4
+    ],
+    "new_source_baseline_rendered": false
+  },
+  "rig_hierarchy_changes": false,
+  "donor_geometry_appended": false,
+  "canonical_visual_promotion": false,
+  "six_Reaction_reuse": "Existing corrective 820a237 preserved; six native normal-speed PASS and two-cycle loops, not rerendered/rebuilt for this walk supplement. Unity gate pending."
+}

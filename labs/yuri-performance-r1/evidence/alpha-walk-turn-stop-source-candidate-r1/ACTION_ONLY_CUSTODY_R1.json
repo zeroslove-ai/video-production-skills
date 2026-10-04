@@ -1,0 +1,18 @@
+{
+  "source_candidate_sha256": "35c5a9d00bdef2ca2b82e35645bf9da87e6f050ae6ead0ce0a9f9bd859bbf026",
+  "file": "YURI_R4_WALK_TURN_STOP_ACTIONS_ONLY_R1.blend",
+  "bytes": 2370819,
+  "sha256": "4fc491058fbd11afce8512c258f38409e79fc638d4c0d39af6f5da4acb1370fd",
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0,
+  "action_names": [
+    "YURI_R4_WALK_TURN_STOP_BODY_R3",
+    "YURI_R4_WALK_TURN_STOP_ROOT_PATH_R3",
+    "YURI_R4_WALK_TURN_STOP_BODY_HEAD_TRANSPORT_R3",
+    "YURI_R4_WALK_TURN_STOP_BODY_HAIR_TRANSPORT_R3"
+  ],
+  "fps": 30,
+  "character_geometry_included": false,
+  "method": "existing bpy.data.libraries.write Action-only route"
+}

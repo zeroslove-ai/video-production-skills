@@ -1,0 +1,42 @@
+{
+  "url": "http://127.0.0.1:8783/REVIEW_WALK_TURN_STOP_R1.html",
+  "observed_by": "cua UI button + readonly HTMLMediaElement state",
+  "start_times_sec": [
+    0.226258,
+    0.226174,
+    0.225991
+  ],
+  "views": [
+    "front",
+    "quarter",
+    "side"
+  ],
+  "end_times_sec": [
+    9.766667,
+    9.766667,
+    9.766667
+  ],
+  "duration_sec": [
+    9.766667,
+    9.766667,
+    9.766667
+  ],
+  "playbackRate": [
+    1,
+    1,
+    1
+  ],
+  "ended": [
+    true,
+    true,
+    true
+  ],
+  "error": [
+    null,
+    null,
+    null
+  ],
+  "all293_native_frames_rendered_per_view": true,
+  "whole_interval_decode": "PASS all3",
+  "visual_limit": "Low-sample preview; no exhaustive neck seam, hand, self-intersection/F2/F3 certification."
+}

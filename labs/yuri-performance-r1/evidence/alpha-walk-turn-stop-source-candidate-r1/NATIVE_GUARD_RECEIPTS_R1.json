@@ -1,0 +1,50 @@
+[
+  {
+    "run": "inspect-broker-r1",
+    "result_sha256": "a36a613b360dc7a1d44f58ad9b86195c7e4e6d8b650dc6bce1f2fc6e0aaf54a0",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-inspect-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  {
+    "run": "candidate-broker-r3",
+    "result_sha256": "3662138930213a9d67106bdd603f4cd795a0ef56822dbe7719da78d16430c5b4",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-candidate-broker-r3\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  {
+    "run": "off-qa-broker-r3",
+    "result_sha256": "70c797d469f83b126dedc3896a9b357494ab87fc4519d3b20ac68554c50123b8",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-off-qa-broker-r3\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  {
+    "run": "actions-only-broker-r1",
+    "result_sha256": "89fa7d5b4b43ba453981f10639904cace95cbc16ac5f85fdc498de81493ad2cb",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-actions-only-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  {
+    "run": "probe-broker-r4",
+    "result_sha256": "4107341a0530c83079b29d5a422410eec1d1d1ad264deebdcd72047d2549e31f",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-probe-broker-r4\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  {
+    "run": "front-preview-broker-r4",
+    "result_sha256": "e0a8a24e6f05366652d89169e7c0734a3243a416eb13933f9723eafd89b6e3aa",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-front-preview-broker-r4\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  {
+    "run": "quarter-preview-broker-r4",
+    "result_sha256": "64bb1e4a201b7bc17a140f14e18b2c474449145f0f8136240ea9ff5328b3c497",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-quarter-preview-broker-r4\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  {
+    "run": "side-preview-broker-r4",
+    "result_sha256": "6054d912ec1cdb9223c4ffca3923b97b4f0585905e8616ce4a76a490d6c83881",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-walk-turn-side-preview-broker-r4\\NATIVE_GUARD_RESULT.json",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  }
+]

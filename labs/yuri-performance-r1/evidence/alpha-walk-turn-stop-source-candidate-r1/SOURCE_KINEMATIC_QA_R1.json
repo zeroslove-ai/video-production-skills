@@ -1,0 +1,107 @@
+{
+  "candidate_sha256": "35c5a9d00bdef2ca2b82e35645bf9da87e6f050ae6ead0ce0a9f9bd859bbf026",
+  "all_293_native_frames_geometry_finite": true,
+  "max_world_root_frame_step_m": 0.017829537391662598,
+  "root_world_range_m": [
+    0.032682670280337334,
+    1.5689907036721706,
+    0.0
+  ],
+  "root_end_displacement_m": 1.56292349145359,
+  "root_path_length_m": 1.6881904507414618,
+  "floor_support_Z_correction_range_m": [
+    -0.004995792536428612,
+    0.038661530565037475
+  ],
+  "actual_bone_motion_relative_to_world_carrier": {
+    "root": {
+      "relative_to_world_carrier_axis_range_m": [
+        9.313225746154785e-10,
+        1.4901161193847656e-08,
+        0.0
+      ]
+    },
+    "pelvis": {
+      "relative_to_world_carrier_axis_range_m": [
+        0.03885843325406313,
+        0.0010921955108642578,
+        0.03289291262626648
+      ]
+    },
+    "head": {
+      "relative_to_world_carrier_axis_range_m": [
+        0.05634818505495787,
+        0.05690735578536987,
+        0.03927332162857056
+      ]
+    },
+    "hand.L": {
+      "relative_to_world_carrier_axis_range_m": [
+        0.1261490425094962,
+        0.16676515340805054,
+        0.05674043297767639
+      ]
+    },
+    "hand.R": {
+      "relative_to_world_carrier_axis_range_m": [
+        0.21937534352764487,
+        0.19522523880004883,
+        0.06001928448677063
+      ]
+    },
+    "foot.L": {
+      "relative_to_world_carrier_axis_range_m": [
+        0.07260220497846603,
+        0.358834445476532,
+        0.12624288350343704
+      ]
+    },
+    "foot.R": {
+      "relative_to_world_carrier_axis_range_m": [
+        0.05364523272146471,
+        0.3532986640930176,
+        0.1312962919473648
+      ]
+    }
+  },
+  "bridge_sole_cohort_kinematics": {
+    "walk_to_attention_proxy_deceleration": {
+      "L": {
+        "max_cohort_centroid_XY_speed_m_s": 0.4557988949221672,
+        "XY_range_m": [
+          0.014600962189196834,
+          0.09386699579235924
+        ]
+      },
+      "R": {
+        "max_cohort_centroid_XY_speed_m_s": 0.7411544145760444,
+        "XY_range_m": [
+          0.012257602431283932,
+          0.2967264733639525
+        ]
+      }
+    },
+    "stop_to_idle_placeholder": {
+      "L": {
+        "max_cohort_centroid_XY_speed_m_s": 0.3025678755186166,
+        "XY_range_m": [
+          0.05402397056369132,
+          0.1216364095710527
+        ]
+      },
+      "R": {
+        "max_cohort_centroid_XY_speed_m_s": 0.2404701585069556,
+        "XY_range_m": [
+          0.037808241948132065,
+          0.09668019118363635
+        ]
+      }
+    }
+  },
+  "bridge_contact_semantics": "UNKNOWN; no authored stance labels. XY centroid movement alone does not establish physical slip. No horizontal root locking.",
+  "face_hair_socket_gap_m": [
+    0.00297793469648235,
+    0.0029782065278089374
+  ],
+  "physics_contact_slip_certified": false
+}
