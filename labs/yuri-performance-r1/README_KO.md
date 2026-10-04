@@ -62,3 +62,8 @@ Bundle SHA256: 48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85
 ## 2026-10-04 · 원본 R4 finger-only 작은 후보 R1
 
 기존 820a237 보고를 finger task 완료로 혼동했던 응답을 정정했다. 실제 원본 R4의 기존 오른손 15개 뼈에만 relaxed-open → gentle curl/pregrasp → release Action을 추가했다. 105프레임/30fps/3.5초, 손목·전완·body·root 및 나머지 body bones world matrix 차이 0, endpoint 피부 형상 차이 0, 저장 재오픈 OFF neutral RGBA 차이 0. 손 close/front/side 전체 1x 재생 및 전신 위치 증거, 실제 evaluated digit surface 제한 cohort 교차 검사 전 구간 0을 남겼다. 원본/rig/weights/rest/material/face/gaze/기존78 Actions 보존. 정밀 hand skin/whole-hand collision·prop contact·physics·Unity·MUG·TierP/F2 승격 HOLD. [manifest](evidence/alpha-hand-relax-source-candidate-r1/HAND_RELAX_MANIFEST_R1.json), [보고서](evidence/alpha-hand-relax-source-candidate-r1/YURI_R4_HAND_RELAX_SOURCE_R1.md), [packet receipt](evidence/alpha-hand-relax-source-candidate-r1/PRIVATE_PACKET_RECEIPT_R1.json).
+
+
+## 2026-10-04 · C1 같은 왼손 finger layer source checkpoint
+
+오른손 조합 R1 Action 유실 실패와 R2 보존 수정, 좌우 불일치·오른손/몸 교차를 보존했다. 기존 C1 왼손 reach에 실제 왼손 rest 축으로 별도15 finger Action을 추가해 body/wrist/root 동일시각 변환차이0, 기존78Actions/오른손Action/6개 조합Action 곡선 및 원본외형 보존, OFF RGBA차이0, 61프레임30fps 손close/front/side/fullbody 전체1x 검증. 같은 손 조합 TECH PASS이나 C1 baseline에도 표면교차가 있고 curl이 복귀51–55에서 추가교차를 만들어 CONTACT FAIL/HOLD. 시작/끝C1 baseline동일, 원본R4neutral-return·prop/physics/Unity/MUG/TierP/F2 HOLD. [manifest](evidence/alpha-reach-left-finger-source-r1/SAME_HAND_SOURCE_MANIFEST_R1.json), [causal log](evidence/alpha-reach-left-finger-source-r1/CAUSAL_FAILURE_CORRECTION_R1.json), [packet](evidence/alpha-reach-left-finger-source-r1/PRIVATE_PACKET_RECEIPT_R1.json). 다음 motion 대안 하나는 body곡선 불변으로 release를51이전에 완료하는 timing-only 실험이다.

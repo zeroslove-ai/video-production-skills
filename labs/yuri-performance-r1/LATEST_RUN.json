@@ -146,5 +146,22 @@
     "Unity_prop_contact_physics_MUG": "HOLD",
     "TierP": 0,
     "next_bounded_task": "Reuse this separate finger-only layer with existing C1 reach, explicit Action ownership, then actual prop/contact evidence; no product implementation."
+  },
+  "C1_same_hand_source_r1": {
+    "date": "2026-10-04",
+    "status": "SOURCE_ONLY_SAME_HAND_TECH_PASS_CONTACT_FAIL_HOLD",
+    "receipt": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\alpha-reach-left-finger-source-r1\\PRIVATE_PACKET_RECEIPT_R1.json",
+    "candidate_SHA": "e16ebcfa2e8f65e19f22e4be229bbd925b9ac07e0141e582e6de0eacc49f7f6d",
+    "packet_SHA": "68b46806fef28dbaeeb7221ca38fdfbe4f876a75f0c653d56d0facb28751516d",
+    "body_C1_same_time_world_matrix_difference": 0,
+    "OFF_RGBA_difference": 0,
+    "same_hand_left_layer": true,
+    "normal_speed_four_views": "all61frames/30fps, whole decode and actual1x through-end",
+    "baseline_endpoint_restored": true,
+    "original_neutral_return": "HOLD",
+    "contact": "FAIL/HOLD: inherited C1 intersections plus added curl intersects body during return51–55",
+    "TierP": 0,
+    "Unity_MUG_StageB_F2": "HOLD",
+    "next_single_motion_alternative": "Finger-only timing release complete before frame51; preserve C1 body/wrist curves, inherited contact and original-neutral HOLD."
   }
 }

@@ -1,0 +1,80 @@
+[
+  {
+    "run": "o1-reach-finger-candidate-r1",
+    "SHA": "cf1fe62216bf22c6945ad47157ae3fa6fce507aebee353c041f7b9235b67631e",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 104.78515399998287
+  },
+  {
+    "run": "o1-reach-finger-off-r1",
+    "SHA": "2ac192fdb92f67630e530b5276b1f9dffef2cc3041f34ee4b3a3e5ed81b1b831",
+    "status": "FAIL",
+    "wall_seconds": 18.276122899958864
+  },
+  {
+    "run": "o1-reach-finger-candidate-r2",
+    "SHA": "6196055c68471a9dc1b057517bfc8cde08148991c9c2572bb5fcbb8a0185982e",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 105.17717829998583
+  },
+  {
+    "run": "o1-reach-finger-off-r2b",
+    "SHA": "1920e280d75cf8e514a76fc625b4ae6241f648f084ad6fb7c011e85cbaa1b1fd",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 27.068445800046902
+  },
+  {
+    "run": "o1-reach-finger-probe-r2",
+    "SHA": "e08e8e45d30fb157f29d3a600d831b63313931e5b59d1410c6f38c6a222b7099",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 69.86184249998769
+  },
+  {
+    "run": "o1-reach-finger-full-r2",
+    "SHA": "921ce95a50c12aac520f0fca953b5ee8ac2ffffb5da9d4d422df229c1949eda3",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 501.8392454000423
+  },
+  {
+    "run": "o1-reach-finger-surface-r2",
+    "SHA": "e1e265fdf6c7318ee802fc8e3a231524f2adfd94ef4467bd23e1d131ae6bdbbd",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 51.120479900040664
+  },
+  {
+    "run": "o1-reach-left-finger-candidate-r1b",
+    "SHA": "73e98ac1247c9673dbfe074282911eeb6874da78d02802f1143b28510211775b",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 131.89123339997604
+  },
+  {
+    "run": "o1-reach-left-finger-off-r1",
+    "SHA": "3d7a9d6f1070e2de3b4fbcd577deff77a2c812c7026e080f627d226eccf53e2e",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 32.37612440000521
+  },
+  {
+    "run": "o1-reach-left-finger-probe-r1",
+    "SHA": "4aa46b2272cef4b12057418062dc9fe09ff86b2bc9bd649c02ad402ef627f3df",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 66.6926276999875
+  },
+  {
+    "run": "o1-reach-left-finger-full-r1",
+    "SHA": "792edbe56df8acb7316bce9cf5b6a7629cdbc67cc75ba1d9680548d9b99d2fb5",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 492.2159482000279
+  },
+  {
+    "run": "o1-reach-left-finger-surface-r1",
+    "SHA": "e8b321dc15381f0f475e274f7a4c48abbb9aaf30b931deb301eb12969a36efd6",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 59.6984523999854
+  },
+  {
+    "run": "o1-reach-left-finger-surface-baseline-r1",
+    "SHA": "0ffee8153b91d1401ebcebb475ca9eb9348a89748f03392b2f7dc6a3eed7f68a",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 51.801003900007345
+  }
+]

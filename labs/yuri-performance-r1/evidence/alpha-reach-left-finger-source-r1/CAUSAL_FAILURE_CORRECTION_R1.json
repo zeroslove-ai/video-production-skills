@@ -1,0 +1,134 @@
+{
+  "R1_failed_saved_candidate": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-reach-finger-candidate-r1\\Character_R4_ReachFinger_CANDIDATE_OFF_R1_20261004.blend",
+    "SHA": "12e245de5da5434d5365939e0cf285896be161b260ef2722409e41b3e7194795",
+    "source_OFF_preserved": true,
+    "error": "Saved OFF derivative lost loaded orphan Actions without explicit fake-user retention; reopened lookup YURI_R4_C1_REACH_BODY_R1 failed; owned exit95 and drain confirmed"
+  },
+  "R2_Action_retention_correction": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-reach-finger-candidate-r2\\Character_R4_ReachFinger_CANDIDATE_OFF_R2_20261004.blend",
+    "SHA": "a908fb49ab82183f5ec5962dd8b2e2f003738f0aec9c3340afab4af0e7817cd2",
+    "all_loaded_actions_fake_user": true,
+    "R1_R2_existing_Action_signatures_and_all61_samples_equal": true,
+    "OFF_pixels": {
+      "size": [
+        960,
+        920
+      ],
+      "unequal_RGBA_channels": 0,
+      "max_abs_channel_diff": 0,
+      "PASS": true
+    },
+    "UI": {
+      "review_url": "http://127.0.0.1:18920/REVIEW_REACH_FINGER_R1.html",
+      "start": [
+        {
+          "duration": 2.033333,
+          "ended": false,
+          "error": null,
+          "paused": false,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_hand_close_1x.mp4",
+          "time": 0.195168
+        },
+        {
+          "duration": 2.033333,
+          "ended": false,
+          "error": null,
+          "paused": false,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_front_1x.mp4",
+          "time": 0.195123
+        },
+        {
+          "duration": 2.033333,
+          "ended": false,
+          "error": null,
+          "paused": false,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_side_1x.mp4",
+          "time": 0.195055
+        },
+        {
+          "duration": 2.033333,
+          "ended": false,
+          "error": null,
+          "paused": false,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_fullbody_1x.mp4",
+          "time": 0.194979
+        }
+      ],
+      "end": [
+        {
+          "duration": 2.033333,
+          "ended": true,
+          "error": null,
+          "paused": true,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_hand_close_1x.mp4",
+          "time": 2.033333
+        },
+        {
+          "duration": 2.033333,
+          "ended": true,
+          "error": null,
+          "paused": true,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_front_1x.mp4",
+          "time": 2.033333
+        },
+        {
+          "duration": 2.033333,
+          "ended": true,
+          "error": null,
+          "paused": true,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_side_1x.mp4",
+          "time": 2.033333
+        },
+        {
+          "duration": 2.033333,
+          "ended": true,
+          "error": null,
+          "paused": true,
+          "playbackRate": 1,
+          "src": "REACH_FINGER_fullbody_1x.mp4",
+          "time": 2.033333
+        }
+      ],
+      "verdict": "Technical disjoint layer proof only; LEFT reach/RIGHT curl laterality mismatch; original-neutral return HOLD; evaluated right-digit/body intersections found, contact HOLD."
+    },
+    "semantic_defects": [
+      "Existing C1 reach is LEFT hand; reused finger Action owns RIGHT hand. Right pregrasp is a counter-hand layer, not reach-hand grasp. No mirrored/body override introduced.",
+      "Return endpoint equals existing C1 start pose, not original R4 neutral. Original neutral is restored only by OFF(). Existing body curves cannot be altered under current scope."
+    ],
+    "right_digit_body_other_max_triangle_overlaps": {
+      "index__middle": 0,
+      "index__ring": 0,
+      "index__pinky": 0,
+      "index__thumb": 0,
+      "middle__ring": 0,
+      "middle__pinky": 0,
+      "middle__thumb": 0,
+      "ring__pinky": 0,
+      "ring__thumb": 0,
+      "pinky__thumb": 0,
+      "index__body_other": 36,
+      "middle__body_other": 49,
+      "ring__body_other": 0,
+      "pinky__body_other": 0,
+      "thumb__body_other": 64
+    },
+    "source_status": "RIGHT_COUNTER_HAND_CAUSAL_FAILURE_CONTACT_AND_LATERALITY_HOLD"
+  },
+  "preparation_failure": "off-r2 was prepared before candidate receipt existed; no native process launched from missing config. Partial preparation preserved; fresh off-r2b after completed candidate passed.",
+  "unexecuted_exact_packets": [
+    "o1-reach-finger-probe-r1",
+    "o1-reach-finger-off-r2",
+    "o1-reach-left-finger-candidate-r1"
+  ],
+  "same_hand_supplement": "One separate left native Action, actual left local axes verified; original right Action/C1 body curves preserved.",
+  "remaining_defect": "Neutral-return and contact still HOLD; no body recovery bridge or solver under this scope",
+  "next_alternative": "One finger-timing-only candidate that releases fully before frame51 return collision while preserving all C1 body/wrist curves; inherited C1 contact and original-neutral HOLD remain"
+}

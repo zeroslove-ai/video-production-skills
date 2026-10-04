@@ -1,0 +1,34 @@
+"""C1 body exact versus transient finger-only NLA; source-only laterality defect proof."""
+import bpy,sys,json,hashlib
+from pathlib import Path
+import numpy as np
+HERE=Path(__file__).resolve().parent;sys.path.insert(0,str(HERE))
+from r4_appearance_signature import snapshot
+from r4_reach_finger_adapter_r1 import ReachFingerLane,BODY,FINGER,TRANSPORT,ROOT
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');O=B/'alpha-reach-finger-candidate-r1';O.mkdir(exist_ok=False);sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();c=json.loads((B/'alpha-c1-reach-candidate-r1/C1_REACH_CANDIDATE_PRIVATE_R1.json').read_bytes());h=json.loads((B/'alpha-hand-relax-candidate-r1/HAND_RELAX_CANDIDATE_PRIVATE_R1.json').read_bytes());S=Path(c['source']);assert sha(S)==c['source_SHA']==h['source_SHA'];assert sha(c['candidate'])==c['candidate_SHA'] and sha(h['candidate'])==h['candidate_SHA'];bpy.ops.wm.open_mainfile(filepath=str(S),use_scripts=False);s=bpy.context.scene;r=bpy.data.objects['Meshy_Fitted_Rig'];body=bpy.data.objects['Meshy_Body_NeutralCovered'];original=list(bpy.data.actions.keys());before=snapshot(original);(O/'SOURCE_SIGNATURE_PRIVATE_R1.json').write_text(json.dumps(before),encoding='utf8')
+inputs=[B/'alpha-c1-reach-off-qa-r1/YURI_R4_C1_REACH_ACTIONS_ONLY_R1.blend',B/'alpha-hand-relax-off-qa-r1/YURI_R4_HAND_RELAX_ACTIONS_ONLY_R1.blend'];input_receipts=[]
+for p in inputs:
+ with bpy.data.libraries.load(str(p),link=False) as (src,dst):assert not src.objects and not src.meshes and not src.armatures;dst.actions=list(src.actions)
+ input_receipts.append({'file':str(p),'SHA':sha(p)})
+added=[BODY,FINGER,*TRANSPORT.values(),ROOT];action_signatures=snapshot(added)['actions']
+def curves(a):return [fc for la in a.layers for st in la.strips for ba in st.channelbags for fc in ba.fcurves]
+body_paths=sorted(set(fc.data_path for fc in curves(bpy.data.actions[BODY])));finger_paths=sorted(set(fc.data_path for fc in curves(bpy.data.actions[FINGER])));assert set(body_paths).isdisjoint(finger_paths);assert len(finger_paths)==15 and all('rotation_quaternion' in p and any('"'+n+'"' in p for n in h['authored_bones']) for p in finger_paths)
+def meshpoints():
+ e=body.evaluated_get(bpy.context.evaluated_depsgraph_get());m=e.to_mesh();v=np.empty(len(m.vertices)*3,np.float32);m.vertices.foreach_get('co',v);e.to_mesh_clear();return v.reshape(-1,3)
+source_neutral=meshpoints().copy();base=[];lane=ReachFingerLane();lane.on(include_fingers=False)
+for f in range(1,62):
+ s.frame_set(f);bpy.context.view_layer.update();base.append({'matrices':{b.name:np.array(r.matrix_world@b.matrix) for b in r.pose.bones if b.name not in h['authored_bones']},'carrier':np.array(bpy.data.objects['Assembly_Root'].matrix_world),'face_root':np.array(bpy.data.objects['Armature'].matrix_world@bpy.data.objects['Armature'].pose.bones['Root'].matrix),'hair_root':np.array(bpy.data.objects['Hair_Rig_R4'].matrix_world@bpy.data.objects['Hair_Rig_R4'].pose.bones['Hair_HeadRoot'].matrix)})
+ if f==1:start_body=meshpoints().copy()
+ if f==61:end_body=meshpoints().copy()
+lane.off();assert snapshot(original)==before
+rows=[];errmax=0;lane=ReachFingerLane();lane.on();last=None;skin_step=0
+for f in range(1,62):
+ s.frame_set(f);bpy.context.view_layer.update();err=max(float(np.max(np.abs(np.array(r.matrix_world@r.pose.bones[n].matrix)-m))) for n,m in base[f-1]['matrices'].items());errmax=max(errmax,err);assert err==0
+ for key,obj,bone in [('face_root','Armature','Root'),('hair_root','Hair_Rig_R4','Hair_HeadRoot')]:assert np.array_equal(base[f-1][key],np.array(bpy.data.objects[obj].matrix_world@bpy.data.objects[obj].pose.bones[bone].matrix))
+ assert np.array_equal(base[f-1]['carrier'],np.array(bpy.data.objects['Assembly_Root'].matrix_world));v=meshpoints();assert np.isfinite(v).all()
+ if last is not None:skin_step=max(skin_step,float(np.linalg.norm(v-last,axis=1).max())*body.matrix_world.to_scale().x)
+ last=v.copy();rows.append({'frame':f,'finger_source_frame':1+(f-1)*104/60,'nonfinger_world_matrix_error':err,'finger_quaternions':{n:list(r.pose.bones[n].rotation_quaternion) for n in h['authored_bones']}})
+ if f==1:composed_start=v.copy()
+ if f==61:composed_end=v.copy()
+endpoint=float(np.max(np.abs(composed_end-composed_start)));existing_endpoint=float(np.max(np.abs(end_body-start_body)));neutral_endpoint=float(np.max(np.abs(composed_end-source_neutral)));lane.off();assert snapshot(original)==before and snapshot(added)['actions']==action_signatures
+P=O/'Character_R4_ReachFinger_CANDIDATE_OFF_R1_20261004.blend';bpy.ops.wm.save_as_mainfile(filepath=str(P));assert sha(S)==c['source_SHA'];d={'task':'ROOT_PM_R4_REACH_FINGER_LAYER_COMPOSE_R1','source':str(S),'source_SHA':sha(S),'candidate':str(P),'candidate_SHA':sha(P),'candidate_bytes':P.stat().st_size,'frames':[1,61],'source_fps':30,'source_scene_fps':24,'movie_duration_sec':61/30,'original_actions_preserved':len(original),'additive_body_actions':{'Meshy_Fitted_Rig':BODY,**TRANSPORT,'Assembly_Root':ROOT},'finger_action':FINGER,'authored_bones':h['authored_bones'],'lineage_inputs':input_receipts,'existing_C1_candidate_SHA':c['candidate_SHA'],'existing_hand_candidate_SHA':h['candidate_SHA'],'ownership':{'active_body_Action':BODY,'body_paths':body_paths,'NLA_finger_Action':FINGER,'finger_paths':finger_paths,'overlap_paths':[],'clock':'body C1 frames1..61 unchanged at30fps; finger Action105 authored frames remapped linearly1..61; sourceFrame=1+(frame-1)*104/60; NLA60/104scale REPLACE disjoint channels; transport/carrier existing C1 clock unchanged'},'existing_actions_curve_signatures_unchanged':True,'existing_action_signatures':action_signatures,'all61_evaluated_body_vertices_finite':True,'nonfinger_C1_same_time_world_matrix_max_error':errmax,'face_hair_root_carrier_same_time_exact':True,'composition_start_end_body_local_error_m':endpoint,'existing_C1_start_end_body_local_error_m':existing_endpoint,'composition_end_vs_original_neutral_local_error_m':neutral_endpoint,'maximum_evaluated_vertex_frame_step_world_m':skin_step,'OFF_signature_exact_before_save':True,'frames_private':rows,'semantic_defects':['Existing C1 reach is LEFT hand; reused finger Action owns RIGHT hand. Right pregrasp is a counter-hand layer, not reach-hand grasp. No mirrored/body override introduced.','Return endpoint equals existing C1 start pose, not original R4 neutral. Original neutral is restored only by OFF(). Existing body curves cannot be altered under current scope.'],'source_status':'TECH_COMPOSITION_PASS_SEMANTIC_LATERALITY_NEUTRAL_HOLD','prop_contact_physics_Unity_MUG':'HOLD','TierP':0,'new_derived_motion_curve_actions':0};(O/'REACH_FINGER_CANDIDATE_PRIVATE_R1.json').write_text(json.dumps(d,indent=2),encoding='utf8');print('REACH_FINGER_COMPOSITION_DONE',d['candidate_SHA'],errmax,endpoint,neutral_endpoint,flush=True)

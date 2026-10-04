@@ -1,0 +1,534 @@
+{
+  "task": "ROOT_PM_REACH_SAME_HAND_CORRECTION_R1",
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-reach-left-finger-candidate-r1\\Character_R4_ReachLeftFinger_CANDIDATE_OFF_R1_20261004.blend",
+  "candidate_SHA": "e16ebcfa2e8f65e19f22e4be229bbd925b9ac07e0141e582e6de0eacc49f7f6d",
+  "candidate_bytes": 26786958,
+  "frames": [
+    1,
+    61
+  ],
+  "source_fps": 30,
+  "source_scene_fps": 24,
+  "movie_duration_sec": 2.033333333333333,
+  "original_actions_preserved": 78,
+  "additive_body_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_C1_REACH_BODY_R1",
+    "Armature": "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1",
+    "Assembly_Root": "YURI_R4_C1_REACH_ROOT_PATH_R1"
+  },
+  "finger_action": "YURI_R4_C1_LEFT_PREGRASP_FINGERS_R1",
+  "authored_bones": [
+    "index1.L",
+    "index2.L",
+    "index3.L",
+    "middle1.L",
+    "middle2.L",
+    "middle3.L",
+    "ring1.L",
+    "ring2.L",
+    "ring3.L",
+    "pinky1.L",
+    "pinky2.L",
+    "pinky3.L",
+    "thumb1.L",
+    "thumb2.L",
+    "thumb3.L"
+  ],
+  "lineage_inputs": [
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-reach-off-qa-r1\\YURI_R4_C1_REACH_ACTIONS_ONLY_R1.blend",
+      "SHA": "16d7e8e996eb76cbb79ceffa6bfb123a30b3a1d0a3ade94ff88a22edae8cd57f"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-hand-relax-off-qa-r1\\YURI_R4_HAND_RELAX_ACTIONS_ONLY_R1.blend",
+      "SHA": "1059b845e33594656253162779118691f7cfc973c0e2d691f5daac2c96dc5b52"
+    }
+  ],
+  "existing_C1_candidate_SHA": "bad645ae396ebef88564e4b3656f5e73c9375a9b87ee217acbd87a1354964946",
+  "existing_hand_candidate_SHA": "36ceea5f9871641ac16fff410ca7c2392791e11cbb1c4eea0d76007a05ffe249",
+  "ownership": {
+    "active_body_Action": "YURI_R4_C1_REACH_BODY_R1",
+    "body_paths": [
+      "pose.bones[\"chest\"].rotation_quaternion",
+      "pose.bones[\"clavicle.L\"].rotation_quaternion",
+      "pose.bones[\"clavicle.R\"].rotation_quaternion",
+      "pose.bones[\"foot.L\"].rotation_quaternion",
+      "pose.bones[\"foot.R\"].rotation_quaternion",
+      "pose.bones[\"forearm.L\"].rotation_quaternion",
+      "pose.bones[\"forearm.R\"].rotation_quaternion",
+      "pose.bones[\"hand.L\"].rotation_quaternion",
+      "pose.bones[\"hand.R\"].rotation_quaternion",
+      "pose.bones[\"head\"].rotation_quaternion",
+      "pose.bones[\"neck\"].rotation_quaternion",
+      "pose.bones[\"pelvis\"].location",
+      "pose.bones[\"pelvis\"].rotation_quaternion",
+      "pose.bones[\"shin.L\"].rotation_quaternion",
+      "pose.bones[\"shin.R\"].rotation_quaternion",
+      "pose.bones[\"spine\"].rotation_quaternion",
+      "pose.bones[\"thigh.L\"].rotation_quaternion",
+      "pose.bones[\"thigh.R\"].rotation_quaternion",
+      "pose.bones[\"toe.L\"].rotation_quaternion",
+      "pose.bones[\"toe.R\"].rotation_quaternion",
+      "pose.bones[\"upper_arm.L\"].rotation_quaternion",
+      "pose.bones[\"upper_arm.R\"].rotation_quaternion"
+    ],
+    "NLA_finger_Action": "YURI_R4_C1_LEFT_PREGRASP_FINGERS_R1",
+    "finger_paths": [
+      "pose.bones[\"index1.L\"].rotation_quaternion",
+      "pose.bones[\"index2.L\"].rotation_quaternion",
+      "pose.bones[\"index3.L\"].rotation_quaternion",
+      "pose.bones[\"middle1.L\"].rotation_quaternion",
+      "pose.bones[\"middle2.L\"].rotation_quaternion",
+      "pose.bones[\"middle3.L\"].rotation_quaternion",
+      "pose.bones[\"pinky1.L\"].rotation_quaternion",
+      "pose.bones[\"pinky2.L\"].rotation_quaternion",
+      "pose.bones[\"pinky3.L\"].rotation_quaternion",
+      "pose.bones[\"ring1.L\"].rotation_quaternion",
+      "pose.bones[\"ring2.L\"].rotation_quaternion",
+      "pose.bones[\"ring3.L\"].rotation_quaternion",
+      "pose.bones[\"thumb1.L\"].rotation_quaternion",
+      "pose.bones[\"thumb2.L\"].rotation_quaternion",
+      "pose.bones[\"thumb3.L\"].rotation_quaternion"
+    ],
+    "overlap_paths": [],
+    "clock": "body C1 and new LEFT finger Action both frames1..61 at30fps; NLA scale1 REPLACE disjoint channels; existing transport/carrier clock unchanged"
+  },
+  "existing_actions_curve_signatures_unchanged": true,
+  "existing_action_signatures": {
+    "YURI_R4_C1_REACH_BODY_R1": "af1c544cd555f1dc41d265e5b383ddef62d6163bc72135b2e6a3d492ce30a0b2",
+    "YURI_R4_C1_LEFT_PREGRASP_FINGERS_R1": "8d25c305b2e0e194de010d7b012f97f7055b5027492b49e1d3d6d42af198e0c1",
+    "YURI_R4_HAND_RELAX_PREGRASP_FINGERS_R1": "826fba7be6dd8dee5b05ecb50195107ec584c960037130ea70d2b3f3301967b6",
+    "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1": "bfba71109e692f7d463ed7b51951041d3026f7b66862c56ec2336b99405b297a",
+    "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1": "cac31cb3f504b184a319c88c9708797bd4759248e87e7aa10c9381eac134f807",
+    "YURI_R4_C1_REACH_ROOT_PATH_R1": "4a6504774d995a410a65b548fdefdca761640c88b26828c0e8090039a25b6f3d"
+  },
+  "all61_evaluated_body_vertices_finite": true,
+  "nonfinger_C1_same_time_world_matrix_max_error": 0,
+  "face_hair_root_carrier_same_time_exact": true,
+  "composition_start_end_body_local_error_m": 0.0,
+  "existing_C1_start_end_body_local_error_m": 0.0,
+  "composition_end_vs_original_neutral_local_error_m": 0.31643378734588623,
+  "maximum_evaluated_vertex_frame_step_world_m": 0.0559926506757753,
+  "OFF_signature_exact_before_save": true,
+  "preserved_right_finger_action": "YURI_R4_HAND_RELAX_PREGRASP_FINGERS_R1",
+  "actual_source_tip_inward_motion_m": {
+    "index": 0.013058054920305054,
+    "middle": 0.016235886286862476,
+    "ring": 0.015867495764758502,
+    "pinky": 0.011543297800353212,
+    "thumb": 0.004542622528135087
+  },
+  "semantic_defects": [
+    "Return endpoint equals existing C1 start pose, not original R4 neutral. Original neutral is restored only by OFF(). Existing body curves cannot be altered under current scope."
+  ],
+  "source_status": "SOURCE_ONLY_SAME_HAND_TECH_PASS_CONTACT_FAIL_HOLD",
+  "prop_contact_physics_Unity_MUG": "HOLD",
+  "TierP": 0,
+  "new_derived_motion_curve_actions": 1,
+  "left_native_inventory": {
+    "index1.L": {
+      "parent": "hand.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 457
+    },
+    "index2.L": {
+      "parent": "index1.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 181
+    },
+    "index3.L": {
+      "parent": "index2.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 124
+    },
+    "middle1.L": {
+      "parent": "hand.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 389
+    },
+    "middle2.L": {
+      "parent": "middle1.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 152
+    },
+    "middle3.L": {
+      "parent": "middle2.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 106
+    },
+    "ring1.L": {
+      "parent": "hand.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 407
+    },
+    "ring2.L": {
+      "parent": "ring1.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 141
+    },
+    "ring3.L": {
+      "parent": "ring2.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 72
+    },
+    "pinky1.L": {
+      "parent": "hand.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 347
+    },
+    "pinky2.L": {
+      "parent": "pinky1.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 107
+    },
+    "pinky3.L": {
+      "parent": "pinky2.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 53
+    },
+    "thumb1.L": {
+      "parent": "hand.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 599
+    },
+    "thumb2.L": {
+      "parent": "thumb1.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 131
+    },
+    "thumb3.L": {
+      "parent": "thumb2.L",
+      "constraints": [],
+      "deform": true,
+      "weighted_vertices": 75
+    }
+  },
+  "OFF_reopen": {
+    "candidate_SHA": "e16ebcfa2e8f65e19f22e4be229bbd925b9ac07e0141e582e6de0eacc49f7f6d",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "original_actions": 78,
+    "raw_snapshot_diff": {
+      "textures": [
+        "Skin_Clean_R3_BaseColor_2K",
+        "bald_anime_head_3d_model_basecolor.002",
+        "stylized_hair_3d_model_Clone1_metallic",
+        "stylized_hair_3d_model_Clone1_roughness",
+        "tripo_image_8d1987b0_0",
+        "tripo_image_8d1987b0_3"
+      ]
+    },
+    "all_nontexture_geometry_material_nodes_weights_keys_rest_drivers_bindings_scene_exact": true,
+    "packed_texture_bytes_colorspace_resolved_properties_exact": true,
+    "raw_locator_strings_remapped": true,
+    "source_scene_fps": 24,
+    "all_four_additive_Action_fps": 30,
+    "neutral_render": "Original camera/lights/material/color settings; deterministic CPU8samples, compare against existing authoritative witness separately",
+    "save_export_source_write": false
+  },
+  "OFF_pixels": {
+    "size": [
+      960,
+      920
+    ],
+    "unequal_RGBA_channels": 0,
+    "max_abs_channel_diff": 0,
+    "PASS": true
+  },
+  "actual_surface_QA": {
+    "candidate_SHA": "e16ebcfa2e8f65e19f22e4be229bbd925b9ac07e0141e582e6de0eacc49f7f6d",
+    "frames_sampled": 61,
+    "dominant_existing_weight_threshold": 0.5,
+    "evaluated_topology_cohort": {
+      "index": {
+        "vertices": 249,
+        "triangles": 467
+      },
+      "middle": {
+        "vertices": 242,
+        "triangles": 450
+      },
+      "ring": {
+        "vertices": 215,
+        "triangles": 392
+      },
+      "pinky": {
+        "vertices": 162,
+        "triangles": 294
+      },
+      "thumb": {
+        "vertices": 333,
+        "triangles": 624
+      }
+    },
+    "maximum_evaluated_mesh_vertex_frame_step_world_m": 0.0559926506757753,
+    "max_overlap_counts": {
+      "index__middle": 0,
+      "index__ring": 0,
+      "index__pinky": 0,
+      "index__thumb": 0,
+      "middle__ring": 0,
+      "middle__pinky": 0,
+      "middle__thumb": 0,
+      "ring__pinky": 0,
+      "ring__thumb": 0,
+      "pinky__thumb": 0,
+      "index__body_other": 158,
+      "middle__body_other": 147,
+      "ring__body_other": 92,
+      "pinky__body_other": 29,
+      "thumb__body_other": 155
+    },
+    "baseline_overlap_counts": {
+      "index__middle": 0,
+      "index__ring": 0,
+      "index__pinky": 0,
+      "index__thumb": 0,
+      "middle__ring": 0,
+      "middle__pinky": 0,
+      "middle__thumb": 0,
+      "ring__pinky": 0,
+      "ring__thumb": 0,
+      "pinky__thumb": 0,
+      "index__body_other": 0,
+      "middle__body_other": 0,
+      "ring__body_other": 0,
+      "pinky__body_other": 0,
+      "thumb__body_other": 58
+    },
+    "endpoint_overlap_counts": {
+      "index__middle": 0,
+      "index__ring": 0,
+      "index__pinky": 0,
+      "index__thumb": 0,
+      "middle__ring": 0,
+      "middle__pinky": 0,
+      "middle__thumb": 0,
+      "ring__pinky": 0,
+      "ring__thumb": 0,
+      "pinky__thumb": 0,
+      "index__body_other": 0,
+      "middle__body_other": 0,
+      "ring__body_other": 0,
+      "pinky__body_other": 0,
+      "thumb__body_other": 58
+    },
+    "scope": "Actual evaluated native mesh, disjoint dominant-weight digit triangle cohorts, epsilon0 BVH intersections at all61 frames. Also checks digit triangles against body triangles outside left-hand/finger weight>1percent; weak-weight palm/webbing and same-digit folds excluded; this bounded measurement is not full mesh collision certification. Visual full playback required. No prop/contact/grasp/Unity/MUG certification.",
+    "no_asset_source_edit": true
+  },
+  "normal_speed_UI": {
+    "review_url": "http://127.0.0.1:18921/REVIEW_REACH_LEFT_FINGER_R1.html",
+    "start": [
+      {
+        "duration": 2.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_hand_close_1x.mp4",
+        "time": 0.188536
+      },
+      {
+        "duration": 2.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_front_1x.mp4",
+        "time": 0.18849
+      },
+      {
+        "duration": 2.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_side_1x.mp4",
+        "time": 0.188396
+      },
+      {
+        "duration": 2.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_fullbody_1x.mp4",
+        "time": 0.188317
+      }
+    ],
+    "end": [
+      {
+        "duration": 2.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_hand_close_1x.mp4",
+        "time": 2.033333
+      },
+      {
+        "duration": 2.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_front_1x.mp4",
+        "time": 2.033333
+      },
+      {
+        "duration": 2.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_side_1x.mp4",
+        "time": 2.033333
+      },
+      {
+        "duration": 2.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "REACH_LEFT_FINGER_fullbody_1x.mp4",
+        "time": 2.033333
+      }
+    ],
+    "verdict": "Same LEFT reach/curl/release readable in full1x playback; C1 body curves preserved. Actual digit/body surface intersections present. Contact and original-neutral return HOLD; exact fine webbing and whole-character collision not certified. No prop/MUG/Unity/TierP/F2 PASS."
+  },
+  "visual_verdict": "Same LEFT reach/curl/release readable in full1x playback; C1 body curves preserved. Actual digit/body surface intersections present. Contact and original-neutral return HOLD; exact fine webbing and whole-character collision not certified. No prop/MUG/Unity/TierP/F2 PASS.",
+  "original_right_Action_preserved_unbound": true,
+  "causal_contact_comparison": {
+    "same_C1_body_clock": true,
+    "all61_nonfinger_world_transform_error": 0,
+    "pairs": {
+      "index__middle": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "index__ring": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "index__pinky": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "index__thumb": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "middle__ring": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "middle__pinky": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "middle__thumb": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "ring__pinky": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "ring__thumb": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "pinky__thumb": {
+        "baseline_max": 0,
+        "composition_max": 0,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      },
+      "index__body_other": {
+        "baseline_max": 156,
+        "composition_max": 158,
+        "max_count_increase_same_frame": 5,
+        "increase_frames": [
+          52,
+          55
+        ]
+      },
+      "middle__body_other": {
+        "baseline_max": 142,
+        "composition_max": 147,
+        "max_count_increase_same_frame": 5,
+        "increase_frames": [
+          52,
+          54
+        ]
+      },
+      "ring__body_other": {
+        "baseline_max": 90,
+        "composition_max": 92,
+        "max_count_increase_same_frame": 51,
+        "increase_frames": [
+          51,
+          52,
+          55
+        ]
+      },
+      "pinky__body_other": {
+        "baseline_max": 0,
+        "composition_max": 29,
+        "max_count_increase_same_frame": 29,
+        "increase_frames": [
+          51,
+          52
+        ]
+      },
+      "thumb__body_other": {
+        "baseline_max": 155,
+        "composition_max": 155,
+        "max_count_increase_same_frame": 0,
+        "increase_frames": []
+      }
+    },
+    "interpretation": "C1-only surface collisions already present; new curl introduces pinky/body intersections (C1-only0) and increases other pair counts at some identical frames. Counts are intersecting triangle pairs, not penetration depth/volume. Epsilon0 dominant-weight digit and non-hand surface cohorts; not full character certification.",
+    "decision": "SOURCE_ONLY_SAME_HAND_TECH_PASS_CONTACT_FAIL_HOLD",
+    "next_single_alternative": "Finger-timing-only candidate that curls during maximum reach and releases fully before the measured return collisions; preserve C1 body curves and original-neutral HOLD."
+  },
+  "overlap_implementation_reference": "https://github.com/blender/blender/blob/main/source/blender/python/mathutils/mathutils_bvhtree.cc#L504",
+  "neutral_return": "HOLD: end equals C1 baseline exactly, not immutable R4 original neutral; source neutral restored by OFF only",
+  "prop_contact_physics_Unity_MUG_StageB_F2": "HOLD",
+  "product_or_laptop_changes": false,
+  "new_donor_corpus_count": 0
+}
