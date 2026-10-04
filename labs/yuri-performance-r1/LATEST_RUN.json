@@ -669,5 +669,36 @@
     "left_floor_gap_mm": -21.17229758,
     "pose_pass": false,
     "next_authorized": "ONE target-native neutral/feasible seated pose, donor timing only; no donor-angle retune"
+  },
+  "target_native_seated_pose_r1": {
+    "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_TARGET_NATIVE_HIGH_SEAT_FAILURE_R1_20261005.zip",
+    "sha256": "81597bb583ea0e0628da74bead0c06d66e87ac03a9256a704f07632d4ae241cb",
+    "bytes": 55289466,
+    "members": 34,
+    "indexed_members": 33,
+    "CRC_SHA_size_all_verified": true,
+    "closed_once": true,
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "d6c066d887f0501a25293f45cb7963f955a24e9e0906567e972f2c373c25a4e0",
+    "library_SHA": "b5d73dfdf3bbc6dabcaadae43e4bc6abdc599ab483592b305fbb1b1f1fdccc5b",
+    "verdict": "FAIL_HOLD_NATIVE_SEATED_POSE_CONTACT_OR_ANCHOR_RESIDUAL",
+    "TierP": 0,
+    "original78_OFF_signature_equal": true,
+    "OFF_unequal_pixels": 0,
+    "BODY_new_pairs": 71,
+    "L_R_whole_sole_anchor_residual_mm": [
+      3.185061878,
+      3.23060318
+    ],
+    "HairRoot_goal_matrix_error": 0.0941205620765686,
+    "whole_phrase_expanded": false,
+    "seated_candidate_family_closed": true,
+    "next_independent_source": {
+      "Action": "MESHY_R2_BODY_Tour",
+      "original_Action_SHA": "e70ea471c4c0aa20efdb2ae05cbcecc49eff3e1c598e47100a1caa36fcf31202",
+      "intent": "Living room-orientation / turn-and-look reference; existing original Action source supply lacks dedicated native whole-playback QA checkpoint in this lab.",
+      "not_executed_or_promoted": true,
+      "source_only_next_scope": "Original-native Action/neck-head-hair transport with original geometry and defaultOFF; inspect exact source tracks, actual foot/root/contact trajectory and whole1x before any Unity use. No new corpus/framework or donor candidate."
+    }
   }
 }

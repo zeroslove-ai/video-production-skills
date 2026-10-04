@@ -1,0 +1,183 @@
+{
+  "task": "ROOT_PM_SIT_STAND_DONOR_REPLICATION_EXIT_NATIVE_AUTHORING_R1",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-target-native-seated-pose-r1\\Character_R4_TargetNativeHighSeat_EXPERIMENT_OFF_R1.blend",
+  "candidate_SHA": "d6c066d887f0501a25293f45cb7963f955a24e9e0906567e972f2c373c25a4e0",
+  "library": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-target-native-seated-pose-r1\\YURI_R4_TARGET_NATIVE_HIGH_SEAT_ACTIONS_ONLY_R1.blend",
+  "library_SHA": "b5d73dfdf3bbc6dabcaadae43e4bc6abdc599ab483592b305fbb1b1f1fdccc5b",
+  "original78_fullraw_OFF_serialized_equal": true,
+  "one_native_high_seat_pose_only": true,
+  "donor_contribution": "Intent/timing only; no donor angles/stance/body or extraction in this native pose.",
+  "native_leg_length_m": 0.47060281974424745,
+  "pelvis_delta_world_m": [
+    0.0,
+    0.0470602810382843,
+    -0.0941205620765686
+  ],
+  "pelvis_goal_world_m": [
+    0.0019499999471008778,
+    0.032435283064842224,
+    0.40877944231033325
+  ],
+  "seat_witness": {
+    "plane_z_world_m": 0.3737794423103332,
+    "height_above_floor_m": 0.373779447556069,
+    "pelvis_clearance_design_m": 0.035,
+    "actual_pelvis_goal_error_m": 2.9802322387695312e-08,
+    "not_physical_prop_or_support_proof": true
+  },
+  "actual_joint_and_whole_sole_metrics": {
+    "L": {
+      "native_anatomical_knee_degrees": 72.64135858787957,
+      "knee_forward_m": 0.13854201138019562,
+      "knee_lateral_m": 0.00032772868871688843,
+      "hip_goal_error_m": 0.0,
+      "knee_goal_error_m": 2.2699829543504302e-07,
+      "ankle_goal_error_m": 9.200788315555802e-08,
+      "whole_original_patch_max_anchor_error_m": 0.0031850618778708874,
+      "patch_XY_max_drift_m": 0.0030059067777766426,
+      "original_patch_gap_min_max_m": [
+        0.00011711152399529321,
+        0.0038838328183565082
+      ],
+      "whole_foot_min_gap_m": 0.00011711152399529321,
+      "original_support_patch_vertices": 218,
+      "joint_pose_only_not_force_contact": true
+    },
+    "R": {
+      "native_anatomical_knee_degrees": 72.64135858787957,
+      "knee_forward_m": 0.13854201138019562,
+      "knee_lateral_m": -0.00032772868871688843,
+      "hip_goal_error_m": 0.0,
+      "knee_goal_error_m": 2.2699829543504302e-07,
+      "ankle_goal_error_m": 9.200788315555802e-08,
+      "whole_original_patch_max_anchor_error_m": 0.003230603180485876,
+      "patch_XY_max_drift_m": 0.003038381873570373,
+      "original_patch_gap_min_max_m": [
+        -4.701737047252267e-08,
+        0.004038078175030612
+      ],
+      "whole_foot_min_gap_m": -4.701737047252267e-08,
+      "original_support_patch_vertices": 223,
+      "joint_pose_only_not_force_contact": true
+    }
+  },
+  "surface_counts": {
+    "Meshy_Body_NeutralCovered__self_nonadjacent": {
+      "source_OFF_absolute": 0,
+      "pose_absolute": 71,
+      "new_vs_OFF": 71
+    },
+    "Character_Body_Head__self_nonadjacent": {
+      "source_OFF_absolute": 1993,
+      "pose_absolute": 1992,
+      "new_vs_OFF": 0
+    },
+    "Hair_Replacement_R4__self_nonadjacent": {
+      "source_OFF_absolute": 1858,
+      "pose_absolute": 1864,
+      "new_vs_OFF": 7
+    },
+    "Meshy_Body_NeutralCovered__Character_Body_Head": {
+      "source_OFF_absolute": 44,
+      "pose_absolute": 44,
+      "new_vs_OFF": 0
+    },
+    "Meshy_Body_NeutralCovered__Hair_Replacement_R4": {
+      "source_OFF_absolute": 0,
+      "pose_absolute": 0,
+      "new_vs_OFF": 0
+    },
+    "Character_Body_Head__Hair_Replacement_R4": {
+      "source_OFF_absolute": 20,
+      "pose_absolute": 20,
+      "new_vs_OFF": 0
+    }
+  },
+  "new_BODY_pair_regions_from_original_weights": {
+    "Meshy_Body_NeutralCovered__self_nonadjacent": [
+      [
+        "shin.L / thigh.L",
+        27
+      ],
+      [
+        "shin.R / thigh.R",
+        24
+      ],
+      [
+        "thigh.R / thigh.R",
+        11
+      ],
+      [
+        "thigh.L / thigh.L",
+        9
+      ]
+    ]
+  },
+  "head_hair_translation_goal_max_matrix_error": {
+    "Armature": 7.450580596923828e-09,
+    "Hair_Rig_R4": 0.0941205620765686
+  },
+  "capture": [
+    {
+      "label": "seated",
+      "view": "front",
+      "actual_all_mesh_equal_measured_before_after_render": true,
+      "SHA": "9f8d0e657fa3e89bd73ff34ba388acba45e76ab2af948d0a6e609dca5ca1db5c"
+    },
+    {
+      "label": "seated",
+      "view": "quarter",
+      "actual_all_mesh_equal_measured_before_after_render": true,
+      "SHA": "3165ae69820043fcb2eafe9ae902b4653e183c447e3cd4a4987de9fdcacc996e"
+    },
+    {
+      "label": "seated",
+      "view": "side",
+      "actual_all_mesh_equal_measured_before_after_render": true,
+      "SHA": "7e75cbc12df6c6c13e6102ae758081246f3963d6097532591418414c8cac7f09"
+    },
+    {
+      "label": "standing_OFF",
+      "view": "front",
+      "actual_all_mesh_equal_measured_before_after_render": true,
+      "SHA": "f7dfac338032a9b5d44b95490fdcba07143a2e40d58380723c212a8655e01c43"
+    },
+    {
+      "label": "standing_OFF",
+      "view": "quarter",
+      "actual_all_mesh_equal_measured_before_after_render": true,
+      "SHA": "9e393df8aad39e644371e88aa26ff4bbfbdbb9b6f62c237f1e72fb3c95fb799f"
+    },
+    {
+      "label": "standing_OFF",
+      "view": "side",
+      "actual_all_mesh_equal_measured_before_after_render": true,
+      "SHA": "c014408492bca35d7b796162f582d1dbb1787ca49546ac7ba7199833a1e41fba"
+    }
+  ],
+  "pose_pass": false,
+  "verdict": "FAIL_HOLD_NATIVE_SEATED_POSE_CONTACT_OR_ANCHOR_RESIDUAL",
+  "TierP": 0,
+  "OFF_pixel_QA": {
+    "dimensions": [
+      920,
+      960,
+      4
+    ],
+    "unequal_pixels": 0,
+    "max_channel_delta": 0
+  },
+  "guard_SHA": "c3ed1880304302fc04436388b788a5c54c811001fcf088801513aae6dd2edf37",
+  "seated_family_closed_without_phrase_expansion": true,
+  "new_crossing_depth_or_volume_not_measured": true,
+  "no_skin_weights_only_or_all_native_seated_infeasibility_claim": true,
+  "next_selected_existing_independent_motion": {
+    "Action": "MESHY_R2_BODY_Tour",
+    "original_Action_SHA": "e70ea471c4c0aa20efdb2ae05cbcecc49eff3e1c598e47100a1caa36fcf31202",
+    "intent": "Living room-orientation / turn-and-look reference; existing original Action source supply lacks dedicated native whole-playback QA checkpoint in this lab.",
+    "not_executed_or_promoted": true,
+    "source_only_next_scope": "Original-native Action/neck-head-hair transport with original geometry and defaultOFF; inspect exact source tracks, actual foot/root/contact trajectory and whole1x before any Unity use. No new corpus/framework or donor candidate."
+  },
+  "provisional_Wave_followup_superseded": "Existing authored social greeting full1x evidence was found in current lab; avoid duplicate greeting supply. No Wave job launched."
+}
