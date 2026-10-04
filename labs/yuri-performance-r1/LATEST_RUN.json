@@ -212,5 +212,20 @@
     "TierP": 0,
     "existing_source_candidates_history": "R4/08caad7/C1/R1/R2/6ce0221/closed packets preserved",
     "next_bounded_task": "Original-neutral compatible return requires separate ownership scope; registered24 AI dance pose-pair read-only matrix and actual-rig QA still pending, not motion accuracy certification."
+  },
+  "C1_neutral_supported_replant_r1": {
+    "status": "SOURCE_ONLY_FAIL_HOLD",
+    "candidate_SHA": "768399fa5cd9b6e2603599f47b9ff0263a978551e3f81c8101d764563babbd75",
+    "packet_SHA": "34edd98b52618a376a31231b8c33b34c24e636f9e0a35fc7db98a69818beaaa6",
+    "report": "evidence/alpha-c1-neutral-supported-replant-r1/YURI_R4_C1_NEUTRAL_SUPPORTED_REPLANT_R1.md",
+    "support_vertex_max_drift_m": 0.003061628034014862,
+    "endpoint_body_max_component_error_m": 0.0009491010102968822,
+    "root_error": 0,
+    "head_hair_endpoint_error": 0,
+    "original_C1_and_R2_fingers_preserved": true,
+    "OFF_changed_RGBA_pixels": 0,
+    "two_view_transition_whole1x": "73frames30fps actual1x ended/errornull",
+    "TierP": 0,
+    "next_bounded_task": "One R2 alternative using actual supported contact vertex/world constraints and smooth exact canonical endpoint; inspect only worst97 and endpoint133, preserve R1. If repeated failure, neutral research nonblocking and return independent StageA/B source motion supply."
   }
 }

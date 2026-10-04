@@ -1,0 +1,26 @@
+[
+  {
+    "run": "o1-c1-neutral-bridge-inspect-r1",
+    "receipt_SHA": "ca7a4f66dab8e0b575d756aaed8686e8b362cd1bfeff8630beece1b39251be1b",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 29.12810900004115
+  },
+  {
+    "run": "o1-c1-neutral-frozen-contact-probe-r1",
+    "receipt_SHA": "fe4faa5698dbaaa90a7663b071437ff7412f2119059f6a17d59424140d1f816d",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 34.67988010001136
+  },
+  {
+    "run": "o1-c1-neutral-supported-replant-r1",
+    "receipt_SHA": "7e0ba0bfcc5930945da030f2a369a0462b3c599e8022ec63ba0f0e095dd88685",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 329.14826139999786
+  },
+  {
+    "run": "o1-c1-neutral-replant-preview-r1",
+    "receipt_SHA": "6cfb7229e595fd5c8aa7173f31f715e72e7ee382b14ec940c7ef82850e312e57",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 169.68409239995526
+  }
+]

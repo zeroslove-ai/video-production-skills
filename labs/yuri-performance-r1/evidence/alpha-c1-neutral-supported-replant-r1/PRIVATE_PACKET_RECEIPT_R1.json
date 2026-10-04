@@ -1,0 +1,12 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_C1_NEUTRAL_REPLANT_EXPERIMENT_R1_20261004.zip",
+  "bytes": 58101924,
+  "SHA": "34edd98b52618a376a31231b8c33b34c24e636f9e0a35fc7db98a69818beaaa6",
+  "members": 91,
+  "indexed_members": 90,
+  "CRC_SHA_size_all": "PASS",
+  "candidate_SHA": "768399fa5cd9b6e2603599f47b9ff0263a978551e3f81c8101d764563babbd75",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "verdict": "FAIL_HOLD",
+  "TierP": 0
+}

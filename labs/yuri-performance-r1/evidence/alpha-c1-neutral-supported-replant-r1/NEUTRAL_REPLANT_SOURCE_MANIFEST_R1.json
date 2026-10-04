@@ -1,0 +1,152 @@
+{
+  "task": "ROOT_PM_NEUTRAL_CONTACT_BOUNDARY_R1",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-neutral-supported-replant-r1\\Character_R4_C1_NeutralReplant_EXPERIMENT_OFF_R1_20261004.blend",
+  "candidate_SHA": "768399fa5cd9b6e2603599f47b9ff0263a978551e3f81c8101d764563babbd75",
+  "candidate_bytes": 26957365,
+  "additive_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_C1_REACH_LEFT_ARM_CLEARANCE_BODY_R1_NEUTRAL_REPLANT_R1",
+    "Armature": "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+    "Hair_Rig_R4": "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+    "Assembly_Root": "YURI_R4_C1_REACH_ROOT_PATH_R1_NEUTRAL_REPLANT_R1"
+  },
+  "frame_range": [
+    1,
+    133
+  ],
+  "reaction_original_frames1_61_exact": true,
+  "unchanged_R2_finger_action": true,
+  "source_scene_fps": 24,
+  "action_fps": 30,
+  "hypothesis": "L lift/replant t6..30 while R supported; R lift/replant t36..60 while L supported; pelvis shift18mm/support lowering8mm; actual surface-centroid dampedJacobian solver reused with12 iterations, warm-start and .12rad step clamp; toe/worldfoot orientation changes ONLY swing. 12frames settle, never forced raw-pose snap.",
+  "world_root_exact_all_sampled": true,
+  "OFF_signature_exact": true,
+  "original_and_reused_actions_unchanged": true,
+  "endpoint_geometry_component_error_m": {
+    "Meshy_Body_NeutralCovered": 0.0009491010102968822,
+    "Character_Body_Head": 0.0,
+    "Hair_Replacement_R4": 0.0
+  },
+  "failure_constraints": [
+    {
+      "frame": 97,
+      "side": "R",
+      "reason": "support_surface_shape_or_vertex_drift",
+      "value_m": 0.003061628034014862
+    },
+    {
+      "reason": "solved_endpoint_not_exact_source_neutral",
+      "geometry_component_error_m": {
+        "Meshy_Body_NeutralCovered": 0.0009491010102968822,
+        "Character_Body_Head": 0.0,
+        "Hair_Replacement_R4": 0.0
+      }
+    }
+  ],
+  "verdict": "FAIL_HOLD",
+  "TierP": 0,
+  "visual_normal_speed": "NOT_RUN pending constraints",
+  "actual_dependency_if_failed": "Centroid+minZ three scalar constraints with thigh/shin rotations do not guarantee a rigid planted sole surface or restore the canonical leg null-space pose. Exact neutral requires contact-patch/orientation and branch/pose constraints beyond this reused solver; no rig/skin changes authorized.",
+  "status": "SOURCE_ONLY_REPLANT_EXPERIMENT_FAIL_HOLD",
+  "original_R4_appearance_promoted": false,
+  "frozen_contact_causal_negative_closed_once": {
+    "decision": "CAUSAL_NEGATIVE_FROZEN_CONTACT_TARGET_INCOMPATIBLE",
+    "declared_target": "Immutable Character_Master_NeckSkin_R4.blend original animation-OFF frame1 pose, source camera authoritative neutral baseline; no guessed idle or donor pose",
+    "target_missing": false,
+    "target_exact_evaluated_body_head_hair_world_error_m": {
+      "Meshy_Body_NeutralCovered": 0.0,
+      "Character_Body_Head": 0.0,
+      "Hair_Replacement_R4": 0.0
+    },
+    "actual_grounded_vertex_constraints": {
+      "L": {
+        "current_grounded_vertices_threshold_world_m": 0.002,
+        "grounded_vertex_count": 55,
+        "target_horizontal_move_required_min_m": 0.11184008736296387,
+        "target_horizontal_move_required_median_m": 0.11279109889152397,
+        "target_horizontal_move_required_max_m": 0.11358154988946784,
+        "all_current_grounded_vertices_require_horizontal_motion": true,
+        "centroid_delta_endpoint_minus_source_world_m": [
+          0.05231402691156368,
+          -0.09609383678709743,
+          0.003841183294064035
+        ]
+      },
+      "R": {
+        "current_grounded_vertices_threshold_world_m": 0.002,
+        "grounded_vertex_count": 68,
+        "target_horizontal_move_required_min_m": 0.12295765038129543,
+        "target_horizontal_move_required_median_m": 0.1317984571511801,
+        "target_horizontal_move_required_max_m": 0.14119567989655463,
+        "all_current_grounded_vertices_require_horizontal_motion": true,
+        "centroid_delta_endpoint_minus_source_world_m": [
+          -0.05905535978821651,
+          0.1433653399267213,
+          0.003308386470889815
+        ]
+      }
+    },
+    "proof": "Exact source-neutral geometry fixes each vertex to target T_i. Frozen current contacts require XY=E_i. Every measured grounded contact vertex on BOTH feet has T_i.xy != E_i.xy, so these simultaneous constraints cannot both hold. Timing or pose-lerp smoothing cannot remove this endpoint contradiction."
+  },
+  "source_target_probe_RGBA_changed_pixels": 0,
+  "OFF_reopened_RGBA_pixel_oracle": {
+    "same_dimensions": [
+      920,
+      960,
+      4
+    ],
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "PASS": true
+  },
+  "max_actual_surface_centroid_minZ_solver_residual_m": 0.0007478467137353341,
+  "max_supported_sole_vertex_drift_m": 0.003061628034014862,
+  "max_knee_step_m": 0.015024899212509947,
+  "max_body_vertex_step_m": 0.015343520185040177,
+  "normal_speed_actual_UI": {
+    "start": [
+      {
+        "currentTime": 0.187325,
+        "duration": 2.433333,
+        "ended": false,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.187303,
+        "duration": 2.433333,
+        "ended": false,
+        "paused": false,
+        "playbackRate": 1
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 2.433333,
+        "duration": 2.433333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 2.433333,
+        "duration": 2.433333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      }
+    ],
+    "frames": 73,
+    "normal_speed": 1,
+    "scope": "New transition frames61..133 only; failed numerical acceptance remains FAIL/HOLD"
+  },
+  "new_movies": "Only transition frames61..133,73frames30fps2.433333seconds in fixed body-front/feet-side; original C1 entire61frame four-view1x receipt remains separate and unchanged",
+  "not_certified": "Exact neutral, zero planted vertex drift, full-body collision/physics/Unity/AlwaysAnimate/StageB/F2/F3/production promotion HOLD. No new reaction completion counted.",
+  "narrow_actual_dependency": "Existing three-scalar sole centroid/minZ solver leaves rotational pose null-space and does not constrain the entire support contact patch. Explicit canonical endpoint leg pose plus grounded patch/orientation constraints are required; current single experiment leaves3.061628mm support drift at97 and0.949101mm endpoint body component error. No target snap was applied.",
+  "quaternion_metric_note": "Private raw rotation_difference.angle may report2pi for antipodal quaternions; public verdict uses actual evaluated geometry/contact, not that raw diagnostic.",
+  "source_correction_checkpoint": "820a237; original08caad7 retained; six-reaction source-only appearance-preserving evidence unchanged",
+  "prior_contact_checkpoint": "00cb890",
+  "no_new_GameRig_export_donor_rig_mesh_weights_material_or_product_changes": true
+}
