@@ -130,5 +130,21 @@
     "prior_GameRig_role": "COMPATIBILITY EXPERIMENT ONLY",
     "Unity_runtime": "UNTESTED; AlwaysAnimate mandatory",
     "next_bounded_experiment": "Owner-isolated Unity animation-only native import / appearance adapter verification; preserve canonical source and compare neutral before/after"
+  },
+  "hand_relax_source_only_r1": {
+    "date": "2026-10-04",
+    "status": "SOURCE_ONLY_PROVISIONAL_CONTACT_HOLD",
+    "receipt": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\alpha-hand-relax-source-candidate-r1\\PRIVATE_PACKET_RECEIPT_R1.json",
+    "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA256": "36ceea5f9871641ac16fff410ca7c2392791e11cbb1c4eea0d76007a05ffe249",
+    "packet_SHA256": "31d2170cc335f03b7c5cbc6302731262f43736001a3c7ca7a0dcb32963b811c3",
+    "native_frames": 105,
+    "Action_fps": 30,
+    "fixed_nonfinger_world_transform_error": 0,
+    "OFF_neutral_RGBA_difference": 0,
+    "normal_speed_three_views": "PASS source-only",
+    "Unity_prop_contact_physics_MUG": "HOLD",
+    "TierP": 0,
+    "next_bounded_task": "Reuse this separate finger-only layer with existing C1 reach, explicit Action ownership, then actual prop/contact evidence; no product implementation."
   }
 }

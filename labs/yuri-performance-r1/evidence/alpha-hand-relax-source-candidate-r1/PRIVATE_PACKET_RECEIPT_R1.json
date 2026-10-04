@@ -1,0 +1,13 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_HAND_RELAX_SOURCE_ONLY_R1_20261004.zip",
+  "bytes": 60150527,
+  "sha256": "31d2170cc335f03b7c5cbc6302731262f43736001a3c7ca7a0dcb32963b811c3",
+  "members": 114,
+  "indexed_members": 113,
+  "CRC_SHA_size_all_members": "PASS",
+  "candidate_SHA256": "36ceea5f9871641ac16fff410ca7c2392791e11cbb1c4eea0d76007a05ffe249",
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "TierP": 0,
+  "source_only": true,
+  "status": "SOURCE_ONLY_PROVISIONAL_CONTACT_HOLD"
+}

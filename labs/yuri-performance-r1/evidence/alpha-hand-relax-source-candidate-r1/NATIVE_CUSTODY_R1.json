@@ -1,0 +1,44 @@
+[
+  {
+    "run": "o1-hand-relax-inspect-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-hand-relax-inspect-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "d16f4f80c1189dab1b1621c7554a75a49c8873b95b0ac7bdeb90cbbf99567d80",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 3.7669040999608114
+  },
+  {
+    "run": "o1-hand-relax-candidate-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-hand-relax-candidate-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "bcaf916ee3c237c16d32476295c490dc611c7aad61e3e360a7a7d5d516e2e6d5",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 24.774811299983412
+  },
+  {
+    "run": "o1-hand-relax-off-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-hand-relax-off-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "1971c66e093c873f5ac302816370b8157b8968cf24f3dddfcb51d0b94a04760f",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 27.05693160003284
+  },
+  {
+    "run": "o1-hand-relax-probe-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-hand-relax-probe-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "3aaa6956f1f5c6bdd7ae983982a7c273c82b042dc1f2031d91943e828e6a5e31",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 31.563885999959894
+  },
+  {
+    "run": "o1-hand-relax-full-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-hand-relax-full-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "b7684675496171f409a4cec4293e83ce0f126b5911e537dd28e73bf747bc2bb2",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 261.0710791000165
+  },
+  {
+    "run": "o1-hand-relax-surface-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-hand-relax-surface-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "403456e2dbe999747a2baf6fff788fbe1fc505c48b345bd0ed20c778c47c760f",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 25.053907900000922
+  }
+]

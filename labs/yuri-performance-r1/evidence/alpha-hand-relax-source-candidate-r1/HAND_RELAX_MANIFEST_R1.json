@@ -1,0 +1,445 @@
+{
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-hand-relax-candidate-r1\\Character_R4_HandRelax_CANDIDATE_OFF_R1_20261004.blend",
+  "candidate_SHA": "36ceea5f9871641ac16fff410ca7c2392791e11cbb1c4eea0d76007a05ffe249",
+  "candidate_bytes": 26655722,
+  "frames": [
+    1,
+    105
+  ],
+  "source_fps": 30,
+  "source_scene_fps": 24,
+  "movie_duration_sec": 3.5,
+  "original_actions_preserved": 78,
+  "additive_body_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_HAND_RELAX_PREGRASP_FINGERS_R1"
+  },
+  "authored_bones": [
+    "index1.R",
+    "index2.R",
+    "index3.R",
+    "middle1.R",
+    "middle2.R",
+    "middle3.R",
+    "ring1.R",
+    "ring2.R",
+    "ring3.R",
+    "pinky1.R",
+    "pinky2.R",
+    "pinky3.R",
+    "thumb1.R",
+    "thumb2.R",
+    "thumb3.R"
+  ],
+  "timing": {
+    "source_open": [
+      1,
+      15
+    ],
+    "curl_stagger": [
+      16,
+      52
+    ],
+    "gentle_pregrasp_hold": [
+      53,
+      69
+    ],
+    "release_to_source_open": [
+      70,
+      105
+    ]
+  },
+  "fixed_nonfinger_world_matrix_error": 0,
+  "all105_body_vertices_finite": true,
+  "skin_max_world_motion_m": 0.01863242872127091,
+  "endpoint_evaluated_body_error_local_m": 0.0,
+  "maximum_fingertip_frame_step_m": 0.0009667341556338115,
+  "OFF_signature_exact_before_save": true,
+  "lineage": "Procedural right finger-only palm-plane curl on original existing bones. Earlier GameRig axis method inspected but no geometry/axis values copied. Source 13 finger-channel Actions preserved, not appended donor. Original source open pose used as relaxed-open endpoint. No palm/wrist approach or prop contact claim.",
+  "hand_quality": "Gentle curl and release readable; no gross finger/thumb penetration, abrupt pop or mesh explosion observed in three full1x views. Conservative digit-surface cohort measurements supplement visual evidence; weak-weight webbing/palm and same-digit folds not certified.",
+  "TierP": 0,
+  "visual_promotion": false,
+  "prop_contact_physics_Unity_MUG": "HOLD",
+  "OFF_reopen": {
+    "candidate_SHA": "36ceea5f9871641ac16fff410ca7c2392791e11cbb1c4eea0d76007a05ffe249",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "original_actions": 78,
+    "raw_snapshot_diff": {
+      "textures": [
+        "Skin_Clean_R3_BaseColor_2K",
+        "bald_anime_head_3d_model_basecolor.002",
+        "stylized_hair_3d_model_Clone1_metallic",
+        "stylized_hair_3d_model_Clone1_roughness",
+        "tripo_image_8d1987b0_0",
+        "tripo_image_8d1987b0_3"
+      ]
+    },
+    "all_nontexture_geometry_material_nodes_weights_keys_rest_drivers_bindings_scene_exact": true,
+    "packed_texture_bytes_colorspace_resolved_properties_exact": true,
+    "raw_locator_strings_remapped": true,
+    "source_scene_fps": 24,
+    "additive_Action_fps": 30,
+    "neutral_render": "Original camera/lights/material/color settings; deterministic CPU8samples, compare against existing authoritative witness separately",
+    "save_export_source_write": false
+  },
+  "OFF_neutral_RGBA": {
+    "source_camera_size": [
+      960,
+      920
+    ],
+    "unequal_RGBA_channels": 0,
+    "max_abs_channel_diff": 0,
+    "decoded_source_SHA": "0eea7deab35641f69b54b19e7f98734880cad9b1901830b9884b0430cab4aac4",
+    "decoded_candidate_OFF_SHA": "0eea7deab35641f69b54b19e7f98734880cad9b1901830b9884b0430cab4aac4",
+    "PASS": true
+  },
+  "actual_surface_QA": {
+    "candidate_SHA": "36ceea5f9871641ac16fff410ca7c2392791e11cbb1c4eea0d76007a05ffe249",
+    "frames_sampled": 105,
+    "dominant_existing_weight_threshold": 0.5,
+    "evaluated_topology_cohort": {
+      "index": {
+        "vertices": 253,
+        "triangles": 474
+      },
+      "middle": {
+        "vertices": 240,
+        "triangles": 446
+      },
+      "ring": {
+        "vertices": 215,
+        "triangles": 390
+      },
+      "pinky": {
+        "vertices": 163,
+        "triangles": 295
+      },
+      "thumb": {
+        "vertices": 325,
+        "triangles": 606
+      }
+    },
+    "maximum_evaluated_mesh_vertex_frame_step_world_m": 0.0010724644853730841,
+    "max_overlap_counts": {
+      "index__middle": 0,
+      "index__ring": 0,
+      "index__pinky": 0,
+      "index__thumb": 0,
+      "middle__ring": 0,
+      "middle__pinky": 0,
+      "middle__thumb": 0,
+      "ring__pinky": 0,
+      "ring__thumb": 0,
+      "pinky__thumb": 0
+    },
+    "baseline_overlap_counts": {
+      "index__middle": 0,
+      "index__ring": 0,
+      "index__pinky": 0,
+      "index__thumb": 0,
+      "middle__ring": 0,
+      "middle__pinky": 0,
+      "middle__thumb": 0,
+      "ring__pinky": 0,
+      "ring__thumb": 0,
+      "pinky__thumb": 0
+    },
+    "endpoint_overlap_counts": {
+      "index__middle": 0,
+      "index__ring": 0,
+      "index__pinky": 0,
+      "index__thumb": 0,
+      "middle__ring": 0,
+      "middle__pinky": 0,
+      "middle__thumb": 0,
+      "ring__pinky": 0,
+      "ring__thumb": 0,
+      "pinky__thumb": 0
+    },
+    "scope": "Actual evaluated native mesh, disjoint dominant-weight digit triangle cohorts, epsilon0 BVH intersections at all105 frames. Weak-weight palm/webbing regions and same-digit self-folds are excluded; this bounded measurement is not full mesh collision certification. Visual full playback required. No prop/contact/grasp/Unity/MUG certification.",
+    "no_asset_source_edit": true
+  },
+  "native_inventory": {
+    "native_finger_bones": 30,
+    "right_finger_bones": [
+      "index1.R",
+      "index2.R",
+      "index3.R",
+      "middle1.R",
+      "middle2.R",
+      "middle3.R",
+      "ring1.R",
+      "ring2.R",
+      "ring3.R",
+      "pinky1.R",
+      "pinky2.R",
+      "pinky3.R",
+      "thumb1.R",
+      "thumb2.R",
+      "thumb3.R"
+    ],
+    "weights": {
+      "hand.R": {
+        "vertices": 996,
+        "max": 0.9400286078453064,
+        "sum": 405.10360968485475
+      },
+      "index1.R": {
+        "vertices": 458,
+        "max": 0.9981950521469116,
+        "sum": 142.25751253869385
+      },
+      "index2.R": {
+        "vertices": 178,
+        "max": 0.7600535154342651,
+        "sum": 67.07533942069858
+      },
+      "index3.R": {
+        "vertices": 127,
+        "max": 0.9003926515579224,
+        "sum": 54.34896328859031
+      },
+      "middle1.R": {
+        "vertices": 382,
+        "max": 0.9965857863426208,
+        "sum": 112.37451194878668
+      },
+      "middle2.R": {
+        "vertices": 147,
+        "max": 0.9964237809181213,
+        "sum": 73.87565257307142
+      },
+      "middle3.R": {
+        "vertices": 98,
+        "max": 0.9996027946472168,
+        "sum": 61.574055661447346
+      },
+      "ring1.R": {
+        "vertices": 411,
+        "max": 0.9624171853065491,
+        "sum": 114.84208638221025
+      },
+      "ring2.R": {
+        "vertices": 142,
+        "max": 0.9946141839027405,
+        "sum": 71.06104142591357
+      },
+      "ring3.R": {
+        "vertices": 67,
+        "max": 0.8890113830566406,
+        "sum": 35.853606685996056
+      },
+      "pinky1.R": {
+        "vertices": 349,
+        "max": 0.9974832534790039,
+        "sum": 103.16797783225775
+      },
+      "pinky2.R": {
+        "vertices": 111,
+        "max": 0.9908310770988464,
+        "sum": 48.91257371008396
+      },
+      "pinky3.R": {
+        "vertices": 55,
+        "max": 0.8825442790985107,
+        "sum": 25.261786463670433
+      },
+      "thumb1.R": {
+        "vertices": 598,
+        "max": 0.9956128001213074,
+        "sum": 247.22740398254246
+      },
+      "thumb2.R": {
+        "vertices": 123,
+        "max": 0.9405401945114136,
+        "sum": 47.38975785207003
+      },
+      "thumb3.R": {
+        "vertices": 70,
+        "max": 0.9888491034507751,
+        "sum": 34.242453118786216
+      }
+    },
+    "existing_finger_actions": [
+      {
+        "name": "MESHY_QA3_BODY_QA_BlinkHeld",
+        "range": [
+          1.0,
+          409.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_QA3_BODY_QA_HipStress",
+        "range": [
+          1.0,
+          601.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_QA3_BODY_QA_NeckExposed",
+        "range": [
+          1.0,
+          889.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_QA3_BODY_QA_ShoulderLimit",
+        "range": [
+          1.0,
+          241.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_QA3_BODY_QA_ShoulderStress",
+        "range": [
+          1.0,
+          529.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_GraspHoldRelease",
+        "range": [
+          1.0,
+          169.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_HeadGazeHair",
+        "range": [
+          1.0,
+          97.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_Idle",
+        "range": [
+          1.0,
+          73.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_Reach",
+        "range": [
+          1.0,
+          97.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_TalkGesture",
+        "range": [
+          1.0,
+          121.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_Tour",
+        "range": [
+          1.0,
+          769.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_WalkInPlace",
+        "range": [
+          1.0,
+          97.0
+        ],
+        "channel_count": 30
+      },
+      {
+        "name": "MESHY_R2_BODY_Wave",
+        "range": [
+          1.0,
+          97.0
+        ],
+        "channel_count": 30
+      }
+    ]
+  },
+  "normal_speed_UI": {
+    "review_url": "http://127.0.0.1:18890/REVIEW_HAND_RELAX_R1.html",
+    "start": [
+      {
+        "duration": 3.5,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "HAND_RELAX_hand_close_1x.mp4",
+        "time": 0.193703
+      },
+      {
+        "duration": 3.5,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "HAND_RELAX_front_1x.mp4",
+        "time": 0.193626
+      },
+      {
+        "duration": 3.5,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "HAND_RELAX_side_1x.mp4",
+        "time": 0.193536
+      }
+    ],
+    "end": [
+      {
+        "duration": 3.5,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "HAND_RELAX_hand_close_1x.mp4",
+        "time": 3.5
+      },
+      {
+        "duration": 3.5,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "HAND_RELAX_front_1x.mp4",
+        "time": 3.5
+      },
+      {
+        "duration": 3.5,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "HAND_RELAX_side_1x.mp4",
+        "time": 3.5
+      }
+    ],
+    "visual": "Three-view gentle curl and release; no gross thumb/finger penetration or abrupt pop observed. Fine webbing/palm and full collision certification HOLD."
+  },
+  "source_status": "SOURCE_ONLY_PROVISIONAL_CONTACT_HOLD",
+  "remaining_defects": [
+    "Source neutral open pose is used unchanged as relaxed-open; no polished hand-rest redesign",
+    "Gentle pregrasp only, no complete fist/thumb opposition/prop fit or physical grasp",
+    "Fine palm/webbing skin quality and exact whole-hand self-intersection HOLD; low-sample source QA",
+    "Original source arms/body remain neutral; no wrist/palm approach, forearm rotation or actual target-contact animation",
+    "Runtime Action ownership/clock must remain finger-only; Unity/AlwaysAnimate integration not executed"
+  ],
+  "original_44TierC": 44,
+  "StageB_F2_final_promotion": false,
+  "new_donor_capture_count": 0,
+  "all_prior_controls_and_bundles_preserved": true
+}

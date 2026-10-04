@@ -46,3 +46,8 @@ Bundle SHA256: 48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85
 Higgsfield: motion/camera/표현 참고 또는 최종 픽셀 제작 후보. 사용 전 현재 MCP 모델/입력 역할/비용을 다시 확인한다. 이번 준비에서 유료/무료 quota 모두 소비하지 않는다.
 Tripo/Meshy/AccuRIG: 기존 몸/리깅 자산 재사용. facial topology와 expression system의 자동 완성으로 가정하지 않는다.
 Audio-to-face: 입모양 보조 후보일 뿐 감정/시선/제스처 전체의 연출자가 아니다. 새로운 대형 설치보다 현재 rig mapping 우선.
+
+
+## 2026-10-04 · 원본 R4 finger-only 작은 후보 R1
+
+기존 820a237 보고를 finger task 완료로 혼동했던 응답을 정정했다. 실제 원본 R4의 기존 오른손 15개 뼈에만 relaxed-open → gentle curl/pregrasp → release Action을 추가했다. 105프레임/30fps/3.5초, 손목·전완·body·root 및 나머지 body bones world matrix 차이 0, endpoint 피부 형상 차이 0, 저장 재오픈 OFF neutral RGBA 차이 0. 손 close/front/side 전체 1x 재생 및 전신 위치 증거, 실제 evaluated digit surface 제한 cohort 교차 검사 전 구간 0을 남겼다. 원본/rig/weights/rest/material/face/gaze/기존78 Actions 보존. 정밀 hand skin/whole-hand collision·prop contact·physics·Unity·MUG·TierP/F2 승격 HOLD. [manifest](evidence/alpha-hand-relax-source-candidate-r1/HAND_RELAX_MANIFEST_R1.json), [보고서](evidence/alpha-hand-relax-source-candidate-r1/YURI_R4_HAND_RELAX_SOURCE_R1.md), [packet receipt](evidence/alpha-hand-relax-source-candidate-r1/PRIVATE_PACKET_RECEIPT_R1.json).
