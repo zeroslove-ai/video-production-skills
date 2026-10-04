@@ -1,0 +1,15 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_WALK_BODY_ENDPOINT_EXPERIMENT_C3_20261005.zip",
+  "sha256": "4fae853e78a6efd467a6866885ea8f611ed96a5577ea397d946e66ff1587276a",
+  "bytes": 145147246,
+  "members": 1232,
+  "indexed_members": 1231,
+  "CRC_SHA_size_all_verified": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "C2_candidate_SHA": "16505cad36e795cd5f08e6df13e8233b9ea9849518cc8597bbe1fec691276dc1",
+  "candidate_SHA": "6573ca7c6a3b09d95de7a0546c8eb4083db50b45f1cb495ee31c8310e49f7fc7",
+  "library_SHA": "c8f7ccdcbff04fb624f153cfbbc7b9942e8aae78ee0a925139f0910d056e8cea",
+  "closed_once": true,
+  "status": "FAIL_HOLD_LEFT_SOLE_FLOOR_REGRESSION",
+  "TierP": 0
+}

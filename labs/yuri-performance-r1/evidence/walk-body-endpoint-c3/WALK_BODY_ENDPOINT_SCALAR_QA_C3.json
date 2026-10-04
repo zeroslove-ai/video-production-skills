@@ -1,0 +1,707 @@
+{
+  "task": "ROOT_PM_WALK_C2_CLOSE_TO_BODY_ENDPOINT_C3_R1",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "C2_candidate_SHA": "16505cad36e795cd5f08e6df13e8233b9ea9849518cc8597bbe1fec691276dc1",
+  "source78_C2prior87_fresh_serialized_OFF_equal": true,
+  "candidate_SHA": "6573ca7c6a3b09d95de7a0546c8eb4083db50b45f1cb495ee31c8310e49f7fc7",
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_WALK_BODY_ENDPOINT_BODY_C3",
+    "Armature": "YURI_R4_WALK_BODY_ENDPOINT_HEAD_C3",
+    "Hair_Rig_R4": "YURI_R4_WALK_BODY_ENDPOINT_HAIR_C3",
+    "Assembly_Root": "YURI_R4_WALK_BODY_ENDPOINT_PATH_C3"
+  },
+  "method": "ONE compact discrete quaternion endpoint tangent repair, left thigh/shin/foot four components each; normalized quaternions, first/last3 samples only, N4 cubic bump. No root or right-leg or pelvis repair, parameter sweep, full-source replacement.",
+  "changes": [
+    {
+      "bone": "thigh.L",
+      "path": "pose.bones[\"thigh.L\"].rotation_quaternion",
+      "components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_source_frames": [
+        2,
+        3,
+        4,
+        94,
+        95,
+        96
+      ],
+      "max_quaternion_angle_delta_degrees": 0.356082280744668,
+      "before_derivative_quaternion_vector_mismatch_per_second": 0.14996071136560452,
+      "after_derivative_quaternion_vector_mismatch_per_second": 0.0003403410051892154
+    },
+    {
+      "bone": "shin.L",
+      "path": "pose.bones[\"shin.L\"].rotation_quaternion",
+      "components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_source_frames": [
+        2,
+        3,
+        4,
+        94,
+        95,
+        96
+      ],
+      "max_quaternion_angle_delta_degrees": 0.9108498018856881,
+      "before_derivative_quaternion_vector_mismatch_per_second": 0.3814989234749642,
+      "after_derivative_quaternion_vector_mismatch_per_second": 8.694960511178747e-07
+    },
+    {
+      "bone": "foot.L",
+      "path": "pose.bones[\"foot.L\"].rotation_quaternion",
+      "components": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_source_frames": [
+        2,
+        3,
+        4,
+        94,
+        95,
+        96
+      ],
+      "max_quaternion_angle_delta_degrees": 0.5524912271979812,
+      "before_derivative_quaternion_vector_mismatch_per_second": 0.2316367069994173,
+      "after_derivative_quaternion_vector_mismatch_per_second": 0.00041753126395737436
+    }
+  ],
+  "seam_max_actual_mesh_velocity_mismatch_m_per_s": {
+    "C2": {
+      "Meshy_Body_NeutralCovered": 0.07018240173265813,
+      "Character_Body_Head": 0.007002363030885842,
+      "Hair_Replacement_R4": 0.007003784801175519
+    },
+    "C3": {
+      "Meshy_Body_NeutralCovered": 0.013003283735814598,
+      "Character_Body_Head": 0.007002363030885842,
+      "Hair_Replacement_R4": 0.007003784801175519
+    }
+  },
+  "feet": {
+    "C2": {
+      "L": {
+        "intervals": [
+          {
+            "frames": [
+              1,
+              31
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.002042213703585639
+          },
+          {
+            "frames": [
+              48,
+              79
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.0012016925714516396
+          },
+          {
+            "frames": [
+              96,
+              127
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.001260771913285329
+          },
+          {
+            "frames": [
+              144,
+              175
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.001201677670290454
+          },
+          {
+            "frames": [
+              192,
+              193
+            ],
+            "common_vertices": 106,
+            "anchored_XY_excursion_m": 0.0012607798854069585
+          }
+        ],
+        "max_anchored_XY_excursion_m": 0.002042213703585639,
+        "max_persistent_XY_step_m": 0.0013083739901545307,
+        "min_gap_m": 0.00011717969964872055,
+        "frozen_C1_source_mask": true
+      },
+      "R": {
+        "intervals": [
+          {
+            "frames": [
+              1,
+              7
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.00099582187692941
+          },
+          {
+            "frames": [
+              24,
+              55
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.001201703486370921
+          },
+          {
+            "frames": [
+              72,
+              103
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.0018448996941307313
+          },
+          {
+            "frames": [
+              120,
+              151
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.001201736924335607
+          },
+          {
+            "frames": [
+              168,
+              193
+            ],
+            "common_vertices": 110,
+            "anchored_XY_excursion_m": 0.0012016406455867415
+          }
+        ],
+        "max_anchored_XY_excursion_m": 0.0018448996941307313,
+        "max_persistent_XY_step_m": 0.0013471843378857979,
+        "min_gap_m": 2.1698899599454182e-08,
+        "frozen_C1_source_mask": true
+      }
+    },
+    "C3": {
+      "L": {
+        "intervals": [
+          {
+            "frames": [
+              1,
+              31
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.002042213703585639
+          },
+          {
+            "frames": [
+              48,
+              79
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.0012016925714516396
+          },
+          {
+            "frames": [
+              96,
+              127
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.001624927130261215
+          },
+          {
+            "frames": [
+              144,
+              175
+            ],
+            "common_vertices": 78,
+            "anchored_XY_excursion_m": 0.001201677670290454
+          },
+          {
+            "frames": [
+              192,
+              193
+            ],
+            "common_vertices": 106,
+            "anchored_XY_excursion_m": 0.0004173218992671279
+          }
+        ],
+        "max_anchored_XY_excursion_m": 0.002042213703585639,
+        "max_persistent_XY_step_m": 0.0013083739901545307,
+        "min_gap_m": -0.0005191850299126642,
+        "frozen_C1_source_mask": true
+      },
+      "R": {
+        "intervals": [
+          {
+            "frames": [
+              1,
+              7
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.00099582187692941
+          },
+          {
+            "frames": [
+              24,
+              55
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.001201703486370921
+          },
+          {
+            "frames": [
+              72,
+              103
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.0018448996941307313
+          },
+          {
+            "frames": [
+              120,
+              151
+            ],
+            "common_vertices": 76,
+            "anchored_XY_excursion_m": 0.001201736924335607
+          },
+          {
+            "frames": [
+              168,
+              193
+            ],
+            "common_vertices": 110,
+            "anchored_XY_excursion_m": 0.0012016406455867415
+          }
+        ],
+        "max_anchored_XY_excursion_m": 0.0018448996941307313,
+        "max_persistent_XY_step_m": 0.0013471843378857979,
+        "min_gap_m": 2.1698899599454182e-08,
+        "frozen_C1_source_mask": true
+      }
+    }
+  },
+  "contact_regression": [
+    {
+      "phase_frame": 1,
+      "actual_global_frame": 1,
+      "affected_vertices": 17467,
+      "counts_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "counts_C3": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "new_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "removed_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      }
+    },
+    {
+      "phase_frame": 2,
+      "actual_global_frame": 2,
+      "affected_vertices": 18142,
+      "counts_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "counts_C3": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "new_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "removed_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      }
+    },
+    {
+      "phase_frame": 3,
+      "actual_global_frame": 3,
+      "affected_vertices": 18141,
+      "counts_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "counts_C3": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "new_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "removed_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      }
+    },
+    {
+      "phase_frame": 4,
+      "actual_global_frame": 4,
+      "affected_vertices": 18127,
+      "counts_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "counts_C3": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "new_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "removed_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      }
+    },
+    {
+      "phase_frame": 94,
+      "actual_global_frame": 94,
+      "affected_vertices": 28728,
+      "counts_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "counts_C3": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "new_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "removed_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      }
+    },
+    {
+      "phase_frame": 95,
+      "actual_global_frame": 95,
+      "affected_vertices": 18141,
+      "counts_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "counts_C3": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "new_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "removed_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      }
+    },
+    {
+      "phase_frame": 96,
+      "actual_global_frame": 96,
+      "affected_vertices": 18145,
+      "counts_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "counts_C3": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 44,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "new_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      },
+      "removed_pair_identities_vs_C2": {
+        "affected_vs_body_nonadjacent": 0,
+        "all_body_vs_Character_Body_Head": 0,
+        "all_body_vs_Hair_Replacement_R4": 0
+      }
+    }
+  ],
+  "contact_scope": "All actual BODY triangles versus head/hair; affected BODY triangles (actual moved vertices union weakANY left-leg weights>.01) versus ALL BODY triangles, nonadjacent identities. Seven unique changed/boundary phase samples; other frames actual full geometry unchanged, phase repetition and uniform root translation preserve pair identities. Existing source contact HOLD remains. No forces/COM/containment certificate.",
+  "root_path_all193_exact_C2": true,
+  "loop_delta_world_m": [
+    1.9930304073767502e-08,
+    -0.4198313331399457,
+    0.0
+  ],
+  "fps": 24,
+  "unique_video_frames": 192,
+  "actual_eval_frames": 193,
+  "TierP": 0,
+  "Unity_F2_StageB_promotion": false,
+  "elapsed_before_render_seconds": 174.45489499997348,
+  "views": {
+    "front": {
+      "type": "ORTHO",
+      "ortho_scale": 1.55,
+      "target": [
+        0.002000020118430257,
+        -0.44783133268356323,
+        0.5299999713897705
+      ],
+      "location": [
+        0.002000020118430257,
+        -1.2478313446044922,
+        0.5299999713897705
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "resolution": [
+        320,
+        320
+      ],
+      "fixed": true,
+      "original_cached_camera": {
+        "type": "ORTHO",
+        "ortho_scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "location": [
+          0.0020000000949949026,
+          -0.828000009059906,
+          0.5299999713897705
+        ],
+        "rotation_euler": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "lens_mm": 50.0,
+        "sensor_width_mm": 36.0,
+        "fixed": true,
+        "resolution": [
+          320,
+          320
+        ],
+        "fps": 24.0,
+        "frames": [
+          1,
+          97
+        ]
+      },
+      "cached_to_new_pixel_scale": 0.7612903225806451,
+      "cached_to_new_center_shift_xy_pixels": [
+        -4.133870524744834e-06,
+        1.4121127195164351e-05
+      ],
+      "C1_cycle1": "Reuse cached native C1frames1..96 via calibrated orthographic affine reframe; resampling disclosed. C1cycle2 and C2all192 are actual new renders."
+    },
+    "quarter": {
+      "type": "ORTHO",
+      "ortho_scale": 1.55,
+      "target": [
+        0.002000020118430257,
+        -0.44783133268356323,
+        0.5299999713897705
+      ],
+      "location": [
+        0.41359665989875793,
+        -1.133825659751892,
+        0.5299999713897705
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        4.280959586822064e-08,
+        0.5404196381568909
+      ],
+      "resolution": [
+        320,
+        320
+      ],
+      "fixed": true,
+      "original_cached_camera": {
+        "type": "ORTHO",
+        "ortho_scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "location": [
+          0.41359663009643555,
+          -0.7139943242073059,
+          0.5299999713897705
+        ],
+        "rotation_euler": [
+          1.5707963705062866,
+          4.280959586822064e-08,
+          0.5404196381568909
+        ],
+        "lens_mm": 50.0,
+        "sensor_width_mm": 36.0,
+        "fixed": true,
+        "resolution": [
+          320,
+          320
+        ],
+        "fps": 24.0,
+        "frames": [
+          1,
+          97
+        ]
+      },
+      "cached_to_new_pixel_scale": 0.7612903225806451,
+      "cached_to_new_center_shift_xy_pixels": [
+        44.593850559554525,
+        1.339720046480757e-06
+      ],
+      "C1_cycle1": "Reuse cached native C1frames1..96 via calibrated orthographic affine reframe; resampling disclosed. C1cycle2 and C2all192 are actual new renders."
+    },
+    "side": {
+      "type": "ORTHO",
+      "ortho_scale": 1.55,
+      "target": [
+        0.002000020118430257,
+        -0.44783133268356323,
+        0.5299999713897705
+      ],
+      "location": [
+        0.8020000457763672,
+        -0.44783133268356323,
+        0.5299999713897705
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "resolution": [
+        320,
+        320
+      ],
+      "fixed": true,
+      "original_cached_camera": {
+        "type": "ORTHO",
+        "ortho_scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "location": [
+          0.8019999861717224,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "rotation_euler": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "lens_mm": 50.0,
+        "sensor_width_mm": 36.0,
+        "fixed": true,
+        "resolution": [
+          320,
+          320
+        ],
+        "fps": 24.0,
+        "frames": [
+          1,
+          97
+        ]
+      },
+      "cached_to_new_pixel_scale": 0.7612903225806451,
+      "cached_to_new_center_shift_xy_pixels": [
+        86.67485637049539,
+        1.5088815403783043e-14
+      ],
+      "C1_cycle1": "Reuse cached native C1frames1..96 via calibrated orthographic affine reframe; resampling disclosed. C1cycle2 and C2all192 are actual new renders."
+    }
+  },
+  "actual_two_cycle_capture_complete": true,
+  "fullraw_OFF_after_render_equal": true,
+  "elapsed_seconds": 354.51692580000963,
+  "library_SHA": "c8f7ccdcbff04fb624f153cfbbc7b9942e8aae78ee0a925139f0910d056e8cea",
+  "OFF_pixels": {
+    "changed_pixels": 0,
+    "max_RGBA_delta": 0,
+    "exact_decoded_RGBA_equal": true,
+    "dimensions": [
+      920,
+      960,
+      4
+    ]
+  },
+  "max_geometry_pose_change_m": {
+    "Meshy_Body_NeutralCovered": 0.0015166901362609277,
+    "Character_Body_Head": 0.0,
+    "Hair_Replacement_R4": 0.0
+  },
+  "actual_changed_bones": [
+    "foot.L",
+    "shin.L",
+    "thigh.L"
+  ],
+  "changed_global_frames": [
+    2,
+    3,
+    4,
+    94,
+    95,
+    96,
+    98,
+    99,
+    100,
+    190,
+    191,
+    192
+  ],
+  "contact_new_pair_max": 0,
+  "visual": "Whole front/quarter/side192frames8secactualUI1x through-end; cycle2 all96 grids threeviews plus cycle1 side grid inspected. No gross new pose pop/head detach visible in low-resolution preview; sub-mm sole defect proven by geometry, not waived by pixels.",
+  "verdict": "FAIL_HOLD_LEFT_SOLE_FLOOR_REGRESSION",
+  "public_retention": "Rejected ONE C3; no second strength/tangent candidate. Source/C1/C2 retained.",
+  "next_scope": "Root steering: stand-sit-short hold-stand ONE source-only sequence; reuse known shortlist Sitting_Enter/Sitting_Idle_Loop/Sitting_Exit dedicated CC0 FBX, inspect compatibility before using. Front-arm stretch proposal superseded, unexecuted."
+}
