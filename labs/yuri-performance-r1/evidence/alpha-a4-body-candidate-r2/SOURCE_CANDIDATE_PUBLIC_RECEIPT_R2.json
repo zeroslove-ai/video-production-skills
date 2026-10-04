@@ -1,0 +1,192 @@
+{
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "donor_SHA": "1445327889d802b752551228771b4df5a738e6d8eb0988571d1733bee93c7330",
+  "previous_candidate_SHA": "ab56f98812fca4f36d7a9a23b1f3ef6fb35f8dcdce6ebbc862e86f8a1852362e",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-contact-candidate-r2\\Character_R4_A4_BODY_CANDIDATE_OFF_R2_20261004.blend",
+  "candidate_SHA": "722ea2301caa07f20fb62be571a1ec2293d7062f12053ec79cb80e428ca257b5",
+  "candidate_bytes": 27151227,
+  "action": "YURI_R4_A4_BODY_CANDIDATE_R2",
+  "mapped_bones": 21,
+  "frame_range": [
+    1,
+    252
+  ],
+  "action_source_fps_readback": 30.0,
+  "source_scene_fps_readback": 24.0,
+  "original_BVH_fps_readback": 30.0003,
+  "key_interval_sec": 8.366666666666667,
+  "original_actions_and_OFF_snapshot_exact": true,
+  "face_gaze_hair_channel_writes": 0,
+  "support_z_correction_range_m": [
+    -0.0016034046577572574,
+    0.002941089325930357
+  ],
+  "root_range_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_joint_frame_step_m": 0.004488370014243221,
+  "clean_sole_offsets_m": {
+    "L": [
+      -7.073854848036518e-08,
+      0.0060040741214465
+    ],
+    "R": [
+      -5.230301721213024e-08,
+      0.00733019071481562
+    ]
+  },
+  "loop_authored": false,
+  "foot_contact_physics_certified": false,
+  "self_intersection_certified": false,
+  "TierP": 0,
+  "root_policy": "Original root fixed; donor normalized pelvis first-frame displacement; per-frame grounded support-sole Z correction only; intentional horizontal motion retained",
+  "consumer_export_clock": "Read Action source_fps30 / clip mapping fps30, never source scene24; actual Unity/export not performed",
+  "limits": "Support-floor correction only for grounded idle/weight-shift; no horizontal foot locking, no donated fingers/face/gaze, no jump semantics, source scene24 retained",
+  "scope": "Source-only immutable-R4 additive body Action candidate; no visual/product promotion",
+  "step": "a4",
+  "OFF_neutral_pixel_exact": true,
+  "OFF_max_RGBA_difference": 0,
+  "neutral_witness_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-contact-qa-r3\\CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png",
+  "neutral_witness_SHA": "7bfe2b118fa23ef9ce0a4f31a788df904abad34a91373e093096b2b40f21ceee",
+  "native_geometry_frames_evaluated": 252,
+  "body_min_z_offset_min_m": -7.073854848036518e-08,
+  "contact_proxy": {
+    "L": {
+      "near_floor_threshold_m": 0.002,
+      "near_floor_frames": 182,
+      "near_floor_runs": 2,
+      "longest_near_floor_run_frames": [
+        124,
+        252
+      ],
+      "longest_run_centroid_xy_range_m": [
+        0.005546413380152097,
+        0.003018685374332454
+      ],
+      "near_floor_centroid_speed_max_mps": 0.029575336409465254,
+      "domain": "Evaluated original neutral sole vertex cohort centroid; near-floor proxy only, not authored stance/contact labels or physics. Range is not automatic sliding FAIL."
+    },
+    "R": {
+      "near_floor_threshold_m": 0.002,
+      "near_floor_frames": 151,
+      "near_floor_runs": 1,
+      "longest_near_floor_run_frames": [
+        1,
+        151
+      ],
+      "longest_run_centroid_xy_range_m": [
+        0.009375678476803387,
+        0.004315926143863056
+      ],
+      "near_floor_centroid_speed_max_mps": 0.022115079349082804,
+      "domain": "Evaluated original neutral sole vertex cohort centroid; near-floor proxy only, not authored stance/contact labels or physics. Range is not automatic sliding FAIL."
+    }
+  },
+  "movies": {
+    "front": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-contact-candidate-r2\\A4_front_1x.mp4",
+      "bytes": 694085,
+      "sha256": "aba49190764748c828c59f4e90162a251d4760ca31a48e2a43228f219ba290f1",
+      "width": 256,
+      "height": 384,
+      "r_frame_rate": "30/1",
+      "duration": "8.400000",
+      "nb_frames": "252",
+      "whole_decode": true,
+      "render_receipt_sha256": "5a625b45d006a0c6fbcf91268c9b16e52651087690cf7f42941a410965ea5599"
+    },
+    "quarter": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-contact-candidate-r2\\A4_quarter_1x.mp4",
+      "bytes": 603474,
+      "sha256": "be81427024850eef2f64640ef3df110fbd97e6a371f15cba9a29b05a77848039",
+      "width": 256,
+      "height": 384,
+      "r_frame_rate": "30/1",
+      "duration": "8.400000",
+      "nb_frames": "252",
+      "whole_decode": true,
+      "render_receipt_sha256": "b2eebb97c2d35042af423af408baef017614447fe89a01ab67cd5ec3f2bae72e"
+    },
+    "side": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-contact-candidate-r2\\A4_side_1x.mp4",
+      "bytes": 453035,
+      "sha256": "ad9b2bd5459eeb4ae1c72c045e3529b6c45b27d3fe3d10f40e7d8c748015f04b",
+      "width": 256,
+      "height": 384,
+      "r_frame_rate": "30/1",
+      "duration": "8.400000",
+      "nb_frames": "252",
+      "whole_decode": true,
+      "render_receipt_sha256": "cf41634284b2b92a71efe1bf9ee598a18789e2eb33e673804ed394873a5ee096"
+    }
+  },
+  "UI_playback": {
+    "observation_method": "Actual CUA UI button click, full normal-speed playback, readonly DOM media endpoint inspection",
+    "date": "2026-10-04",
+    "videos": [
+      {
+        "src": "http://127.0.0.1:8781/A4_front_1x.mp4",
+        "time": 8.4,
+        "duration": 8.4,
+        "ended": true,
+        "rate": 1,
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:8781/A4_quarter_1x.mp4",
+        "time": 8.4,
+        "duration": 8.4,
+        "ended": true,
+        "rate": 1,
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:8781/A4_side_1x.mp4",
+        "time": 8.4,
+        "duration": 8.4,
+        "ended": true,
+        "rate": 1,
+        "error": null
+      }
+    ],
+    "final_quality_certified": false
+  },
+  "native_guard_receipts": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-inspect-broker-r1\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "4cbea319eff983211115c5b0c97009a6ad44d0aa22583d3ffa184073ceec8e1f",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-candidate-broker-r1\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "9ca869d2116ad683e736c8df1abea8048f2765d078fee9af9b88d35777d48771",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-contact-broker-r2\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "29a90b65eb2bbb832b0dabb314e3da3b1e8d0f0b06ac7509529dbc177a0a8443",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-front-preview-broker-r2\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "ed73b949e42c2d67d4b8194da374491f5fb72cf5894499340756a836ee13f7e8",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-quarter-preview-broker-r2\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "b8390db863864a6a1525b26a861441a8dd280a86d478b735bd48a634e3a2513a",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-side-preview-broker-r2\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "d688e4441cf0e19b32214a8a1a8777f53ec410822cf2f77a81d225ebe737b1cd",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    }
+  },
+  "semantics": "weight shift; not authored loop",
+  "visual_verdict": "Source subset only; no obvious gross silhouette break in sampled views; complete media playback/decode observed. Low sample/resolution, static face/gaze, no exhaustive self-intersection/stance-slip certification.",
+  "acceptance_hold": [
+    "Unity AlwaysAnimate regression gate",
+    "TierP",
+    "StageB",
+    "O1",
+    "PRIMARY",
+    "F2-F3 final quality"
+  ]
+}
