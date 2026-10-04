@@ -1,0 +1,33 @@
+"""Read-only saved OFF oracle and original camera neutral render for new walk candidate."""
+import bpy,json,hashlib,sys
+from pathlib import Path
+HERE=Path(__file__).resolve().parent;sys.path.insert(0,str(HERE))
+from r4_appearance_signature import snapshot,difference,props
+BASE=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');OUT=BASE/'alpha-reach-left-finger-timing-off-qa-r2';OUT.mkdir(exist_ok=False);d=json.loads((BASE/'alpha-reach-left-finger-timing-candidate-r2/REACH_LEFT_FINGER_TIMING_CANDIDATE_PRIVATE_R2.json').read_bytes());source=Path(d['source']);candidate=Path(d['candidate']);sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+def images():
+ out={}
+ for i in bpy.data.images:
+  if i.type=='RENDER_RESULT':continue
+  raw=props(i);resolved=dict(raw)
+  for k in ['filepath','filepath_raw']:
+   if resolved.get(k):resolved[k]=str(Path(bpy.path.abspath(resolved[k])).resolve())
+  out[i.name]={'raw':raw,'resolved':resolved,'colorspace':props(i.colorspace_settings),'packed':[hashlib.sha256(p.packed_file.data).hexdigest() for p in i.packed_files]}
+ return out
+assert sha(source)==d['source_SHA'] and sha(candidate)==d['candidate_SHA'];bpy.ops.wm.open_mainfile(filepath=str(source),use_scripts=False);names=[a.name for a in bpy.data.actions];authority=snapshot(names);textures=images();bpy.ops.wm.open_mainfile(filepath=str(candidate),use_scripts=False);actual=snapshot(names);now=images();diff=difference(authority,actual);assert all(k=='textures' for k in diff);assert set(now)==set(textures)
+for n in textures:assert textures[n]['resolved']==now[n]['resolved'] and textures[n]['colorspace']==now[n]['colorspace'] and textures[n]['packed']==now[n]['packed']
+s=bpy.context.scene;assert s.render.fps/s.render.fps_base==24
+added_names=[*d['additive_body_actions'].values(),d['finger_action'],d['preserved_right_finger_action'],d['preserved_previous_left_finger_action']]
+for n in added_names:assert bpy.data.actions[n]['source_fps']==30
+assert snapshot(added_names)['actions']==d['existing_action_signatures'], 'Reopened Action curves differ from pre-save signatures'
+s.render.engine='CYCLES';s.cycles.device='CPU';s.cycles.samples=8;s.cycles.seed=0;s.cycles.use_animated_seed=False;s.cycles.use_denoising=False;s.render.threads_mode='FIXED';s.render.threads=2;s.render.image_settings.file_format='PNG';s.render.image_settings.color_mode='RGBA';s.render.image_settings.color_depth='8';s.render.filepath=str(OUT/'SAVED_OFF_SOURCE_CAMERA_NEUTRAL.png');bpy.ops.render.render(write_still=True)
+with (OUT/'OFF_REOPEN_ORACLE_R3.json').open('x',encoding='utf8') as f:json.dump({'candidate_SHA':sha(candidate),'source_SHA':sha(source),'original_actions':len(names),'raw_snapshot_diff':diff,'all_nontexture_geometry_material_nodes_weights_keys_rest_drivers_bindings_scene_exact':True,'packed_texture_bytes_colorspace_resolved_properties_exact':True,'raw_locator_strings_remapped':bool(diff),'source_scene_fps':24,'all_four_additive_Action_fps':30,'neutral_render':'Original camera/lights/material/color settings; deterministic CPU8samples, compare against existing authoritative witness separately','save_export_source_write':False},f,indent=2)
+print('SAVED_OFF_WALK_SOURCE_CONTENT_EXACT',flush=True)
+
+LIB=OUT/"YURI_R4_REACH_LEFT_FINGER_TIMING_ACTIONS_ONLY_R2.blend"
+bpy.data.libraries.write(str(LIB),{bpy.data.actions[n] for n in [*d["additive_body_actions"].values(),d["finger_action"],d["preserved_right_finger_action"],d["preserved_previous_left_finger_action"]]},fake_user=True)
+bpy.ops.wm.read_factory_settings(use_empty=True)
+with bpy.data.libraries.load(str(LIB),link=False) as (src,dst):
+ assert len(src.actions)==7 and not src.objects and not src.meshes and not src.armatures
+ dst.actions=list(src.actions)
+assert len(bpy.data.actions)==7 and not bpy.data.objects and not bpy.data.meshes and not bpy.data.armatures
+with (OUT/"ACTION_ONLY_CUSTODY_R1.json").open("x",encoding="utf8") as f:json.dump({"file":LIB.name,"bytes":LIB.stat().st_size,"sha256":sha(LIB),"actions":[*d["additive_body_actions"].values(),d["finger_action"],d["preserved_right_finger_action"],d["preserved_previous_left_finger_action"]],"objects":0,"meshes":0,"armatures":0},f,indent=2)

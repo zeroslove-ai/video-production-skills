@@ -163,5 +163,31 @@
     "TierP": 0,
     "Unity_MUG_StageB_F2": "HOLD",
     "next_single_motion_alternative": "Finger-only timing release complete before frame51; preserve C1 body/wrist curves, inherited contact and original-neutral HOLD."
+  },
+  "C1_same_hand_finger_timing_r2": {
+    "status": "SOURCE_ONLY_TIMING_ADDED_INTERSECTION_PASS_BASELINE_CONTACT_HOLD",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "3a8390e5aea876e1a44ad79acfd4e02836a96ef5489981c60e8b0ac4859dade9",
+    "packet_SHA": "cd72853c34da55ffc610c5cd8a0cf89078dbdb56f986b6c8b739690ed81b76fd",
+    "report": "evidence/alpha-reach-left-finger-timing-r2/YURI_R4_C1_FINGER_TIMING_R2.md",
+    "nonfinger_same_C1_world_error": 0,
+    "OFF_neutral_changed_pixels": 0,
+    "new_intersection_pairs_all61": 0,
+    "baseline_contact_intervals": [
+      [
+        1,
+        7
+      ],
+      [
+        50,
+        61
+      ]
+    ],
+    "body_wrist_curves": "unchanged",
+    "normal_speed_actual_UI": "4 views whole61 at1x, ended true, error null",
+    "original_neutral_return": "HOLD",
+    "C1_baseline_contact": "FAIL_HOLD",
+    "TierP": 0,
+    "next_scope": "C1 baseline hand/body clearance and original-neutral-compatible return need separate derivative scope; dance read-only materials registered, actual rig QA PENDING"
   }
 }

@@ -67,3 +67,8 @@ Bundle SHA256: 48d3a241566823991801011a63ebc7e76b2c8821c6b87aaf8d013791e6330f85
 ## 2026-10-04 · C1 같은 왼손 finger layer source checkpoint
 
 오른손 조합 R1 Action 유실 실패와 R2 보존 수정, 좌우 불일치·오른손/몸 교차를 보존했다. 기존 C1 왼손 reach에 실제 왼손 rest 축으로 별도15 finger Action을 추가해 body/wrist/root 동일시각 변환차이0, 기존78Actions/오른손Action/6개 조합Action 곡선 및 원본외형 보존, OFF RGBA차이0, 61프레임30fps 손close/front/side/fullbody 전체1x 검증. 같은 손 조합 TECH PASS이나 C1 baseline에도 표면교차가 있고 curl이 복귀51–55에서 추가교차를 만들어 CONTACT FAIL/HOLD. 시작/끝C1 baseline동일, 원본R4neutral-return·prop/physics/Unity/MUG/TierP/F2 HOLD. [manifest](evidence/alpha-reach-left-finger-source-r1/SAME_HAND_SOURCE_MANIFEST_R1.json), [causal log](evidence/alpha-reach-left-finger-source-r1/CAUSAL_FAILURE_CORRECTION_R1.json), [packet](evidence/alpha-reach-left-finger-source-r1/PRIVATE_PACKET_RECEIPT_R1.json). 다음 motion 대안 하나는 body곡선 불변으로 release를51이전에 완료하는 timing-only 실험이다.
+
+
+### 2026-10-04 C1 LEFT finger timing-only R2
+
+기존 C1 body/wrist/root/face·hair transport 및 모든 이전 Action 보존. LEFT curl은 1–32프레임 실제 native 값/axes가 R1과 동일하고, release만33–44로 앞당겨45–61 완전 open. all61 같은 시각 실제 삼각형 쌍 ON/OFF 대조에서 새 교차0. 이 subset만 PASS; C1 baseline 관통1–7/50–61과 original-neutral 복귀는 FAIL/HOLD, TierP0. OFF/reopen 원본 geometry/material/keys/weights/rest/drivers/78Actions 동일 및960×920 RGBA 변경픽셀0. 네 구도61frames30fps 전체decode와 실제1x through-end PASS. 후보3a8390e5, 독립bundle cd72853c /65,873,129bytes/109members108indexed 전체CRC/SHA/size PASS. wrapper import-path 실행실패(exit95/drain0)를 보존했고 새R2b가 동일 guarded renderer 통과. 보고: evidence/alpha-reach-left-finger-timing-r2/YURI_R4_C1_FINGER_TIMING_R2.md. 기존1153398/68b46806 실패-control packet은 변경하지 않음.

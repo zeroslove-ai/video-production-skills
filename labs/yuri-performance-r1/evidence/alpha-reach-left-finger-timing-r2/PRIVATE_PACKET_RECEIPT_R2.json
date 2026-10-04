@@ -1,0 +1,14 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_C1_LEFT_FINGER_TIMING_SOURCE_ONLY_R2_20261004.zip",
+  "bytes": 65873129,
+  "sha256": "cd72853c34da55ffc610c5cd8a0cf89078dbdb56f986b6c8b739690ed81b76fd",
+  "members": 109,
+  "indexed_members": 108,
+  "CRC_SHA_size_all_members": "PASS",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "3a8390e5aea876e1a44ad79acfd4e02836a96ef5489981c60e8b0ac4859dade9",
+  "added_intersections_subset": "PASS",
+  "C1_baseline_contact": "FAIL_HOLD",
+  "original_neutral_return": "HOLD",
+  "TierP": 0
+}

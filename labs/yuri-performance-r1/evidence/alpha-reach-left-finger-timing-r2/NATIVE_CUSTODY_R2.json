@@ -1,0 +1,32 @@
+[
+  {
+    "run": "o1-reach-left-finger-timing-candidate-r2",
+    "SHA": "65c88bf7bffce493922432da58fe4ad056f4cb4a33710610eafd8a2c70ffaca5",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 132.665170399996
+  },
+  {
+    "run": "o1-reach-left-finger-timing-paired-r2",
+    "SHA": "35ce7efc4cdf3864fbe214448b14f47a5d17c4bca739b4c2a5143426b9b90a53",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 124.19671819999348
+  },
+  {
+    "run": "o1-reach-left-finger-timing-off-r2",
+    "SHA": "b1e5bb39b672a5a7f2ef232fbef9f468236a34d5b817ded11e9b490cde94f7a7",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 32.581018699973356
+  },
+  {
+    "run": "o1-reach-left-finger-timing-full-r2",
+    "SHA": "3c20758e5f2e0a43fa964b80d95d7088e759919dc2b27284de56be172ef8c9bc",
+    "status": "FAIL",
+    "wall_seconds": 1.6074777000467293
+  },
+  {
+    "run": "o1-reach-left-finger-timing-full-r2b",
+    "SHA": "b71c9692e09f8054e9c44ff77bd682829396e8c5201807c356af57b277add89b",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 490.62327229999937
+  }
+]
