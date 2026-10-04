@@ -1,3 +1,7 @@
+## Sit frame8 native constraint discriminator — 2026-10-05
+
+FAIL/HOLD: old18 pair identities removed but newBODY53; whole original sole anchor residualL23.925/R21.549mm, left lowest sole−21.172mm. Knee errors+2.596/−4.353deg. Finite one-pose solve is not global infeasibility/weights-only proof. Original78/OFFRGBA0; no121frame expansion. Correct matched3view renders use explicit old/new Action binding and exacttriangle/meshhash revalidation; initial Action-reevaluation identical capture and first missing-oldlibrary repair failure preserved. Closed packet c5500ea30d7cde2f5c60ba7c667ca6a648f62f1fc60b744e8a3aedc328dad05b /58220315bytes/70indexed. [보고](evidence/sit-stand-frame8-constraint-r1/YURI_R4_SIT_STAND_FRAME8_CONSTRAINT_R1_KO.md). Next authorized distinct approach is original-neutral target-native feasible seated pose, donor timing/intent only, no rig/geometry change.
+
 ## Sit/Stand source causal closure — 2026-10-05
 
 원본 R4 외형/78 Actions/neutral OFF 픽셀 동일. 한 후보 stand→sit→1.67sec hold→stand, 121frames/30fps/3views 전체 1x 재생 완료. Motion FAIL/HOLD: frame8 right knee18 new surface pairs, peak BODY1794, persistent right sole proximity step13.946mm. Lowest-sole height fit은 whole-patch stance 보장이 아니다. Lower rotation transfer는 3개 표본에서 일치하지만 native anatomical knee bias 약2.55deg; weight 단독 원인은 UNKNOWN. 최초600sec watchdog FAIL을 보존하고 같은 SHA 후보의 누락209 render만 별도 strict guard PASS로 완성(154 native image byte-exact reuse).

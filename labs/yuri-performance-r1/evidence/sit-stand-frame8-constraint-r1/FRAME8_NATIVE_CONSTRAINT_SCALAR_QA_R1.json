@@ -1,0 +1,244 @@
+{
+  "task": "ROOT_PM_SIT_STAND_FRAME8_NATIVE_CONSTRAINT_REPAIR_R1",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "old_candidate_SHA": "8bc13115e1a2ee5055b413c7f015650ddd1b039d34b34be9acccfe4e0de7860e",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-sit-stand-frame8-constraint-r1\\Character_R4_SitFrame8_CONSTRAINT_EXPERIMENT_OFF_R1.blend",
+  "candidate_SHA": "387286e4eec874a35f7220bdcb2fb00228d638db57a025b8a0a45102a45aee06",
+  "library": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-sit-stand-frame8-constraint-r1\\YURI_R4_SIT_FRAME8_CONSTRAINT_ACTIONS_ONLY_R1.blend",
+  "library_SHA": "494bf8702f957a2f46512b2efdc2dddfa5c93fb5e1f001e726e8769082030006",
+  "frame8_only": true,
+  "solve_iteration_history": [
+    {
+      "iteration": 0,
+      "objective": 0.023520759280577515,
+      "accepted": true,
+      "damping": 4.000000000000001e-06
+    },
+    {
+      "iteration": 1,
+      "objective": 0.023520759280577515,
+      "accepted": false,
+      "damping": 3.2000000000000005e-05
+    },
+    {
+      "iteration": 2,
+      "objective": 0.023520759280577515,
+      "accepted": false,
+      "damping": 0.00025600000000000004
+    },
+    {
+      "iteration": 3,
+      "objective": 0.023520759280577515,
+      "accepted": false,
+      "damping": 0.0020480000000000003
+    },
+    {
+      "iteration": 4,
+      "objective": 0.0179108143032226,
+      "accepted": true,
+      "damping": 0.0008192000000000002
+    },
+    {
+      "iteration": 5,
+      "objective": 0.0179108143032226,
+      "accepted": false,
+      "damping": 0.0065536000000000014
+    },
+    {
+      "iteration": 6,
+      "objective": 0.009198784844533315,
+      "accepted": true,
+      "damping": 0.002621440000000001
+    },
+    {
+      "iteration": 7,
+      "objective": 0.0035434450505404487,
+      "accepted": true,
+      "damping": 0.0010485760000000005
+    },
+    {
+      "iteration": 8,
+      "objective": 0.0033824984554682407,
+      "accepted": true,
+      "damping": 0.00041943040000000023
+    },
+    {
+      "iteration": 9,
+      "objective": 0.0033824984554682407,
+      "accepted": false,
+      "damping": 0.003355443200000002
+    },
+    {
+      "iteration": 10,
+      "objective": 0.0012575300901124823,
+      "accepted": true,
+      "damping": 0.0013421772800000008
+    },
+    {
+      "iteration": 11,
+      "objective": 0.0012575300901124823,
+      "accepted": false,
+      "damping": 0.010737418240000006
+    },
+    {
+      "iteration": 12,
+      "objective": 0.00039880274829618795,
+      "accepted": true,
+      "damping": 0.0042949672960000025
+    },
+    {
+      "iteration": 13,
+      "objective": 0.00033868744622771765,
+      "accepted": true,
+      "damping": 0.0017179869184000011
+    },
+    {
+      "iteration": 14,
+      "objective": 0.000311200109819815,
+      "accepted": true,
+      "damping": 0.0006871947673600005
+    },
+    {
+      "iteration": 15,
+      "objective": 0.000311200109819815,
+      "accepted": false,
+      "damping": 0.005497558138880004
+    },
+    {
+      "iteration": 16,
+      "objective": 0.00028932060476308225,
+      "accepted": true,
+      "damping": 0.002199023255552002
+    },
+    {
+      "iteration": 17,
+      "objective": 0.0002699843113062405,
+      "accepted": true,
+      "damping": 0.0008796093022208008
+    }
+  ],
+  "solve_seconds": 219.64290460001212,
+  "variables": "21 pelvis-local translation + 6 native lower bone exponential-map rotation deltas; upper local reference fixed; toe original OFF local rotation. No rest/bind/skin/mesh change.",
+  "whole_original_sole_anchor_vertices": {
+    "L": 218,
+    "R": 223
+  },
+  "corridor_definition": "Knee in original foot/toe forward half-plane relative hip/ankle midpoint; sagittal lateral residual <=15mm. Joint-pose constraints only, not force/support.",
+  "old_actual": {
+    "L": {
+      "knee_flexion_degrees": 33.73691867209921,
+      "desired_donor_knee_degrees": 31.29423027065304,
+      "knee_angle_error_degrees": 2.4426884014461705,
+      "knee_forward_m": 0.06522800028324127,
+      "knee_lateral_m": -0.012339547276496887,
+      "whole_original_patch_max_anchor_error_m": 0.11859160844617919,
+      "patch_rms_anchor_error_m": 0.11538047214052721,
+      "patch_max_XY_drift_m": 0.1185915871212326,
+      "patch_gap_min_max_m": [
+        -1.3960537695214246e-08,
+        0.0028765846476668075
+      ],
+      "whole_foot_min_gap_m": -1.3960537695214246e-08
+    },
+    "R": {
+      "knee_flexion_degrees": 62.23578235624712,
+      "desired_donor_knee_degrees": 59.68488090189306,
+      "knee_angle_error_degrees": 2.5509014543540625,
+      "knee_forward_m": 0.10305798053741455,
+      "knee_lateral_m": 0.06456872075796127,
+      "whole_original_patch_max_anchor_error_m": 0.10947660027266795,
+      "patch_rms_anchor_error_m": 0.0972777707742631,
+      "patch_max_XY_drift_m": 0.1071845321168622,
+      "patch_gap_min_max_m": [
+        0.0219986782693093,
+        0.0425248286788182
+      ],
+      "whole_foot_min_gap_m": 0.0219986782693093
+    }
+  },
+  "constraint_actual": {
+    "L": {
+      "knee_flexion_degrees": 33.89066362088878,
+      "desired_donor_knee_degrees": 31.29423027065304,
+      "knee_angle_error_degrees": 2.5964333502357437,
+      "knee_forward_m": 0.06823350489139557,
+      "knee_lateral_m": 0.0009420625865459442,
+      "whole_original_patch_max_anchor_error_m": 0.023925414850375724,
+      "patch_rms_anchor_error_m": 0.010281992334079441,
+      "patch_max_XY_drift_m": 0.004319669079353336,
+      "patch_gap_min_max_m": [
+        -0.020572969420164,
+        0.00891830112038645
+      ],
+      "whole_foot_min_gap_m": -0.021172297580027078
+    },
+    "R": {
+      "knee_flexion_degrees": 55.331985111560634,
+      "desired_donor_knee_degrees": 59.68488090189306,
+      "knee_angle_error_degrees": -4.3528957903324255,
+      "knee_forward_m": 0.10661487281322479,
+      "knee_lateral_m": 0.015096768736839294,
+      "whole_original_patch_max_anchor_error_m": 0.0215489630667833,
+      "patch_rms_anchor_error_m": 0.0092737170557919,
+      "patch_max_XY_drift_m": 0.006289079536531134,
+      "patch_gap_min_max_m": [
+        0.0002979666548774375,
+        0.02359556398776381
+      ],
+      "whole_foot_min_gap_m": 0.0002979666548774375
+    }
+  },
+  "constraints_all_residuals_within_declared_tolerance": false,
+  "exact_old18_retained": 0,
+  "exact_old18_removed": 18,
+  "all_crossings_counts": {
+    "Meshy_Body_NeutralCovered__self_nonadjacent": {
+      "old_new_vs_OFF": 18,
+      "constraint_new_vs_OFF": 53,
+      "introduced_vs_old": 53
+    },
+    "Character_Body_Head__self_nonadjacent": {
+      "old_new_vs_OFF": 66,
+      "constraint_new_vs_OFF": 72,
+      "introduced_vs_old": 14
+    },
+    "Hair_Replacement_R4__self_nonadjacent": {
+      "old_new_vs_OFF": 34,
+      "constraint_new_vs_OFF": 31,
+      "introduced_vs_old": 2
+    },
+    "Meshy_Body_NeutralCovered__Character_Body_Head": {
+      "old_new_vs_OFF": 0,
+      "constraint_new_vs_OFF": 0,
+      "introduced_vs_old": 0
+    },
+    "Meshy_Body_NeutralCovered__Hair_Replacement_R4": {
+      "old_new_vs_OFF": 0,
+      "constraint_new_vs_OFF": 0,
+      "introduced_vs_old": 0
+    },
+    "Character_Body_Head__Hair_Replacement_R4": {
+      "old_new_vs_OFF": 0,
+      "constraint_new_vs_OFF": 0,
+      "introduced_vs_old": 0
+    }
+  },
+  "source78_fullraw_OFF_and_serialized_candidate_equal": true,
+  "pose_pass": false,
+  "TierP": 0,
+  "next": "No complete121frame rerender unless source pose constraints AND new crossing gates improve; infeasible combination is rejected, not physically validated.",
+  "OFF_pixel_QA": {
+    "dimensions": [
+      920,
+      960,
+      4
+    ],
+    "unequal_pixels": 0,
+    "max_channel_delta": 0
+  },
+  "capture_repair_guard_SHA": "5b93658c0b926ca0012dd5ae20635d8e57ac06839dbe42107f803e238a115d14",
+  "initial_matched_capture_invalid_decoded_pixels_identical": true,
+  "guard_SHA": "ad11f3e4a9432990a738025466a0755fe9548eff139563a56900ca3a3670434d",
+  "finite_bounded_optimizer_not_global_infeasibility_proof": true,
+  "verdict": "FAIL_HOLD_CONSTRAINT_RESIDUALS_OR_NEW_SURFACE_CROSSINGS"
+}

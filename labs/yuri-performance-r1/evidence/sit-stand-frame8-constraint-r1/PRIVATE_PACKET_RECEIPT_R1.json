@@ -1,0 +1,14 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_SIT_STAND_FRAME8_CONSTRAINT_R1_20261005.zip",
+  "sha256": "c5500ea30d7cde2f5c60ba7c667ca6a648f62f1fc60b744e8a3aedc328dad05b",
+  "bytes": 58220315,
+  "members": 71,
+  "indexed_members": 70,
+  "CRC_SHA_size_all_verified": true,
+  "closed_once": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "387286e4eec874a35f7220bdcb2fb00228d638db57a025b8a0a45102a45aee06",
+  "library_SHA": "494bf8702f957a2f46512b2efdc2dddfa5c93fb5e1f001e726e8769082030006",
+  "verdict": "FAIL_HOLD_CONSTRAINT_RESIDUALS_OR_NEW_SURFACE_CROSSINGS",
+  "TierP": 0
+}
