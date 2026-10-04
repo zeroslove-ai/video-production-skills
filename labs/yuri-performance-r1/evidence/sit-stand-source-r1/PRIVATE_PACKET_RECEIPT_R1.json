@@ -1,0 +1,16 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_SIT_STAND_SOURCE_EXPERIMENT_R1_20261005.zip",
+  "sha256": "1103147f8ee3afd70d34443239fb84cf91117059f66efffac6b3ae5c095ce293",
+  "bytes": 85413504,
+  "members": 616,
+  "indexed_members": 615,
+  "CRC_SHA_size_all_verified": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "FBX_SHA": "21b32d912da3cb93426d974fb945e86f5b2e86970acd2ce89905e0fbf9f1dcc2",
+  "candidate_SHA": "8bc13115e1a2ee5055b413c7f015650ddd1b039d34b34be9acccfe4e0de7860e",
+  "library_SHA": "a423f2ef52eac9d8af935a382b655cf272ea91607d548fb70910f679fac2b1a6",
+  "library_bytes": 1056328,
+  "closed_once": true,
+  "status": "FAIL_HOLD_BODY_INTERSECTIONS_SUPPORT_TRAJECTORY_AND_ENTRY_POSE",
+  "TierP": 0
+}

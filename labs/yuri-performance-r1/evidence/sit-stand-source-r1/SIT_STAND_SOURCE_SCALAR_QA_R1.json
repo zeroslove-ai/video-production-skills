@@ -1,0 +1,780 @@
+{
+  "task": "ROOT_PM_WALK_C3_CAUSAL_FAILURE_TO_SIT_STAND_SOURCE_R1",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "FBX_SHA": "21b32d912da3cb93426d974fb945e86f5b2e86970acd2ce89905e0fbf9f1dcc2",
+  "source_actions": {
+    "Sitting_Enter": {
+      "imported_action": "Armature|Armature|Sitting_Enter",
+      "frame_range": [
+        1,
+        40
+      ],
+      "fps": 30.0,
+      "curves": 659,
+      "frames": 40,
+      "source_duration_from_shortlist_seconds": 1.3
+    },
+    "Sitting_Idle_Loop": {
+      "imported_action": "Armature|Armature|Sitting_Idle_Loop",
+      "frame_range": [
+        1,
+        51
+      ],
+      "fps": 30.0,
+      "curves": 659,
+      "frames": 51,
+      "source_duration_from_shortlist_seconds": 1.6666666666666667
+    },
+    "Sitting_Exit": {
+      "imported_action": "Armature|Armature|Sitting_Exit",
+      "frame_range": [
+        1,
+        32
+      ],
+      "fps": 30.0,
+      "curves": 659,
+      "frames": 32,
+      "source_duration_from_shortlist_seconds": 1.0333333333333334
+    }
+  },
+  "source78_fullraw_OFF_and_fresh_serialized_equal": true,
+  "candidate_SHA": "8bc13115e1a2ee5055b413c7f015650ddd1b039d34b34be9acccfe4e0de7860e",
+  "candidate_bytes": 26752741,
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_SIT_STAND_BODY_R1",
+    "Armature": "YURI_R4_SIT_STAND_HEAD_R1",
+    "Hair_Rig_R4": "YURI_R4_SIT_STAND_HAIR_R1",
+    "Assembly_Root": "YURI_R4_SIT_STAND_PATH_R1"
+  },
+  "fps": 30,
+  "source_scene_fps_saved": 24.0,
+  "frames": [
+    1,
+    121
+  ],
+  "phase_frames": {
+    "enter": [
+      1,
+      40
+    ],
+    "hold": [
+      40,
+      90
+    ],
+    "exit": [
+      90,
+      121
+    ]
+  },
+  "source_duration_endpoint_seconds": 4.0,
+  "encoded_duration_seconds": 4.033333333333333,
+  "normalized_leg_scale": 0.5671348909494539,
+  "target_leg_length_m": 0.47060282212721205,
+  "source_leg_length_m": 0.8297899311738073,
+  "world_basis": "180deg around Z maps source anatomical left-negativeX to R4 left-positiveX; upZ preserved.",
+  "mapping": {
+    "pelvis": "pelvis",
+    "spine": "spine_01",
+    "chest": "spine_03",
+    "neck": "neck_01",
+    "head": "Head",
+    "clavicle.L": "clavicle_l",
+    "upper_arm.L": "upperarm_l",
+    "forearm.L": "lowerarm_l",
+    "hand.L": "hand_l",
+    "thigh.L": "thigh_l",
+    "shin.L": "calf_l",
+    "foot.L": "foot_l",
+    "toe.L": "ball_l",
+    "clavicle.R": "clavicle_r",
+    "upper_arm.R": "upperarm_r",
+    "forearm.R": "lowerarm_r",
+    "hand.R": "hand_r",
+    "thigh.R": "thigh_r",
+    "shin.R": "calf_r",
+    "foot.R": "foot_r",
+    "toe.R": "ball_r"
+  },
+  "retarget": "World rest-aware rotation deltas; upper common standing neutral calibration, lower anatomical source rest; target hierarchy/rest/native limb lengths unchanged; leglength-normalized pelvis translation, ONE uniform actual sole floor-fit pelvisZ. No bone scale/copy-rotation direct/IK candidate family.",
+  "seat_witness": {
+    "pelvis_anchor_world_m": [
+      0.003534558694809675,
+      0.1449659764766693,
+      0.2629217207431793
+    ],
+    "surface_plane_world_z_m": 0.22792172074317932,
+    "surface_height_above_source_floor_m": 0.2279217259889151,
+    "nominal_source_normalized_pelvis_anchor_m": [
+      0.003534558694809675,
+      0.1449659764766693,
+      0.29013320803642273
+    ],
+    "pelvis_clearance_design_m": 0.035,
+    "basis": "Known dedicated seated source normalized by target leg lengths + ONE actual-sole floor fit; fixed frame40 witness. No geometry prop/force/support certificate."
+  },
+  "feet": {
+    "L": {
+      "original_support_patch_3mm_vertices": 218,
+      "original_patch_max_world_XY_excursion_m": 0.027572647665960646,
+      "original_patch_gap_min_max_m": [
+        -4.2275582975015966e-08,
+        0.01260957679364567
+      ],
+      "whole_foot_min_gap_m": -4.2275582975015966e-08,
+      "persistent_proximity3mm_max_XY_step_m": 0.0026560214100491953,
+      "proximity_frames": 114,
+      "not_force_contact": true
+    },
+    "R": {
+      "original_support_patch_3mm_vertices": 223,
+      "original_patch_max_world_XY_excursion_m": 0.2776810012076639,
+      "original_patch_gap_min_max_m": [
+        -5.646016400732655e-08,
+        0.044571758600532044
+      ],
+      "whole_foot_min_gap_m": -5.646016400732655e-08,
+      "persistent_proximity3mm_max_XY_step_m": 0.013946235910300706,
+      "proximity_frames": 107,
+      "not_force_contact": true
+    }
+  },
+  "ROM_local_quaternion_angle_degrees": {
+    "thigh.L": [
+      253.82185069061305,
+      340.9686441221559
+    ],
+    "thigh.R": [
+      254.77821377819822,
+      341.95945868391465
+    ],
+    "shin.L": [
+      21.63053803534443,
+      81.18246051242349
+    ],
+    "shin.R": [
+      43.45565791485877,
+      79.52976646914468
+    ],
+    "upper_arm.L": [
+      0.0,
+      25.862982575306013
+    ],
+    "upper_arm.R": [
+      0.0,
+      65.13895403889967
+    ]
+  },
+  "max_body_step_m": 0.04330066157870717,
+  "head_hair_rigid_transport_matrix_error_max": {
+    "Armature": 2.384185791015625e-07,
+    "Hair_Rig_R4": 2.384185791015625e-07
+  },
+  "first_last_body_head_hair_component_error_m": {
+    "Meshy_Body_NeutralCovered": 0.0,
+    "Character_Body_Head": 0.0,
+    "Hair_Replacement_R4": 0.0
+  },
+  "source_neutral_vs_ON_start_component_error_m": {
+    "Meshy_Body_NeutralCovered": 0.176048278237126,
+    "Character_Body_Head": 0.026616177918739947,
+    "Hair_Replacement_R4": 0.02661619707942009
+  },
+  "pelvis_stand_to_seat_delta_m": [
+    -0.0014331578277051449,
+    0.13894078135490417,
+    -0.22150734066963196
+  ],
+  "seated_pelvis_anchor_max_distance_m": 0.0,
+  "all121_new_surface_pair_peak": {
+    "Meshy_Body_NeutralCovered__self_nonadjacent": 1794,
+    "Character_Body_Head__self_nonadjacent": 103,
+    "Hair_Replacement_R4__self_nonadjacent": 45,
+    "Meshy_Body_NeutralCovered__Character_Body_Head": 2,
+    "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+    "Character_Body_Head__Hair_Replacement_R4": 0
+  },
+  "surface_scope": "All actual BODY/HEAD/HAIR triangles weak/unweighted inclusive; self nonadjacent and cross identities vs original OFF; identical/shared-vertex adjacency excluded; no volume/force/physical chair/Unity/TierP/F2/StageB approval.",
+  "donor_geometry_into_R4": false,
+  "TierP": 0,
+  "elapsed_before_render_seconds": 373.800534900045,
+  "views": {
+    "front": {
+      "type": "ORTHO",
+      "ortho_scale": 1.18,
+      "target": [
+        0.0020000000949949026,
+        0.019999999552965164,
+        0.47999998927116394
+      ],
+      "location": [
+        0.0020000000949949026,
+        -0.7800000309944153,
+        0.47999998927116394
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "resolution": [
+        384,
+        384
+      ],
+      "fps": 30,
+      "frames": [
+        1,
+        121
+      ],
+      "fixed": true
+    },
+    "quarter": {
+      "type": "ORTHO",
+      "ortho_scale": 1.18,
+      "target": [
+        0.0020000000949949026,
+        0.019999999552965164,
+        0.47999998927116394
+      ],
+      "location": [
+        0.41359663009643555,
+        -0.6659943461418152,
+        0.47999998927116394
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        4.280959586822064e-08,
+        0.5404196381568909
+      ],
+      "resolution": [
+        384,
+        384
+      ],
+      "fps": 30,
+      "frames": [
+        1,
+        121
+      ],
+      "fixed": true
+    },
+    "side": {
+      "type": "ORTHO",
+      "ortho_scale": 1.18,
+      "target": [
+        0.0020000000949949026,
+        0.019999999552965164,
+        0.47999998927116394
+      ],
+      "location": [
+        0.8019999861717224,
+        0.019999999552965164,
+        0.47999998927116394
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "resolution": [
+        384,
+        384
+      ],
+      "fps": 30,
+      "frames": [
+        1,
+        121
+      ],
+      "fixed": true
+    }
+  },
+  "capture_completion": {
+    "same_candidate_SHA": "8bc13115e1a2ee5055b413c7f015650ddd1b039d34b34be9acccfe4e0de7860e",
+    "source78_fresh_serialized_fullraw_OFF_equal_before_after": true,
+    "all363_native_capture_complete": true,
+    "source_baseline_rerendered": false,
+    "first_job_failure_guard_SHA": "5e4e7697392e5779d1a737dec9990c290cad62e2a62621fbe84a5184073f6462",
+    "same_candidate_no_motion_rerun": "Authoring and all121fullmesh/contact/sole measurements NOT repeated; render-only missing capture completion plus corrected narrow ROM/worst-pair localization. Original candidate bytes untouched.",
+    "reused_native_images": 154,
+    "new_native_images": 209,
+    "views": {
+      "front": {
+        "type": "ORTHO",
+        "ortho_scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          0.019999999552965164,
+          0.47999998927116394
+        ],
+        "location": [
+          0.0020000000949949026,
+          -0.7800000309944153,
+          0.47999998927116394
+        ],
+        "rotation_euler": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "resolution": [
+          384,
+          384
+        ],
+        "fps": 30,
+        "frames": [
+          1,
+          121
+        ],
+        "fixed": true
+      },
+      "quarter": {
+        "type": "ORTHO",
+        "ortho_scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          0.019999999552965164,
+          0.47999998927116394
+        ],
+        "location": [
+          0.41359663009643555,
+          -0.6659943461418152,
+          0.47999998927116394
+        ],
+        "rotation_euler": [
+          1.5707963705062866,
+          4.280959586822064e-08,
+          0.5404196381568909
+        ],
+        "resolution": [
+          384,
+          384
+        ],
+        "fps": 30,
+        "frames": [
+          1,
+          121
+        ],
+        "fixed": true
+      },
+      "side": {
+        "type": "ORTHO",
+        "ortho_scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          0.019999999552965164,
+          0.47999998927116394
+        ],
+        "location": [
+          0.8019999861717224,
+          0.019999999552965164,
+          0.47999998927116394
+        ],
+        "rotation_euler": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "resolution": [
+          384,
+          384
+        ],
+        "fps": 30,
+        "frames": [
+          1,
+          121
+        ],
+        "fixed": true
+      }
+    },
+    "shortest_local_quaternion_delta_vs_original_OFF_degrees": {
+      "thigh.L": [
+        19.03135587784406,
+        106.17814930938695
+      ],
+      "thigh.R": [
+        18.04054131608533,
+        105.22178622180176
+      ],
+      "shin.L": [
+        21.63053803534443,
+        81.18246051242349
+      ],
+      "shin.R": [
+        43.45565791485877,
+        79.52976646914468
+      ],
+      "upper_arm.L": [
+        0.0,
+        25.862982575306013
+      ],
+      "upper_arm.R": [
+        0.0,
+        65.13895403889967
+      ]
+    },
+    "anatomical_knee_flexion_from_actual_world_joints_degrees": {
+      "L": [
+        23.89856891081604,
+        87.14492001961656
+      ],
+      "R": [
+        16.564840848849087,
+        85.38838483771465
+      ]
+    },
+    "body_failure_localization": {
+      "first_and_worst": [
+        {
+          "actual_body_frame": 8,
+          "new_nonadjacent_BODY_pairs": 18,
+          "top_skin_bone_pair_distribution": [
+            [
+              "shin.R / thigh.R",
+              16
+            ],
+            [
+              "thigh.R / thigh.R",
+              2
+            ]
+          ],
+          "unmapped_evaluated_indices": 0
+        },
+        {
+          "actual_body_frame": 96,
+          "new_nonadjacent_BODY_pairs": 1794,
+          "top_skin_bone_pair_distribution": [
+            [
+              "spine / thigh.L",
+              205
+            ],
+            [
+              "spine / thigh.R",
+              177
+            ],
+            [
+              "R3_Joint_CorrectiveSmooth / spine",
+              156
+            ],
+            [
+              "hand.R / shin.R",
+              120
+            ],
+            [
+              "R3_Joint_CorrectiveSmooth / R3_Joint_CorrectiveSmooth",
+              101
+            ],
+            [
+              "shin.L / thigh.L",
+              89
+            ],
+            [
+              "thigh.L / thumb1.L",
+              83
+            ],
+            [
+              "pinky1.R / shin.R",
+              78
+            ],
+            [
+              "thigh.R / thumb1.R",
+              65
+            ],
+            [
+              "middle1.L / thigh.L",
+              65
+            ],
+            [
+              "pelvis / thigh.R",
+              57
+            ],
+            [
+              "shin.R / thumb1.R",
+              53
+            ],
+            [
+              "pelvis / pelvis",
+              51
+            ],
+            [
+              "shin.R / thigh.R",
+              49
+            ],
+            [
+              "ring1.R / shin.R",
+              48
+            ],
+            [
+              "ring2.R / shin.R",
+              48
+            ]
+          ],
+          "unmapped_evaluated_indices": 0
+        }
+      ],
+      "scope": "Only already-measured first and worst exact pair identities + immutable skin weights; no new pose/contact family or corpus scan."
+    },
+    "first_original_support_displacement": {
+      "L": {
+        "original_source_patch_ON_frame1_vs_OFF_max_XY_displacement_m": 0.11551726771356706,
+        "first_ON_anchored_displacement_over1micron_frame": 2,
+        "first_ON_anchored_displacement_m": 0.00015156354853496,
+        "first_adjacent_original_patch_step_m": 0.00015156354853496,
+        "whole_mask_proximity3mm_not_force": true
+      },
+      "R": {
+        "original_source_patch_ON_frame1_vs_OFF_max_XY_displacement_m": 0.19617411625906364,
+        "first_ON_anchored_displacement_over1micron_frame": 2,
+        "first_ON_anchored_displacement_m": 0.0014706735488031297,
+        "first_adjacent_original_patch_step_m": 0.0014706735488031297,
+        "whole_mask_proximity3mm_not_force": true
+      }
+    },
+    "donor_target_actual_joint_comparison": [
+      {
+        "frame": 8,
+        "source_action": "Sitting_Enter",
+        "source_local_frame": 8,
+        "joint_comparison": {
+          "pelvis": {
+            "intended_world_rotation_goal_error_degrees": -1.0017912669061661e-05,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 9.643971829737776,
+            "target_local_quaternion_shortest_degrees": 9.643971203335214,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "thigh.L": {
+            "intended_world_rotation_goal_error_degrees": -1.0017912669061661e-05,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 37.398475404162205,
+            "target_local_quaternion_shortest_degrees": 37.39852685795207,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "thigh.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 37.03571039696449,
+            "target_local_quaternion_shortest_degrees": 37.035789171511034,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "shin.L": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 30.22020613366727,
+            "target_local_quaternion_shortest_degrees": 30.22020613366727,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "shin.R": {
+            "intended_world_rotation_goal_error_degrees": -1.0017912669061661e-05,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 61.438282414505885,
+            "target_local_quaternion_shortest_degrees": 61.43829607488423,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "upper_arm.L": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 68.01348696242373,
+            "target_local_quaternion_shortest_degrees": 19.736174823757636,
+            "upper_reference_is_different_common_standing_neutral": true
+          },
+          "upper_arm.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 66.53627413930087,
+            "target_local_quaternion_shortest_degrees": 24.656065950849957,
+            "upper_reference_is_different_common_standing_neutral": true
+          }
+        },
+        "donor_knee_flexion_degrees": {
+          "L": 31.29423027065303,
+          "R": 59.68488090189305
+        }
+      },
+      {
+        "frame": 40,
+        "source_action": "Sitting_Enter",
+        "source_local_frame": 40,
+        "joint_comparison": {
+          "pelvis": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 0.0,
+            "target_local_quaternion_shortest_degrees": -1.0017912669061661e-05,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "thigh.L": {
+            "intended_world_rotation_goal_error_degrees": -1.0017912669061661e-05,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 86.87150948723469,
+            "target_local_quaternion_shortest_degrees": 86.8715267900787,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "thigh.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 85.88019632166656,
+            "target_local_quaternion_shortest_degrees": 85.88019313394305,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "shin.L": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 81.16743409624945,
+            "target_local_quaternion_shortest_degrees": 81.16743409624945,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "shin.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 79.50034884438942,
+            "target_local_quaternion_shortest_degrees": 79.50033518401109,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "upper_arm.L": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 80.41298506090818,
+            "target_local_quaternion_shortest_degrees": 10.591739978026146,
+            "upper_reference_is_different_common_standing_neutral": true
+          },
+          "upper_arm.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 71.37795618530197,
+            "target_local_quaternion_shortest_degrees": 17.471895396912124,
+            "upper_reference_is_different_common_standing_neutral": true
+          }
+        },
+        "donor_knee_flexion_degrees": {
+          "L": 84.7494698728055,
+          "R": 83.51629895417028
+        }
+      },
+      {
+        "frame": 96,
+        "source_action": "Sitting_Exit",
+        "source_local_frame": 7,
+        "joint_comparison": {
+          "pelvis": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 16.440635869983165,
+            "target_local_quaternion_shortest_degrees": 16.44063780490154,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "thigh.L": {
+            "intended_world_rotation_goal_error_degrees": -1.0017912669061661e-05,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 102.83319029450176,
+            "target_local_quaternion_shortest_degrees": 102.83318710677827,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "thigh.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 101.83010188280453,
+            "target_local_quaternion_shortest_degrees": 101.8301055252702,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "shin.L": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 79.52687729912576,
+            "target_local_quaternion_shortest_degrees": 79.52686363874741,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "shin.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 77.79522626904159,
+            "target_local_quaternion_shortest_degrees": 77.79522626904159,
+            "upper_reference_is_different_common_standing_neutral": false
+          },
+          "upper_arm.L": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 64.57337339448759,
+            "target_local_quaternion_shortest_degrees": 7.930822928341531,
+            "upper_reference_is_different_common_standing_neutral": true
+          },
+          "upper_arm.R": {
+            "intended_world_rotation_goal_error_degrees": 0.0,
+            "donor_local_delta_anatomical_rest_shortest_degrees": 50.913882979054186,
+            "target_local_quaternion_shortest_degrees": 39.44193481514121,
+            "upper_reference_is_different_common_standing_neutral": true
+          }
+        },
+        "donor_knee_flexion_degrees": {
+          "L": 82.8967238613293,
+          "R": 81.72077823306334
+        }
+      }
+    ],
+    "fresh_OFF_restored_after_capture": true
+  },
+  "initial_native_watchdog_guard_SHA": "5e4e7697392e5779d1a737dec9990c290cad62e2a62621fbe84a5184073f6462",
+  "library_SHA": "a423f2ef52eac9d8af935a382b655cf272ea91607d548fb70910f679fac2b1a6",
+  "library_bytes": 1056328,
+  "OFF_pixels": {
+    "changed_pixels": 0,
+    "max_RGBA_delta": 0,
+    "exact_decoded_RGBA_equal": true,
+    "dimensions": [
+      920,
+      960,
+      4
+    ]
+  },
+  "visual": "Actual complete threeviews121frames30fps1x UI endedtrue/errornull; all121 grids3views inspected. Stand-down/short seated hold/up readable; thigh/hip/hand clearance and exaggerated flexion fail source QA. No gross head detachment observed in384CPU2sample preview, fine shading not certified.",
+  "verdict": "FAIL_HOLD_BODY_INTERSECTIONS_SUPPORT_TRAJECTORY_AND_ENTRY_POSE",
+  "persistent_step_causal": {
+    "L": {
+      "peak_persistent_proximity_step_m": 0.0026560214100491953,
+      "adjacent_global_frames": [
+        25,
+        26
+      ],
+      "source_action": "Sitting_Enter",
+      "source_local_frame": 26,
+      "source_FOOT_JOINT_Z_height_vs_initial_m": -4.208087921142578e-05,
+      "target_whole_foot_min_gap_m": 0.0016079136679871093,
+      "floor_fit_global_pelvis_Z_m": -0.03023398155714081,
+      "source_joint_height_not_actual_donor_sole": true
+    },
+    "R": {
+      "peak_persistent_proximity_step_m": 0.013946235910300706,
+      "adjacent_global_frames": [
+        118,
+        119
+      ],
+      "source_action": "Sitting_Exit",
+      "source_local_frame": 30,
+      "source_FOOT_JOINT_Z_height_vs_initial_m": 0.018457859754562378,
+      "target_whole_foot_min_gap_m": 2.0070613888862022e-09,
+      "floor_fit_global_pelvis_Z_m": -0.0031567065661964153,
+      "source_joint_height_not_actual_donor_sole": true
+    }
+  },
+  "donor_target_anatomical_knee_comparison": [
+    {
+      "frame": 8,
+      "L": {
+        "donor_knee_flexion_degrees": 31.294242811888722,
+        "target_actual_knee_flexion_degrees": 33.73692362940369,
+        "difference_degrees": 2.442680817514969
+      },
+      "R": {
+        "donor_knee_flexion_degrees": 59.684880666938994,
+        "target_actual_knee_flexion_degrees": 62.23578593743345,
+        "difference_degrees": 2.5509052704944537
+      }
+    },
+    {
+      "frame": 40,
+      "L": {
+        "donor_knee_flexion_degrees": 84.74946981651131,
+        "target_actual_knee_flexion_degrees": 87.12387663174911,
+        "difference_degrees": 2.374406815237805
+      },
+      "R": {
+        "donor_knee_flexion_degrees": 83.51629933904873,
+        "target_actual_knee_flexion_degrees": 85.35059378937682,
+        "difference_degrees": 1.8342944503280876
+      }
+    },
+    {
+      "frame": 96,
+      "L": {
+        "donor_knee_flexion_degrees": 82.89672294586296,
+        "target_actual_knee_flexion_degrees": 85.30368486685667,
+        "difference_degrees": 2.4069619209937088
+      },
+      "R": {
+        "donor_knee_flexion_degrees": 81.72077760425705,
+        "target_actual_knee_flexion_degrees": 83.50442646998653,
+        "difference_degrees": 1.7836488657294751
+      }
+    }
+  ],
+  "angle_readback_note": "Initial author local angle field0..360 is quaternion-sign-dependent. Use capture_completion shortest-local OFF delta + actual world knee flexion for ROM; raw tiny negative1.00179e-5deg near identity is float2pi readback, report magnitude not physical negative angle. No contact/depth precision waiver.",
+  "next_one_discriminating_experiment_UNEXECUTED": "At first BODY failure frame8 only, on separate original-rig animation copy solve native hip/knee/foot to same donor anatomical knee flexion but original whole-sole world anchors and explicit knee-forward corridor, with upper reference held. Compare identical right knee surface pair IDs against current18. If unchanged, native skin/deformation movement-range concern remains; if removed, pose-transfer/target rest difference implicated. No weights/rest/mesh/bind changes. Root selects before expansion to full Sit/Stand; no experiment executed now.",
+  "practical_existing_first_batch_alternative": "Reuse accepted native upper TalkGesture existing packet135fdc26/libraryeae83ac3 without duplicate production; it does not supply sit capability. Unity/TierP/F2/StageB remain HOLD."
+}

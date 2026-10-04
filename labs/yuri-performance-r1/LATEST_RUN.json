@@ -620,5 +620,35 @@
       -0.0005191850299126642
     ],
     "next": "ONE existing dedicated CC0 Sitting_Enter / Sitting_Idle_Loop / Sitting_Exit source sequence, pending actual R4-native compatibility. No further Walk tangent family."
+  },
+  "sit_stand_source_r1": {
+    "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_SIT_STAND_SOURCE_EXPERIMENT_R1_20261005.zip",
+    "sha256": "1103147f8ee3afd70d34443239fb84cf91117059f66efffac6b3ae5c095ce293",
+    "bytes": 85413504,
+    "members": 616,
+    "indexed_members": 615,
+    "CRC_SHA_size_all_verified": true,
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "FBX_SHA": "21b32d912da3cb93426d974fb945e86f5b2e86970acd2ce89905e0fbf9f1dcc2",
+    "candidate_SHA": "8bc13115e1a2ee5055b413c7f015650ddd1b039d34b34be9acccfe4e0de7860e",
+    "library_SHA": "a423f2ef52eac9d8af935a382b655cf272ea91607d548fb70910f679fac2b1a6",
+    "library_bytes": 1056328,
+    "closed_once": true,
+    "status": "FAIL_HOLD_BODY_INTERSECTIONS_SUPPORT_TRAJECTORY_AND_ENTRY_POSE",
+    "TierP": 0,
+    "public_report": "labs\\yuri-performance-r1\\evidence\\sit-stand-source-r1\\YURI_R4_SIT_STAND_SOURCE_FAILURE_R1_KO.md",
+    "native_frames": 121,
+    "playback_fps": 30,
+    "views": 3,
+    "OFF_unequal_pixels": 0,
+    "original78_source_preserved": true,
+    "first_BODY_failure_frame": 8,
+    "first_new_BODY_pairs": 18,
+    "peak_new_BODY_pairs": 1794,
+    "right_persistent_proximity_step_mm": 13.946236,
+    "initial_native_guard": "FAIL_600s_WATCHDOG",
+    "same_candidate_capture_completion_guard": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "next_authorized_scope": "One original-rig frame8 constrained pose discriminator; no complete phrase before improvement",
+    "updated_utc": "2026-10-04T21:46:17.098760+00:00"
   }
 }

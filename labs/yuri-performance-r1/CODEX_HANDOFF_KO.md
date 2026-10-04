@@ -1,3 +1,9 @@
+## Sit/Stand source causal closure — 2026-10-05
+
+원본 R4 외형/78 Actions/neutral OFF 픽셀 동일. 한 후보 stand→sit→1.67sec hold→stand, 121frames/30fps/3views 전체 1x 재생 완료. Motion FAIL/HOLD: frame8 right knee18 new surface pairs, peak BODY1794, persistent right sole proximity step13.946mm. Lowest-sole height fit은 whole-patch stance 보장이 아니다. Lower rotation transfer는 3개 표본에서 일치하지만 native anatomical knee bias 약2.55deg; weight 단독 원인은 UNKNOWN. 최초600sec watchdog FAIL을 보존하고 같은 SHA 후보의 누락209 render만 별도 strict guard PASS로 완성(154 native image byte-exact reuse).
+
+Closed packet SHA `1103147f8ee3afd70d34443239fb84cf91117059f66efffac6b3ae5c095ce293`, 85413504bytes /615 indexed members; candidate `8bc13115e1a2ee5055b413c7f015650ddd1b039d34b34be9acccfe4e0de7860e`; Action-only library `a423f2ef52eac9d8af935a382b655cf272ea91607d548fb70910f679fac2b1a6`. [상세 실패/보정 보고](evidence/sit-stand-source-r1/YURI_R4_SIT_STAND_SOURCE_FAILURE_R1_KO.md). Product/Laptop/Unity/main 변경 없음, TierP0. 다음 승인 범위: frame8 original-rig sole anchors/knee flexion/corridor pose discriminator 하나; phrase 확장은 그 결과 개선 후에만.
+
 ## R4 appearance correction — 2026-10-03
 
 ### Native readback preparation checkpoint (additive; execution HOLD)
