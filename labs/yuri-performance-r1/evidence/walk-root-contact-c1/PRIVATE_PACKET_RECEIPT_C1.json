@@ -1,0 +1,15 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_WALK_ROOT_CONTACT_EXPERIMENT_C1_20261005.zip",
+  "sha256": "3c24596b3af58e0095f4e86168db2ff94639c190336739d06ceb3a824cf931bc",
+  "bytes": 113217706,
+  "members": 343,
+  "indexed_members": 342,
+  "CRC_SHA_size_all_verified": true,
+  "closed_once": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "old_candidate_SHA": "80e1b5db465fafdd810852e244186bd47cbcc7907c819b810823b7d208fdf408",
+  "candidate_SHA": "d5018ac15af694f87c8cc6e9097c6cadf66d268b3f5c68d9fc9afa11b88b88fc",
+  "library_SHA": "3008d478ce72e2d5c6a6706d3a0b8818278db67f32351d5cd2f0d2c7c2c0f089",
+  "verdict": "PARTIAL_KINEMATIC_SOLE_XY_IMPROVEMENT_OTHER_GATES_HOLD",
+  "TierP": 0
+}

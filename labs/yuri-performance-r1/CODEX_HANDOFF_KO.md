@@ -136,3 +136,8 @@ ONEsource candidate, original364BODYcurvesexactCOPY/97frames1..97/sourceActionSa
 ## 2026-10-05 native head visual source authority
 
 기존 BODY_HeadGazeHair full97/24fps 고정front/side에서 head/eye/hair 실제 동작, 큰 새 mouth/hair/neck visible defect 관찰0. BODY-only/all72morph0/독립gaze0이므로 full facial acting 안정성 미검증; CPU8samples 미세shading 한계. Source78/fullrawOFF/neutralRGBA0/sourcebytes 보존. Source-reference-only, Unity 단계 matched 비교 필요, CONTACT/foot/velocity/TierP/F2 HOLD 유지. Packet SHA 5fc486676885341e04c4b597fb5a1d102f9d81a6033e13f658cbb064a7e69546;79,179,302bytes/231members230indexed 검증. exact source/Action/cameras/frame/morph/meshimagehash private reference 연결, 새후보0. 세부 evidence/native-head-visual-source-r1/YURI_R4_NATIVE_HEAD_VISUAL_SOURCE_R1_KO.md.
+
+
+## 2026-10-05 ONE Walk root-contact C1
+
+USER_CAN_NOW_SEE_OR_DO: original-left/C1-right97frames24fps front/quarter/side 걷기 비교; sole drift134.124→2.042mm/98.477% 감소, bodypose0/rootZ0/headhair 전체translation residual0.0001533mm. Root-0.419831m/4s,root속도0.079–0.107m/s. BODY velocity seam0.070183→0.089507악화/HOLD,headcontact/force/COM/TierP/F2/StageB HOLD유지. 양발near33frames/persistent28steps,최고요구velocity차0.056019m/s. Source78/기존81/rawOFF/neutralRGBA0/oldassets 보존. 새후보1/animation-only4Actionlib. Candidate SHA d5018ac15af694f87c8cc6e9097c6cadf66d268b3f5c68d9fc9afa11b88b88fc,librarySHA 3008d478ce72e2d5c6a6706d3a0b8818278db67f32351d5cd2f0d2c7c2c0f089,packetSHA 3c24596b3af58e0095f4e86168db2ff94639c190336739d06ceb3a824cf931bc;113,217,706bytes/343members342indexed 검증. Source와writerOFF 동일;새serializedcandidatefreshreopen은 consumergate 미실행. 다음권고 하나는 carrierendpointvelocity만 constrain하는bounded검수(미실행). 세부 evidence/walk-root-contact-c1/YURI_R4_WALK_ROOT_CONTACT_C1_KO.md.

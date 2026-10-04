@@ -547,5 +547,26 @@
     "new_candidate": null,
     "TierP": 0,
     "next": "Matched Unity body-head visual comparison by Laptop; no Desktop native gaze/morph sweep or Walk precision rerun."
+  },
+  "walk_root_contact_c1": {
+    "status": "PARTIAL_KINEMATIC_SOLE_XY_IMPROVEMENT_OTHER_GATES_HOLD",
+    "sole_XY_drift_mm_before_after": [
+      134.12397479609123,
+      2.042213703585639
+    ],
+    "body_pose_matrix_error": 0,
+    "root_end_Y_m": -0.4198313331399457,
+    "body_velocity_seam_m_per_s_before_after": [
+      0.07018276311038965,
+      0.08950727187991504
+    ],
+    "source78_prior81_OFF_preserved": true,
+    "OFF_changed_pixels": 0,
+    "candidate_SHA": "d5018ac15af694f87c8cc6e9097c6cadf66d268b3f5c68d9fc9afa11b88b88fc",
+    "library_SHA": "3008d478ce72e2d5c6a6706d3a0b8818278db67f32351d5cd2f0d2c7c2c0f089",
+    "packet_SHA": "3c24596b3af58e0095f4e86168db2ff94639c190336739d06ceb3a824cf931bc",
+    "new_candidate_count": 1,
+    "TierP": 0,
+    "next_recommendation": "Root endpoint velocity/tangent constraint with original BODY curves/frozen stance mask; unexecuted. Consumer fresh candidate reopen and Unity root delta accumulation remain."
   }
 }

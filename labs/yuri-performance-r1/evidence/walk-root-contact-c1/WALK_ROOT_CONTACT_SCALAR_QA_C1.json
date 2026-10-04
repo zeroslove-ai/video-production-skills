@@ -1,0 +1,571 @@
+{
+  "task": "ROOT_PM_NATIVE_HEAD_SOURCE_CLOSE_TO_WALK_CONTACT_R1",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "old_candidate_SHA": "80e1b5db465fafdd810852e244186bd47cbcc7907c819b810823b7d208fdf408",
+  "old_library_SHA": "6f356c1abe82f30ca713c75a53926c1cfe45e7be00fad63bdea6df7c4dcf0463",
+  "candidate_SHA": "d5018ac15af694f87c8cc6e9097c6cadf66d268b3f5c68d9fc9afa11b88b88fc",
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_NATIVE_WALK_EXISTING_ACTION_R1",
+    "Armature": "YURI_R4_WALK_ROOT_CONTACT_HEAD_C1",
+    "Hair_Rig_R4": "YURI_R4_NATIVE_WALK_HAIR_TRANSPORT_R1",
+    "Assembly_Root": "YURI_R4_WALK_ROOT_CONTACT_PATH_C1"
+  },
+  "frames": [
+    1,
+    97
+  ],
+  "fps": 24,
+  "speed_factor": 1,
+  "method": "ONE source-sole XY negative median persistent vertex step, equal foot compromise double support; root Z0; no smoothing, ankle/knee IK or proportion edits. Separate Assembly_Root/face-root translation only. Original BODY/hair Actions reused unchanged.",
+  "foot_summary": {
+    "original": {
+      "L": {
+        "stance_intervals": [
+          {
+            "frames": [
+              1,
+              31
+            ],
+            "common_source_contact_vertices": 78,
+            "anchored_world_XY_excursion_m": 0.13134669489553294
+          },
+          {
+            "frames": [
+              48,
+              79
+            ],
+            "common_source_contact_vertices": 78,
+            "anchored_world_XY_excursion_m": 0.1341239747960908
+          },
+          {
+            "frames": [
+              96,
+              97
+            ],
+            "common_source_contact_vertices": 106,
+            "anchored_world_XY_excursion_m": 0.002777279900557872
+          }
+        ],
+        "max_anchored_stance_XY_excursion_m": 0.1341239747960908,
+        "max_persistent_source_sole_XY_step_m": 0.00460182750159771,
+        "floor_min_gap_m": 0.00011717969964872055,
+        "floor_gap_exact_vs_original_max_error_m": 0.0
+      },
+      "R": {
+        "stance_intervals": [
+          {
+            "frames": [
+              1,
+              7
+            ],
+            "common_source_contact_vertices": 76,
+            "anchored_world_XY_excursion_m": 0.02434669602802228
+          },
+          {
+            "frames": [
+              24,
+              55
+            ],
+            "common_source_contact_vertices": 76,
+            "anchored_world_XY_excursion_m": 0.13412397479609123
+          },
+          {
+            "frames": [
+              72,
+              97
+            ],
+            "common_source_contact_vertices": 110,
+            "anchored_world_XY_excursion_m": 0.10977728275413041
+          }
+        ],
+        "max_anchored_stance_XY_excursion_m": 0.13412397479609123,
+        "max_persistent_source_sole_XY_step_m": 0.004602154359170569,
+        "floor_min_gap_m": 2.1698916705771384e-08,
+        "floor_gap_exact_vs_original_max_error_m": 0.0
+      }
+    },
+    "candidate": {
+      "L": {
+        "stance_intervals": [
+          {
+            "frames": [
+              1,
+              31
+            ],
+            "common_source_contact_vertices": 78,
+            "anchored_world_XY_excursion_m": 0.002042213703585639
+          },
+          {
+            "frames": [
+              48,
+              79
+            ],
+            "common_source_contact_vertices": 78,
+            "anchored_world_XY_excursion_m": 0.0012016925714516396
+          },
+          {
+            "frames": [
+              96,
+              97
+            ],
+            "common_source_contact_vertices": 106,
+            "anchored_world_XY_excursion_m": 0.0008405373374165137
+          }
+        ],
+        "max_anchored_stance_XY_excursion_m": 0.002042213703585639,
+        "max_persistent_source_sole_XY_step_m": 0.0013083814407347427,
+        "floor_min_gap_m": 0.00011717969964872055,
+        "floor_gap_exact_vs_original_max_error_m": 2.3916364888521002e-08
+      },
+      "R": {
+        "stance_intervals": [
+          {
+            "frames": [
+              1,
+              7
+            ],
+            "common_source_contact_vertices": 76,
+            "anchored_world_XY_excursion_m": 0.0012016590670750947
+          },
+          {
+            "frames": [
+              24,
+              55
+            ],
+            "common_source_contact_vertices": 76,
+            "anchored_world_XY_excursion_m": 0.001201703486370921
+          },
+          {
+            "frames": [
+              72,
+              97
+            ],
+            "common_source_contact_vertices": 110,
+            "anchored_world_XY_excursion_m": 0.0012016406455867415
+          }
+        ],
+        "max_anchored_stance_XY_excursion_m": 0.001201703486370921,
+        "max_persistent_source_sole_XY_step_m": 0.0013086968623884927,
+        "floor_min_gap_m": 2.169891100366565e-08,
+        "floor_gap_exact_vs_original_max_error_m": 2.3916364888521002e-08
+      }
+    }
+  },
+  "root": {
+    "end_displacement_world_m": [
+      1.9930304073767502e-08,
+      -0.4198313331399457,
+      0.0
+    ],
+    "path_length_m": 0.41983133314120047,
+    "speed_m_per_s_min_max": [
+      0.07898986980173195,
+      0.10700286883168293
+    ],
+    "max_acceleration_m_per_s2": 0.6722408017433151,
+    "speed_seam_difference_m_per_s": 0.020172018801801,
+    "loop_requires_accumulate_endpoint_delta_not_position_reset": true
+  },
+  "double_support_proximity_steps": [
+    {
+      "frames": [
+        1,
+        2
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 2.104640110189848e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.052320055094924e-06,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        2,
+        3
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.7219782719735122e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 8.609891359867561e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        3,
+        4
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 3.449267197130763e-07,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.7246335985653815e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        4,
+        5
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.016937784302182e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 5.08468892151091e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        5,
+        6
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.0016612307161748617,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.0008306153580874308,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        6,
+        7
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.056019301480424874,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.028009650740212437,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        24,
+        25
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.040345376919582066,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.020172688459791033,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        25,
+        26
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 2.104640110189848e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.052320055094924e-06,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        26,
+        27
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.7219782719735122e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 8.609891359867561e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        27,
+        28
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 3.449267197130763e-07,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.7246335985653815e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        28,
+        29
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.016937784302182e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 5.08468892151091e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        29,
+        30
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.0016612307161748617,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.0008306153580874308,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        30,
+        31
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.056019301480424874,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.028009650740212437,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        48,
+        49
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.040345376919582066,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.020172688459791033,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        49,
+        50
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 2.104640110189848e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.052320055094924e-06,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        50,
+        51
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.7219782719735122e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 8.609891359867561e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        51,
+        52
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 3.449267197130763e-07,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.7246335985653815e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        52,
+        53
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.016937784302182e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 5.08468892151091e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        53,
+        54
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.0016612307161748617,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.0008306153580874308,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        54,
+        55
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.056019301480424874,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.028009650740212437,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        72,
+        73
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.040345376919582066,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.020172688459791033,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        73,
+        74
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 2.104640110189848e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.052320055094924e-06,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        74,
+        75
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.7219782719735122e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 8.609891359867561e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        75,
+        76
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 3.449267197130763e-07,
+      "best_equal_foot_residual_lower_bound_m_per_s": 1.7246335985653815e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        76,
+        77
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 1.016937784302182e-06,
+      "best_equal_foot_residual_lower_bound_m_per_s": 5.08468892151091e-07,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        77,
+        78
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.0016612307161748617,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.0008306153580874308,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        78,
+        79
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.056019301480424874,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.028009650740212437,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    },
+    {
+      "frames": [
+        96,
+        97
+      ],
+      "incompatible_sole_velocity_difference_m_per_s": 0.040345376919582066,
+      "best_equal_foot_residual_lower_bound_m_per_s": 0.020172688459791033,
+      "simultaneous_3mm_proximity_is_not_force_support": true
+    }
+  ],
+  "loop_seam": {
+    "Meshy_Body_NeutralCovered": {
+      "translation_normalized_endpoint_error_m": 1.320649839486876e-09,
+      "velocity_seam_delta_max_m_per_s": 0.08950727187991504,
+      "original_velocity_seam_delta_max_m_per_s": 0.07018276311038965
+    },
+    "Character_Body_Head": {
+      "translation_normalized_endpoint_error_m": 9.063490476901191e-08,
+      "velocity_seam_delta_max_m_per_s": 0.021365934501365223,
+      "original_velocity_seam_delta_max_m_per_s": 0.007000936088733216
+    },
+    "Hair_Replacement_R4": {
+      "translation_normalized_endpoint_error_m": 5.720000428866001e-08,
+      "velocity_seam_delta_max_m_per_s": 0.0213556556503183,
+      "original_velocity_seam_delta_max_m_per_s": 0.007003784411519479
+    }
+  },
+  "source78_prior81_OFF_raw_identical": true,
+  "no_force_COM_physics_support_proof": true,
+  "existing_head_contact_HOLD_not_researched_or_waived": true,
+  "gross_collision_gate": "Translation residual of all actual original body/head/hair vertices bounds geometry change; no new contact count epsilon research. Existing source contacts remain HOLD.",
+  "TierP": 0,
+  "views": {
+    "front": {
+      "type": "ORTHO",
+      "ortho_scale": 1.18,
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.5299999713897705
+      ],
+      "location": [
+        0.0020000000949949026,
+        -0.828000009059906,
+        0.5299999713897705
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "fixed": true,
+      "resolution": [
+        320,
+        320
+      ],
+      "fps": 24.0,
+      "frames": [
+        1,
+        97
+      ]
+    },
+    "quarter": {
+      "type": "ORTHO",
+      "ortho_scale": 1.18,
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.5299999713897705
+      ],
+      "location": [
+        0.41359663009643555,
+        -0.7139943242073059,
+        0.5299999713897705
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        4.280959586822064e-08,
+        0.5404196381568909
+      ],
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "fixed": true,
+      "resolution": [
+        320,
+        320
+      ],
+      "fps": 24.0,
+      "frames": [
+        1,
+        97
+      ]
+    },
+    "side": {
+      "type": "ORTHO",
+      "ortho_scale": 1.18,
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.5299999713897705
+      ],
+      "location": [
+        0.8019999861717224,
+        -0.02800000086426735,
+        0.5299999713897705
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "fixed": true,
+      "resolution": [
+        320,
+        320
+      ],
+      "fps": 24.0,
+      "frames": [
+        1,
+        97
+      ]
+    }
+  },
+  "matched_all97_three_views_complete": true,
+  "full_raw_OFF_restored": true,
+  "elapsed_seconds": 240.08671360003063,
+  "action_library_SHA": "3008d478ce72e2d5c6a6706d3a0b8818278db67f32351d5cd2f0d2c7c2c0f089",
+  "OFF_pixels": {
+    "changed_pixels": 0,
+    "max_RGBA_delta": 0,
+    "exact_decoded_RGBA_equal": true,
+    "dimensions": [
+      920,
+      960,
+      4
+    ]
+  },
+  "max_original_body_bone_local_matrix_error": 0.0,
+  "max_all_actual_mesh_translation_residual_m": {
+    "Meshy_Body_NeutralCovered": 1.27553946072112e-07,
+    "Character_Body_Head": 1.532633530643146e-07,
+    "Hair_Replacement_R4": 7.343581498453489e-08
+  },
+  "anchored_source_sole_XY_excursion_reduction_percent": 98.47736863846272,
+  "verdict": "PARTIAL_KINEMATIC_SOLE_XY_IMPROVEMENT_OTHER_GATES_HOLD",
+  "visual": "SCOPED_NATIVE1X_TRANSLATIONAL_WALK_GROSS_GEOMETRY_PRESERVED_SEAM_HOLD",
+  "source_stance_mask_basis": "Actual3mm source floor proximity and persistent common vertices, not support forces; original mask fixed for candidate comparison.",
+  "both_feet_3mm_proximity_frames": 33,
+  "both_feet_persistent_transition_steps": 28,
+  "double_support_max_velocity_conflict_m_per_s": 0.056019301480424874,
+  "all97_three_views_original_candidate_grids_reviewed": true,
+  "all3_normal_speed_comparison_UI_complete": true,
+  "candidate_fresh_reopen_gate": "NOT_RUN; writer rawOFF signature before/afterSaveAs exact, consumer must independently reopen",
+  "next_bounded_alternative": "Constrain carrier endpoint velocity/tangents while retaining original body curves and fixed sole drift tolerance; unexecuted, no second candidate in this checkpoint."
+}
