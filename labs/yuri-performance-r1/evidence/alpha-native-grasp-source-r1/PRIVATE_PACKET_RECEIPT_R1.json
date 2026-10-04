@@ -1,0 +1,14 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_GRASP_SOURCE_ONLY_R1_20261005.zip",
+  "bytes": 57045942,
+  "SHA": "9d23f40e7ebdb812edd939eed61fd017427d4ba02bdadcd88d5bffcc43bc74ec",
+  "members": 102,
+  "indexed_members": 101,
+  "CRC_SHA_size_all": "PASS",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+  "library_SHA": "a2808d19d71cf55165b35b3bebcf752eebad8d76f5f4d6018c8b9a7435a8aeb2",
+  "source_technical_and_scoped_surface": "PASS",
+  "visual": "REFERENCE ONLY. Fixed front/waist entire169-frame1x gesture visibly raises LEFT forearm, holds then releases to original neutral; no observed gross new mesh break. Original long central hold/static face remain. Right-hand tracking close is a static control, not active LEFT finger-detail QA. No LEFT high-resolution close/prop contact/physical grasp/acting-quality approval.",
+  "TierP": 0
+}

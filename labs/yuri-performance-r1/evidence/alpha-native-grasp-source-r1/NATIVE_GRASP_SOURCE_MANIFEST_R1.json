@@ -1,0 +1,533 @@
+{
+  "task": "ROOT_PM_NATIVE_GRASP_SOURCE_REVIEW_NEXT_EXISTING_WAVE_R1",
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-grasp-candidate-r1b\\Character_R4_NativeGraspHand_CANDIDATE_OFF_R1B_20261004.blend",
+  "candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+  "candidate_bytes": 26705192,
+  "original_actions": 78,
+  "source_action": "MESHY_R2_BODY_GraspHoldRelease",
+  "source_action_SHA": "2100d633baa004312716f23fc87589bb965cc54178625a54d3eb3626788255a2",
+  "source_Action_already_NATIVE_Quaternion": true,
+  "Euler_conversion_rebuild_needed": false,
+  "selected_upper_and_finger_bones": [
+    "chest",
+    "clavicle.L",
+    "clavicle.R",
+    "forearm.L",
+    "forearm.R",
+    "hand.L",
+    "hand.R",
+    "head",
+    "index1.L",
+    "index1.R",
+    "index2.L",
+    "index2.R",
+    "index3.L",
+    "index3.R",
+    "middle1.L",
+    "middle1.R",
+    "middle2.L",
+    "middle2.R",
+    "middle3.L",
+    "middle3.R",
+    "neck",
+    "pinky1.L",
+    "pinky1.R",
+    "pinky2.L",
+    "pinky2.R",
+    "pinky3.L",
+    "pinky3.R",
+    "ring1.L",
+    "ring1.R",
+    "ring2.L",
+    "ring2.R",
+    "ring3.L",
+    "ring3.R",
+    "spine",
+    "thumb1.L",
+    "thumb1.R",
+    "thumb2.L",
+    "thumb2.R",
+    "thumb3.L",
+    "thumb3.R",
+    "upper_arm.L",
+    "upper_arm.R"
+  ],
+  "copied_original_upper_and_finger_curves": 294,
+  "additive_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_NATIVE_GRASP_HAND_EXISTING_ACTION_R1",
+    "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+  },
+  "frame_range": [
+    1,
+    169
+  ],
+  "source_scene_fps": 24,
+  "source_Action_Sample_rate": 24,
+  "duration_sec": 7.041666666666667,
+  "source_sole_world_error_m": 0,
+  "lower_bone_world_error": 0,
+  "intentional_finger_local_matrix_max_motion": 0.714551568031311,
+  "root_exact_all169": true,
+  "all_body_mesh_samples_finite": true,
+  "max_native_body_source_component_motion_m": 0.2799174216516285,
+  "maximum_body_vertex_step_m": 0.039486987882537405,
+  "first_vs_original_neutral_body_component_error_m": 0.0,
+  "last_vs_original_neutral_body_component_error_m": 0.0,
+  "first_last_body_component_error_m": 0.0,
+  "original78Actions_and_OFF_source_snapshot_exact": true,
+  "semantic": "Hand-oriented native GraspHoldRelease reused from existing66 source, original upper/finger native curves. Face/gaze/drivers preserved neutral, head/hair rigid transport. No physical prop/grasp, final facial acting/NorthStar/TierP/Unity quality claim.",
+  "stage": "Independent source motion supply; neutral replant R1/R2 remain closed FAIL/HOLD and nonblocking",
+  "visual_normal_speed_contact_OFF_reopen": "PENDING",
+  "TierP": 0,
+  "status": "SOURCE_ONLY_TECH_SCOPED_SURFACE_PASS_VISUAL_REFERENCE",
+  "action_only": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-grasp-preview-r1\\YURI_R4_NATIVE_GRASP_HAND_ACTIONS_ONLY_R1.blend",
+    "SHA": "a2808d19d71cf55165b35b3bebcf752eebad8d76f5f4d6018c8b9a7435a8aeb2",
+    "bytes": 4040700,
+    "Actions": {
+      "Meshy_Fitted_Rig": "YURI_R4_NATIVE_GRASP_HAND_EXISTING_ACTION_R1",
+      "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+      "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+    },
+    "named_actions": 3,
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0,
+    "source_fps": 24,
+    "frame_range": [
+      1,
+      169
+    ],
+    "existing_66_source_Action_reused": "Original MESHY_R2_BODY_GraspHoldRelease upper+finger294native curves copied exactly into separate Action; source original unchanged",
+    "Face_gaze": "Original keys/drivers preserved neutral, body head rigid transport only",
+    "canonical_character": false,
+    "TierP": 0
+  },
+  "actual_surface": {
+    "task": "ROOT_PM_INDEPENDENT_STAGE_AB_GRASP_SOURCE_R1",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+    "library_SHA": "a2808d19d71cf55165b35b3bebcf752eebad8d76f5f4d6018c8b9a7435a8aeb2",
+    "fresh_source_plus_ONLY3Actions_and_fixed_adapter": true,
+    "new_objects_meshes_rigs": 0,
+    "original78Actions_source_OFF_snapshot_exact": true,
+    "root_same_all169": true,
+    "endpoint_source_geometry_component_error_m": {
+      "1": {
+        "Meshy_Body_NeutralCovered": 0.0,
+        "Character_Body_Head": 0.0,
+        "Hair_Replacement_R4": 0.0
+      },
+      "169": {
+        "Meshy_Body_NeutralCovered": 0.0,
+        "Character_Body_Head": 0.0,
+        "Hair_Replacement_R4": 0.0
+      }
+    },
+    "source_neutral_pair_counts": {
+      "L": {
+        "index__middle": 0,
+        "index__ring": 0,
+        "index__pinky": 0,
+        "index__thumb": 0,
+        "middle__ring": 0,
+        "middle__pinky": 0,
+        "middle__thumb": 0,
+        "ring__pinky": 0,
+        "ring__thumb": 0,
+        "pinky__thumb": 0,
+        "index__body_other": 0,
+        "middle__body_other": 0,
+        "ring__body_other": 0,
+        "pinky__body_other": 0,
+        "thumb__body_other": 0,
+        "upper_arm.L__arm_body_other": 0,
+        "forearm.L__arm_body_other": 0,
+        "hand.L__arm_body_other": 0,
+        "index__head_surface": 0,
+        "middle__head_surface": 0,
+        "ring__head_surface": 0,
+        "pinky__head_surface": 0,
+        "thumb__head_surface": 0,
+        "upper_arm.L__head_surface": 0,
+        "forearm.L__head_surface": 0,
+        "hand.L__head_surface": 0,
+        "index__hair_surface": 0,
+        "middle__hair_surface": 0,
+        "ring__hair_surface": 0,
+        "pinky__hair_surface": 0,
+        "thumb__hair_surface": 0,
+        "upper_arm.L__hair_surface": 0,
+        "forearm.L__hair_surface": 0,
+        "hand.L__hair_surface": 0
+      },
+      "R": {
+        "index__middle": 0,
+        "index__ring": 0,
+        "index__pinky": 0,
+        "index__thumb": 0,
+        "middle__ring": 0,
+        "middle__pinky": 0,
+        "middle__thumb": 0,
+        "ring__pinky": 0,
+        "ring__thumb": 0,
+        "pinky__thumb": 0,
+        "index__body_other": 0,
+        "middle__body_other": 0,
+        "ring__body_other": 0,
+        "pinky__body_other": 0,
+        "thumb__body_other": 0,
+        "upper_arm.R__arm_body_other": 0,
+        "forearm.R__arm_body_other": 0,
+        "hand.R__arm_body_other": 0,
+        "index__head_surface": 0,
+        "middle__head_surface": 0,
+        "ring__head_surface": 0,
+        "pinky__head_surface": 0,
+        "thumb__head_surface": 0,
+        "upper_arm.R__head_surface": 0,
+        "forearm.R__head_surface": 0,
+        "hand.R__head_surface": 0,
+        "index__hair_surface": 0,
+        "middle__hair_surface": 0,
+        "ring__hair_surface": 0,
+        "pinky__hair_surface": 0,
+        "thumb__hair_surface": 0,
+        "upper_arm.R__hair_surface": 0,
+        "forearm.R__hair_surface": 0,
+        "hand.R__hair_surface": 0
+      }
+    },
+    "maximum_actual_surface_pairs_by_side": {
+      "L": {
+        "index__middle": 0,
+        "index__ring": 0,
+        "index__pinky": 0,
+        "index__thumb": 0,
+        "middle__ring": 0,
+        "middle__pinky": 0,
+        "middle__thumb": 0,
+        "ring__pinky": 0,
+        "ring__thumb": 0,
+        "pinky__thumb": 0,
+        "index__body_other": 0,
+        "middle__body_other": 0,
+        "ring__body_other": 0,
+        "pinky__body_other": 0,
+        "thumb__body_other": 0,
+        "upper_arm.L__arm_body_other": 0,
+        "forearm.L__arm_body_other": 0,
+        "hand.L__arm_body_other": 0,
+        "index__head_surface": 0,
+        "middle__head_surface": 0,
+        "ring__head_surface": 0,
+        "pinky__head_surface": 0,
+        "thumb__head_surface": 0,
+        "upper_arm.L__head_surface": 0,
+        "forearm.L__head_surface": 0,
+        "hand.L__head_surface": 0,
+        "index__hair_surface": 0,
+        "middle__hair_surface": 0,
+        "ring__hair_surface": 0,
+        "pinky__hair_surface": 0,
+        "thumb__hair_surface": 0,
+        "upper_arm.L__hair_surface": 0,
+        "forearm.L__hair_surface": 0,
+        "hand.L__hair_surface": 0
+      },
+      "R": {
+        "index__middle": 0,
+        "index__ring": 0,
+        "index__pinky": 0,
+        "index__thumb": 0,
+        "middle__ring": 0,
+        "middle__pinky": 0,
+        "middle__thumb": 0,
+        "ring__pinky": 0,
+        "ring__thumb": 0,
+        "pinky__thumb": 0,
+        "index__body_other": 0,
+        "middle__body_other": 0,
+        "ring__body_other": 0,
+        "pinky__body_other": 0,
+        "thumb__body_other": 0,
+        "upper_arm.R__arm_body_other": 0,
+        "forearm.R__arm_body_other": 0,
+        "hand.R__arm_body_other": 0,
+        "index__head_surface": 0,
+        "middle__head_surface": 0,
+        "ring__head_surface": 0,
+        "pinky__head_surface": 0,
+        "thumb__head_surface": 0,
+        "upper_arm.R__head_surface": 0,
+        "forearm.R__head_surface": 0,
+        "hand.R__head_surface": 0,
+        "index__hair_surface": 0,
+        "middle__hair_surface": 0,
+        "ring__hair_surface": 0,
+        "pinky__hair_surface": 0,
+        "thumb__hair_surface": 0,
+        "upper_arm.R__hair_surface": 0,
+        "forearm.R__hair_surface": 0,
+        "hand.R__hair_surface": 0
+      }
+    },
+    "maximum_added_vs_original_neutral_pairs_by_side": {
+      "L": {
+        "index__middle": 0,
+        "index__ring": 0,
+        "index__pinky": 0,
+        "index__thumb": 0,
+        "middle__ring": 0,
+        "middle__pinky": 0,
+        "middle__thumb": 0,
+        "ring__pinky": 0,
+        "ring__thumb": 0,
+        "pinky__thumb": 0,
+        "index__body_other": 0,
+        "middle__body_other": 0,
+        "ring__body_other": 0,
+        "pinky__body_other": 0,
+        "thumb__body_other": 0,
+        "upper_arm.L__arm_body_other": 0,
+        "forearm.L__arm_body_other": 0,
+        "hand.L__arm_body_other": 0,
+        "index__head_surface": 0,
+        "middle__head_surface": 0,
+        "ring__head_surface": 0,
+        "pinky__head_surface": 0,
+        "thumb__head_surface": 0,
+        "upper_arm.L__head_surface": 0,
+        "forearm.L__head_surface": 0,
+        "hand.L__head_surface": 0,
+        "index__hair_surface": 0,
+        "middle__hair_surface": 0,
+        "ring__hair_surface": 0,
+        "pinky__hair_surface": 0,
+        "thumb__hair_surface": 0,
+        "upper_arm.L__hair_surface": 0,
+        "forearm.L__hair_surface": 0,
+        "hand.L__hair_surface": 0
+      },
+      "R": {
+        "index__middle": 0,
+        "index__ring": 0,
+        "index__pinky": 0,
+        "index__thumb": 0,
+        "middle__ring": 0,
+        "middle__pinky": 0,
+        "middle__thumb": 0,
+        "ring__pinky": 0,
+        "ring__thumb": 0,
+        "pinky__thumb": 0,
+        "index__body_other": 0,
+        "middle__body_other": 0,
+        "ring__body_other": 0,
+        "pinky__body_other": 0,
+        "thumb__body_other": 0,
+        "upper_arm.R__arm_body_other": 0,
+        "forearm.R__arm_body_other": 0,
+        "hand.R__arm_body_other": 0,
+        "index__head_surface": 0,
+        "middle__head_surface": 0,
+        "ring__head_surface": 0,
+        "pinky__head_surface": 0,
+        "thumb__head_surface": 0,
+        "upper_arm.R__head_surface": 0,
+        "forearm.R__head_surface": 0,
+        "hand.R__head_surface": 0,
+        "index__hair_surface": 0,
+        "middle__hair_surface": 0,
+        "ring__hair_surface": 0,
+        "pinky__hair_surface": 0,
+        "thumb__hair_surface": 0,
+        "upper_arm.R__hair_surface": 0,
+        "forearm.R__hair_surface": 0,
+        "hand.R__hair_surface": 0
+      }
+    },
+    "bounded_contact_subset": "PASS",
+    "scope": "Existing dominant >=.5 original-weight L/R arm/hand/digit triangle cohorts, actual dynamic evaluated triangulation, preserved original polygons/vertex counts, epsilon0; weak webbing/adjacency/full-character/depth/physical contact not certified",
+    "TierP": 0
+  },
+  "OFF_RGBA": {
+    "dimensions": [
+      920,
+      960,
+      4
+    ],
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "PASS": true
+  },
+  "normal_speed_UI": {
+    "start": [
+      {
+        "currentTime": 0.1916,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18928/fullbody_front_NATIVE_GRASP_1x.mp4"
+      },
+      {
+        "currentTime": 0.191544,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18928/waist_3q_NATIVE_GRASP_1x.mp4"
+      },
+      {
+        "currentTime": 0.191424,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18928/right_hand_close_NATIVE_GRASP_1x.mp4"
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18928/fullbody_front_NATIVE_GRASP_1x.mp4"
+      },
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18928/waist_3q_NATIVE_GRASP_1x.mp4"
+      },
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18928/right_hand_close_NATIVE_GRASP_1x.mp4"
+      }
+    ]
+  },
+  "cameras": {
+    "fullbody_front": {
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.5299999713897705
+      ],
+      "location": [
+        0.0020000000949949026,
+        -0.828000009059906,
+        0.5299999713897705
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.18,
+      "resolution": [
+        384,
+        384
+      ],
+      "fixed": true,
+      "hand_close_policy": "Right close follows existing wrist translation only; fixed orientation. Root/body judgment uses fixed front/waist views.",
+      "frames": [
+        1,
+        169
+      ],
+      "fps": 24
+    },
+    "waist_3q": {
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.7900000214576721
+      ],
+      "location": [
+        0.41359663009643555,
+        -0.7139943242073059,
+        0.7900000214576721
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        4.280959586822064e-08,
+        0.5404196381568909
+      ],
+      "ortho_scale": 0.62,
+      "resolution": [
+        384,
+        384
+      ],
+      "fixed": true,
+      "hand_close_policy": "Right close follows existing wrist translation only; fixed orientation. Root/body judgment uses fixed front/waist views.",
+      "frames": [
+        1,
+        169
+      ],
+      "fps": 24
+    },
+    "right_hand_close": {
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.7900000214576721
+      ],
+      "location": [
+        0.0020000000949949026,
+        -0.828000009059906,
+        0.7900000214576721
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.18,
+      "resolution": [
+        384,
+        384
+      ],
+      "fixed": false,
+      "hand_close_policy": "Right close follows existing wrist translation only; fixed orientation. Root/body judgment uses fixed front/waist views.",
+      "frames": [
+        1,
+        169
+      ],
+      "fps": 24
+    }
+  },
+  "visual_verdict": "REFERENCE ONLY. Fixed front/waist entire169-frame1x gesture visibly raises LEFT forearm, holds then releases to original neutral; no observed gross new mesh break. Original long central hold/static face remain. Right-hand tracking close is a static control, not active LEFT finger-detail QA. No LEFT high-resolution close/prop contact/physical grasp/acting-quality approval.",
+  "source_appearance_promoted": false,
+  "source66_rebuilt": false,
+  "Unity_AlwaysAnimate_physics": "HOLD",
+  "construction_failure_control": "R1 reused121-frame Talk template although original Grasp is169. Partial R1 candidate and executed script preserved; not a valid full-motion delivery. Fresh R1b repairs only full source range/head-hair transport and QA to169; source294curves remain exact. Guard terminal success alone never treated as content PASS.",
+  "task_alias": "Candidate metadata ROOT_PM_NATIVE_GRASP_SOURCE_REVIEW_NEXT_EXISTING_WAVE_R1 is a narrow reused template label; authority remains ROOT_PM_NATIVE_TALK_SOURCE_REVIEW_NEXT_EXISTING_WAVE_R1, original Wave already supplied.",
+  "already_supplied_wave": {
+    "checkpoint": "a59499f",
+    "packet_SHA": "f1621cc214e09d3c8ddcd020b4e167d8ca739c31687c80f7ab11654e73c883fd",
+    "bytes": 56086747,
+    "this_run_archive_SHA_CRC": "PASS; not regenerated"
+  },
+  "already_supplied_look_listen": {
+    "checkpoint": "82949b0",
+    "packet_SHA": "76a006e56289738d79ea0ef6b6e9b3ec4c29a5412e10c4560881ebf871df1275",
+    "provenance": "Prior A3-derived source candidate; not newly claimed as original native HeadGazeHair"
+  },
+  "next_bounded_task": "If this LEFT hand component is selected for reuse, add fixed LEFT active-hand close over existing169frames; retain motion untouched and independently judge curl readability/weak-webbing defects. Source-only review, no automatic Unity or TierP promotion."
+}

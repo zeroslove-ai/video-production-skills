@@ -1,0 +1,14 @@
+{
+  "task": "ROOT_PM_NATIVE_TALK_EXACT_TRANSFER_DONE_R1",
+  "verification_owner": "Root PM; trusted delegated receiver receipt, not this worker independently reverified",
+  "receiver_actions_path": "C:/YuriTransfer/inbox/ROOT_PM_NATIVE_TALK_HANDOFF_20261005_R1/YURI_R4_NATIVE_TALK_UPPER_ACTIONS_ONLY_R1.blend",
+  "receiver_bytes": 1042654,
+  "receiver_SHA": "eae83ac3143d91b45a75ddf0366389a1cc22d35919f2527e5dc2e60ba9f51761",
+  "receiver_manifest_path": "C:/YuriTransfer/inbox/ROOT_PM_NATIVE_TALK_HANDOFF_20261005_R1/NATIVE_TALK_SOURCE_MANIFEST_R1.json",
+  "receiver_manifest_bytes": 15715,
+  "root_reported_independent_laptop_SHA_verified": true,
+  "this_worker_retransferred": false,
+  "this_worker_reexported": false,
+  "source_only": true,
+  "Unity_TierP": "HOLD; sole Laptop writer owns runtime work"
+}

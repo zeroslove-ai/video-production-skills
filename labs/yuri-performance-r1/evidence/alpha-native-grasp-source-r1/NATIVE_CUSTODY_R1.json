@@ -1,0 +1,32 @@
+[
+  {
+    "run": "o1-native-grasp-intake-r1",
+    "SHA": "2205d294d2e2145edb56c4d01dbc78f100840ac5bfe727b24faa0abce052db3f",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 20.41373799997382
+  },
+  {
+    "run": "o1-native-grasp-candidate-r1",
+    "SHA": "c00cc4077f66efb0b465d289a79c3408e235b8322e28fec3e571a1b803fab2e8",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 29.97420710005099
+  },
+  {
+    "run": "o1-native-grasp-candidate-r1b",
+    "SHA": "bc4065c8ca19d99b7331486afaf91608eeb43b4f7af3939cd281ab7a51b83b03",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 31.406504300015513
+  },
+  {
+    "run": "o1-native-grasp-preview-r1b",
+    "SHA": "9b0769179eb5b36824bbf24e8edbae32365acaef672a27618a389601907c4bd4",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 218.81408069998724
+  },
+  {
+    "run": "o1-native-grasp-library-contact-qa-r1",
+    "SHA": "65631919f0728fe3d3cf839449b05c3bb60382d53933d2378104387a516a254a",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 226.22826329997042
+  }
+]

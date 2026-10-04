@@ -1,0 +1,23 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-grasp-preview-r1\\YURI_R4_NATIVE_GRASP_HAND_ACTIONS_ONLY_R1.blend",
+  "SHA": "a2808d19d71cf55165b35b3bebcf752eebad8d76f5f4d6018c8b9a7435a8aeb2",
+  "bytes": 4040700,
+  "Actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_NATIVE_GRASP_HAND_EXISTING_ACTION_R1",
+    "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+  },
+  "named_actions": 3,
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0,
+  "source_fps": 24,
+  "frame_range": [
+    1,
+    169
+  ],
+  "existing_66_source_Action_reused": "Original MESHY_R2_BODY_GraspHoldRelease upper+finger294native curves copied exactly into separate Action; source original unchanged",
+  "Face_gaze": "Original keys/drivers preserved neutral, body head rigid transport only",
+  "canonical_character": false,
+  "TierP": 0
+}
