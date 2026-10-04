@@ -1,0 +1,14 @@
+[
+  {
+    "run": "o1-grasp-left-thumb-c1",
+    "SHA": "8ae2f6ae16198b18619afc59579b2ca589e9f4250fc164716389ee3c74f856eb",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "seconds": 107.03667529998347
+  },
+  {
+    "run": "o1-grasp-left-thumb-preview-c1",
+    "SHA": "ffb621184ffe228202be034592948f705b20b5d2ee73477ecdaf7305a4887706",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "seconds": 283.70118440000806
+  }
+]

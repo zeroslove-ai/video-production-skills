@@ -315,5 +315,36 @@
     "restoration_control": "Initial rendered169 before OFF assertion failure from transient render config; fresh no-render R1b isolates scene-only diff and full restored fingerprint0, strict guardPASS. Original failure/render bytes preserved.",
     "next_one_correction": "Separate additive LEFT thumb opposition sourceCOPY hypothesis only; not executed; preserve original motion/rig/skin/materials",
     "laptop_talk": "Independent sole Laptop lane; not blocked"
+  },
+  "grasp_left_thumb_one_correction_c1": {
+    "client_date": "2026-10-05",
+    "task": "ROOT_PM_NATIVE_GRASP_LEFT_THUMB_ONE_CORRECTION_R1",
+    "status": "ONE_CORRECTION_COMPLETED_FAIL_HOLD",
+    "candidate_SHA": "25561f232fec69ff37df022c23d225c1524d95efa0fb117bcec8da5e39e61a51",
+    "packet": {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_LEFT_THUMB_OPPOSITION_FAIL_CONTROL_C1_20261005.zip",
+      "SHA": "50c6067377cdd74ed5e48378f0938916c48c77a60b3ce0074dc153f3c078078b",
+      "bytes": 33906579,
+      "members": 54,
+      "indexed_members": 53,
+      "CRC_SHA_size_all": "PASS",
+      "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "base_candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+      "candidate_SHA": "25561f232fec69ff37df022c23d225c1524d95efa0fb117bcec8da5e39e61a51",
+      "library_SHA": "941a2bc3e784ebe05d5c59b3b01c39c08d855af9a23bfd32b40d4e81cc4ab87a",
+      "candidate_verdict": "FAIL/HOLD: new thumb-palm/other-digit intersections47–61",
+      "OFF_pixels": {
+        "changed_RGBA_pixels": 0,
+        "max_channel_error": 0,
+        "PASS": true
+      },
+      "TierP": 0
+    },
+    "changed": "Separate native Action COPY only thumb1.L quaternion4channels, all290othercurves exact",
+    "source_preservation": "Prior81Actions including original78/rest/rig/weights/materials/drivers/OFF snapshot exact; OFF960x920RGBA0; all169 nonthumb matrices/unaffected geometry0",
+    "failure": "15frames47–61 new actual nonadjacent allbody98/palm15/otherdigit94max; same-frame baseline0. Inclusive thumb>0.01 weights vs ALL actual body, weakwebbing/palm/digits not excluded; raw sharedvertexadjacency explicitly reported",
+    "normal_speed": "Two whole169frame24fps7.041667second native LEFTclose/fixedwaist before-after1x/decode/pairedallframegrid complete",
+    "next_one_alternative": "Proposed timing-only opposition onset after61/ramp62–85, source wrist/body/finger/timing unchanged. NOT executed; no secondcandidate",
+    "Unity_F2_MUG_TierP": "HOLD/TierP0; sole Laptop Talk independent"
   }
 }

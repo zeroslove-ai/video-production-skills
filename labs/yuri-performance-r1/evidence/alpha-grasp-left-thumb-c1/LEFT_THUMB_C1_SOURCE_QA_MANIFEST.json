@@ -1,0 +1,226 @@
+{
+  "task": "ROOT_PM_NATIVE_GRASP_LEFT_THUMB_ONE_CORRECTION_R1",
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "base_candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-grasp-candidate-r1b\\Character_R4_NativeGraspHand_CANDIDATE_OFF_R1B_20261004.blend",
+  "base_candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-grasp-left-thumb-c1\\Character_R4_Grasp_LeftThumb_C1_EXPERIMENT_OFF_20261005.blend",
+  "candidate_SHA": "25561f232fec69ff37df022c23d225c1524d95efa0fb117bcec8da5e39e61a51",
+  "body_action": "YURI_R4_GRASP_LEFT_THUMB_OPPOSITION_BODY_C1",
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_GRASP_LEFT_THUMB_OPPOSITION_BODY_C1",
+    "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+  },
+  "frame_range": [
+    1,
+    169
+  ],
+  "fps": 24,
+  "changed_curves_only": [
+    "thumb1.L quaternion4channels"
+  ],
+  "all_other290_curves_exact": true,
+  "prior81Actions_and_OFF_snapshot_preserved": true,
+  "max_unaffected_geometry_component_error_m": 0,
+  "max_nonthumb_bone_matrix_error": 0,
+  "endpoints_base_neutral_geometry_error": {
+    "1": 0.0,
+    "169": 0.0
+  },
+  "thumb_target_distances": {
+    "1": {
+      "thumb_tip_to_finger_target_m": 0.040389308717744724,
+      "baseline_thumb_to_target_m": null,
+      "baseline_geometry_error_m": 0.0
+    },
+    "85": {
+      "thumb_tip_to_finger_target_m": 0.026825780097611426,
+      "baseline_thumb_to_target_m": 0.05227893951095209,
+      "baseline_geometry_error_m": 0.009576686494121134
+    },
+    "169": {
+      "thumb_tip_to_finger_target_m": 0.040389308717744724,
+      "baseline_thumb_to_target_m": null,
+      "baseline_geometry_error_m": 0.0
+    }
+  },
+  "maximum_actual_inclusive_pairs": {
+    "nonadjacent_all_body": 98,
+    "nonadjacent_palm_inclusive": 15,
+    "nonadjacent_other_digits_inclusive": 94,
+    "shared_vertex_adjacent_raw": 466,
+    "identical_triangle_raw": 0
+  },
+  "maximum_new_same_frame_inclusive_pairs": {
+    "nonadjacent_all_body": 98,
+    "nonadjacent_palm_inclusive": 15,
+    "nonadjacent_other_digits_inclusive": 94,
+    "shared_vertex_adjacent_raw": 402,
+    "identical_triangle_raw": 0
+  },
+  "contact_verdict": "FAIL/HOLD",
+  "scope": "ALL triangles with ANY LEFT thumb1/2/3 weight>.01 against ALL actual body triangles, including hand.L palm and other-digit weak weights. No palm/webbing exclusion. Shared-vertex/identical triangle raw intersections explicitly reported, compared same frame before/after; these are mesh adjacency, not certified penetration depth. Nonadjacent actual intersections and new pairs separately counted. Full volumetric containment/adjacent deformation quality/physical grasp not certified.",
+  "visual_normal_speed": "PENDING",
+  "TierP": 0,
+  "native_axis_basis": "Actual LEFT current thumb-base/tip vs index2-middle2 target, no right-hand constants/Euler signs/R5 donor geometry",
+  "opposition_degrees": 20,
+  "longitudinal_roll_degrees": 10,
+  "source_reference_frame": 85,
+  "target_distance_units": "Recorded thumb_tip_to_finger_target_m is RIG-SPACE Blender coordinate distance, not world metric distance. Ratio only; no physicalmm claim.",
+  "contact_failure_frames": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "baseline_maximum_actual_pairs": {
+    "nonadjacent_all_body": 0,
+    "nonadjacent_palm_inclusive": 0,
+    "nonadjacent_other_digits_inclusive": 0,
+    "shared_vertex_adjacent_raw": 491,
+    "identical_triangle_raw": 0
+  },
+  "cameras": {
+    "left_hand_close": {
+      "frames": [
+        1,
+        169
+      ],
+      "fps": 24,
+      "camera_rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.7900000214576721
+      ],
+      "fixed": false,
+      "wrist_world_translation_follow": true,
+      "constant_target_offset": [
+        0.009495929814875126,
+        -0.0018991859396919608,
+        -0.02627204731106758
+      ],
+      "ortho_scale": 0.18000000715255737,
+      "resolution": [
+        512,
+        512
+      ]
+    },
+    "waist_3q": {
+      "frames": [
+        1,
+        169
+      ],
+      "fps": 24,
+      "camera_rotation_euler": [
+        1.5707961320877075,
+        4.500163797160894e-08,
+        0.5404195189476013
+      ],
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.7900000214576721
+      ],
+      "fixed": true,
+      "wrist_world_translation_follow": false,
+      "constant_target_offset": null,
+      "ortho_scale": 0.6200000047683716,
+      "resolution": [
+        384,
+        384
+      ]
+    }
+  },
+  "OFF_RGBA": {
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "PASS": true
+  },
+  "normal_speed": {
+    "start": [
+      {
+        "currentTime": 0.190513,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18930/left_hand_close_BEFORE_AFTER_C1_1x.mp4"
+      },
+      {
+        "currentTime": 0.190454,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18930/waist_3q_BEFORE_AFTER_C1_1x.mp4"
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18930/left_hand_close_BEFORE_AFTER_C1_1x.mp4"
+      },
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18930/waist_3q_BEFORE_AFTER_C1_1x.mp4"
+      }
+    ]
+  },
+  "visual_QA": {
+    "actual_whole_playback": "Two synced before/after comparisons,169frames24fps7.041667seconds, actual1x through-end/error-null; complete paired LEFT and waist grids examined",
+    "left_thumb_shape": "Closer during hold, but transition pulls thumb into palm/finger base around47\u201361; no convincing secure grasp approval",
+    "contact_visual": "FAIL/HOLD; before/afterf50 shows withdrawn/hidden thumb into base versus original lateral thumb, consistent with measured new nonadjacent palm/digit pairs",
+    "wholebody_fixed_view": "No new gross body/wrist/root/foot/head/hair change observed. Native all169 nonthumb matrix and unaffected geometry difference0 is stronger evidence than small thumb in waist camera.",
+    "OFF": "Saved/reopen full snapshot restored; original960x920 RGBAchanged0",
+    "endpoints": "Open hand return visually matches before; actual body base-neutral geometry0 at1/169",
+    "limitations": "CPU8sample preview grain; no weak adjacency/volumetric/physical-grasp certification. Source hand-shape candidate FAIL/HOLD, not final acting/F2/Unity/TierP.",
+    "next_one_alternative": "Proposed timing-only thumb opposition onset AFTER61, ramp62\u201385; same axes/amplitudes and existing body/finger/timing tracks. Not executed; no second candidate."
+  },
+  "action_only": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-grasp-left-thumb-preview-c1\\YURI_R4_GRASP_LEFT_THUMB_C1_ACTIONS_ONLY.blend",
+    "SHA": "941a2bc3e784ebe05d5c59b3b01c39c08d855af9a23bfd32b40d4e81cc4ab87a",
+    "bytes": 4039900,
+    "actions": {
+      "Meshy_Fitted_Rig": "YURI_R4_GRASP_LEFT_THUMB_OPPOSITION_BODY_C1",
+      "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+      "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+    },
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0
+  },
+  "status": "FAIL_HOLD: one thumb-shape correction creates new nonadjacent palm/digit intersection",
+  "next_one_alternative": "Proposed ONLY thumb phase gate: delay opposition onset until after native finger/hand transition61, ramp62\u201385 into collision-free hold and release before later return. Preserve20deg10deg/native axes/all other motion. NOT EXECUTED; no second candidate in this task.",
+  "source_appearance_promoted": false,
+  "physics_MUG_F2_Unity_TierP": "HOLD/TierP0",
+  "Root_Laptop_Talk": "Independent sole Laptop runtime integration, nonblocking"
+}
