@@ -1,0 +1,14 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_HEAD_VISUAL_SOURCE_R1_20261005.zip",
+  "sha256": "5fc486676885341e04c4b597fb5a1d102f9d81a6033e13f658cbb064a7e69546",
+  "bytes": 79179302,
+  "members": 231,
+  "indexed_members": 230,
+  "CRC_SHA_size_all_verified": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_action_signature_SHA": "218c7deec182c7a6c1d400ac8c22b2b3943ac44cbaf458e4aa45e4393f6aba92",
+  "closed_once": true,
+  "source78_OFF_preserved": true,
+  "new_candidate": null,
+  "TierP": 0
+}

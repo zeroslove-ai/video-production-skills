@@ -1,0 +1,124 @@
+{
+  "task": "ROOT_PM_HEAD_BOUNDARY_CLOSE_TO_NATIVE_HEAD_VISUAL_R1",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "existing_action": "MESHY_R2_BODY_HeadGazeHair",
+  "action_signature_SHA": "218c7deec182c7a6c1d400ac8c22b2b3943ac44cbaf458e4aa45e4393f6aba92",
+  "slot": {
+    "identifier": "OBLegacy Slot",
+    "handle": 929201142,
+    "type": "OBJECT"
+  },
+  "all_original_curve_RNA_compatible_targets": [
+    "Meshy_Fitted_Rig"
+  ],
+  "target_binding": "Unique complete original BODY curve RNA resolution plus exact Meshy_Fitted_Rig owner; no first-slot fallback",
+  "curve_count": 364,
+  "range": [
+    1,
+    97
+  ],
+  "source_fps": 24.0,
+  "source_fps_base": 1.0,
+  "endpoint_span_seconds": 4.0,
+  "encoded_duration_seconds": 4.041666666666667,
+  "speed_factor": 1,
+  "source78_preserved": true,
+  "no_additive_transport_no_FACE_GAZE_HAIR_action_assignment": true,
+  "scope": "Existing native BODY_HeadGazeHair only plus all existing original face/gaze/hair drivers/constraints. Auxiliary native FACE KEY/GAZE/HAIR takes not bound: do not claim whole multi-channel facial performance. Measured actual morph/eye outputs retained. No driver unmute/rebuild/export/new candidate/contact counts.",
+  "max_actual_mesh_displacement_vs_OFF_m": {
+    "Meshy_Body_NeutralCovered": 0.005255748864868176,
+    "Character_Body_Head": 0.02583701725850753,
+    "Hair_Replacement_R4": 0.03868443917318832
+  },
+  "views": {
+    "front": {
+      "type": "ORTHO",
+      "target": [
+        0.001950026024132967,
+        -0.03299993276596069,
+        0.8675683736801147
+      ],
+      "location": [
+        0.001950026024132967,
+        -0.7329999208450317,
+        0.8675683736801147
+      ],
+      "rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 0.28,
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "resolution": [
+        384,
+        384
+      ],
+      "fixed": true,
+      "source_fps": 24.0,
+      "frames": [
+        1,
+        97
+      ]
+    },
+    "positiveX_side": {
+      "type": "ORTHO",
+      "target": [
+        0.001950026024132967,
+        -0.03299993276596069,
+        0.8675683736801147
+      ],
+      "location": [
+        0.7019500136375427,
+        -0.03299993276596069,
+        0.8675683736801147
+      ],
+      "rotation_euler": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "ortho_scale": 0.28,
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "resolution": [
+        384,
+        384
+      ],
+      "fixed": true,
+      "source_fps": 24.0,
+      "frames": [
+        1,
+        97
+      ]
+    }
+  },
+  "all97_both_views_complete": true,
+  "full_raw_OFF_snapshot_equal": true,
+  "source_bytes_unchanged": true,
+  "collector_elapsed_seconds": 272.3849569999729,
+  "TierP": 0,
+  "morph_values_change_count": 0,
+  "morph_value_count": 72,
+  "OFF_pixels": {
+    "changed_pixels": 0,
+    "max_RGBA_delta": 0,
+    "dimensions": [
+      920,
+      960,
+      4
+    ],
+    "decoded_RGBA_exact": true
+  },
+  "guard_sha256": "6b50b98415e688866591509de8ca66afa3a64dfc46eb1c55dc6ccf1710d97f7a",
+  "visual": "SCOPED_BODY_HEAD_SOURCE_NORMAL_NO_GROSS_NEW_MOUTH_HAIR_NECK_BREAK_UNITY_STAGE_UNTESTED",
+  "auxiliary_face_gaze_hair_original_actions_not_exercised": true,
+  "all194_frames_inspected_and_two_native_1x_videos_completed": true,
+  "eye_head_relative_matrix_max_component_change": {
+    "J_Adj_L_FaceEye": 1.1586859127721283e-07,
+    "J_Adj_R_FaceEye": 1.543686477534223e-07
+  },
+  "all72_original_morph_values_zero_all97": true,
+  "micro_shading_limit": "384x384 CPU8sample noise; fine mouth/skin shading cannot be fully excluded. No independent gaze/blink/mouth morph animation in BODY-only take."
+}

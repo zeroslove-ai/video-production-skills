@@ -525,5 +525,27 @@
     "OFF_changed_pixels": 0,
     "TierP": 0,
     "next_recommendation": "Existing native BODY_HeadGazeHair source-only audit; unexecuted. No duplicate Idle/Walk render."
+  },
+  "native_head_visual_source_r1": {
+    "status": "SCOPED_BODY_HEAD_SOURCE_NORMAL_MORPH_GAZE_STATIC_UNITY_STAGE_UNTESTED",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "action": "MESHY_R2_BODY_HeadGazeHair",
+    "action_signature_SHA": "218c7deec182c7a6c1d400ac8c22b2b3943ac44cbaf458e4aa45e4393f6aba92",
+    "frames": [
+      1,
+      97
+    ],
+    "fps": 24,
+    "views": [
+      "front",
+      "positiveX_side"
+    ],
+    "morph_values": "all72zero/all97",
+    "OFF_changed_pixels": 0,
+    "source78_preserved": true,
+    "packet_SHA": "5fc486676885341e04c4b597fb5a1d102f9d81a6033e13f658cbb064a7e69546",
+    "new_candidate": null,
+    "TierP": 0,
+    "next": "Matched Unity body-head visual comparison by Laptop; no Desktop native gaze/morph sweep or Walk precision rerun."
   }
 }

@@ -131,3 +131,8 @@ ONEsource candidate, original364BODYcurvesexactCOPY/97frames1..97/sourceActionSa
 ## 2026-10-05 Walk head boundary corrective evidence
 
 원본 BODY-only 대조군과 기존 Walk 후보의91/92 actual body/head/hair vertices exact 동일. 추가 transport 인과 배제; 새 후보0. Head 비강체 잔차0.542mm 원인 미분리, 교차/foot plant/velocity HOLD 유지. OFF decodedRGBA0, 원본78/후보81/원본R4/닫힌Walk/appearance bundles 보존. 영향 구간74..97만24fps1x 두구도 비교; 전체97/승인Idle 재렌더0. 별도 private supplement SHA 7573c53446fc6868aa180726496fa8beff40052e8729dc553b9c248198e9f9ac;139members/138indexed/CRC-SHA-size검증. 세부: evidence/walk-head-boundary-r1/YURI_R4_WALK_HEAD_BOUNDARY_R1_KO.md. 다음 권고는 기존 native BODY_HeadGazeHair source-only 검수(미실행). 제품/Laptop/Unity/TierP0 유지.
+
+
+## 2026-10-05 native head visual source authority
+
+기존 BODY_HeadGazeHair full97/24fps 고정front/side에서 head/eye/hair 실제 동작, 큰 새 mouth/hair/neck visible defect 관찰0. BODY-only/all72morph0/독립gaze0이므로 full facial acting 안정성 미검증; CPU8samples 미세shading 한계. Source78/fullrawOFF/neutralRGBA0/sourcebytes 보존. Source-reference-only, Unity 단계 matched 비교 필요, CONTACT/foot/velocity/TierP/F2 HOLD 유지. Packet SHA 5fc486676885341e04c4b597fb5a1d102f9d81a6033e13f658cbb064a7e69546;79,179,302bytes/231members230indexed 검증. exact source/Action/cameras/frame/morph/meshimagehash private reference 연결, 새후보0. 세부 evidence/native-head-visual-source-r1/YURI_R4_NATIVE_HEAD_VISUAL_SOURCE_R1_KO.md.
