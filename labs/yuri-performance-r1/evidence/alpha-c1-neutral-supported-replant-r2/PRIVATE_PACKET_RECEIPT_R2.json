@@ -1,0 +1,14 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_C1_NEUTRAL_CONTACT_PATCH_EXPERIMENT_R2_20261004.zip",
+  "bytes": 57718701,
+  "SHA": "39d043ac9688e49bfb80851d4756474527f5c5b11eb1ca43bd8a551411c7e451",
+  "members": 73,
+  "indexed_members": 72,
+  "CRC_SHA_size_all": "PASS",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "2f570ce512cc3901c618c808a0cedcd0e15d98934551d29905380bc35b8eaf9d",
+  "library_SHA": "3dc7283541a84d301e4a038ecc4dfad9bacf8bdd7c629fb3c5eb594faa250ae8",
+  "motion_verdict": "FAIL_HOLD",
+  "exact_endpoint_OFF_source_camera_pixels": "PASS_CHANGED0",
+  "TierP": 0
+}

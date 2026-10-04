@@ -1,0 +1,367 @@
+{
+  "task": "ROOT_PM_C1_REPLANT_R1_FAIL_NEXT_R2_R1",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-neutral-supported-replant-r2\\Character_R4_C1_NeutralContactPatch_EXPERIMENT_OFF_R2_20261004.blend",
+  "candidate_SHA": "2f570ce512cc3901c618c808a0cedcd0e15d98934551d29905380bc35b8eaf9d",
+  "candidate_bytes": 27114338,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "R1_candidate_SHA_unchanged": "768399fa5cd9b6e2603599f47b9ff0263a978551e3f81c8101d764563babbd75",
+  "R1_contact_causes_inspected_only97_133": {
+    "97": {
+      "sole_world_error_m": {
+        "L": 0.0026727096136407893,
+        "R": 0.003061628034014862
+      },
+      "body_source_component_error_m": 0.16931764315079967
+    },
+    "133": {
+      "sole_world_error_m": {
+        "L": 0.00016270382670699379,
+        "R": 0.00013408019627506458
+      },
+      "body_source_component_error_m": 0.0009491010102968822
+    }
+  },
+  "hypothesis": "Same sequential R1 lift/transfer schedule and pelvis/body/head/hair; replace centroid/minZ three-scalar objective with actual sole whole-vertex world constraints through native thigh/shin/foot9DOF; smooth small leg-nullspace correction toward canonical source throughout12-frame settle; final frame not forced post-solve",
+  "additive_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_C1_NEUTRAL_CONTACT_PATCH_BODY_R2",
+    "Armature": "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+    "Hair_Rig_R4": "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+    "Assembly_Root": "YURI_R4_C1_REACH_ROOT_PATH_R1_NEUTRAL_REPLANT_R1"
+  },
+  "new_body_action": "YURI_R4_C1_NEUTRAL_CONTACT_PATCH_BODY_R2",
+  "frame_range": [
+    1,
+    133
+  ],
+  "source_scene_fps": 24,
+  "action_fps": 30,
+  "original_C1_frames1_61_exact": true,
+  "original_source_and_all_prior_actions_OFF_signature_exact": true,
+  "R2_finger_action_unchanged": true,
+  "root_exact_all_sampled": true,
+  "endpoint_geometry_component_error_m": {
+    "Meshy_Body_NeutralCovered": 0.0,
+    "Character_Body_Head": 0.0,
+    "Hair_Replacement_R4": 0.0
+  },
+  "last_adjacent_frame_actual_body_max_vertex_step_m": 0.00013877952756482777,
+  "failure_constraints": [
+    {
+      "frame": 78,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0031224217265531104
+    },
+    {
+      "frame": 79,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0032732701440880176
+    },
+    {
+      "frame": 80,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0033762807719522896
+    },
+    {
+      "frame": 81,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0034183996145402836
+    },
+    {
+      "frame": 82,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0036194197040833884
+    },
+    {
+      "frame": 83,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003747325372302059
+    },
+    {
+      "frame": 84,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0038068521412129987
+    },
+    {
+      "frame": 85,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0037943770067676024
+    },
+    {
+      "frame": 86,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003707938198168047
+    },
+    {
+      "frame": 87,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0035489913616011887
+    },
+    {
+      "frame": 88,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003348940031979651
+    },
+    {
+      "frame": 89,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0031596904517843575
+    },
+    {
+      "frame": 90,
+      "side": "L",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003082407712767064
+    },
+    {
+      "frame": 98,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003197977731896282
+    },
+    {
+      "frame": 99,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003405999136406794
+    },
+    {
+      "frame": 100,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003749579986418997
+    },
+    {
+      "frame": 101,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.004193358441010371
+    },
+    {
+      "frame": 102,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.004581407075996924
+    },
+    {
+      "frame": 103,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.005409144059358365
+    },
+    {
+      "frame": 104,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.006129870300871021
+    },
+    {
+      "frame": 105,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.006885093339506037
+    },
+    {
+      "frame": 106,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.007547358588953558
+    },
+    {
+      "frame": 107,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.008037799145747919
+    },
+    {
+      "frame": 108,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.008393777326170984
+    },
+    {
+      "frame": 109,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.008390144952858676
+    },
+    {
+      "frame": 110,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.007874933708203573
+    },
+    {
+      "frame": 111,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.007458219901916457
+    },
+    {
+      "frame": 112,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.0066907562058700285
+    },
+    {
+      "frame": 113,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.006199256718519203
+    },
+    {
+      "frame": 114,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.005147524420971579
+    },
+    {
+      "frame": 115,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.004366137177198473
+    },
+    {
+      "frame": 116,
+      "side": "R",
+      "reason": "actual_whole_sole_world_constraint_over3mm",
+      "value_m": 0.003386476271934811
+    }
+  ],
+  "verdict": "FAIL_HOLD",
+  "normal_speed": "PENDING",
+  "TierP": 0,
+  "new_geometry_rig_skin_material_export_product_changes": false,
+  "status": "SOURCE_ONLY_R2_FAIL_HOLD_EXACT_ENDPOINT_PASS",
+  "OFF_reopen_pixels": {
+    "same_dimensions": [
+      920,
+      960,
+      4
+    ],
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "PASS": true
+  },
+  "fresh_source_plus_five_Actions_endpoint_pixels": {
+    "source_authoritative_dimensions": [
+      920,
+      960,
+      4
+    ],
+    "ON_endpoint_dimensions": [
+      920,
+      960,
+      4
+    ],
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "PASS": true
+  },
+  "fresh_source_plus_five_Actions_custody": {
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "library_SHA": "3dc7283541a84d301e4a038ecc4dfad9bacf8bdd7c629fb3c5eb594faa250ae8",
+    "named_actions": [
+      "YURI_R4_C1_NEUTRAL_CONTACT_PATCH_BODY_R2",
+      "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+      "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+      "YURI_R4_C1_REACH_ROOT_PATH_R1_NEUTRAL_REPLANT_R1",
+      "YURI_R4_C1_LEFT_PREGRASP_FINGERS_TIMING_R2"
+    ],
+    "fixed_adapter": "r4_c1_neutral_contact_patch_adapter_r2.py",
+    "fresh_source_only_objects": 97,
+    "new_library_objects_meshes_armatures": 0,
+    "original78Actions_and_source_snapshot_before_append_after_OFF_exact": true,
+    "ON_endpoint_geometry_component_error_m": {
+      "Meshy_Body_NeutralCovered": 0.0,
+      "Character_Body_Head": 0.0,
+      "Hair_Replacement_R4": 0.0
+    },
+    "actual_last_adjacent_body_max_vertex_step_m": 0.00013877952756482777,
+    "source_file_SHA_unchanged": true,
+    "ON_endpoint_source_camera_pixels": "PENDING external full RGBA compare",
+    "scope": "Exact endpoint/OFF/library-custody PASS, full R2 motion constraints remain FAIL/HOLD, no production promotion",
+    "TierP": 0
+  },
+  "Action_only_asset": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-neutral-replant-preview-r2\\YURI_R4_C1_NEUTRAL_CONTACT_PATCH_ACTIONS_ONLY_R2.blend",
+    "SHA": "3dc7283541a84d301e4a038ecc4dfad9bacf8bdd7c629fb3c5eb594faa250ae8",
+    "bytes": 2113461,
+    "named_actions": [
+      "YURI_R4_C1_NEUTRAL_CONTACT_PATCH_BODY_R2",
+      "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+      "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+      "YURI_R4_C1_REACH_ROOT_PATH_R1_NEUTRAL_REPLANT_R1",
+      "YURI_R4_C1_LEFT_PREGRASP_FINGERS_TIMING_R2"
+    ],
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0,
+    "canonical_character": false,
+    "motion_verdict": "FAIL_HOLD",
+    "receiver_recipe": "Immutable original source plus these5Actions, same body/head/hair/root clock1..133, unchanged LEFT finger NLA1..61 REPLACE/HOLD scale1. Source-only experiment; exact contact/neutral acceptance according to report, no product promotion."
+  },
+  "max_actual_whole_sole_world_target_error_m": 0.008393777326170984,
+  "max_SUPPORT_whole_sole_world_error_m": 0.0029413251830567922,
+  "max_SUPPORT_grounded_patch_world_error_m": 0.002270456140280638,
+  "max_native_knee_step_m": 0.015024899212509947,
+  "normal_speed_actual_UI": {
+    "start": [
+      {
+        "currentTime": 0.187218,
+        "duration": 2.433333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.187149,
+        "duration": 2.433333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 2.433333,
+        "duration": 2.433333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 2.433333,
+        "duration": 2.433333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      }
+    ],
+    "frames": 73,
+    "scope": "R2 new transition61..133 only,1x through-end, FAIL/HOLD remains"
+  },
+  "visual_scope": "Two complete fixed-view73-frame30fps transition movies played1x through-end plus every-frame feet supplement. No gross knee branch pop seen; source shading/material noise retained. Numerical motion constraint FAIL is unchanged, no production-quality acceptance.",
+  "R1_checkpoint": "50e8ab7",
+  "R1_immutable_packet_SHA": "34edd98b52618a376a31231b8c33b34c24e636f9e0a35fc7db98a69818beaaa6",
+  "original08caad7_R4_C1_R1_R2_fingers_original78Actions_unchanged": true,
+  "source_original_appearance_promoted": false,
+  "remaining_dependency": "Whole-sole positional targets exceed3mm during swing despite9DOF fitting; support patch error remains nonzero. This ONE alternative is closed as FAIL/HOLD. Do not hide it by endpoint certification or weaken thresholds. No third solver/neutral hypothesis in the current blocking lane.",
+  "next_bounded_task": "Neutral restoration research becomes nonblocking. Return to one independent StageA/B source motion: inspect/reuse original66-action MESHY_R2_BODY_TalkGesture as upper-body native quaternion candidate, preserve grounded feet/root and original R4 rig/rest/material/drivers. No reaction14 expansion.",
+  "product_Unity_AlwaysAnimate_physics_StageB_F2_F3_TierP": "HOLD; TierP0"
+}

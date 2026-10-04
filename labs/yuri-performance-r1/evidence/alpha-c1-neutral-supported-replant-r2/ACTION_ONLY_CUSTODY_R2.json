@@ -1,0 +1,18 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-neutral-replant-preview-r2\\YURI_R4_C1_NEUTRAL_CONTACT_PATCH_ACTIONS_ONLY_R2.blend",
+  "SHA": "3dc7283541a84d301e4a038ecc4dfad9bacf8bdd7c629fb3c5eb594faa250ae8",
+  "bytes": 2113461,
+  "named_actions": [
+    "YURI_R4_C1_NEUTRAL_CONTACT_PATCH_BODY_R2",
+    "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+    "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1_NEUTRAL_REPLANT_R1",
+    "YURI_R4_C1_REACH_ROOT_PATH_R1_NEUTRAL_REPLANT_R1",
+    "YURI_R4_C1_LEFT_PREGRASP_FINGERS_TIMING_R2"
+  ],
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0,
+  "canonical_character": false,
+  "motion_verdict": "FAIL_HOLD",
+  "receiver_recipe": "Immutable original source plus these5Actions, same body/head/hair/root clock1..133, unchanged LEFT finger NLA1..61 REPLACE/HOLD scale1. Source-only experiment; exact contact/neutral acceptance according to report, no product promotion."
+}

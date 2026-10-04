@@ -227,5 +227,23 @@
     "two_view_transition_whole1x": "73frames30fps actual1x ended/errornull",
     "TierP": 0,
     "next_bounded_task": "One R2 alternative using actual supported contact vertex/world constraints and smooth exact canonical endpoint; inspect only worst97 and endpoint133, preserve R1. If repeated failure, neutral research nonblocking and return independent StageA/B source motion supply."
+  },
+  "C1_neutral_contact_patch_r2": {
+    "status": "SOURCE_ONLY_FAIL_HOLD_EXACT_ENDPOINT_PASS",
+    "candidate_SHA": "2f570ce512cc3901c618c808a0cedcd0e15d98934551d29905380bc35b8eaf9d",
+    "packet_SHA": "39d043ac9688e49bfb80851d4756474527f5c5b11eb1ca43bd8a551411c7e451",
+    "library_SHA": "3dc7283541a84d301e4a038ecc4dfad9bacf8bdd7c629fb3c5eb594faa250ae8",
+    "source_geometry_ON_endpoint_error": 0,
+    "source_camera_ON_endpoint_AND_OFF_changed_RGBA_pixels": 0,
+    "last_adjacent_body_max_vertex_step_m": 0.00013877952756482777,
+    "max_whole_sole_target_error_m": 0.008393777326170984,
+    "max_support_contact_patch_error_m": 0.002270456140280638,
+    "all_prior_source_actions_C1_first61_R2_finger_unchanged": true,
+    "normal_speed": "Two fixed views73frames30fps actual1x ended/errornull",
+    "named_Action_only_assets": 5,
+    "new_objects_meshes_rigs": 0,
+    "report": "evidence/alpha-c1-neutral-supported-replant-r2/YURI_R4_C1_NEUTRAL_CONTACT_PATCH_R2.md",
+    "TierP": 0,
+    "next": "Neutral research now nonblocking. Inspect/reuse original66 TalkGesture as independent StageA/B native upper-body motion; preserve source grounded feet/root. No third neutral solver here."
   }
 }
