@@ -1,0 +1,17 @@
+{
+  "status": "PASS_PRIVATE_DELIVERY_AND_RECEIVER_CUSTODY",
+  "sender_packet_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_SOURCE_NEUTRAL_HDR_WITNESS_R2_20261004.zip",
+  "sender_bytes": 13964358,
+  "sender_SHA256": "cd47090a80f6fece8be8dc2672ab2ebd1ccba0e74e2344e13ae0e6144d975198",
+  "sender_CRC": true,
+  "source_SHA256_after": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "receiver_receipt_SHA256": "9007a99b54f7a5eccb454aac1441d20da5f6dc94f857515f7a08c86d7809eb5d",
+  "receiver_host": "DESKTOP-11NSABR",
+  "route": "Desktop artifact byte read / Laptop private filesystem write / CreateNew assembly; 14 chunks",
+  "new_receiver_folder": "C:/YuriTransfer/inbox/YURI_R4_HDR_R2_cd47090a80f6_20261004_0439",
+  "old_files_overwritten": false,
+  "source_render_export_product_changes": false,
+  "consumer_interruption_or_message": false,
+  "gate": "HOLD unchanged",
+  "chunk_staging_retained": true
+}

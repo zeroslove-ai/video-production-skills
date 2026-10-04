@@ -1,0 +1,18 @@
+{
+  "status": "PASS_RECEIVER_SHA_BYTES_ALL_ZIP_CRC_AND_29_INDEXED_MEMBER_SHA",
+  "hostname": "DESKTOP-11NSABR",
+  "utc": "2026-10-04T04:40:08.246246+00:00",
+  "packet_path": "C:\\YuriTransfer\\inbox\\YURI_R4_HDR_R2_cd47090a80f6_20261004_0439\\YURI_R4_SOURCE_NEUTRAL_HDR_WITNESS_R2_20261004.zip",
+  "packet_bytes": 13964358,
+  "packet_sha256": "cd47090a80f6fece8be8dc2672ab2ebd1ccba0e74e2344e13ae0e6144d975198",
+  "zip_members": 30,
+  "indexed_members_SHA_verified": 29,
+  "CRC_bad_member": null,
+  "route": "Private Desktop pc_artifact_read -> Laptop fs_write,14 chunks -> additive CreateNew assembly",
+  "new_inbox_folder": true,
+  "existing_inbox_source_control_overwritten": false,
+  "product_changes": false,
+  "consumer_interruption_restart_or_message": false,
+  "source_rerender_export": false,
+  "appearance_PBR_PRIMARY_gate": "HOLD unchanged"
+}
