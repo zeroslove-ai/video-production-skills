@@ -1,0 +1,13 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_EXISTING_REACH_CONTACT_CLOSURE_SOURCE_C1_20261005.zip",
+  "sha256": "9a415506d5b8e1a60c8a7a442d33c826c7fbf208b5b11963f7ad7d22dc4f2c8d",
+  "bytes": 75385770,
+  "members": 252,
+  "indexed_members": 251,
+  "CRC_SHA_size_all_verified": true,
+  "closed_once": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "b1a01e94a1bd781edd65def614a23ff23132e2540d3aa8d72a2c4af4ae1c6f9a",
+  "action_SHA": "c565f6c490a0a469ce7a8680613d8bc4bd608e076c55b08f484007fefdc691e8",
+  "verdict": "SCOPED_SOURCE_CONTACT_OFF_PASS_RUNTIME_HOLD"
+}

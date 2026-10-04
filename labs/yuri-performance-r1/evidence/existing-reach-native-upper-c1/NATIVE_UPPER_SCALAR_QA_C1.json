@@ -1,0 +1,2961 @@
+{
+  "task": "ROOT_PM_EXISTING_REACH_CONTACT_CLOSURE_R1_ONE_ALLOWED_SOURCE_UPPER_CORRECTION",
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "old_candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-reach-candidate-r1\\Character_R4_C1_Interact_Reach_BODY_CANDIDATE_OFF_R1_20261004.blend",
+  "old_candidate_SHA": "bad645ae396ebef88564e4b3656f5e73c9375a9b87ee217acbd87a1354964946",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\c1-existing-reach-native-upper-c1\\Character_R4_C1_Reach_NativeUpper_EXPERIMENT_OFF_C1_20261005.blend",
+  "candidate_SHA": "b1a01e94a1bd781edd65def614a23ff23132e2540d3aa8d72a2c4af4ae1c6f9a",
+  "candidate_bytes": 26734119,
+  "library": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\c1-existing-reach-native-upper-c1\\YURI_R4_C1_REACH_NATIVE_UPPER_ACTIONS_ONLY_C1.blend",
+    "sha256": "c565f6c490a0a469ce7a8680613d8bc4bd608e076c55b08f484007fefdc691e8",
+    "bytes": 633603,
+    "actions": 4,
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0
+  },
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_C1_REACH_NATIVE_UPPER_BODY_C1",
+    "Assembly_Root": "YURI_R4_C1_REACH_ROOT_PATH_R1",
+    "Armature": "YURI_R4_C1_REACH_NATIVE_UPPER_HEAD_C1",
+    "Hair_Rig_R4": "YURI_R4_C1_REACH_NATIVE_UPPER_HAIR_C1"
+  },
+  "source_original78_and_prior82Actions_preserved": true,
+  "source_raw_OFF_snapshot_equal_including_texture_paths": true,
+  "restored6_original_canonical_locator_strings_only_texture_bytes_nodes_materials_unchanged": true,
+  "one_candidate_no_angle_sweeps_no_dance": true,
+  "reused_original_native_Reach_upper12": [
+    "spine",
+    "chest",
+    "neck",
+    "head",
+    "clavicle.L",
+    "upper_arm.L",
+    "forearm.L",
+    "hand.L",
+    "clavicle.R",
+    "upper_arm.R",
+    "forearm.R",
+    "hand.R"
+  ],
+  "native_phase_from_to": [
+    1,
+    97
+  ],
+  "fps": 30,
+  "frames": [
+    1,
+    61
+  ],
+  "upper_original_trajectory_variant_not_old_donor_hand_path": true,
+  "all_other_body_curves_exact": true,
+  "root_action_exact_old_C1": true,
+  "views": {
+    "front": {
+      "object": "Assembly_Review_Camera",
+      "type": "PERSP",
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "location": [
+        0.0020000000949949026,
+        -3.427999973297119,
+        1.0499999523162842
+      ],
+      "rotation_euler": [
+        1.401834487915039,
+        -0.0,
+        0.0
+      ],
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.4699999988079071
+      ],
+      "policy": "Fixed camera per view, no root-follow or screen-motion extraction; actual world path visible in quarter/side."
+    },
+    "quarter": {
+      "object": "Assembly_Review_Camera",
+      "type": "PERSP",
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "location": [
+        2.6019999980926514,
+        -2.828000068664551,
+        1.0499999523162842
+      ],
+      "rotation_euler": [
+        1.4201536178588867,
+        -8.800036255252053e-09,
+        0.7483782172203064
+      ],
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.4699999988079071
+      ],
+      "policy": "Fixed camera per view, no root-follow or screen-motion extraction; actual world path visible in quarter/side."
+    },
+    "side": {
+      "object": "Assembly_Review_Camera",
+      "type": "PERSP",
+      "lens_mm": 50.0,
+      "sensor_width_mm": 36.0,
+      "location": [
+        3.2019999027252197,
+        -0.02800000086426735,
+        0.949999988079071
+      ],
+      "rotation_euler": [
+        1.4219064712524414,
+        -0.0,
+        1.5707963705062866
+      ],
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.4699999988079071
+      ],
+      "policy": "Fixed camera per view, no root-follow or screen-motion extraction; actual world path visible in quarter/side."
+    }
+  },
+  "verdict": "SCOPED_ALL61_CONTACT_PASS_VISUAL_PENDING",
+  "TierP": 0,
+  "no_save_original_no_Unity_physics_prop_facial_gaze_driver_change": true,
+  "rows_scalar": [
+    {
+      "frame": 1,
+      "time_seconds": 0.0,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4541,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4425,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5255012723242485,
+        2.6889917099866234
+      ],
+      "edge_ratio_p01_p99": [
+        0.832650486425319,
+        1.1811096551238458
+      ]
+    },
+    {
+      "frame": 2,
+      "time_seconds": 0.03333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4556,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4452,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5231626247677502,
+        2.6899594321440725
+      ],
+      "edge_ratio_p01_p99": [
+        0.8329846372202727,
+        1.1813641059140856
+      ]
+    },
+    {
+      "frame": 3,
+      "time_seconds": 0.06666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4401,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4341,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5232942612367237,
+        2.6958230684086795
+      ],
+      "edge_ratio_p01_p99": [
+        0.8326321484721365,
+        1.1820893848395735
+      ]
+    },
+    {
+      "frame": 4,
+      "time_seconds": 0.1,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4409,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4269,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5256665575776265,
+        2.705659090216588
+      ],
+      "edge_ratio_p01_p99": [
+        0.8313118627146765,
+        1.182767244688146
+      ]
+    },
+    {
+      "frame": 5,
+      "time_seconds": 0.13333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4249,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4402,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5297277031608159,
+        2.718872766980035
+      ],
+      "edge_ratio_p01_p99": [
+        0.8296976597636024,
+        1.1841445719442352
+      ]
+    },
+    {
+      "frame": 6,
+      "time_seconds": 0.16666666666666666,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4444,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4450,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5346869264238318,
+        2.7344411964154567
+      ],
+      "edge_ratio_p01_p99": [
+        0.8261838557209046,
+        1.192944638559005
+      ]
+    },
+    {
+      "frame": 7,
+      "time_seconds": 0.2,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4354,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4312,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5435776711492386,
+        2.7517349976560634
+      ],
+      "edge_ratio_p01_p99": [
+        0.8181354573088974,
+        1.2062520901738476
+      ]
+    },
+    {
+      "frame": 8,
+      "time_seconds": 0.23333333333333334,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4457,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4315,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5562292071658924,
+        2.769732820388527
+      ],
+      "edge_ratio_p01_p99": [
+        0.8081224382888917,
+        1.2202433745686394
+      ]
+    },
+    {
+      "frame": 9,
+      "time_seconds": 0.26666666666666666,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4516,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4349,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.43259531800894185,
+        2.7879427746637835
+      ],
+      "edge_ratio_p01_p99": [
+        0.7997145091073343,
+        1.234750124802017
+      ]
+    },
+    {
+      "frame": 10,
+      "time_seconds": 0.3,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4490,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4332,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.31127893192121814,
+        2.8056963021343226
+      ],
+      "edge_ratio_p01_p99": [
+        0.7921583771879467,
+        1.2439132211524357
+      ]
+    },
+    {
+      "frame": 11,
+      "time_seconds": 0.3333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4590,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4427,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27581432666880684,
+        2.822106935473298
+      ],
+      "edge_ratio_p01_p99": [
+        0.7872707118874416,
+        1.2490331752022519
+      ]
+    },
+    {
+      "frame": 12,
+      "time_seconds": 0.36666666666666664,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4542,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4288,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2729404284824185,
+        2.8364468378329812
+      ],
+      "edge_ratio_p01_p99": [
+        0.7846368002432558,
+        1.2505445633486272
+      ]
+    },
+    {
+      "frame": 13,
+      "time_seconds": 0.4,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4449,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4412,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27295984584283034,
+        2.8485049313084008
+      ],
+      "edge_ratio_p01_p99": [
+        0.7828257064626358,
+        1.250512301782649
+      ]
+    },
+    {
+      "frame": 14,
+      "time_seconds": 0.43333333333333335,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4526,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4248,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2725570228051443,
+        2.857698133741982
+      ],
+      "edge_ratio_p01_p99": [
+        0.7814338055232898,
+        1.2500778383302127
+      ]
+    },
+    {
+      "frame": 15,
+      "time_seconds": 0.4666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4498,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4311,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2727252573722345,
+        2.863367498743679
+      ],
+      "edge_ratio_p01_p99": [
+        0.7803173054901068,
+        1.2494365390082338
+      ]
+    },
+    {
+      "frame": 16,
+      "time_seconds": 0.5,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4557,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4376,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2729555993423318,
+        2.8651187943410283
+      ],
+      "edge_ratio_p01_p99": [
+        0.7801611660396908,
+        1.2492604217741896
+      ]
+    },
+    {
+      "frame": 17,
+      "time_seconds": 0.5333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4503,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4475,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27305047572994695,
+        2.8624963749838086
+      ],
+      "edge_ratio_p01_p99": [
+        0.7803258478574849,
+        1.2490385976984104
+      ]
+    },
+    {
+      "frame": 18,
+      "time_seconds": 0.5666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4528,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4342,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27293989631417176,
+        2.8559833898588596
+      ],
+      "edge_ratio_p01_p99": [
+        0.7810857896788349,
+        1.2486472638713908
+      ]
+    },
+    {
+      "frame": 19,
+      "time_seconds": 0.6,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4441,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4422,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27306235542232427,
+        2.845854781597758
+      ],
+      "edge_ratio_p01_p99": [
+        0.7817263983222366,
+        1.2486334872606346
+      ]
+    },
+    {
+      "frame": 20,
+      "time_seconds": 0.6333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4507,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4338,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27300648297036906,
+        2.832800820583115
+      ],
+      "edge_ratio_p01_p99": [
+        0.7831408286739672,
+        1.2482144634184982
+      ]
+    },
+    {
+      "frame": 21,
+      "time_seconds": 0.6666666666666666,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4527,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4414,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2727863395806932,
+        2.817119392897917
+      ],
+      "edge_ratio_p01_p99": [
+        0.785172889251521,
+        1.2481462993464296
+      ]
+    },
+    {
+      "frame": 22,
+      "time_seconds": 0.7,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4515,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4389,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2729476256478826,
+        2.7996513689014533
+      ],
+      "edge_ratio_p01_p99": [
+        0.7875382208058646,
+        1.248108878186829
+      ]
+    },
+    {
+      "frame": 23,
+      "time_seconds": 0.7333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4506,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4300,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27269755374067334,
+        2.7805053221603337
+      ],
+      "edge_ratio_p01_p99": [
+        0.7898151316891309,
+        1.2485217005668334
+      ]
+    },
+    {
+      "frame": 24,
+      "time_seconds": 0.7666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4495,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4317,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2730283082962443,
+        2.7606542647766865
+      ],
+      "edge_ratio_p01_p99": [
+        0.791706001190621,
+        1.2487951423561743
+      ]
+    },
+    {
+      "frame": 25,
+      "time_seconds": 0.8,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4448,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4330,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.272767204694418,
+        2.7406030177741005
+      ],
+      "edge_ratio_p01_p99": [
+        0.7940229579779424,
+        1.2501836473314618
+      ]
+    },
+    {
+      "frame": 26,
+      "time_seconds": 0.8333333333333334,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4463,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4392,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2731051038068555,
+        2.720934804105194
+      ],
+      "edge_ratio_p01_p99": [
+        0.796353661168679,
+        1.2517546466232272
+      ]
+    },
+    {
+      "frame": 27,
+      "time_seconds": 0.8666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4445,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4278,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27306176082469447,
+        2.7021940529720236
+      ],
+      "edge_ratio_p01_p99": [
+        0.7983699078501878,
+        1.2535557154191395
+      ]
+    },
+    {
+      "frame": 28,
+      "time_seconds": 0.9,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4595,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4533,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27290666349786286,
+        2.6858966339843073
+      ],
+      "edge_ratio_p01_p99": [
+        0.8012547634618484,
+        1.2549206577618364
+      ]
+    },
+    {
+      "frame": 29,
+      "time_seconds": 0.9333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4610,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4448,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27287319038539454,
+        2.6725308239666354
+      ],
+      "edge_ratio_p01_p99": [
+        0.8027910026204049,
+        1.2564306370731642
+      ]
+    },
+    {
+      "frame": 30,
+      "time_seconds": 0.9666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4518,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4456,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27299169768384995,
+        2.6630890554438222
+      ],
+      "edge_ratio_p01_p99": [
+        0.8038125852185389,
+        1.257671628035401
+      ]
+    },
+    {
+      "frame": 31,
+      "time_seconds": 1.0,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4553,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4326,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2728799233033473,
+        2.6587322571150196
+      ],
+      "edge_ratio_p01_p99": [
+        0.8041276299266527,
+        1.2592032510365885
+      ]
+    },
+    {
+      "frame": 32,
+      "time_seconds": 1.0333333333333334,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4402,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4284,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27314036241837225,
+        2.6574203466225215
+      ],
+      "edge_ratio_p01_p99": [
+        0.8039006576340467,
+        1.2597083271424756
+      ]
+    },
+    {
+      "frame": 33,
+      "time_seconds": 1.0666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4471,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4381,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2728322801491172,
+        2.656666921169272
+      ],
+      "edge_ratio_p01_p99": [
+        0.803927549129531,
+        1.2600187642538991
+      ]
+    },
+    {
+      "frame": 34,
+      "time_seconds": 1.1,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4553,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4293,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2730067905992169,
+        2.6563660709659174
+      ],
+      "edge_ratio_p01_p99": [
+        0.8042769883937633,
+        1.2602651787078565
+      ]
+    },
+    {
+      "frame": 35,
+      "time_seconds": 1.1333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4549,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4296,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2728945409822783,
+        2.6567291887156346
+      ],
+      "edge_ratio_p01_p99": [
+        0.8042128112022735,
+        1.2602748424683645
+      ]
+    },
+    {
+      "frame": 36,
+      "time_seconds": 1.1666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4641,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4453,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27266274382071903,
+        2.658078303588565
+      ],
+      "edge_ratio_p01_p99": [
+        0.8040534054880879,
+        1.2601286590489704
+      ]
+    },
+    {
+      "frame": 37,
+      "time_seconds": 1.2,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4496,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4276,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2731231319755012,
+        2.660133965646459
+      ],
+      "edge_ratio_p01_p99": [
+        0.8039192500119849,
+        1.2600295678607094
+      ]
+    },
+    {
+      "frame": 38,
+      "time_seconds": 1.2333333333333334,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4627,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4507,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27252525406428557,
+        2.6628887684800975
+      ],
+      "edge_ratio_p01_p99": [
+        0.8039187750732795,
+        1.2590065370375279
+      ]
+    },
+    {
+      "frame": 39,
+      "time_seconds": 1.2666666666666666,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4524,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4274,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2727855014048662,
+        2.666144072307708
+      ],
+      "edge_ratio_p01_p99": [
+        0.8036669915232396,
+        1.2578321923057851
+      ]
+    },
+    {
+      "frame": 40,
+      "time_seconds": 1.3,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4536,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4360,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2727341003913972,
+        2.669956767650336
+      ],
+      "edge_ratio_p01_p99": [
+        0.8031150547791994,
+        1.2564521027843736
+      ]
+    },
+    {
+      "frame": 41,
+      "time_seconds": 1.3333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4593,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4418,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2729239409877939,
+        2.673966873087434
+      ],
+      "edge_ratio_p01_p99": [
+        0.8025566292221376,
+        1.2552107120910547
+      ]
+    },
+    {
+      "frame": 42,
+      "time_seconds": 1.3666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4598,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4362,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27277536941303876,
+        2.678103725290862
+      ],
+      "edge_ratio_p01_p99": [
+        0.8014422233846953,
+        1.254092266934363
+      ]
+    },
+    {
+      "frame": 43,
+      "time_seconds": 1.4,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4479,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4440,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2729702722408101,
+        2.682271483515827
+      ],
+      "edge_ratio_p01_p99": [
+        0.8009601220050788,
+        1.2531239970937393
+      ]
+    },
+    {
+      "frame": 44,
+      "time_seconds": 1.4333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4597,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4450,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27256891013526596,
+        2.686159633631861
+      ],
+      "edge_ratio_p01_p99": [
+        0.8004318718562815,
+        1.2520168074368399
+      ]
+    },
+    {
+      "frame": 45,
+      "time_seconds": 1.4666666666666666,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4557,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4341,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2727231547820631,
+        2.6897701092596114
+      ],
+      "edge_ratio_p01_p99": [
+        0.79995580627654,
+        1.2509426357414744
+      ]
+    },
+    {
+      "frame": 46,
+      "time_seconds": 1.5,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4562,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4357,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2729562967484881,
+        2.692787174235511
+      ],
+      "edge_ratio_p01_p99": [
+        0.7994789537043758,
+        1.249845157951055
+      ]
+    },
+    {
+      "frame": 47,
+      "time_seconds": 1.5333333333333334,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4490,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4424,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2730386526549617,
+        2.695551951598844
+      ],
+      "edge_ratio_p01_p99": [
+        0.7990601070683493,
+        1.2487459974327695
+      ]
+    },
+    {
+      "frame": 48,
+      "time_seconds": 1.5666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4476,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4330,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2730707912318848,
+        2.697274977905998
+      ],
+      "edge_ratio_p01_p99": [
+        0.7985511836664211,
+        1.2486246410168138
+      ]
+    },
+    {
+      "frame": 49,
+      "time_seconds": 1.6,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4503,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4471,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.27309146987927513,
+        2.698535535936195
+      ],
+      "edge_ratio_p01_p99": [
+        0.7983396958735139,
+        1.2486768610588226
+      ]
+    },
+    {
+      "frame": 50,
+      "time_seconds": 1.6333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4558,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4293,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.2775413532022077,
+        2.6993293659125976
+      ],
+      "edge_ratio_p01_p99": [
+        0.7996287381754648,
+        1.2468616280971716
+      ]
+    },
+    {
+      "frame": 51,
+      "time_seconds": 1.6666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4530,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4354,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.31002394559787094,
+        2.699705934444732
+      ],
+      "edge_ratio_p01_p99": [
+        0.8026324684486231,
+        1.2407439783248913
+      ]
+    },
+    {
+      "frame": 52,
+      "time_seconds": 1.7,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4557,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4404,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.41574682731599494,
+        2.6996652071870364
+      ],
+      "edge_ratio_p01_p99": [
+        0.8069950975317433,
+        1.2318513909042337
+      ]
+    },
+    {
+      "frame": 53,
+      "time_seconds": 1.7333333333333334,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4367,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4333,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5685441244306131,
+        2.699217525182587
+      ],
+      "edge_ratio_p01_p99": [
+        0.8125413635635784,
+        1.2201322479911298
+      ]
+    },
+    {
+      "frame": 54,
+      "time_seconds": 1.7666666666666666,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4298,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4352,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5602390182247262,
+        2.6986334729426145
+      ],
+      "edge_ratio_p01_p99": [
+        0.8192882565879032,
+        1.2055279650763728
+      ]
+    },
+    {
+      "frame": 55,
+      "time_seconds": 1.8,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4348,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4447,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5531054785006684,
+        2.6977596555473133
+      ],
+      "edge_ratio_p01_p99": [
+        0.8270716489509339,
+        1.1936123402097754
+      ]
+    },
+    {
+      "frame": 56,
+      "time_seconds": 1.8333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4441,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4422,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5481053640366736,
+        2.6966122187572545
+      ],
+      "edge_ratio_p01_p99": [
+        0.8305734095551888,
+        1.1827683802262288
+      ]
+    },
+    {
+      "frame": 57,
+      "time_seconds": 1.8666666666666667,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4432,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4447,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5436184599158336,
+        2.6951359686793035
+      ],
+      "edge_ratio_p01_p99": [
+        0.8308518098347181,
+        1.1787611282211654
+      ]
+    },
+    {
+      "frame": 58,
+      "time_seconds": 1.9,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4541,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4406,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5386058689604765,
+        2.6936799451573057
+      ],
+      "edge_ratio_p01_p99": [
+        0.8324223248697319,
+        1.1787554493697343
+      ]
+    },
+    {
+      "frame": 59,
+      "time_seconds": 1.9333333333333333,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4424,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4255,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5337916303942344,
+        2.692188367239392
+      ],
+      "edge_ratio_p01_p99": [
+        0.8321167586699306,
+        1.1795114373409672
+      ]
+    },
+    {
+      "frame": 60,
+      "time_seconds": 1.9666666666666666,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4510,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4438,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5293972855849973,
+        2.6905304099355516
+      ],
+      "edge_ratio_p01_p99": [
+        0.8326929031067468,
+        1.1806476161948047
+      ]
+    },
+    {
+      "frame": 61,
+      "time_seconds": 2.0,
+      "counts": {
+        "L": {
+          "triangles": 27931,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4541,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4425,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_vs_source_OFF": {
+        "L__all_body_nonadjacent": 0,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0
+      },
+      "finite": true,
+      "topology_equal": true,
+      "lower_matrix_vs_old_C1_error": 0.0,
+      "root_vs_old_C1_error": 0.0,
+      "all_actual_foot_vertices_vs_old_C1_error_m": {
+        "L": 0.0,
+        "R": 0.0
+      },
+      "edge_ratio_min_max": [
+        0.5255012723242485,
+        2.6889917099866234
+      ],
+      "edge_ratio_p01_p99": [
+        0.832650486425319,
+        1.1811096551238458
+      ]
+    }
+  ],
+  "retiming_scope": {
+    "source_fps": 24,
+    "fps_basis": "immutable original R4 scene cadence, independently recorded by native Talk source custody on same source",
+    "source_fps_receipt": "labs\\yuri-performance-r1\\evidence\\alpha-native-talk-source-r1\\ACTION_ONLY_CUSTODY_R1.json",
+    "source_fps_receipt_sha256": "69e648d87dc0dc100534dc32922bdadbb5f2db8182900504cb3b43b3ddfdaaca",
+    "native_Reach_phase_frames": [
+      1,
+      97
+    ],
+    "source_endpoint_span_seconds": 4.0,
+    "source_97sample_inclusive_duration_seconds": 4.041666666666667,
+    "candidate_frames": [
+      1,
+      61
+    ],
+    "candidate_fps": 30,
+    "candidate_endpoint_span_seconds": 2.0,
+    "candidate_61sample_encoded_duration_seconds": 2.033333333333333,
+    "exact_source_native_speed_factor": 2.0,
+    "mapping": "source_phase = 1 + (candidate_frame-1)*96/60",
+    "movie_1x_meaning": "candidate-authored 1x; source-native speed2x, NOT original-native1x",
+    "no_rerender_no_new_motion_no_F2_TierP_acceptance": true,
+    "TierP": 0
+  },
+  "OFF_RGBA_changed_pixels": 0,
+  "surface_oracle_limit": "weak ANY relevant weight>.01 nonadjacent triangles versus all body/head/hair; no volume/containment/depth or adjacent deformation certification",
+  "visual_verdict": "See full normal-speed and every-frame review receipt"
+}

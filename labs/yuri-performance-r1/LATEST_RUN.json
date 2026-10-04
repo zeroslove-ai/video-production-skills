@@ -159,7 +159,7 @@
     "normal_speed_four_views": "all61frames/30fps, whole decode and actual1x through-end",
     "baseline_endpoint_restored": true,
     "original_neutral_return": "HOLD",
-    "contact": "FAIL/HOLD: inherited C1 intersections plus added curl intersects body during return51–55",
+    "contact": "FAIL/HOLD: inherited C1 intersections plus added curl intersects body during return51\u201355",
     "TierP": 0,
     "Unity_MUG_StageB_F2": "HOLD",
     "next_single_motion_alternative": "Finger-only timing release complete before frame51; preserve C1 body/wrist curves, inherited contact and original-neutral HOLD."
@@ -332,7 +332,7 @@
       "base_candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
       "candidate_SHA": "25561f232fec69ff37df022c23d225c1524d95efa0fb117bcec8da5e39e61a51",
       "library_SHA": "941a2bc3e784ebe05d5c59b3b01c39c08d855af9a23bfd32b40d4e81cc4ab87a",
-      "candidate_verdict": "FAIL/HOLD: new thumb-palm/other-digit intersections47–61",
+      "candidate_verdict": "FAIL/HOLD: new thumb-palm/other-digit intersections47\u201361",
       "OFF_pixels": {
         "changed_RGBA_pixels": 0,
         "max_channel_error": 0,
@@ -342,9 +342,9 @@
     },
     "changed": "Separate native Action COPY only thumb1.L quaternion4channels, all290othercurves exact",
     "source_preservation": "Prior81Actions including original78/rest/rig/weights/materials/drivers/OFF snapshot exact; OFF960x920RGBA0; all169 nonthumb matrices/unaffected geometry0",
-    "failure": "15frames47–61 new actual nonadjacent allbody98/palm15/otherdigit94max; same-frame baseline0. Inclusive thumb>0.01 weights vs ALL actual body, weakwebbing/palm/digits not excluded; raw sharedvertexadjacency explicitly reported",
+    "failure": "15frames47\u201361 new actual nonadjacent allbody98/palm15/otherdigit94max; same-frame baseline0. Inclusive thumb>0.01 weights vs ALL actual body, weakwebbing/palm/digits not excluded; raw sharedvertexadjacency explicitly reported",
     "normal_speed": "Two whole169frame24fps7.041667second native LEFTclose/fixedwaist before-after1x/decode/pairedallframegrid complete",
-    "next_one_alternative": "Proposed timing-only opposition onset after61/ramp62–85, source wrist/body/finger/timing unchanged. NOT executed; no secondcandidate",
+    "next_one_alternative": "Proposed timing-only opposition onset after61/ramp62\u201385, source wrist/body/finger/timing unchanged. NOT executed; no secondcandidate",
     "Unity_F2_MUG_TierP": "HOLD/TierP0; sole Laptop Talk independent"
   },
   "grasp_left_thumb_phase_only_c2": {
@@ -375,7 +375,7 @@
       "thumb1.L quaternion4channels ONLY"
     ],
     "angles_axis": "C1 actualLEFT axis20deg opposition/10deg roll exact",
-    "phase": "Onset62–85, release119–135 before actual final wrist return136; other290curves/source timing unchanged",
+    "phase": "Onset62\u201385, release119\u2013135 before actual final wrist return136; other290curves/source timing unchanged",
     "contact_failure_frames": [],
     "inclusive_nonadjacent_all169": "0 allbody/palm/otherdigit; raw sharedvertexadjacency preserved/not penetration approval",
     "OFF_neutral_RGBAchanged": 0,
@@ -442,6 +442,42 @@
     "cause": "Native endpoint constraints do not constrain immutable shoulder tissue; residual upper_arm.L/chest68, retained RIGHT neck/clavicle edge strain unchanged",
     "alternative_unexecuted": "Reuse complete existing native Reach shoulder/clavicle/elbow posture with lower/outward hand goal, surface gate first",
     "report": "evidence/dance03-constrained-native-c1/YURI_DANCE03_CONSTRAINED_NATIVE_QA_C1.md",
+    "TierP": 0
+  },
+  "existing_reach_contact_closure_native_upper_C1": {
+    "date": "2026-10-05",
+    "old_verdict": "FAIL_HOLD_NONADJACENT_SURFACE_DEFECT",
+    "new_verdict": "SCOPED_SOURCE_CONTACT_OFF_PASS_RUNTIME_HOLD",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "b1a01e94a1bd781edd65def614a23ff23132e2540d3aa8d72a2c4af4ae1c6f9a",
+    "action_SHA": "c565f6c490a0a469ce7a8680613d8bc4bd608e076c55b08f484007fefdc691e8",
+    "packet_SHA": "9a415506d5b8e1a60c8a7a442d33c826c7fbf208b5b11963f7ad7d22dc4f2c8d",
+    "packet_bytes": 75385770,
+    "all61_new_surface_pairs": 0,
+    "lower_root_all_actual_foot_vs_old_errors": 0,
+    "OFF_RGBA_changed_pixels": 0,
+    "original78_and_prior82Actions_raw_preserved": true,
+    "native_source_fps": 24,
+    "native_source_frames": [
+      1,
+      97
+    ],
+    "native_source_endpoint_seconds": 4,
+    "candidate_fps": 30,
+    "candidate_frames": [
+      1,
+      61
+    ],
+    "candidate_endpoint_seconds": 2,
+    "candidate_movie_duration": 2.033333333333333,
+    "exact_source_native_speed_factor": 2,
+    "movie_label": "candidate-authored1x NOT original-native1x",
+    "new_upper_trajectory_variant": true,
+    "whole_motion_F2_TierP_promotion": false,
+    "old_candidate_6_raw_texture_remaps_preserved": true,
+    "new_raw_source_texture_paths_equal": true,
+    "report": "evidence/existing-reach-native-upper-c1/YURI_EXISTING_REACH_NATIVE_UPPER_C1.md",
+    "next": "ONE correction closed; no rerender/angle/IK candidate or automatic promotion; independent owner review of source-only native variant",
     "TierP": 0
   }
 }

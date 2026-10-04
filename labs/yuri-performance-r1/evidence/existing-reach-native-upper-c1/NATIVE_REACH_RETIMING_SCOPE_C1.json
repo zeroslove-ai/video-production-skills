@@ -1,0 +1,24 @@
+{
+  "source_fps": 24,
+  "fps_basis": "immutable original R4 scene cadence, independently recorded by native Talk source custody on same source",
+  "source_fps_receipt": "labs\\yuri-performance-r1\\evidence\\alpha-native-talk-source-r1\\ACTION_ONLY_CUSTODY_R1.json",
+  "source_fps_receipt_sha256": "69e648d87dc0dc100534dc32922bdadbb5f2db8182900504cb3b43b3ddfdaaca",
+  "native_Reach_phase_frames": [
+    1,
+    97
+  ],
+  "source_endpoint_span_seconds": 4.0,
+  "source_97sample_inclusive_duration_seconds": 4.041666666666667,
+  "candidate_frames": [
+    1,
+    61
+  ],
+  "candidate_fps": 30,
+  "candidate_endpoint_span_seconds": 2.0,
+  "candidate_61sample_encoded_duration_seconds": 2.033333333333333,
+  "exact_source_native_speed_factor": 2.0,
+  "mapping": "source_phase = 1 + (candidate_frame-1)*96/60",
+  "movie_1x_meaning": "candidate-authored 1x; source-native speed2x, NOT original-native1x",
+  "no_rerender_no_new_motion_no_F2_TierP_acceptance": true,
+  "TierP": 0
+}
