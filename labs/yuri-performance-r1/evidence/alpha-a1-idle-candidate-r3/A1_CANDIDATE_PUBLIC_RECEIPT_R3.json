@@ -1,0 +1,345 @@
+{
+  "task": "ROOT_PM_ALPHA_SOURCE_FIRST_IDLE_CANDIDATE_R1",
+  "candidate_scope": "A1 body-only R4 Blender candidate; not Unity/Product/PRIMARY acceptance",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "donor_SHA": "b1ba2ef41747a40fc41447e4deaa3f56dea1440d4ee66152d8e66eee2c219ee7",
+  "candidate_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-idle-candidate-r3\\Character_R4_A1_Female_Idle_BODY_CANDIDATE_OFF_R3_20261004.blend",
+  "candidate_SHA": "a6eaea6d2a5e4de9896c05af40bc581f6f48ccb5b623db815762c56e7c6ce0e1",
+  "candidate_bytes": 28223978,
+  "action": "YURI_R4_A1_Female_Idle_BODY_CANDIDATE_R3",
+  "mapped_bones": 51,
+  "original_body_rig": "Meshy_Fitted_Rig57",
+  "original_actions_preserved": 78,
+  "additive_candidate_actions": 2,
+  "frame_range": [
+    1,
+    301
+  ],
+  "action_source_fps_embedded": 30,
+  "source_scene_fps_preserved": 24,
+  "preview_fps": 30,
+  "duration_key_interval_sec": 10,
+  "duration_movie_sec": 10.033333,
+  "root_policy": "root stays original; pelvis displacement relative first donor frame scaled by native target/donor hip height; no object transform animation",
+  "floor_cleanup_world_z_m": -0.0047837715899254896,
+  "OFF_full_signature_exact_R2": true,
+  "OFF_full_signature_exact_R3_copy": true,
+  "reopened_OFF_neutral_pixel_exact": true,
+  "OFF_max_pixel_difference": 0,
+  "root_world_range_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "soles": {
+    "L": {
+      "min_z_offset_to_source_floor_m": 0.0008133681910726942,
+      "max_z_offset_to_source_floor_m": 0.0011772688083033778,
+      "centroid_range_m": [
+        0.0008245817281464646,
+        0.0010388019671103768,
+        0.0002555931806498112
+      ]
+    },
+    "R": {
+      "min_z_offset_to_source_floor_m": 5.1770539410966876e-08,
+      "max_z_offset_to_source_floor_m": 0.00012065234454672336,
+      "centroid_range_m": [
+        0.0009864286572974987,
+        0.0009616094487155738,
+        0.0001359489219771165
+      ]
+    }
+  },
+  "hand_trajectory_range_m": {
+    "L": [
+      0.012773871421813965,
+      0.01857857219874859,
+      0.003163754940032959
+    ],
+    "R": [
+      0.009534932672977448,
+      0.010393291711807251,
+      0.0016198158264160156
+    ]
+  },
+  "evaluated_body_finite_all301_frames": true,
+  "normal_speed_front_quarter_side": "COMPLETE_1X_ENDED_NO_MEDIA_ERROR",
+  "movies": {
+    "front": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-idle-candidate-r3\\A1_Female_Idle_front_1x.mp4",
+      "sha256": "a6ea9e58c1b867107081e87dcdda5e8ea39d29e55aef6c24d9ccd40bd2ecae90",
+      "bytes": 316333,
+      "width": 256,
+      "height": 384,
+      "r_frame_rate": "30/1",
+      "duration": "10.033333",
+      "nb_frames": "301",
+      "whole_decode": true,
+      "observed_UI_ended": true,
+      "observed_UI_playback_rate": 1,
+      "observed_UI_media_error": null
+    },
+    "quarter": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-idle-candidate-r3\\A1_Female_Idle_quarter_1x.mp4",
+      "sha256": "4b6de6dfc597ea91a439f239fb74acfefc6c6732bf3ca83869617d192f01ccdd",
+      "bytes": 349196,
+      "width": 256,
+      "height": 384,
+      "r_frame_rate": "30/1",
+      "duration": "10.033333",
+      "nb_frames": "301",
+      "whole_decode": true,
+      "observed_UI_ended": true,
+      "observed_UI_playback_rate": 1,
+      "observed_UI_media_error": null
+    },
+    "side": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-idle-candidate-r3\\A1_Female_Idle_side_1x.mp4",
+      "sha256": "4d0ae3364aa95c0b1d73c2b8fef7a406c839d7a20bb6ee428e9de3479240dc85",
+      "bytes": 343394,
+      "width": 256,
+      "height": 384,
+      "r_frame_rate": "30/1",
+      "duration": "10.033333",
+      "nb_frames": "301",
+      "whole_decode": true,
+      "observed_UI_ended": true,
+      "observed_UI_playback_rate": 1,
+      "observed_UI_media_error": null
+    }
+  },
+  "guard_execution_receipts": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-candidate-broker-r1\\NATIVE_GUARD_RESULT.json",
+      "SHA": "57e6d5b9c9a30d5730899c767f6cd1c1ddf27dcf262b784c8311a64d903501cf",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 109240,
+      "wall_seconds": 35.5985010000295,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-candidate-broker-r2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "b2687958c8166ade57c246e48cead9817def472ca3a2380abd4577fa50c8f614",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 24172,
+      "wall_seconds": 35.157366700004786,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-contact-broker-r2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "a538fa804ae448fa05663418ba97790e08734af6ccba68c48e8c8a92ad000833",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 4940,
+      "wall_seconds": 44.42388239997672,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-contact-broker-r3\\NATIVE_GUARD_RESULT.json",
+      "SHA": "0f5dc81fa6ebdcdc9405da6a86d16f4d07a78646878cc3e08ddcdbd69ea8b884",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 121016,
+      "wall_seconds": 42.9563909000135,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-diagnostic-broker-r1\\NATIVE_GUARD_RESULT.json",
+      "SHA": "6d85478e296baf9d77d8d56460183d2aed97e31398af9987270a59456155cdbe",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 40788,
+      "wall_seconds": 2.0209262000280432,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-floor-broker-r3\\NATIVE_GUARD_RESULT.json",
+      "SHA": "52bb578d5cf83709059868d262ab1881266def4e995b4e03390cb21816405187",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 126680,
+      "wall_seconds": 18.408671499986667,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-full-front-broker-r2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "67136d164937390ee33f248f52a0636e60ee61e0f53585d9a95a6ea8e208811d",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 114464,
+      "wall_seconds": 97.73679380002432,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-full-front-broker-r3\\NATIVE_GUARD_RESULT.json",
+      "SHA": "267be20029e9ae5cc7d60884cb42aa34b491b6736cbb085f73ffe1f963c62d9f",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 109892,
+      "wall_seconds": 98.15786629996728,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-full-quarter-broker-r2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "e2edcdf1a58389ce8889661ba2749eefea4bed1227327b6199d93dadb8bf3e81",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 110680,
+      "wall_seconds": 99.2651465999661,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-full-quarter-broker-r3\\NATIVE_GUARD_RESULT.json",
+      "SHA": "1c4cbd3b33afea9af0aca03a6b886fefb2866bc26f5753c939a3b7a59016c859",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 117196,
+      "wall_seconds": 99.89991620002547,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-full-side-broker-r2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "b3c5adbd4d255fbe43839b2c3be82084672f4680cb5145ad585899e3d8b6f5b2",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 136916,
+      "wall_seconds": 92.22068199998466,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-full-side-broker-r3\\NATIVE_GUARD_RESULT.json",
+      "SHA": "f6fcb8d7eee3383f36985d6025d0a2f3f180169c96b9a85fa8bc50ff22c2f70d",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 104952,
+      "wall_seconds": 90.85842040000716,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-inspect-broker-r1\\NATIVE_GUARD_RESULT.json",
+      "SHA": "40e679216141198a5a4df857e398dce281cf7ac0fdb54b93685e9715cbf54295",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 125404,
+      "wall_seconds": 5.307280799956061,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-preview-front-broker-r1\\NATIVE_GUARD_RESULT.json",
+      "SHA": "236261bf6171b56cf883868e4be2c263c0a3531947cb0d62bac04d7656b8cd03",
+      "status": "FAIL",
+      "pid": 116740,
+      "wall_seconds": 1.627639900019858,
+      "terminal_exit": 95,
+      "terminal_job": null
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-preview-front-broker-r2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "c382b23fe06a91f693e07e030c293c853923c6914a68ef796a2938ea3c2610a9",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "pid": 115988,
+      "wall_seconds": 3.804434699995909,
+      "terminal_exit": 0,
+      "terminal_job": {
+        "active": 0,
+        "total": 1,
+        "limit_terminated": 0,
+        "pids": []
+      }
+    }
+  ],
+  "remaining_defects": [
+    "left sole up to1.18mm above source neutral floor; right up to0.121mm",
+    "No external floor/collider/contact-physics certification or exhaustive mesh-self-intersection proof",
+    "Static original face/gaze; no F2/F3 performance acceptance",
+    "Source scene remains24fps; explicit30fps body Action/preview context required",
+    "Mixamo non-loop source; no fabricated loop seam acceptance"
+  ],
+  "failed_approaches_preserved": [
+    "R1 bake used last toe donor channel for pelvis location; neutral structure preserved but ON pelvis collapsed ~0.5m",
+    "First preview wrapper import path absent failed before render; R2 wrapper fixed separate",
+    "R2 sole float4.8-6.0mm; R3 copied Action constant pelvisZ cleanup"
+  ],
+  "TierP": 0,
+  "StageB_accepted": false,
+  "O1_accepted": false,
+  "PRIMARY": false,
+  "Unity_writes": 0,
+  "source_writes": 0,
+  "face_gaze_hair_channel_writes": 0,
+  "next": "Autonomously inspect/adapt A2-A4 within same scope; final promotion stays with PM",
+  "forensic_target": "A1 pelvis/sole contact only",
+  "first_divergence": "R1 pelvis.location donor channel",
+  "cause_status": "PROVEN scoped channel bug; sole gap measured and corrected",
+  "oracle": "original OFF signature/pixels; actual301frame native geometry/root/sole;3 full1x videos; exact live owned execution guard",
+  "implementation": "single donor-channel reference correction and one constant copied-Action pelvisZ adjustment",
+  "KB_reuse": "small rest-axis/channel-ownership note; no new forensic framework"
+}
