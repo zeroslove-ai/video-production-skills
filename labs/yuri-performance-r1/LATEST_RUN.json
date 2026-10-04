@@ -417,5 +417,31 @@
     "report": "evidence/dance-two-pose-native-r1/YURI_DANCE_TWO_POSE_NATIVE_QA_R1.md",
     "next": "STOP at one failed batch; future alternative native elbow pole/twist and two-segment reach fitting only proposed",
     "TierP": 0
+  },
+  "dance03_constrained_native_C1": {
+    "date": "2026-10-05",
+    "verdict": "FAIL_HOLD_METHOD_STOP_ONE_CANDIDATE",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "edfe9975aa89db3c8df28382b6c4df9a9737244660710bed1039cbdbcb2c3ab1",
+    "action_SHA": "65bd438a7a32f27c8b1721f6859e35cf14eaea3150309bc18df0db7a215004b6",
+    "packet_SHA": "1af91f96cf39bc009cc5019dc0f40b7fcf21af27572d43b9a2081de382127e68",
+    "packet_bytes": 60662287,
+    "left_leg_new_pairs_before_after": [
+      16,
+      0
+    ],
+    "left_arm_new_pairs_before_after": [
+      64,
+      68
+    ],
+    "right_sole_drift_m": 0,
+    "wrist_target_error_m": 0.002299998428464777,
+    "OFF_RGBAchanged": 0,
+    "source_Action_ON_OFF_raw_candidate_reopen_full_snapshot_equal": true,
+    "raw_texture_filepath_differences": [],
+    "cause": "Native endpoint constraints do not constrain immutable shoulder tissue; residual upper_arm.L/chest68, retained RIGHT neck/clavicle edge strain unchanged",
+    "alternative_unexecuted": "Reuse complete existing native Reach shoulder/clavicle/elbow posture with lower/outward hand goal, surface gate first",
+    "report": "evidence/dance03-constrained-native-c1/YURI_DANCE03_CONSTRAINED_NATIVE_QA_C1.md",
+    "TierP": 0
   }
 }

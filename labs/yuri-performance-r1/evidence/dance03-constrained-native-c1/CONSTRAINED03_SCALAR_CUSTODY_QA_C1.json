@@ -1,0 +1,383 @@
+{
+  "task": "ROOT_PM_DANCE03_CONSTRAINED_NATIVE_CORRECTION_R1",
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\dance03-constrained-native-c1\\Character_R4_Dance03_Constrained_EXPERIMENT_OFF_C1_20261005.blend",
+  "candidate_SHA": "edfe9975aa89db3c8df28382b6c4df9a9737244660710bed1039cbdbcb2c3ab1",
+  "original78Actions_preserved": true,
+  "action_names": {
+    "03": "YURI_R4_DANCE03_CONSTRAINED_03_BODY_C1"
+  },
+  "action_only_library": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\dance03-constrained-native-c1\\YURI_R4_DANCE03_CONSTRAINED_ACTION_ONLY_C1.blend",
+    "sha256": "65bd438a7a32f27c8b1721f6859e35cf14eaea3150309bc18df0db7a215004b6",
+    "bytes": 148293,
+    "actions": 1,
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0
+  },
+  "rows": [
+    {
+      "pose": "03",
+      "changed_bones": [
+        "thigh.L",
+        "shin.L",
+        "foot.L",
+        "upper_arm.R",
+        "forearm.R",
+        "upper_arm.L",
+        "forearm.L"
+      ],
+      "quaternion_delta_degrees": {
+        "thigh.L": 25.048110271472225,
+        "shin.L": 52.00119786850144,
+        "foot.L": 26.99620145861763,
+        "upper_arm.R": 110.38422396913933,
+        "forearm.R": 3.666246190316445,
+        "upper_arm.L": 50.19473919153272,
+        "forearm.L": 72.25603847480963
+      },
+      "actual_sole": {
+        "L": {
+          "vertices": 2402,
+          "bottom_patch_vertices": 120,
+          "source_min_gap_m": 0.00031701252162237743,
+          "posed_min_gap_m": 0.0589685784701226,
+          "source_patch_gap_range_m": [
+            0.00031701252162237743,
+            0.0023120164806483823
+          ],
+          "posed_patch_gap_range_m": [
+            0.0589685784701226,
+            0.06148520188188211
+          ],
+          "max_patch_drift_m": 0.059683167477838195,
+          "max_all_foot_vertices_drift_m": 0.06534305534845591
+        },
+        "R": {
+          "vertices": 2430,
+          "bottom_patch_vertices": 109,
+          "source_min_gap_m": 0.0001998544105413118,
+          "posed_min_gap_m": 0.0001998544105413118,
+          "source_patch_gap_range_m": [
+            0.0001998544105413118,
+            0.00219058736614694
+          ],
+          "posed_patch_gap_range_m": [
+            0.0001998544105413118,
+            0.00219058736614694
+          ],
+          "max_patch_drift_m": 0.0,
+          "max_all_foot_vertices_drift_m": 0.0
+        }
+      },
+      "deformation": {
+        "finite": true,
+        "topology_identical": true,
+        "edge_ratio_min": 0.054953589239949384,
+        "edge_ratio_max": 21.31683105080385,
+        "edge_ratio_p01_p99": [
+          0.6464979360567394,
+          1.4021374991428226
+        ],
+        "source_zero_edges_skipped": 0,
+        "scope": "Evaluated world geometry; edge ratios are deformation diagnostics, not anatomical ROM limits or volume certification."
+      },
+      "inclusive_counts": {
+        "L": {
+          "inclusive_triangles": 27931,
+          "nonadjacent_all_body": 68,
+          "shared_vertex_adjacent_raw": 4725,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "inclusive_triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4805,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "left_leg": {
+          "inclusive_triangles": 35213,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 6174,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_pairs_vs_source": {
+        "L__all_body_nonadjacent": 68,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0,
+        "left_leg__all_body_nonadjacent": 0,
+        "left_leg__head": 0,
+        "left_leg__hair": 0
+      },
+      "crossing": null,
+      "clearance_diagnostics": {
+        "L__opposite_arm": {
+          "min_vertex_to_triangle_m": 0.0012504648184403777,
+          "query_vertices": 13825,
+          "target_triangles": 18531,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "L__remote_body": {
+          "min_vertex_to_triangle_m": 0.0006648184498772025,
+          "query_vertices": 13825,
+          "target_triangles": 99109,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "R__opposite_arm": {
+          "min_vertex_to_triangle_m": 0.0013274570228531957,
+          "query_vertices": 13749,
+          "target_triangles": 18677,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "R__remote_body": {
+          "min_vertex_to_triangle_m": 0.000841416884213686,
+          "query_vertices": 13749,
+          "target_triangles": 99255,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        }
+      },
+      "contact_verdict": "FAIL/HOLD",
+      "geometric_floor_verdict": "MEASURED_ONLY_NO_FORCE_COM_PHYSX",
+      "static_only": true,
+      "TierP": 0
+    }
+  ],
+  "floor_z_m": -0.00019985965627711266,
+  "views": {
+    "front": {
+      "position": [
+        0.0019499999471008778,
+        -3.0280001163482666,
+        0.5
+      ],
+      "rotation": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "target": [
+        0.0019499999471008778,
+        -0.02800000086426735,
+        0.5
+      ],
+      "ortho_scale": 1.12,
+      "resolution": [
+        768,
+        1024
+      ],
+      "anatomical_camera": "front"
+    },
+    "left": {
+      "position": [
+        3.0019500255584717,
+        -0.02800000086426735,
+        0.5
+      ],
+      "rotation": [
+        1.5707963705062866,
+        -0.0,
+        1.5707963705062866
+      ],
+      "target": [
+        0.0019499999471008778,
+        -0.02800000086426735,
+        0.5
+      ],
+      "ortho_scale": 1.12,
+      "resolution": [
+        768,
+        1024
+      ],
+      "anatomical_camera": "left"
+    }
+  },
+  "collision_scope": "Actual evaluated body triangles selected if ANY vertex has summed relevant bone/digit weights>.01, vs ALL actual body triangles. No weak-weight/palm/webbing exception. Same/shared vertices counted separately; nonadjacent compared to source baseline. Body cohorts also against ALL actual head/hair. Baseline source intersections and adjacency are not silently approved. No volumetric containment/adjacent deformation/PhysX certification.",
+  "limits": "Static03 ONLY, no timing/transition/full dance/mocap/AI anatomy trace/Unity/F2/TierP;06/14/16 remain unexpanded.",
+  "date": "2026-10-05",
+  "verdict": "FAIL_HOLD_ONE_CONSTRAINED03_CANDIDATE_METHOD_STOP",
+  "source_action_ON_OFF_full_snapshot_equal": true,
+  "raw_candidate_reopened_OFF_equal": true,
+  "raw_texture_filepath_differences": [],
+  "OFF_pixel": {
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "dimensions": [
+      960,
+      920
+    ],
+    "authoritative_SHA": "7bfe2b118fa23ef9ce0a4f31a788df904abad34a91373e093096b2b40f21ceee",
+    "candidate_OFF_SHA": "b4a9a836c6c3ed497cc1128785c80e3ce9824241db0b8d6b187345475d75e79f"
+  },
+  "left_arm_residual_dominant_groups": [
+    [
+      "R3_Joint_CorrectiveSmooth",
+      43.20481586456299
+    ],
+    [
+      "R3_Shoulder_PoseRelax.L",
+      43.20481586456299
+    ],
+    [
+      "upper_arm.L",
+      32.758012384176254
+    ],
+    [
+      "R3_Surface_LinearBlend",
+      28.08313024044037
+    ],
+    [
+      "chest",
+      12.588478676974773
+    ]
+  ],
+  "left_arm_residual_bounds_m": [
+    [
+      0.06684928826615888,
+      -0.13439222909511006,
+      0.692249678929258
+    ],
+    [
+      0.10326863444685763,
+      -0.03057928415551958,
+      0.7350909039116331
+    ]
+  ],
+  "edge_extremes": [
+    {
+      "vertex_indices": [
+        1845,
+        1715
+      ],
+      "source_edge_length_m": 0.0001941389952586551,
+      "posed_edge_length_m": 0.00413842816230156,
+      "ratio": 21.31683105080385,
+      "posed_midpoint_m": [
+        -0.03248715990466766,
+        -0.019287902420791092,
+        0.8018042644517287
+      ],
+      "dominant_weights": [
+        [
+          "neck",
+          1.1261124014854431
+        ],
+        [
+          "R3_Surface_LinearBlend",
+          0.906871497631073
+        ],
+        [
+          "clavicle.R",
+          0.6383103728294373
+        ],
+        [
+          "R3_Joint_CorrectiveSmooth",
+          0.39707522094249725
+        ],
+        [
+          "R3_Shoulder_PoseRelax.R",
+          0.2734135687351227
+        ]
+      ]
+    },
+    {
+      "vertex_indices": [
+        2686,
+        2529
+      ],
+      "source_edge_length_m": 0.035525324363836944,
+      "posed_edge_length_m": 0.0019522440827062614,
+      "ratio": 0.054953589239949384,
+      "posed_midpoint_m": [
+        -0.042403032271698615,
+        -0.004728600545877537,
+        0.7984604377554483
+      ],
+      "dominant_weights": [
+        [
+          "clavicle.R",
+          1.1269442737102509
+        ],
+        [
+          "R3_Joint_CorrectiveSmooth",
+          1.0990326702594757
+        ],
+        [
+          "R3_Shoulder_PoseRelax.R",
+          0.7983152866363525
+        ],
+        [
+          "R3_Surface_LinearBlend",
+          0.7143712341785431
+        ],
+        [
+          "neck",
+          0.43861161172389984
+        ]
+      ]
+    }
+  ],
+  "single_constraint_scalar": {
+    "native_two_bone_lengths_m": [
+      0.14147594818670278,
+      0.11962603638877792
+    ],
+    "target_distance_m": 0.2133355827782608,
+    "actual_wrist_target_error_m": 0.002299998428464777,
+    "requested_upper_axial_twist_degrees": -16.941921600368808,
+    "applied_upper_axial_twist_degrees": -16.941921600368808,
+    "upper_axial_twist_bound_degrees": 35,
+    "requested_elbow_bend_degrees": 72.25602838656371,
+    "applied_elbow_bend_degrees": 72.25602838656371,
+    "elbow_bend_bound_degrees": 85,
+    "existing_leg_source": "MESHY_R2_BODY_WalkInPlace39 exact3quaternions; pelvis/root/lowerRIGHT unchanged",
+    "existing_leg_delta_degrees": {
+      "thigh.L": 25.048110271472225,
+      "shin.L": 52.00119786850144,
+      "foot.L": 26.99620145861763
+    },
+    "right_arm_previous03_quaternions_exact": true,
+    "one_candidate_no_sweep": true
+  },
+  "TierP": 0,
+  "source_bytes": 26553642,
+  "candidate_bytes": 26584790,
+  "guards": {
+    "o1-dance03-existing-inspect-c1": {
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "sha256": "72c2ace32434f469b98799780711ee76f1f19a6b76f895c2d5af3c36404191ab",
+      "exit": 0,
+      "cleanup_active": 0
+    },
+    "o1-dance03-constrained-native-c1": {
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "sha256": "8a14b0ebf5ad93ba7bf9f4672fefa34906bb83613fe7e2f88f2fac4918752494",
+      "exit": 0,
+      "cleanup_active": 0
+    },
+    "o1-dance03-constrained-readonly-c1": {
+      "status": "FAIL",
+      "sha256": "479045feb691583517c1832e82b12bf9cdb1634ada6b72f6baae6109ca67c7e2",
+      "exit": 95,
+      "cleanup_active": 0
+    },
+    "o1-dance03-constrained-readonly-c1b": {
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "sha256": "3fa8675e4cddf35f1f6bf55ed0e70ff18baca7e79bad23a7924e379798acf2c2",
+      "exit": 0,
+      "cleanup_active": 0
+    }
+  },
+  "prior_FAIL_packet_unchanged_SHA": "6b8d18971087eb200bfd85235c3670cf1d27f1e46757013d639059f1a0c421dd"
+}

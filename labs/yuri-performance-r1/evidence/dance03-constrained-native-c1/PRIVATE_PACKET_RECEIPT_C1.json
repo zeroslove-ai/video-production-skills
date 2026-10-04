@@ -1,0 +1,10 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_DANCE03_CONSTRAINED_FAIL_CONTROL_C1_20261005.zip",
+  "sha256": "1af91f96cf39bc009cc5019dc0f40b7fcf21af27572d43b9a2081de382127e68",
+  "bytes": 60662287,
+  "members": 77,
+  "indexed_members": 76,
+  "CRC_SHA_size_all_verified": true,
+  "closed_once": true,
+  "verdict": "FAIL_HOLD_ONE_CONSTRAINED03_CANDIDATE_METHOD_STOP"
+}
