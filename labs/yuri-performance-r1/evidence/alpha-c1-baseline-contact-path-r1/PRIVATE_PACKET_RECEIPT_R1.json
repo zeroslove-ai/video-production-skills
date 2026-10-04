@@ -1,0 +1,13 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_C1_LEFT_ARM_CONTACT_SOURCE_ONLY_R1_20261004.zip",
+  "bytes": 66414678,
+  "sha256": "76d350455adbfa5f384bcc57bf704cea5863b6a38b0af8058816a414544f42d6",
+  "members": 151,
+  "indexed_members": 150,
+  "CRC_SHA_size_all_members": "PASS",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "5b72e501f292dad5e43915be85f67cc3129b2b3d0aee36ea506f55694d3fddb4",
+  "contact_subset": "PASS",
+  "original_neutral_return": "HOLD",
+  "TierP": 0
+}

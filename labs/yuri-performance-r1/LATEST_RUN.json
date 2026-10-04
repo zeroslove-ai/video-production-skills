@@ -189,5 +189,28 @@
     "C1_baseline_contact": "FAIL_HOLD",
     "TierP": 0,
     "next_scope": "C1 baseline hand/body clearance and original-neutral-compatible return need separate derivative scope; dance read-only materials registered, actual rig QA PENDING"
+  },
+  "C1_baseline_contact_path_r1": {
+    "task": "ROOT_PM_C1_BASELINE_CONTACT_PATH_R1",
+    "status": "SOURCE_ONLY_LEFT_ARM_CONTACT_PASS_NEUTRAL_HOLD",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "5b72e501f292dad5e43915be85f67cc3129b2b3d0aee36ea506f55694d3fddb4",
+    "packet_SHA": "76d350455adbfa5f384bcc57bf704cea5863b6a38b0af8058816a414544f42d6",
+    "packet_bytes": 66414678,
+    "report": "evidence/alpha-c1-baseline-contact-path-r1/YURI_R4_C1_BASELINE_CONTACT_PATH_R1.md",
+    "changed_body_bones": [
+      "upper_arm.L"
+    ],
+    "hypothesis": "one8deg outward endpoint path; actual peak18..43 retained, R2 finger timing unchanged",
+    "all61_scoped_dynamic_surface_intersections_after": 0,
+    "nonleft_bone_sole_carrier_transport_error": 0,
+    "OFF_neutral_changed_pixels": 0,
+    "same_camera_peak18_31_RGB_changed_pixels_all4views": 0,
+    "normal_speed_actual_UI": "4 views full61 at1x through-end, error null",
+    "original_neutral_return": "HOLD: derivative endpoint equals derivative start, not original R4 neutral",
+    "full_collision_prop_physics_Unity_AlwaysAnimate_StageB_F2": "HOLD",
+    "TierP": 0,
+    "existing_source_candidates_history": "R4/08caad7/C1/R1/R2/6ce0221/closed packets preserved",
+    "next_bounded_task": "Original-neutral compatible return requires separate ownership scope; registered24 AI dance pose-pair read-only matrix and actual-rig QA still pending, not motion accuracy certification."
   }
 }

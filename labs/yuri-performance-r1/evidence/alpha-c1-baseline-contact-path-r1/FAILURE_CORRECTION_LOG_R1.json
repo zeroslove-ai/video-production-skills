@@ -1,0 +1,12 @@
+{
+  "candidate_R1_failure": "Before-side forgot existing C1 face/hair transport; matching assertion correctly failed before candidate save; exit95/drain0. R1b uses original C1 full BaseLane; same8deg motion hypothesis unchanged.",
+  "paired_R1_failure": "Incorrect assumption that Blender quad triangulation order/diagonals stay fixed through deformation; topology assertion failed. Original polygons/mesh were unchanged. Preserve failed collector.",
+  "paired_R1b_control": "Original OFF triangulation frozen against evaluated world vertices; identical triangle IDs and original polygon topology; all scoped after intersections0.",
+  "actual_dynamic_oracle": "Actual per-frame Blender triangulation, identity as vertex-triplets and preserved polygons, all same-frame scoped after intersections0; decisive contact result.",
+  "unexecuted_preparation": [
+    "o1-c1-contact-path-off-r1"
+  ],
+  "previous_candidates_and_closed_packets": "No overwrite/delete/repack; original R4/08caad7/C1/R1/R2 retained.",
+  "review_caption_correction": "Copied R1 page incorrectly said endpoint returns to old C1 baseline. R1B explicitly states derivative start pose, changed left-arm endpoint, original-neutral HOLD; original R1 HTML retained, first actual playback used corrected R1B.",
+  "healthy_processes": "Protected original Blender GUI and product process untouched; only owned native workers launched and drained."
+}

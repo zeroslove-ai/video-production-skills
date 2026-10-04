@@ -1,0 +1,15 @@
+"""Paired C1 versus single upper-arm path derivative; unchanged R2 finger layer."""
+import bpy,sys,json,hashlib
+from pathlib import Path
+HERE=Path(__file__).resolve().parent;sys.path.insert(0,str(HERE))
+from r4_c1_contact_path_adapter_r1 import ReachFingerLane
+from r4_reach_left_finger_timing_adapter_r2 import ReachFingerLane as BaseLane
+from r4_c1_contact_surface_oracle_r1 import SurfaceOracle
+from r4_appearance_signature import snapshot
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');O=B/'alpha-c1-contact-path-paired-qa-r1';O.mkdir(exist_ok=False);d=json.loads((B/'alpha-c1-contact-path-candidate-r1b/C1_CONTACT_PATH_CANDIDATE_PRIVATE_R1.json').read_bytes());P=Path(d['candidate']);assert hashlib.sha256(P.read_bytes()).hexdigest()==d['candidate_SHA'];bpy.ops.wm.open_mainfile(filepath=str(P),use_scripts=False);names=list(bpy.data.actions.keys());before=snapshot(names);oracle=SurfaceOracle();base=[];lane=BaseLane();lane.on()
+for f in range(1,62):bpy.context.scene.frame_set(f);bpy.context.view_layer.update();base.append(oracle.capture())
+lane.off();assert snapshot(names)==before;rows=[];lane=ReachFingerLane();lane.on()
+for f in range(1,62):
+ bpy.context.scene.frame_set(f);bpy.context.view_layer.update();now=oracle.capture();old=base[f-1];rows.append({'frame':f,'pairs':{n:{'before':len(old[n]),'after':len(now[n]),'new_triangle_pairs':len(now[n]-old[n]),'removed_triangle_pairs':len(old[n]-now[n])} for n in now}})
+ if f%15==0:print('C1_CONTACT_PAIRED',f,flush=True)
+lane.off();assert snapshot(names)==before;summary={n:{'before_max':max(len(x[n]) for x in base),'after_max':max(x['pairs'][n]['after'] for x in rows),'max_new_triangle_pairs':max(x['pairs'][n]['new_triangle_pairs'] for x in rows),'after_intersection_frames':[x['frame'] for x in rows if x['pairs'][n]['after']>0],'new_pair_frames':[x['frame'] for x in rows if x['pairs'][n]['new_triangle_pairs']>0]} for n in base[0]};clean=all(v['after_max']==0 for v in summary.values());d={'candidate_SHA':d['candidate_SHA'],'frames':61,'before':'Original C1 body + same R2 finger timing','after':'Upper-arm8deg endpoint clearance path + same R2 finger timing','pair_identity_same_frame':True,'pairs':summary,'frames_private':rows,'bounded_contact_subset':'PASS' if clean else 'FAIL_HOLD','OFF_snapshot_exact':True,'original_neutral_return':'HOLD','TierP':0,'scope':'Actual epsilon0 world evaluated triangle intersections. Dominant digit/left arm cohorts>=.5. Body excludes corresponding hand/finger or whole left-arm weight>.01. Left arm/digits also checked against original actual head and hair evaluated meshes; right arm included in body targets. Cohort adjacency/webbing/whole-character depth/volume are not certified.'};(O/'C1_CONTACT_PAIRED_SURFACE_PRIVATE_R1.json').write_text(json.dumps(d,indent=2),encoding='utf-8');print('C1_CONTACT_ORACLE_RESULT',d['bounded_contact_subset'],summary,flush=True)

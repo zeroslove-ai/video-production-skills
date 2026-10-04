@@ -1,0 +1,44 @@
+[
+  {
+    "run": "o1-c1-contact-path-candidate-r1",
+    "SHA": "bb06d964544cbb3e38e602960256038e66ca5b9050f7683f268e6eb85677621e",
+    "status": "FAIL",
+    "wall_seconds": 62.87890429998515
+  },
+  {
+    "run": "o1-c1-contact-path-candidate-r1b",
+    "SHA": "379dc7bd127e80c20fb19e48ba2d85e667678ed03edd265278c393348119b4bd",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 116.44580810004845
+  },
+  {
+    "run": "o1-c1-contact-path-paired-r1",
+    "SHA": "5fc061c4a304149f1e29e20c6f6e16b076e1a195cfbd65b97ea09659ee7ecf05",
+    "status": "FAIL",
+    "wall_seconds": 14.432824799965601
+  },
+  {
+    "run": "o1-c1-contact-path-paired-r1b",
+    "SHA": "d069481294cea9690c389a20faac6a69557a9392d4e7015a90afdefcef6bd215",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 152.13109130004887
+  },
+  {
+    "run": "o1-c1-contact-path-actual-r1",
+    "SHA": "e8425a25789d0fa3d89c344d0a3cb017eea3566bcd20e34e637cda03d5f0de8e",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 153.00971240003128
+  },
+  {
+    "run": "o1-c1-contact-path-off-r1b",
+    "SHA": "7af944c6906887057e34dc1fb1d47a5041e1ec0bb9fafd7463eeb7e10ed4cdd1",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 115.96415310003795
+  },
+  {
+    "run": "o1-c1-contact-path-full-r1",
+    "SHA": "609356d695d352ce735099d682a626d0b5c35921081fec5882aa0b432ad5fdcf",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 565.9155221999972
+  }
+]
