@@ -1,0 +1,13 @@
+{
+  "file": "YURI_R4_LOOK_LISTEN_ACTIONS_ONLY_R1.blend",
+  "bytes": 432815,
+  "sha256": "6a4bd5f4b1aba677de64edf8a98ac3220cad9d7f8e363677acc672f5cfd48a17",
+  "actions": [
+    "YURI_R4_LOOK_LISTEN_BODY_R1",
+    "YURI_R4_LOOK_LISTEN_HEAD_TRANSPORT_R1",
+    "YURI_R4_LOOK_LISTEN_HAIR_TRANSPORT_R1"
+  ],
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0
+}

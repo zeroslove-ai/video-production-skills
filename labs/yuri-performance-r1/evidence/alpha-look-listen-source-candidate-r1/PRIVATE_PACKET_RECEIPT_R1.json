@@ -1,0 +1,14 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_LOOK_LISTEN_SOURCE_ONLY_R1_20261004.zip",
+  "bytes": 82078623,
+  "sha256": "76a006e56289738d79ea0ef6b6e9b3ec4c29a5412e10c4560881ebf871df1275",
+  "members": 87,
+  "indexed_members": 86,
+  "CRC_SHA_size_all_members": "PASS",
+  "candidate_SHA256": "6d676791f829d741bbcea49f6ec39fdedbcbbabaeb417580ec64b52373064b7c",
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "reused_A3_SHA256": "1e16f3529566ed3e4132ca0e3ede86051bab35a89bc23e155c5f82a9cfab9fe8",
+  "TierP": 0,
+  "source_only": true,
+  "status": "SOURCE_ONLY_PROVISIONAL_GAZE_OWNERSHIP_HOLD"
+}

@@ -1,0 +1,201 @@
+{
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-look-listen-candidate-r1\\Character_R4_LookListen_CANDIDATE_OFF_R1_20261004.blend",
+  "candidate_SHA": "6d676791f829d741bbcea49f6ec39fdedbcbbabaeb417580ec64b52373064b7c",
+  "candidate_bytes": 26630142,
+  "source_fps": 30,
+  "source_scene_fps": 24,
+  "frames": [
+    1,
+    151
+  ],
+  "movie_duration_sec": 5.033333333333333,
+  "key_interval_sec": 5.0,
+  "original_actions_preserved": 78,
+  "additive_body_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_LOOK_LISTEN_BODY_R1",
+    "Armature": "YURI_R4_LOOK_LISTEN_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_LOOK_LISTEN_HAIR_TRANSPORT_R1"
+  },
+  "authored_bones": [
+    "chest",
+    "neck",
+    "head"
+  ],
+  "timing": {
+    "neutral": [
+      1,
+      12
+    ],
+    "look": [
+      13,
+      42
+    ],
+    "listen_hold": [
+      43,
+      102
+    ],
+    "small_listen_nod": [
+      63,
+      83
+    ],
+    "return": [
+      103,
+      151
+    ]
+  },
+  "lineage": {
+    "reused_A3_candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a3-contact-candidate-r2\\Character_R4_A3_BODY_CANDIDATE_OFF_R2_20261004.blend",
+    "reused_A3_SHA": "1e16f3529566ed3e4132ca0e3ede86051bab35a89bc23e155c5f82a9cfab9fe8",
+    "reused_Action": "YURI_R4_A3_BODY_CANDIDATE_R2",
+    "source_frame_delta": [
+      1,
+      49
+    ],
+    "local_rotation_strength": {
+      "chest": 0.15,
+      "neck": 0.33,
+      "head": 0.33
+    },
+    "donor_motion_id": "833e5d992179b527040b",
+    "donor": "StayStill l_aro_2_32",
+    "license": "MIT",
+    "listen_semantics": "Procedural hold+1.5deg nod; A3 was look proxy only, NOT donor-authored listen"
+  },
+  "head_animation_ownership": {
+    "motion_owner": "Meshy_Fitted_Rig.chest/neck/head rotation + existing Armature.Root/Hair_HeadRoot rigid transport",
+    "gaze_inputs_written": false,
+    "Face_GazeYaw_Pitch_and_original_face_drivers": "Retained source, no Action keys or driver edits",
+    "canonical_runtime_gaze_adapter_arbitration": "HOLD: actual consumer adapter not exercised; simultaneous head/neck writers require explicit owner/blend, not double head rotation"
+  },
+  "max_sole_world_delta_m": 0,
+  "return_endpoint_body_max_abs_world_delta_m": 0.0,
+  "max_joint_frame_step_m": 0.0003031650165796455,
+  "head_max_world_delta_degrees": 11.407852814967935,
+  "all151_body_and_head_vertices_finite": true,
+  "feet_root_pelvis_channels_written": false,
+  "OFF_signature_exact_before_save": true,
+  "TierP": 0,
+  "StageB_F2_final_promotion": false,
+  "visual_gate": "PENDING full three-view1x; source-only",
+  "finger_contact_exact_intersection": "HOLD",
+  "OFF_reopen": {
+    "candidate_SHA": "6d676791f829d741bbcea49f6ec39fdedbcbbabaeb417580ec64b52373064b7c",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "original_actions": 78,
+    "raw_snapshot_diff": {
+      "textures": [
+        "Skin_Clean_R3_BaseColor_2K",
+        "bald_anime_head_3d_model_basecolor.002",
+        "stylized_hair_3d_model_Clone1_metallic",
+        "stylized_hair_3d_model_Clone1_roughness",
+        "tripo_image_8d1987b0_0",
+        "tripo_image_8d1987b0_3"
+      ]
+    },
+    "all_nontexture_geometry_material_nodes_weights_keys_rest_drivers_bindings_scene_exact": true,
+    "packed_texture_bytes_colorspace_resolved_properties_exact": true,
+    "raw_locator_strings_remapped": true,
+    "source_scene_fps": 24,
+    "all_three_additive_Action_fps": 30,
+    "neutral_render": "Original camera/lights/material/color settings; deterministic CPU8samples, compare against existing authoritative witness separately",
+    "save_export_source_write": false
+  },
+  "OFF_neutral_RGBA": {
+    "all_channels_exact": true,
+    "unequal_channels": 0,
+    "max_abs_channel_difference": 0,
+    "baseline_reused_no_rerender": true
+  },
+  "quiet_joint_world_ranges_m": {
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pelvis": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "foot.L": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "foot.R": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "normal_speed_UI": {
+    "start": [
+      {
+        "currentTime": 0.188631,
+        "duration": 5.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.188568,
+        "duration": 5.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.188513,
+        "duration": 5.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 5.033333,
+        "duration": 5.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 5.033333,
+        "duration": 5.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 5.033333,
+        "duration": 5.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      }
+    ],
+    "url": "http://127.0.0.1:18889/REVIEW_LOOK_LISTEN_R1.html",
+    "source_status": "SOURCE_ONLY_PROVISIONAL_GAZE_OWNERSHIP_HOLD"
+  },
+  "source_status": "SOURCE_ONLY_PROVISIONAL_GAZE_OWNERSHIP_HOLD",
+  "visual_verdict": "Look/listen/return readable in three normal-speed previews; no gross head/neck/shoulder break or sliding observed. Detailed neck seam/skin/final facial quality not certified.",
+  "head_ownership_runtime_integration": "HOLD; existing canonical gaze adapter not executed, no consumer code or shared head-writer arbitration introduced",
+  "remaining_defects": [
+    "A3 source was look proxy; this procedural hold/1.5deg nod is a semantic listen recipe, not a captured/authored listen source",
+    "Default source arms/fingers/face are held; no polished idle/finger/blink/facial layer claimed",
+    "Exact mesh self-intersection and fine neck seam/face/hair/skin quality HOLD; CPU2sample512x640 evidence",
+    "Consumer needs explicit chest/neck/head ownership or blending with gaze adapter; no assumption that both writers can rotate head concurrently"
+  ],
+  "original_44TierC": 44,
+  "all_prior_source_controls_and_closed_bundles_preserved": true,
+  "new_donor_capture_count": 0
+}
