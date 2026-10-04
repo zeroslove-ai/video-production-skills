@@ -159,7 +159,7 @@
     "normal_speed_four_views": "all61frames/30fps, whole decode and actual1x through-end",
     "baseline_endpoint_restored": true,
     "original_neutral_return": "HOLD",
-    "contact": "FAIL/HOLD: inherited C1 intersections plus added curl intersects body during return51\u201355",
+    "contact": "FAIL/HOLD: inherited C1 intersections plus added curl intersects body during return51–55",
     "TierP": 0,
     "Unity_MUG_StageB_F2": "HOLD",
     "next_single_motion_alternative": "Finger-only timing release complete before frame51; preserve C1 body/wrist curves, inherited contact and original-neutral HOLD."
@@ -332,7 +332,7 @@
       "base_candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
       "candidate_SHA": "25561f232fec69ff37df022c23d225c1524d95efa0fb117bcec8da5e39e61a51",
       "library_SHA": "941a2bc3e784ebe05d5c59b3b01c39c08d855af9a23bfd32b40d4e81cc4ab87a",
-      "candidate_verdict": "FAIL/HOLD: new thumb-palm/other-digit intersections47\u201361",
+      "candidate_verdict": "FAIL/HOLD: new thumb-palm/other-digit intersections47–61",
       "OFF_pixels": {
         "changed_RGBA_pixels": 0,
         "max_channel_error": 0,
@@ -342,9 +342,9 @@
     },
     "changed": "Separate native Action COPY only thumb1.L quaternion4channels, all290othercurves exact",
     "source_preservation": "Prior81Actions including original78/rest/rig/weights/materials/drivers/OFF snapshot exact; OFF960x920RGBA0; all169 nonthumb matrices/unaffected geometry0",
-    "failure": "15frames47\u201361 new actual nonadjacent allbody98/palm15/otherdigit94max; same-frame baseline0. Inclusive thumb>0.01 weights vs ALL actual body, weakwebbing/palm/digits not excluded; raw sharedvertexadjacency explicitly reported",
+    "failure": "15frames47–61 new actual nonadjacent allbody98/palm15/otherdigit94max; same-frame baseline0. Inclusive thumb>0.01 weights vs ALL actual body, weakwebbing/palm/digits not excluded; raw sharedvertexadjacency explicitly reported",
     "normal_speed": "Two whole169frame24fps7.041667second native LEFTclose/fixedwaist before-after1x/decode/pairedallframegrid complete",
-    "next_one_alternative": "Proposed timing-only opposition onset after61/ramp62\u201385, source wrist/body/finger/timing unchanged. NOT executed; no secondcandidate",
+    "next_one_alternative": "Proposed timing-only opposition onset after61/ramp62–85, source wrist/body/finger/timing unchanged. NOT executed; no secondcandidate",
     "Unity_F2_MUG_TierP": "HOLD/TierP0; sole Laptop Talk independent"
   },
   "grasp_left_thumb_phase_only_c2": {
@@ -375,7 +375,7 @@
       "thumb1.L quaternion4channels ONLY"
     ],
     "angles_axis": "C1 actualLEFT axis20deg opposition/10deg roll exact",
-    "phase": "Onset62\u201385, release119\u2013135 before actual final wrist return136; other290curves/source timing unchanged",
+    "phase": "Onset62–85, release119–135 before actual final wrist return136; other290curves/source timing unchanged",
     "contact_failure_frames": [],
     "inclusive_nonadjacent_all169": "0 allbody/palm/otherdigit; raw sharedvertexadjacency preserved/not penetration approval",
     "OFF_neutral_RGBAchanged": 0,
@@ -512,5 +512,18 @@
     "report": "evidence/alpha-native-walk-source-r1/YURI_R4_NATIVE_WALK_SOURCE_SUPPLY_R1.md",
     "next_authorized": "Root HEAD boundary discriminator: reuse failure91/92 triangle ledger plus one original control; no whole97/acceptedIdle rerender, one bounded CPU job, classify anatomical visible driver/transport defect vs precision. Minimal separate OFF candidate only if causal preservation-permitted proof.",
     "TierP": 0
+  },
+  "walk_head_boundary_r1": {
+    "status": "ADDITIVE_HEAD_HAIR_TRANSPORT_CAUSE_EXCLUDED_NO_CANDIDATE_CONTACT_HOLD",
+    "packet_sha256": "7573c53446fc6868aa180726496fa8beff40052e8729dc553b9c248198e9f9ac",
+    "new_candidate": null,
+    "failure_frames": [
+      91,
+      92
+    ],
+    "source_control_actual_vertex_equality": true,
+    "OFF_changed_pixels": 0,
+    "TierP": 0,
+    "next_recommendation": "Existing native BODY_HeadGazeHair source-only audit; unexecuted. No duplicate Idle/Walk render."
   }
 }

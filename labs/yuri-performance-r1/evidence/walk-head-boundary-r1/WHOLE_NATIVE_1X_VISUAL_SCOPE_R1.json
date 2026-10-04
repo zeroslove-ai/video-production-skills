@@ -1,0 +1,10 @@
+{
+  "visual_scope": "All24 affected frames in both fixed views and both roles inspected; no new gross face/neck/hair break. Exact48 decoded image pairs equal; contact HOLD not waived.",
+  "all4_native_1x_UI_complete": true,
+  "native_fps": 24,
+  "frames": [
+    74,
+    97
+  ],
+  "TierP": 0
+}

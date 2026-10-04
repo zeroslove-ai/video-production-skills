@@ -1,0 +1,246 @@
+{
+  "task": "ROOT_PM_WALK_CLOSE_TO_HEAD_BOUNDARY_R1",
+  "verdict": "ADDITIVE_HEAD_HAIR_TRANSPORT_CAUSE_EXCLUDED_NO_CANDIDATE_CONTACT_HOLD",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "80e1b5db465fafdd810852e244186bd47cbcc7907c819b810823b7d208fdf408",
+  "action_library_SHA": "6f356c1abe82f30ca713c75a53926c1cfe45e7be00fad63bdea6df7c4dcf0463",
+  "failure_frames": [
+    {
+      "frame": 91,
+      "rigid_residual_m": {
+        "Character_Body_Head": 0.0005420009964449842,
+        "Hair_Replacement_R4": 6.399259546794208e-08
+      },
+      "root_world_matrix_vs_rigid_target_error": {
+        "Armature": 3.725290298461914e-09,
+        "Hair_Rig_R4": 5.960464477539063e-08
+      },
+      "driver_basis_shape_vs_original_control": {
+        "max_nonroot_basis_error": {
+          "Armature": 0.0,
+          "Hair_Rig_R4": 0.0
+        },
+        "max_original_shape_value_delta": 0.0
+      },
+      "body_same_original_control": true,
+      "raw_new": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 2,
+        "Hair_Replacement_R4__self_nonadjacent": 2,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 2,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "control_raw_new": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 2,
+        "Hair_Replacement_R4__self_nonadjacent": 2,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 2,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "head_hair_back_reference_epsilon_sensitivity": {
+        "0": {
+          "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+          "Character_Body_Head__self_nonadjacent": 7,
+          "Hair_Replacement_R4__self_nonadjacent": 1,
+          "Meshy_Body_NeutralCovered__Character_Body_Head": 2,
+          "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+          "Character_Body_Head__Hair_Replacement_R4": 0
+        },
+        "2e-07": {
+          "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+          "Character_Body_Head__self_nonadjacent": 7,
+          "Hair_Replacement_R4__self_nonadjacent": 1,
+          "Meshy_Body_NeutralCovered__Character_Body_Head": 2,
+          "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+          "Character_Body_Head__Hair_Replacement_R4": 0
+        },
+        "2e-06": {
+          "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+          "Character_Body_Head__self_nonadjacent": 7,
+          "Hair_Replacement_R4__self_nonadjacent": 1,
+          "Meshy_Body_NeutralCovered__Character_Body_Head": 2,
+          "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+          "Character_Body_Head__Hair_Replacement_R4": 0
+        }
+      },
+      "actual_vs_original_body_only_all_vertices_exact": {
+        "Meshy_Body_NeutralCovered": true,
+        "Character_Body_Head": true,
+        "Hair_Replacement_R4": true
+      },
+      "localized_regions": [
+        {
+          "category": "Character_Body_Head__self_nonadjacent",
+          "new_pairs": 2,
+          "materials": [
+            "ContinuousEyeSkin.L",
+            "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+          ],
+          "bone_groups": [
+            "J_Bip_C_Head"
+          ],
+          "existing_shape_support_names": [
+            "BrowKnit.L",
+            "BrowRaise.L",
+            "ExprBrowInnerUp"
+          ],
+          "note": "Material/weight/ShapeKey support localizes anatomy, not proof that a ShapeKey changed or caused contact."
+        },
+        {
+          "category": "Hair_Replacement_R4__self_nonadjacent",
+          "new_pairs": 2,
+          "materials": [
+            "Hair_Pearl_PBR"
+          ],
+          "bone_groups": [
+            "Hair_HeadRoot"
+          ],
+          "existing_shape_support_names": [],
+          "note": "Material/weight/ShapeKey support localizes anatomy, not proof that a ShapeKey changed or caused contact."
+        },
+        {
+          "category": "Meshy_Body_NeutralCovered__Character_Body_Head",
+          "new_pairs": 2,
+          "materials": [
+            "Neck transition.001",
+            "R4_Meshy_OriginalDetail_FaceMatched"
+          ],
+          "bone_groups": [
+            "J_Bip_C_Head",
+            "J_Bip_C_Neck",
+            "R3_Surface_LinearBlend",
+            "neck"
+          ],
+          "existing_shape_support_names": [],
+          "note": "Material/weight/ShapeKey support localizes anatomy, not proof that a ShapeKey changed or caused contact."
+        }
+      ]
+    },
+    {
+      "frame": 92,
+      "rigid_residual_m": {
+        "Character_Body_Head": 0.00046662341036481564,
+        "Hair_Replacement_R4": 6.516619536149833e-08
+      },
+      "root_world_matrix_vs_rigid_target_error": {
+        "Armature": 4.656612873077393e-10,
+        "Hair_Rig_R4": 5.960464477539063e-08
+      },
+      "driver_basis_shape_vs_original_control": {
+        "max_nonroot_basis_error": {
+          "Armature": 0.0,
+          "Hair_Rig_R4": 0.0
+        },
+        "max_original_shape_value_delta": 0.0
+      },
+      "body_same_original_control": true,
+      "raw_new": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 30,
+        "Hair_Replacement_R4__self_nonadjacent": 1,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "control_raw_new": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 30,
+        "Hair_Replacement_R4__self_nonadjacent": 1,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "head_hair_back_reference_epsilon_sensitivity": {
+        "0": {
+          "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+          "Character_Body_Head__self_nonadjacent": 29,
+          "Hair_Replacement_R4__self_nonadjacent": 1,
+          "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+          "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+          "Character_Body_Head__Hair_Replacement_R4": 0
+        },
+        "2e-07": {
+          "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+          "Character_Body_Head__self_nonadjacent": 29,
+          "Hair_Replacement_R4__self_nonadjacent": 1,
+          "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+          "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+          "Character_Body_Head__Hair_Replacement_R4": 0
+        },
+        "2e-06": {
+          "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+          "Character_Body_Head__self_nonadjacent": 29,
+          "Hair_Replacement_R4__self_nonadjacent": 1,
+          "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+          "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+          "Character_Body_Head__Hair_Replacement_R4": 0
+        }
+      },
+      "actual_vs_original_body_only_all_vertices_exact": {
+        "Meshy_Body_NeutralCovered": true,
+        "Character_Body_Head": true,
+        "Hair_Replacement_R4": true
+      },
+      "localized_regions": [
+        {
+          "category": "Character_Body_Head__self_nonadjacent",
+          "new_pairs": 30,
+          "materials": [
+            "ContinuousEyeSkin.L",
+            "ContinuousEyeSkin.R",
+            "Material_tripo_node_b28d0c45-674e-4063-9bd8-1e071df4ba6e.001"
+          ],
+          "bone_groups": [
+            "J_Bip_C_Head"
+          ],
+          "existing_shape_support_names": [
+            "BrowKnit.L",
+            "BrowRaise.L",
+            "ExprBrowInnerUp"
+          ],
+          "note": "Material/weight/ShapeKey support localizes anatomy, not proof that a ShapeKey changed or caused contact."
+        },
+        {
+          "category": "Hair_Replacement_R4__self_nonadjacent",
+          "new_pairs": 1,
+          "materials": [
+            "Hair_Pearl_PBR"
+          ],
+          "bone_groups": [
+            "Hair_HeadRoot"
+          ],
+          "existing_shape_support_names": [],
+          "note": "Material/weight/ShapeKey support localizes anatomy, not proof that a ShapeKey changed or caused contact."
+        }
+      ]
+    }
+  ],
+  "cached_vs_actual_original_OFF_max_component_error_m": 1.845695115820431e-05,
+  "cached_coordinates_warning": "Cached external neutral differs by18.457um; actual immutable source OFF was used as authority. Cache was not treated as identical.",
+  "max_head_nonrigid_residual_m": 0.0005420009964449842,
+  "cause": "At91/92 every body/head/hair world vertex equals original BODY-only control exactly. Additional transport Actions therefore do not cause the recorded contacts in these frames. Nonroot basis and ShapeKey values also equal control.",
+  "unresolved": "Head differs from ideal rigid transform by0.542mm; already present in original control. Local modifiers/skinning/boundary mechanism not isolated. Hair residual<=0.066um but contact identities alone do not establish numerical noise.",
+  "new_candidate": null,
+  "appearance_OFF": {
+    "exact_decoded_RGBA_equal": true,
+    "changed_pixels": 0,
+    "max_RGBA_delta": 0,
+    "dimensions": [
+      920,
+      960,
+      4
+    ],
+    "baseline_sha256": "7bfe2b118fa23ef9ce0a4f31a788df904abad34a91373e093096b2b40f21ceee",
+    "result_sha256": "b7375e809350780ded11db4868c6e1e243d1cb25214b0c62e584c4740c565ea7"
+  },
+  "original78_prior81_raw_equal": true,
+  "old_bytes_unchanged": true,
+  "affected_segment": "74..97 only,24frames/24fps/1second; no full97 or Idle rerender",
+  "all48_matched_camera_frame_pairs_decoded_RGBA_equal": true,
+  "guard_SHA": "d8e94eac2366df7da3144d15fe205679180ad529b1785cce00b50cd07287db2c",
+  "native_guard": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+  "TierP": 0,
+  "next_bounded_recommendation": "Existing native BODY_HeadGazeHair source-only continuity audit; not executed here. Existing Walk remains source-reference-only; foot plant/velocity/contact/Unity gates not promoted."
+}

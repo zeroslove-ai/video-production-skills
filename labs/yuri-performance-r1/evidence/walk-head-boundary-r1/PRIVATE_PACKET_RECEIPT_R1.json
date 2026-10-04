@@ -1,0 +1,14 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_WALK_HEAD_BOUNDARY_SUPPLEMENT_R1_20261005.zip",
+  "sha256": "7573c53446fc6868aa180726496fa8beff40052e8729dc553b9c248198e9f9ac",
+  "bytes": 42821204,
+  "members": 139,
+  "indexed_members": 138,
+  "CRC_SHA_size_all_verified": true,
+  "closed_once": true,
+  "old_walk_packet_unchanged": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "new_candidate": null,
+  "verdict": "ADDITIVE_HEAD_HAIR_TRANSPORT_CAUSE_EXCLUDED_NO_CANDIDATE_CONTACT_HOLD",
+  "TierP": 0
+}
