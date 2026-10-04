@@ -1,0 +1,41 @@
+{
+  "scope": "ONE_SOURCE_ACTUAL_STARTLED_MOUTH98_REFERENCE_ONLY",
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_bytes_unchanged": true,
+  "native_input_private_receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-actual-startled-mouth-source-reference-r1\\SOURCE_REFERENCE_PRIVATE_R1.json",
+  "native_input_receipt_SHA256": "98d9bc12e32ed7a04355aff51d45ea0c2cc99b4e5b4e1407f16d0682a771bfe0",
+  "runtime_witness_seconds": 2.96682239,
+  "source_frame": 1,
+  "runtime_frame_to_authored_frame": "UNKNOWN; Mouth98 is NOT Blender authored frame 98",
+  "evaluated_stage": {
+    "stage": "FULL_SOURCE original Geometry Nodes + Armature modifier stack",
+    "vertices": 12928,
+    "polygons": 21701,
+    "corners": 66861,
+    "finite": true,
+    "modifier_flags": [
+      [
+        "Face true gaze before head deformation",
+        "NODES",
+        true,
+        true
+      ],
+      [
+        "Armature",
+        "ARMATURE",
+        true,
+        true
+      ]
+    ]
+  },
+  "source_restored_signature_difference": {},
+  "original_actions_preserved": 78,
+  "image": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-actual-startled-mouth-source-reference-r1\\R4_SOURCE_ACTUAL_STARTLED_MOUTH98_REST_R1.png",
+  "image_SHA256": "622dd6a936ac8edb79185cd4a28f430b5ea41d9a50886a9c89f306f61943eeaa",
+  "native_guard": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-actual-startled-source-broker-r1\\NATIVE_GUARD_RESULT.json",
+  "native_guard_SHA256": "5c904d2cdaa9c9c2caa903fc033d07a5341f9830c26b5dc2ff6522c34218193b",
+  "visible_verdict": "NO_GROSS_MOUTH_CHEEK_BLOTCH_OR_FOLD_OBSERVED_IN_THIS_SOURCE_FRONT_VIEW",
+  "limits": "8-sample noise and authored shadows remain; one front view cannot certify mesh self-intersection. Runtime camera and body/head pose correspondence UNKNOWN. Does not isolate a Unity cause or certify Blender/Player parity. No appearance promotion.",
+  "product_authority": "Stage A/O1/Stage B/PRIMARY/HOLD; source reference only",
+  "no_source_save_export_product_change": true
+}
