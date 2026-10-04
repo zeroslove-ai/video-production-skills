@@ -1,0 +1,65 @@
+{
+  "original_native_24fps_full97_all3_views_and192frame_two_cycles_all3_views_playback": "PASS_THROUGH_END",
+  "ui": [
+    {
+      "currentTime": 4.041667,
+      "duration": 4.041667,
+      "ended": true,
+      "error": null,
+      "playbackRate": 1,
+      "src": "front_NATIVE_WALK_FULL97_1x.mp4"
+    },
+    {
+      "currentTime": 4.041667,
+      "duration": 4.041667,
+      "ended": true,
+      "error": null,
+      "playbackRate": 1,
+      "src": "quarter_NATIVE_WALK_FULL97_1x.mp4"
+    },
+    {
+      "currentTime": 4.041667,
+      "duration": 4.041667,
+      "ended": true,
+      "error": null,
+      "playbackRate": 1,
+      "src": "side_NATIVE_WALK_FULL97_1x.mp4"
+    },
+    {
+      "currentTime": 8,
+      "duration": 8,
+      "ended": true,
+      "error": null,
+      "playbackRate": 1,
+      "src": "front_NATIVE_WALK_LOOP2_1x.mp4"
+    },
+    {
+      "currentTime": 8,
+      "duration": 8,
+      "ended": true,
+      "error": null,
+      "playbackRate": 1,
+      "src": "quarter_NATIVE_WALK_LOOP2_1x.mp4"
+    },
+    {
+      "currentTime": 8,
+      "duration": 8,
+      "ended": true,
+      "error": null,
+      "playbackRate": 1,
+      "src": "side_NATIVE_WALK_LOOP2_1x.mp4"
+    }
+  ],
+  "every_frame_front_quarter_side_grid_inspected": true,
+  "gross_mesh_explosion_or_face_detachment_observed": false,
+  "loop_geometry_first_last_error_m": 0,
+  "velocity_seam_body_max_m_per_s": 0.07018276311038965,
+  "static_source_face_retained": true,
+  "preview_resolution": [
+    320,
+    320
+  ],
+  "CPU_samples": 2,
+  "candidate_only_reference_not_F2_or_plant_or_fullcontact_PASS": true,
+  "TierP": 0
+}

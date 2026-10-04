@@ -1,0 +1,17 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_WALK_SOURCE_ONLY_R1_20261005.zip",
+  "sha256": "6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50",
+  "bytes": 63291879,
+  "members": 341,
+  "indexed_members": 340,
+  "CRC_SHA_size_all_verified": true,
+  "closed_once": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate_SHA": "80e1b5db465fafdd810852e244186bd47cbcc7907c819b810823b7d208fdf408",
+  "action_SHA": "6f356c1abe82f30ca713c75a53926c1cfe45e7be00fad63bdea6df7c4dcf0463",
+  "action_bytes": 2967874,
+  "native_fps": 24,
+  "native_speed_factor": 1,
+  "verdict": "SOURCE_SUPPLY_ONLY_CONTACT_PLANT_VELOCITY_HOLD",
+  "TierP": 0
+}

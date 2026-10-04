@@ -479,5 +479,38 @@
     "report": "evidence/existing-reach-native-upper-c1/YURI_EXISTING_REACH_NATIVE_UPPER_C1.md",
     "next": "ONE correction closed; no rerender/angle/IK candidate or automatic promotion; independent owner review of source-only native variant",
     "TierP": 0
+  },
+  "native_walk_source_supply_R1": {
+    "date": "2026-10-05",
+    "verdict": "SOURCE_SUPPLY_ONLY_CONTACT_PLANT_VELOCITY_HOLD",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "80e1b5db465fafdd810852e244186bd47cbcc7907c819b810823b7d208fdf408",
+    "action_SHA": "6f356c1abe82f30ca713c75a53926c1cfe45e7be00fad63bdea6df7c4dcf0463",
+    "action_bytes": 2967874,
+    "packet_SHA": "6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50",
+    "packet_bytes": 63291879,
+    "native_fps": 24,
+    "frames": [
+      1,
+      97
+    ],
+    "speed_factor": 1,
+    "original97_body_coordinate_hashes_equal": true,
+    "OFF_raw_preservation_reopen_and_RGBA_changed": 0,
+    "body_self_new_pairs": 0,
+    "new_HEAD_self_max": 30,
+    "new_HAIR_self_max": 2,
+    "new_BODY_HEAD_max": 2,
+    "whole_foot_loop_error": 0,
+    "root_translation_range_xyz": [
+      0,
+      0,
+      0
+    ],
+    "near_floor_common_vertex_XY_max_m": 0.13412397479609123,
+    "body_velocity_seam_max_m_per_s": 0.07018276311038965,
+    "report": "evidence/alpha-native-walk-source-r1/YURI_R4_NATIVE_WALK_SOURCE_SUPPLY_R1.md",
+    "next_authorized": "Root HEAD boundary discriminator: reuse failure91/92 triangle ledger plus one original control; no whole97/acceptedIdle rerender, one bounded CPU job, classify anatomical visible driver/transport defect vs precision. Minimal separate OFF candidate only if causal preservation-permitted proof.",
+    "TierP": 0
   }
 }
