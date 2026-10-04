@@ -1,0 +1,41 @@
+{
+  "scope": "R4 immutable source-neutral HDR witness only; no appearance promotion or Unity validation",
+  "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_changes": 0,
+  "frame": 1,
+  "resolution": [
+    960,
+    920
+  ],
+  "OFF_baseline_pixel_exact": true,
+  "OFF_max_channel_difference": 0,
+  "OFF_changed_pixels": 0,
+  "baseline_sha256": "6fa3a53dbc65cada3ea7c9d402cc007a49f9af6bc52fe3de901df2c68255c7b9",
+  "new_display_sha256": "492470d61ec92c9b0bc16ca0f4ae77a2269a8a0cce1c6441912533aff5add0b6",
+  "scene_linear_RGB_max": 9.130925178527832,
+  "native_guard": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+  "native_pid": 124432,
+  "native_wall_seconds": 11.779884700023104,
+  "native_exit": 0,
+  "terminal_job_active": 0,
+  "guard_receipt_sha256": "513ced886cbb8a13536a54fb1849d3346f0d97370eb6aab25c6abf4ef2c3d835",
+  "direct_Render_Result_float_access": false,
+  "raw_to_EXR_pixel_equality_claimed": false,
+  "original_compositor_tree": null,
+  "same_Render_Result_EXR_and_PNG": true,
+  "patch_statistics_recomputed": true,
+  "packet": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_SOURCE_NEUTRAL_HDR_WITNESS_R2_20261004.zip",
+    "sha256": "cd47090a80f6fece8be8dc2672ab2ebd1ccba0e74e2344e13ae0e6144d975198",
+    "bytes": 13964358,
+    "members": 30
+  },
+  "limitations": [
+    "8-sample CPU witness retains noise/specular outliers",
+    "EXR loader colorspace name not captured by generic RNA serializer; no claimed direct Render Result float equality",
+    "Manual image rectangles are not object segmentation",
+    "Absolute cross-engine source-area-light calibration remains HOLD"
+  ],
+  "R1_failure": "Scene.node_tree absent in Blender5.2; failed before render, preserved separately; R2 uses compositing_node_group",
+  "next": "Receiver matches source camera/world/area-light operands and scene-linear ROI before judging absolute response; keep source visual authority immutable"
+}
