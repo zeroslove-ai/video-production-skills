@@ -1,0 +1,841 @@
+{
+  "scope": "REGISTERED_24_PAIR_READ_ONLY_VISUAL_REVIEW_R1",
+  "date": "2026-10-05",
+  "reference_kind": "48 separately generated approximate pose images; not motion capture or calibrated multiview",
+  "reviewed_original_resolution_images": 48,
+  "rows": [
+    {
+      "id": "01",
+      "front": "Both soles appear flat; stance shoulder-width, fists near lower ribs, upright torso and very mild knee softness.",
+      "side": "Flat shoes nearly overlap in profile, forearms forward at rib height; slight hip/back contour, shallow knee flexion.",
+      "shift": "Centered intent; no measured COM/load.",
+      "knee": "Low/soft; reference12deg is a brief, not measurement.",
+      "arms": "Elbows flexed, fists near ribs.",
+      "torso": "Upright, profile slight pelvis/back curvature.",
+      "disagreement": "Profile hides lateral stance and far elbow; knee softness weaker than brief. Shoe overlap cannot certify both-foot support.",
+      "correction": "Existing rig: two planted soles, shallow knee softness, rib-fist clearance; no proportion tracing.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "02",
+      "front": "Anatomical right/screen-left foot under pelvis; opposite leg wide with angled shoe/toe contact, right arm high diagonal and left hand chest.",
+      "side": "Near left heel lifted/toe contacting, far shoe flatter; right raised arm points forward-up in profile, stance width projects almost closed.",
+      "shift": "Right support intent; lateral center shift visible front only.",
+      "knee": "Support soft, other leg straighter.",
+      "arms": "Right high diagonal, left hand chest.",
+      "torso": "Front small right hip shift, side mostly upright.",
+      "disagreement": "Raised arm has forward component in side that front does not resolve; step depth/heel contact differs under projection.",
+      "correction": "Preserve right sole, keep left toe touch as light contact; choose arm depth on native rig rather than copy both images.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "03",
+      "front": "Right support shoe flat; lifted LEFT knee near hip, lower leg hanging/shoe clear; right diagonal high and left forearm across chest.",
+      "side": "Lifted left thigh nearly horizontal, knee strongly flexed; planted far right shoe, torso upright; chest arm depth foreshortened.",
+      "shift": "Right single-support intent; pelvis must be placed over actual right sole.",
+      "knee": "High/near hip in both views, substantially stronger silhouette than modest40deg target.",
+      "arms": "Right high diagonal; left across chest/palm down.",
+      "torso": "Upright; pelvis/knee depth cannot be reconstructed uniquely.",
+      "disagreement": "Brief-vs-image knee-height mismatch; side raised arm projects forward-up and chest wrist depth differs. Approximate pair, not measured hip angle.",
+      "correction": "PRIORITY: lower left knee to native safe hip ROM with right actual sole anchored; separate thigh/knee shape and chest-hand clearance.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "04",
+      "front": "Both flat shoes wide, T arms fully extended and palms front; knees nearly straight with slight softness.",
+      "side": "Two flat overlapping shoes, lateral T arms strongly foreshortened; torso upright, little visible knee bend.",
+      "shift": "Centered/both support intent; exact load unknown.",
+      "knee": "Landing softness weak; intended20deg not visibly established.",
+      "arms": "Shoulder-height lateral T; profile foreshortening broadly plausible.",
+      "torso": "Upright.",
+      "disagreement": "Landing/bent-knee intent reads as near-static straight stance; profile cannot establish wide stance or arm depth.",
+      "correction": "Add native shallow landing knee softness with planted feet, soft elbows and shoulder/clavicle clearance; no motion/timing inference from still.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "05",
+      "front": "Left/screen-right shoe flat under pelvis, right leg extended wide with heel lifted/toe contact; left high diagonal, right hand chest.",
+      "side": "Near left foot flat, far right heel lifted; near left arm projects almost vertically overhead, far chest hand partly hidden.",
+      "shift": "Left support intent, front pelvis leftward.",
+      "knee": "Support softly bent, opposite straighter.",
+      "arms": "Left high diagonal/right chest hand.",
+      "torso": "Upright with front hip shift; side does not resolve lateral COM.",
+      "disagreement": "Raised-arm depth differs from02 mirrored profile; hand/chest occlusion and stride depth approximate.",
+      "correction": "Left sole anchored/right toe light; author native left shoulder depth independently, do not mirror image coordinates blindly.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "06",
+      "front": "Left shoe grounded, raised RIGHT knee high near hip, right forearm chest-horizontal and left high diagonal.",
+      "side": "Right lifted thigh near horizontal, near left support sole flat; raised left arm near vertical/back, far chest forearm partly hidden.",
+      "shift": "Left support intent; actual COM remains unknown.",
+      "knee": "High lift exceeds modest40deg design silhouette; no measured angle.",
+      "arms": "Left high diagonal/right cross-chest.",
+      "torso": "Mostly upright; slight pelvis/profile curvature.",
+      "disagreement": "Priority high-knee mismatch;03/06 side arm depths are not symmetric even though briefs mirror. Chest hand becomes more occluded in06.",
+      "correction": "PRIORITY: lower RIGHT knee on actual rig, anchor LEFT sole; separately validate knee direction/hip crease/shoulder and chest-hand clearance.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "07",
+      "front": "Both shoes flat/hip-width, open palms beside cheeks with visible lateral air; elbows out.",
+      "side": "Near palm overlaps cheek silhouette, far hand near mouth; finger orientation/face gap differs or is hidden in depth.",
+      "shift": "Centered/both support intent.",
+      "knee": "Very mild softness.",
+      "arms": "Face frame; front palms open/finger-up, side near palm edge by cheek.",
+      "torso": "Upright.",
+      "disagreement": "Front apparent lateral gap cannot verify stated10cm; side apparent cheek contact may be projection, cannot infer actual penetration or precise clearance.",
+      "correction": "Use semantic face-frame only; independently keep native hand-face/hair separation and hand-hand clearance, no AI finger tracing.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "08",
+      "front": "Both flat shoes with soft wide knees, scoop palms up ahead of waist; torso slightly forward.",
+      "side": "Clear hip-back/shallow squat and forward torso, soles appear flat; forearms ahead with palms up.",
+      "shift": "Both support intent; hip-back visible profile, actual COM not measured.",
+      "knee": "Profile bend more readable than front; stated30deg not a measurement.",
+      "arms": "Small waist scoop; side arm extension/spacing not identical to front.",
+      "torso": "Forward lean with hip hinge.",
+      "disagreement": "Front knee/pelvis silhouette understates side flexion; waist/cloth and palm shape drift. No bounce timing is contained in stills.",
+      "correction": "Author shallow native knee/hip hinge with both sole anchors and forearm-body clearance; validate finite mesh/ROM before timing.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "09",
+      "front": "Wide flat feet, near-straight soft knees and symmetrical high V with air around head.",
+      "side": "Shoes overlap, arms near vertical with far hand lower in profile, chest slightly arched.",
+      "shift": "Both/center intent; support load not measurable.",
+      "knee": "Low/soft.",
+      "arms": "High V, open palms.",
+      "torso": "Front upright; profile small chest/back arch.",
+      "disagreement": "Side hand heights/arm elevation not symmetric like front; palm orientation and body arch drift. Not exact orthographic correspondence.",
+      "correction": "Native clavicle+upper-arm distribution and head/hair clearance; preserve soft elbow/shoulder ROM instead of forced image V.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "10",
+      "front": "Right high/left low diagonal line, right support knee visibly softer and other leg straighter; both shoes grounded.",
+      "side": "Far bent leg forward, near straight leg behind, high arm forward-up/low arm backward; sagittal split visible.",
+      "shift": "Right-load/lean intent; apparent front center shift is not COM proof.",
+      "knee": "Right support bend, no lift.",
+      "arms": "Right up/left down diagonal.",
+      "torso": "Small coronal lean front; profile introduces sagittal depth/arch.",
+      "disagreement": "Side arm/foot front-back spread is extra depth not fixed by front; intended lateral lean must not become forward/back torso rotation.",
+      "correction": "Anchor actual right sole, set coronal pelvis/spine shift and controlled knee plane; independently choose arm depth and avoid sideways knee collapse.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "11",
+      "front": "Flat hip-width feet, shallow knees, heart outline before upper chest, elbows out.",
+      "side": "Flat overlapping shoes and upright torso; chest hands appear clasped, heart fingers occluded.",
+      "shift": "Both support intent; load unknown.",
+      "knee": "Shallow.",
+      "arms": "Chest heart.",
+      "torso": "Upright.",
+      "disagreement": "Brief wide stance differs from narrower front; profile cannot establish heart finger connections or clearance.",
+      "correction": "Native finger/contact and chest clearance QA, no AI finger tracing.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "12",
+      "front": "Left high/right low arm, wide grounded shoes, small coronal lean.",
+      "side": "Near left bent leg forward, far right straighter behind; high left arm vertical/back, right low forward.",
+      "shift": "Left support intent; COM unknown.",
+      "knee": "Left soft bend.",
+      "arms": "Left up/right down.",
+      "torso": "Small lateral lean front; more arch in side.",
+      "disagreement": "Profile adds sagittal step and arm depth, not exact mirror of10.",
+      "correction": "Actual left sole anchor and coronal shift; independently choose safe arm depth.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "13",
+      "front": "Both shoes near floor, right shoe slightly advanced; two forward open palms foreshortened.",
+      "side": "Right toe advanced with raised heel, left sole flat; arms forward, torso lightly inclined back.",
+      "shift": "Left support intent, not measured load.",
+      "knee": "Soft supporting knee.",
+      "arms": "Forward reach palms out.",
+      "torso": "Profile slight backward inclination.",
+      "disagreement": "Front does not resolve forward toe step or arm depth; hand spacing differs.",
+      "correction": "Left sole anchor, right light toe touch, safe shoulder reach and wrist extension.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "14",
+      "front": "Left grounded foot and RIGHT knee near hip; fists by waist/elbows back.",
+      "side": "Raised thigh nearly horizontal, supporting foot flat; waist fists forward, torso upright.",
+      "shift": "Left single support intent.",
+      "knee": "High lift stronger than modest45deg brief.",
+      "arms": "Elbows back/waist fists.",
+      "torso": "Upright.",
+      "disagreement": "Both images high knee; front arm foreshortening hides elbow depth. Angle brief is not observed measurement.",
+      "correction": "PRIORITY: lower right knee within native ROM, actual left sole anchor, hip crease/knee-plane/fist-body clearance.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "15",
+      "front": "Left flat support, right toe behind/heel raised; low arms diagonally out.",
+      "side": "Left flat forward support, right rear toe and bent knee; low arms behind hip.",
+      "shift": "Left support intent.",
+      "knee": "Small supporting flexion/right rear flexion.",
+      "arms": "Low sweep.",
+      "torso": "Slight forward inclination profile.",
+      "disagreement": "Arm back-depth visible only side; front lateral spacing not uniquely matched.",
+      "correction": "Left sole anchor/right light toe, safe hip extension and backward shoulder range.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "16",
+      "front": "Both flat feet; crossed forearms X, anatomical right forearm appears in front at crossing; palms out.",
+      "side": "Near left arm appears more forward at crossing, far arm partly hidden; flat shoes.",
+      "shift": "Centered both support intent.",
+      "knee": "Very shallow.",
+      "arms": "Chest crossed forearms.",
+      "torso": "Upright.",
+      "disagreement": "PRIORITY: right-in-front brief/front crossing versus ambiguous near-left-forward profile; no unique depth ordering/contact can be certified.",
+      "correction": "Choose explicit anatomical RIGHT forearm camera-near crossing on native rig with positive arm-arm/chest clearance; verify matched front and left views.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "17",
+      "front": "Left shoe advanced, right flat; palms forward near shoulder level.",
+      "side": "Left forward toe/heel raised, right flat support; palms differ in height, extended reach.",
+      "shift": "Right support intent.",
+      "knee": "Soft support.",
+      "arms": "Forward palms.",
+      "torso": "Mostly upright with slight back inclination.",
+      "disagreement": "Front hides toe contact and arm depth; profile hand heights asymmetric unlike front.",
+      "correction": "Right sole anchored, left toe touch; independent safe bilateral reach.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "18",
+      "front": "Right grounded foot, LEFT knee high near hip, fists waist.",
+      "side": "Near lifted left thigh nearly horizontal, far right support flat; elbow-back fists.",
+      "shift": "Right support intent.",
+      "knee": "High knee similarly stronger than modest brief.",
+      "arms": "Waist fists.",
+      "torso": "Upright.",
+      "disagreement": "Hip height/angle cannot be read as calibrated measurement; profile hides far arm.",
+      "correction": "After priority14, mirrored safe left lift with actual right anchor and hip/fist clearance.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "19",
+      "front": "Right support flat, left rear heel lifted, arms low open.",
+      "side": "Forward support shoe flat/rear toe bent leg, arms sweep behind hip.",
+      "shift": "Right support intent; hidden profile foot identity not independently certain.",
+      "knee": "Shallow supporting flexion.",
+      "arms": "Low rear sweep.",
+      "torso": "Slight forward profile lean.",
+      "disagreement": "Profile occlusion obscures anatomical foot identity; front lower palms differ from side.",
+      "correction": "Explicit right anchor/left rear toe, safe hip extension and arm-body clearance.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "20",
+      "front": "Very wide flat shoes, low V palms open and knees slightly bent.",
+      "side": "Shoes overlap, more readable shallow knee flexion; arms low behind.",
+      "shift": "Both support intent.",
+      "knee": "Shallow landing bend.",
+      "arms": "Low V.",
+      "torso": "Upright.",
+      "disagreement": "Front wide stance not visible side; arm forward/back depth differs. Still gives no impact timing.",
+      "correction": "Two actual sole anchors and safe abduction/knee plane, author landing timing separately.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "21",
+      "front": "Right hip accent, both grounded shoes, right overhead curved arm/left hand hip.",
+      "side": "Flat staggered shoes, overhead arm partly hidden behind head, left hip hand visible.",
+      "shift": "Right support/hip accent intent.",
+      "knee": "Low softness.",
+      "arms": "Right overhead arc, left hip.",
+      "torso": "Small coronal accent front, chest arch side.",
+      "disagreement": "Profile cannot certify lateral hip shift; overhead hand depth/head gap differ.",
+      "correction": "Native shoulder/clavicle ROM and hair clearance; permitted hip-hand touch without penetration.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "22",
+      "front": "Left hip accent, left overhead arc/right hip hand, other leg extended sideways.",
+      "side": "Near left arm vertical elbow bend over hair, far hip hand mostly hidden; shoes almost overlap.",
+      "shift": "Left support intent.",
+      "knee": "Mild supporting bend.",
+      "arms": "Left overhead arc, right hip.",
+      "torso": "Coronal accent front, profile arch.",
+      "disagreement": "Arm/head silhouette gap smaller side and stance hidden; not exact mirror21.",
+      "correction": "Native left overhead ROM/hair gap, right hip hand clearance and actual left sole anchor.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "23",
+      "front": "Flat hip-width feet, shallow knees, fists beside cheeks with visible gap, small head tilt.",
+      "side": "Flat overlapping shoes, clearer soft knees and hip-back; fists under chin/cheek, head tilt not resolved.",
+      "shift": "Both support intent.",
+      "knee": "Shallow bounce pose.",
+      "arms": "Cheek fists.",
+      "torso": "Front upright, side slight forward lean.",
+      "disagreement": "Fist height/face gap and head tilt drift across views; still cannot prove bounce.",
+      "correction": "Native face/hair/fist clearance, preserve face drivers; body-only static QA before separate head accents.",
+      "actual_rig_QA": "PENDING"
+    },
+    {
+      "id": "24",
+      "front": "Wide flat feet/high symmetric V palms, upright torso.",
+      "side": "Overlapping flat shoes, arms near vertical with far hand lower, chest arch.",
+      "shift": "Both support final-star intent.",
+      "knee": "Low softness.",
+      "arms": "High V.",
+      "torso": "Upright front/small profile arch.",
+      "disagreement": "Arm heights/palm orientation asymmetry and profile arch differ; final hold duration unknown.",
+      "correction": "Safe native overhead shoulder/clavicle range, two sole anchors; no timing or full dance PASS.",
+      "actual_rig_QA": "PENDING"
+    }
+  ],
+  "priority_future_rig_ids": [
+    "03",
+    "06",
+    "14",
+    "16"
+  ],
+  "source_custody": [
+    {
+      "id": "01",
+      "view": "front",
+      "filename": "01_front.png",
+      "sha256": "deb949c2d7f64ef7b0e4f7178e705bbfb3a4910cfa98b8f498265ae018e2d3db",
+      "bytes": 1609427,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "02",
+      "view": "front",
+      "filename": "02_front.png",
+      "sha256": "ed341063de308b490ae1e402b25d9f5bdc652a96e8ac518fe6e5f3e7682fabb4",
+      "bytes": 1591113,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "03",
+      "view": "front",
+      "filename": "03_front.png",
+      "sha256": "dcfb727f18a3f2b2eb238d5ae676e1976af10afec99b7407c1ae759d3a018256",
+      "bytes": 1578246,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "04",
+      "view": "front",
+      "filename": "04_front.png",
+      "sha256": "902b89c6d11983e07408f5e827f566a13cbf68d0e3edf80bde60f6b1cb53bd0c",
+      "bytes": 1582492,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "05",
+      "view": "front",
+      "filename": "05_front.png",
+      "sha256": "3e543388a9d1fe2e0a7097c7a3a9358654c8bd75c73b712f12f7b8700550a728",
+      "bytes": 1619264,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "06",
+      "view": "front",
+      "filename": "06_front.png",
+      "sha256": "bf1e63516c6bcd58bd096e4b7570694ba05e0256a4f06074b00bccf89bcc27e6",
+      "bytes": 1659203,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "01",
+      "view": "side",
+      "filename": "01_side.png",
+      "sha256": "ee796e8dc6d0b9edb5a004aadd386e6a93129b6bbe57f0d64a81b422f9e58478",
+      "bytes": 1599777,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "02",
+      "view": "side",
+      "filename": "02_side.png",
+      "sha256": "af474e48069985a8365355ddb4ecad3c85718f73175159c5ccc10152d36eff5b",
+      "bytes": 1601680,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "03",
+      "view": "side",
+      "filename": "03_side.png",
+      "sha256": "bdab5c10f233eb16af9945d2b14049da808c7549b5b1db5b6ba003ddcc30a70b",
+      "bytes": 1624523,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "04",
+      "view": "side",
+      "filename": "04_side.png",
+      "sha256": "91449124708ad04f6d35cdbf39cfa9292758e4c7fc05bd873edadfc66a890a19",
+      "bytes": 1572277,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "05",
+      "view": "side",
+      "filename": "05_side.png",
+      "sha256": "6812859741b813333c53f9713913670a0c35cca558fd020b6454956f06178f98",
+      "bytes": 1574323,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "06",
+      "view": "side",
+      "filename": "06_side.png",
+      "sha256": "9c17c317ca9045d49ba3f54f461b2f07706ba8ff99b34f7605814ade9ac7d9a0",
+      "bytes": 1630933,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "07",
+      "view": "front",
+      "filename": "07_front.png",
+      "sha256": "11e5d910afdc7a56f79786b9563ec6adc813aab77178600d8bc3aee66d1a4b85",
+      "bytes": 1539591,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "08",
+      "view": "front",
+      "filename": "08_front.png",
+      "sha256": "fb353977b12c1d8e7cf8e895febbe4f30073e744bb177b7d2a15a6326c737b27",
+      "bytes": 1569411,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "09",
+      "view": "front",
+      "filename": "09_front.png",
+      "sha256": "12d3c13a4750e18e7911d7b6206e2e34c56f83b7449cd1e9dceabaa124158b46",
+      "bytes": 1623011,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "10",
+      "view": "front",
+      "filename": "10_front.png",
+      "sha256": "b4b4cac1f47b6a638fa0f26547ce40005de389be2a35aa5d48415a851347b346",
+      "bytes": 1635772,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "11",
+      "view": "front",
+      "filename": "11_front.png",
+      "sha256": "0cb344a29bcb1cba79f083f4da57d653585e4d8bac7f5ac393c79f299e76144e",
+      "bytes": 1598006,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "12",
+      "view": "front",
+      "filename": "12_front.png",
+      "sha256": "c81b34e792cb296a460083f49ed990735f4dabee79d4746378ecb989d31aebf2",
+      "bytes": 1632771,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "07",
+      "view": "side",
+      "filename": "07_side.png",
+      "sha256": "b6c59f7d9eeccea46ee512d99bda8d19ff90790ca9ee06a5176c05e8819fcc51",
+      "bytes": 1607915,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "08",
+      "view": "side",
+      "filename": "08_side.png",
+      "sha256": "a714c7b639e34a4dadbd5e15600797c79f71e451e3c1d813cf05bfedc26b9ac0",
+      "bytes": 1602723,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "09",
+      "view": "side",
+      "filename": "09_side.png",
+      "sha256": "d47483b796980d4e0448d69c778ff2ebca77ee4cdc41bd0bbd3d8dfc97ae01b2",
+      "bytes": 1548077,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "10",
+      "view": "side",
+      "filename": "10_side.png",
+      "sha256": "e29c2025efba5a4a180d7549853dc78248ed732419ff64173c6b2e9769993ef2",
+      "bytes": 1615936,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "11",
+      "view": "side",
+      "filename": "11_side.png",
+      "sha256": "e9b6346d1db2ef8403908e4d4c0e5d8fdc6ab53c2abe52d034c780d0b4430191",
+      "bytes": 1569797,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "12",
+      "view": "side",
+      "filename": "12_side.png",
+      "sha256": "2c923b587fc92f6101cdda89651b8a94e7dbd8b076113e905e9c48916ed19b14",
+      "bytes": 1640918,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "13",
+      "view": "front",
+      "filename": "13_front.png",
+      "sha256": "df118a735aff3495b562847958762154e79d7883db5f5695e29067db8c2d3f01",
+      "bytes": 1510067,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "14",
+      "view": "front",
+      "filename": "14_front.png",
+      "sha256": "d06af28b896424b079e614a07bafa24970efadd5d828b6cd3cb63e2242be5606",
+      "bytes": 1570718,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "15",
+      "view": "front",
+      "filename": "15_front.png",
+      "sha256": "ed30fba6d04970b774900c6e89601a139a3ca7a15a2cf19977997c04afe3cc6e",
+      "bytes": 1557232,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "16",
+      "view": "front",
+      "filename": "16_front.png",
+      "sha256": "42cc562f9febe69eed7ac6d50f428a76a9a13698861cbdb32f34895d5a4d6917",
+      "bytes": 1599825,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "17",
+      "view": "front",
+      "filename": "17_front.png",
+      "sha256": "26c883587d2e06d134d047fb2c26dba41f6bdd83c5c95851507a32c03e780a62",
+      "bytes": 1571843,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "18",
+      "view": "front",
+      "filename": "18_front.png",
+      "sha256": "4bfa47dadc34394d3b21b203db80d723baa2654b4e4499336ea6934d70b5296d",
+      "bytes": 1568912,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "13",
+      "view": "side",
+      "filename": "13_side.png",
+      "sha256": "1169eaa1cbf52feaeacdf60189bce391bfed69be8f87fc028b65628d4cb71bb9",
+      "bytes": 1602956,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "14",
+      "view": "side",
+      "filename": "14_side.png",
+      "sha256": "6581cb033f114b10d7cc8aab19ee180a2331592f5eda95da9928c7980ef4252a",
+      "bytes": 1598225,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "15",
+      "view": "side",
+      "filename": "15_side.png",
+      "sha256": "639e46b7d6e4f060c1b8c078cc718f2193a1d05812d7ee6cfac53ac42ed469dc",
+      "bytes": 1606209,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "16",
+      "view": "side",
+      "filename": "16_side.png",
+      "sha256": "5fd770e3d7ca2051d4ce8425c6f398aebf879beeee9a3d6046a1348b2900a816",
+      "bytes": 1583292,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "17",
+      "view": "side",
+      "filename": "17_side.png",
+      "sha256": "a519a52715775e529bc3625eeb0344a4c189ac02e6f13af1145c71e45400fa50",
+      "bytes": 1610786,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "18",
+      "view": "side",
+      "filename": "18_side.png",
+      "sha256": "b9442a285f109e86d3a9f4458f9dd1b665d2a93b642107b62da940f45e1f43fe",
+      "bytes": 1641901,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "19",
+      "view": "front",
+      "filename": "19_front.png",
+      "sha256": "51e00bc5599ad6443c784c49867c045a6bb350d0c10f7557196316b70e05a341",
+      "bytes": 1600554,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "20",
+      "view": "front",
+      "filename": "20_front.png",
+      "sha256": "d442dcd4fe275ce63a85ad4c97c3136a01f3bf2a68515c287483b2ee1d12d96e",
+      "bytes": 1609762,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "21",
+      "view": "front",
+      "filename": "21_front.png",
+      "sha256": "254cca81005a0f2a381b065d7e218bb1633ec52dcd1bd03910493ec653be92d8",
+      "bytes": 1585775,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "22",
+      "view": "front",
+      "filename": "22_front.png",
+      "sha256": "f04325bce84a2e3b102926329378da22ca47ed5936f7e5cf5f2bbd91c532bdd4",
+      "bytes": 1580952,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "23",
+      "view": "front",
+      "filename": "23_front.png",
+      "sha256": "28bcdd8dde51b234f2f59d053a015ab9b36acead0e1724dce3274319e77d8c51",
+      "bytes": 1612270,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "24",
+      "view": "front",
+      "filename": "24_front.png",
+      "sha256": "f22ac0575e95695b4c1b396955dfb97d4cae1ff3091ea6a9b1ffe5c00ce2a1db",
+      "bytes": 1634499,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "19",
+      "view": "side",
+      "filename": "19_side.png",
+      "sha256": "cc43429025800c55d44c5d267ced7fdbf3619c5a06d48f435658adca4d1f304c",
+      "bytes": 1574711,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "20",
+      "view": "side",
+      "filename": "20_side.png",
+      "sha256": "5adf6a0131cb8a2f8584919b5fd8735bd259e3a27c9fbea29f9f83c9d886476d",
+      "bytes": 1584475,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "21",
+      "view": "side",
+      "filename": "21_side.png",
+      "sha256": "3b1a08ef91dbc760ca26148fd60b4100e7ffb4dfdd375b0934048d629a86b3c9",
+      "bytes": 1633532,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "22",
+      "view": "side",
+      "filename": "22_side.png",
+      "sha256": "b6ded6bb148597d32ab00471a9a0a6431ea7371e0a42ff5c5b5b82290d8c7c23",
+      "bytes": 1546312,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "23",
+      "view": "side",
+      "filename": "23_side.png",
+      "sha256": "a5c6566262bdb85bdbf73de31c52bca6abfbef7237e25bddc359935194411541",
+      "bytes": 1565896,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "24",
+      "view": "side",
+      "filename": "24_side.png",
+      "sha256": "31440d9517a0d3e20141e02db9186da2677d2d1fd100872498351430bc7231dc",
+      "bytes": 1591625,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "constraints": [
+    "No source R4 or product changes.",
+    "Front nonmirrored anatomical right is screen-left; side is anatomical-left view.",
+    "Support/COM/angles/forces not measured by images.",
+    "24-second study MP4 holds stills; no motion interpolation/timing extraction.",
+    "Original images/ZIPs/video excluded from public Git.",
+    "All foot contact, ROM, deformation, intersections, finite mesh, OFF equality and matched rig render gates PENDING.",
+    "No additional thumb C3; C2 scoped source contact PASS does not approve secure grasp/MUG/F2/Unity/TierP."
+  ]
+}

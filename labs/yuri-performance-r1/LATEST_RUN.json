@@ -381,5 +381,21 @@
     "OFF_neutral_RGBAchanged": 0,
     "visible_result": "Early C1 palm/finger-base thumb fold removed, smooth later opposition/return; loose fingers remain, not secure grasp/MUG/F2/Unity/TierP",
     "next_bounded_task": "Registered24-pair READONLY visual design matrix at safe boundary absent direct StageA supply; no C3 thumb sweep"
+  },
+  "registered24_readonly_review_r1": {
+    "date": "2026-10-05",
+    "images_reviewed": 48,
+    "pair_rows": 24,
+    "report": "evidence/dance-24-pair-readonly-r1/YURI_DANCE_REFERENCE24_READONLY_R1.md",
+    "matrix": "evidence/dance-24-pair-readonly-r1/REFERENCE24_COMPARISON_R1.json",
+    "priority_future_rig_ids": [
+      "03",
+      "06",
+      "14",
+      "16"
+    ],
+    "actual_rig_QA": "PENDING",
+    "source_product_changes": 0,
+    "TierP": 0
   }
 }
