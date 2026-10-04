@@ -1,0 +1,185 @@
+{
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-candidate-r1\\Character_R4_SocialGreeting_Wave_CANDIDATE_OFF_R1_20261004.blend",
+  "candidate_SHA": "580b80181a400b7eaae2f6418f7bb550dcccba6fc88fdde84860958adbff9c44",
+  "candidate_bytes": 26599022,
+  "frames": [
+    1,
+    91
+  ],
+  "source_fps": 30,
+  "source_scene_fps": 24,
+  "movie_duration_sec": 3.033333333333333,
+  "original_actions_preserved": 78,
+  "additive_body_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_SOCIAL_GREETING_WAVE_BODY_R1"
+  },
+  "authored_bones": [
+    "upper_arm.R",
+    "forearm.R",
+    "hand.R"
+  ],
+  "lineage": "Procedural native R4 right-arm greeting; no donor, existing curated SOCIAL gap. Original rest/bone lengths retained. No skin/rest/skeleton/material/face/hair/finger changes.",
+  "timing": {
+    "anticipation": [
+      1,
+      12
+    ],
+    "raise": [
+      13,
+      31
+    ],
+    "wave_two_cycles": [
+      32,
+      59
+    ],
+    "hold": [
+      60,
+      67
+    ],
+    "recovery": [
+      68,
+      91
+    ]
+  },
+  "max_joint_frame_step_m": 0.03493905378431663,
+  "minimum_hand_head_joint_distance_m": 0.20641722470019774,
+  "all91_body_vertices_finite": true,
+  "OFF_signature_exact_before_save": true,
+  "finger_quality": "HOLD: unchanged source fingers; no finger-curl acceptance",
+  "self_intersection": "PENDING full source preview; joint distance not a mesh collision certificate",
+  "TierP": 0,
+  "visual_promotion": false,
+  "OFF_reopen": {
+    "candidate_SHA": "580b80181a400b7eaae2f6418f7bb550dcccba6fc88fdde84860958adbff9c44",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "original_actions": 78,
+    "raw_snapshot_diff": {
+      "textures": [
+        "Skin_Clean_R3_BaseColor_2K",
+        "bald_anime_head_3d_model_basecolor.002",
+        "stylized_hair_3d_model_Clone1_metallic",
+        "stylized_hair_3d_model_Clone1_roughness",
+        "tripo_image_8d1987b0_0",
+        "tripo_image_8d1987b0_3"
+      ]
+    },
+    "all_nontexture_geometry_material_nodes_weights_keys_rest_drivers_bindings_scene_exact": true,
+    "packed_texture_bytes_colorspace_resolved_properties_exact": true,
+    "raw_locator_strings_remapped": true,
+    "source_scene_fps": 24,
+    "additive_Action_fps": 30,
+    "neutral_render": "Original camera/lights/material/color settings; deterministic CPU8samples, compare against existing authoritative witness separately",
+    "save_export_source_write": false
+  },
+  "OFF_neutral_RGBA": {
+    "all_channels_exact": true,
+    "unequal_channels": 0,
+    "max_abs_channel_difference": 0,
+    "baseline_reused_no_rerender": true
+  },
+  "right_hand_world_range_m": [
+    0.06116759777069092,
+    0.10190871357917786,
+    0.27524399757385254
+  ],
+  "right_hand_start_end_distance_m": 0.0,
+  "quiet_joint_ranges_m": {
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pelvis": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "head": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hand.L": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "foot.L": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "foot.R": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "lineage_license": "Native procedural authored Action in this research workspace; no external donor source/license/download",
+  "normal_speed_UI": {
+    "start": [
+      {
+        "currentTime": 0.195763,
+        "duration": 3.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.195717,
+        "duration": 3.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.19567,
+        "duration": 3.033333,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 3.033333,
+        "duration": 3.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 3.033333,
+        "duration": 3.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 3.033333,
+        "duration": 3.033333,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      }
+    ],
+    "url": "http://127.0.0.1:18887/REVIEW_SOCIAL_GREETING_WAVE_R1.html"
+  },
+  "visual_verdict": "SOURCE_ONLY_PROVISIONAL: greeting readable; no gross shoulder/elbow/forearm/wrist break or arm/head/torso penetration observed across three normal-speed previews",
+  "remaining_defects": [
+    "Finger articulation and skin quality HOLD: source finger transforms retained, low-sample512x384 evidence insufficient for fingertip/webbing acceptance",
+    "Exact skin self-intersection/contact certificate HOLD; three-view visual observation only",
+    "Neutral face/head held; body-only first greeting, no expressive face overlay added",
+    "Raise/recovery still generic and restrained; wrist wave short and modest; not a polished signature performance"
+  ],
+  "Stage_B_Unity_TierP": "HOLD / 0; source-only candidate, not Stage B completion",
+  "old_controls_preserved": true
+}

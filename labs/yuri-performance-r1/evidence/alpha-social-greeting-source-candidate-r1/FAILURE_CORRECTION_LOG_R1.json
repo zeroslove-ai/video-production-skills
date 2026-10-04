@@ -1,0 +1,7 @@
+{
+  "probe_r1": "ModuleNotFoundError due to missing explicit script-dir import path; native owned process safely drained, no source mutation/candidate change",
+  "probe_broker_r2": "Preparation failed before native launch due to Python encoding alias typo utf8-sig; partial payload retained",
+  "probe_r3": "Same unchanged candidate/helper, explicit wrapper script path fixed in new collector; native PASS",
+  "motion_alternative_count": 0,
+  "walk_stop_knee_resumed": false
+}

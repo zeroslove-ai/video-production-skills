@@ -1,0 +1,30 @@
+[
+  {
+    "run": "alpha-social-wave-candidate-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-candidate-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "f73b506f6e91788db6135236d8d80a26addc8f6db94dc7c297539b6aba3ba98a",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 24.359560500015505
+  },
+  {
+    "run": "alpha-social-wave-off-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-off-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "5ea8aa86b062fee3e17dd51e516b8d5adcb55c4e7b737ec65752d59011356e51",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 27.40453590004472
+  },
+  {
+    "run": "alpha-social-wave-probe-broker-r3",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-probe-broker-r3\\NATIVE_GUARD_RESULT.json",
+    "sha256": "3a59418187c70d33b25e8ebccd7d8eea6a8e5da3ee62951946b3363b6e4d72d2",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 9.453383699990809
+  },
+  {
+    "run": "alpha-social-wave-full-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-full-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "76a190e38fb9fe76bae3c72546c3f2c5a793b98b7a682bc9e9ddc80b2775c684",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 116.74143610004103
+  }
+]
