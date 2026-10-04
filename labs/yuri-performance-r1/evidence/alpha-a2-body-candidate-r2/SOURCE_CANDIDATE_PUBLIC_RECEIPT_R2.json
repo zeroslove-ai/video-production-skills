@@ -1,0 +1,199 @@
+{
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "donor_SHA": "2aab45156daf265bda22b8a345f470fba6760fb408ff90839881e5ba63999e4d",
+  "previous_candidate_SHA": "eb71466a7116c1ca71aba8f523b373cecb9593ddf000c4e3bcc26dc26f92388b",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-contact-candidate-r2\\Character_R4_A2_BODY_CANDIDATE_OFF_R2_20261004.blend",
+  "candidate_SHA": "591977e7a23867c85ac9c37c94afb77176ba4847b0c462661c95f5abb7a78a9e",
+  "candidate_bytes": 36773591,
+  "action": "YURI_R4_A2_BODY_CANDIDATE_R2",
+  "mapped_bones": 21,
+  "frame_range": [
+    1,
+    3608
+  ],
+  "action_source_fps_readback": 30.0,
+  "source_scene_fps_readback": 24.0,
+  "original_BVH_fps_readback": 30.0003,
+  "key_interval_sec": 120.23333333333333,
+  "original_actions_and_OFF_snapshot_exact": true,
+  "face_gaze_hair_channel_writes": 0,
+  "support_z_correction_range_m": [
+    -0.015520934298994638,
+    0.004808843820990626
+  ],
+  "root_range_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_joint_frame_step_m": 0.017372637299171483,
+  "clean_sole_offsets_m": {
+    "L": [
+      -6.251729804993609e-08,
+      0.01852375800495327
+    ],
+    "R": [
+      -8.319498852646987e-08,
+      0.0305892352411949
+    ]
+  },
+  "loop_authored": false,
+  "foot_contact_physics_certified": false,
+  "self_intersection_certified": false,
+  "TierP": 0,
+  "root_policy": "Original root fixed; donor normalized pelvis first-frame displacement; per-frame grounded support-sole Z correction only; intentional horizontal motion retained",
+  "consumer_export_clock": "Read Action source_fps30 / clip mapping fps30, never source scene24; actual Unity/export not performed",
+  "limits": "Support-floor correction only for grounded idle/weight-shift; no horizontal foot locking, no donated fingers/face/gaze, no jump semantics, source scene24 retained",
+  "scope": "Source-only immutable-R4 additive body Action candidate; no visual/product promotion",
+  "step": "a2",
+  "OFF_neutral_pixel_exact": true,
+  "OFF_max_RGBA_difference": 0,
+  "neutral_witness_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-contact-qa-r3\\CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png",
+  "neutral_witness_SHA": "7bfe2b118fa23ef9ce0a4f31a788df904abad34a91373e093096b2b40f21ceee",
+  "native_geometry_frames_evaluated": 3608,
+  "body_min_z_offset_min_m": -8.319498852646987e-08,
+  "contact_proxy": {
+    "L": {
+      "near_floor_threshold_m": 0.002,
+      "near_floor_frames": 2145,
+      "near_floor_runs": 19,
+      "longest_near_floor_run_frames": [
+        1178,
+        1880
+      ],
+      "longest_run_centroid_xy_range_m": [
+        0.01175055619290323,
+        0.016409745305241513
+      ],
+      "near_floor_centroid_speed_max_mps": 0.033883656923311106,
+      "domain": "Evaluated original neutral sole vertex cohort centroid; near-floor proxy only, not authored stance/contact labels or physics. Range is not automatic sliding FAIL."
+    },
+    "R": {
+      "near_floor_threshold_m": 0.002,
+      "near_floor_frames": 1899,
+      "near_floor_runs": 11,
+      "longest_near_floor_run_frames": [
+        672,
+        1182
+      ],
+      "longest_run_centroid_xy_range_m": [
+        0.016061826522072442,
+        0.011674937224929495
+      ],
+      "near_floor_centroid_speed_max_mps": 0.03333132464469495,
+      "domain": "Evaluated original neutral sole vertex cohort centroid; near-floor proxy only, not authored stance/contact labels or physics. Range is not automatic sliding FAIL."
+    }
+  },
+  "movies": {
+    "front": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-contact-candidate-r2\\A2_front_1x.mp4",
+      "bytes": 1648904,
+      "sha256": "515c4f52ce7de71b6ebdd1efe8c30a228c0ce71a2327ee0d4b1b5c84fc703450",
+      "width": 128,
+      "height": 192,
+      "r_frame_rate": "15/2",
+      "duration": "120.266667",
+      "nb_frames": "902",
+      "whole_decode": true,
+      "render_receipt_sha256": "afa9975872bba703a32ff09dfb0a52b21e5e3789918312f87a3ce2d9a2b1cc9e"
+    },
+    "quarter": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-contact-candidate-r2\\A2_quarter_1x.mp4",
+      "bytes": 1616358,
+      "sha256": "2e21286e7bbbf67706b79f2c19450a4eec16e72ed89bb6a49ccf92f7deb2e0ac",
+      "width": 128,
+      "height": 192,
+      "r_frame_rate": "15/2",
+      "duration": "120.266667",
+      "nb_frames": "902",
+      "whole_decode": true,
+      "render_receipt_sha256": "9d34a79473759c55f65ad57c2344cb49f31c582fc39c91eaeb595db46b33b57e"
+    },
+    "side": {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-contact-candidate-r2\\A2_side_1x.mp4",
+      "bytes": 1140618,
+      "sha256": "951ec70816e6d46591c260ea8ddab86cc18e3e278be56afdc1612a7b384bf316",
+      "width": 128,
+      "height": 192,
+      "r_frame_rate": "15/2",
+      "duration": "120.266667",
+      "nb_frames": "902",
+      "whole_decode": true,
+      "render_receipt_sha256": "c3b0838dee438123820cbc595f94188548f9ab7a1cd8ce11b8e44ef2f68a1186"
+    }
+  },
+  "UI_playback": {
+    "observation_method": "Actual CUA UI button click and full120.266667s normal-time video1x playback; readonly DOM media endpoint inspection",
+    "date": "2026-10-04",
+    "videos": [
+      {
+        "src": "http://127.0.0.1:8782/A2_front_1x.mp4",
+        "time": 120.266667,
+        "duration": 120.266667,
+        "ended": true,
+        "rate": 1,
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:8782/A2_quarter_1x.mp4",
+        "time": 120.266667,
+        "duration": 120.266667,
+        "ended": true,
+        "rate": 1,
+        "error": null
+      },
+      {
+        "src": "http://127.0.0.1:8782/A2_side_1x.mp4",
+        "time": 120.266667,
+        "duration": 120.266667,
+        "ended": true,
+        "rate": 1,
+        "error": null
+      }
+    ],
+    "native_action_fps": 30,
+    "preview_fps": 7.5,
+    "preview_sampling_every_native_frames": 4,
+    "resolution": [
+      128,
+      192
+    ],
+    "final_quality_certified": false
+  },
+  "native_guard_receipts": {
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-inspect-broker-r1\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "aa6bb2fd9637bddd08291f6cfb6598fd4b11f3b6fab3857d796ce0329c9d150c",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-candidate-broker-r1\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "e53dc1c02ac0c68786b3c26b99fb6c84b326c2981dce94a7fd74f3d1a129c9c2",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-contact-broker-r2\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "9957205f3155f3a3a73f66d8403756a196e0c06e81179ebf0af4461729000fe0",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-front-preview-broker-r3\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "213dc5fd428634eb18e06aad644ee0b103004d8e48d4679fb91f0e754cbf8acb",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-quarter-preview-broker-r3\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "b10093bad7185db83547e1c3c4efd5e09b6d391efea1302b775253860b7b7e0a",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-side-preview-broker-r3\\NATIVE_GUARD_RESULT.json": {
+      "sha256": "a6112d44d2f1fe25d7c2beac394bb02b253942af2fc4432cf4b9f3d52b4201de",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    }
+  },
+  "semantics": "long idle; not authored loop",
+  "visual_verdict": "Source subset only; no obvious gross silhouette break in sampled views; complete media playback/decode observed. Low sample/resolution, static face/gaze, no exhaustive self-intersection/stance-slip certification.",
+  "acceptance_hold": [
+    "Unity AlwaysAnimate regression gate",
+    "TierP",
+    "StageB",
+    "O1",
+    "PRIMARY",
+    "F2-F3 final quality"
+  ]
+}

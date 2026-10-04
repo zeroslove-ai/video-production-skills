@@ -1,0 +1,153 @@
+{
+  "native_guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+  "guard_SHA": "d711b8ca383898649f4e36d63186dbc4a32e7895277bc467859df584bf508308",
+  "first_divergence": "Six images filepath/filepath_raw locator strings changed by save-as relative remapping. No content/geometry/material/weights/keys/rest/driver difference.",
+  "cause": "R1 compared raw strings; R2 resolved reference against a different-directory byte clone instead of actual baked source; R3 pins actual byte-identical target-reference input location. No source/candidate fix needed.",
+  "original_source_SHA_unchanged": true,
+  "records": {
+    "a2": {
+      "candidate_SHA": "591977e7a23867c85ac9c37c94afb77176ba4847b0c462661c95f5abb7a78a9e",
+      "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "raw_snapshot_diff": {
+        "textures": [
+          "Skin_Clean_R3_BaseColor_2K",
+          "bald_anime_head_3d_model_basecolor.002",
+          "stylized_hair_3d_model_Clone1_metallic",
+          "stylized_hair_3d_model_Clone1_roughness",
+          "tripo_image_8d1987b0_0",
+          "tripo_image_8d1987b0_3"
+        ]
+      },
+      "raw_locator_property_fields_changed": {
+        "bald_anime_head_3d_model_basecolor.002": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "Skin_Clean_R3_BaseColor_2K": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "stylized_hair_3d_model_Clone1_metallic": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "stylized_hair_3d_model_Clone1_roughness": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "tripo_image_8d1987b0_0": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "tripo_image_8d1987b0_3": [
+          "filepath",
+          "filepath_raw"
+        ]
+      },
+      "packed_texture_bytes_colorspace_exact": true,
+      "resolved_texture_properties_exact_against_actual_bake_source": true,
+      "all_nontexture_source_categories_exact": true,
+      "original_actions": 78,
+      "source_scene_fps": 24.0,
+      "action_fps": 30.0,
+      "raw_full_property_string_signature_exact": false,
+      "asset_writes": 0
+    },
+    "a3": {
+      "candidate_SHA": "1e16f3529566ed3e4132ca0e3ede86051bab35a89bc23e155c5f82a9cfab9fe8",
+      "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "raw_snapshot_diff": {
+        "textures": [
+          "Skin_Clean_R3_BaseColor_2K",
+          "bald_anime_head_3d_model_basecolor.002",
+          "stylized_hair_3d_model_Clone1_metallic",
+          "stylized_hair_3d_model_Clone1_roughness",
+          "tripo_image_8d1987b0_0",
+          "tripo_image_8d1987b0_3"
+        ]
+      },
+      "raw_locator_property_fields_changed": {
+        "bald_anime_head_3d_model_basecolor.002": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "Skin_Clean_R3_BaseColor_2K": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "stylized_hair_3d_model_Clone1_metallic": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "stylized_hair_3d_model_Clone1_roughness": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "tripo_image_8d1987b0_0": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "tripo_image_8d1987b0_3": [
+          "filepath",
+          "filepath_raw"
+        ]
+      },
+      "packed_texture_bytes_colorspace_exact": true,
+      "resolved_texture_properties_exact_against_actual_bake_source": true,
+      "all_nontexture_source_categories_exact": true,
+      "original_actions": 78,
+      "source_scene_fps": 24.0,
+      "action_fps": 30.0,
+      "raw_full_property_string_signature_exact": false,
+      "asset_writes": 0
+    },
+    "a4": {
+      "candidate_SHA": "722ea2301caa07f20fb62be571a1ec2293d7062f12053ec79cb80e428ca257b5",
+      "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+      "raw_snapshot_diff": {
+        "textures": [
+          "Skin_Clean_R3_BaseColor_2K",
+          "bald_anime_head_3d_model_basecolor.002",
+          "stylized_hair_3d_model_Clone1_metallic",
+          "stylized_hair_3d_model_Clone1_roughness",
+          "tripo_image_8d1987b0_0",
+          "tripo_image_8d1987b0_3"
+        ]
+      },
+      "raw_locator_property_fields_changed": {
+        "bald_anime_head_3d_model_basecolor.002": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "Skin_Clean_R3_BaseColor_2K": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "stylized_hair_3d_model_Clone1_metallic": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "stylized_hair_3d_model_Clone1_roughness": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "tripo_image_8d1987b0_0": [
+          "filepath",
+          "filepath_raw"
+        ],
+        "tripo_image_8d1987b0_3": [
+          "filepath",
+          "filepath_raw"
+        ]
+      },
+      "packed_texture_bytes_colorspace_exact": true,
+      "resolved_texture_properties_exact_against_actual_bake_source": true,
+      "all_nontexture_source_categories_exact": true,
+      "original_actions": 78,
+      "source_scene_fps": 24.0,
+      "action_fps": 30.0,
+      "raw_full_property_string_signature_exact": false,
+      "asset_writes": 0
+    }
+  }
+}

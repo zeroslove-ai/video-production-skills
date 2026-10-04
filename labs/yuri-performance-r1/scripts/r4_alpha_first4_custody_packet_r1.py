@@ -1,7 +1,8 @@
 """Fixed A2-A4 private source-candidate packet; excludes donor/source binaries from Git."""
 import argparse,hashlib,json,zipfile
 from pathlib import Path
-from PIL import Image,ImageChops
+from PIL import Image
+import numpy as np
 LAB=Path(__file__).resolve().parents[1];BASE=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs')
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def write(p,d):
@@ -19,10 +20,10 @@ def packet(step):
  if not witness.exists():witness=BASE/'alpha-a1-contact-qa-r3/CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png'
  if not witness.exists():
   candidates=list((BASE/'alpha-a1-contact-qa-r3').glob('*.png'));assert len(candidates)==1;witness=candidates[0]
- a=Image.open(witness).convert('RGBA');b=Image.open(out/'CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png').convert('RGBA');assert a.size==b.size and ImageChops.difference(a,b).getbbox() is None
+ a=Image.open(witness).convert('RGBA');b=Image.open(out/'CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png').convert('RGBA');assert a.size==b.size and np.array_equal(np.asarray(a),np.asarray(b))
  public=LAB/'evidence'/f'alpha-{step}-body-candidate-r2';public.mkdir(exist_ok=False)
- guards={}
- for name in [f'alpha-{step}-inspect-broker-r1',f'alpha-{step}-candidate-broker-r1',f'alpha-{step}-contact-broker-r2',*[f'alpha-{step}-{v}-preview-broker-r2' for v in ['front','quarter','side']]]:
+ guards={};preview_revision='r3' if step=='a2' else 'r2'
+ for name in [f'alpha-{step}-inspect-broker-r1',f'alpha-{step}-candidate-broker-r1',f'alpha-{step}-contact-broker-r2',*[f'alpha-{step}-{v}-preview-broker-{preview_revision}' for v in ['front','quarter','side']]]:
   path=BASE/name/'NATIVE_GUARD_RESULT.json'
   if not path.exists():
    # Candidate execution folder spelling is recorded, never fabricate a gate.
@@ -35,8 +36,12 @@ def packet(step):
  files={}
  for file in out.iterdir():
   if file.is_file():files['candidate/'+file.name]=file
+ for f in (LAB/'evidence/alpha-first4-source-checkpoint-r1').glob('*.json'):
+  files['supplement/'+f.name]=f
+ for f in [BASE/'alpha-first4-reopen-off-r3/SAVED_OFF_LOCATOR_DOMAIN_READBACK_R3.json',BASE/'alpha-first4-reopen-off-broker-r3/NATIVE_GUARD_RESULT.json']:
+  files['supplement-native/'+f.name]=f
  files['source-only-public-receipt.json']=public/'SOURCE_CANDIDATE_PUBLIC_RECEIPT_R2.json'
- for view in ['front','quarter','side']:files['render/'+view+'_RENDER_RECEIPT.json']=BASE/f'alpha-{step}-preview-{view}-r2/RENDER_RECEIPT.json'
+ for view in ['front','quarter','side']:files['render/'+view+'_RENDER_RECEIPT.json']=BASE/f'alpha-{step}-preview-{view}-{preview_revision}/RENDER_RECEIPT.json'
  for guard in guards:
   root=Path(guard).parent
   for f in root.rglob('*'):
@@ -48,6 +53,9 @@ def packet(step):
  if lic.exists():
   for f in lic.rglob('*'):
    if f.is_file():files['licenses/'+str(f.relative_to(lic)).replace(chr(92),'/')]=f
+ if step=='a2':
+  for f in (BASE/'alpha-a2-front-preview-broker-r2').rglob('*'):
+   if f.is_file():files['preserved-failed-output-cap-r2/'+str(f.relative_to(BASE/'alpha-a2-front-preview-broker-r2')).replace(chr(92),'/')]=f
  index={name:{'bytes':file.stat().st_size,'sha256':sha(file)} for name,file in files.items()}
  zpath=BASE/f'YURI_R4_{step.upper()}_BODY_CANDIDATE_R2_20261004.zip'
  with zipfile.ZipFile(zpath,'x',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
@@ -68,11 +76,11 @@ DONE: 원본 R4 SHA `{d['source_SHA']}` 유지. 원본 geometry/material/ShapeKe
 
 CLOCK: source scene24 unchanged / Action30 native readback / original BVH30.0003 / frame range {d['frame_range']}. Key interval {d['key_interval_sec']:.6f}s; video container {d['frame_range'][1]/30:.6f}s. A2는 4 native frames마다 pose를 취한 7.5fps 영상, source-time 1x이다. A3/A4 영상은 30fps 전 native frames. 실제 Unity/export는 미실행; consumer는 scene24 대신 Action.source_fps30 적용 필요.
 
-QA: {q['whole_native_geometry_frames']} native frames evaluated, root range {d['root_range_m']}m, finite mesh. 실제 발바닥 vertex cohort와 near-floor phase proxy를 검사했으며 관절 전체 이동 범위를 sole slide FAIL로 오판하지 않음. 물리 contact/완전한 self-intersection/stance slip 인증은 HOLD. 세 시점 full movie decode와 UI normal1x ended/error-null 관찰 완료. Low sample256x384는 final-quality 판정 자료가 아님.
+QA: {q['whole_native_geometry_frames']} native frames evaluated, root range {d['root_range_m']}m, finite mesh. 실제 발바닥 vertex cohort와 near-floor phase proxy를 검사했으며 관절 전체 이동 범위를 sole slide FAIL로 오판하지 않음. 물리 contact/완전한 self-intersection/stance slip 인증은 HOLD. 세 시점 full movie decode와 UI normal1x ended/error-null 관찰 완료. Low sample 미리보기(A2 128x192, A3/A4 256x384)는 final-quality 판정 자료가 아님.
 
 SEMANTICS: {r['semantics']}. Face/gaze/finger layer 신규 제작 없음.
 
-FAILED/HOLD: 기존 A1 R1 pelvis channel 및 R2 support float는 수정 후 별도 R3 보존. A2 contact batch의 A3 duplicate preparation은 exclusive path 보호로 중복 실행 전 차단; 개별 A3/A4 native PASS와 구분. 이번 로컬 video metadata script의 HTML quoting syntax를 native 실행 전에 수정. Healthy render 중단/재시작 없음.
+FAILED/HOLD: 기존 A1 R1 pelvis channel 및 R2 support float는 수정 후 별도 R3 보존. A2 contact batch의 A3 duplicate preparation은 exclusive path 보호로 중복 실행 전 차단; 개별 A3/A4 native PASS와 구분. 이번 로컬 video metadata script의 HTML quoting syntax를 native 실행 전에 수정. A2 preview R2 COMBINED_OUTPUT_CAP 실패는 보존; R3 fresh128x192 preview는 동일 guard로 PASS. Saved OFF reopen R1 raw texture locator diff / R2 wrong-directory reference resolver FAIL 보존; R3 actual byte-identical bake source location으로 packed bytes/colorspace/resolved properties 및 모든 nontexture categories exact PASS. Raw filepath strings는 save-as remap이므로 byte-string identical이라고 주장하지 않음. Healthy render 중단/재시작 없음.
 
 CAUSE/FIX: neutral/rest 바꾸지 않고 원본 pelvis Action channels에서 grounded support sole 높이만 보정. 수평 stepping은 강제 고정하지 않음.
 

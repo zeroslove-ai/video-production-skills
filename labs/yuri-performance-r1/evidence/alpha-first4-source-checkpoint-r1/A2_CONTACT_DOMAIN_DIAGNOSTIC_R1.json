@@ -1,0 +1,35 @@
+{
+  "native_frame_count": 3608,
+  "finite_mesh_checked_by_native_collector": true,
+  "body_min_z_offset_min_m": -8.319498852646987e-08,
+  "support_offset_abs_max_m": 8.319498852646987e-08,
+  "contact_domain": "original neutral evaluated sole vertex cohort; near-floor2mm proxy; not authored contact labels",
+  "L": {
+    "near_floor_frames": 2145,
+    "run_count": 19,
+    "longest_run_frames": [
+      1178,
+      1880
+    ],
+    "longest_run_centroid_xy_range_m": [
+      0.01175055619290323,
+      0.016409745305241513
+    ],
+    "maximum_sole_height_m": 0.01852375800495327,
+    "slide_certification": "UNKNOWN without authored stance phase / donor matched correspondence"
+  },
+  "R": {
+    "near_floor_frames": 1899,
+    "run_count": 11,
+    "longest_run_frames": [
+      672,
+      1182
+    ],
+    "longest_run_centroid_xy_range_m": [
+      0.016061826522072442,
+      0.011674937224929495
+    ],
+    "maximum_sole_height_m": 0.0305892352411949,
+    "slide_certification": "UNKNOWN without authored stance phase / donor matched correspondence"
+  }
+}

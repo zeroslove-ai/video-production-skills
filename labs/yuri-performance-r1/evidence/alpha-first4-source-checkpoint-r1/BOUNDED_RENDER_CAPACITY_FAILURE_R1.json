@@ -1,0 +1,14 @@
+{
+  "task": "A2 long idle source preview",
+  "failure": "COMBINED_OUTPUT_CAP",
+  "native_receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-front-preview-broker-r2\\NATIVE_GUARD_RESULT.json",
+  "first_attempt_png_count": 556,
+  "guard_output_limit_bytes": 67108864,
+  "healthy_worker_interrupted_by_operator": false,
+  "guard_owned_cleanup": true,
+  "canonical_source_or_candidate_modified": false,
+  "retry": "Fresh exact config/collector/approval R3, source-only preview resolution128x192 instead of256x384, same30fpsAction and7.5fps normal-time preview, guard limits unchanged. No images reused from failed run.",
+  "native_retry_status": "IN_PROGRESS; actual close receipt required",
+  "cause": "902 high-resolution PNG frames exceed bounded64MiB capture domain; not motion/root/contact semantic FAIL",
+  "new_runtime_exporter_or_product_writer": false
+}

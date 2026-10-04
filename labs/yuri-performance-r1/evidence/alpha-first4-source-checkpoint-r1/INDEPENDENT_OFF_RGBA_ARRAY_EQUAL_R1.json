@@ -1,0 +1,17 @@
+{
+  "a2": {
+    "max_absolute_RGBA_difference": 0,
+    "changed_components": 0,
+    "numpy_all_channels_exact": true
+  },
+  "a3": {
+    "max_absolute_RGBA_difference": 0,
+    "changed_components": 0,
+    "numpy_all_channels_exact": true
+  },
+  "a4": {
+    "max_absolute_RGBA_difference": 0,
+    "changed_components": 0,
+    "numpy_all_channels_exact": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_FIRST4_SOURCE_ORACLE_SUPPLEMENT_R1_20261004.zip",
+  "bytes": 66237,
+  "sha256": "7cf80001db0158339bbf968528cbb6dbf423ce76be78650202a094c6f6912aaa",
+  "members": 63,
+  "all_members_SHA_and_CRC_verified": true,
+  "immutable_A1_A3_A4_packets_repacked": false,
+  "candidate_model_motion_binaries_in_supplement": false,
+  "purpose": "Separate saved-OFF texture locator/content oracle, preserved R1/R2 failures, first4 clock and custody manifest. Companion to immutable per-candidate private packets."
+}

@@ -1,0 +1,152 @@
+{
+  "task": "ROOT_PM_ALPHA_SOURCE_FIRST_IDLE_CANDIDATE_R1",
+  "actual_new_Windows_product_capabilities": 0,
+  "status": "SOURCE_ONLY_FIRST4_CANDIDATE_PACKET_READY_FOR_PM_REVIEW",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "preserved_checkpoint": "08caad7",
+  "appearance_correction_checkpoint": "820a237",
+  "records": {
+    "A1": {
+      "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a1-idle-candidate-r3\\Character_R4_A1_Female_Idle_BODY_CANDIDATE_OFF_R3_20261004.blend",
+      "candidate_SHA": "a6eaea6d2a5e4de9896c05af40bc581f6f48ccb5b623db815762c56e7c6ce0e1",
+      "candidate_bytes": 28223978,
+      "action": "YURI_R4_A1_Female_Idle_BODY_CANDIDATE_R3",
+      "frames": 301,
+      "Action_fps": 30,
+      "source_scene_fps": 24,
+      "preview_fps": 30,
+      "key_interval_sec": 10,
+      "movie_duration_sec": 10.033333333333333,
+      "semantic": "Female_Idle; nonloop body candidate",
+      "private_packet": {
+        "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_A1_FEMALE_IDLE_BODY_CANDIDATE_R3_20261004.zip",
+        "SHA256": "c2982d44bdc42eb954721ce7c6cc9e5a82533115ac7bd6ee1eb7e627bd2305a3",
+        "bytes": 34899575,
+        "members": 229,
+        "all_member_SHA_CRC_verified": true,
+        "raw_source_or_donor_FBX_included": false,
+        "license": "Private project-use retarget candidate; no public raw Mixamo redistribution"
+      }
+    },
+    "A2": {
+      "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a2-contact-candidate-r2\\Character_R4_A2_BODY_CANDIDATE_OFF_R2_20261004.blend",
+      "candidate_SHA": "591977e7a23867c85ac9c37c94afb77176ba4847b0c462661c95f5abb7a78a9e",
+      "candidate_bytes": 36773591,
+      "action": "YURI_R4_A2_BODY_CANDIDATE_R2",
+      "frames": 3608,
+      "Action_fps": 30,
+      "source_scene_fps": 24,
+      "preview_fps": 7.5,
+      "preview_resolution": [
+        128,
+        192
+      ],
+      "key_interval_sec": 120.23333333333333,
+      "movie_duration_sec": 120.26666666666667,
+      "semantic": "long idle; not authored loop",
+      "OFF_neutral_pixel_difference": 0,
+      "saved_source_content_and_resolved_texture_exact": true,
+      "raw_image_locator_strings_exact": false,
+      "private_packet": {
+        "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_A2_BODY_CANDIDATE_R2_20261004.zip",
+        "bytes": 44055949,
+        "sha256": "bbf113e591ea1229171a5c0a554684793c6a331dbb3486b1913b173782f74b57",
+        "members": 123,
+        "member_SHA256_and_CRC_verified": true,
+        "public_repo_contains_source_or_motion_binaries": false,
+        "original_R4_and_donor_binary_excluded": true
+      },
+      "normal_time_UI_all_views_ended_error_null": true
+    },
+    "A3": {
+      "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a3-contact-candidate-r2\\Character_R4_A3_BODY_CANDIDATE_OFF_R2_20261004.blend",
+      "candidate_SHA": "1e16f3529566ed3e4132ca0e3ede86051bab35a89bc23e155c5f82a9cfab9fe8",
+      "candidate_bytes": 26872836,
+      "action": "YURI_R4_A3_BODY_CANDIDATE_R2",
+      "frames": 137,
+      "Action_fps": 30,
+      "source_scene_fps": 24,
+      "preview_fps": 30,
+      "preview_resolution": [
+        256,
+        384
+      ],
+      "key_interval_sec": 4.533333333333333,
+      "movie_duration_sec": 4.566666666666666,
+      "semantic": "look proxy, NOT authored listen",
+      "OFF_neutral_pixel_difference": 0,
+      "saved_source_content_and_resolved_texture_exact": true,
+      "raw_image_locator_strings_exact": false,
+      "private_packet": {
+        "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_A3_BODY_CANDIDATE_R2_20261004.zip",
+        "bytes": 29374129,
+        "sha256": "d21b3e91c35f6d145423ad4dacb01153e1d74db34a92d12c1dcc0ad0bc8a8b91",
+        "members": 102,
+        "member_SHA256_and_CRC_verified": true,
+        "public_repo_contains_source_or_motion_binaries": false,
+        "original_R4_and_donor_binary_excluded": true
+      },
+      "normal_time_UI_all_views_ended_error_null": true
+    },
+    "A4": {
+      "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-a4-contact-candidate-r2\\Character_R4_A4_BODY_CANDIDATE_OFF_R2_20261004.blend",
+      "candidate_SHA": "722ea2301caa07f20fb62be571a1ec2293d7062f12053ec79cb80e428ca257b5",
+      "candidate_bytes": 27151227,
+      "action": "YURI_R4_A4_BODY_CANDIDATE_R2",
+      "frames": 252,
+      "Action_fps": 30,
+      "source_scene_fps": 24,
+      "preview_fps": 30,
+      "preview_resolution": [
+        256,
+        384
+      ],
+      "key_interval_sec": 8.366666666666667,
+      "movie_duration_sec": 8.4,
+      "semantic": "weight shift; not authored loop",
+      "OFF_neutral_pixel_difference": 0,
+      "saved_source_content_and_resolved_texture_exact": true,
+      "raw_image_locator_strings_exact": false,
+      "private_packet": {
+        "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_A4_BODY_CANDIDATE_R2_20261004.zip",
+        "bytes": 30738847,
+        "sha256": "bdfccbb4410eb3ae58a9010deaa838aa8387fd08482ec53d7f1d719ff6b1ad89",
+        "members": 102,
+        "member_SHA256_and_CRC_verified": true,
+        "public_repo_contains_source_or_motion_binaries": false,
+        "original_R4_and_donor_binary_excluded": true
+      },
+      "normal_time_UI_all_views_ended_error_null": true
+    }
+  },
+  "all_native_guards_for_final_candidates_and_previews": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+  "saved_OFF_reopen_oracle": "R3 content, geometry, materials, keys, weights, rest, drivers, original78 Actions and resolved texture properties exact. Raw image relative filepath strings were remapped by save-as; not byte-string exact. Original/source/candidate bytes left unchanged.",
+  "FAIL_preserved": [
+    "A1 R1 pelvis channel",
+    "A1 R2 support floor offset",
+    "A2 preview R2 output cap",
+    "saved_OFF_reopen R1 raw locator comparison",
+    "saved_OFF_reopen R2 different-directory authority reference resolver",
+    "duplicate preparation denial before any duplicate A3 native job"
+  ],
+  "promotion": {
+    "TierP": 0,
+    "StageB": "HOLD",
+    "O1": "HOLD",
+    "PRIMARY": "HOLD",
+    "F2_F3_final_quality": "HOLD",
+    "contact_physics_and_complete_self_intersection": "HOLD",
+    "Unity_AlwaysAnimate_state_weight_normalized_time": "REQUIRED/PENDING sole Laptop writer"
+  },
+  "source_scene_FPS_changed": false,
+  "original_Reaction6_rebuilt_or_replayed": false,
+  "GameRig_body_geometry_material_rest_driver_changes": 0,
+  "new_exporter_runtime_architecture_workers": 0,
+  "GPU_inference_paid_jobs": 0,
+  "GPU_lease": "PRODUCT_EXCLUSIVE preserved; CPU only",
+  "Laptop_product_repo_changes": 0,
+  "consumer_messages_sent": 0,
+  "main_merge": false,
+  "unchanged_native_broker_SHA": "d72254774de3d096ff546dd40373d7e7edb6242d49132c0b917190b8fd8298a8",
+  "next_bounded_experiment": "PM source-subset review; A2 donor-vs-target planted-foot timing correspondence before any horizontal locking. A3 stays look proxy, no authored listen relabel."
+}

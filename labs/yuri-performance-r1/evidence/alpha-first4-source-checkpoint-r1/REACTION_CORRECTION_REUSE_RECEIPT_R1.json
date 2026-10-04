@@ -1,0 +1,25 @@
+{
+  "R4_appearance_correction_checkpoint": "820a237",
+  "historical_checkpoint_preserved": "08caad7",
+  "canonical_source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "earlier_corrective_bundle": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_APPEARANCE_PRESERVE_CORRECTION_R1.zip",
+    "bytes": 62446950,
+    "sha256": "407cda9db7b45053f8fbb3e83467fa4888db456f31ebec376e1701c70d4f2d64",
+    "files": 41,
+    "zip_crc": "PASS",
+    "manifest_file_hashes": "PASS",
+    "source_R4_byte_identical": true,
+    "parent_08caad7_preserved": true
+  },
+  "earlier_six_reaction_native_Blender_PASS": 6,
+  "loop_cycles": [
+    2,
+    2
+  ],
+  "earlier_normal_speed_playback_receipt": "labs\\yuri-performance-r1\\evidence\\r4-appearance-preserve-correction-r1\\playback_review.json",
+  "new_reaction_rebuild_or_replay": false,
+  "UnityAlwaysAnimate_state_weight_normalized_time": "PENDING external sole Unity writer; required regression gate",
+  "new_GameRig_mesh_material_skin_rest_driver_changes": 0,
+  "appearance_promotion": false
+}
