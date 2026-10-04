@@ -1,0 +1,141 @@
+{
+  "movies": [
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\front_NATIVE_TOUR_FULL769_24FPS_1x.mp4",
+      "SHA": "cf65ef7eecef048605fac8795c6b930d6659441fafb007aa687bca61437f9c2d",
+      "bytes": 559934,
+      "view": "front",
+      "frames": 769,
+      "fps": 24,
+      "duration_seconds": 32.041667,
+      "native_time_scale": 1,
+      "whole_frame_decode": "PASS"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\quarter_NATIVE_TOUR_FULL769_24FPS_1x.mp4",
+      "SHA": "e8ecf6fc88b1814622b4854246f7d104b6e1b1dd45d427a641d1d99c66ef1be0",
+      "bytes": 667533,
+      "view": "quarter",
+      "frames": 769,
+      "fps": 24,
+      "duration_seconds": 32.041667,
+      "native_time_scale": 1,
+      "whole_frame_decode": "PASS"
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\side_NATIVE_TOUR_FULL769_24FPS_1x.mp4",
+      "SHA": "eb8fbf1fa7268331d96197f16e7d31290b98972cfedd20e369ac3cac1beef727",
+      "bytes": 546162,
+      "view": "side",
+      "frames": 769,
+      "fps": 24,
+      "duration_seconds": 32.041667,
+      "native_time_scale": 1,
+      "whole_frame_decode": "PASS"
+    }
+  ],
+  "captures": [
+    {
+      "view": "front",
+      "capture_guard_SHA": "841ddeefdf44e222a05769433e2b80ea66cace0809e11800511ef47eee8e0175",
+      "all_native_actual_mesh_frames_exact": true,
+      "camera": {
+        "type": "ORTHO",
+        "scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "location": [
+          0.0020000000949949026,
+          -0.828000009059906,
+          0.5299999713897705
+        ],
+        "rotation_euler": [
+          1.5707964897155762,
+          -0.0,
+          0.0
+        ],
+        "resolution": [
+          256,
+          256
+        ],
+        "view": "front",
+        "fps": 24,
+        "source_frames": [
+          1,
+          769
+        ]
+      }
+    },
+    {
+      "view": "quarter",
+      "capture_guard_SHA": "f3b83110b710565037f74e7872e9fbc31742cc97405fbd5b47f49d2510b0d2dc",
+      "all_native_actual_mesh_frames_exact": true,
+      "camera": {
+        "type": "ORTHO",
+        "scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "location": [
+          0.41359663009643555,
+          -0.7139943242073059,
+          0.5299999713897705
+        ],
+        "rotation_euler": [
+          1.5707963705062866,
+          4.280959586822064e-08,
+          0.5404196381568909
+        ],
+        "resolution": [
+          256,
+          256
+        ],
+        "view": "quarter",
+        "fps": 24,
+        "source_frames": [
+          1,
+          769
+        ]
+      }
+    },
+    {
+      "view": "side",
+      "capture_guard_SHA": "cdda729598edd3b2a3c7563411ca7b03fb1e916b7b1194526468b1a02552b808",
+      "all_native_actual_mesh_frames_exact": true,
+      "camera": {
+        "type": "ORTHO",
+        "scale": 1.18,
+        "target": [
+          0.0020000000949949026,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "location": [
+          0.8019999861717224,
+          -0.02800000086426735,
+          0.5299999713897705
+        ],
+        "rotation_euler": [
+          1.5707963705062866,
+          -0.0,
+          1.5707963705062866
+        ],
+        "resolution": [
+          256,
+          256
+        ],
+        "view": "side",
+        "fps": 24,
+        "source_frames": [
+          1,
+          769
+        ]
+      }
+    }
+  ]
+}

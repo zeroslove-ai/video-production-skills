@@ -700,5 +700,26 @@
       "not_executed_or_promoted": true,
       "source_only_next_scope": "Original-native Action/neck-head-hair transport with original geometry and defaultOFF; inspect exact source tracks, actual foot/root/contact trajectory and whole1x before any Unity use. No new corpus/framework or donor candidate."
     }
+  },
+  "native_tour_source_r1": {
+    "date": "2026-10-05",
+    "status": "FAIL_HOLD_NATIVE_TOUR_SURFACE",
+    "source_action_SHA": "e70ea471c4c0aa20efdb2ae05cbcecc49eff3e1c598e47100a1caa36fcf31202",
+    "candidate_SHA": "378ad46ef4ccfd6e0db475534c777072c9c05cb1a8f4de81cdc4b1a2bca2cfa0",
+    "native_frames": 769,
+    "fps": 24,
+    "root_translation_rotation_range": 0,
+    "BODY_new_peak_pairs": 33,
+    "first_failure_frame": 302,
+    "worst_BODY_frame": 472,
+    "original78_OFF_RGBA_difference": 0,
+    "whole_multiview_native1x_complete": true,
+    "source_packet_created": false,
+    "source4_outputcap_FAIL_retained": true,
+    "verified_support_patch_bytes": 1053929,
+    "review": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\REVIEW_NATIVE_TOUR_SOURCE_R1.html",
+    "report": "evidence/native-tour-source-r1/YURI_R4_NATIVE_TOUR_SOURCE_R1_KO.md",
+    "Unity_F2_StageB": "UNTESTED",
+    "TierP": 0
   }
 }

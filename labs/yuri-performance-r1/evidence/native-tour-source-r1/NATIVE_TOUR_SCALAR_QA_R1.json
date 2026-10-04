@@ -1,0 +1,400 @@
+{
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_Action_SHA": "e70ea471c4c0aa20efdb2ae05cbcecc49eff3e1c598e47100a1caa36fcf31202",
+  "candidate_SHA": "378ad46ef4ccfd6e0db475534c777072c9c05cb1a8f4de81cdc4b1a2bca2cfa0",
+  "candidate_bytes": 27119089,
+  "fps": 24,
+  "frames": [
+    1,
+    769
+  ],
+  "endpoint_span_seconds": 32,
+  "container_seconds": 32.041666666666664,
+  "source_body_curves": 364,
+  "all_original_keys_handles_modifiers_exact_fresh_candidate": true,
+  "all769_full_head_hair_root_goal_matrix_max_error": {
+    "Armature": 8.940696716308594e-08,
+    "Hair_Rig_R4": 2.980232238769531e-07
+  },
+  "root_turn_look": {
+    "root": {
+      "position_range_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_position_step_m": 0.0,
+      "heading_yaw_range_degrees": 0.0,
+      "net_heading_yaw_degrees": 0.0
+    },
+    "pelvis": {
+      "position_range_xyz_m": [
+        0.0,
+        0.0,
+        0.021934986114501953
+      ],
+      "max_position_step_m": 0.0016564428806304932,
+      "heading_yaw_range_degrees": 0.0,
+      "net_heading_yaw_degrees": 0.0
+    },
+    "head": {
+      "position_range_xyz_m": [
+        7.468729745596647e-05,
+        0.01305592991411686,
+        0.021982789039611816
+      ],
+      "max_position_step_m": 0.0016564130783081055,
+      "heading_yaw_range_degrees": 35.99998741409942,
+      "net_heading_yaw_degrees": 0.0
+    }
+  },
+  "whole_sole_oracle_replay_all769": true,
+  "support_patch_only_SHA": "e65638226244f92bb6797df6cf7d965bfbe293df0ecea692a3299f221b04f661",
+  "support_patch_only_bytes": 1053929,
+  "large_original_feet_npz_truncated_preserved_not_trusted": true,
+  "all769_saved_actual_contact_ledger_complete": true,
+  "all_surface_peak_new": {
+    "Meshy_Body_NeutralCovered__self_nonadjacent": 33,
+    "Character_Body_Head__self_nonadjacent": 96,
+    "Hair_Replacement_R4__self_nonadjacent": 42,
+    "Meshy_Body_NeutralCovered__Character_Body_Head": 5,
+    "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+    "Character_Body_Head__Hair_Replacement_R4": 0
+  },
+  "first_BODY_new_frame": 302,
+  "worst_BODY_new_frame": 472,
+  "first_worst_BODY_localization": {
+    "302": {
+      "pairs": 7,
+      "dominant_original_bone_weights": [
+        [
+          "forearm.L / upper_arm.L",
+          7
+        ]
+      ],
+      "mask_groups_not_treated_as_bones": true
+    },
+    "472": {
+      "pairs": 33,
+      "dominant_original_bone_weights": [
+        [
+          "forearm.R / hand.R",
+          13
+        ],
+        [
+          "forearm.L / hand.L",
+          11
+        ],
+        [
+          "forearm.R / forearm.R",
+          6
+        ],
+        [
+          "forearm.L / forearm.L",
+          3
+        ]
+      ],
+      "mask_groups_not_treated_as_bones": true
+    }
+  },
+  "all_source78_OFF_and_serialized_candidate_equal": true,
+  "original_data_guard_resource_FAIL_retained": true,
+  "guard_failure_SHA": "ab3a71b17f9f9f0bd6b197460d17ad7ecc05f5ce3d25d279aedcc9c72ae8f6d8",
+  "full_motion_authoring_or_full769_contact_rerun": false,
+  "all769_transform_replay_only": true,
+  "scoped_gate_pass": false,
+  "TierP": 0,
+  "support": {
+    "L": {
+      "intervals": [
+        {
+          "frames": [
+            1,
+            170
+          ],
+          "label": "planted_proximity_candidate"
+        },
+        {
+          "frames": [
+            171,
+            180
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            181,
+            181
+          ],
+          "label": "planted_proximity_candidate"
+        },
+        {
+          "frames": [
+            182,
+            211
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            212,
+            227
+          ],
+          "label": "airborne_kinematic"
+        },
+        {
+          "frames": [
+            228,
+            259
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            260,
+            275
+          ],
+          "label": "airborne_kinematic"
+        },
+        {
+          "frames": [
+            276,
+            277
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            278,
+            278
+          ],
+          "label": "planted_proximity_candidate"
+        },
+        {
+          "frames": [
+            279,
+            288
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            289,
+            769
+          ],
+          "label": "planted_proximity_candidate"
+        }
+      ],
+      "max_persistent_XY_step_m": 0.00798323891958527,
+      "minimum_gap_m": 0.00011715811108106564,
+      "original_patch_anchor_max_XY_excursion_m": 0.06945904988664385,
+      "labels_are_kinematic_proximity_not_force_support": true
+    },
+    "R": {
+      "intervals": [
+        {
+          "frames": [
+            1,
+            170
+          ],
+          "label": "planted_proximity_candidate"
+        },
+        {
+          "frames": [
+            171,
+            180
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            181,
+            181
+          ],
+          "label": "planted_proximity_candidate"
+        },
+        {
+          "frames": [
+            182,
+            187
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            188,
+            203
+          ],
+          "label": "airborne_kinematic"
+        },
+        {
+          "frames": [
+            204,
+            235
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            236,
+            251
+          ],
+          "label": "airborne_kinematic"
+        },
+        {
+          "frames": [
+            252,
+            277
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            278,
+            278
+          ],
+          "label": "planted_proximity_candidate"
+        },
+        {
+          "frames": [
+            279,
+            288
+          ],
+          "label": "moving_near_floor"
+        },
+        {
+          "frames": [
+            289,
+            769
+          ],
+          "label": "planted_proximity_candidate"
+        }
+      ],
+      "max_persistent_XY_step_m": 0.005496415135481262,
+      "minimum_gap_m": 0.0,
+      "original_patch_anchor_max_XY_excursion_m": 0.069483849025991,
+      "labels_are_kinematic_proximity_not_force_support": true
+    }
+  },
+  "verdict": "FAIL_HOLD_NATIVE_TOUR_SURFACE",
+  "source_packet": "NOT_CREATED_SCOPED_GATE_FAIL",
+  "runtime_Unity_F2_StageB": "UNTESTED",
+  "usable_scope": "exact native in-place showcase research/reference only; no root walk/turn",
+  "next_minimum_correction": "ONE Action-only elbow flexion trajectory adjustment at first failing frame302 and neighboring transition; compare exact new pair IDs and native timing; preserve immutable skin/rest and keep wrist472 as independent HOLD. Not executed.",
+  "guard_custody": [
+    {
+      "name": "source-r1",
+      "status": "FAIL",
+      "SHA": "3324ce490f89660e774447ec2ced4113dcb80dd33cf34325abdb90ac9f708002",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-source-r1\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "intake-r1",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "SHA": "dfe496be4b60438c1d64937090f1e11bd853055659dc59294d9da98b23dbc4d7",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-intake-r1\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "source-r2",
+      "status": "FAIL",
+      "SHA": "5558788da3ec0489e2ab838786b28428f290e131b06a06bf97d652d7eaff8875",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-source-r2\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "source-r3",
+      "status": "FAIL",
+      "SHA": "0c84fac87bdc30c6afc74b6eb67a8489dde9577bb65e5c74c41900c0fa52a63e",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-source-r3\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "source-r4",
+      "status": "FAIL",
+      "SHA": "ab3a71b17f9f9f0bd6b197460d17ad7ecc05f5ce3d25d279aedcc9c72ae8f6d8",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-source-r4\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "recovery-r1",
+      "status": "FAIL",
+      "SHA": "3e06711069171e33d6ca869345b0612be9e48d1f0b4c08b5221dc541b6850393",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-recovery-r1\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "recovery-r2",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "SHA": "5583d6b5be7998cf63413b25ab96f1d41251d9bd8f23331eeb7bacb39d615d25",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-recovery-r2\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "capture-front-r1",
+      "status": "FAIL",
+      "SHA": "fca647c7dafaaf0be46267157dd1ed057c14932a45b1a77920a7ed3b5bbfb57c",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-capture-front-r1\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "capture-front-r2",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "SHA": "841ddeefdf44e222a05769433e2b80ea66cace0809e11800511ef47eee8e0175",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-capture-front-r2\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "capture-quarter-r2",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "SHA": "f3b83110b710565037f74e7872e9fbc31742cc97405fbd5b47f49d2510b0d2dc",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-capture-quarter-r2\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "capture-side-r2",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "SHA": "cdda729598edd3b2a3c7563411ca7b03fb1e916b7b1194526468b1a02552b808",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-capture-side-r2\\NATIVE_GUARD_RESULT.json"
+    },
+    {
+      "name": "close-defects-r1",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "SHA": "1165301ec9a3ab475de4745910ee92e7c5d1bd191bc8b64d5b33ac23abd56f57",
+      "private_path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-native-tour-close-defects-r1\\NATIVE_GUARD_RESULT.json"
+    }
+  ],
+  "private_evidence": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-recovery-r2\\NATIVE_TOUR_RECOVERY_PRIVATE_R2.json",
+      "SHA": "1874793e516bed1c7e01fbb20c14e3134686406523ebfd8a1499614a01bd1ac8",
+      "bytes": 2554971
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-source-r4\\NATIVE_TOUR_SURFACE_IDENTITIES_PRIVATE_R1.json.gz",
+      "SHA": "3e91ef722551560312f041eb12f40c6d4dcc903b4eb4fec7b6e5dc739fcef5cd",
+      "bytes": 89676
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-foot-oracle-verified-r2\\LOSSLESS_ORACLE_READBACK_RECEIPT_R2.json",
+      "SHA": "4209b7c9666d79e91095bf4010b874b36acb70c1300e0305aa9fe507387a543e",
+      "bytes": 834
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-foot-oracle-verified-r2\\NATIVE_TOUR_SUPPORT_PATCH_VERIFIED_ATOMIC_R2.npz",
+      "SHA": "e65638226244f92bb6797df6cf7d965bfbe293df0ecea692a3299f221b04f661",
+      "bytes": 1053929
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\VIDEO_CUSTODY_R1.json",
+      "SHA": "a32a2dd9dcb468b342b194257414f813940bfe6fe8d81c139abae0cdad4db560",
+      "bytes": 13022
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\OFF_PIXEL_QA_R1.json",
+      "SHA": "74ba7aca9daf09f4c7997ca35e780332b5d32f0dbab4af4a767d8fc08697db76",
+      "bytes": 164
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\WHOLE_NORMAL1X_UI_R1.json",
+      "SHA": "dda2671bb414c7e2e3d2a8d4b97e5ca31d2faf1d290f1ae5bba90dd5b758c5c6",
+      "bytes": 779
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-close-defects-r1\\MATCHED_DEFECT_CAPTURE_PRIVATE_R1.json",
+      "SHA": "31bb94675c17c2a49f1714be9b5934f652a156225b6c0d641249e3dcc0f5e95d",
+      "bytes": 8873
+    }
+  ]
+}

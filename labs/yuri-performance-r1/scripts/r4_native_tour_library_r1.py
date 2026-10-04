@@ -1,0 +1,9 @@
+"""Existing pure-Action library-write in separate64MiB-owned job; no new exporter."""
+import bpy,sys,json,hashlib
+from pathlib import Path
+H=Path(__file__).resolve().parent;sys.path.insert(0,str(H))
+from r4_appearance_signature import snapshot
+from r4_native_tour_adapter_r1 import ACTIONS
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');P=B/'alpha-native-tour-source-r4';O=B/'alpha-native-tour-library-r1';O.mkdir(exist_ok=False);m=json.loads((P/'NATIVE_TOUR_SOURCE_PRIVATE_R1.json').read_bytes());sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();assert sha(m['candidate'])==m['candidate_SHA'];bpy.ops.wm.open_mainfile(filepath=m['candidate'],use_scripts=False);names=list(m['original78_signature_private']['actions']);before=snapshot(names);assert before==m['original78_signature_private'];out=O/'YURI_R4_NATIVE_TOUR_ACTIONS_ONLY_R1.blend';bpy.data.libraries.write(str(out),{bpy.data.actions[a] for a in ACTIONS.values()},fake_user=True)
+with bpy.data.libraries.load(str(out),link=False) as (src,dst):assert sorted(src.actions)==sorted(ACTIONS.values()) and not src.objects and not src.meshes and not src.armatures
+assert snapshot(names)==before and sha(m['candidate'])==m['candidate_SHA'];(O/'NATIVE_TOUR_LIBRARY_RECEIPT_R1.json').write_text(json.dumps({'same_candidate_SHA':m['candidate_SHA'],'library':str(out),'library_SHA':sha(out),'library_bytes':out.stat().st_size,'actions':ACTIONS,'action_count':3,'objects':0,'meshes':0,'armatures':0,'source78_OFF_equal':True,'source_fps':24,'source_frames':[1,769],'pure_original_curve_body_plus_existing_native_head_hair_root_transport':True,'scoped_supply_pass':m['scoped_motion_contact_pass'],'distribution_gate':'Only after source contact/attachment + full1x + source OFFRGBA pass; otherwise hold library locally, no source packet.'},indent=2),encoding='utf8');print('TOUR_EXISTING_ACTION_LIBRARY_ONLY_PURE',sha(out),flush=True)

@@ -1,0 +1,27 @@
+{
+  "verdict": "FAIL_HOLD_NATIVE_TOUR_SURFACE",
+  "whole_UI_playback": "three videos native24fps769frames endedtrue rate1 errornull",
+  "visual_elbow302": "inner crease visible front/quarter; exact7 internal pair penetration not visually separated; side occluded",
+  "visual_wrists472": "strong flexion and compressed silhouette visible; internal pair penetration depth not resolved; some palm occlusion",
+  "product_visibility": "UNTESTED Blender evidence only",
+  "no_scalar_to_visual_PASS": true,
+  "source_asset_packet_created": false,
+  "evidence_images": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\WHOLE_NORMAL1X_UI_VIEWPORT_R2.png",
+      "SHA": "b3456cdbedec3e41b1f89ff69f168c96c79712b33b582558a70f01dcf595b3ac"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\MATCHED_LEFT_ELBOW_f302_R1.jpg",
+      "SHA": "7583f70b62d2bce62b78a6237c483abe129fbdff7f8ef0c3ee9dade8f0a98670"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\MATCHED_LEFT_WRIST_f472_R1.jpg",
+      "SHA": "0c6e1a2f614b1e796f27119f140aae314726215257a8b3a685de73ac84916906"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-tour-delivery-r1\\MATCHED_RIGHT_WRIST_f472_R1.jpg",
+      "SHA": "e14187b7ef1d99335f50e90ab21317704adb687f07e35ef2d9dbcf2599bb457e"
+    }
+  ]
+}

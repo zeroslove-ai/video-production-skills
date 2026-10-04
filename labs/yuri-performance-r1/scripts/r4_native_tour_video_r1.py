@@ -1,0 +1,24 @@
+"""All32sec three views, original24fps, whole decode and source neutral pixels."""
+from pathlib import Path
+import json,hashlib,subprocess
+import numpy as np
+from PIL import Image,ImageDraw
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');P=B/'alpha-native-tour-recovery-r2';O=B/'alpha-native-tour-delivery-r1';O.mkdir(exist_ok=False);m=json.loads((P/'NATIVE_TOUR_RECOVERY_PRIVATE_R2.json').read_bytes());sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();movies=[];capture=[];F=m['frames'][1]-m['frames'][0]+1
+for view in ['front','quarter','side']:
+ R=B/('alpha-native-tour-capture-'+view+'-r2');g=json.loads((B/('o1-native-tour-capture-'+view+'-r2')/'NATIVE_GUARD_RESULT.json').read_bytes());assert g['guard_status']=='PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN';c=json.loads((R/'NATIVE_TOUR_CAPTURE_PRIVATE_R1.json').read_bytes());assert c['same_candidate_SHA']==m['candidate_SHA'] and len(c['frames_private'])==F and len(list(R.glob('*.jpg')))==F
+ for row in c['frames_private']:assert sha(R/f'{row["encoded_ordinal"]:04}.jpg')==row['file_SHA']
+ out=O/(view+'_NATIVE_TOUR_FULL769_24FPS_1x.mp4');subprocess.run(['ffmpeg','-v','error','-framerate','24','-i',str(R/'%04d.jpg'),'-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-threads','2','-filter_threads','2','-n',str(out)],check=True);subprocess.run(['ffmpeg','-v','error','-threads','2','-i',str(out),'-f','null','-'],check=True);probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-count_frames','-show_streams','-show_format','-of','json',str(out)]));st=probe['streams'][0];assert int(st['nb_read_frames'])==F and st['avg_frame_rate']=='24/1';movies.append({'file':str(out),'SHA':sha(out),'bytes':out.stat().st_size,'view':view,'frames':F,'fps':24,'duration_seconds':float(st['duration']),'native_time_scale':1,'whole_frame_decode':'PASS','probe':probe});capture.append({'view':view,'capture_guard_SHA':sha(B/('o1-native-tour-capture-'+view+'-r2')/'NATIVE_GUARD_RESULT.json'),'all_native_actual_mesh_frames_exact':True,'camera':c['camera']})
+ # Eight32frame-spaced witness images per4second segment; actual whole movies remain primary temporal QA.
+ for start in range(1,F+1,96):
+  frames=list(range(start,min(F+1,start+96),12));grid=Image.new('RGB',(256*len(frames),280),'white');dr=ImageDraw.Draw(grid)
+  for i,f in enumerate(frames):grid.paste(Image.open(R/f'{f:04}.jpg'),(i*256,24));dr.text((i*256+4,4),f'{view} f{f} {(f-1)/24:.3f}s',fill='black')
+  grid.save(O/f'TOUR_{view}_segment{(start-1)//96+1:02}_R1.jpg',quality=94)
+ baseline=np.array(Image.open(B/'alpha-a1-contact-qa-r3/CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png').convert('RGBA'));off=np.array(Image.open(R/'OFF_SOURCE_CAMERA_NEUTRAL.png').convert('RGBA'));assert baseline.shape==off.shape and np.array_equal(baseline,off)
+frames=[1,97,193,289,385,481,577,673,769];grid=Image.new('RGB',(256*len(frames),280*3),'white');dr=ImageDraw.Draw(grid)
+for row,view in enumerate(['front','quarter','side']):
+ R=B/('alpha-native-tour-capture-'+view+'-r2')
+ for col,f in enumerate(frames):grid.paste(Image.open(R/f'{f:04}.jpg'),(col*256,row*280+24));dr.text((col*256+4,row*280+4),f'{view} f{f} {(f-1)/24:.3f}s',fill='black')
+grid.save(O/'TOUR_MATCHED_FULL_CLOCK_THREE_VIEW_R1.jpg',quality=94);(O/'OFF_PIXEL_QA_R1.json').write_text(json.dumps({'each_view_unequal_pixels':0,'max_RGBA_delta':0,'dimensions':list(baseline.shape),'three_native_jobs_restore_source78_OFF':True},indent=2),encoding='utf8');(O/'VIDEO_CUSTODY_R1.json').write_text(json.dumps({'movies':movies,'captures':capture},indent=2),encoding='utf8')
+html='<!doctype html><meta charset="utf-8"><title>Original R4 native Tour32sec source QA</title><style>body{background:#222;color:#eee;font:16px system-ui}section{display:flex;gap:8px}video{width:32%}button{padding:12px;font-size:20px}</style><h1>R4 · exact original native Tour · SOURCE ONLY</h1><p>24fps original frames1–769,32sec endpoint span/32.041667sec container. Source Action e70ea471, source R4a30fc513. Original78/geometry/skin/material/keys/drivers preserved, candidate OFF. Three exact original world-space views; body/head/hair measured pose matches. Contact/attachment/foot failures stay HOLD; no physics/Unity/TierP/F2/StageB acceptance.</p><button onclick="document.querySelectorAll(\'video\').forEach(v=>{v.currentTime=0;v.playbackRate=1;v.play()})">Play whole original Tour at native 1x</button><section>'
+for x in movies:html+=f'<video controls preload="auto" src="{Path(x["file"]).name}"></video>'
+html+='</section><p>Fixed front/quarter/side256x256CPU2sample/JPEG92. Motion review only; fine skin/facial fidelity needs higher-resolution QA. No donor body, retiming, floorfit or seated adapter.</p>';(O/'REVIEW_NATIVE_TOUR_SOURCE_R1.html').write_text(html,encoding='utf8');print('TOUR_NATIVE_FULL769_THREE_MOVIES_DECODE_AND_OFF_PASS')
