@@ -1,0 +1,13 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_C3_STRETCH_SOURCE_ONLY_R2_20261004.zip",
+  "bytes": 61892357,
+  "sha256": "011e2e31400d60e5808670df015f17b014aa9697937c5e7c1835900d9d5665b8",
+  "members": 153,
+  "indexed_members": 152,
+  "CRC_SHA_size_all_members": "PASS",
+  "candidate_SHA256": "c2ec7f0032452023362d68a64cbe81ff692d33a444c320985729d452478b5827",
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "TierP": 0,
+  "source_only": true,
+  "status": "SOURCE_ONLY_MIXED_HOLD_CONTACT"
+}

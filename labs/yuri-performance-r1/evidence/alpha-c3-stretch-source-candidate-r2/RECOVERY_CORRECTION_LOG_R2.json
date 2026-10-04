@@ -1,0 +1,90 @@
+{
+  "R1_control": {
+    "task": "ROOT_PM_EXISTING_C3_STRETCH_SOURCE_FALLBACK_R1",
+    "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-candidate-r1\\Character_R4_C3_Stretch_Reach_BODY_CANDIDATE_OFF_R1_20261004.blend",
+    "candidate_SHA": "0e987781e7dc93aed2fbfccd2131d2bd14c03134bac5c779081f5c534ec0af9c",
+    "candidate_bytes": 26922802,
+    "inspection_SHA": "5d6cf4f39a36ff06601718ed8e6829d339742cb7c33076592d32fa46f9ab8d33",
+    "source_fps": 30,
+    "source_scene_fps": 24,
+    "frames": [
+      1,
+      215
+    ],
+    "key_interval_sec": 7.133333333333334,
+    "movie_duration_sec": 7.166666666666667,
+    "original_actions_preserved": 78,
+    "additive_body_actions": {
+      "Meshy_Fitted_Rig": "YURI_R4_C3_STRETCH_BODY_R1",
+      "Armature": "YURI_R4_C3_STRETCH_BODY_HEAD_TRANSPORT_R1",
+      "Hair_Rig_R4": "YURI_R4_C3_STRETCH_BODY_HAIR_TRANSPORT_R1",
+      "Assembly_Root": "YURI_R4_C3_STRETCH_ROOT_PATH_R1"
+    },
+    "mapped_body_bones": 21,
+    "no_expressive_face_gaze_secondary_hair_channels_written": true,
+    "rigid_head_hair_root_transport_required": "Existing original Armature.Root and Hair_HeadRoot rigid transport; no hierarchy/rest/weight/material/driver changes.",
+    "OFF_signature_exact_before_save": true,
+    "root_world_range_m": [
+      0.008218334056437016,
+      0.031493108719587326,
+      0.0
+    ],
+    "root_end_displacement_m": 0.019581470750303646,
+    "root_path_length_m": 0.08952250889565094,
+    "max_joint_frame_step_m": 0.01804387025451296,
+    "floor_support_Z_correction_range_m": [
+      -0.004034735834975479,
+      0.005798326118628971
+    ],
+    "segments": {
+      "C3_Stretch_reach_return": [
+        1,
+        215
+      ]
+    },
+    "source_normalization": "StayStill/LAFAN staged world axes retained, no mirror; native limb lengths/rest-aware21-bone mapping; hip height ratio",
+    "hip_height_ratio": 0.5573527353265776,
+    "donor": {
+      "file": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\UnityQA\\Assets\\Motions\\BVH\\9585998126bc797d.fbx",
+      "sha256": "9e8fa8bfb80d96e6b8f336f47068c4ead656526c8c39c3544d9a74eca7d34ab8",
+      "bytes": 463548,
+      "source_fps": 30
+    },
+    "license": "MIT StayStill existing staged BVH-to-FBX input",
+    "selected_donor_action": "st_arm_1_33|Scene",
+    "motion_id": "c7cb1c20db655031333f",
+    "plan_step": "C3",
+    "use": "Existing restrained chest-forward arm stretch then recovery. No new procedural motion/hold or prop/contact fixture.",
+    "root_policy": "Imported Hips XY displacement retained/scaled; pelvis residual and sole-support Z corrected only. No horizontal foot/root locking.",
+    "all215_evaluated_body_vertices_finite": true,
+    "TierP": 0,
+    "loop_authored": false,
+    "prop_grip_contact_hold_certified": false,
+    "visual_gate": "PENDING full1x source preview, no Unity/final visual claim"
+  },
+  "causal_defect": "Selected actual staged clip stops with both hands extended; no donor-authored recovery. End-start hand position differences334.618/354.360mm. It is not a loop/complete stretch-return.",
+  "one_bounded_correction": "Same source215frames retained,48quintic Action-only samples appended toward original R4 neutral; no source/skeleton/skin/rest/material edits",
+  "R2_endpoint_body_world_max_abs_difference_m": 0.0,
+  "sole_cohort_recovery_QA": {
+    "L": {
+      "recovery_fixed_original_sole_cohort_centroid_XY_shift_m": 0.0315385946222085,
+      "recovery_minimum_cohort_vertex_clearance_range_m": [
+        -5.479430522135118e-08,
+        0.00014178911750558173
+      ],
+      "scope": "Fixed original-neutral sole vertex cohort; minimum clearance/centroid is kinematic diagnostic, not authored physical contact certificate"
+    },
+    "R": {
+      "recovery_fixed_original_sole_cohort_centroid_XY_shift_m": 0.059079346903646045,
+      "recovery_minimum_cohort_vertex_clearance_range_m": [
+        -4.856653376394991e-08,
+        0.0012302326618876087
+      ],
+      "scope": "Fixed original-neutral sole vertex cohort; minimum clearance/centroid is kinematic diagnostic, not authored physical contact certificate"
+    }
+  },
+  "closure": "Full source QA completed, current recovery contact-safe neutral return NOT proved. Preserve R1/R2; close contact HOLD without repeating failed knee-X/stronger IK or adding a solver. A separate authored reposition contact plan would be needed for promotion.",
+  "new_limit": "Returning leg pose and carrier to canonical rest changes grounded stance; feet/contact HOLD. No IK/stop-knee experiments resumed, no further variants generated."
+}

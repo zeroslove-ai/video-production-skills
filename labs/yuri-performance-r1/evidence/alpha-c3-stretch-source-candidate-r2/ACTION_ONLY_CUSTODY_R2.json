@@ -1,0 +1,14 @@
+{
+  "file": "YURI_R4_C3_STRETCH_ACTIONS_ONLY_R2.blend",
+  "bytes": 2146179,
+  "sha256": "a9cee64cca4de8aaa70187c948dbfadad83c6036efccad5f4785c8f74ced2f5c",
+  "actions": [
+    "YURI_R4_C3_STRETCH_BODY_R2",
+    "YURI_R4_C3_STRETCH_BODY_HEAD_TRANSPORT_R2",
+    "YURI_R4_C3_STRETCH_BODY_HAIR_TRANSPORT_R2",
+    "YURI_R4_C3_STRETCH_ROOT_PATH_R2"
+  ],
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0
+}

@@ -1,0 +1,273 @@
+{
+  "task": "ROOT_PM_EXISTING_STRETCH_SOURCE_CANDIDATE_R1",
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-candidate-r2\\Character_R4_C3_Stretch_Reach_BODY_CANDIDATE_OFF_R2_20261004.blend",
+  "candidate_SHA": "c2ec7f0032452023362d68a64cbe81ff692d33a444c320985729d452478b5827",
+  "candidate_bytes": 27002606,
+  "inspection_SHA": "5d6cf4f39a36ff06601718ed8e6829d339742cb7c33076592d32fa46f9ab8d33",
+  "source_fps": 30,
+  "source_scene_fps": 24,
+  "frames": [
+    1,
+    263
+  ],
+  "key_interval_sec": 8.733333333333333,
+  "movie_duration_sec": 8.766666666666667,
+  "original_actions_preserved": 78,
+  "additive_body_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_C3_STRETCH_BODY_R2",
+    "Armature": "YURI_R4_C3_STRETCH_BODY_HEAD_TRANSPORT_R2",
+    "Hair_Rig_R4": "YURI_R4_C3_STRETCH_BODY_HAIR_TRANSPORT_R2",
+    "Assembly_Root": "YURI_R4_C3_STRETCH_ROOT_PATH_R2"
+  },
+  "mapped_body_bones": 21,
+  "no_expressive_face_gaze_secondary_hair_channels_written": true,
+  "rigid_head_hair_root_transport_required": "Existing original Armature.Root and Hair_HeadRoot rigid transport; no hierarchy/rest/weight/material/driver changes.",
+  "OFF_signature_exact_before_save": true,
+  "root_world_range_m": [
+    0.008218334056437016,
+    0.031493108719587326,
+    0.0
+  ],
+  "root_end_displacement_m": 0.0,
+  "root_path_length_m": 0.10910397964595966,
+  "max_joint_frame_step_m": 0.01920748940142618,
+  "floor_support_Z_correction_range_m": [
+    -0.004034735834975479,
+    0.005798326118628971
+  ],
+  "segments": {
+    "C3_original_stretch": [
+      1,
+      215
+    ],
+    "PROCEDURAL_neutral_recovery_48": [
+      216,
+      263
+    ]
+  },
+  "source_normalization": "StayStill/LAFAN staged world axes retained, no mirror; native limb lengths/rest-aware21-bone mapping; hip height ratio",
+  "hip_height_ratio": 0.5573527353265776,
+  "donor": {
+    "file": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\UnityQA\\Assets\\Motions\\BVH\\9585998126bc797d.fbx",
+    "sha256": "9e8fa8bfb80d96e6b8f336f47068c4ead656526c8c39c3544d9a74eca7d34ab8",
+    "bytes": 463548,
+    "source_fps": 30
+  },
+  "license": "MIT StayStill existing staged BVH-to-FBX input",
+  "selected_donor_action": "st_arm_1_33|Scene",
+  "motion_id": "c7cb1c20db655031333f",
+  "plan_step": "C3",
+  "use": "Existing 215-frame restrained chest-forward stretch ends extended; appended48-frame quintic Action-only neutral recovery. No prop/contact fixture or new motion family.",
+  "root_policy": "Imported Hips XY displacement retained/scaled; pelvis residual and sole-support Z corrected only. No horizontal foot/root locking.",
+  "all263_evaluated_body_vertices_finite": true,
+  "procedural_recovery_frames": 48,
+  "original_donor_frames_retained": 215,
+  "recovery_end_body_world_max_abs_delta_from_original_OFF_m": 0.0,
+  "TierP": 0,
+  "loop_authored": false,
+  "prop_grip_contact_hold_certified": false,
+  "visual_gate": "PENDING full1x source preview, no Unity/final visual claim",
+  "legacy_collector_labels_disclosed": "Raw receipt task/segment/Reach filename retain copied C1 labels; selected source is st_arm_1_33|Scene/C3 only, not a new reach or second motion",
+  "original_BVH_fps": 30.0003,
+  "original_BVH_frames": [
+    0,
+    214
+  ],
+  "original_BVH_SHA256": "9585998126bc797d362423da4587193382926808f9169eda49857362dbc05d13",
+  "staged_FBXSHA256": "9e8fa8bfb80d96e6b8f336f47068c4ead656526c8c39c3544d9a74eca7d34ab8",
+  "OFF_reopen": {
+    "candidate_SHA": "c2ec7f0032452023362d68a64cbe81ff692d33a444c320985729d452478b5827",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "original_actions": 78,
+    "raw_snapshot_diff": {
+      "textures": [
+        "Skin_Clean_R3_BaseColor_2K",
+        "bald_anime_head_3d_model_basecolor.002",
+        "stylized_hair_3d_model_Clone1_metallic",
+        "stylized_hair_3d_model_Clone1_roughness",
+        "tripo_image_8d1987b0_0",
+        "tripo_image_8d1987b0_3"
+      ]
+    },
+    "all_nontexture_geometry_material_nodes_weights_keys_rest_drivers_bindings_scene_exact": true,
+    "packed_texture_bytes_colorspace_resolved_properties_exact": true,
+    "raw_locator_strings_remapped": true,
+    "source_scene_fps": 24,
+    "all_four_additive_Action_fps": 30,
+    "neutral_render": "Original camera/lights/material/color settings; deterministic CPU8samples, compare against existing authoritative witness separately",
+    "save_export_source_write": false
+  },
+  "OFF_neutral_RGBA": {
+    "all_channels_exact": true,
+    "unequal_channels": 0,
+    "max_abs_channel_difference": 0,
+    "baseline_reused_no_rerender": true
+  },
+  "native_motion_QA": {
+    "root": {
+      "full_range_m": [
+        0.008218334056437016,
+        0.031493108719587326,
+        0.0
+      ],
+      "start_end_distance_m": 0.0,
+      "donor215_to_recovery216_step_m": 1.7152287326260712e-06,
+      "recovery215_to263_displacement_m": 0.019581470750303646,
+      "recovery_path_length_m": 0.019581470750308697
+    },
+    "pelvis": {
+      "full_range_m": [
+        0.008218334056437016,
+        0.031493108719587326,
+        0.0031037330627441406
+      ],
+      "start_end_distance_m": 0.00106889009475708,
+      "donor215_to_recovery216_step_m": 1.7162640586182649e-06,
+      "recovery215_to263_displacement_m": 0.01958241247841204,
+      "recovery_path_length_m": 0.020294666905155336
+    },
+    "head": {
+      "full_range_m": [
+        0.012895168736577034,
+        0.07931400462985039,
+        0.016798436641693115
+      ],
+      "start_end_distance_m": 0.0010688900952407104,
+      "donor215_to_recovery216_step_m": 4.5250610136694167e-07,
+      "recovery215_to263_displacement_m": 0.0049926245128285385,
+      "recovery_path_length_m": 0.006401599163233716
+    },
+    "hand.L": {
+      "full_range_m": [
+        0.21936115948483348,
+        0.2509967125952244,
+        0.2900581955909729
+      ],
+      "start_end_distance_m": 0.12460128465680821,
+      "donor215_to_recovery216_step_m": 4.307986281179099e-05,
+      "recovery215_to263_displacement_m": 0.39448977386573936,
+      "recovery_path_length_m": 0.49059660969099295
+    },
+    "hand.R": {
+      "full_range_m": [
+        0.21296885795891285,
+        0.2518407739698887,
+        0.27627575397491455
+      ],
+      "start_end_distance_m": 0.0771894611764234,
+      "donor215_to_recovery216_step_m": 4.29147416230719e-05,
+      "recovery215_to263_displacement_m": 0.3896919420629721,
+      "recovery_path_length_m": 0.48605769442376723
+    },
+    "foot.L": {
+      "full_range_m": [
+        0.008943058550357819,
+        0.053115107119083405,
+        0.0031514614820480347
+      ],
+      "start_end_distance_m": 0.05325788308228591,
+      "donor215_to_recovery216_step_m": 4.162410151483617e-06,
+      "recovery215_to263_displacement_m": 0.04733831774438096,
+      "recovery_path_length_m": 0.0477092886278067
+    },
+    "foot.R": {
+      "full_range_m": [
+        0.010746899992227554,
+        0.0588470958173275,
+        0.00414971262216568
+      ],
+      "start_end_distance_m": 0.05568289810628646,
+      "donor215_to_recovery216_step_m": 5.1865313208146936e-06,
+      "recovery215_to263_displacement_m": 0.05932661983061564,
+      "recovery_path_length_m": 0.05963170804148733
+    }
+  },
+  "sole_cohort_recovery_QA": {
+    "L": {
+      "recovery_fixed_original_sole_cohort_centroid_XY_shift_m": 0.0315385946222085,
+      "recovery_minimum_cohort_vertex_clearance_range_m": [
+        -5.479430522135118e-08,
+        0.00014178911750558173
+      ],
+      "scope": "Fixed original-neutral sole vertex cohort; minimum clearance/centroid is kinematic diagnostic, not authored physical contact certificate"
+    },
+    "R": {
+      "recovery_fixed_original_sole_cohort_centroid_XY_shift_m": 0.059079346903646045,
+      "recovery_minimum_cohort_vertex_clearance_range_m": [
+        -4.856653376394991e-08,
+        0.0012302326618876087
+      ],
+      "scope": "Fixed original-neutral sole vertex cohort; minimum clearance/centroid is kinematic diagnostic, not authored physical contact certificate"
+    }
+  },
+  "normal_speed_UI": {
+    "start": [
+      {
+        "currentTime": 0.188481,
+        "duration": 8.766667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.188428,
+        "duration": 8.766667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 0.188325,
+        "duration": 8.766667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 8.766667,
+        "duration": 8.766667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 8.766667,
+        "duration": 8.766667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      },
+      {
+        "currentTime": 8.766667,
+        "duration": 8.766667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1
+      }
+    ],
+    "url": "http://127.0.0.1:18888/REVIEW_C3_STRETCH_RETURN_R1.html",
+    "source_status": "SOURCE_ONLY_MIXED_HOLD_CONTACT"
+  },
+  "candidate_status": "SOURCE_ONLY_MIXED_HOLD_CONTACT",
+  "visual_verdict": "Stretch and upper-body recovery readable; no gross shoulder/elbow/wrist/neck break observed in three normal-speed previews. Detailed skin/neck/finger acceptance not certified. Grounded foot slide/twist observed on recovery; fixed sole-cohort centroid XY shifts31.539/59.079mm with minimum clearance at most0.142/1.230mm. Contact quality HOLD; no contact-aware alternative attempted, candidate closed as source HOLD.",
+  "remaining_defects": [
+    "Original staged215-frame source ends in extended pose and has no donor-authored recovery; R1 kept as incomplete control",
+    "R2 recovery is48-frame quintic local quaternion/pelvis/carrier interpolation to canonical source neutral, not captured donor motion; boundary angular velocity not explicitly matched",
+    "Recovery ankle displacement47.338/59.327mm, root/carrier returns~19.581mm; no step/lift/contact plan, foot sliding/contact HOLD",
+    "Fingers remain original, no finger-curl/grip/hand-touch acceptance",
+    "Exact skin self-intersection and neck seam/final skin quality HOLD; low-sample512x384 previews only"
+  ],
+  "source_original_78Actions_preserved": true,
+  "all_prior_motion_controls_preserved": true,
+  "StageB_F2_final_promotion": false
+}

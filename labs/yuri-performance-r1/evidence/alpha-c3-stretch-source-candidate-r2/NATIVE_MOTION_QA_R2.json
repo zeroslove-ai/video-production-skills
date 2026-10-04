@@ -1,0 +1,79 @@
+{
+  "root": {
+    "full_range_m": [
+      0.008218334056437016,
+      0.031493108719587326,
+      0.0
+    ],
+    "start_end_distance_m": 0.0,
+    "donor215_to_recovery216_step_m": 1.7152287326260712e-06,
+    "recovery215_to263_displacement_m": 0.019581470750303646,
+    "recovery_path_length_m": 0.019581470750308697
+  },
+  "pelvis": {
+    "full_range_m": [
+      0.008218334056437016,
+      0.031493108719587326,
+      0.0031037330627441406
+    ],
+    "start_end_distance_m": 0.00106889009475708,
+    "donor215_to_recovery216_step_m": 1.7162640586182649e-06,
+    "recovery215_to263_displacement_m": 0.01958241247841204,
+    "recovery_path_length_m": 0.020294666905155336
+  },
+  "head": {
+    "full_range_m": [
+      0.012895168736577034,
+      0.07931400462985039,
+      0.016798436641693115
+    ],
+    "start_end_distance_m": 0.0010688900952407104,
+    "donor215_to_recovery216_step_m": 4.5250610136694167e-07,
+    "recovery215_to263_displacement_m": 0.0049926245128285385,
+    "recovery_path_length_m": 0.006401599163233716
+  },
+  "hand.L": {
+    "full_range_m": [
+      0.21936115948483348,
+      0.2509967125952244,
+      0.2900581955909729
+    ],
+    "start_end_distance_m": 0.12460128465680821,
+    "donor215_to_recovery216_step_m": 4.307986281179099e-05,
+    "recovery215_to263_displacement_m": 0.39448977386573936,
+    "recovery_path_length_m": 0.49059660969099295
+  },
+  "hand.R": {
+    "full_range_m": [
+      0.21296885795891285,
+      0.2518407739698887,
+      0.27627575397491455
+    ],
+    "start_end_distance_m": 0.0771894611764234,
+    "donor215_to_recovery216_step_m": 4.29147416230719e-05,
+    "recovery215_to263_displacement_m": 0.3896919420629721,
+    "recovery_path_length_m": 0.48605769442376723
+  },
+  "foot.L": {
+    "full_range_m": [
+      0.008943058550357819,
+      0.053115107119083405,
+      0.0031514614820480347
+    ],
+    "start_end_distance_m": 0.05325788308228591,
+    "donor215_to_recovery216_step_m": 4.162410151483617e-06,
+    "recovery215_to263_displacement_m": 0.04733831774438096,
+    "recovery_path_length_m": 0.0477092886278067
+  },
+  "foot.R": {
+    "full_range_m": [
+      0.010746899992227554,
+      0.0588470958173275,
+      0.00414971262216568
+    ],
+    "start_end_distance_m": 0.05568289810628646,
+    "donor215_to_recovery216_step_m": 5.1865313208146936e-06,
+    "recovery215_to263_displacement_m": 0.05932661983061564,
+    "recovery_path_length_m": 0.05963170804148733
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "run": "alpha-c3-stretch-inspect-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-inspect-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "18caed8f2e9b6c8329805c3ca547defd8544c5a3c79f58fd3d2f4563dc71542b",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 2.800012300023809
+  },
+  {
+    "run": "alpha-c3-stretch-candidate-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-candidate-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "0f22d4ac39edd7de928621d7ac7093e80067f63d695049382a87cce2b2ffa3c1",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 55.163267999945674
+  },
+  {
+    "run": "alpha-c3-stretch-off-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-off-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "ac38b548d0d9943e7ccc983a30b11ef08efc8d4f316e9eecee70fd98bcee597f",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 26.86603069998091
+  },
+  {
+    "run": "alpha-c3-stretch-probe-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-probe-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "5eb201d9d44b8aac4f629e90eb9e2ca027f7e586a0d2f32fde6ce8495449ff02",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 13.34740420000162
+  },
+  {
+    "run": "alpha-c3-stretch-candidate-broker-r2",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-candidate-broker-r2\\NATIVE_GUARD_RESULT.json",
+    "sha256": "7396a2d616c7084428a5ab802ebcc78ee761cc38cb8a7cc5e6caa073989165ad",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 69.33598319999874
+  },
+  {
+    "run": "alpha-c3-stretch-off-broker-r2",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-off-broker-r2\\NATIVE_GUARD_RESULT.json",
+    "sha256": "48edc2d7cbc3e5eed64bac1c8c65359abcb170e4dae2dca3940483ccf5ffb2fe",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 27.34516570001142
+  },
+  {
+    "run": "alpha-c3-stretch-probe-broker-r2",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-probe-broker-r2\\NATIVE_GUARD_RESULT.json",
+    "sha256": "ca8e20e3c7ecd7afd84424fc39fa939ef778659bf71a2e90d1359682d9dbc7e9",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 13.44799369998509
+  },
+  {
+    "run": "alpha-c3-stretch-full-broker-r2",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c3-stretch-full-broker-r2\\NATIVE_GUARD_RESULT.json",
+    "sha256": "a3325c04aa1efcb40f929dc5361ba90c6009be6ff3ca59616aafc783bfef95dc",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 423.4942928000237
+  }
+]
