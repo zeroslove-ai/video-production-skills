@@ -1,0 +1,128 @@
+{
+  "task": "ROOT_PM_WALK_SOURCE_CONTACT_TRANSITION_CLOSURE_R1",
+  "baseline_SHA": "35c5a9d00bdef2ca2b82e35645bf9da87e6f050ae6ead0ce0a9f9bd859bbf026",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\walk-contact-candidate-r3\\Character_R4_Walk_StopContact_CANDIDATE_OFF_R3_20261004.blend",
+  "candidate_bytes": 27423952,
+  "candidate_SHA": "57d9aea9e6baa624914c572d5190d62a96ecb84a6afb3c543172b4dc6df758f6",
+  "additive_body_actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_WALK_TURN_STOP_BODY_CONTACT_R3",
+    "Armature": "YURI_R4_WALK_TURN_STOP_BODY_HEAD_TRANSPORT_CONTACT_R3",
+    "Hair_Rig_R4": "YURI_R4_WALK_TURN_STOP_BODY_HAIR_TRANSPORT_CONTACT_R3",
+    "Assembly_Root": "YURI_R4_WALK_TURN_STOP_ROOT_PATH_CONTACT_R3"
+  },
+  "frames": [
+    1,
+    293
+  ],
+  "source_fps": 30,
+  "source_scene_fps": 24,
+  "modified_frames": [
+    244,
+    263
+  ],
+  "only_changed_channels": "Native thigh/shin/foot quaternion L/R; pelvis support lowering <=10mm, original face/hair rigid transport follows. World carrier exact all293; upper-body rotations unchanged.",
+  "all293_native_mesh_finite": true,
+  "all273_unmodified_frames_evaluated_world_vertex_hash_identical": true,
+  "original_OFF_all82_prior_actions_exact": true,
+  "procedural_stance_labels": "L swing244..252/support253..263; R support244..253/swing254..262; endpoint support263. Inferred design, not donor labels.",
+  "clearance_m": 0.035,
+  "pelvis_support_lowering_max_m": 0.01,
+  "max_solver_residual_m": 0.0001861259058131164,
+  "original_R3_immutable": true,
+  "world_root_trajectory_unchanged": true,
+  "TierP": 0,
+  "visual_contact_physics_Unity_F2_F3": "PENDING; no promotion",
+  "before_after_visual": "PENDING fixed camera1x",
+  "source_visual_quality_verdict": "MIXED_HOLD",
+  "visible_remaining_defects": [
+    {
+      "span_frames": [
+        246,
+        251
+      ],
+      "observed_frame": 248,
+      "time_sec": 8.233333333333333,
+      "view": "front",
+      "description": "New sequential-step candidate has prominent leg silhouette crossover/pinching near first swing. Foot-cohort placement and bend-plane metrics alone did not clear this visual defect. Deformed mesh self-intersection not exhaustively measured."
+    },
+    {
+      "span_frames": [
+        82,
+        97
+      ],
+      "description": "Original unlabeled low-clearance procedural transfer remains unchanged; source labels/dedicated walk-turn input absent."
+    }
+  ],
+  "phase_contact_ground_truth": false,
+  "first_bridge_81_98": "UNLABELED procedural transfer; no extracted contact labels. Low-clearance large travel remains unchanged/HOLD.",
+  "second_bridge_243_264": "One new designed sequential-step correction, not dedicated authored stop. Support cohort drift measured; physics slip remains uncertified.",
+  "OFF_geometry_material_keys_weights_rest_drivers_78_authority_Actions_exact": true,
+  "OFF_RGBA_all_channels_exact": true,
+  "texture_packed_bytes_colorspace_resolved_properties_exact": true,
+  "raw_SaveAs_texture_locator_remap_disclosed": true,
+  "source_visual_promotion": false,
+  "StageB_O1_PRIMARY_Unity_F2_F3_TierP": "HOLD; no promotion",
+  "existing_44_TierC": 44,
+  "existing_TierP": 0,
+  "candidate_count": "ONE successfully saved correction; R1 residual failure and R2 watchdog failure preserve receipts.",
+  "whole_normal_speed_before_after": {
+    "url": "http://127.0.0.1:8784/REVIEW_STOP_CONTACT_BEFORE_AFTER_R1.html",
+    "views": [
+      "front",
+      "quarter",
+      "side"
+    ],
+    "start_times_sec": [
+      0.163406,
+      0.16247,
+      0.157766
+    ],
+    "end_times_sec": [
+      9.766667,
+      9.766667,
+      9.766667
+    ],
+    "durations_sec": [
+      9.766667,
+      9.766667,
+      9.766667
+    ],
+    "rates": [
+      1,
+      1,
+      1
+    ],
+    "ended": [
+      true,
+      true,
+      true
+    ],
+    "errors": [
+      null,
+      null,
+      null
+    ],
+    "whole_interval_decode": "PASS all293frames3movies",
+    "source_quality_verdict": "MIXED_HOLD",
+    "visible_remaining_defects": [
+      {
+        "span_frames": [
+          246,
+          251
+        ],
+        "observed_frame": 248,
+        "time_sec": 8.233333333333333,
+        "view": "front",
+        "description": "New sequential-step candidate has prominent leg silhouette crossover/pinching near first swing. Foot-cohort placement and bend-plane metrics alone did not clear this visual defect. Deformed mesh self-intersection not exhaustively measured."
+      },
+      {
+        "span_frames": [
+          82,
+          97
+        ],
+        "description": "Original unlabeled low-clearance procedural transfer remains unchanged; source labels/dedicated walk-turn input absent."
+      }
+    ],
+    "physical_contact_slip_final_visual_runtime_certified": false
+  }
+}

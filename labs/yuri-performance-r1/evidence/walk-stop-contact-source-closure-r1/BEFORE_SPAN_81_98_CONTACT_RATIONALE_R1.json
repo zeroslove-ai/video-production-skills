@@ -1,0 +1,38 @@
+{
+  "frames": [
+    81,
+    98
+  ],
+  "time_sec": [
+    2.6666666666666665,
+    3.2333333333333334
+  ],
+  "source_contact_labels": "NO authored labels in procedural bridge; endpoints only sampled donor proxy.",
+  "sides": {
+    "L": {
+      "cohort_XY_range_m": [
+        0.014600962189196834,
+        0.09386699579235924
+      ],
+      "max_XY_speed_m_s": 0.4557988949221672,
+      "lowest_vertex_clearance_range_m": [
+        -4.9313471601065115e-08,
+        3.215164630045955e-08
+      ],
+      "physical_slip_certified": false
+    },
+    "R": {
+      "cohort_XY_range_m": [
+        0.012257602431283932,
+        0.2967375929501206
+      ],
+      "max_XY_speed_m_s": 0.7411544145760444,
+      "lowest_vertex_clearance_range_m": [
+        0.0030015252326172468,
+        0.02023556584275794
+      ],
+      "physical_slip_certified": false
+    }
+  },
+  "phase_rationale": "R walk endpoint source-toe proxy is stance; bridge has no donor correspondences. Both target cohorts travel at low clearance: UNLABELED ground-skimming transfer, not proof of authored swing/slip PASS/FAIL."
+}

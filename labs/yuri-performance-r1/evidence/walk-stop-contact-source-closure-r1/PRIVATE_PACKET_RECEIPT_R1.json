@@ -1,0 +1,16 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_STOP_CONTACT_SOURCE_CANDIDATE_R1_20261004.zip",
+  "bytes": 97831151,
+  "sha256": "82138dd7ffc7b6687264780b080ad2fd9bdefbc492162d9542e80aac15656afe",
+  "members": 137,
+  "indexed_members": 136,
+  "CRC_all_members": "PASS",
+  "all_indexed_member_size_SHA": "PASS",
+  "candidate_bytes": 27423952,
+  "candidate_sha256": "57d9aea9e6baa624914c572d5190d62a96ecb84a6afb3c543172b4dc6df758f6",
+  "original_R3_sha256": "35c5a9d00bdef2ca2b82e35645bf9da87e6f050ae6ead0ce0a9f9bd859bbf026",
+  "canonical_R4_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "index_sha256": "af0d15424bea067fb906ddf74044e99b7787c3f5fec20ef85cd7a924244d0268",
+  "public_Git_raw_private_geometry_motion": false,
+  "contact_physics_Unity_final_visual_promoted": false
+}

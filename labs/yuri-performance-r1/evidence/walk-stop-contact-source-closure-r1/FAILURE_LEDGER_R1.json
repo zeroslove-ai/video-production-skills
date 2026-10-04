@@ -1,0 +1,17 @@
+[
+  {
+    "attempt": "R1",
+    "status": "FAIL, no candidate saved",
+    "cause": "Frame252 left sole solve residual4.286mm exceeded3mm gate; fixed pelvis reach allowance, not weaker acceptance."
+  },
+  {
+    "attempt": "R2",
+    "status": "FAIL_WATCHDOG, no candidate saved",
+    "cause": "Recomputed full mesh Jacobian every iteration exceeded600seconds. Owned Job cleanup active0, exit90; never reused this guard as PASS."
+  },
+  {
+    "attempt": "R3",
+    "status": "PASS native",
+    "change": "Same35mm step goals,10mm pelvis allowance and3mm gate. Cached full original baseline numerics pinned, native anchor hashes checked; secant Jacobian updates reduce repeated mesh cost. All273 untouched native mesh hashes rechecked exact in new passed run. Guards unchanged."
+  }
+]

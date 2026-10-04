@@ -1,0 +1,38 @@
+{
+  "frames": [
+    243,
+    264
+  ],
+  "time_sec": [
+    8.066666666666666,
+    8.766666666666667
+  ],
+  "source_contact_labels": "NO authored labels in procedural bridge; endpoints only sampled donor proxy.",
+  "sides": {
+    "L": {
+      "cohort_XY_range_m": [
+        0.054031462590448553,
+        0.1216364095710527
+      ],
+      "max_XY_speed_m_s": 0.3025678755186166,
+      "lowest_vertex_clearance_range_m": [
+        -5.80329796333384e-08,
+        0.00043014032086944833
+      ],
+      "physical_slip_certified": false
+    },
+    "R": {
+      "cohort_XY_range_m": [
+        0.037808241948132065,
+        0.09670848368982021
+      ],
+      "max_XY_speed_m_s": 0.2404701585069556,
+      "lowest_vertex_clearance_range_m": [
+        6.989637407328078e-09,
+        0.010395925892293944
+      ],
+      "physical_slip_certified": false
+    }
+  },
+  "phase_rationale": "Procedural stance widening between attention neutral and Idle_Loop first pose. Both feet translate with minimal lift, visibly ground-skimming in side view. Chosen SINGLE authored correction: sequential L then R step with35mm lift, carrier path unchanged."
+}

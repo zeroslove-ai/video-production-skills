@@ -1,0 +1,44 @@
+[
+  {
+    "run": "walk-stop-contact-candidate-broker-r1",
+    "status": "FAIL",
+    "sha256": "ce601472aebb3f1e464c8a1136db984985c9d0df64ccf1f86944c1ab6e1f6ea4",
+    "wall_seconds": 85.60263770003803,
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\walk-stop-contact-candidate-broker-r1\\NATIVE_GUARD_RESULT.json"
+  },
+  {
+    "run": "walk-stop-contact-candidate-broker-r2",
+    "status": "FAIL",
+    "sha256": "30e8e86243b9b149522e2456d229cc0b02c159b56dec78cd6ebbfa9861fe6ace",
+    "wall_seconds": 600.2102399999858,
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\walk-stop-contact-candidate-broker-r2\\NATIVE_GUARD_RESULT.json"
+  },
+  {
+    "run": "walk-stop-contact-candidate-broker-r3",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "sha256": "3b0852d841402cfafd63dca4de4a80010e110bb2eb1f24bf1a4c539be788108c",
+    "wall_seconds": 319.0637430999777,
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\walk-stop-contact-candidate-broker-r3\\NATIVE_GUARD_RESULT.json"
+  },
+  {
+    "run": "walk-contact-off-broker-r3",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "sha256": "420e0a15bd3726c888221ad0bac8ef1de9f7b47f87b624196998e3f73fe961e0",
+    "wall_seconds": 27.27968419995159,
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\walk-contact-off-broker-r3\\NATIVE_GUARD_RESULT.json"
+  },
+  {
+    "run": "walk-contact-probe-broker-r3",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "sha256": "482952cc1dacf5497cd339ea4100d2c3227f41c51ac16c3e32f9eb67b3db940d",
+    "wall_seconds": 14.12247349997051,
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\walk-contact-probe-broker-r3\\NATIVE_GUARD_RESULT.json"
+  },
+  {
+    "run": "walk-contact-full-preview-broker-r3",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "sha256": "1eabb356c519105b910c26cf45e7a1fdfdc46e9ad947d72655fa5d55ab4f8901",
+    "wall_seconds": 67.38090739998734,
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\walk-contact-full-preview-broker-r3\\NATIVE_GUARD_RESULT.json"
+  }
+]

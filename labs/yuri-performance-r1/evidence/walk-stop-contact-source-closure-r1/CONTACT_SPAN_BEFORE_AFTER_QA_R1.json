@@ -1,0 +1,160 @@
+{
+  "same_spans": {
+    "81_98": {
+      "before": {
+        "L": {
+          "XY_range_m": [
+            0.014600962189196834,
+            0.09386699579235924
+          ],
+          "max_XY_speed_m_s": 0.4557988949221672,
+          "lowest_vertex_clearance_range_m": [
+            -4.9313471601065115e-08,
+            3.215164630045955e-08
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.012257602431283932,
+            0.2967375929501206
+          ],
+          "max_XY_speed_m_s": 0.7411544145760444,
+          "lowest_vertex_clearance_range_m": [
+            0.0030015252326172468,
+            0.02023556584275794
+          ]
+        }
+      },
+      "after": {
+        "L": {
+          "XY_range_m": [
+            0.014600962189196834,
+            0.09386699579235924
+          ],
+          "max_XY_speed_m_s": 0.4557988949221672,
+          "lowest_vertex_clearance_range_m": [
+            -4.9313471601065115e-08,
+            3.215164630045955e-08
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.012257602431283932,
+            0.2967375929501206
+          ],
+          "max_XY_speed_m_s": 0.7411544145760444,
+          "lowest_vertex_clearance_range_m": [
+            0.0030015252326172468,
+            0.02023556584275794
+          ]
+        }
+      },
+      "semantics": "UNLABELED original procedural ground-skimming transfer; unchanged, no new authored donor/contact labels, remains HOLD."
+    },
+    "243_264": {
+      "before": {
+        "L": {
+          "XY_range_m": [
+            0.054031462590448553,
+            0.1216364095710527
+          ],
+          "max_XY_speed_m_s": 0.3025678755186166,
+          "lowest_vertex_clearance_range_m": [
+            -5.80329796333384e-08,
+            0.00043014032086944833
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.037808241948132065,
+            0.09670848368982021
+          ],
+          "max_XY_speed_m_s": 0.2404701585069556,
+          "lowest_vertex_clearance_range_m": [
+            6.989637407328078e-09,
+            0.010395925892293944
+          ]
+        }
+      },
+      "after": {
+        "L": {
+          "XY_range_m": [
+            0.05403508107665855,
+            0.12165822226542122
+          ],
+          "max_XY_speed_m_s": 0.5916310463013288,
+          "lowest_vertex_clearance_range_m": [
+            3.01586158930828e-08,
+            0.035255983703101415
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.03780906764979068,
+            0.09671158243496336
+          ],
+          "max_XY_speed_m_s": 0.4624666324112706,
+          "lowest_vertex_clearance_range_m": [
+            6.989637407328078e-09,
+            0.03786097808312401
+          ]
+        }
+      },
+      "semantics": "Before simultaneous low-clearance stance widening. After one designed sequential L then R step,35mm sin^2 lift + <=10mm pelvis support. New design labels, not extracted/authored donor contacts."
+    }
+  },
+  "procedural_support": {
+    "R": {
+      "before_same_frame_window_XY_range_m": [
+        0.024180233990796246,
+        0.050730260897048574
+      ],
+      "before_same_frame_window_max_XY_speed_m_s": 0.2404701585069556,
+      "frames": [
+        244,
+        253
+      ],
+      "annotation": "procedural support; sole cohort proxy, not physical stance certification",
+      "XY_range_m": [
+        1.9673017726859476e-05,
+        5.9281684357648246e-05
+      ],
+      "max_XY_speed_m_s": 0.0012442324306041423,
+      "RMS_XY_speed_m_s": 0.0006145187806854165
+    },
+    "L": {
+      "before_same_frame_window_XY_range_m": [
+        0.016957924745024222,
+        0.06300375004955683
+      ],
+      "before_same_frame_window_max_XY_speed_m_s": 0.30035652587555745,
+      "frames": [
+        253,
+        263
+      ],
+      "annotation": "procedural support; sole cohort proxy, not physical stance certification",
+      "XY_range_m": [
+        2.7510854502088566e-05,
+        5.883684880769735e-05
+      ],
+      "max_XY_speed_m_s": 0.0012721272185947468,
+      "RMS_XY_speed_m_s": 0.0006595587211510496
+    }
+  },
+  "knee_direction_diagnostic": {
+    "L": {
+      "reliable_plane_samples": 20,
+      "min_before_after_bend_plane_cosine": 0.9916910925714244,
+      "note": "Near-straight configurations omitted below1e-4 cross magnitude. Plane cosine is diagnostic, not a flip/self-intersection certificate."
+    },
+    "R": {
+      "reliable_plane_samples": 20,
+      "min_before_after_bend_plane_cosine": 0.9927145808979788,
+      "note": "Near-straight configurations omitted below1e-4 cross magnitude. Plane cosine is diagnostic, not a flip/self-intersection certificate."
+    }
+  },
+  "root_unchanged_all293": true,
+  "unmodified273_vertex_hash_exact": true,
+  "max_solve_residual_m": 0.0001861259058131164,
+  "source_contact_ground_truth": false
+}
