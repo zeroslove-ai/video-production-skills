@@ -1,0 +1,19 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_LEFT_THUMB_PHASE_ONLY_SOURCE_C2_20261005.zip",
+  "SHA": "09acb8bb29d097121e27f6ff208172036b0947e154a15773a7100f8654a9876e",
+  "bytes": 33839793,
+  "members": 60,
+  "indexed_members": 59,
+  "CRC_SHA_size_all": "PASS",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "base_candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+  "candidate_SHA": "4e8ed89cbc33c4080f119598dd6b719e43625b901fff94e524ecb227949116ee",
+  "library_SHA": "6836f0c0fc367cb335e743e1efc0b2c62b747f5fc19590f27860ec39b0ee8016",
+  "candidate_verdict": "Scoped nonadjacent contact PASS; hand-shape visual REFERENCE, not secure physical grasp",
+  "OFF_pixels": {
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "PASS": true
+  },
+  "TierP": 0
+}

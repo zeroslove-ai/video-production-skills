@@ -1,0 +1,218 @@
+{
+  "task": "ROOT_PM_LEFT_THUMB_C2_PHASE_ONLY_R1",
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "base_candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-grasp-candidate-r1b\\Character_R4_NativeGraspHand_CANDIDATE_OFF_R1B_20261004.blend",
+  "base_candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-grasp-left-thumb-c2\\Character_R4_Grasp_LeftThumb_C2_EXPERIMENT_OFF_20261005.blend",
+  "candidate_SHA": "4e8ed89cbc33c4080f119598dd6b719e43625b901fff94e524ecb227949116ee",
+  "body_action": "YURI_R4_GRASP_LEFT_THUMB_OPPOSITION_BODY_C2",
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_GRASP_LEFT_THUMB_OPPOSITION_BODY_C2",
+    "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+  },
+  "frame_range": [
+    1,
+    169
+  ],
+  "fps": 24,
+  "changed_curves_only": [
+    "thumb1.L quaternion4channels"
+  ],
+  "all_other290_curves_exact": true,
+  "prior81Actions_and_OFF_snapshot_preserved": true,
+  "max_unaffected_geometry_component_error_m": 0,
+  "max_nonthumb_bone_matrix_error": 0,
+  "endpoints_base_neutral_geometry_error": {
+    "1": 0.0,
+    "169": 0.0
+  },
+  "thumb_target_distances": {
+    "1": {
+      "thumb_tip_to_finger_target_m": 0.040389308717744724,
+      "baseline_thumb_to_target_m": null,
+      "baseline_geometry_error_m": 0.0
+    },
+    "85": {
+      "thumb_tip_to_finger_target_m": 0.026825780097611426,
+      "baseline_thumb_to_target_m": 0.05227893951095209,
+      "baseline_geometry_error_m": 0.009576686494121134
+    },
+    "169": {
+      "thumb_tip_to_finger_target_m": 0.040389308717744724,
+      "baseline_thumb_to_target_m": null,
+      "baseline_geometry_error_m": 0.0
+    }
+  },
+  "maximum_actual_inclusive_pairs": {
+    "nonadjacent_all_body": 0,
+    "nonadjacent_palm_inclusive": 0,
+    "nonadjacent_other_digits_inclusive": 0,
+    "shared_vertex_adjacent_raw": 491,
+    "identical_triangle_raw": 0
+  },
+  "maximum_new_same_frame_inclusive_pairs": {
+    "nonadjacent_all_body": 0,
+    "nonadjacent_palm_inclusive": 0,
+    "nonadjacent_other_digits_inclusive": 0,
+    "shared_vertex_adjacent_raw": 396,
+    "identical_triangle_raw": 0
+  },
+  "contact_verdict": "SCOPED_NONADJACENT_SURFACE_PASS",
+  "scope": "ALL triangles with ANY LEFT thumb1/2/3 weight>.01 against ALL actual body triangles, including hand.L palm and other-digit weak weights. No palm/webbing exclusion. Shared-vertex/identical triangle raw intersections explicitly reported, compared same frame before/after; these are mesh adjacency, not certified penetration depth. Nonadjacent actual intersections and new pairs separately counted. Full volumetric containment/adjacent deformation quality/physical grasp not certified.",
+  "visual_normal_speed": "PENDING",
+  "TierP": 0,
+  "native_axis_basis": "Actual LEFT current thumb-base/tip vs index2-middle2 target, no right-hand constants/Euler signs/R5 donor geometry",
+  "opposition_degrees": 20,
+  "longitudinal_roll_degrees": 10,
+  "source_reference_frame": 85,
+  "target_distance_units": "Recorded thumb_tip_to_finger_target_m is RIG-SPACE Blender coordinate distance, not world metric distance. Ratio only; no physicalmm claim.",
+  "contact_failure_frames": [],
+  "baseline_maximum_actual_pairs": {
+    "nonadjacent_all_body": 0,
+    "nonadjacent_palm_inclusive": 0,
+    "nonadjacent_other_digits_inclusive": 0,
+    "shared_vertex_adjacent_raw": 491,
+    "identical_triangle_raw": 0
+  },
+  "cameras": {
+    "left_hand_close": {
+      "frames": [
+        1,
+        169
+      ],
+      "fps": 24,
+      "camera_rotation_euler": [
+        1.5707964897155762,
+        -0.0,
+        0.0
+      ],
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.7900000214576721
+      ],
+      "fixed": false,
+      "wrist_world_translation_follow": true,
+      "constant_target_offset": [
+        0.009495929814875126,
+        -0.0018991859396919608,
+        -0.02627204731106758
+      ],
+      "ortho_scale": 0.18000000715255737,
+      "resolution": [
+        512,
+        512
+      ]
+    },
+    "waist_3q": {
+      "frames": [
+        1,
+        169
+      ],
+      "fps": 24,
+      "camera_rotation_euler": [
+        1.5707961320877075,
+        4.500163797160894e-08,
+        0.5404195189476013
+      ],
+      "target": [
+        0.0020000000949949026,
+        -0.02800000086426735,
+        0.7900000214576721
+      ],
+      "fixed": true,
+      "wrist_world_translation_follow": false,
+      "constant_target_offset": null,
+      "ortho_scale": 0.6200000047683716,
+      "resolution": [
+        384,
+        384
+      ]
+    }
+  },
+  "OFF_RGBA": {
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "PASS": true
+  },
+  "normal_speed": {
+    "start": [
+      {
+        "currentTime": 0.197672,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18931/left_hand_close_BEFORE_AFTER_C2_1x.mp4"
+      },
+      {
+        "currentTime": 0.197663,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18931/waist_3q_BEFORE_AFTER_C2_1x.mp4"
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18931/left_hand_close_BEFORE_AFTER_C2_1x.mp4"
+      },
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18931/waist_3q_BEFORE_AFTER_C2_1x.mp4"
+      }
+    ]
+  },
+  "visual_QA": {
+    "whole_actual1x": "C1-left/C2-right synced LEFTclose and fixedwaist,169frames24fps7.041667sec through-end/error-null; all-frame paired grids reviewed",
+    "visible_result": "C2 preserves lateral/open thumb through early47\u201361 turn and closes opposition later without the C1 thumb disappearing into palm/finger base. Smooth later inward thumb and open return visible; no observed new gross body/wrist/root/foot pop.",
+    "grip_limits": "Original other fingers retain loose partial curl; thumb pads and finger pads do not form convincing secure grip. Hand-shape reference, not MUG/physical grasp/F2/Unity/TierP acceptance.",
+    "contact_failure_frames": [],
+    "OFF": "Full source-preserving snapshot restored; original960x920neutralRGBAchanged0",
+    "source_model_changed": false,
+    "camera_scope": "LEFT wrist world translation follows/constant offset/fixed rotation; body/root/feet only prior matched fixedwaist/native matrices",
+    "next_bounded": "Registered24-pair read-only image comparison absent direct StageA request; no C3 thumb sweep."
+  },
+  "action_only": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-grasp-left-thumb-preview-c2\\YURI_R4_GRASP_LEFT_THUMB_C2_ACTIONS_ONLY.blend",
+    "SHA": "6836f0c0fc367cb335e743e1efc0b2c62b747f5fc19590f27860ec39b0ee8016",
+    "bytes": 4039900,
+    "actions": {
+      "Meshy_Fitted_Rig": "YURI_R4_GRASP_LEFT_THUMB_OPPOSITION_BODY_C2",
+      "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+      "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+    },
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0
+  },
+  "status": "SOURCE_ONLY_SCOPED_NONADJACENT_CONTACT_PASS_HAND_SHAPE_REFERENCE",
+  "C2_phase": {
+    "onset_zero_until": 61,
+    "ramp_end": 85,
+    "release_start": 119,
+    "release_end": 135,
+    "source_final_wrist_return_onset": 136
+  },
+  "preserved_C1_axis_amplitudes": true,
+  "next_bounded_task": "Registered24-pair image-only comparison at safe boundary, absent direct StageA source supply. No C3 thumb amplitude/axis sweep or physical-grasp promotion.",
+  "source_appearance_promoted": false,
+  "physics_MUG_F2_Unity_TierP": "HOLD/TierP0",
+  "Root_Laptop_Talk": "Independent sole Laptop runtime integration, nonblocking"
+}
