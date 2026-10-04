@@ -1,0 +1,61 @@
+{
+  "scope": "ONE_SOURCE_FRAME1_POSE_CORRESPONDENCE_ONLY",
+  "source_SHA256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "reference_image_SHA256": "622dd6a936ac8edb79185cd4a28f430b5ea41d9a50886a9c89f306f61943eeaa",
+  "source_frame": 1,
+  "runtime_witness_seconds": 2.96682239,
+  "reference_receipt_SHA256": "98d9bc12e32ed7a04355aff51d45ea0c2cc99b4e5b4e1407f16d0682a771bfe0",
+  "readback_all72_exact": true,
+  "selected_rig_stats": {
+    "Meshy_Fitted_Rig": {
+      "selected_bones": 8,
+      "max_abs_evaluated_pose_minus_rest": 0.0,
+      "max_abs_skin_minus_identity": 9.639188647270203e-08,
+      "bound_Action": null,
+      "pose_position": "POSE"
+    },
+    "Armature": {
+      "selected_bones": 7,
+      "max_abs_evaluated_pose_minus_rest": 1.7881393432617188e-07,
+      "max_abs_skin_minus_identity": 1.7674756236374378e-07,
+      "bound_Action": null,
+      "pose_position": "POSE"
+    },
+    "Hair_Rig_R4": {
+      "selected_bones": 1,
+      "max_abs_evaluated_pose_minus_rest": 4.76837158203125e-07,
+      "max_abs_skin_minus_identity": 3.5762786865234375e-07,
+      "bound_Action": null,
+      "pose_position": "POSE"
+    }
+  },
+  "camera": {
+    "type": "ORTHO",
+    "resolution": [
+      960,
+      920
+    ],
+    "native_projection_api": "Blender Camera.calc_matrix_camera"
+  },
+  "minimal_JSON": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-source-frame1-pose-correspondence-r1\\SOURCE_FRAME1_POSE_CAMERA_MINIMAL_R1.json",
+    "bytes": 21624,
+    "SHA256": "b6923f6137243e900496fbf54e192c72a910a4ea22167aac1abfaad808546dd8"
+  },
+  "native_readout": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-source-frame1-pose-correspondence-r1\\SOURCE_FRAME1_POSE_CAMERA_PRIVATE_R1.json",
+    "bytes": 89679,
+    "SHA256": "5a3cca77a12cca8772ee00b6e82ba1b3f577e0aadc382e0aef0156ec8f2e9bf6"
+  },
+  "native_guard": {
+    "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\r4-source-frame1-pose-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "SHA256": "828581bc15d4fa57a97f461b3c82cf21ecd4d3ce98588a074a9e04081ee3682e",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  "coordinate_contract": "Blender right handed Z-up; row-major nested matrices, column-vector multiplication; metres convention/scene units in private JSON; native OpenGL clip camera basis; no Unity conversion",
+  "restore_signature_difference": {},
+  "source_bytes_unchanged": true,
+  "no_render_save_export_product_change": true,
+  "parity": "NOT_DECLARED; consumer bind-rest/witness camera+bones not compared",
+  "missing_correspondence": "Runtime witness-specific import bind-rest / posed bone and camera matrices are consumer-owned; this source support does not block healthy Pose100."
+}
