@@ -1,0 +1,84 @@
+{
+  "task": "ROOT_PM_NATIVE_GRASP_MOVING_HAND_VIEW_SCOPE_R1",
+  "candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "existing_library_SHA": "a2808d19d71cf55165b35b3bebcf752eebad8d76f5f4d6018c8b9a7435a8aeb2",
+  "motion_changed": false,
+  "source_files_saved": false,
+  "original_OFF_snapshot_restored": true,
+  "source_fps": 24,
+  "frames": [
+    1,
+    169
+  ],
+  "native_all169_rendered": true,
+  "render_origin": "Original R1 rendered all169 but final assertion failed due only transient scene render settings. Preserved failure. R1b replayed identical candidate/pose/camera and confirmed model categories unchanged, scene-only difference; restored all settings gives full signature0. No rerender. Render bytes pinned unchanged.",
+  "view": "LEFT active hand; wrist-world-translation follow with constant world target offset and fixed camera rotation; no rotation follow",
+  "ortho_scale_m": 0.18,
+  "resolution": [
+    512,
+    512
+  ],
+  "CPU_samples": 8,
+  "materials_lights_original_preserved": true,
+  "whole_body_foot_root_verdict_uses": "Existing fixed front/waist and prior all169 mesh/world measurements only",
+  "normal_speed": "Pending encoded actual1x playback",
+  "visual": "PENDING; no physical grasp/prop/Unity/TierP claim",
+  "TierP": 0,
+  "visual_QA": {
+    "whole_playback": "169frames24fps7.041667s actual1x through-end/error-null; full-frame supplement examined",
+    "finger_flexion": "Partial loose curl visible during raised hand hold; not a closed secure grasp",
+    "thumb_opposition": "FAIL/HOLD: thumb remains lateral/open, no visible finger-pad opposition supporting grip",
+    "hold": "Readable but long/mostly static native hold preserved; no new polish",
+    "release_return": "PASS visual open hand return; prior fresh-source endpoints1/169 body/head/hair neutralgeometry0",
+    "hand_body_collision": "No gross new crossing observed in active close; all169 dominant original-weight arm/digit-body/head/hair/interdigit prior surface pairs0. Weak webbing/adjacent digit-palm and physical contact not certified",
+    "grasp_visual_verdict": "FAIL/HOLD for convincing grasp; source technical/scoped-surface PASS does not override visual defect",
+    "camera": "LEFT wrist WORLD translation only follows with constant world target offset; fixed rotation and ortho0.18m,512square. Fixed existing full-body/front waist solely own root/feet/wholebody verdict",
+    "motion_changed": false,
+    "next_one_correction_hypothesis": "Separate additive source Action COPY only: LEFT thumb opposition phase aligned to existing finger curl during hold, wrist/body/timing/original Action unchanged; then actual digit-palm/webbing/contact plus whole1x active close. Proposed, not executed.",
+    "Unity_AlwaysAnimate_physics_TierP": "HOLD/TierP0; sole Laptop grounded Talk does not wait"
+  },
+  "actual_whole1x": {
+    "start": [
+      {
+        "currentTime": 0.186238,
+        "duration": 7.041667,
+        "ended": false,
+        "error": null,
+        "paused": false,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18929/LEFT_ACTIVE_HAND_NATIVE_GRASP_1x.mp4"
+      }
+    ],
+    "end": [
+      {
+        "currentTime": 7.041667,
+        "duration": 7.041667,
+        "ended": true,
+        "error": null,
+        "paused": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18929/LEFT_ACTIVE_HAND_NATIVE_GRASP_1x.mp4"
+      }
+    ]
+  },
+  "original_packet_unchanged": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_GRASP_SOURCE_ONLY_R1_20261005.zip",
+    "bytes": 57045942,
+    "SHA": "9d23f40e7ebdb812edd939eed61fd017427d4ba02bdadcd88d5bffcc43bc74ec",
+    "members": 102,
+    "indexed_members": 101,
+    "CRC_SHA_size_all": "PASS",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+    "library_SHA": "a2808d19d71cf55165b35b3bebcf752eebad8d76f5f4d6018c8b9a7435a8aeb2",
+    "source_technical_and_scoped_surface": "PASS",
+    "visual": "REFERENCE ONLY. Fixed front/waist entire169-frame1x gesture visibly raises LEFT forearm, holds then releases to original neutral; no observed gross new mesh break. Original long central hold/static face remain. Right-hand tracking close is a static control, not active LEFT finger-detail QA. No LEFT high-resolution close/prop contact/physical grasp/acting-quality approval.",
+    "TierP": 0
+  },
+  "native_guard": {
+    "SHA": "0a8f2a88f3a0d030b45725250aef34a706a3b453361cb67fc756c9f48ba97709",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+  },
+  "Unity_Laptop_Talk": "Independent sole Laptop lane; not blocked by source grasp visual research"
+}

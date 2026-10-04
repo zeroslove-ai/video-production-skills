@@ -1,0 +1,15 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_GRASP_LEFT_ACTIVE_HAND_CAMERA_QA_R1_20261005.zip",
+  "SHA": "8a0605f77921d4b8118cec2048b3cb7d3df97b47bde09aeaa1b02096ecfc3467",
+  "bytes": 1856494,
+  "members": 46,
+  "indexed_members": 45,
+  "CRC_SHA_size_all": "PASS",
+  "original_motion_packet_SHA": "9d23f40e7ebdb812edd939eed61fd017427d4ba02bdadcd88d5bffcc43bc74ec",
+  "candidate_SHA": "89a3a8ca996997ea768cffc5b4fb37d7666d6c555e11eef87e3058440f3d8b04",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "motion_changed": false,
+  "visual_grasp": "FAIL/HOLD: thumb opposition missing, partial loose curl",
+  "technical_surface_subset": "PASS; no physics claim",
+  "TierP": 0
+}
