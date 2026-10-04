@@ -1,0 +1,16 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_C1_REACH_SOURCE_ONLY_R1_20261004.zip",
+  "bytes": 62708154,
+  "sha256": "953b993adc38d171b68f5ee1f9994daac1aeb2bb2c0fe8c7b644b257f7651055",
+  "members": 106,
+  "indexed_members": 105,
+  "CRC_all_members": "PASS",
+  "all_indexed_member_bytes_SHA": "PASS",
+  "candidate_bytes": 26676877,
+  "candidate_sha256": "bad645ae396ebef88564e4b3656f5e73c9375a9b87ee217acbd87a1354964946",
+  "source_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "index_sha256": "efcb4b683da9372c6328116d13047255479c02da9cbbadba299a4d68ce1f81fe",
+  "TierP": 0,
+  "source_only": true,
+  "dedicated_hold_prop_grip_physics_Runtime_final_visual_promoted": false
+}

@@ -1,0 +1,43 @@
+{
+  "candidate_sha256": "bad645ae396ebef88564e4b3656f5e73c9375a9b87ee217acbd87a1354964946",
+  "dominant_hand": "native hand.L; UAL yaw180 rotation, no mirror",
+  "hand_L_world_range_m": [
+    0.08571120724081993,
+    0.25184283405542374,
+    0.19712889194488525
+  ],
+  "hand_R_world_range_m": [
+    0.010262615978717804,
+    0.012804821133613586,
+    0.011581957340240479
+  ],
+  "peak_forward_frame": 23,
+  "peak_forward_time_sec": 0.7333333333333333,
+  "observed_95pct_forward_peak_frames": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "observed_peak_plateau_semantics": "Kinematic threshold only; not a dedicated authored hold, no prop alignment/contact/hold ownership claim.",
+  "end_start_hand_distance_m": 0.0,
+  "root_range_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_any_joint_frame_step_m": 0.038546521316978916,
+  "sole_support_Z_correction_range_m": [
+    0.020490157540026654,
+    0.021511314571671835
+  ],
+  "all61_native_geometry_finite": true,
+  "physics_prop_grip_contact_approved": false
+}

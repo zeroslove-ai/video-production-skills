@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8786/REVIEW_C1_REACH_RETURN_R1.html",
+  "views": [
+    "front",
+    "quarter",
+    "side"
+  ],
+  "start_times_sec": [
+    0.187923,
+    0.18788,
+    0.187842
+  ],
+  "end_times_sec": [
+    2.033333,
+    2.033333,
+    2.033333
+  ],
+  "rates": [
+    1,
+    1,
+    1
+  ],
+  "ended": [
+    true,
+    true,
+    true
+  ],
+  "errors": [
+    null,
+    null,
+    null
+  ],
+  "whole61_native_frames_3movies_decode": "PASS",
+  "source_candidate_status": "SOURCE_ONLY_PROVISIONAL; low-sample visual proof, no exhaustive skin self-intersection/hand/prop/contact/final facial fidelity acceptance",
+  "dedicated_hold": false,
+  "prop_grip_contact": false,
+  "TierP": 0
+}

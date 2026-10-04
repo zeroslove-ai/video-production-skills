@@ -1,0 +1,37 @@
+[
+  {
+    "run": "alpha-c1-reach-inspect-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-reach-inspect-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "c742d4430c36fe55e96ff612668d8a5413877b166bdd0e7556fc749d3461ea61",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 6.950393899984192
+  },
+  {
+    "run": "alpha-c1-reach-candidate-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-reach-candidate-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "ec99f37be8a34ef09a9be4b876776825c117043b7bce0cc931bd63c5b7b33a48",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 110.17613109998638
+  },
+  {
+    "run": "alpha-c1-reach-off-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-reach-off-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "b39fa4ace221e5491266b07e71d15b7ccc791e9a746199d68c876ec5714bdde7",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 26.98615020001307
+  },
+  {
+    "run": "alpha-c1-reach-probe-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-reach-probe-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "0035339a40a6329b0e43d63469d9731be5861ad2e7755785b266d992e9511ca1",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 23.430854699981865
+  },
+  {
+    "run": "alpha-c1-reach-full-preview-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-c1-reach-full-preview-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "890542c30fdd7fe55561c2740f813a3d96511ef9ea5f226d588ee851a1555519",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 319.11687379999785
+  }
+]

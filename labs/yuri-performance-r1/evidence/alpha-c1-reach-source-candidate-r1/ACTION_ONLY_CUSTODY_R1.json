@@ -1,0 +1,14 @@
+{
+  "file": "YURI_R4_C1_REACH_ACTIONS_ONLY_R1.blend",
+  "bytes": 633603,
+  "sha256": "16d7e8e996eb76cbb79ceffa6bfb123a30b3a1d0a3ade94ff88a22edae8cd57f",
+  "actions": [
+    "YURI_R4_C1_REACH_BODY_R1",
+    "YURI_R4_C1_REACH_BODY_HEAD_TRANSPORT_R1",
+    "YURI_R4_C1_REACH_BODY_HAIR_TRANSPORT_R1",
+    "YURI_R4_C1_REACH_ROOT_PATH_R1"
+  ],
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0
+}
