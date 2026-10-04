@@ -568,5 +568,32 @@
     "new_candidate_count": 1,
     "TierP": 0,
     "next_recommendation": "Root endpoint velocity/tangent constraint with original BODY curves/frozen stance mask; unexecuted. Consumer fresh candidate reopen and Unity root delta accumulation remain."
+  },
+  "walk_root_endpoint_c2": {
+    "status": "ROOT_ENDPOINT_SEAM_WORSENING_REMOVED_NATIVE_BODY_DERIVATIVE_HOLD",
+    "root_boundary_velocity_m_per_s_before_after": [
+      0.0201723575592041,
+      0.0
+    ],
+    "body_seam_m_per_s_before_after": [
+      0.08950744574227577,
+      0.07018240173265813
+    ],
+    "body_uniform_root_translation_lower_bound_m_per_s": 0.05602733737698529,
+    "sole_drift_max_mm": 2.042213703585639,
+    "right_sole_drift_mm_before_after": [
+      1.201736924335607,
+      1.8448996941307314
+    ],
+    "actual_accumulated_two_cycles_192frames_24fps_8sec": true,
+    "C1_C2_fresh_serialized_OFF_preserved": true,
+    "candidate_SHA": "16505cad36e795cd5f08e6df13e8233b9ea9849518cc8597bbe1fec691276dc1",
+    "library_SHA": "b0d63636378e65478d8cd269facbdcd7bae756de2d6b04e6ce65a074427bfa01",
+    "packet_SHA": "2986aafb398a2626f8603ce9e953324ea9332366215e666dca3bfe10ad7aeb15",
+    "one_saved_candidate": true,
+    "first_modifier_assumption_failure_preserved": true,
+    "cached_C1_cycle1_affine_reframe_disclosed": true,
+    "TierP": 0,
+    "next_recommendation": "Separate source BODY endpoint derivative audit with sole QA; unexecuted. No root strength sweep."
   }
 }

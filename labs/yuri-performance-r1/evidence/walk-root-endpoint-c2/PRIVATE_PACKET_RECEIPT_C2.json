@@ -1,0 +1,15 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_WALK_ROOT_ENDPOINT_EXPERIMENT_C2_20261005.zip",
+  "sha256": "2986aafb398a2626f8603ce9e953324ea9332366215e666dca3bfe10ad7aeb15",
+  "bytes": 127287179,
+  "members": 1518,
+  "indexed_members": 1517,
+  "CRC_SHA_size_all_verified": true,
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "C1_candidate_SHA": "d5018ac15af694f87c8cc6e9097c6cadf66d268b3f5c68d9fc9afa11b88b88fc",
+  "candidate_SHA": "16505cad36e795cd5f08e6df13e8233b9ea9849518cc8597bbe1fec691276dc1",
+  "library_SHA": "b0d63636378e65478d8cd269facbdcd7bae756de2d6b04e6ce65a074427bfa01",
+  "closed_once": true,
+  "status": "ROOT_ENDPOINT_SEAM_WORSENING_REMOVED_NATIVE_BODY_DERIVATIVE_HOLD",
+  "TierP": 0
+}
