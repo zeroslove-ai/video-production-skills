@@ -1,0 +1,10 @@
+{
+  "packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_DANCE_STATIC03_16_FAIL_CONTROL_R1_20261005.zip",
+  "sha256": "6b8d18971087eb200bfd85235c3670cf1d27f1e46757013d639059f1a0c421dd",
+  "bytes": 60281480,
+  "members": 62,
+  "indexed_members": 61,
+  "all_CRC_SHA_size_verified": true,
+  "closed_once": true,
+  "verdict": "FAIL_HOLD_STATIC_SOURCE_EXPERIMENT_ONLY"
+}

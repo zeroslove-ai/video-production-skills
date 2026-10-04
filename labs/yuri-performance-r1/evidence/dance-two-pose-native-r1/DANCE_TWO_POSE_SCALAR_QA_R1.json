@@ -1,0 +1,338 @@
+{
+  "task": "ROOT_PM_DANCE_TWO_POSE_NATIVE_QA_R1",
+  "date": "2026-10-05",
+  "verdict": "FAIL_HOLD_STATIC_SOURCE_EXPERIMENT_ONLY",
+  "source": {
+    "file": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+    "sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "bytes": 26553642
+  },
+  "candidate": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\dance-two-pose-native-r1\\Character_R4_DanceStatic03_16_EXPERIMENT_OFF_R1_20261005.blend",
+    "sha256": "4b618baf6086b6e2ed77492945942c7da07fd5fff06c2793795eb5f86c62faae",
+    "bytes": 26585635
+  },
+  "action_only_library": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\dance-two-pose-native-r1\\YURI_R4_DANCE_STATIC03_16_ACTIONS_ONLY_R1.blend",
+    "sha256": "47ba39607a241eda004950c637087792c002f984745955b420f1dba7363456d1",
+    "bytes": 156013,
+    "actions": 2,
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0
+  },
+  "rows": [
+    {
+      "pose": "03",
+      "changed_bones": [
+        "thigh.L",
+        "shin.L",
+        "foot.L",
+        "upper_arm.R",
+        "forearm.R",
+        "upper_arm.L",
+        "forearm.L"
+      ],
+      "quaternion_delta_degrees": {
+        "thigh.L": 35.00000666578804,
+        "shin.L": 65.00000750061409,
+        "foot.L": 30.000007665015225,
+        "upper_arm.R": 110.38422396913933,
+        "forearm.R": 3.666246190316445,
+        "upper_arm.L": 34.58474823972419,
+        "forearm.L": 110.76852456279009
+      },
+      "actual_sole": {
+        "L": {
+          "vertices": 2402,
+          "bottom_patch_vertices": 120,
+          "source_min_gap_m": 0.00031701252162237743,
+          "posed_min_gap_m": 0.08832540615499784,
+          "source_patch_gap_range_m": [
+            0.00031701252162237743,
+            0.0023120164806483823
+          ],
+          "posed_patch_gap_range_m": [
+            0.08832540615499784,
+            0.09090759229503842
+          ],
+          "max_patch_drift_m": 0.09007627934995081,
+          "max_all_foot_vertices_drift_m": 0.09654917256909838
+        },
+        "R": {
+          "vertices": 2430,
+          "bottom_patch_vertices": 109,
+          "source_min_gap_m": 0.0001998544105413118,
+          "posed_min_gap_m": 0.0001998544105413118,
+          "source_patch_gap_range_m": [
+            0.0001998544105413118,
+            0.00219058736614694
+          ],
+          "posed_patch_gap_range_m": [
+            0.0001998544105413118,
+            0.00219058736614694
+          ],
+          "max_patch_drift_m": 0.0,
+          "max_all_foot_vertices_drift_m": 0.0
+        }
+      },
+      "deformation": {
+        "finite": true,
+        "topology_identical": true,
+        "edge_ratio_min": 0.049646887258700714,
+        "edge_ratio_max": 21.31683105080385,
+        "edge_ratio_p01_p99": [
+          0.5990874156975711,
+          1.4623480833039104
+        ],
+        "source_zero_edges_skipped": 0,
+        "scope": "Evaluated world geometry; edge ratios are deformation diagnostics, not anatomical ROM limits or volume certification."
+      },
+      "inclusive_counts": {
+        "L": {
+          "inclusive_triangles": 27931,
+          "nonadjacent_all_body": 64,
+          "shared_vertex_adjacent_raw": 4552,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "inclusive_triangles": 27785,
+          "nonadjacent_all_body": 0,
+          "shared_vertex_adjacent_raw": 4837,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "left_leg": {
+          "inclusive_triangles": 35213,
+          "nonadjacent_all_body": 16,
+          "shared_vertex_adjacent_raw": 6069,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_pairs_vs_source": {
+        "L__all_body_nonadjacent": 64,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 0,
+        "R__head": 0,
+        "R__hair": 0,
+        "left_leg__all_body_nonadjacent": 16,
+        "left_leg__head": 0,
+        "left_leg__hair": 0
+      },
+      "crossing": null,
+      "clearance_diagnostics": {
+        "L__opposite_arm": {
+          "min_vertex_to_triangle_m": 0.0012504648184403777,
+          "query_vertices": 13825,
+          "target_triangles": 18531,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "L__remote_body": {
+          "min_vertex_to_triangle_m": 0.000663559592794627,
+          "query_vertices": 13825,
+          "target_triangles": 99109,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "R__opposite_arm": {
+          "min_vertex_to_triangle_m": 0.0013274570228531957,
+          "query_vertices": 13749,
+          "target_triangles": 18677,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "R__remote_body": {
+          "min_vertex_to_triangle_m": 0.000841416884213686,
+          "query_vertices": 13749,
+          "target_triangles": 99255,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        }
+      },
+      "contact_verdict": "FAIL/HOLD",
+      "geometric_floor_verdict": "MEASURED_ONLY_NO_FORCE_COM_PHYSX",
+      "static_only": true,
+      "TierP": 0
+    },
+    {
+      "pose": "16",
+      "changed_bones": [
+        "upper_arm.R",
+        "forearm.R",
+        "upper_arm.L",
+        "forearm.L"
+      ],
+      "quaternion_delta_degrees": {
+        "upper_arm.R": 32.00367097879515,
+        "forearm.R": 116.3976932691478,
+        "upper_arm.L": 13.751781639045905,
+        "forearm.L": 140.58956761117264
+      },
+      "actual_sole": {
+        "L": {
+          "vertices": 2402,
+          "bottom_patch_vertices": 120,
+          "source_min_gap_m": 0.00031701252162237743,
+          "posed_min_gap_m": 0.00031701252162237743,
+          "source_patch_gap_range_m": [
+            0.00031701252162237743,
+            0.0023120164806483823
+          ],
+          "posed_patch_gap_range_m": [
+            0.00031701252162237743,
+            0.0023120164806483823
+          ],
+          "max_patch_drift_m": 0.0,
+          "max_all_foot_vertices_drift_m": 0.0
+        },
+        "R": {
+          "vertices": 2430,
+          "bottom_patch_vertices": 109,
+          "source_min_gap_m": 0.0001998544105413118,
+          "posed_min_gap_m": 0.0001998544105413118,
+          "source_patch_gap_range_m": [
+            0.0001998544105413118,
+            0.00219058736614694
+          ],
+          "posed_patch_gap_range_m": [
+            0.0001998544105413118,
+            0.00219058736614694
+          ],
+          "max_patch_drift_m": 0.0,
+          "max_all_foot_vertices_drift_m": 0.0
+        }
+      },
+      "deformation": {
+        "finite": true,
+        "topology_identical": true,
+        "edge_ratio_min": 0.11630433855833607,
+        "edge_ratio_max": 3.7058227728798885,
+        "edge_ratio_p01_p99": [
+          0.9246879393028214,
+          1.2293935615587543
+        ],
+        "source_zero_edges_skipped": 0,
+        "scope": "Evaluated world geometry; edge ratios are deformation diagnostics, not anatomical ROM limits or volume certification."
+      },
+      "inclusive_counts": {
+        "L": {
+          "inclusive_triangles": 27931,
+          "nonadjacent_all_body": 533,
+          "shared_vertex_adjacent_raw": 4578,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "R": {
+          "inclusive_triangles": 27785,
+          "nonadjacent_all_body": 278,
+          "shared_vertex_adjacent_raw": 4601,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        },
+        "left_leg": {
+          "inclusive_triangles": 35213,
+          "nonadjacent_all_body": 38,
+          "shared_vertex_adjacent_raw": 6892,
+          "identical_triangle_raw": 0,
+          "head_intersections": 0,
+          "hair_intersections": 0
+        }
+      },
+      "new_pairs_vs_source": {
+        "L__all_body_nonadjacent": 533,
+        "L__head": 0,
+        "L__hair": 0,
+        "R__all_body_nonadjacent": 278,
+        "R__head": 0,
+        "R__hair": 0,
+        "left_leg__all_body_nonadjacent": 38,
+        "left_leg__head": 0,
+        "left_leg__hair": 0
+      },
+      "crossing": {
+        "R_parameter": 1.156475305557251,
+        "L_parameter": 1.3402694463729858,
+        "both_within_forearms": false,
+        "R_y_m": -0.1535288542509079,
+        "L_y_m": -0.08354044705629349,
+        "R_camera_nearer_depth_m": 0.06998840719461441,
+        "right_nearer_front_camera": true,
+        "scope": "Bone centerline projected crossing, separate from actual surface intersection/clearance."
+      },
+      "clearance_diagnostics": {
+        "L__opposite_arm": {
+          "min_vertex_to_triangle_m": 0.0012298208894208074,
+          "query_vertices": 13825,
+          "target_triangles": 18531,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "L__remote_body": {
+          "min_vertex_to_triangle_m": 0.0006489033112302423,
+          "query_vertices": 13825,
+          "target_triangles": 99109,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "R__opposite_arm": {
+          "min_vertex_to_triangle_m": 8.544495358364657e-06,
+          "query_vertices": 13749,
+          "target_triangles": 18677,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        },
+        "R__remote_body": {
+          "min_vertex_to_triangle_m": 8.544495358364657e-06,
+          "query_vertices": 13749,
+          "target_triangles": 99255,
+          "scope": "ANY summed relevant arm/digit weight>.01 query; target excludes triangles touching same cohort to avoid own/skin adjacency. Shoulder boundary may yield near-zero; all-body inclusive nonadjacent intersection gate separately includes these triangles. Distance alone not complete triangle-triangle minimum or containment."
+        }
+      },
+      "contact_verdict": "FAIL/HOLD",
+      "geometric_floor_verdict": "MEASURED_ONLY_NO_FORCE_COM_PHYSX",
+      "static_only": true,
+      "TierP": 0
+    }
+  ],
+  "OFF_pixel": {
+    "shape": [
+      920,
+      960,
+      4
+    ],
+    "changed_RGBA_pixels": 0,
+    "max_channel_error": 0,
+    "authoritative_SHA": "7bfe2b118fa23ef9ce0a4f31a788df904abad34a91373e093096b2b40f21ceee",
+    "candidate_OFF_SHA": "1d6474796fe704720d4292456d955f4f02d7a5ba800bc67dde9a2cffebc7e93d"
+  },
+  "OFF_source_Action_library_snapshot_equal": true,
+  "candidate_raw_OFF_texture_path_string_diffs": 6,
+  "packed_texture_bytes_identical": true,
+  "candidate_other_snapshot_categories_equal": true,
+  "candidate_raw_path_signature_PASS": false,
+  "guard_statuses": {
+    "inspect": {
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "sha256": "c8326fdd5ce01f205859c8e30cf3db180375a2057cb38b9648906e615e7071d2",
+      "terminal_exit_code": 0,
+      "active_after_cleanup": 0
+    },
+    "native": {
+      "status": "FAIL",
+      "sha256": "840eb37cbe2ee2e961ba1566fa9274c7e53d1e680f1a8ea452df6c518faaf340",
+      "terminal_exit_code": 95,
+      "active_after_cleanup": 0
+    },
+    "off-verify": {
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+      "sha256": "51d2ca85335288c1b3445aba1b5df95369d717f424c3659ed5b131da5454a3ee",
+      "terminal_exit_code": 0,
+      "active_after_cleanup": 0
+    }
+  },
+  "static_only": true,
+  "06_14": "PENDING",
+  "TierP": 0
+}

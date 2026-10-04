@@ -397,5 +397,25 @@
     "actual_rig_QA": "PENDING",
     "source_product_changes": 0,
     "TierP": 0
+  },
+  "dance_two_pose_native_QA_r1": {
+    "date": "2026-10-05",
+    "verdict": "FAIL_HOLD_STATIC_SOURCE_EXPERIMENT_ONLY",
+    "poses_tested": [
+      "03",
+      "16"
+    ],
+    "06_14": "PENDING",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "4b618baf6086b6e2ed77492945942c7da07fd5fff06c2793795eb5f86c62faae",
+    "action_library_SHA": "47ba39607a241eda004950c637087792c002f984745955b420f1dba7363456d1",
+    "OFF_RGBA_changed_pixels": 0,
+    "source_action_ON_OFF_full_snapshot_equal": true,
+    "raw_candidate_texture_path_string_diff_not_waived": 6,
+    "packet_SHA": "6b8d18971087eb200bfd85235c3670cf1d27f1e46757013d639059f1a0c421dd",
+    "packet_bytes": 60281480,
+    "report": "evidence/dance-two-pose-native-r1/YURI_DANCE_TWO_POSE_NATIVE_QA_R1.md",
+    "next": "STOP at one failed batch; future alternative native elbow pole/twist and two-segment reach fitting only proposed",
+    "TierP": 0
   }
 }

@@ -1,0 +1,8 @@
+import bpy,json,sys,hashlib
+from pathlib import Path
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');O=B/'dance-two-pose-inspect-r1';O.mkdir(exist_ok=False)
+p=Path('C:/Users/JAEWAN/scratch/YURI_COMMON_MOTION_CURATION_R1/provisional-first4-r1/target-reference/Character_Master_NeckSkin_R4.blend')
+assert hashlib.sha256(p.read_bytes()).hexdigest()=='a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa'
+bpy.ops.wm.open_mainfile(filepath=str(p),use_scripts=False);s=bpy.context.scene;r=bpy.data.objects['Meshy_Fitted_Rig']
+d={'frame':s.frame_current,'floor_objects':[{ 'name':o.name,'type':o.type,'location':list(o.location),'dimensions':list(o.dimensions)} for o in s.objects if o.type=='MESH'],'rig_matrix':[list(x) for x in r.matrix_world],'camera':{'loc':list(s.camera.location),'rot':list(s.camera.rotation_euler),'type':s.camera.data.type,'ortho':s.camera.data.ortho_scale},'bones':{b.name:{'parent':b.parent.name if b.parent else None,'head_world':list(r.matrix_world@b.head),'tail_world':list(r.matrix_world@b.tail),'rotation_mode':b.rotation_mode,'quat':list(b.rotation_quaternion),'basis':[list(x) for x in b.matrix_basis],'matrix':[list(x) for x in b.matrix],'rest':[list(x) for x in b.bone.matrix_local],'constraints':[c.type for c in b.constraints]} for b in r.pose.bones},'group_names':[g.name for g in bpy.data.objects['Meshy_Body_NeutralCovered'].vertex_groups],'rig_constraints':[c.type for c in r.constraints],'actions':list(bpy.data.actions.keys())}
+(O/'NATIVE_R4_INSPECT.json').write_text(json.dumps(d,indent=2),encoding='utf8');print('NATIVE_R4_INSPECT_DONE',flush=True)
