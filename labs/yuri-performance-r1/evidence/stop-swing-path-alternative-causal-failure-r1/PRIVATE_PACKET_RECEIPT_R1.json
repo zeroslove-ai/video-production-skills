@@ -1,0 +1,15 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_STOP_SWING_PATH_CAUSAL_FAILURE_R1_20261004.zip",
+  "bytes": 97004016,
+  "sha256": "9c506d795f5ed52a9da377d56e358f8b67b43c8f03bf107789b6d1073dbed1a4",
+  "members": 99,
+  "indexed_members": 98,
+  "CRC_all_members": "PASS",
+  "all_indexed_member_bytes_SHA": "PASS",
+  "candidate_bytes": 27835978,
+  "candidate_sha256": "41919106ed29839f096bc3647fa5502f38815fb7d790854cdcd5532c1a3625e6",
+  "control_sha256": "57d9aea9e6baa624914c572d5190d62a96ecb84a6afb3c543172b4dc6df758f6",
+  "authority_sha256": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_motion_quality": "FAIL_KNEE_DEPTH_BRANCH_POP",
+  "promoted": false
+}

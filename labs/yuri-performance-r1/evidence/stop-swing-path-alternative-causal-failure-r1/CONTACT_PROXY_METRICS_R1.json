@@ -1,0 +1,160 @@
+{
+  "same_spans": {
+    "81_98": {
+      "before": {
+        "L": {
+          "XY_range_m": [
+            0.014600962189196834,
+            0.09386699579235924
+          ],
+          "max_XY_speed_m_s": 0.4557988949221672,
+          "lowest_vertex_clearance_range_m": [
+            -4.9313471601065115e-08,
+            3.215164630045955e-08
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.012257602431283932,
+            0.2967375929501206
+          ],
+          "max_XY_speed_m_s": 0.7411544145760444,
+          "lowest_vertex_clearance_range_m": [
+            0.0030015252326172468,
+            0.02023556584275794
+          ]
+        }
+      },
+      "after": {
+        "L": {
+          "XY_range_m": [
+            0.014600962189196834,
+            0.09386699579235924
+          ],
+          "max_XY_speed_m_s": 0.4557988949221672,
+          "lowest_vertex_clearance_range_m": [
+            -4.9313471601065115e-08,
+            3.215164630045955e-08
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.012257602431283932,
+            0.2967375929501206
+          ],
+          "max_XY_speed_m_s": 0.7411544145760444,
+          "lowest_vertex_clearance_range_m": [
+            0.0030015252326172468,
+            0.02023556584275794
+          ]
+        }
+      },
+      "semantics": "UNLABELED original procedural ground-skimming transfer; unchanged, no new authored donor/contact labels, remains HOLD."
+    },
+    "243_264": {
+      "before": {
+        "L": {
+          "XY_range_m": [
+            0.05403508107665855,
+            0.12165822226542122
+          ],
+          "max_XY_speed_m_s": 0.5916310463013288,
+          "lowest_vertex_clearance_range_m": [
+            3.01586158930828e-08,
+            0.035255983703101415
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.03780906764979068,
+            0.09671158243496336
+          ],
+          "max_XY_speed_m_s": 0.4624666324112706,
+          "lowest_vertex_clearance_range_m": [
+            6.989637407328078e-09,
+            0.03786097808312401
+          ]
+        }
+      },
+      "after": {
+        "L": {
+          "XY_range_m": [
+            0.05403508107665855,
+            0.12165822226542122
+          ],
+          "max_XY_speed_m_s": 0.5905664853272008,
+          "lowest_vertex_clearance_range_m": [
+            3.01586158930828e-08,
+            0.03525594782855408
+          ]
+        },
+        "R": {
+          "XY_range_m": [
+            0.03780906764979068,
+            0.09671158243496336
+          ],
+          "max_XY_speed_m_s": 0.4624666324112706,
+          "lowest_vertex_clearance_range_m": [
+            6.989637407328078e-09,
+            0.03786097808312401
+          ]
+        }
+      },
+      "semantics": "Before57d9 existing L-first/R-second step has medial L knee crossover near248. After same foot-cohort goals/order and existing35mm lift/pelvis motion, with geometry-guided L knee corridor only. No added pelvis lowering. Contact labels remain procedural."
+    }
+  },
+  "procedural_support": {
+    "R": {
+      "before_same_frame_window_XY_range_m": [
+        1.9673017726859476e-05,
+        5.9281684357648246e-05
+      ],
+      "before_same_frame_window_max_XY_speed_m_s": 0.0012442324306041423,
+      "frames": [
+        244,
+        253
+      ],
+      "annotation": "procedural support; sole cohort proxy, not physical stance certification",
+      "XY_range_m": [
+        1.9673017726859476e-05,
+        5.9281684357648246e-05
+      ],
+      "max_XY_speed_m_s": 0.0012442324306041423,
+      "RMS_XY_speed_m_s": 0.0006145187806854165
+    },
+    "L": {
+      "before_same_frame_window_XY_range_m": [
+        2.7510854502088566e-05,
+        5.883684880769735e-05
+      ],
+      "before_same_frame_window_max_XY_speed_m_s": 0.0012721272185947468,
+      "frames": [
+        253,
+        263
+      ],
+      "annotation": "procedural support; sole cohort proxy, not physical stance certification",
+      "XY_range_m": [
+        2.7510854502088566e-05,
+        5.883684880769735e-05
+      ],
+      "max_XY_speed_m_s": 0.0012721272185947468,
+      "RMS_XY_speed_m_s": 0.0006595587211510496
+    }
+  },
+  "knee_direction_diagnostic": {
+    "L": {
+      "reliable_plane_samples": 20,
+      "min_before_after_bend_plane_cosine": 0.41176141491092544,
+      "note": "Near-straight configurations omitted below1e-4 cross magnitude. Plane cosine is diagnostic, not a flip/self-intersection certificate."
+    },
+    "R": {
+      "reliable_plane_samples": 20,
+      "min_before_after_bend_plane_cosine": 0.9999999999999997,
+      "note": "Near-straight configurations omitted below1e-4 cross magnitude. Plane cosine is diagnostic, not a flip/self-intersection certificate."
+    }
+  },
+  "root_unchanged_all293": true,
+  "unmodified284_vertex_hash_exact": true,
+  "max_solve_residual_m": 0.00015221888928606763,
+  "source_contact_ground_truth": false
+}

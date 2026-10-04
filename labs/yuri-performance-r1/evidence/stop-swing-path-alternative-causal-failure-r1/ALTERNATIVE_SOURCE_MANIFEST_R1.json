@@ -1,0 +1,52 @@
+{
+  "candidate": {
+    "task": "ROOT_PM_STOP_CONTACT_R3_VISIBLE_REGRESSION_REVIEW",
+    "baseline_SHA": "57d9aea9e6baa624914c572d5190d62a96ecb84a6afb3c543172b4dc6df758f6",
+    "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\stop-swing-path-alt-candidate-r1\\Character_R4_StopSwingPath_ALT_CANDIDATE_OFF_R1_20261004.blend",
+    "candidate_bytes": 27835978,
+    "candidate_SHA": "41919106ed29839f096bc3647fa5502f38815fb7d790854cdcd5532c1a3625e6",
+    "additive_body_actions": {
+      "Meshy_Fitted_Rig": "YURI_R4_WALK_TURN_STOP_BODY_SWING_PATH_ALT_R1",
+      "Armature": "YURI_R4_WALK_TURN_STOP_BODY_HEAD_TRANSPORT_SWING_PATH_ALT_R1",
+      "Hair_Rig_R4": "YURI_R4_WALK_TURN_STOP_BODY_HAIR_TRANSPORT_SWING_PATH_ALT_R1",
+      "Assembly_Root": "YURI_R4_WALK_TURN_STOP_ROOT_PATH_SWING_PATH_ALT_R1"
+    },
+    "frames": [
+      1,
+      293
+    ],
+    "source_fps": 30,
+    "source_scene_fps": 24,
+    "modified_frames": [
+      244,
+      252
+    ],
+    "only_changed_channels": "Native L thigh/shin/foot quaternion only244..252, same foot-cohort goals; smooth world-knee-X corridor guided by actual hip/knee/support geometry. Original current candidate pelvis/upper body/head/hair/carrier exact all293.",
+    "all293_native_mesh_finite": true,
+    "all284_unmodified_frames_evaluated_world_vertex_hash_identical": true,
+    "original_OFF_all86_prior_actions_exact": true,
+    "procedural_stance_labels": "L swing244..252/support253..263; R support244..253/swing254..262; endpoint support263. Inferred design, not donor labels.",
+    "clearance_m": 0.035,
+    "additional_pelvis_lowering_m": 0,
+    "swing_order": "Same L-first, R-first not selected: actual foot paths do not cross; medial knee path is evidenced target.",
+    "max_solver_residual_m": 0.00015221888928606763,
+    "original_R3_immutable": true,
+    "world_root_trajectory_unchanged": true,
+    "TierP": 0,
+    "visual_contact_physics_Unity_F2_F3": "PENDING; no promotion",
+    "before_after_visual": "PENDING fixed camera1x"
+  },
+  "baseline_SHA": "57d9aea9e6baa624914c572d5190d62a96ecb84a6afb3c543172b4dc6df758f6",
+  "authority_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_quality_verdict": "FAIL_KNEE_DEPTH_BRANCH_POP",
+  "source_promoted": false,
+  "control_replaced": false,
+  "one_alternative_only": true,
+  "native_OFF_preserved": true,
+  "fullRGBA_difference": 0,
+  "more_pelvis_lowering_m": 0,
+  "full293_upperbody_face_hair_root_path_exact": true,
+  "TierP": 0,
+  "StageB_O1_PRIMARY_Unity_F2_F3": "HOLD",
+  "candidate_vs_control": "Alternative stored as failed evidence only; prior MIXED57d9 and original35c5/08caad7 remain immutable."
+}

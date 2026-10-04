@@ -1,0 +1,95 @@
+"""ONE source-only stop bridge procedural-step correction; existing native bones only."""
+import bpy,json,hashlib,sys,math,numpy as np
+from pathlib import Path
+from mathutils import Vector,Quaternion
+HERE=Path(__file__).resolve().parent;sys.path.insert(0,str(HERE))
+from r4_appearance_signature import snapshot
+from r4_appearance_adapter import ReactionLane
+BASE=Path(r'C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');OUT=BASE/'stop-swing-path-alt-candidate-r1';OUT.mkdir(exist_ok=False)
+R3=BASE/'walk-contact-candidate-r3/Character_R4_Walk_StopContact_CANDIDATE_OFF_R3_20261004.blend';EXPECTED='57d9aea9e6baa624914c572d5190d62a96ecb84a6afb3c543172b4dc6df758f6'
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def dump(n,v):
+ with (OUT/n).open('x',encoding='utf8') as f:json.dump(v,f,indent=2)
+assert sha(R3)==EXPECTED;bpy.ops.wm.open_mainfile(filepath=str(R3),use_scripts=False)
+s=bpy.context.scene;rig=bpy.data.objects['Meshy_Fitted_Rig'];body=bpy.data.objects['Meshy_Body_NeutralCovered'];carrier=bpy.data.objects['Assembly_Root'];original=[a.name for a in bpy.data.actions];before=snapshot(original);dump('OFF_BEFORE_SIGNATURE_PRIVATE_R1.json',before)
+def points():
+ e=body.evaluated_get(bpy.context.evaluated_depsgraph_get());m=e.to_mesh();buf=np.empty(len(m.vertices)*3,np.float32);m.vertices.foreach_get('co',buf);w=np.array(e.matrix_world,dtype=np.float64);v=buf.reshape(-1,3).astype(np.float64)@w[:3,:3].T+w[:3,3];e.to_mesh_clear();return v
+ref_head=rig.matrix_world@rig.pose.bones['head'].matrix;ref_face=bpy.data.objects['Armature'].matrix_world@bpy.data.objects['Armature'].pose.bones['Root'].matrix;ref_hair=bpy.data.objects['Hair_Rig_R4'].matrix_world@bpy.data.objects['Hair_Rig_R4'].pose.bones['Hair_HeadRoot'].matrix
+neutral=points();floor=float(neutral[:,2].min());sole={side:np.where((neutral[:,2]<floor+.028)&((neutral[:,0]>.00195) if side=='L' else (neutral[:,0]<.00195)))[0] for side in ['L','R']};assert all(len(v)>10 for v in sole.values())
+old={'Meshy_Fitted_Rig':'YURI_R4_WALK_TURN_STOP_BODY_CONTACT_R3','Armature':'YURI_R4_WALK_TURN_STOP_BODY_HEAD_TRANSPORT_CONTACT_R3','Hair_Rig_R4':'YURI_R4_WALK_TURN_STOP_BODY_HAIR_TRANSPORT_CONTACT_R3','Assembly_Root':'YURI_R4_WALK_TURN_STOP_ROOT_PATH_CONTACT_R3'}
+lanes={name:ReactionLane(name) for name in ['Meshy_Fitted_Rig','Armature','Hair_Rig_R4']}
+for n,l in lanes.items():l.on(old[n])
+ad=carrier.animation_data;saved={'had':ad is not None,'action':ad.action if ad else None,'slot':ad.action_slot if ad else None,'handle':ad.action_slot_handle if ad else 0,'last':ad.last_slot_identifier if ad else '', 'loc':carrier.location.copy()};carrier.animation_data_create().action=bpy.data.actions[old['Assembly_Root']];carrier.animation_data.action_slot=carrier.animation_data.action.slots[0]
+def observe(f):
+ s.frame_set(f);bpy.context.view_layer.update();v=points();assert np.isfinite(v).all();j={n:list((rig.matrix_world@rig.pose.bones[n].matrix).translation) for n in ['root','pelvis','head','hand.L','hand.R','foot.L','foot.R','thigh.L','shin.L','thigh.R','shin.R']}
+ return {'frame':f,'body_world_vertex_hash':hashlib.sha256(v.tobytes()).hexdigest(),'carrier':list(carrier.location),'joints':j,'soles':{side:{'centroid':v[idx].mean(0).tolist(),'min_z_offset_m':float(v[idx,2].min()-floor)} for side,idx in sole.items()},'head_root':list((bpy.data.objects['Armature'].matrix_world@bpy.data.objects['Armature'].pose.bones['Root'].matrix).translation),'hair_root':list((bpy.data.objects['Hair_Rig_R4'].matrix_world@bpy.data.objects['Hair_Rig_R4'].pose.bones['Hair_HeadRoot'].matrix).translation)}
+CACHE=BASE/'walk-contact-candidate-r3/AFTER_FULL_NATIVE_PRIVATE_R1.json';baseline=json.loads(CACHE.read_bytes());assert [r['frame'] for r in baseline]==list(range(1,294))
+for f in [1,243,263,293]:assert observe(f)['body_world_vertex_hash']==baseline[f-1]['body_world_vertex_hash']
+dump('R3_FULL_NATIVE_BASELINE_PRIVATE_R1.json',baseline);dump('BASELINE_CACHE_CUSTODY_R1.json',{'cache':str(CACHE),'sha256':sha(CACHE),'source_SHA':EXPECTED,'baseline_guard':'R3 PASS 3b0852d841402cfafd63dca4de4a80010e110bb2eb1f24bf1a4c539be788108c','new_native_anchor_exact':[1,243,263,293],'all273_other_frame_hashes_checked_again_after':True})
+new={}
+for obj,name in old.items():
+ a=bpy.data.actions[name].copy();a.name=name.replace('_CONTACT_R3','_SWING_PATH_ALT_R1');a.use_fake_user=True;a['contact_scope']='Only244..263 stop bridge sequential procedural steps, not extracted/authored stance';new[obj]=a.name;bpy.data.objects[obj].animation_data.action=a;bpy.data.objects[obj].animation_data.action_slot=a.slots[0]
+# New procedural phase annotation: L swing first half, R planted; then R swing, L planted.
+# World root, pelvis and upper body remain EXACT R3. Native leg quaternion correction only.
+corrections=[]
+def keep_foot_world(side,wq):
+ foot=rig.pose.bones['foot.'+side];rel=foot.parent.bone.matrix_local.inverted()@foot.bone.matrix_local;desired=rig.matrix_world.to_quaternion().inverted()@wq
+ foot.rotation_quaternion=rel.to_quaternion().inverted()@foot.parent.matrix.to_quaternion().inverted()@desired;bpy.context.view_layer.update()
+def score(side):
+ v=points();idx=sole[side];return np.array([v[idx,0].mean(),v[idx,1].mean(),v[idx,2].min()-floor,(rig.matrix_world@rig.pose.bones['shin.'+side].matrix).translation.x])
+for f in range(244,253):
+ s.frame_set(f);bpy.context.view_layer.update();rec={'frame':f,'sides':{}}
+ for side in ['L']:
+  u=(f-243)/10;hip_x=(rig.matrix_world@rig.pose.bones['thigh.L'].matrix).translation.x;knee_x=(rig.matrix_world@rig.pose.bones['shin.L'].matrix).translation.x
+  target_knee_x=knee_x+max(0,hip_x-.005-knee_x)*math.sin(math.pi*u)**2
+  reference=baseline[f-1]['soles'][side]
+  goal=np.array([reference['centroid'][0],reference['centroid'][1],reference['min_z_offset_m'],target_knee_x])
+  bones=[rig.pose.bones[k+'.'+side] for k in ['thigh','shin']];baseq=[bone.rotation_quaternion.copy() for bone in bones];foot=rig.pose.bones['foot.'+side];wq=(rig.matrix_world@foot.matrix).to_quaternion();iterations=0
+  jac=None
+  for it in range(16):
+   current=score(side);res=goal-current
+   if np.linalg.norm(res)<.00020:break
+   originals=[bone.rotation_quaternion.copy() for bone in bones]
+   if jac is None or it==8:
+    jac=np.empty((4,6));eps=.001
+    for k in range(6):
+     axis=Vector(tuple(1 if i==k%3 else 0 for i in range(3)));bone=bones[k//3];bone.rotation_quaternion=originals[k//3]@Quaternion(axis,eps);bpy.context.view_layer.update();keep_foot_world(side,wq);jac[:,k]=(score(side)-current)/eps;bone.rotation_quaternion=originals[k//3];bpy.context.view_layer.update();keep_foot_world(side,wq)
+   delta=jac.T@np.linalg.solve(jac@jac.T+np.eye(4)*1e-7,res);length=np.linalg.norm(delta)
+   if length>.16:delta*=.16/length
+   best=False
+   for factor in [1,.5,.25]:
+    for k,bone in enumerate(bones):
+     vec=Vector(delta[k*3:k*3+3]*factor);bone.rotation_quaternion=originals[k]@Quaternion(vec.normalized(),vec.length) if vec.length>1e-10 else originals[k]
+    bpy.context.view_layer.update();keep_foot_world(side,wq)
+    if np.linalg.norm(goal-score(side))<np.linalg.norm(res):best=True;break
+   if not best:
+    for bone,q in zip(bones,originals):bone.rotation_quaternion=q
+    bpy.context.view_layer.update();keep_foot_world(side,wq);break
+   applied=delta*factor;observed=score(side)-current;denom=float(applied@applied)
+   if denom>1e-12:jac+=np.outer(observed-jac@applied,applied)/denom
+   iterations=it+1
+  actual=score(side);residual=float(np.linalg.norm(goal[:3]-actual[:3]));knee_residual=float(abs(goal[3]-actual[3]));angles=[q.rotation_difference(bone.rotation_quaternion).angle for q,bone in zip(baseq,bones)]
+  assert residual<.003 and knee_residual<.002,(f,side,residual,knee_residual)
+  assert max(angles)<.8,(f,side,angles)
+  rec['sides'][side]={'phase':'EXISTING_L_FIRST_SWING_WITH_COLLISION_AWARE_KNEE_PATH','phase_u':u,'foot_goal_unchanged':True,'knee_x_before_m':knee_x,'knee_x_target_m':target_knee_x,'knee_residual_m':knee_residual,'goal_centroid_XY_minZ':goal.tolist(),'actual_centroid_XY_minZ':score(side).tolist(),'solve_residual_m':residual,'iterations':iterations,'native_thigh_shin_delta_angles_rad':angles}
+  for bone in [*bones,foot]:bone.keyframe_insert('rotation_quaternion',frame=f,group=bone.name)
+ corrections.append(rec);print('SWING_PATH_ALT_FRAME',f,residual,knee_residual,flush=True)
+for layer in bpy.data.actions[new['Meshy_Fitted_Rig']].layers:
+ for strip in layer.strips:
+  for bag in strip.channelbags:
+   for fc in bag.fcurves:
+    for key in fc.keyframe_points:key.interpolation='LINEAR'
+after=[observe(f) for f in range(1,294)];assert all(a['body_world_vertex_hash']==b['body_world_vertex_hash'] for a,b in zip(baseline,after) if not 244<=a['frame']<=252)
+assert all(a['carrier']==b['carrier'] and a['head_root']==b['head_root'] and a['hair_root']==b['hair_root'] and a['joints']['head']==b['joints']['head'] and a['joints']['pelvis']==b['joints']['pelvis'] for a,b in zip(baseline,after))
+# Upper body changes only by <=10mm vertical pelvis support allowance, no root alteration.
+assert max(abs(a['joints']['head'][2]-b['joints']['head'][2]) for a,b in zip(baseline,after))<.0101
+# Candidate exact same evaluated geometry at all273 untouched frames supports image reuse.
+dump('CONTACT_PHASE_SOLVE_PRIVATE_R1.json',corrections);dump('AFTER_FULL_NATIVE_PRIVATE_R1.json',after)
+for lane in reversed(list(lanes.values())):lane.off()
+carrier.animation_data.action=saved['action']
+if saved['action'] and saved['slot']:carrier.animation_data.action_slot=saved['slot']
+carrier.animation_data.action_slot_handle=saved['handle'];carrier.animation_data.last_slot_identifier=saved['last'];carrier.location=saved['loc']
+if not saved['had']:carrier.animation_data_clear()
+bpy.context.view_layer.update();off=snapshot(original);dump('OFF_AFTER_SIGNATURE_PRIVATE_R1.json',off);assert before==off
+file=OUT/'Character_R4_StopSwingPath_ALT_CANDIDATE_OFF_R1_20261004.blend';bpy.ops.wm.save_as_mainfile(filepath=str(file));assert sha(R3)==EXPECTED
+receipt={'task':'ROOT_PM_STOP_CONTACT_R3_VISIBLE_REGRESSION_REVIEW','baseline_SHA':EXPECTED,'candidate':str(file),'candidate_bytes':file.stat().st_size,'candidate_SHA':sha(file),'additive_body_actions':new,'frames':[1,293],'source_fps':30,'source_scene_fps':24,'modified_frames':[244,252],'only_changed_channels':'Native L thigh/shin/foot quaternion only244..252, same foot-cohort goals; smooth world-knee-X corridor guided by actual hip/knee/support geometry. Original current candidate pelvis/upper body/head/hair/carrier exact all293.','all293_native_mesh_finite':True,'all284_unmodified_frames_evaluated_world_vertex_hash_identical':True,'original_OFF_all86_prior_actions_exact':True,'procedural_stance_labels':'L swing244..252/support253..263; R support244..253/swing254..262; endpoint support263. Inferred design, not donor labels.','clearance_m':.035,'additional_pelvis_lowering_m':0,'swing_order':'Same L-first, R-first not selected: actual foot paths do not cross; medial knee path is evidenced target.','max_solver_residual_m':max(s['solve_residual_m'] for r in corrections for s in r['sides'].values()),'original_R3_immutable':True,'world_root_trajectory_unchanged':True,'TierP':0,'visual_contact_physics_Unity_F2_F3':'PENDING; no promotion','before_after_visual':'PENDING fixed camera1x'};dump('SWING_PATH_ALTERNATIVE_RECEIPT_R1.json',receipt);print(json.dumps(receipt),flush=True)

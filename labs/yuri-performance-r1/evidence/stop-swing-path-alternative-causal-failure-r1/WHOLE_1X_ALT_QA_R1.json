@@ -1,0 +1,42 @@
+{
+  "url": "http://127.0.0.1:8785/REVIEW_STOP_SWING_PATH_ALT_BEFORE_AFTER_R1.html",
+  "views": [
+    "front",
+    "quarter",
+    "side"
+  ],
+  "start_times_sec": [
+    0.193922,
+    0.193874,
+    0.193778
+  ],
+  "end_times_sec": [
+    9.766667,
+    9.766667,
+    9.766667
+  ],
+  "rates": [
+    1,
+    1,
+    1
+  ],
+  "ended": [
+    true,
+    true,
+    true
+  ],
+  "errors": [
+    null,
+    null,
+    null
+  ],
+  "whole293_native_samples_3movies_decode": "PASS",
+  "native_FPS": 30,
+  "original_source_scene_FPS": 24,
+  "source_quality_verdict": "FAIL_KNEE_DEPTH_BRANCH_POP",
+  "remaining_defects": [
+    "New X-only corridor improves frontal frame248 crossing but L knee switches depth branch247->248 by190.580mm per native frame. This is a temporal stop-continuity regression.",
+    "Original81..98 proxy bridge remains unmodified/HOLD; no donor authored contact labels.",
+    "Dedicated turn/stop missing; source-only procedural support labels and cohort numbers are not physical contact/Unity/final visual PASS."
+  ]
+}

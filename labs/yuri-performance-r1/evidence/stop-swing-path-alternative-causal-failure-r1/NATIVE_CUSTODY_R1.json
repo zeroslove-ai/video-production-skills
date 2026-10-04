@@ -1,0 +1,30 @@
+[
+  {
+    "run": "stop-swing-path-alt-candidate-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\stop-swing-path-alt-candidate-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "c4eb461338c3628078b07749acb64d12c115268fb9dab4d2b378953f214794ce",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 59.71598530001938
+  },
+  {
+    "run": "stop-swing-alt-off-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\stop-swing-alt-off-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "eeddb0d13854caea6a06b8495fe2a3383a981f448b20d252cc7a9ad2e0f390c3",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 27.19426060002297
+  },
+  {
+    "run": "stop-swing-alt-probe-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\stop-swing-alt-probe-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "32f6e35213babf693453d26ea7927d6b2651211a992b8fb588fb14198557fa31",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 9.015241699991748
+  },
+  {
+    "run": "stop-swing-alt-full-preview-broker-r1",
+    "receipt": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\stop-swing-alt-full-preview-broker-r1\\NATIVE_GUARD_RESULT.json",
+    "sha256": "51a9546227dec02160129c031994e0e9947527a61b0553211544c0dbba354898",
+    "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 17.809074699995108
+  }
+]
