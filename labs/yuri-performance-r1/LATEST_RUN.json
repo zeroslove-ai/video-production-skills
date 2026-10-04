@@ -245,5 +245,32 @@
     "report": "evidence/alpha-c1-neutral-supported-replant-r2/YURI_R4_C1_NEUTRAL_CONTACT_PATCH_R2.md",
     "TierP": 0,
     "next": "Neutral research now nonblocking. Inspect/reuse original66 TalkGesture as independent StageA/B native upper-body motion; preserve source grounded feet/root. No third neutral solver here."
+  },
+  "native_talk_source_r1": {
+    "task": "ROOT_PM_INDEPENDENT_STAGE_AB_TALK_SOURCE_R1",
+    "status": "SOURCE_ONLY_TECH_SCOPED_CONTACT_PASS_VISUAL_REFERENCE",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "c9b3b0c8e56c8f3182323a56085c8fe1d644f7fc3ddb9a1d7642893c20472a60",
+    "library_SHA": "eae83ac3143d91b45a75ddf0366389a1cc22d35919f2527e5dc2e60ba9f51761",
+    "packet_SHA": "135fdc26e5c071813ccf724ee6bd915fc6d2cbe9855d6ea0bdf4a17174ffe21f",
+    "original_source_Action": "MESHY_R2_BODY_TalkGesture",
+    "original_upper_native_curves_reused_exact": 84,
+    "upper_bones": 12,
+    "frames": [
+      1,
+      121
+    ],
+    "source_fps": 24,
+    "actual_source_sole_lower_root_finger_local_error": 0,
+    "fresh_source_ONLY3Actions_body_head_hair_geometry_endpoint_error": 0,
+    "OFF_RGBA_changed_pixels": 0,
+    "all121_both_arm_digit_surface_pairs": 0,
+    "complete_two_view_actual1x": "ended true/errornull5.041667seconds",
+    "report": "evidence/alpha-native-talk-source-r1/YURI_R4_NATIVE_TALK_SOURCE_R1.md",
+    "TierP": 0,
+    "face_gaze_original_drivers": "Preserved neutral; no final acting quality promotion",
+    "source_appearance_promoted": false,
+    "neutral_replant_research": "Closed R1/R2 FAIL/HOLD, nonblocking; no third solver attempt",
+    "next_bounded_task": "Independent source-component review; original facial/gaze timing requires separate actual source QA. Registered24 AI dance pair matrix remains pending and nonblocking."
   }
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "run": "o1-native-talk-intake-r1",
+    "SHA": "562107cdfa7265eb230240e547b0b6589533f75fab608fdaefeb142c14b4cbc8",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 20.625858000013977
+  },
+  {
+    "run": "o1-native-talk-candidate-r1",
+    "SHA": "a6f81f188c765f554f16f78baebe2fbbf0bf2343b31e5083744c92a24b023c31",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 28.3956623999984
+  },
+  {
+    "run": "o1-native-talk-preview-r1",
+    "SHA": "b1312547373f0e21d3af403830be704a7707ca90c7083fbf821f24df592efa1e",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 116.80633550003404
+  },
+  {
+    "run": "o1-native-talk-library-contact-qa-r1",
+    "SHA": "aff72771c75300c24af2e540745756c65e62c54730b491c96f35a863b1e5c0df",
+    "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+    "wall_seconds": 172.21089520002715
+  }
+]

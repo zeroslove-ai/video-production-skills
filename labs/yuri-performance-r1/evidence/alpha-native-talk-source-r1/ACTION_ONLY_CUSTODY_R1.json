@@ -1,0 +1,23 @@
+{
+  "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-talk-preview-r1\\YURI_R4_NATIVE_TALK_UPPER_ACTIONS_ONLY_R1.blend",
+  "SHA": "eae83ac3143d91b45a75ddf0366389a1cc22d35919f2527e5dc2e60ba9f51761",
+  "bytes": 1042654,
+  "Actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_NATIVE_TALK_UPPER_EXISTING_ACTION_R1",
+    "Armature": "YURI_R4_NATIVE_TALK_UPPER_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_NATIVE_TALK_UPPER_HAIR_TRANSPORT_R1"
+  },
+  "named_actions": 3,
+  "objects": 0,
+  "meshes": 0,
+  "armatures": 0,
+  "source_fps": 24,
+  "frame_range": [
+    1,
+    121
+  ],
+  "existing_66_source_Action_reused": "Original MESHY_R2_BODY_TalkGesture upper84native curves copied exactly into separate Action; source original unchanged",
+  "Face_gaze": "Original keys/drivers preserved neutral, body head rigid transport only",
+  "canonical_character": false,
+  "TierP": 0
+}

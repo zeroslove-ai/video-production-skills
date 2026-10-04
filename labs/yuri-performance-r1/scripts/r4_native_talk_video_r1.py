@@ -1,0 +1,18 @@
+"""Original24fps, every native frame and actual whole-playback review page."""
+from pathlib import Path
+import subprocess,json,hashlib
+from PIL import Image,ImageDraw
+import numpy as np
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');P=B/'alpha-native-talk-preview-r1';O=B/'alpha-native-talk-delivery-r1';O.mkdir(exist_ok=False);movies=[]
+for view in ['fullbody_front','waist_3q']:
+ assert len(list((P/view).glob('*.jpg')))==121;out=O/(view+'_NATIVE_TALK_1x.mp4');subprocess.run(['ffmpeg','-v','error','-framerate','24','-i',str(P/view/'%04d.jpg'),'-c:v','libx264','-preset','fast','-crf','18','-pix_fmt','yuv420p','-threads','2','-n',str(out)],check=True);subprocess.run(['ffmpeg','-v','error','-threads','2','-i',str(out),'-f','null','-'],check=True);probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(out)]));movies.append({'view':view,'file':str(out),'SHA':hashlib.sha256(out.read_bytes()).hexdigest(),'bytes':out.stat().st_size,'whole121_frame_decode':'PASS','probe':probe})
+ grid=Image.new('RGB',(13*144,10*164),'white');draw=ImageDraw.Draw(grid)
+ for ix in range(121):
+  x=(ix%13)*144;y=(ix//13)*164;grid.paste(Image.open(P/view/f'{ix+1:04}.jpg').resize((144,144)),(x,y+20));draw.text((x+2,y+2),f'f{ix+1}',fill='black')
+ grid.save(O/(view+'_ALL121_FRAMES_R1.jpg'),quality=95)
+before=np.asarray(Image.open(B/'alpha-a1-contact-qa-r3/CANDIDATE_OFF_SOURCE_CAMERA_NEUTRAL.png'));after=np.asarray(Image.open(P/'CANDIDATE_OFF_SOURCE_NEUTRAL_R1.png'));assert before.shape==after.shape;pixel={'dimensions':list(before.shape),'changed_RGBA_pixels':int(np.count_nonzero(np.any(before!=after,axis=2))),'max_channel_error':int(np.abs(before.astype(int)-after.astype(int)).max()),'PASS':bool(np.array_equal(before,after))};assert pixel['PASS'];(O/'OFF_PIXEL_ORACLE_R1.json').write_text(json.dumps(pixel,indent=2),encoding='utf-8');(O/'VIDEO_CUSTODY_R1.json').write_text(json.dumps(movies,indent=2),encoding='utf-8')
+html='<!doctype html><meta charset="utf-8"><title>Original R4 native TalkGesture source</title><style>body{background:#222;color:white;font:16px system-ui}section{display:flex;gap:8px}video{width:48%}button{padding:14px;font-size:18px}img{max-width:100%}</style><h1>Original R4 · existing TalkGesture upper-body source candidate</h1><p>121 native frames · original24fps ·5.041667seconds. Original66-action native quaternion TalkGesture reused;12upper bones84curves copied exactly into separate Action. Source rig/rest/skin/geometry/material/keys/drivers retained. Root, actual source soles and lower-bone matrices unchanged all121; original-neutral body at both endpoints. Face/gaze neutral preserved, head/hair rigid transport; body-only candidate, no North-Star/Unity/physics/TierP approval.</p><button onclick="document.querySelectorAll(\'video\').forEach(v=>{v.currentTime=0;v.playbackRate=1;v.play()})">Play both at normal speed</button><section>'
+for m in movies:html+=f'<video controls preload="auto" src="{Path(m["file"]).name}"></video>'
+html+='</section><p>Fixed full body front and waist3/4; both complete121frames at24fps. Full playback required; every-frame grids supplement. R1/R2 neutral-replant research remains FAIL/HOLD and nonblocking, no third solver attempt. This independent source upper-body motion can be reviewed separately. Read scalar contact/preservation report before reuse.</p>'
+for view in ['fullbody_front','waist_3q']:html+=f'<img src="{view}_ALL121_FRAMES_R1.jpg">'
+(O/'REVIEW_R4_NATIVE_TALK_SOURCE_R1.html').write_text(html,encoding='utf-8');print(json.dumps({'encoded_movies':2,'native_frames_each':121,'source_fps':24,'OFF_neutral_RGBA':pixel}))
