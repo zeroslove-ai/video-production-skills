@@ -1,0 +1,38 @@
+{
+  "candidate_SHA": "14bd0380b80885518388ff771afac0a3c5f25a4cc21d6c91ca22c6692f1c444b",
+  "native_phrase": [
+    289,
+    385,
+    24
+  ],
+  "matched_views": [
+    "front",
+    "quarter"
+  ],
+  "original_C1_capture_reused": true,
+  "C2_only_new_capture": true,
+  "whole_native1x_UI": {
+    "url": "http://127.0.0.1:18944/REVIEW_TOUR302_SOFTCAP_C2.html",
+    "videos": [
+      {
+        "currentTime": 4.041667,
+        "duration": 4.041667,
+        "ended": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18944/front_MATCHED_ORIGINAL_C1_C2_NATIVE1x.mp4"
+      },
+      {
+        "currentTime": 4.041667,
+        "duration": 4.041667,
+        "ended": true,
+        "playbackRate": 1,
+        "src": "http://127.0.0.1:18944/quarter_MATCHED_ORIGINAL_C1_C2_NATIVE1x.mp4"
+      }
+    ],
+    "checkedBy": "actual UI button playback, complete 97-frame phrase"
+  },
+  "visual_observation": "f300/f372 C2 hand silhouette closer to source than C1; f337 same peak correction. Internal clavicle penetration depth not separable by rendered shading. No gross new mesh break in local phrase; no wholeTour acceptance.",
+  "review_html": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\REVIEW_TOUR302_SOFTCAP_C2.html",
+  "actual_UI_screenshot": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\WHOLE_NORMAL1X_UI_C2.png",
+  "next": "No third amplitude attempt for unchanged clavicle pair; retain C2 as scoped research improvement with wholeTour HOLD."
+}

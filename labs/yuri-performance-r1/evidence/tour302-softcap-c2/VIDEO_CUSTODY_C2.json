@@ -1,0 +1,105 @@
+{
+  "candidate_SHA": "14bd0380b80885518388ff771afac0a3c5f25a4cc21d6c91ca22c6692f1c444b",
+  "movies": [
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\front_C2_LOCAL97_24FPS_1x.mp4",
+      "SHA": "2dcfcb4ce2a9a5ad22bdeb3b90e27da26013798d01fd4672bc73cb8ee394f8a8",
+      "bytes": 174165,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\front_MATCHED_ORIGINAL_C1_C2_NATIVE1x.mp4",
+      "SHA": "ee626086d45374d2a381436accf5783d2f3372d3bb3d273d00d03f2194965e22",
+      "bytes": 420712,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\quarter_C2_LOCAL97_24FPS_1x.mp4",
+      "SHA": "0d3639e5b772c27271ca62e93096729020abc9e0e55e915e19c0c98c5f7cff26",
+      "bytes": 192250,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\quarter_MATCHED_ORIGINAL_C1_C2_NATIVE1x.mp4",
+      "SHA": "8a14a457df4713dc72d309cd57948704e6d399f3f90bd207f808dde16a03c228",
+      "bytes": 475226,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    }
+  ],
+  "reused_original_C1_movies": [
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\front_ORIGINAL_LOCAL97_24FPS_1x.mp4",
+      "SHA": "442476f728af9a4c65c5bb002731791c055b4601a07f5c49b4f3765760d76d83",
+      "bytes": 171989,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\front_CORRECTED_LOCAL97_24FPS_1x.mp4",
+      "SHA": "e1b04bcfb58bd99fafd7efcd66f39028fe5e48b8db6029be4dec4438de55cd0d",
+      "bytes": 171709,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\quarter_ORIGINAL_LOCAL97_24FPS_1x.mp4",
+      "SHA": "35e535dda3380c92915263c2e7fec2586902b05babc4424ef6d97d27d5087752",
+      "bytes": 191074,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\quarter_CORRECTED_LOCAL97_24FPS_1x.mp4",
+      "SHA": "887a6977d594533d849b369d04f70f17118d1d327b55164d39758bdbfa8d94e5",
+      "bytes": 190756,
+      "frames": 97,
+      "fps": 24,
+      "duration_seconds": 4.041667,
+      "whole_decode": "PASS",
+      "native_time_scale": 1
+    }
+  ],
+  "captures": [
+    {
+      "view": "front",
+      "guard_SHA": "f767ae7985c5afc85e492b97c475ab091b6b59a07a281cd8791f2c1ef7bc166e",
+      "camera_matches_original_C1": true,
+      "all97_actual_geometry_matching": true,
+      "OFF_RGBA_unequal_channels": 0
+    },
+    {
+      "view": "quarter",
+      "guard_SHA": "f2f229ab6db11e06f6384c2264ee8feefcd0d80958c5daded8679e462ad9e7f8",
+      "camera_matches_original_C1": true,
+      "all97_actual_geometry_matching": true,
+      "OFF_RGBA_unequal_channels": 0
+    }
+  ],
+  "whole_Tour": "HOLD",
+  "scoped_local_QA_pass": false
+}

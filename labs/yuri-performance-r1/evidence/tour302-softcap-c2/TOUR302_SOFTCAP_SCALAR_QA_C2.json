@@ -1,0 +1,3204 @@
+{
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_Action_SHA": "e70ea471c4c0aa20efdb2ae05cbcecc49eff3e1c598e47100a1caa36fcf31202",
+  "parent_candidate_SHA": "378ad46ef4ccfd6e0db475534c777072c9c05cb1a8f4de81cdc4b1a2bca2cfa0",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-softcap-c2\\Character_R4_Tour302_LEFT_ELBOW_SOFTCAP_C2_OFF_20261005.blend",
+  "candidate_SHA": "14bd0380b80885518388ff771afac0a3c5f25a4cc21d6c91ca22c6692f1c444b",
+  "candidate_bytes": 27513236,
+  "corrective_action": "YURI_R4_NATIVE_TOUR_LEFT_ELBOW_SOFTCAP_C2",
+  "clock": [
+    1,
+    769
+  ],
+  "fps": 24,
+  "changed_key_frames": [
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375
+  ],
+  "local_QA_frames": [
+    288,
+    386
+  ],
+  "gesture_zero_boundaries": [
+    289,
+    385
+  ],
+  "source_peak_hinge_degrees": 81.69760020981502,
+  "candidate_peak_hinge_degrees": 61.47643818359437,
+  "peak_ratio": 0.7524876866114935,
+  "soft_cap_degrees": {
+    "lower_unchanged": 41.255276157373714,
+    "cap": 61.47643818359437,
+    "upper_original_peak": 81.69760020981502
+  },
+  "preserved_small_key_frames": [
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384
+  ],
+  "source_pose_deviation_metrics": {
+    "source_to_C1_forearm_angle_error_degrees": {
+      "mean": 15.882806536386434,
+      "max": 20.221118254828543
+    },
+    "source_to_C2_forearm_angle_error_degrees": {
+      "mean": 13.956473672922272,
+      "max": 20.221118254828543
+    },
+    "source_to_C1_hand_position_error_m": {
+      "mean": 0.03299935749112252,
+      "max": 0.04199254512786865
+    },
+    "source_to_C2_hand_position_error_m": {
+      "mean": 0.028990594569636,
+      "max": 0.04199254512786865
+    }
+  },
+  "source_pose_deviation_perframe_scalar": [
+    {
+      "frame": 288,
+      "source_to_C1_forearm_angle_error_degrees": 0.0,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 289,
+      "source_to_C1_forearm_angle_error_degrees": 0.0,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 290,
+      "source_to_C1_forearm_angle_error_degrees": 0.19382658799830615,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.00040783322765491903,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 291,
+      "source_to_C1_forearm_angle_error_degrees": 0.748600258977622,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.001565879094414413,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 292,
+      "source_to_C1_forearm_angle_error_degrees": 1.6168492105145884,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.003375778440386057,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 293,
+      "source_to_C1_forearm_angle_error_degrees": 2.7486013107019462,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.005739134270697832,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 294,
+      "source_to_C1_forearm_angle_error_degrees": 4.099508995032449,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.008557204157114029,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 295,
+      "source_to_C1_forearm_angle_error_degrees": 5.620976748221925,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.011730920523405075,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 296,
+      "source_to_C1_forearm_angle_error_degrees": 7.266590446652375,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.015161099843680859,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 297,
+      "source_to_C1_forearm_angle_error_degrees": 8.989498834598923,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.018748460337519646,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 298,
+      "source_to_C1_forearm_angle_error_degrees": 10.742300399221676,
+      "source_to_C2_forearm_angle_error_degrees": 0.055952909680744456,
+      "source_to_C1_hand_position_error_m": 0.022393887862563133,
+      "source_to_C2_hand_position_error_m": 0.00011891152826137841
+    },
+    {
+      "frame": 299,
+      "source_to_C1_forearm_angle_error_degrees": 12.478330434337463,
+      "source_to_C2_forearm_angle_error_degrees": 1.0370208982155718,
+      "source_to_C1_hand_position_error_m": 0.025998689234256744,
+      "source_to_C2_hand_position_error_m": 0.0021654616575688124
+    },
+    {
+      "frame": 300,
+      "source_to_C1_forearm_angle_error_degrees": 14.150249752582571,
+      "source_to_C2_forearm_angle_error_degrees": 3.1309614902981955,
+      "source_to_C1_hand_position_error_m": 0.02946489304304123,
+      "source_to_C2_hand_position_error_m": 0.006536043714731932
+    },
+    {
+      "frame": 301,
+      "source_to_C1_forearm_angle_error_degrees": 15.711158006247462,
+      "source_to_C2_forearm_angle_error_degrees": 6.104720200433023,
+      "source_to_C1_hand_position_error_m": 0.03269527852535248,
+      "source_to_C2_hand_position_error_m": 0.012737981975078583
+    },
+    {
+      "frame": 302,
+      "source_to_C1_forearm_angle_error_degrees": 17.11411642780852,
+      "source_to_C2_forearm_angle_error_degrees": 9.616306148504638,
+      "source_to_C1_hand_position_error_m": 0.03559349477291107,
+      "source_to_C2_hand_position_error_m": 0.02005082182586193
+    },
+    {
+      "frame": 303,
+      "source_to_C1_forearm_angle_error_degrees": 18.312058183695175,
+      "source_to_C2_forearm_angle_error_degrees": 13.243514819506698,
+      "source_to_C1_hand_position_error_m": 0.03806399181485176,
+      "source_to_C2_hand_position_error_m": 0.027584506198763847
+    },
+    {
+      "frame": 304,
+      "source_to_C1_forearm_angle_error_degrees": 19.257885704485616,
+      "source_to_C2_forearm_angle_error_degrees": 16.516797601870685,
+      "source_to_C1_hand_position_error_m": 0.040011778473854065,
+      "source_to_C2_hand_position_error_m": 0.03435944393277168
+    },
+    {
+      "frame": 305,
+      "source_to_C1_forearm_angle_error_degrees": 19.90468242077102,
+      "source_to_C2_forearm_angle_error_degrees": 18.962867636117963,
+      "source_to_C1_hand_position_error_m": 0.04134216532111168,
+      "source_to_C2_hand_position_error_m": 0.039404384791851044
+    },
+    {
+      "frame": 306,
+      "source_to_C1_forearm_angle_error_degrees": 20.20539345181188,
+      "source_to_C2_forearm_angle_error_degrees": 20.157561637054282,
+      "source_to_C1_hand_position_error_m": 0.041960153728723526,
+      "source_to_C2_hand_position_error_m": 0.04186182841658592
+    },
+    {
+      "frame": 307,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 308,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 309,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 310,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 311,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 312,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 313,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 314,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 315,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 316,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 317,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 318,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 319,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 320,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 321,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 322,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 323,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 324,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 325,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 326,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 327,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 328,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 329,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 330,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 331,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 332,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 333,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 334,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 335,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 336,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 337,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 338,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 339,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 340,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 341,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 342,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 343,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 344,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 345,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 346,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 347,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 348,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 349,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 350,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 351,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 352,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 353,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 354,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 355,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 356,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 357,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 358,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 359,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 360,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 361,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 362,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 363,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 364,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 365,
+      "source_to_C1_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C2_forearm_angle_error_degrees": 20.221118254828543,
+      "source_to_C1_hand_position_error_m": 0.04199254512786865,
+      "source_to_C2_hand_position_error_m": 0.04199254512786865
+    },
+    {
+      "frame": 366,
+      "source_to_C1_forearm_angle_error_degrees": 20.21458176379284,
+      "source_to_C2_forearm_angle_error_degrees": 20.194760554821464,
+      "source_to_C1_hand_position_error_m": 0.04197906330227852,
+      "source_to_C2_hand_position_error_m": 0.041938308626413345
+    },
+    {
+      "frame": 367,
+      "source_to_C1_forearm_angle_error_degrees": 19.99407593662815,
+      "source_to_C2_forearm_angle_error_degrees": 19.314033274557705,
+      "source_to_C1_hand_position_error_m": 0.04152577370405197,
+      "source_to_C2_hand_position_error_m": 0.04012710601091385
+    },
+    {
+      "frame": 368,
+      "source_to_C1_forearm_angle_error_degrees": 19.485471022725026,
+      "source_to_C2_forearm_angle_error_degrees": 17.358201775535385,
+      "source_to_C1_hand_position_error_m": 0.040480080991983414,
+      "source_to_C2_hand_position_error_m": 0.036096762865781784
+    },
+    {
+      "frame": 369,
+      "source_to_C1_forearm_angle_error_degrees": 18.723285090601426,
+      "source_to_C2_forearm_angle_error_degrees": 14.622308031784248,
+      "source_to_C1_hand_position_error_m": 0.03891118988394737,
+      "source_to_C2_hand_position_error_m": 0.03044123202562332
+    },
+    {
+      "frame": 370,
+      "source_to_C1_forearm_angle_error_degrees": 17.741675916296582,
+      "source_to_C2_forearm_angle_error_degrees": 11.44421759588273,
+      "source_to_C1_hand_position_error_m": 0.03688816726207733,
+      "source_to_C2_hand_position_error_m": 0.02385028824210167
+    },
+    {
+      "frame": 371,
+      "source_to_C1_forearm_angle_error_degrees": 16.57490031359269,
+      "source_to_C2_forearm_angle_error_degrees": 8.172677365530744,
+      "source_to_C1_hand_position_error_m": 0.03448014706373215,
+      "source_to_C2_hand_position_error_m": 0.017046375200152397
+    },
+    {
+      "frame": 372,
+      "source_to_C1_forearm_angle_error_degrees": 15.257331209487843,
+      "source_to_C2_forearm_angle_error_degrees": 5.138662939981474,
+      "source_to_C1_hand_position_error_m": 0.03175660967826843,
+      "source_to_C2_hand_position_error_m": 0.010724016465246677
+    },
+    {
+      "frame": 373,
+      "source_to_C1_forearm_angle_error_degrees": 13.823197243233912,
+      "source_to_C2_forearm_angle_error_degrees": 2.6328191455430634,
+      "source_to_C1_hand_position_error_m": 0.028787454590201378,
+      "source_to_C2_hand_position_error_m": 0.005496100056916475
+    },
+    {
+      "frame": 374,
+      "source_to_C1_forearm_angle_error_degrees": 12.306776572954252,
+      "source_to_C2_forearm_angle_error_degrees": 0.8855796494213747,
+      "source_to_C1_hand_position_error_m": 0.025642847642302513,
+      "source_to_C2_hand_position_error_m": 0.0018502147868275642
+    },
+    {
+      "frame": 375,
+      "source_to_C1_forearm_angle_error_degrees": 10.742300399221676,
+      "source_to_C2_forearm_angle_error_degrees": 0.055952909680744456,
+      "source_to_C1_hand_position_error_m": 0.022393887862563133,
+      "source_to_C2_hand_position_error_m": 0.00011891152826137841
+    },
+    {
+      "frame": 376,
+      "source_to_C1_forearm_angle_error_degrees": 9.164122012240407,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.019112015143036842,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 377,
+      "source_to_C1_forearm_angle_error_degrees": 7.606568235231638,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.01586923375725746,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 378,
+      "source_to_C1_forearm_angle_error_degrees": 6.103693964510229,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.012737607583403587,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 379,
+      "source_to_C1_forearm_angle_error_degrees": 4.690202537475369,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0097895422950387,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 380,
+      "source_to_C1_forearm_angle_error_degrees": 3.39969571007917,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0070975059643387794,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 381,
+      "source_to_C1_forearm_angle_error_degrees": 2.266993146380123,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.004733673762530088,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 382,
+      "source_to_C1_forearm_angle_error_degrees": 1.3264572079274437,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0027701929211616516,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 383,
+      "source_to_C1_forearm_angle_error_degrees": 0.6116558732533653,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.001278928597457707,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 384,
+      "source_to_C1_forearm_angle_error_degrees": 0.15825873808122176,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0003316643997095525,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 385,
+      "source_to_C1_forearm_angle_error_degrees": 0.0,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0,
+      "source_to_C2_hand_position_error_m": 0.0
+    },
+    {
+      "frame": 386,
+      "source_to_C1_forearm_angle_error_degrees": 0.0,
+      "source_to_C2_forearm_angle_error_degrees": 0.0,
+      "source_to_C1_hand_position_error_m": 0.0,
+      "source_to_C2_hand_position_error_m": 0.0
+    }
+  ],
+  "source_pose_deviation_improved_gate": true,
+  "C1_reference_candidate_SHA": "e4d4ef74674ed840b65057776485ab01c230bc4975e780e5f3de7dde36165b7e",
+  "C1_reference_append_only_Action_no_models": true,
+  "C1_reference_removed_before_save": true,
+  "only_forearmL_EulerZ_changed": true,
+  "outside_key_handles_exact": true,
+  "other_body_curves_exact": true,
+  "introduced_new_pair_identity_peaks": {
+    "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+    "Character_Body_Head__self_nonadjacent": 0,
+    "Hair_Replacement_R4__self_nonadjacent": 0,
+    "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+    "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+    "Character_Body_Head__Hair_Replacement_R4": 0
+  },
+  "support_patch_component_error_m": {
+    "L": 0.0,
+    "R": 0.0
+  },
+  "original_velocity": {
+    "max_angular_velocity_degrees_sec": 170.00755436644357,
+    "max_adjacent_angular_velocity_magnitude_jump_degrees_sec": 34.83920266838478,
+    "boundary_velocities_degrees_sec": [
+      1.6446729999548404,
+      18.943547592276936,
+      15.39917118666056,
+      7.830212320876539
+    ]
+  },
+  "candidate_velocity": {
+    "max_angular_velocity_degrees_sec": 168.64082326824027,
+    "max_adjacent_angular_velocity_magnitude_jump_degrees_sec": 34.83920266838478,
+    "boundary_velocities_degrees_sec": [
+      1.6446729999548404,
+      18.943547592276936,
+      15.39917118666056,
+      7.830212320876539
+    ]
+  },
+  "angular_velocity_jump_gate": true,
+  "scoped_local_QA_pass": false,
+  "first_local_failure": {
+    "frame": 303,
+    "BODY_new_vs_OFF": 1,
+    "original_BODY_new_vs_OFF": 17,
+    "original_first7_remaining": 0,
+    "introduced_vs_same_original_frame": {
+      "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+      "Character_Body_Head__self_nonadjacent": 0,
+      "Hair_Replacement_R4__self_nonadjacent": 0,
+      "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+      "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+      "Character_Body_Head__Hair_Replacement_R4": 0
+    },
+    "finite": true,
+    "new_triangle_area_collapse": 0,
+    "triangle_area_ratio_below_point1": 0,
+    "minimum_actual_triangle_area_ratio_vs_original": 0.6243448201392614,
+    "other_local_joint_max_component_error": 0.0,
+    "non_descendant_world_max_component_error": 0.0,
+    "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+    "head_hair_actual_geometry_identical": true
+  },
+  "whole_Tour_source_acceptance": "HOLD wrists472 and other original head/hair contacts untouched",
+  "TierP": 0,
+  "local_rows_scalar": [
+    {
+      "frame": 288,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 289,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 290,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 291,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 292,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 293,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 294,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 295,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 296,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 297,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 298,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.9975045933359887,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 9.313225746154785e-10,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 299,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.9670606418846038,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 9.313225746154785e-10,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 300,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.9011179197412483,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 3.725290298461914e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 301,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.9480851195047796,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 302,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 7,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.921302323346818,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 3.725290298461914e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 303,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 17,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.6243448201392614,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 304,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 22,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.3994454995660523,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 305,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 26,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.31463300169876773,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 5.587935447692871e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 306,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2880074579812508,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 307,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 308,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 309,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 310,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 311,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 312,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 313,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 314,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 315,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 316,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 317,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 318,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 319,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 320,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 321,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 322,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 323,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 324,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 325,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 326,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 327,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 328,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 329,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 330,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 331,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 332,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 333,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 334,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 335,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 336,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 337,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 338,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 339,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 340,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 341,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 342,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 343,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 344,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 345,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 346,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 347,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 348,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 349,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 350,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 351,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 352,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 353,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 354,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 355,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 356,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 357,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 358,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 359,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 360,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 361,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 362,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 363,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 364,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 365,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.2866601684654049,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 366,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 32,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.28713752619910043,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 367,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 27,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.30582887662285674,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 368,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 23,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.36357625907589797,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 369,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 19,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.515996990579739,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 370,
+      "BODY_new_vs_OFF": 1,
+      "original_BODY_new_vs_OFF": 11,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.7794661026562189,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 371,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 1,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.5840522257697699,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 372,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.9557424485336558,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 373,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.6890269267430187,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 1.862645149230957e-09,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 374,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.7736500798130501,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 9.313225746154785e-10,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 375,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 0.8313010578124383,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 9.313225746154785e-10,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 376,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 377,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 378,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 379,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 380,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 381,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 382,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 383,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 384,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 385,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    },
+    {
+      "frame": 386,
+      "BODY_new_vs_OFF": 0,
+      "original_BODY_new_vs_OFF": 0,
+      "original_first7_remaining": 0,
+      "introduced_vs_same_original_frame": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "finite": true,
+      "new_triangle_area_collapse": 0,
+      "triangle_area_ratio_below_point1": 0,
+      "minimum_actual_triangle_area_ratio_vs_original": 1.0,
+      "other_local_joint_max_component_error": 0.0,
+      "non_descendant_world_max_component_error": 0.0,
+      "other_hinge_Euler_XY_error_radians": 0.0,
+      "head_hair_actual_geometry_identical": true
+    }
+  ],
+  "source_packet_created": false,
+  "Unity_F2_StageB": "UNTESTED",
+  "OFF_RGBA_unequal_channels_each_view": 0,
+  "BODY_peak_original": 32,
+  "BODY_peak_candidate": 1,
+  "first7_remaining_peak": 0,
+  "minimum_actual_triangle_area_ratio": 0.2866601684654049,
+  "mean_hand_error_reduction_percent": 12.148002949951241,
+  "residual_first_frame": 303,
+  "residual_dominant_original_bones": [
+    [
+      [
+        "clavicle.L",
+        2.112851142883301
+      ],
+      [
+        "neck",
+        0.473914697766304
+      ],
+      [
+        "upper_arm.L",
+        0.35851583629846573
+      ],
+      [
+        "chest",
+        9.745781568426537e-07
+      ],
+      [
+        "clavicle.R",
+        5.2201525185813225e-09
+      ],
+      [
+        "head",
+        2.352260477542363e-13
+      ]
+    ],
+    [
+      [
+        "clavicle.L",
+        2.0211575627326965
+      ],
+      [
+        "neck",
+        0.5257152020931244
+      ],
+      [
+        "upper_arm.L",
+        0.4008920043706894
+      ],
+      [
+        "chest",
+        1.6491186016764914e-07
+      ],
+      [
+        "clavicle.R",
+        6.287924521342081e-11
+      ],
+      [
+        "head",
+        3.1987878637853227e-15
+      ]
+    ]
+  ],
+  "residual_vertex_component_error_m": {
+    "303": 0.0,
+    "337": 0.0
+  },
+  "wrist472_actual_all_three_mesh_SHA_same_original": true,
+  "guards": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-tour302-softcap-c2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "f7e636d3ca698d0a51f91e986fa98471a9f39d51b04b7917c9c2b8859390ec69",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-tour302-capture-front-c2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "f767ae7985c5afc85e492b97c475ab091b6b59a07a281cd8791f2c1ef7bc166e",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-tour302-capture-quarter-c2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "f2f229ab6db11e06f6384c2264ee8feefcd0d80958c5daded8679e462ad9e7f8",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-tour302-residual-localize-c2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "e0bf5a7799beb9dfb87c5ada617f346bf409326cd45dba60cfc5f78c0d46dcec",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    }
+  ],
+  "private_custody": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-softcap-c2\\TOUR302_SOFTCAP_C2_PRIVATE.json",
+      "SHA": "25dc70af634e38a583dcfcaf52be73beb0d51dce4815ebeb055ddef81cd83ffc",
+      "bytes": 241294
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-softcap-c2\\LOCAL_SURFACE_IDENTITIES_PRIVATE_C2.json.gz",
+      "SHA": "8ebf9d0429c92caca3e53236c23a314a540f3ac3dfe222bf1c0cd1bfda2c8a66",
+      "bytes": 8229
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-residual-localize-c2\\RESIDUAL_SURFACE_OWNERSHIP_PRIVATE_C2.json",
+      "SHA": "af64f6c696d69d5a9abc301b7870fcef4e0ba99afe5fdda1500a7b1a5bfeebcc",
+      "bytes": 11657
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\WHOLE_NORMAL1X_UI_C2.json",
+      "SHA": "ee7a70f1f75a88c4c86bbbb8d92f18439cc7534a3844e5cd3b9ee896a163cacc",
+      "bytes": 554
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-c2\\WHOLE_NORMAL1X_UI_C2.png",
+      "SHA": "6d064d99d2de9071402894bee1fdd1c11951071c6730fddcea731b157b62d137",
+      "bytes": 79650
+    }
+  ]
+}

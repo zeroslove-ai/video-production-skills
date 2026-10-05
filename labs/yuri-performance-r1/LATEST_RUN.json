@@ -743,5 +743,14 @@
     "report": "evidence/tour302-elbow-c1/YURI_R4_TOUR302_ELBOW_C1_KO.md",
     "review": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\REVIEW_TOUR302_LOCAL_C1.html",
     "next_authorized": "ONE forearmL continuous soft-cap candidate to reduce source pose deviation; keep unchanged clavicle/neck and wrists/head/hair HOLD"
+  },
+  "tour302_softcap_C2": {
+    "status": "SCOPED_SOURCE_DEVIATION_IMPROVEMENT_WHOLE_TOUR_HOLD",
+    "candidate_SHA": "14bd0380b80885518388ff771afac0a3c5f25a4cc21d6c91ca22c6692f1c444b",
+    "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-softcap-c2\\Character_R4_Tour302_LEFT_ELBOW_SOFTCAP_C2_OFF_20261005.blend",
+    "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\tour302-softcap-c2\\YURI_R4_TOUR302_SOFTCAP_C2_KO.md",
+    "scoped_local_QA_pass": false,
+    "OFF_RGBA_difference": 0,
+    "TierP": 0
   }
 }
