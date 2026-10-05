@@ -1,0 +1,157 @@
+{
+  "candidate_SHA": "e4cd9e7ff6cf25728b08a5c8deff9081cca0ba032fbb65d44ce5e1a66de57562",
+  "movies": [
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\front_ORIGINAL_LOCAL38_24FPS_1x.mp4",
+      "SHA": "9a3822d1329019f801c756246b15a834bc06eaef143bd9b423f07755bb8c0077",
+      "bytes": 143042,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\front_CORRECTED_LOCAL38_24FPS_1x.mp4",
+      "SHA": "8752a654cbe5ab68269cce3048a460d3eb9306e6679dc45c9aaeebc4905c9f84",
+      "bytes": 140529,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\front_MATCHED_ORIGINAL_LEFT_CORRECTED_RIGHT_1x.mp4",
+      "SHA": "bb81c2eb3e9d2caf4ae737b9cf8ff3944979a0cc83b4e397d5e71f0ca22c9583",
+      "bytes": 253283,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\quarter_ORIGINAL_LOCAL38_24FPS_1x.mp4",
+      "SHA": "ab795a007e45ae8ed11ef9f91a352c0100d450958f86af01b1ec5550d613d6f7",
+      "bytes": 194312,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\quarter_CORRECTED_LOCAL38_24FPS_1x.mp4",
+      "SHA": "e97f010b742704326fbd71526e526ebc5d558a37d017d60d9f94c2e969984afd",
+      "bytes": 195129,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\quarter_MATCHED_ORIGINAL_LEFT_CORRECTED_RIGHT_1x.mp4",
+      "SHA": "ca60942dc701df9c0c8d6bc8343308a880671417c6b69424058314a325d6bf00",
+      "bytes": 359576,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\side_ORIGINAL_LOCAL38_24FPS_1x.mp4",
+      "SHA": "2ff94b89d03943b652f0b1d20b299971213e6ec880c5e626afc6ce50a796fc78",
+      "bytes": 205987,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\side_CORRECTED_LOCAL38_24FPS_1x.mp4",
+      "SHA": "6a67c260e2e99cedb368de06168881d6c9c4e5532851538b3622b1ccd4902e5e",
+      "bytes": 212117,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    },
+    {
+      "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour472-delivery-w1\\side_MATCHED_ORIGINAL_LEFT_CORRECTED_RIGHT_1x.mp4",
+      "SHA": "1fa45836908da3dd85322984ce570190f6cac2a49daea7521665199cb69b23c2",
+      "bytes": 384056,
+      "frames": 38,
+      "fps": 24,
+      "duration_seconds": 1.583333,
+      "whole_decode": "PASS",
+      "source_frames": [
+        454,
+        491
+      ],
+      "native_time_scale": 1
+    }
+  ],
+  "captures": [
+    {
+      "view": "front",
+      "guard_SHA": "f5bd5387ccd111a56f4c5b5454bd695f20d096c0c6d4ff90d1772083184e6221",
+      "same_candidate_SHA": "e4cd9e7ff6cf25728b08a5c8deff9081cca0ba032fbb65d44ce5e1a66de57562",
+      "actual_all76_frame_geometry_matching": true,
+      "source81_OFF_restored": true
+    },
+    {
+      "view": "quarter",
+      "guard_SHA": "bf6ff52dc93ae48ff1422d138a1fdc43c080250dacc76e9ff1867321ad498d2d",
+      "same_candidate_SHA": "e4cd9e7ff6cf25728b08a5c8deff9081cca0ba032fbb65d44ce5e1a66de57562",
+      "actual_all76_frame_geometry_matching": true,
+      "source81_OFF_restored": true
+    },
+    {
+      "view": "side",
+      "guard_SHA": "a3da0079ce80f67203b164a747e050129f3cf9c72e2cc71545dd10ce724f27a1",
+      "same_candidate_SHA": "e4cd9e7ff6cf25728b08a5c8deff9081cca0ba032fbb65d44ce5e1a66de57562",
+      "actual_all76_frame_geometry_matching": true,
+      "source81_OFF_restored": true
+    }
+  ],
+  "OFF_RGBA_unequal_channels_each_view": 0,
+  "local_pose_data_gate": false,
+  "whole_Tour": "HOLD RIGHT wrist472 and clavicle/headhair untouched; source supply packet absent"
+}

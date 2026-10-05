@@ -1,0 +1,1648 @@
+{
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "unchanged_candidate_SHA": "580b80181a400b7eaae2f6418f7bb550dcccba6fc88fdde84860958adbff9c44",
+  "source79_OFF_signature_restored": true,
+  "motion_changed": false,
+  "new_candidate_created": false,
+  "source_fps": 30,
+  "native_frames": [
+    1,
+    91
+  ],
+  "inclusive_oracle": "all actual triangles weak/webbing included; shared-vertex true adjacency excluded; baselineOFF identities removed; all6 BODY/HEAD/HAIR surfaces",
+  "right_arm_region_criterion": "any original RIGHT hand/forearm/finger positive weight, no dominance threshold",
+  "inclusive_surface_oracle_reused_SHA": "403aaa5c9178c5635eaf9cfe7aea015480334ca95001f50995ebb6641dbce224",
+  "hand_framing_pass_all91": true,
+  "old_exact512_hand_crop_peak": 215,
+  "right_arm_hand_new_pair_peak": 59,
+  "camera": "evaluated hand bbox world-center translation follow, fixed rotation; fixed3quarter rotation, orthoscale.24,512pxCPU8samples; use existing fixed91body movies for body/root/foot verdict",
+  "TierP": 0,
+  "rows_scalar": [
+    {
+      "frame": 1,
+      "file_SHA": "bc42c30fbc7bd8613ba0b2f538621ddedb76c60fa6b353ea98a1647423f7f256",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 2,
+      "file_SHA": "6c2d8b08b2c04ea851f08f0178725d40d004ec3eb9eec7b7bcb05da768792671",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 3,
+      "file_SHA": "8928a2599737e5511e77403d5b0a5b409966d61f231af0b08913b3f8b2d2f53d",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 4,
+      "file_SHA": "be6f6325759f98ae47fc0e0ab5805a0784e71905a14d9ecb9da5bd7078fab1bf",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 5,
+      "file_SHA": "535c0f9ea059e3b2f21609a99e8f2113a3bd260eba20107988dc780e1c9df7e1",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 6,
+      "file_SHA": "a456dad5fec63f4687cfeea861f265c543d53b7b37d82fe0dfc5988a0526739d",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 7,
+      "file_SHA": "60b6850a7deb14952bf15bba0648e23b5965c3f1e4a6fab548aa913a33f3c2b0",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 8,
+      "file_SHA": "290ec74615f842537a4bbe81d38a8a0f9351e91577261a5bd17cbc518f4508bc",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 9,
+      "file_SHA": "ab994542611b90cbd72cfe420d0d32da5b4dc20dcc02ee8f1b0372313f8c76e5",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 10,
+      "file_SHA": "04b44488d1e200789f744d91dff23825be57327a6e5b371e7805c36207d4e43b",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 11,
+      "file_SHA": "e88e6b9ced4680cf0711325a02abd70dd5c343fbf54f93269ee7d7b7767b4254",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 12,
+      "file_SHA": "7b8fa3aa1f024904b474e019d5375e47d9b967140a6b983d6255fa4589a207e5",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 13,
+      "file_SHA": "e6f7e804c49be184818d0330d3a331819534ee60eb196022c8f8c787ca9e250d",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 214,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 14,
+      "file_SHA": "fd66abc81717fe46443210ce8ee31714f1be7732a8da0d43009e5681c0dcae6f",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 198,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 15,
+      "file_SHA": "5c4529f78717516a531d9f78a0d493c866b5e645e2301f5f750b517f2f699347",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 170,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 16,
+      "file_SHA": "7d594610df407174e347de1e56acddf4b866620659ac4bb0c244254c4097a256",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 114,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 17,
+      "file_SHA": "337f132a9efe84e05d63a65a6e11c79c0f6fbc5a3016794b6a7dfffe6704d9d0",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 41,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 18,
+      "file_SHA": "b7cc4987b4bd5ce58c4377196ac84330b6ce926bcd60d63299d48746bc66f582",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 19,
+      "file_SHA": "5d3b2294c8ae2bfb192b0029fbd910ccfe4030fdeb032146e833d4bda11b13d7",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 20,
+      "file_SHA": "ae01b91dda11b65f7ebf1116b2bf0efbdaa4b397e5d55b4b9344d2eae993a03e",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 21,
+      "file_SHA": "d72e0a17ecd3e2ccd3596c8fcb7cc9791dbe0914ccdc804ab84758ae9fbee014",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 22,
+      "file_SHA": "db6734f97cfefb7b3a353fb58fb6cd9a8fd7d762ddbfb7eb6ea2e97d383b9d35",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 23,
+      "file_SHA": "16cfb423bd2f475888e7cd3de6745bdac927c6f1ebe8f310f9fc1b5c28179258",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 9,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 9,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 24,
+      "file_SHA": "74dfc5b7fecdc6b838cf33be36b4d5f0f1f32ca72a06a2ebee7312b467c8572a",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 14,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 14,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 25,
+      "file_SHA": "03c0ce02610a2efcf1cded8fc8929462c4cb26bb4d015c8c6e77438d3e0ccb0f",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 23,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 23,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 26,
+      "file_SHA": "d26b34dd85eaa65d8b51c56496cb8f455eec32d9f9f7cc2eec680e74274b50bd",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 32,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 32,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 27,
+      "file_SHA": "c6722718ccb7124001882d37f82bf0a5bf5779c827719bfbf37588bb0690b72b",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 34,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 34,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 28,
+      "file_SHA": "e3398dfa129be335ce230e35928cc4f41eab85e75019c6d5ec5be93d918b9198",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 41,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 41,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 29,
+      "file_SHA": "1acf140cf90b19c16791c020cabe8bb7ea2adc5337dc4fa08c1d38cd165e3338",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 48,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 48,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 30,
+      "file_SHA": "8e1cba5f95de7b521a0acffcf8c37dad8068efb78ba033129d012963b63cf43e",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 31,
+      "file_SHA": "1848eb942f8b2d094d085af8e5599c47a3d76c38252c9873d39840f6fec1573c",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 32,
+      "file_SHA": "3c6ea4a2fc824ba4cfa46299f112f5387f91f7c80b4056ae04e362e83367938b",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 33,
+      "file_SHA": "e2ae10e1fd683c1b5a23e748b2ac8af6c98e899785be4bda9653d8b561b1f48c",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 34,
+      "file_SHA": "7ba1fe51a4eea35099456ff8278263c5599543f3c1c1aaa40af6a3b5e916847d",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 35,
+      "file_SHA": "11635b626fbcf979e6900f18566f63cf0d4799e37bcdf6af4890f2db778c14a1",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 36,
+      "file_SHA": "e5eac1f63a96f1395e020652c879c29d6cc067a1d7f029e28afdcffc94189bbe",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 37,
+      "file_SHA": "bb3b91b4ffd12d95336266fcc4aaa14e449af8640cb177c8091ab93912015556",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 38,
+      "file_SHA": "c49d9e0c7b61c3939a9d013e9d569792088a1fd007a705ce267b9d0161ea0305",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 39,
+      "file_SHA": "fa41c328967fe8c0def6af2f5c2cd5932d23a9ff2928bd305e351d139962f97e",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 40,
+      "file_SHA": "0dc6ceda3b9d886259022a304fe6b45e1a12472220a63c47a792a810d9c0f8df",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 57,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 57,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 41,
+      "file_SHA": "96868364c88f28e32bb48021e4556816b79ea7923a0af255fe4fb4b7160d26b4",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 59,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 59,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 42,
+      "file_SHA": "cff21ed248494e9f4a83fec9629602b68192ef7fb903e2332dc9aa4fe8ea78be",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 57,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 57,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 43,
+      "file_SHA": "b7ae1ba351b0040651ee0244b23c8e3172e3223056cd7e151a1a700fce8fa761",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 57,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 57,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 44,
+      "file_SHA": "2ad298024e79c3f59851955a9673d0a14a87dcf0f92ce0942400ae589543d29f",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 59,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 59,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 45,
+      "file_SHA": "2c8d6305c5616108b1a6d5c46f4229e97d35d9ce51e76d09892d52518fe23dbf",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 54,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 54,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 46,
+      "file_SHA": "266e21babcf92bcb3a09407db4b47e7870c21f70b62aede79d1a8e37cea07258",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 47,
+      "file_SHA": "fe19b4d093c9d7556bd9ec28859c7b827db004f76535722749339fbd41335583",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 48,
+      "file_SHA": "6f55eea9d4c96cb576b857f39f79114192630a710f488c127c1b3262fa208dd9",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 43,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 43,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 49,
+      "file_SHA": "24b9dcbf6ac79f2153091cb91c36fe5beb86899d249ffa51a6c185e2e1edabd9",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 43,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 43,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 50,
+      "file_SHA": "fc440c71370664af20f5852a62cc0c30b6a8d918be6f1e4795c4c3fe0e8e2a02",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 51,
+      "file_SHA": "29d27c0845538a0d1275325d6c077be9f9e5f9607dc0cb42a2b3370634a501b7",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 52,
+      "file_SHA": "9f1f6977be3f9f12fdd975386feb6f8808be209bd792460ad17863348fc36d28",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 53,
+      "file_SHA": "51ccfdaa2166653911f417309cedb81a14408de24945eb218c2610c3d976c8e4",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 54,
+      "file_SHA": "cb62f6e9b7a2cb34ec07b4074bffa8e0cb39380de9af130cbb041ac13524ef30",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 54,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 54,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 55,
+      "file_SHA": "22f0432211244423cad8eb6fc2cf02cd955b5c5bed370efab1f390759c4ff311",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 52,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 52,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 56,
+      "file_SHA": "8c9c22e145d787c2ab393b55502bdb81ccd630e87a31601b5709275ffe049662",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 57,
+      "file_SHA": "9c0173cf4fa911d88cb4ceb0fbcb10b8cce0c5eba9920ebe78a1bdbcb905719d",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 58,
+      "file_SHA": "54a09c7f52ccce84b0539d0a0f11288ce29464d66a65151ee51d09f6afc20872",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 59,
+      "file_SHA": "d5bc06bf18a1aa096ebe98a3e666a02658dca0ff118296a8faadfda884b2134e",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 60,
+      "file_SHA": "5076afb09860b8050a7161115e57d3dc0d3d448c3f5602fd094e105fb6b717a0",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 61,
+      "file_SHA": "66d1291aef7e123ffd893deceb9fc4fe3393e75162021b63f35e086d974e9655",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 62,
+      "file_SHA": "46e144af61a1b026ad22015ee8ac3dd7e6a2f36985c61eee9a6e5f7417d5c2df",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 63,
+      "file_SHA": "29aa043f53f41e24704fd1c5d851325d550a60ac106dbedcdcda2f1fbfabe1b2",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 64,
+      "file_SHA": "fbf9a1ae5765f333d2ee5c380f12538c170d1f43870adeb49bc007de2e4b0dd5",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 65,
+      "file_SHA": "7d7602fcbc502dfd27276531d1deb7d4ed67de63cff957a479b537a78e581558",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 66,
+      "file_SHA": "f19139e2d44da7284c7a4f0984535af3e51b446b466259ee346bd5212584b826",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 67,
+      "file_SHA": "c69c361503188b7a038834b16ab7a8a500a9063efbf6fb2780d40e24e44b6b0e",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 68,
+      "file_SHA": "5636b132c851fb0b6e0dd792b5acff59908b3684f1382f382efe623ead2546b8",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 49,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 49,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 69,
+      "file_SHA": "32176981e6b6a988d09de338e91d5a15fffa06ada1fc69e0cce71b4dbd0cf01f",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 70,
+      "file_SHA": "468ac57c804fb81573d1a1ed626a33583b89f17fc6bcb6da8dc415a27dd48e9f",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 47,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 47,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 71,
+      "file_SHA": "80438b15c73d6a224413d184b3bc9fe440f7a5e8dbec199110b8b730675ef71c",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 42,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 42,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 72,
+      "file_SHA": "6aa686596277b3487a48109876c1cad1e1b84d7ce4c24c9616d224c86559972b",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 34,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 34,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 73,
+      "file_SHA": "0f15a751d681a72490af3f2b558353dd4f8fc39d4168c23372a4dcbe756a8ec7",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 32,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 32,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 74,
+      "file_SHA": "ecc0c11722066cc9fbcf39ecd0a81d23a92df5001fb4b403a4ac6c5db70605c5",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 24,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 24,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 75,
+      "file_SHA": "11eac455c1131906155de8ac330787c09b8bf82acf3396610d82a6cff5c3aebd",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 22,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 22,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 76,
+      "file_SHA": "b315fd1954227c28a09e1b924cf0657deab620a624a527a91a4460a7247702c2",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 14,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 14,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 77,
+      "file_SHA": "c1f26fd57a12f9005581bf19f1ba36daba38de27c85569fbd58ef1fa055eeb76",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 9,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 9,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 78,
+      "file_SHA": "f54d9eb2dd68e0b7773128003114db024d7ec52e31617125fedfa7f8645927c5",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 4,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 4,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 79,
+      "file_SHA": "c656526099cd67c38d38d0064cbba74960ba0f25ac8c3c6256e954b579d7261c",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 80,
+      "file_SHA": "b822e7ee50dbc5d19cffe308fb99cd2d2440e3a3cb1bf732c67b3302f329f746",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 81,
+      "file_SHA": "1327c0d9eccdf16053f7070540fa51ab01e8e6daa50fde5a6ff9eb33d9f6c0a0",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 82,
+      "file_SHA": "513eff9418b44a0ce6b852b120672a03506c7ae125cd7348cfb42cda2c4868a4",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 83,
+      "file_SHA": "b7fc25cdbadd3a6059a4519c82e086c6b340613c0af676a0c7d1a86df5c634ae",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 84,
+      "file_SHA": "fc3dc563fbd3472e3a664a08a55064a3c3ff63740e8680852a7ed9436a4f17c1",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 0,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 85,
+      "file_SHA": "6161964b399e897d354b5a1df07b309939fa2ff046e051ca340d5a48ca5935a0",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 59,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 86,
+      "file_SHA": "1d56c9209321cda2d16ff676607755ce5e9dc34c3a8b99d15850361d56e2f689",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 117,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 87,
+      "file_SHA": "6800dda03f4e539a4c5bf223656886308c7a0542d1360b9bab1bb9ff27e67c32",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 166,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 88,
+      "file_SHA": "72ede41cd68636e689181325c051af3becda1a9386077e026f3526da69648e00",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 188,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 89,
+      "file_SHA": "8776cb0526e4f68cd133d012fb0dc4285f5fa9bfa6b7a0e96299997611e7c121",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 207,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 90,
+      "file_SHA": "d84e4a3147a186806cdfd77b877dfaaa71d9ffc8e1eb055bf57ebb9fab718eab",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    },
+    {
+      "frame": 91,
+      "file_SHA": "7801b3c6c0fe7a749f87893e7da393e8a0ce07df3079f989fc2acf141db48d81",
+      "new_pair_count_by_surface": {
+        "Meshy_Body_NeutralCovered__self_nonadjacent": 0,
+        "Character_Body_Head__self_nonadjacent": 0,
+        "Hair_Replacement_R4__self_nonadjacent": 0,
+        "Meshy_Body_NeutralCovered__Character_Body_Head": 0,
+        "Meshy_Body_NeutralCovered__Hair_Replacement_R4": 0,
+        "Character_Body_Head__Hair_Replacement_R4": 0
+      },
+      "right_arm_hand_new_pair_count": 0,
+      "original_exact512_hand_crop_count": 215,
+      "corrected_hand_crop_with5percent_margin_count": 0,
+      "original_finger_local_error": 0.0,
+      "finite": true
+    }
+  ],
+  "exact_surface_contact_quality": "HOLD_BODY_NEW_PAIR_PEAK59",
+  "hand_framing_quality": "PASS_ALL91_ACTUAL_HAND_VERTICES_INSIDE5PERCENT_MARGIN",
+  "body_motion_unchanged": true,
+  "new_packet_created": false,
+  "OFF_RGBA_difference_each_capture": 0,
+  "UI_native1x": {
+    "url": "http://127.0.0.1:18948/REVIEW_EXISTING_WAVE_HAND_QUALITY_R1.html",
+    "video": {
+      "currentTime": 3.033333,
+      "duration": 3.033333,
+      "ended": true,
+      "error": null,
+      "playbackRate": 1,
+      "src": "http://127.0.0.1:18948/RIGHT_HAND_CAMERA_R1_LEFT_R2_RIGHT_FULL91_NATIVE1x.mp4"
+    },
+    "sourceQuality": "HAND_FRAMING_PASS_BODY_SURFACE_HOLD"
+  },
+  "first_contact_frame": 23,
+  "peak_contact_frame": 41,
+  "checked_pair_ownership_count": 68,
+  "checked_pairs_touch_dominant_actual_hand_vertices": 0,
+  "checked_top_two_bone_ownership": {
+    "upper_arm.R/forearm.R": 26,
+    "forearm.R/upper_arm.R": 42
+  },
+  "framing_localize_R1_note": "R1 ownership correct; exploratory projection used saved scene aspect. Exact512x512 old/new framing measurement comes from R2, peak215, not exploratory300.",
+  "body_root_foot_QA": "Reuse existing fixed91-frame source body movies/evidence only; tracking close does not assess root/foot motion",
+  "finger_articulation": "Original local finger pose static and unchanged; no curl/expressive articulation acceptance",
+  "Unity_F2_StageB": "UNTESTED",
+  "next_actual_motion_defect": "Existing Wave right forearm/upperarm new surface pairs first23/peak41; validate visible local elbow defect and native rotation/rest-axis cause before a separate minimal Action candidate. No wrist cap or Tour elbow C3.",
+  "guards": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-social-wave-hand-quality-r1\\NATIVE_GUARD_RESULT.json",
+      "SHA": "0b9333846a37e1eef13d7408b3a4d3308bb14247a44740168dbc102286aacf17",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-social-wave-hand-localize-r1\\NATIVE_GUARD_RESULT.json",
+      "SHA": "061bda987766f1d1e43bfa2c2b3700d75f8b22983478e879c352e797e40473ca",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-social-wave-hand-quality-r2\\NATIVE_GUARD_RESULT.json",
+      "SHA": "cc53d4323a5cd52d16309070357615c965b1bb825dca6e3656fbaa99b4c9f84d",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    }
+  ],
+  "private_custody": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-hand-quality-r1\\WAVE_HAND_INCLUSIVE_CONTACT_PRIVATE_R1.json.gz",
+      "SHA": "403aaa5c9178c5635eaf9cfe7aea015480334ca95001f50995ebb6641dbce224",
+      "bytes": 5184
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-hand-quality-r2\\WAVE_HAND_QUALITY_PRIVATE_R1.json",
+      "SHA": "65136d16b22028da389d98ffc8495e6e2aa578bc52fcba190beb81fd64012310",
+      "bytes": 135720
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-hand-localize-r1\\WAVE_PAIR_OWNERSHIP_FRAMING_PRIVATE_R1.json",
+      "SHA": "544f029f816b7bb87adcb829c2c165f38a9bd0841ff042bcb58bf6e001b05feb",
+      "bytes": 86845
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-hand-quality-delivery-r1\\HAND_VIDEO_CUSTODY_R1.json",
+      "SHA": "5b2ac2ea8433f03ae613b9d881c34ff9df78c1de3a0a8e79ed508ab588f88a19",
+      "bytes": 1958
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-hand-quality-delivery-r1\\WHOLE_NATIVE1X_UI_R1.json",
+      "SHA": "7c79bfb154b50cb718ecb98ecff5926788fe1fe38e558cf5eba67fae98964ffe",
+      "bytes": 362
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-hand-quality-delivery-r1\\ACTUAL_HAND_QA_REVIEW_UI_R1.png",
+      "SHA": "62a4b8ef1a901998a461308dde9a423edc2c6cf234345d08ea0700ccd838fa17",
+      "bytes": 86199
+    }
+  ]
+}

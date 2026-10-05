@@ -762,5 +762,24 @@
     "report": "labs\\yuri-performance-r1\\evidence\\tour-clavicle-source-intake-r3\\YURI_R4_CLAVICLE_SOURCE_INTAKE_R1_KO.md",
     "candidate_created": false,
     "TierP": 0
+  },
+  "tour472_wrist_W1": {
+    "status": "FAIL_HOLD_DEFAULT_OFF",
+    "candidate_SHA": "e4cd9e7ff6cf25728b08a5c8deff9081cca0ba032fbb65d44ce5e1a66de57562",
+    "introduced_pair_peak": 19,
+    "source_packet_created": false,
+    "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\tour472-wrist-w1\\YURI_R4_TOUR472_LEFT_WRIST_W1_KO.md",
+    "TierP": 0
+  },
+  "existing_Wave_hand_quality": {
+    "status": "HAND_QA_FRAMING_PASS_SOURCE_BODY_SURFACE_HOLD",
+    "same_candidate_SHA": "580b80181a400b7eaae2f6418f7bb550dcccba6fc88fdde84860958adbff9c44",
+    "motion_changed": false,
+    "new_packet_created": false,
+    "old_hand_crop_peak": 215,
+    "new_hand_crop_peak": 0,
+    "inclusive_BODY_newpair_peak": 59,
+    "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\existing-wave-hand-quality-r1\\YURI_R4_EXISTING_WAVE_HAND_QUALITY_R1_KO.md",
+    "TierP": 0
   }
 }

@@ -1,3 +1,7 @@
+# 2026-10-05 Tour wrist 실패 종료 및 기존Wave hand QA
+
+W1b source FAIL/HOLD/OFF(e4cd9e7f): f47214→20/newpairspeak19/angularjump30.731→47.823. matchedfront/quarter/side38frames24fps1x끝까지/OFF0 완료. no cap sweep/new packet. 기존Wave580b8018은 motion변경없이 hand close framing215→0/전91frames5%margin 보완,91@30fps1x+OFF0. 새inclusive source BODY 교차59(first23/peak41;검사ownershipforearmR/upperarmR), source qualityHOLD. fingerstatic/facehold, Unity/F2/TierP미승격. 새motion/export/packet없음. 보고 evidence/tour472-wrist-w1 및 evidence/existing-wave-hand-quality-r1. 다음보정범위는새Root지시를따르며 wrist/Tour팔꿈치/쇄골반복금지.
+
 # 2026-10-05 쇄골 source readonly intake
 
 후보0: 해당 내부 교차의 실제 가시성·원인 미확인. 원본actual3mesh9frames는 기존 ledger와 동일. upper_arm.L의302→303 회전3.191127도만 변화하며 clavicle/neck0. R1 clock복구FAIL 보존, R2 native/전체signature복구PASS. 다만 새 neutral PNG pixel FAIL(1,302,700channels/max221/원인미확정), 이번 렌더 외형PASS 없음. C2의 기존 neutral0 근거 및 전체Tour HOLD와 구분한다. 보고: evidence/tour-clavicle-source-intake-r3/YURI_R4_CLAVICLE_SOURCE_INTAKE_R1_KO.md. elbow C3/weights/rig/product/Unity 변경없음.

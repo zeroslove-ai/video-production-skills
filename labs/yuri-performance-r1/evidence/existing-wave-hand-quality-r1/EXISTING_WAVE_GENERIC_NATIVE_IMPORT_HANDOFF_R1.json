@@ -1,0 +1,48 @@
+{
+  "existing_packet_SHA": "f1621cc214e09d3c8ddcd020b4e167d8ca739c31687c80f7ab11654e73c883fd",
+  "resend_or_new_export_required": false,
+  "immutable_visual_authority_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_animation_library": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-social-wave-off-qa-r1\\YURI_R4_SOCIAL_GREETING_ACTIONS_ONLY_R1.blend",
+  "library_SHA": "888d5d68bd0eb0ac31d7eb3b3ca973567024fab3c081d41d71e5f65cfd650420",
+  "library_bytes": 220411,
+  "Action": "YURI_R4_SOCIAL_GREETING_WAVE_BODY_R1",
+  "source_armature": "Meshy_Fitted_Rig",
+  "source_joint_leaf_channels": [
+    "upper_arm.R.rotation_quaternion",
+    "forearm.R.rotation_quaternion",
+    "hand.R.rotation_quaternion"
+  ],
+  "channel_count": 12,
+  "sampling_fps": 30,
+  "key_frames": [
+    1,
+    91
+  ],
+  "key_interval_seconds": 3.0,
+  "video_container_seconds": 3.033333,
+  "loop": false,
+  "body_only": true,
+  "root_legs_leftarm_head_face_gaze": "Preserve existing source/target; no tracks in this Action",
+  "default": "OFF",
+  "requested_existing_route": "Existing animation-only export/import or Action/NLA consumer route; Generic/native first; no rebuilt GameRig/mesh or new exporter",
+  "one_missing_handoff": "Product owner Generic/native binding-and-playback receipt on the existing actual target Avatar: resolve target transform paths for the three source joint leaves and verify existing rest/bind mapping at native30fps. Desktop did not access or edit Unity.",
+  "expected_owner_receipt_fields": [
+    "actual_target_avatar_and_clip_ID",
+    "resolved_target_paths_upper_arm.R_forearm.R_hand.R",
+    "existing_rest_bind_mapping_verified",
+    "source30fps_timing_preserved_not_scene24fps",
+    "state_entered",
+    "normalized_time_advanced",
+    "clip_weight_gt_zero",
+    "AlwaysAnimate_regression_gate",
+    "actual_three_nonroot_bones_moved",
+    "no_root_teleport",
+    "no_gross_mesh_break",
+    "restore_idle_existing_appearance"
+  ],
+  "technical_import_proof_is_quality_acceptance": false,
+  "source_quality_hold": "Inclusive BODY elbow/upperarm new pairs59; static finger/neutral face/reference acting. This contract supplies source mapping only, not product promotion.",
+  "ActiveRagdoll_implementation": false,
+  "Unity_F2_StageB": "UNTESTED",
+  "TierP": 0
+}

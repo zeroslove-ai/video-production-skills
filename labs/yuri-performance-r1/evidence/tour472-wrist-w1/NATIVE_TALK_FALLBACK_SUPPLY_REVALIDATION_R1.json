@@ -1,0 +1,67 @@
+{
+  "selected_fallback": "MESHY_R2_BODY_TalkGesture native upper body, original84curves copied exactly in existing closed asset",
+  "existing_packet": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_TALK_SOURCE_ONLY_R1_20261004.zip",
+    "bytes": 56509587,
+    "SHA": "135fdc26e5c071813ccf724ee6bd915fc6d2cbe9855d6ea0bdf4a17174ffe21f",
+    "members": 85,
+    "indexed_members": 84,
+    "CRC_SHA_size_all": "PASS",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "candidate_SHA": "c9b3b0c8e56c8f3182323a56085c8fe1d644f7fc3ddb9a1d7642893c20472a60",
+    "library_SHA": "eae83ac3143d91b45a75ddf0366389a1cc22d35919f2527e5dc2e60ba9f51761",
+    "source_technical_and_scoped_contact": "PASS",
+    "visual": "REFERENCE; body-only, no acting quality promotion",
+    "TierP": 0
+  },
+  "fresh_all85_CRC_all84_member_SHA_size": "PASS",
+  "existing_library": {
+    "file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-talk-preview-r1\\YURI_R4_NATIVE_TALK_UPPER_ACTIONS_ONLY_R1.blend",
+    "SHA": "eae83ac3143d91b45a75ddf0366389a1cc22d35919f2527e5dc2e60ba9f51761",
+    "bytes": 1042654,
+    "Actions": {
+      "Meshy_Fitted_Rig": "YURI_R4_NATIVE_TALK_UPPER_EXISTING_ACTION_R1",
+      "Armature": "YURI_R4_NATIVE_TALK_UPPER_HEAD_TRANSPORT_R1",
+      "Hair_Rig_R4": "YURI_R4_NATIVE_TALK_UPPER_HAIR_TRANSPORT_R1"
+    },
+    "named_actions": 3,
+    "objects": 0,
+    "meshes": 0,
+    "armatures": 0,
+    "source_fps": 24,
+    "frame_range": [
+      1,
+      121
+    ],
+    "existing_66_source_Action_reused": "Original MESHY_R2_BODY_TalkGesture upper84native curves copied exactly into separate Action; source original unchanged",
+    "Face_gaze": "Original keys/drivers preserved neutral, body head rigid transport only",
+    "canonical_character": false,
+    "TierP": 0
+  },
+  "existing_source_QA_reused": "Original closed all121 grounded/lower/root/finger/OFF/scopedarm surface evidence; no fresh Blender reauthoring or export",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_Action_SHA": "9f2e6524dbf53dc0bf00b07ed574499e4c9db926ca70af75e408ebecc595a0d0",
+  "new_animation_candidate": false,
+  "duplicate_transfer": false,
+  "fresh_videos_whole_decode": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-talk-delivery-r1\\fullbody_front_NATIVE_TALK_1x.mp4",
+      "SHA": "235b3224130a0adf941b9e15c0c9f4a9bf7feb63f4467000db1270332f2b8a90",
+      "whole_decode": "PASS",
+      "frames": 121,
+      "fps": 24,
+      "duration": 5.041667
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-native-talk-delivery-r1\\waist_3q_NATIVE_TALK_1x.mp4",
+      "SHA": "b4706c9a0e35f999c814e86c07da319468751f527a2324d24d9925915fb58bc6",
+      "whole_decode": "PASS",
+      "frames": 121,
+      "fps": 24,
+      "duration": 5.041667
+    }
+  ],
+  "Root_previous_Laptop_receiver_custody": "Root reported library1042654bytes/eae83ac3 independently verified; not freshly inspected by this worker",
+  "visual": "REFERENCE body-only; no face/acting/physics/TierP/F2/Unity acceptance",
+  "TierP": 0
+}
