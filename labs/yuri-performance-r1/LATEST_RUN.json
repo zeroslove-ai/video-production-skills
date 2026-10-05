@@ -721,5 +721,27 @@
     "report": "evidence/native-tour-source-r1/YURI_R4_NATIVE_TOUR_SOURCE_R1_KO.md",
     "Unity_F2_StageB": "UNTESTED",
     "TierP": 0
+  },
+  "tour302_elbow_c1": {
+    "date": "2026-10-05",
+    "candidate_SHA": "e4d4ef74674ed840b65057776485ab01c230bc4975e780e5f3de7dde36165b7e",
+    "status": "SCOPED_ELBOW_IMPROVEMENT_WHOLE_CONTACT_FAIL_HOLD",
+    "scoped_local_QA_pass": false,
+    "first7_f302_remaining": 0,
+    "BODY_peak_original_candidate": [
+      32,
+      1
+    ],
+    "first_remaining_frame": 303,
+    "residual_clavicle_neck_vertices_change_m": 0,
+    "other_local_joints_non_descendant_world_support_patch_change": 0,
+    "wrist472_actual_meshes_unchanged": true,
+    "whole_1x_front_quarter_complete": true,
+    "OFF_RGBA_difference_each_view": 0,
+    "TierP": 0,
+    "source_packet_created": false,
+    "report": "evidence/tour302-elbow-c1/YURI_R4_TOUR302_ELBOW_C1_KO.md",
+    "review": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\REVIEW_TOUR302_LOCAL_C1.html",
+    "next_authorized": "ONE forearmL continuous soft-cap candidate to reduce source pose deviation; keep unchanged clavicle/neck and wrists/head/hair HOLD"
   }
 }

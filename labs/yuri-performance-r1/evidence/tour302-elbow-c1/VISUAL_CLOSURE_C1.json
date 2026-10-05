@@ -1,0 +1,17 @@
+{
+  "verdict": "SCOPED_ELBOW_IMPROVEMENT_WHOLE_CONTACT_FAIL_HOLD",
+  "visible_change": "matched front/quarter elbow opening and shallower inner fold; hand lower/outward original pose deviation visible",
+  "internal_pair_depth_visual": "UNRESOLVED",
+  "clavicle_neck_pair_visual": "not separated in elbow framing; actual unchanged f303/337",
+  "product_Unity_F2": "UNTESTED",
+  "source_packet_created": false,
+  "whole_UI_native1x": "2matchedvideos endedtrue/rate1/errornull",
+  "matched_witness_images": [
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\MATCHED_front_f302_R1.jpg",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\MATCHED_front_f337_R1.jpg",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\MATCHED_front_f371_R1.jpg",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\MATCHED_quarter_f302_R1.jpg",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\MATCHED_quarter_f337_R1.jpg",
+    "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour302-delivery-r1\\MATCHED_quarter_f371_R1.jpg"
+  ]
+}
