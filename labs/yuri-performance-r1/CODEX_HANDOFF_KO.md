@@ -1,3 +1,7 @@
+# 2026-10-05 Dots R2 custody-only / nonblocking PASS2
+
+67fd96 candidate cold reopen/defaultOFF PASS. Existing unassigned169key0..1 envelope numerically inspected. Original parity UNKNOWN(control40fa19/pristine16440ac unavailable);164effective versus165reported/maxobject-world1.4mm. ON/contact/runtime HOLD. No R4equivalence/newcandidate/save/export/Unity. evidence/dots-r2-readonly-custody-r1/YURI_DOTS_R2_CUSTODY_ONLY_R1_KO.md.
+
 # 2026-10-05 C MUG existing Grasp input
 
 새motion0/source81 OFF preserved. LEFT42upper/digit294channels/native169@24. attach69/hold85–101/lower102/release119/open136/return169. Closed9d23packet+a280library와 existing-native consumer JSON을 exact receiver SHA 검증. Provisional palm midpoint/actualMUGcontact PASS2 HOLD. report evidence/c-mug-existing-grasp-handoff-r1/YURI_R4_C_MUG_EXISTING_GRASP_HANDOFF_R1_KO.md.

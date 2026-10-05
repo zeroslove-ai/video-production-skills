@@ -1,0 +1,5 @@
+{
+  "initial_closure_assertion": "Incorrectly assumed absence of corrective envelope because no key Action is assigned. Closure assertion stopped publication. Native audit itself had passed.",
+  "correction": "Complete native inventory contains MUG_CORRECTIVE_R2_Envelope_Unassigned_OFF with169keys,0..1, default unassigned. Corrected report distinguishes existing envelope from active binding. No second native job/new candidate.",
+  "original_reader_commit": "f08ee5b26f73bf2d483c0745a955a6fb1d98e6e2"
+}

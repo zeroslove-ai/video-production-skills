@@ -806,5 +806,14 @@
     "release_frame": 119,
     "new_motion": false,
     "TierP": 0
+  },
+  "dots_r2_custody_only_r1": {
+    "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\dots-r2-readonly-custody-r1\\YURI_DOTS_R2_CUSTODY_ONLY_R1_KO.md",
+    "candidate_SHA": "67fd96b796ea510644c7c65549f410d4e277f04db91b1c57c991b430245904dc",
+    "custody": "SCOPED_PASS",
+    "source_parity": "UNKNOWN",
+    "contact_quality": "HOLD",
+    "nonblocking_PASS2": true,
+    "TierP": 0
   }
 }
