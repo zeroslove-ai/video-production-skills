@@ -1,0 +1,180 @@
+{
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_action_SHA": "2100d633baa004312716f23fc87589bb965cc54178625a54d3eb3626788255a2",
+  "library_SHA": "a2808d19d71cf55165b35b3bebcf752eebad8d76f5f4d6018c8b9a7435a8aeb2",
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_NATIVE_GRASP_HAND_EXISTING_ACTION_R1",
+    "Armature": "YURI_R4_NATIVE_GRASP_HAND_HEAD_TRANSPORT_R1",
+    "Hair_Rig_R4": "YURI_R4_NATIVE_GRASP_HAND_HAIR_TRANSPORT_R1"
+  },
+  "stages": [
+    {
+      "name": "OPEN_REACH",
+      "frames": [
+        1,
+        51
+      ],
+      "seconds": [
+        0.0,
+        2.0833333333333335
+      ]
+    },
+    {
+      "name": "CLOSE_HANDLE",
+      "frames": [
+        52,
+        69
+      ],
+      "seconds": [
+        2.125,
+        2.8333333333333335
+      ]
+    },
+    {
+      "name": "LIFT_CLOSED",
+      "frames": [
+        69,
+        85
+      ],
+      "seconds": [
+        2.8333333333333335,
+        3.5
+      ]
+    },
+    {
+      "name": "STATIC_HOLD",
+      "frames": [
+        85,
+        101
+      ],
+      "seconds": [
+        3.5,
+        4.166666666666667
+      ]
+    },
+    {
+      "name": "LOWER_CLOSED",
+      "frames": [
+        102,
+        119
+      ],
+      "seconds": [
+        4.208333333333333,
+        4.916666666666667
+      ]
+    },
+    {
+      "name": "OPEN_RELEASE",
+      "frames": [
+        119,
+        136
+      ],
+      "seconds": [
+        4.916666666666667,
+        5.625
+      ]
+    },
+    {
+      "name": "RETURN_OPEN",
+      "frames": [
+        136,
+        169
+      ],
+      "seconds": [
+        5.625,
+        7.0
+      ]
+    }
+  ],
+  "events": {
+    "attach_candidate_frame": 69,
+    "attach_seconds": 2.8333333333333335,
+    "hold_anchor_frame": 85,
+    "static_hold_frames": [
+      85,
+      101
+    ],
+    "release_candidate_frame": 119,
+    "release_seconds": 4.916666666666667,
+    "fully_open_frame": 136,
+    "event_basis": "Inferred authored timing, not embedded animation events. Runtime owner chooses attach/release and verifies actual mug/socket continuity. Frame102 is lowering start while fingers stay closed; earlier raw recommended_release_start102 is superseded."
+  },
+  "hand": "LEFT",
+  "right_hand_static": true,
+  "body_channels": 294,
+  "upper_digit_bones": 42,
+  "fps": 24,
+  "frame_range": [
+    1,
+    169
+  ],
+  "original81_OFF_signature_exact": true,
+  "source_candidate_bytes_unchanged": true,
+  "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+  "guard_SHA": "18dfb91a942e10e7b0aa69bbee85ebbc3fe04a060d6238c6ad4a7bce99cd4bcf",
+  "private_handoff": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\c-mug-existing-grasp-handoff-r1\\C_MUG_GRASP_HANDOFF_PRIVATE_R1.json",
+  "private_handoff_SHA": "d3aefd6721f81ca6d7cf64a113497c08c347ecc0273dfab6f66755e115d5b033",
+  "receiver_files": [
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/YURI_R4_NATIVE_GRASP_SOURCE_ONLY_R1_20261005.zip",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 57045942,
+      "SHA": "9d23f40e7ebdb812edd939eed61fd017427d4ba02bdadcd88d5bffcc43bc74ec",
+      "copied": true
+    },
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/GRASP_PHASE_ANCHOR_PRIVATE_R1.json",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 1273,
+      "SHA": "8b760d39401c81e5c537004e50859b44e74d426329b9e3ea71d6c4d4b54b057a",
+      "copied": true
+    },
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/MUG_GRASP_CONSUMER_MANIFEST_R1.json",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 3188,
+      "SHA": "c9fb5aa5b86d7253428b8ce5483628c41e273d8501b67f687027359ca32888e8",
+      "copied": true
+    },
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/NativeGraspBody169.json",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 1436799,
+      "SHA": "07ca23892659007b3a930c92522d7e7b84e26634ed9a965bdb467c33803a7432",
+      "copied": true
+    },
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/NativeGraspHairTransport169.json",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 51975,
+      "SHA": "ce075d6cd422154793e479f62de6157e39e537e4c7fe442d19d31cd1fc9c9009",
+      "copied": true
+    },
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/NativeGraspHead169.json",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 51772,
+      "SHA": "7e148c6adf657c9bea27323e0968020202d49e4de302d0ff5b1b7605d4d0b46b",
+      "copied": true
+    },
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/NativeGraspLocalTRS169.json",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 8250305,
+      "SHA": "1c3e7dc8c128af9483e5cc88335efc246b86be42b9aa070d172137570c408a82",
+      "copied": true
+    },
+    {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1/C_MUG_GRASP_HANDOFF_PRIVATE_R1.json",
+      "hostname": "DESKTOP-11NSABR",
+      "bytes": 6490,
+      "SHA": "d3aefd6721f81ca6d7cf64a113497c08c347ecc0273dfab6f66755e115d5b033",
+      "copied": true
+    }
+  ],
+  "TierP": 0,
+  "PASS2_debt": "Finger/webbing/thumb/contact/prop fit/precision",
+  "new_motion": false,
+  "product_modified": false,
+  "runtime_consumer": "Existing native Talk reader/ApplyBodyBone; rest+basis reflection, one clock/writer; product import receipt still pending"
+}

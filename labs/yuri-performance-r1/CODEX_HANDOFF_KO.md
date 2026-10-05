@@ -1,3 +1,7 @@
+# 2026-10-05 C MUG existing Grasp input
+
+새motion0/source81 OFF preserved. LEFT42upper/digit294channels/native169@24. attach69/hold85–101/lower102/release119/open136/return169. Closed9d23packet+a280library와 existing-native consumer JSON을 exact receiver SHA 검증. Provisional palm midpoint/actualMUGcontact PASS2 HOLD. report evidence/c-mug-existing-grasp-handoff-r1/YURI_R4_C_MUG_EXISTING_GRASP_HANDOFF_R1_KO.md.
+
 # 2026-10-05 B PASS1 reuse / R4 appearance preserved
 
 기존 외형 correction820a237/08caad7 보존. 새 motion 하나: Walk97→Idle1 Tier-C3Actions, OFFpixel0/original78 동일/25@24fps 전체1x. 기존 Walk packet exact receiver SHA 확인; Root와 동시 전달로 inbox 두 사본, 추가 전송 금지. Idle/Talk/Look/Wave/Grasp/Reaction 재사용. Precision PASS2 HOLD/TierP0/Unity미검증. report evidence/b-pass1-motion-handoff-r1/YURI_R4_B_PASS1_MOTION_HANDOFF_R1_KO.md 및 consumer JSON 참조.

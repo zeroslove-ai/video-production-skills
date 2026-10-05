@@ -796,5 +796,15 @@
       "bytes": 63291879,
       "SHA": "6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50"
     }
+  },
+  "c_mug_existing_grasp_handoff_r1": {
+    "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\c-mug-existing-grasp-handoff-r1\\YURI_R4_C_MUG_EXISTING_GRASP_HANDOFF_R1_KO.md",
+    "receiver_folder": "C:/YuriTransfer/inbox/ROOT_PM_C_MUG_GRASP_R1",
+    "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+    "hand": "LEFT",
+    "attach_frame": 69,
+    "release_frame": 119,
+    "new_motion": false,
+    "TierP": 0
   }
 }

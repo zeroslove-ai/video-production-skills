@@ -1,0 +1,5 @@
+{
+  "failure": "R1 remote pre-copy PowerShell if-statement piped directly caused EmptyPipeElement parse error; no remote write/copy occurred",
+  "correction": "Preserved executedR1. FreshR1b assigns if result then serializes; same scope/data. Existing source candidate/rig untouched.",
+  "semantic_correction": "Raw frame102 release proposal superseded; actual closed digits69..118, lower102..119, open119..136. MUG detach119 inferred event only."
+}
