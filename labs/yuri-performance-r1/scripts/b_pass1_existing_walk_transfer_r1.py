@@ -1,0 +1,17 @@
+"""Supply ONLY the already closed Walk ZIP through the existing strict SSH inbox route."""
+from pathlib import Path
+import json,hashlib,subprocess,base64
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');O=B/'b-pass1-walk-transfer-r1';O.mkdir(exist_ok=False);P=B/'YURI_R4_NATIVE_WALK_SOURCE_ONLY_R1_20261005.zip';expected='6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50';sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();assert P.stat().st_size==63291879 and sha(P)==expected
+opts=['-i','C:/Users/JAEWAN/.ssh/id_ed25519_laptop','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=10'];target='jaewan@192.168.0.16'
+def remote(script):
+ encoded=base64.b64encode(script.encode('utf-16le')).decode();r=subprocess.run(['ssh',*opts,target,'powershell.exe','-NoProfile','-NonInteractive','-EncodedCommand',encoded],capture_output=True,text=True,encoding='utf8',errors='replace',timeout=60);assert r.returncode==0,(r.returncode,r.stderr[-1000:]);return json.loads(r.stdout.lstrip('\ufeff').strip())
+canonical='C:/YuriTransfer/inbox/YURI_R4_NATIVE_WALK_SOURCE_ONLY_R1_20261005.zip';folder='C:/YuriTransfer/inbox/ROOT_PM_NATIVE_WALK_TIERC_20261005_R1';dest=folder+'/'+P.name
+r=remote("[Console]::OutputEncoding=[Text.UTF8Encoding]::new(); $a=@(); foreach($p in @('"+canonical+"','"+dest+"')){if(Test-Path -LiteralPath $p){$a+=@{path=$p;SHA=(Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash.ToLower();bytes=(Get-Item -LiteralPath $p).Length}}}; @{hostname=$env:COMPUTERNAME;files=$a}|ConvertTo-Json -Depth 5 -Compress")
+assert r['hostname'].upper()=='DESKTOP-11NSABR';existing=next((x for x in r['files'] if x['SHA']==expected and x['bytes']==P.stat().st_size),None)
+if existing:final=existing;sent=False
+else:
+ remote("[Console]::OutputEncoding=[Text.UTF8Encoding]::new(); if(Test-Path -LiteralPath '"+dest+"'){throw 'Existing destination differs; do not overwrite'}; New-Item -ItemType Directory -Path '"+folder+"' -Force|Out-Null; @{ready=$true}|ConvertTo-Json -Compress")
+ partial=dest+'.partial';cp=subprocess.run(['scp',*opts,str(P),target+':'+partial],capture_output=True,text=True,timeout=120);assert cp.returncode==0,cp.stderr[-1000:]
+ final=remote("[Console]::OutputEncoding=[Text.UTF8Encoding]::new(); $s=(Get-FileHash -LiteralPath '"+partial+"' -Algorithm SHA256).Hash.ToLower(); $b=(Get-Item -LiteralPath '"+partial+"').Length; if($s -ne '"+expected+"' -or $b -ne 63291879){throw 'Received SHA or length differs'}; if(Test-Path -LiteralPath '"+dest+"'){throw 'Do not overwrite destination'}; Move-Item -LiteralPath '"+partial+"' -Destination '"+dest+"'; @{path='"+dest+"';SHA=$s;bytes=$b}|ConvertTo-Json -Compress");sent=True
+receipt={'scope':'OWNER_TWO_PASS_POLICY_R1_DESKTOP / ROOT_PM_WALK_CUSTODY_GAP_R1','closed_packet_unchanged':True,'new_export_or_archive':False,'source_file':str(P),'source_SHA':expected,'source_bytes':P.stat().st_size,'existing_verified_route':'strict existing SSH key; authenticated receiver hostname matched','receiver':final,'copied_this_once':sent,'existing_copy_reused':bool(existing),'scope_tier':'Tier-C/in-place PASS1 candidate only; TierP0; contact/plant/velocity remain HOLD','product_repo_changed':False,'thread_message_or_code_queue_sent':False}
+(O/'WALK_EXACT_PACKET_TRANSFER_RECEIPT_R1.json').write_text(json.dumps(receipt,indent=2),encoding='utf8');print(json.dumps({'status':'RECEIVER_SHA_BYTES_MATCH','path':final['path'],'SHA':final['SHA'],'bytes':final['bytes'],'copied_once':sent}))

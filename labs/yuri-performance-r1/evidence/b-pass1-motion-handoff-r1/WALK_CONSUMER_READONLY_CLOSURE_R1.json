@@ -1,0 +1,16 @@
+{
+  "status": "LOCAL_FINISHED_NOT_TRANSFERRED_SUPERSEDED_BY_EXISTING_LAPTOP_READER_SUCCESS",
+  "original81_OFF_full_signature_exact": true,
+  "source_candidate_bytes_unchanged": true,
+  "private_manifest": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\b-pass1-existing-walk-consumer-r1\\WALK_CONSUMER_SAMPLES_MANIFEST_R1.json",
+  "private_manifest_SHA": "2202a27ba81b840f2c95bd8c8e6c0cc823f44220b16ac027a404e2b4952e5b62",
+  "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+  "guard_SHA": "4978d3d466f7e66584723580cfa8284adec3f3494f12dd4e5fa25cbf1e565289",
+  "samples": 97,
+  "body_channels": 364,
+  "Unity_schema_readonly": "Existing Recipe/Channel/Key; ApplyBodyBone rest + reflected native basis",
+  "duplicate_supply": false,
+  "new_export_framework": false,
+  "TierP": 0,
+  "foot_contact_precision": "HOLD"
+}

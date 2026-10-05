@@ -1,0 +1,28 @@
+{
+  "delivery": {
+    "OFF_pixels": {
+      "unequal_RGBA_channels": 0,
+      "max_diff": 0
+    },
+    "source_candidate_library_SHA_reverified": true,
+    "all25_PNG_SHA_verified": true,
+    "video": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\b-pass1-walkstop-delivery-r1\\WALKSTOP_IDLE_TIERC_NATIVE24FPS_1x.mp4",
+    "video_SHA": "925412e310232cfdc3cd97b52ebc1f43374a0974b23bf7d0d39fc284008d57e2",
+    "fps": 24,
+    "frames": 25,
+    "container_seconds": 1.041667,
+    "key_interval_seconds": 1,
+    "whole_decode": "PASS",
+    "TierP": 0,
+    "precision": "DEFERRED / HOLD"
+  },
+  "UI": {
+    "duration": 1.041667,
+    "ended": true,
+    "error": null,
+    "rate": 1,
+    "time": 1.041667
+  },
+  "source_preservation": true,
+  "source_precision_PASS": false
+}

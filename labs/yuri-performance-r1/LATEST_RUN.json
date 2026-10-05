@@ -781,5 +781,20 @@
     "inclusive_BODY_newpair_peak": 59,
     "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\existing-wave-hand-quality-r1\\YURI_R4_EXISTING_WAVE_HAND_QUALITY_R1_KO.md",
     "TierP": 0
+  },
+  "b_pass1_motion_handoff_r1": {
+    "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\evidence\\b-pass1-motion-handoff-r1\\YURI_R4_B_PASS1_MOTION_HANDOFF_R1_KO.md",
+    "only_new_motion": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\b-pass1-walkstop-idle-tierc-r1\\YURI_R4_B_WALKSTOP_IDLE_TIERC_ACTIONS_ONLY_R1.blend",
+    "candidate_SHA": "02c183a08342bd9d7325661d82519def939825c92342f3a7a1e450597a55ddc0",
+    "library_SHA": "916d0ecb7a643907142b64f88ae38a0edf274353a3d119f906ba8ceebd4a5050",
+    "OFF_pixel_diff": 0,
+    "TierP": 0,
+    "precision": "PASS2 HOLD",
+    "review": "http://127.0.0.1:18949/REVIEW_B_WALKSTOP_TIERC_R1.html",
+    "walk_receiver": {
+      "path": "C:/YuriTransfer/inbox/ROOT_PM_NATIVE_WALK_TIERC_20261005_R1/YURI_R4_NATIVE_WALK_SOURCE_ONLY_R1_20261005.zip",
+      "bytes": 63291879,
+      "SHA": "6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50"
+    }
   }
 }

@@ -1,0 +1,21 @@
+{
+  "scope": "OWNER_TWO_PASS_POLICY_R1_DESKTOP / ROOT_PM_WALK_CUSTODY_GAP_R1",
+  "closed_packet_unchanged": true,
+  "new_export_or_archive": false,
+  "source_file": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_WALK_SOURCE_ONLY_R1_20261005.zip",
+  "source_SHA": "6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50",
+  "source_bytes": 63291879,
+  "existing_verified_route": "strict existing SSH key; authenticated receiver hostname matched",
+  "receiver": {
+    "path": "C:/YuriTransfer/inbox/ROOT_PM_NATIVE_WALK_TIERC_20261005_R1/YURI_R4_NATIVE_WALK_SOURCE_ONLY_R1_20261005.zip",
+    "bytes": 63291879,
+    "SHA": "6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50"
+  },
+  "copied_this_once": true,
+  "existing_copy_reused": false,
+  "scope_tier": "Tier-C/in-place PASS1 candidate only; TierP0; contact/plant/velocity remain HOLD",
+  "product_repo_changed": false,
+  "thread_message_or_code_queue_sent": false,
+  "concurrent_root_delivery_notice": "Root separately reported C:/YuriTransfer/inbox/ROOT_PM_EXISTING_WALK_6f88434a/ same ZIP SHA/bytes after this transfer finished; no further transfer. This receipt independently verifies our destination only.",
+  "failed_attempt": "R1 jaewan account authentication denied before remote writes; R2 used Root-verified zeros account and unchanged key/knownhost."
+}

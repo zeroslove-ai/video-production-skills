@@ -1,3 +1,7 @@
+# 2026-10-05 B PASS1 reuse / R4 appearance preserved
+
+기존 외형 correction820a237/08caad7 보존. 새 motion 하나: Walk97→Idle1 Tier-C3Actions, OFFpixel0/original78 동일/25@24fps 전체1x. 기존 Walk packet exact receiver SHA 확인; Root와 동시 전달로 inbox 두 사본, 추가 전송 금지. Idle/Talk/Look/Wave/Grasp/Reaction 재사용. Precision PASS2 HOLD/TierP0/Unity미검증. report evidence/b-pass1-motion-handoff-r1/YURI_R4_B_PASS1_MOTION_HANDOFF_R1_KO.md 및 consumer JSON 참조.
+
 # 2026-10-05 Tour wrist 실패 종료 및 기존Wave hand QA
 
 W1b source FAIL/HOLD/OFF(e4cd9e7f): f47214→20/newpairspeak19/angularjump30.731→47.823. matchedfront/quarter/side38frames24fps1x끝까지/OFF0 완료. no cap sweep/new packet. 기존Wave580b8018은 motion변경없이 hand close framing215→0/전91frames5%margin 보완,91@30fps1x+OFF0. 새inclusive source BODY 교차59(first23/peak41;검사ownershipforearmR/upperarmR), source qualityHOLD. fingerstatic/facehold, Unity/F2/TierP미승격. 새motion/export/packet없음. 보고 evidence/tour472-wrist-w1 및 evidence/existing-wave-hand-quality-r1. 다음보정범위는새Root지시를따르며 wrist/Tour팔꿈치/쇄골반복금지.

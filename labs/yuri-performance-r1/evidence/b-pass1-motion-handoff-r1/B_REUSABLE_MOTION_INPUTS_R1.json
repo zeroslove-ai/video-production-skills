@@ -1,0 +1,63 @@
+{
+  "policy": "OWNER_TWO_PASS_POLICY_R1_DESKTOP",
+  "TierP": 0,
+  "reused": [
+    {
+      "family": "Idle",
+      "existing_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_A1_FEMALE_IDLE_BODY_CANDIDATE_R3_20261004.zip",
+      "SHA256": "c2982d44bdc42eb954721ce7c6cc9e5a82533115ac7bd6ee1eb7e627bd2305a3",
+      "bytes": 34899575,
+      "contract_limit": "Reuse existing accepted product Idle. Native Idle also exists in unchanged master."
+    },
+    {
+      "family": "Walk",
+      "existing_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_WALK_SOURCE_ONLY_R1_20261005.zip",
+      "SHA256": "6f88434a3758bb446e71b6907796e5ba61f9eeeefcc7f92d1cbc9dd5cfb50a50",
+      "bytes": 63291879,
+      "contract_limit": "1..97@24fps; sample97 duplicates1; 96 unique samples,4sec loop. Root XYZ range0. Foot drift/contact/seam HOLD; world movement owned externally."
+    },
+    {
+      "family": "Talk",
+      "existing_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_TALK_SOURCE_ONLY_R1_20261004.zip",
+      "SHA256": "135fdc26e5c071813ccf724ee6bd915fc6d2cbe9855d6ea0bdf4a17174ffe21f",
+      "bytes": 56509587,
+      "contract_limit": "Existing native BODY/head/hair same-clock provider; key interval5sec@24fps. Already received; no resend."
+    },
+    {
+      "family": "Look",
+      "existing_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_LOOK_LISTEN_SOURCE_ONLY_R1_20261004.zip",
+      "SHA256": "76a006e56289738d79ea0ef6b6e9b3ec4c29a5412e10c4560881ebf871df1275",
+      "bytes": 82078623,
+      "contract_limit": "Already received; gaze ownership remains provisional."
+    },
+    {
+      "family": "Wave",
+      "existing_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_SOCIAL_GREETING_SOURCE_ONLY_R1_20261004.zip",
+      "SHA256": "f1621cc214e09d3c8ddcd020b4e167d8ca739c31687c80f7ab11654e73c883fd",
+      "bytes": 56086747,
+      "contract_limit": "Already received. Keys1..91@30fps,3sec interval. Hand framing supplement only; BODY contact59 HOLD."
+    },
+    {
+      "family": "Grasp",
+      "existing_packet": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\YURI_R4_NATIVE_GRASP_SOURCE_ONLY_R1_20261005.zip",
+      "SHA256": "9d23f40e7ebdb812edd939eed61fd017427d4ba02bdadcd88d5bffcc43bc74ec",
+      "bytes": 57045942,
+      "contract_limit": "Already received; native169 samples@24fps; prop/physical grasp not certified."
+    },
+    {
+      "family": "Reaction6",
+      "reuse_checkpoint": "820a23791d17838b101296b50c87fd7564db791f",
+      "report": "C:\\Users\\JAEWAN\\projects\\yuri-motion-previs-lab-r1\\labs\\yuri-performance-r1\\R4_APPEARANCE_PRESERVE_CORRECTION_R1_KO.md",
+      "contract_limit": "Reuse six existing Action-only reactions. Original appearance OFF exact; Light/Strong2cycles; Unity untested."
+    },
+    {
+      "family": "Autonomous/interrupt/resume",
+      "owner": "Existing product writer",
+      "contract_limit": "State selection/crossfade/pause/resume/root navigation are runtime ownership, not additional source motions."
+    }
+  ],
+  "only_new_missing_motion": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\b-pass1-walkstop-idle-tierc-r1\\YURI_R4_B_WALKSTOP_IDLE_TIERC_ACTIONS_ONLY_R1.blend",
+  "quality": "Tier-C PASS1 placeholder only; PASS2 precision deferred",
+  "new_export_framework": false,
+  "product_repo_changed": false
+}

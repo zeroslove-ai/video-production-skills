@@ -1,0 +1,45 @@
+{
+  "source": "C:\\Users\\JAEWAN\\scratch\\YURI_COMMON_MOTION_CURATION_R1\\provisional-first4-r1\\target-reference\\Character_Master_NeckSkin_R4.blend",
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "source_Walk_Action_SHA": "01de6c840b84af108d9529e98b7656f2b66060bf7565b842e856d884a7d9ad35",
+  "source_Idle_Action_SHA": "673f6973e16fce72f5a7186bd2c3f74bce65744455318de449ec512374c2875c",
+  "candidate": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\b-pass1-walkstop-idle-tierc-r1\\Character_R4_B_WalkStopIdle_TierC_OFF_R1_20261005.blend",
+  "candidate_SHA": "02c183a08342bd9d7325661d82519def939825c92342f3a7a1e450597a55ddc0",
+  "library": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\b-pass1-walkstop-idle-tierc-r1\\YURI_R4_B_WALKSTOP_IDLE_TIERC_ACTIONS_ONLY_R1.blend",
+  "library_SHA": "916d0ecb7a643907142b64f88ae38a0edf274353a3d119f906ba8ceebd4a5050",
+  "library_bytes": 934825,
+  "actions": {
+    "Meshy_Fitted_Rig": "YURI_R4_B_WALKSTOP_IDLE_TIERC_BODY_R1",
+    "Armature": "YURI_R4_B_WALKSTOP_IDLE_TIERC_HEAD_R1",
+    "Hair_Rig_R4": "YURI_R4_B_WALKSTOP_IDLE_TIERC_HAIR_R1"
+  },
+  "quality": "Tier-C placeholder for PASS1 B only",
+  "TierP": 0,
+  "native_frames": [
+    1,
+    25
+  ],
+  "fps": 24,
+  "key_interval_sec": 1.0,
+  "source_Walk_phase": 97,
+  "target_native_Idle_phase": 1,
+  "binding_recipe": "Original source +3 Actions via existing ReactionLane; play walkstop once1..25@24, then off/resume existingIdle. Walk cycle boundary source start only; arbitrary interrupt must use owner crossfade. Root navigation owned separately.",
+  "original78_OFF_signature_exact": true,
+  "geometry_rest_weights_material_shapes_facegaze_unchanged": true,
+  "motion_start_and_end_body_match_existing_native_source": true,
+  "deferred_PASS2": [
+    "foot sliding/floor/contact/COM",
+    "hand/finger/neck/hair/mouth precision",
+    "continuous derivative/seam polish",
+    "G1-G3/TierP/F2-F3"
+  ],
+  "Unity_pass": "UNTESTED",
+  "source_precision_PASS": false,
+  "loop": false,
+  "default_animation": "OFF",
+  "ownership": "BODY: Meshy_Fitted_Rig. HEAD: Armature/Root. HAIR: Hair_Rig_R4/Hair_HeadRoot; all one clock. Single owner per channel; never simultaneously apply native FACE root and HEAD transport.",
+  "world_root": "External product controller; in-place only; no navigation/turn certification",
+  "arbitrary_interrupt": "Runtime owner crossfade; this source starts ONLY at Walk phase97",
+  "consumer": "Append Action datablocks only through existing ReactionLane. Never append geometry, materials, rigs or rebuild GameRig. Restore original state with lane.off().",
+  "product_import_gate": "UNTESTED: state/time/weight/AlwaysAnimate/non-root bone movement/root teleport/mesh and OFF restore require product-owner receipt."
+}
