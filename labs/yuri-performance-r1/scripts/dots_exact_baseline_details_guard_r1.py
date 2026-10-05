@@ -1,0 +1,9 @@
+import json,hashlib
+from pathlib import Path
+B=Path('C:/Users/JAEWAN/Documents/Codex/2026-10-02/files-pasted-by-the-user-yuri/outputs');G=B/'o1-dots-exact-baseline-details-r1';G.mkdir(exist_ok=False)
+C=Path('C:/Users/JAEWAN/projects/yuri-motion-previs-lab-r1/labs/yuri-performance-r1/scripts/dots_exact_baseline_details_r1.py');sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
+cfg=json.loads((B/'o1-dots-exact-baseline-compare-r1/FIXED_CONFIG.json').read_bytes());scope='ROOT_PM_DOTS_EXACT_BASELINE_CUSTODY_COMPARE_R1 read-only difference resolution: body object changed field and image props versus packed bytes and new Basis equals control coordinates. No save/render/export/quality promotion. Same fixed CPU2 strict guard.'
+p=G/'PAYLOAD_CONFIG.json';p.write_text(json.dumps({'collector_argv':[],'scope':scope}),encoding='utf8')
+cfg['collector_sha256']=sha(C);cfg['pinned_files']={k:v for k,v in cfg['pinned_files'].items() if not k.endswith('dots_exact_baseline_compare_r1.py') and 'o1-dots-exact-baseline-compare-r1\\PAYLOAD_CONFIG.json' not in k};cfg['pinned_files'][str(C)]=sha(C);cfg['pinned_files'][str(p)]=sha(p)
+n=cfg['native'];n.update({'gates':str(G/'gates'),'capture_output':str(B/'dots-exact-baseline-details-r1'),'approval_path':str(G/'NEW_EXACT_SCOPE_AUTHORITY.json'),'result_path':str(G/'NATIVE_GUARD_RESULT.json')});a=n['argv'];a[a.index('--gates')+1]=n['gates'];a[a.index('--collector')+1]=str(C);a[a.index('--collector-config')+1]=str(p)
+c=G/'FIXED_CONFIG.json';c.write_text(json.dumps(cfg,indent=2),encoding='utf8');auth={'new_exact_packet_authorized':True,'historical_sampler_approval_reused':False,'config_sha256':sha(c),'broker_sha256':cfg['broker_sha256'],'collector_sha256':sha(C),'argv':a,'preflight_result_sha256':sha(cfg['helper']['result_path']),'approval_basis':scope};Path(n['approval_path']).write_text(json.dumps(auth,indent=2),encoding='utf8')

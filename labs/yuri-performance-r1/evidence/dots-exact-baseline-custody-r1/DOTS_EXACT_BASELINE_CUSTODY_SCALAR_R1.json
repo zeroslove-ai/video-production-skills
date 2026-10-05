@@ -1,0 +1,211 @@
+{
+  "scope": "ROOT_PM_DOTS_EXACT_BASELINE_CUSTODY_COMPARE_R1",
+  "custody": "PASS_EXACT_TWO_BASELINES",
+  "source_parity_vs_Dots_MUG_control": "PASS_ORIGINAL_DOMAINS_PRESERVED_WITH_ENUMERATED_ADDITIONS",
+  "strict_whole_asset_identical": "NO: R2 adds Basis/corrective key and unassigned envelope; not appearance promotion",
+  "canonical_R4_equivalence": "NOT_ASSERTED: immutable a30fc R4 remains sole visual authority",
+  "assets": [
+    {
+      "asset_id": "pristine_master",
+      "archive_sha256": "9182d678ea344a2bcf4600272bacfe0d587d6ec74fd4a408839663b1f11ebbac",
+      "archive_bytes": 29647948,
+      "zip_crc_passed": true,
+      "native": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\dots-exact-baseline-inputs-r1\\pristine_master\\Yuri_Independent_Finish_Master_v3.blend",
+      "native_bytes": 30045689,
+      "native_sha256": "16440ac619b43f2a9cbc5d0f6660ba1341e08961126d50e19c43493ccf5a646b",
+      "verified": true
+    },
+    {
+      "asset_id": "dots_mug_control",
+      "archive_sha256": "fc027251747728a13dd3b0f3e4cfa79dee50b13d1bcbf8e30166dae50eada84c",
+      "archive_bytes": 29807737,
+      "zip_crc_passed": true,
+      "native": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\dots-exact-baseline-inputs-r1\\dots_mug_control\\Yuri_Mug_GraspRelease_POSE_STUDY_IndependentSupport_DEFAULT_OFF.blend",
+      "native_bytes": 30207907,
+      "native_sha256": "40fa19e9f276fdc5c6dc08e9e75bda6da90b578a1320443468eb423f580d5374",
+      "verified": true
+    }
+  ],
+  "r2": {
+    "path": "C:\\Users\\JAEWAN\\projects\\yuri-root-pm-r1\\artifacts\\reviews\\dots-thumb-r2\\native-review-only\\Yuri_Mug_ThumbVolume_VolumeRedistribution_R2_DEFAULT_OFF.blend",
+    "sha256": "67fd96b796ea510644c7c65549f410d4e277f04db91b1c57c991b430245904dc",
+    "bytes": 31630511,
+    "unchanged": true
+  },
+  "inventory": {
+    "pristine_master": {
+      "frame": 1,
+      "objects": 103,
+      "actions": 108,
+      "mesh_count": 45
+    },
+    "dots_mug_control": {
+      "frame": 1,
+      "objects": 110,
+      "actions": 111,
+      "mesh_count": 48
+    },
+    "r2": {
+      "frame": 1,
+      "objects": 110,
+      "actions": 112,
+      "mesh_count": 48
+    }
+  },
+  "master_to_control": {
+    "objects_added": [
+      "MUG_STUDY_CupBody",
+      "MUG_STUDY_HandCamera",
+      "MUG_STUDY_Handle",
+      "MUG_STUDY_HandleGraspAnchor",
+      "MUG_STUDY_ProxyRoot",
+      "MUG_STUDY_Support_FromExistingPedestal",
+      "MUG_STUDY_WideCamera"
+    ],
+    "actions_added": [
+      "MUG_STUDY_BODY_GraspRelease_Unassigned_OFF",
+      "MUG_STUDY_CAMERA_CommonWrist_Unassigned_OFF",
+      "MUG_STUDY_PROP_TranslationOnly_Unassigned_OFF"
+    ],
+    "original_domain_differences": {
+      "actions": [],
+      "meshes_shape_keys_weights": [],
+      "rest_rigs": [],
+      "objects": [],
+      "mesh_attributes": [],
+      "rest_pose_settings": [],
+      "materials": [],
+      "node_groups": [],
+      "textures": [
+        "bald_anime_head_3d_model_basecolor.002",
+        "Skin_Clean_R3_BaseColor_2K",
+        "stylized_hair_3d_model_Clone1_metallic",
+        "stylized_hair_3d_model_Clone1_roughness",
+        "tripo_image_8d1987b0_0",
+        "tripo_image_8d1987b0_3"
+      ],
+      "worlds": [],
+      "camera_lights": [],
+      "scene": [
+        "value"
+      ],
+      "evaluated_geometry_world": []
+    },
+    "image_difference_resolution": "Only filepath/filepath_raw differ; packed bytes/color and other image props identical. No image edits performed."
+  },
+  "control_to_r2": {
+    "objects_added": [],
+    "objects_removed": [],
+    "actions_added": [
+      "MUG_CORRECTIVE_R2_Envelope_Unassigned_OFF"
+    ],
+    "actions_removed": [],
+    "original_domain_differences": {
+      "actions": [],
+      "meshes_shape_keys_weights": [
+        "Meshy_Body_NeutralCovered",
+        "QA_Body_Surface_Inspection"
+      ],
+      "rest_rigs": [],
+      "objects": [
+        "Meshy_Body_NeutralCovered"
+      ],
+      "mesh_attributes": [
+        "output"
+      ],
+      "rest_pose_settings": [],
+      "materials": [],
+      "node_groups": [],
+      "textures": [],
+      "worlds": [],
+      "camera_lights": [],
+      "scene": [],
+      "evaluated_geometry_world": []
+    },
+    "body_object_actual_diff": [
+      {
+        "field": "/props/active_shape_key",
+        "before": null,
+        "after": [
+          "ShapeKey",
+          "Basis"
+        ]
+      }
+    ],
+    "mesh_differences": {
+      "Meshy_Body_NeutralCovered": {
+        "original_fields_changed": [
+          "shape_anim"
+        ],
+        "original_keys_changed": [],
+        "keys_added": [
+          "Basis",
+          "MUG_ThumbVolume_VolumeRedistribution_R2_OFF"
+        ]
+      },
+      "QA_Body_Surface_Inspection": {
+        "original_fields_changed": [
+          "shape_anim"
+        ],
+        "original_keys_changed": [],
+        "keys_added": [
+          "Basis",
+          "MUG_ThumbVolume_VolumeRedistribution_R2_OFF"
+        ]
+      }
+    },
+    "new_Basis_equals_control_vertex_coordinates": true,
+    "OFF_evaluated_world_geometry_exact_all_48_mesh_objects": true,
+    "original_111_action_curves_exact": true
+  },
+  "correctives": [
+    {
+      "object": "Meshy_Body_NeutralCovered",
+      "key": "MUG_ThumbVolume_VolumeRedistribution_R2_OFF",
+      "value": 0.0,
+      "changed_vertices": 164,
+      "max_world_delta_m": 0.0013999988675470316,
+      "action": null,
+      "drivers": 0
+    },
+    {
+      "object": "QA_Body_Surface_Inspection",
+      "key": "MUG_ThumbVolume_VolumeRedistribution_R2_OFF",
+      "value": 0.0,
+      "changed_vertices": 164,
+      "max_world_delta_m": 0.0013999988675470316,
+      "action": null,
+      "drivers": 0
+    }
+  ],
+  "envelope": {
+    "action": "MUG_CORRECTIVE_R2_Envelope_Unassigned_OFF",
+    "keys": 169,
+    "min": 0,
+    "max": 1,
+    "nonzero_start": 53,
+    "nonzero_end": 134,
+    "assigned": false
+  },
+  "upstream_support_count": 165,
+  "measured_effective_nonzero_delta_vertices": 164,
+  "support_count_difference": "165 authored-support claim versus 164 stored effective nonzero deltas; cause remains unproven. No repair/new corrective.",
+  "guards": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dots-exact-baseline-compare-r1\\NATIVE_GUARD_RESULT.json",
+      "sha256": "e340a940d0908bb34c6cbc0b9317fa49d52cdd68861c97d8ec8cbb98e23e4e79",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\o1-dots-exact-baseline-details-r1\\NATIVE_GUARD_RESULT.json",
+      "sha256": "3887f1b0cc9c71cffd9979ef96bfdb5667d5b128570fe67885e8989f67aa069d",
+      "status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN"
+    }
+  ],
+  "TierP": 0,
+  "default_OFF": true,
+  "quality": "HOLD/contact debt remains",
+  "new_candidate_render_export_Unity_changes": false,
+  "pixel_parity_test": "NOT_RUN in this custody audit",
+  "previous_UNKNOWN_receipt": "5432cc45119e277352af8c447beefff6b56561d5 preserved; baseline availability/original parity superseded by this fresh evidence"
+}
