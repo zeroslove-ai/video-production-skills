@@ -1,3 +1,7 @@
+# 2026-10-05 쇄골 source readonly intake
+
+후보0: 해당 내부 교차의 실제 가시성·원인 미확인. 원본actual3mesh9frames는 기존 ledger와 동일. upper_arm.L의302→303 회전3.191127도만 변화하며 clavicle/neck0. R1 clock복구FAIL 보존, R2 native/전체signature복구PASS. 다만 새 neutral PNG pixel FAIL(1,302,700channels/max221/원인미확정), 이번 렌더 외형PASS 없음. C2의 기존 neutral0 근거 및 전체Tour HOLD와 구분한다. 보고: evidence/tour-clavicle-source-intake-r3/YURI_R4_CLAVICLE_SOURCE_INTAKE_R1_KO.md. elbow C3/weights/rig/product/Unity 변경없음.
+
 # 2026-10-05 Tour C2 corrective checkpoint
 
 원본 외형 및 기존81 Actions 보존, C2 기본 OFF. mean hand error32.999→28.991mm, 새 교차0, 작은 키17개 유지. source deviation subset 개선만 인정; 쇄골1쌍/전체Tour손목·head·hair HOLD. 정상1x 원본/C1/C2 97프레임 두 시점 영상 완료. 상세: evidence/tour302-softcap-c2/YURI_R4_TOUR302_SOFTCAP_C2_KO.md. C1/08caad7 보존. Unity/F2/StageB 미검증, TierP0.

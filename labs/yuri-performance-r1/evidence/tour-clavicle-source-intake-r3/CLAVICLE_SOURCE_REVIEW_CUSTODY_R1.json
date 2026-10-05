@@ -1,0 +1,31 @@
+{
+  "review_url": "http://127.0.0.1:18945/REVIEW_CLAVICLE_SOURCE_INTAKE_R1.html",
+  "actual_review_UI_verified": true,
+  "private_files": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\CLAVICLE_SOURCE_INTAKE_PRIVATE_R1.json",
+      "SHA": "61c5384f43bad7077a88d42cc472f0f14b98022bf43e4e5b38311700337de9c7",
+      "bytes": 50593
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\REVIEW_CLAVICLE_SOURCE_INTAKE_R1.html",
+      "SHA": "b8aed025fa813c9402e10dee3e794221ea30fcf713715a471da4e33f804501bb",
+      "bytes": 1155
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\ACTUAL_REVIEW_UI_R1.png",
+      "SHA": "0c4cdff8e1cb1fc5b3fc39ffd80d2974bdc5d23f6117e732460c8a16c8149456",
+      "bytes": 100475
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\OFF_SOURCE_CAMERA_NEUTRAL.png",
+      "SHA": "465f64f7ed1d90fb98977b923d8be0ba1bbf8db06fb17225726a425407d5b8c5",
+      "bytes": 1530282
+    }
+  ],
+  "source_native_guard_pass": true,
+  "neutral_pixel_gate": "FAIL_HOLD",
+  "candidate_count": 0,
+  "motion_visual_pass": false,
+  "TierP": 0
+}

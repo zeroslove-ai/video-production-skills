@@ -1,0 +1,113 @@
+{
+  "source_SHA": "a30fc513a6da3782742c337ee4a50ab3523b82467517d91d84eb0cc0ede2aafa",
+  "native_source_candidate_SHA": "378ad46ef4ccfd6e0db475534c777072c9c05cb1a8f4de81cdc4b1a2bca2cfa0",
+  "guard_status": "PASS_STRICT_LIVE_BARRIERS_TERMINAL_DRAIN",
+  "guard_SHA": "e49b54b8991e58cb3f10fe2a054828120497dc4fc030d8c0524739334bdb9f50",
+  "private_intake_SHA": "61c5384f43bad7077a88d42cc472f0f14b98022bf43e4e5b38311700337de9c7",
+  "sampled_actual_geometry_matches_previous_source": true,
+  "sampled_frames": [
+    1,
+    289,
+    302,
+    303,
+    337,
+    370,
+    371,
+    385,
+    472
+  ],
+  "six_vertex_aggregate_weights": {
+    "Joint_Smoothing_Mask": 0.7425168007612228,
+    "R3_Joint_CorrectiveSmooth": 2.3833825886249542,
+    "R3_Shoulder_PoseRelax.L": 2.342849522829056,
+    "R3_Surface_LinearBlend": 1.5491986721754074,
+    "chest": 1.1394900170103028e-06,
+    "clavicle.L": 4.134008705615997,
+    "clavicle.R": 5.283031763794743e-09,
+    "head": 2.384248356180216e-13,
+    "neck": 0.9996298998594284,
+    "spine": 1.3859341263979279e-16,
+    "upper_arm.L": 0.7594078406691551,
+    "upper_arm.R": 0.0
+  },
+  "first_failure_neighbor_local_joint_differences": [
+    {
+      "joint": "clavicle.L",
+      "source302_to303_angle_degrees": 0.0,
+      "position_component_change_m": 0.0
+    },
+    {
+      "joint": "neck",
+      "source302_to303_angle_degrees": 0.0,
+      "position_component_change_m": 0.0
+    },
+    {
+      "joint": "upper_arm.L",
+      "source302_to303_angle_degrees": 3.1911272503572246,
+      "position_component_change_m": 0.0
+    }
+  ],
+  "source_modifier_types": [
+    "ARMATURE",
+    "ARMATURE",
+    "CORRECTIVE_SMOOTH",
+    "SMOOTH",
+    "SMOOTH",
+    "SMOOTH",
+    "SMOOTH"
+  ],
+  "source81_OFF_restored": true,
+  "neutral_pixel_QA": {
+    "status": "FAIL_HOLD",
+    "unequal_channels": 1302700,
+    "max_channel_difference": 221,
+    "mean_absolute_channel_difference": 2.945735110960145,
+    "cause": "UNRESOLVED; source bytes and restored full signature unchanged, no candidate created; no canonical replacement."
+  },
+  "natural_stills": [
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_front_f302_SOURCE_INTAKE.jpg",
+      "SHA": "cd274a39cd93fa4ba21309b242ddccfa07c03e64c247583535ce79acd48375b8"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_front_f303_SOURCE_INTAKE.jpg",
+      "SHA": "6f1f52faf71d91c37bd70346e64c245a969a2f171a0ae1bc27787a64fa5a47d7"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_front_f337_SOURCE_INTAKE.jpg",
+      "SHA": "c043e72a8932421bad9e76a4a908eccb5d2f47fd5426c48a5c2ded35c79cbb83"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_front_f370_SOURCE_INTAKE.jpg",
+      "SHA": "6c69d5a1a5011aa4d93604e4052838237e9a3123973ba536cc08ce4ec799709a"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_quarter_f302_SOURCE_INTAKE.jpg",
+      "SHA": "d57936c646cb130661ea1c4b50a923accfe61c52c2c787c43538ab75309bb004"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_quarter_f303_SOURCE_INTAKE.jpg",
+      "SHA": "c6c4ee723645923ed8f82b27a891ea14ece99e940adde8a0a6ac1d3c841e2c92"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_quarter_f337_SOURCE_INTAKE.jpg",
+      "SHA": "8b257de234f3da90a538457662d33b87636a5cf1d652ab091fabd77b8a97b1d3"
+    },
+    {
+      "path": "C:\\Users\\JAEWAN\\Documents\\Codex\\2026-10-02\\files-pasted-by-the-user-yuri\\outputs\\alpha-tour-clavicle-source-intake-r2\\MATCHED_quarter_f370_SOURCE_INTAKE.jpg",
+      "SHA": "f2550fdf5eee97498511a7401c88b0e1246f79a951992f720a944d4cb5183d9d"
+    }
+  ],
+  "candidate_created": false,
+  "visible_specific_pair_defect": "UNCONFIRMED: natural front/quarter close stills do not isolate the interior pair as an obvious break. Projected outlines are localization only, without occlusion/depth proof.",
+  "first_adapter_difference": "NONE: exact old source actual geometry hashes match at all 9 sampled frames; C2 residual vertex difference0 at303/337 already witnessed.",
+  "root_cause": "UNRESOLVED: original source animation plus existing skin deformation, not proven individual joint/weight/modifier defect.",
+  "decision": "Keep strict contact HOLD; no clavicle candidate or elbow C3 without direct visible defect and causal evidence.",
+  "TierP": 0,
+  "Unity_F2_StageB": "UNTESTED",
+  "preserved_failed_intake": {
+    "guard_SHA": "bedfaf74b64517a0ddc583ff2ae5e3a913516bff3513f41defaaad1b76a7fce5",
+    "status": "FAIL",
+    "cause": "OFF still clock was left at370; final snapshot restoration rejected it. Fresh R2 restores original frame before OFF neutral and signature verification. Failed inputs/captures preserved, not promoted."
+  }
+}
