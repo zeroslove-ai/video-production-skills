@@ -32,7 +32,7 @@
         "3",
         0
       ],
-      "text": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 4-second full-body shot, take two measured steps across a short distance, pivot a quarter turn, plant both feet, then face front and settle with natural arm counter-swing and slight inertia. Do not approach the lens; keep camera distance fixed, head and feet visible, markers stable."
+      "text": "Use the same adult silver-haired avatar in the gray opaque marker suit. Locked front full-body camera at unchanged distance and scale. Take one short step to her right, pivot exactly a quarter-turn to her left on planted feet, hold a clear side-facing stop for one beat, pivot back to face front, and settle with both feet planted. Keep the motion small and readable, natural arm counter-swing, no forward approach, no zoom, no camera movement, no scene cut."
     }
   },
   "5": {
@@ -144,7 +144,7 @@
   "15": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 20261087
+      "noise_seed": 20261108
     }
   },
   "16": {
@@ -263,7 +263,7 @@
         "23",
         0
       ],
-      "filename_prefix": "A37_walk_turn_stop_20261015",
+      "filename_prefix": "A37_qc02_20261016",
       "format": "mp4",
       "codec": "h264"
     }

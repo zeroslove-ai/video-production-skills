@@ -32,7 +32,7 @@
         "3",
         0
       ],
-      "text": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous front-facing 4-second shot, show a gentle sideways perturbation and a controlled recovery: the torso sways slightly, one short step widens the base, the arms counterbalance with natural inertia, and she regains a quiet centered stance. Keep both feet in contact except during the brief step, preserve clear joint markers, do not fall, do not add another person or impact object, and keep the full body inside a fixed camera frame."
+      "text": "Keep the same adult silver-haired avatar, face, ponytail, gray opaque marker suit, markers, and plain studio. Locked front full-body camera at constant scale. From a centered standing pose, show one small sideways loss of balance: hips shift a short distance right, arms open to counterbalance, the left foot makes one short correcting step, then the hips return over both feet and she settles upright. Keep the displacement modest and complete the recovery to center. No spin, no camera movement, no foot sliding."
     }
   },
   "5": {
@@ -144,7 +144,7 @@
   "15": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 20261034
+      "noise_seed": 20261102
     }
   },
   "16": {
@@ -263,7 +263,7 @@
         "23",
         0
       ],
-      "filename_prefix": "A04_balance_recovery_20261015",
+      "filename_prefix": "A04_qc02_20261016",
       "format": "mp4",
       "codec": "h264"
     }

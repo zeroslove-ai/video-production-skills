@@ -32,7 +32,7 @@
         "3",
         0
       ],
-      "text": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous front-facing 4-second shot, she takes two small measured steps forward within the frame, naturally counter-swings her arms, then plants both feet and settles into a balanced stop. Add a slight deceleration through hips and shoulders, subtle breathing, and one blink. Preserve all joint markers, keep her full body and shoes visible, do not let her approach the camera enough to change scale, and keep the camera locked."
+      "text": "Use the same single adult silver-haired avatar in the gray opaque marker suit. Locked front camera with absolutely constant framing and distance; keep the head, hands, and both feet visible. In one 4-second continuous full-body shot, take exactly two small measured steps forward on the studio floor without approaching the lens, stop with both feet planted, let the arms counter-swing naturally, then settle and hold still. The person stays the same size in frame; no zoom, no camera track, no cut."
     }
   },
   "5": {
@@ -144,7 +144,7 @@
   "15": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 20261036
+      "noise_seed": 20261103
     }
   },
   "16": {
@@ -263,7 +263,7 @@
         "23",
         0
       ],
-      "filename_prefix": "A06_walk_stop_20261015",
+      "filename_prefix": "A06_qc02_20261016",
       "format": "mp4",
       "codec": "h264"
     }

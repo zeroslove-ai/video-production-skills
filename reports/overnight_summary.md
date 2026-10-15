@@ -1,26 +1,27 @@
-﻿# VIDEO STUDIO R2 — 야간 납품 요약
+﻿# VIDEO STUDIO R2 — 납품 및 자가 개선 결과
 
 - 작업일: 2026-10-16 KST
-- 결과 저장소: D:\AI\LTX25-R3\output\video-studio-r2
-- 모델: LTX 2.5 22B Distilled INT8, ComfyUI 0.34.6 / PyTorch 2.10.0+cu130
-- 생성 장치: RTX 4080 SUPER 16GB, GPU 작업은 직렬 실행
-- 유효 고유 샷: 60 / 60 (아바타 A01–A40, Arcane T01–T20)
-- 생성 시도: 61 (A05만 기존 재시도 2개 포함)
-- 시각 판정: PASS 31 / PARTIAL 29 / FAIL 0
-- 인덱스에 등록된 61개 생성 시도 MP4: 전 프레임 디코드 PASS; 시작·중간·끝 PNG와 9프레임 검수판 보관
-- 최대 샘플 VRAM: 15854 MiB; 누적 생성 시간: 약 152.1분
-- GPU/저장소 마감 상태: 생성 중 최대 15854/16376 MiB VRAM, OOM 없음. 마지막 대기 상태 13313 MiB / GPU 2%; D: 여유 2.74 TB.
-- 모캡 추출 적합성: 입력 후보 4개. 실제 3D 관절 추출·리타게팅은 아직 수행하지 않음.
+- 로컬 결과 위치: D:\AI\LTX25-R3\output\video-studio-r2
+- 모델: LTX 2.5 22B Distilled INT8; ComfyUI 0.34.6; PyTorch 2.10.0+cu130; 추가 LoRA/커스텀 노드 설치 없음
+- 장치: RTX 4080 SUPER 16GB; 생성은 GPU 단일 작업 직렬 실행
+- 고유 샷: 60 / 60 (Avatar A01–A40, Arcane T01–T20)
+- 검수 등록 시도: 72 (원래 A05 두 번째 시도 1개와 이번 자가 개선 재시도 11개 포함; 샷당 최대 2개)
+- 선택된 최종 영상: PASS 37 / PARTIAL 23 / FAIL 0; Avatar 24/16, Arcane 13/7
+- 인덱스에 등록된 MP4 전 프레임 디코드 오류: 0
+- 샷별 생성시간 합계: 183.1분; 최대 샘플 VRAM 15868 MiB, OOM 없음
+- 모캡 입력 후보: 6개. 영상→3D 관절 추출과 Blender 리타게팅은 아직 수행하지 않음.
 
-## 판정 기준과 주의점
+## 자가 품질 검수
 
-PASS/PARTIAL은 화면에서 동작이 읽히고 시작·마무리 및 구도가 참고 자료로 쓸 수 있는지에 대한 영상 QA 판정이다. 얼굴·손가락·의상·발 접지 결함이 보이는 클립은 PARTIAL로 낮췄다. PASS도 원본 스켈레톤 또는 실제 모션캡처 데이터를 의미하지 않는다.
+기존 PARTIAL 중 수정 가능성이 높은 11개만 한 번씩 재생성했다. A04 balance recovery, A06 walk-stop, A11 surprise, A16 one-clap, A36 idol two-step, A37 walk-turn-stop은 동작이 더 분명해져 선택 결과가 PASS로 개선됐다. A23 wink는 표정이 더 잘 보이지만 점진 줌이 남아 PARTIAL로 유지했다.
 
-아바타 영상의 은색 머리 캐릭터는 얼굴·체형 정본 이미지 자체를 변형하지 않고, 추적용 회색 마커 슈트를 입힌 프록시로 생성했다. 따라서 해당 의상은 정본 복장이 아니며, 결과는 정본 외형 검수나 게임 적용 승인으로 간주하지 않는다.
+A01 wave와 Arcane T01 saber slash, T03 archer release, T13 spear thrust는 수정 프롬프트에서도 요청 동작이 뚜렷하지 않아 재시도를 FAIL로 기록했다. 기존의 더 유용한 PARTIAL 버전을 최종 선택했다. 재시도 11개 모두 MP4 디코드 자체는 통과했다.
 
-Arcane의 Eleanor(CHAR-002)는 후보 참조로만 사용했다. 캐릭터/의상/로스터 승인은 하지 않았고, 나머지 Arcane 영상도 일반 클래스 원형으로 표시했다. 게임 임포트 승인은 없다.
+아바타는 정본 이미지의 얼굴·체형을 직접 편집하지 않고 회색 마커 슈트를 입힌 추적 프록시로 제작했다. 그 복장은 캐릭터 정본 의상이나 게임 적용 승인이 아니다. Arcane CHAR-002는 후보 참조로만 남기고, 일반 클래스 원형에도 로스터 승인을 부여하지 않았다.
 
-- 전체 인덱스: manifests/shot_index.json
-- 연락 시트 및 브라우저 인덱스: previews/contact_sheet.webp, previews/index.html
-- 개별 MP4·대표 PNG·워크플로·메트릭: D:\AI\LTX25-R3\output\video-studio-r2 아래 각 샷 디렉터리
-- 저장소에는 프롬프트, 선택된 샷별 ComfyUI 워크플로, 작은 미리보기와 인덱스를 기록한다. 대용량 영상과 원화는 저장소 밖에 보존한다.
+## 산출물
+
+- 전체 선택/시도 인덱스: manifests/shot_index.json
+- 작은 연락 시트와 브라우저 인덱스: previews/contact_sheet.webp, previews/index.html
+- 프롬프트, 재시도 검수, 선택 워크플로, 보고서: GitHub work/video-studio-r2 브랜치
+- 각 시도의 MP4, 대표 프레임, 9프레임 검수판, 메트릭, 워크플로: 로컬 결과 위치의 avatar/ 및 arcane/ 아래에 보존

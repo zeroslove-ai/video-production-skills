@@ -32,7 +32,7 @@
         "3",
         0
       ],
-      "text": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 3-second full-body shot, she looks at camera, closes one eye for a brief playful wink, tilts her head a few degrees, then opens both eyes and returns to a soft smile. Keep face identity unchanged, no zoom, full body and markers visible, hands resting naturally."
+      "text": "Use the same adult silver-haired avatar identity, face, pale blue-gray eyes, ponytail, and gray opaque marker suit. One continuous locked medium close-up from waist to just above the hair; keep camera distance and framing perfectly constant. Hold the head mostly still, close only her left eye in one deliberate wink while the other eye stays open, add a small warm smile, hold briefly, reopen the eye, then return to a gentle neutral expression. Hands stay below the frame and do not cover the face. No zoom, no head turn, no cut, no face or hairstyle change."
     }
   },
   "5": {
@@ -144,7 +144,7 @@
   "15": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 20261073
+      "noise_seed": 20261106
     }
   },
   "16": {
@@ -263,7 +263,7 @@
         "23",
         0
       ],
-      "filename_prefix": "A23_wink_20261015",
+      "filename_prefix": "A23_qc02_20261016",
       "format": "mp4",
       "codec": "h264"
     }

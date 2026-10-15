@@ -32,7 +32,7 @@
         "3",
         0
       ],
-      "text": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 4-second idol practice shot, perform two simple side steps with alternating arm sweeps and a light knee bounce, pause on a clear pose, then return to center. Keep the sequence small enough to preserve full-body framing, land both feet clearly, and maintain stable joint markers and camera scale."
+      "text": "Keep the same single adult silver-haired avatar in the gray opaque marker suit. Fixed front camera, full body and feet always visible, no camera movement. Perform a simple two-beat idol practice step: step right and tap the left foot beside it while both forearms pulse once near chest level; step left and tap the right foot while the forearms pulse once again. Add a small knee bounce on each landing, keep the steps distinct and centered, then hold a clean balanced finish. Avoid large arm sweeps, spins, jumps, or approaching the lens."
     }
   },
   "5": {
@@ -144,7 +144,7 @@
   "15": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 20261086
+      "noise_seed": 20261107
     }
   },
   "16": {
@@ -263,7 +263,7 @@
         "23",
         0
       ],
-      "filename_prefix": "A36_idol_two_step_20261015",
+      "filename_prefix": "A36_qc02_20261016",
       "format": "mp4",
       "codec": "h264"
     }

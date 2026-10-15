@@ -32,7 +32,7 @@
         "3",
         0
       ],
-      "text": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 3-second full-body shot, she performs one light clap at chest height, gives one small delighted bounce through her knees, opens her hands, and returns to a steady standing pose. Keep the clap brief, feet and hands visible, markers stable, and camera at constant distance and scale."
+      "text": "Keep the same adult silver-haired avatar in the gray opaque marker suit. Fixed front full-body camera at constant scale, both hands visible. Begin with hands separated at chest height, bring the palms together for exactly one clear clap, pause at contact for a brief beat, separate the hands, lower the arms, and finish relaxed. Keep the clap centered in front of the chest, show contact then separation, preserve distinct fingers and stable markers, and keep feet planted. No repeated clapping, no camera motion."
     }
   },
   "5": {
@@ -144,7 +144,7 @@
   "15": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 20261056
+      "noise_seed": 20261105
     }
   },
   "16": {
@@ -263,7 +263,7 @@
         "23",
         0
       ],
-      "filename_prefix": "A16_happy_clap_20261015",
+      "filename_prefix": "A16_qc02_20261016",
       "format": "mp4",
       "codec": "h264"
     }

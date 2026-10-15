@@ -1,0 +1,101 @@
+﻿[
+    {
+        "shot_id":  "A01",
+        "attempt":  2,
+        "content_verdict":  "FAIL",
+        "mocap_suitability":  "FAIL",
+        "motion_complete":  false,
+        "visual_review":  "Both hands remain raised for most of the clip and lower near the end; the revised prompt still produced no distinct wrist-wave beats. Keep attempt 1 as the more useful broad greeting reference.",
+        "notes":  "Adult avatar identity proxy in gray marker suit; no canonical outfit claim."
+    },
+    {
+        "shot_id":  "A04",
+        "attempt":  2,
+        "content_verdict":  "PASS",
+        "mocap_suitability":  "PASS_INPUT_CANDIDATE",
+        "motion_complete":  true,
+        "visual_review":  "A compact lateral weight shift, counterbalancing arms, recovery step, and return to a centered stance are visible with fixed full-body framing.",
+        "notes":  "Good candidate for a future pose-extraction attempt; no 3D motion extracted. Gray marker suit is a proxy."
+    },
+    {
+        "shot_id":  "A06",
+        "attempt":  2,
+        "content_verdict":  "PASS",
+        "mocap_suitability":  "PASS_INPUT_CANDIDATE",
+        "motion_complete":  true,
+        "visual_review":  "Two small walking steps, planted stop, and settled finish are distinct; camera scale and full-body framing stay stable.",
+        "notes":  "Good candidate for a future pose-extraction attempt; no 3D motion extracted. Gray marker suit is a proxy."
+    },
+    {
+        "shot_id":  "A11",
+        "attempt":  2,
+        "content_verdict":  "PASS",
+        "mocap_suitability":  "PARTIAL",
+        "motion_complete":  true,
+        "visual_review":  "A readable widened-eye/open-hand reaction resolves back to neutral without the prior thumbs-up gesture; full body stays visible.",
+        "notes":  "Expression detail is small at this resolution, but the hand and body reaction are usable. Gray marker suit is a proxy."
+    },
+    {
+        "shot_id":  "A16",
+        "attempt":  2,
+        "content_verdict":  "PASS",
+        "mocap_suitability":  "PARTIAL",
+        "motion_complete":  true,
+        "visual_review":  "Hands visibly meet at chest height, hold briefly, separate, and return to a greeting pose; the full body remains framed.",
+        "notes":  "One clear clap-like contact, though no sound/impact is represented. Hand/finger detail is not suitable for precise capture."
+    },
+    {
+        "shot_id":  "A23",
+        "attempt":  2,
+        "content_verdict":  "PARTIAL",
+        "mocap_suitability":  "FAIL",
+        "motion_complete":  false,
+        "visual_review":  "The wink is much clearer in the face close-up, but the camera progressively zooms from full body to close-up instead of holding the requested framing.",
+        "notes":  "Keep as a facial-expression reference only; not suitable for full-body motion extraction. Gray marker suit is a proxy."
+    },
+    {
+        "shot_id":  "A36",
+        "attempt":  2,
+        "content_verdict":  "PASS",
+        "mocap_suitability":  "PARTIAL",
+        "motion_complete":  true,
+        "visual_review":  "Two alternating side steps with knee bounce and small forearm pulses are now readable, followed by a centered finish.",
+        "notes":  "One sampled frame shows brief face/marker color wobble; body motion remains clear. Gray marker suit is a proxy."
+    },
+    {
+        "shot_id":  "A37",
+        "attempt":  2,
+        "content_verdict":  "PASS",
+        "mocap_suitability":  "PARTIAL",
+        "motion_complete":  true,
+        "visual_review":  "A short step, quarter turn through side/back views, pause, return to front, and planted finish are visible at stable camera scale.",
+        "notes":  "Turning briefly hides body landmarks, so pose extraction needs review. Gray marker suit is a proxy."
+    },
+    {
+        "shot_id":  "T01",
+        "attempt":  2,
+        "content_verdict":  "FAIL",
+        "mocap_suitability":  "N/A_SPRITE_REFERENCE",
+        "motion_complete":  false,
+        "visual_review":  "The character moves into a kneeling pose with the saber low, but the requested horizontal slash is still not shown clearly. Retain attempt 1 as the better candidate reference.",
+        "notes":  "CHAR-002 candidate only; no roster, costume, canon, or game-import approval."
+    },
+    {
+        "shot_id":  "T03",
+        "attempt":  2,
+        "content_verdict":  "FAIL",
+        "mocap_suitability":  "N/A_SPRITE_REFERENCE",
+        "motion_complete":  false,
+        "visual_review":  "The archer remains in a mostly static drawn-aim pose and no clear string release or arrow departure is visible. Retain attempt 1 as the better candidate reference.",
+        "notes":  "Generic archer archetype; no roster assignment or approval."
+    },
+    {
+        "shot_id":  "T13",
+        "attempt":  2,
+        "content_verdict":  "FAIL",
+        "mocap_suitability":  "N/A_SPRITE_REFERENCE",
+        "motion_complete":  false,
+        "visual_review":  "The spear shifts between guard positions but does not show a clear forward thrust. Retain attempt 1 as a partial crouch/guard reference.",
+        "notes":  "Generic spearman archetype; no roster assignment or approval."
+    }
+]

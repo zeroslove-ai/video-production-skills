@@ -16,3 +16,6 @@
 LTX 생성은 GPU 직렬 실행했다. 샷별 metrics의 GPU 샘플에서 최대 15,854/16,376 MiB를 기록했고 OOM은 없었다. D: 여유 공간의 시간별 스냅샷은 실행 metrics에 기록되지 않았다. 최종 점검에서 2.74 TB 여유를 확인했다. ComfyUI가 대기 중에도 모델 VRAM을 유지해 종료 직전 유휴 상태에서 13,313 MiB 사용, GPU 이용률 2%로 표시됐다.
 
 첫 12개 시점의 세부 표: first12_report.md. 전체 최종 집계: current_delivery.md 및 ../manifests/shot_index.json.
+## 자가 검수 마감 — 2026-10-16 01:45 KST
+
+선택적 재시도 11개까지 인덱스에 반영했다. 누적 72회 생성 시도·60개 고유 샷, 최종 선택 PASS 37 / PARTIAL 23 / FAIL 0. 이번 재시도 6개가 PASS로 개선됐고 A23은 표정 레퍼런스 PARTIAL, A01/T01/T03/T13 재시도는 원래 PARTIAL 버전을 유지했다. 전 시도 디코드 PASS, 누적 VRAM 최고 15,868 MiB. 마감 자원 확인: GPU 유휴 13,350/16,376 MiB, D: 여유 2.74 TB.

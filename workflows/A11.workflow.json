@@ -32,7 +32,7 @@
         "3",
         0
       ],
-      "text": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous front-facing 3-second full-body shot, show a small surprised reaction: eyes widen, eyebrows lift, she inhales and raises one hand to chest height, pauses, then exhales and relaxes to a calm expression. Avoid exaggerated face morphing. Keep hands and feet visible, markers fixed, and camera locked at constant distance and scale."
+      "text": "Keep the same single adult silver-haired avatar identity, gray opaque marker suit, hairstyle, body proportions, and front-facing full-body composition. Locked camera and constant scale. Show one readable surprised reaction: eyebrows lift, eyes widen, mouth opens briefly, and one relaxed open palm rises to the upper chest; hold for a beat, exhale, lower the hand, and return to a soft neutral smile. Do not make a thumbs-up or point. Keep both feet and hands visible, with no camera movement."
     }
   },
   "5": {
@@ -144,7 +144,7 @@
   "15": {
     "class_type": "RandomNoise",
     "inputs": {
-      "noise_seed": 20261051
+      "noise_seed": 20261104
     }
   },
   "16": {
@@ -263,7 +263,7 @@
         "23",
         0
       ],
-      "filename_prefix": "A11_surprised_gasp_20261015",
+      "filename_prefix": "A11_qc02_20261016",
       "format": "mp4",
       "codec": "h264"
     }
