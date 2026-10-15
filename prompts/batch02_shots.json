@@ -1,0 +1,110 @@
+[
+  {
+    "shot_id": "A09", "category": "avatar", "folder": "A09_shy_lookaway", "action": "shy_lookaway",
+    "image_name": "A03_pout_to_smile_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261049,
+    "prefix": "A09_shy_lookaway_20261015", "output_name": "A09_shy_lookaway.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous front-facing 3-second full-body shot, she begins with a gentle smile, lowers her gaze to one side, turns her head a little with a shy expression, blinks once, then returns her eyes to the camera with a small relaxed smile. Keep the shoulders soft, hands at her sides, markers stable, full body visible, and camera locked at constant distance and scale."
+  },
+  {
+    "shot_id": "A10", "category": "avatar", "folder": "A10_big_laugh", "action": "big_laugh",
+    "image_name": "A02_cheek_poke_wink_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 97, "seed": 20261050,
+    "prefix": "A10_big_laugh_20261015", "output_name": "A10_big_laugh.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous front-facing 4-second full-body shot, she breaks into a warm genuine laugh, closes her eyes briefly, gives one light shoulder bounce, brings one hand near her mouth for a moment, then lowers it and settles into a smile. Keep the laughter natural and restrained, markers stable, feet planted, full body visible, and camera locked at constant distance and scale."
+  },
+  {
+    "shot_id": "A11", "category": "avatar", "folder": "A11_surprised_gasp", "action": "surprised_gasp",
+    "image_name": "A02_cheek_poke_wink_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261051,
+    "prefix": "A11_surprised_gasp_20261015", "output_name": "A11_surprised_gasp.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous front-facing 3-second full-body shot, show a small surprised reaction: eyes widen, eyebrows lift, she inhales and raises one hand to chest height, pauses, then exhales and relaxes to a calm expression. Avoid exaggerated face morphing. Keep hands and feet visible, markers fixed, and camera locked at constant distance and scale."
+  },
+  {
+    "shot_id": "A12", "category": "avatar", "folder": "A12_sleepy_stretch", "action": "sleepy_stretch",
+    "image_name": "A07_sit_stand_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 97, "seed": 20261052,
+    "prefix": "A12_sleepy_stretch_20261015", "output_name": "A12_sleepy_stretch.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit, seated on the fixed backless stool. In one continuous 4-second full-body shot, she makes a slow sleepy blink and small nod, raises both arms for a gentle overhead stretch, rolls her shoulders down, and settles back into a relaxed seated pose. Keep the stool and feet visible, hands distinct, joint markers stable, and camera locked at constant distance and scale."
+  },
+  {
+    "shot_id": "A13", "category": "avatar", "folder": "A13_small_heart_pose", "action": "small_heart_pose",
+    "image_name": "A01_twohand_greeting_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261053,
+    "prefix": "A13_small_heart_pose_20261015", "output_name": "A13_small_heart_pose.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 3-second full-body shot, she brings both hands together at chest height to make a small heart shape, tilts her head with a warm smile, holds briefly, then lowers both hands to a relaxed neutral stance. Keep finger shapes simple and separated, preserve all markers and feet, and maintain constant camera distance and scale."
+  },
+  {
+    "shot_id": "A14", "category": "avatar", "folder": "A14_flower_pose", "action": "flower_pose",
+    "image_name": "A02_cheek_poke_wink_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261054,
+    "prefix": "A14_flower_pose_20261015", "output_name": "A14_flower_pose.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 3-second full-body shot, she lifts both open hands to frame her cheeks in a cute flower pose, smiles softly and blinks, then lowers her arms and returns to a balanced neutral stance. Keep elbows and fingers distinct, markers stable, feet planted, and camera at constant distance and scale."
+  },
+  {
+    "shot_id": "A15", "category": "avatar", "folder": "A15_playful_point", "action": "playful_point",
+    "image_name": "A01_twohand_greeting_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261055,
+    "prefix": "A15_playful_point_20261015", "output_name": "A15_playful_point.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous front-facing 3-second full-body shot, she raises one hand and makes a small playful index-finger point toward the camera without leaning forward, gives one quick wink, retracts the hand, and settles into a smile. Keep the face consistent, hand anatomy simple, body markers stable, and camera locked at constant distance and scale."
+  },
+  {
+    "shot_id": "A16", "category": "avatar", "folder": "A16_happy_clap", "action": "happy_clap",
+    "image_name": "A01_twohand_greeting_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261056,
+    "prefix": "A16_happy_clap_20261015", "output_name": "A16_happy_clap.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 3-second full-body shot, she performs one light clap at chest height, gives one small delighted bounce through her knees, opens her hands, and returns to a steady standing pose. Keep the clap brief, feet and hands visible, markers stable, and camera at constant distance and scale."
+  },
+  {
+    "shot_id": "A17", "category": "avatar", "folder": "A17_idle_weight_shift", "action": "idle_weight_shift",
+    "image_name": "A04_balance_recovery_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 97, "seed": 20261057,
+    "prefix": "A17_idle_weight_shift_20261015", "output_name": "A17_idle_weight_shift.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 4-second full-body idle, she breathes calmly, shifts her weight once from one foot to the other with a small hip and shoulder follow-through, blinks, then returns to centered neutral. Keep both feet in frame, no approach to camera, markers stable, and the scale fixed."
+  },
+  {
+    "shot_id": "A18", "category": "avatar", "folder": "A18_quarter_turn_return", "action": "quarter_turn_return",
+    "image_name": "A06_walk_stop_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261058,
+    "prefix": "A18_quarter_turn_return_20261015", "output_name": "A18_quarter_turn_return.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 3-second full-body shot, she turns her torso and head about a quarter turn to her left, pauses with a natural shoulder and hair follow-through, then turns back to face front and settles with both feet planted. Do not walk toward the lens; keep body scale, markers, hands, and feet stable and visible."
+  },
+  {
+    "shot_id": "A19", "category": "avatar", "folder": "A19_seated_look_up", "action": "seated_look_up",
+    "image_name": "A07_sit_stand_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261059,
+    "prefix": "A19_seated_look_up_20261015", "output_name": "A19_seated_look_up.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit, seated on the simple fixed stool. In one continuous locked-camera 3-second full-body shot, she begins looking down, lifts her gaze and chin as if noticing someone, gives a small warm smile, briefly rests one hand on her knee, and settles. Keep the stool, knees, both feet and body markers visible, with no camera movement or scale change."
+  },
+  {
+    "shot_id": "A20", "category": "avatar", "folder": "A20_reach_and_retract", "action": "reach_and_retract",
+    "image_name": "A08_grab_release_keypose.png", "run_id": "v1_20261015_01", "width": 416, "height": 704, "frames": 73, "seed": 20261060,
+    "prefix": "A20_reach_and_retract_20261015", "output_name": "A20_reach_and_retract.mp4",
+    "prompt": "Use the same single adult silver-haired avatar in the gray marker suit. In one continuous locked-camera 3-second full-body shot, she reaches one hand forward to about waist height as if greeting or offering help, pauses with an open palm, then retracts her arm and returns to neutral. No prop appears, no step toward the camera; preserve fingers, markers, feet, and constant framing."
+  },
+  {
+    "shot_id": "T05", "category": "arcane", "folder": "T05_unit_cleric_ready_idle", "action": "cleric_ready_idle",
+    "image_name": "T02_UNIT-CLERIC-01_keypose.png", "run_id": "v1_20261015_01", "width": 448, "height": 672, "frames": 73, "seed": 20261065,
+    "prefix": "T05_UNIT_CLERIC_idle_20261015", "output_name": "T05_UNIT_CLERIC_ready_idle.mp4",
+    "prompt": "Use one anonymous adult UNIT-CLERIC-01 cadet in the shared ivory academy uniform, with no personal name or roster identity. In one continuous locked-camera 3-second full-body sprite-action reference, she holds the staff upright, takes a calm breath, blinks once, and makes one subtle balanced stance adjustment before returning to stillness. Keep staff tip, shoes, and silhouette fully visible; no camera movement, background change, or extra person."
+  },
+  {
+    "shot_id": "T06", "category": "arcane", "folder": "T06_unit_archer_walk_stop", "action": "archer_walk_stop",
+    "image_name": "T03_UNIT-ARCHER-01_keypose.png", "run_id": "v1_20261015_01", "width": 448, "height": 672, "frames": 73, "seed": 20261066,
+    "prefix": "T06_UNIT_ARCHER_walk_20261015", "output_name": "T06_UNIT_ARCHER_walk_stop.mp4",
+    "prompt": "Use one anonymous adult UNIT-ARCHER-01 cadet in the shared ivory academy uniform, with no personal name or roster identity. In one continuous locked-camera 3-second full-body sprite-action reference, she takes one short side step into an archer-ready stance, plants both shoes, raises the bow to a steady low guard, and holds. Keep the complete bow, hands and feet visible; no camera movement, scene cut, or extra person."
+  },
+  {
+    "shot_id": "T07", "category": "arcane", "folder": "T07_unit_spear_guard", "action": "spear_guard_shift",
+    "image_name": "T04_UNIT-SPEAR-01_keypose.png", "run_id": "v1_20261015_01", "width": 448, "height": 672, "frames": 73, "seed": 20261067,
+    "prefix": "T07_UNIT_SPEAR_guard_20261015", "output_name": "T07_UNIT_SPEAR_guard.mp4",
+    "prompt": "Use one anonymous adult UNIT-SPEAR-01 cadet in the shared ivory academy uniform, with no personal name or roster identity. In one continuous locked-camera 3-second full-body sprite-action reference, she lowers the spear into a defensive guard, shifts her weight one small step, then returns the spear upright and holds a steady ready pose. Keep the spear tip, hands and shoes visible; one character only, no camera move or cut."
+  },
+  {
+    "shot_id": "T08", "category": "arcane", "folder": "T08_unit_spear_thrust", "action": "spear_thrust_return",
+    "image_name": "T04_UNIT-SPEAR-01_keypose.png", "run_id": "v1_20261015_01", "width": 448, "height": 672, "frames": 73, "seed": 20261068,
+    "prefix": "T08_UNIT_SPEAR_thrust_20261015", "output_name": "T08_UNIT_SPEAR_thrust.mp4",
+    "prompt": "Use one anonymous adult UNIT-SPEAR-01 cadet in the shared ivory academy uniform, with no personal name or roster identity. In one continuous locked-camera 3-second full-body sprite-action reference, she makes one controlled short forward spear thrust into empty space, follows through with a small torso turn, retracts the spear, and returns to a balanced guard. Keep the weapon away from her body and fully visible; no camera movement or extra person."
+  },
+  {
+    "shot_id": "T09", "category": "arcane", "folder": "T09_char002_ready_pivot", "action": "candidate_ready_pivot",
+    "image_name": "T01_CHAR002_Eleanor_saber_keypose.png", "run_id": "v1_20261015_01", "width": 448, "height": 672, "frames": 73, "seed": 20261069,
+    "prefix": "T09_CHAR002_ready_20261015", "output_name": "T09_CHAR002_ready_pivot.mp4",
+    "prompt": "Use the single adult CHAR-002 Eleanor Crawford, an art candidate that is not canon-approved, in the shared academy uniform. In one continuous locked-camera 3-second full-body sprite-action reference, she turns a quarter turn into a calm saber-ready guard, lets the hair and jacket settle naturally, then returns her gaze toward camera while holding the saber safely low. Keep saber, hands and shoes fully inside frame; preserve candidate identity and do not add costume pieces or extra people."
+  },
+  {
+    "shot_id": "T10", "category": "arcane", "folder": "T10_unit_cleric_staff_raise", "action": "cleric_staff_raise",
+    "image_name": "T02_UNIT-CLERIC-01_keypose.png", "run_id": "v1_20261015_01", "width": 448, "height": 672, "frames": 73, "seed": 20261070,
+    "prefix": "T10_UNIT_CLERIC_raise_20261015", "output_name": "T10_UNIT_CLERIC_staff_raise.mp4",
+    "prompt": "Use one anonymous adult UNIT-CLERIC-01 cadet in the shared ivory academy uniform, with no personal name or roster identity. In one continuous locked-camera 3-second full-body sprite-action reference, she raises the staff a little, opens her free hand in a calm blessing gesture, holds one beat, then lowers the staff to its starting position. Keep the staff ornament and feet inside frame, background plain, and no extra character or camera movement."
+  }
+]
